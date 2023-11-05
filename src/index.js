@@ -1,7 +1,9 @@
 const plugin = require('tailwindcss/plugin')
 import { colors } from "./colors";
+import { containers, screens } from "./screens";
 import { typographyRelunits, typographyStyles } from "./typography-sizes";
 import { buildRelunits } from "./relunits";
+import { spacingUnits } from "./spacing";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
@@ -34,6 +36,9 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
   // add the typography as static utilities
   addUtilities(typographyStyles);
 
+  // add the containers as static utilities
+  addUtilities(containers);
+
   // add our base styles
   addUtilities({
     '.imprint': {
@@ -49,13 +54,11 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
 },
 {
   theme: {
-    screens: {
-      'a': { 'max': "319px"},
-      'b': { 'max': "599px" },
-      'c': { 'raw': '(min-width:600px) and (pointer:corse)' },
-      'd': { 'raw': '(min-width:600px) and (pointer:fine)' },
-    },
+    screens,
     relunits,
     colors: colors,
+    extend: {
+      spacing: spacingUnits,
+    }
   }
 })
