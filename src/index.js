@@ -1,13 +1,14 @@
 const plugin = require('tailwindcss/plugin')
 import { colors } from "./colors";
 import { containers, screens } from "./screens";
-import { typographyRelunits, typographyStyles } from "./typography-sizes";
+import { typographySizeRelunits, typographySizeStyles } from "./typography-sizes";
 import { buildRelunits } from "./relunits";
 import { spacingUnits } from "./spacing";
+import { typographStyles } from "./typography-styles";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
-  typographyRelunits
+  typographySizeRelunits
 );
 
 module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
@@ -34,7 +35,8 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
   );
 
   // add the typography as static utilities
-  addUtilities(typographyStyles);
+  addUtilities(typographySizeStyles);
+  addUtilities(typographStyles);
 
   // add the containers as static utilities
   addUtilities(containers);

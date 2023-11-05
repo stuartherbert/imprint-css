@@ -1,0 +1,46 @@
+---
+next_file: goals.html
+---
+# Getting Started
+
+ImprintCSS runs on any computer which is already setup for NodeJS.
+
+## Installing Dependencies
+
+Before you download a copy of ImprintCSS, you need to have the following installed:
+
+* Node.JS and `npm` (used for building ImprintCSS)
+* git (used for downloading ImprintCSS)
+
+Your operating system might already come with some of these.
+
+## Cloning ImprintCSS
+
+Download ImprintCSS by cloning our Github repository:
+
+<pre class="language-bash command-line" data-user="you" data-host="localhost"><code class="language-bash">
+git clone https://github.com/stuartherbert/imprint-css.git
+</code></pre>
+
+## Installing Tools
+
+Ishi uses [`node-sass`](https://github.com/sass/node-sass). You can install all required tools via `npm`:
+
+<pre class="language-bash command-line" data-user="you" data-host="localhost"><code class="language-bash">
+cd css-ishi
+npm install
+</code></pre>
+
+## Making Ishi Available
+
+To use Ishi in your own Sass projects, add the `--include-path` flag on the command-line:
+
+<pre class="language-bash command-line" data-user="you" data-host="localhost"><code class="language-bash">
+node_modules/.bin/node-sass --include-path src docs-template/theme.scss > docs-template/assets/theme.css
+</code></pre>
+
+## Where To Use Ishi
+
+Ishi doesn't provide any CSS files that you can simply drop into your own project to use. It provides a set of `.scss` files that you can include in your own theme.
+
+Our [page on themes](themes/) has more detail.
