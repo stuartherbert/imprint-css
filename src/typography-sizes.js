@@ -1,3 +1,5 @@
+import { addRelunit } from './relunits';
+
 const sizes = {
     'canon': {
         'a': '28/32',
@@ -5,7 +7,7 @@ const sizes = {
         'c': '52/56',
         'd': '44/48',
     },
-    'trafalgar': {
+    'trafalga': {
         'a': '20/24',
         'b': '24/28',
         'c': '36/40',
@@ -91,7 +93,8 @@ const sizes = {
     },
 };
 
-const typographicStyles = {};
+const typographyRelunits = {};
+const typographyStyles = {};
 
 Object.getOwnPropertyNames(sizes).forEach(function(styleName) {
     const size = sizes[styleName];
@@ -111,6 +114,10 @@ Object.getOwnPropertyNames(sizes).forEach(function(styleName) {
         const fontSize = sizeSpec[0];
         const lineHeight = sizeSpec[1];
 
+        // make sure they're in the list of relunits to export
+        addRelunit(typographyRelunits, fontSize);
+        addRelunit(typographyRelunits, lineHeight);
+
         // what are our internal styles called?
         const inlineStyleName = '__imprint-' + styleName + '-' + screenName + '-inline';
         const blockStyleName = '__imprint-' + styleName + '-' + screenName + '-block';
@@ -119,23 +126,31 @@ Object.getOwnPropertyNames(sizes).forEach(function(styleName) {
         const blockStyleKey = '@apply ' + inlineStyleName + ' lineheight-' + lineHeight;
 
         // define them!
-        typographicStyles['.' + inlineStyleName] = {}
-        typographicStyles['.' + inlineStyleName][inlineStyleKey] = {}
-        typographicStyles['.' + blockStyleName] = {}
-        typographicStyles['.' + blockStyleName][blockStyleKey] = {}
+        typographyStyles['.' + inlineStyleName] = {}
+        typographyStyles['.' + inlineStyleName][inlineStyleKey] = {}
+        typographyStyles['.' + blockStyleName] = {}
+        typographyStyles['.' + blockStyleName][blockStyleKey] = {}
     })
 
     // define the external style for this typography type
-    let externalStyleKey = '@apply';
+    let externalInlineStyleKey = '@apply';
     screenNames.forEach(function(screenName) {
-        externalStyleKey = externalStyleKey + ' ' + styleName + '-' + screenNames;
+        externalInlineStyleKey = externalInlineStyleKey + ' __imprint-' + styleName + '-' + screenName + '-inline';
     });
 
-    typographicStyles['.' + styleName] = {}
-    typographicStyles['.' + styleName][externalStyleKey] = {}
+    typographyStyles['.' + styleName + '-inline'] = {}
+    typographyStyles['.' + styleName + '-inline'][externalInlineStyleKey] = {}
+
+    let externalBlockStyleKey = '@apply';
+    screenNames.forEach(function(screenName) {
+        externalBlockStyleKey = externalBlockStyleKey + ' __imprint-' + styleName + '-' + screenName + '-block';
+    });
+
+    typographyStyles['.' + styleName + '-block'] = {}
+    typographyStyles['.' + styleName + '-block'][externalBlockStyleKey] = {}
 });
 
 module.exports = {
-    sizes,
-    typographyStyles: typographicStyles
+    typographyRelunits,
+    typographyStyles
 }
