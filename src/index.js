@@ -1,4 +1,5 @@
 const plugin = require('tailwindcss/plugin')
+import { colors } from "./colors";
 import { typographyRelunits, typographyStyles } from "./typography-sizes";
 import { buildRelunits } from "./relunits";
 
@@ -55,5 +56,6 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
       'd': { 'raw': '(min-width:600px) and (pointer:fine)' },
     },
     relunits,
+    colors: colors,
   }
 })
