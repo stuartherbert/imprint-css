@@ -1,0 +1,44 @@
+{
+  "name": "@stuartherbert/tailwind-imprint",
+  "version": "0.1.0",
+  "description": "TailwindCSS styles, components and utilities for long-form text",
+  "main": "src/index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "tailwind-build": "tailwind -i ./demo/app.css -o ./demo/css/demo.css ",
+    "tailwind-watch": "tailwind -i ./demo/app.css -o ./demo/css/demo.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stuartherbert/tailwind-imprint"
+  },
+  "keywords": [
+    "tailwind",
+    "longform",
+    "imprint",
+    "css"
+  ],
+  "author": "Stuart Herbert",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@storybook/addon-essentials": "^7.5.2",
+    "@storybook/addon-interactions": "^7.5.2",
+    "@storybook/addon-links": "^7.5.2",
+    "@storybook/blocks": "^7.5.2",
+    "@storybook/html": "^7.5.2",
+    "@storybook/html-webpack5": "^7.5.2",
+    "@storybook/testing-library": "^0.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.2",
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "startijenn-rem": "^1.1.1"
+  }
+}
