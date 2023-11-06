@@ -1,5 +1,5 @@
 import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers/styles";
-import { styleDefinitions, stylesAndScreens } from "./typography-definitions";
+import { styleDefinitions, stylesAndScreens } from "./__definitions";
 
 const typographySpacingStyles = {};
 const typographyInternalStyles = stylesAndScreens();
