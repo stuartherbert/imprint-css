@@ -1,4 +1,4 @@
-import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers";
+import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers/styles";
 import { styleDefinitions, stylesAndScreens } from "./typography-definitions";
 
 const typographySpacingStyles = {};

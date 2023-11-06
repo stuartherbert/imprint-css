@@ -1,5 +1,5 @@
-import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers";
-import { addRelunit } from '../utilities/relunits';
+import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers/styles";
+import { addRelunit } from '../helpers/relunits';
 import { styleDefinitions, stylesAndScreens } from "./typography-definitions";
 
 const typographyInternalStyles = stylesAndScreens();

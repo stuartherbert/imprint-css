@@ -7,7 +7,7 @@ import { typographyFontModifierStyles } from "./typography/typography-font-modif
 import { typographySizeRelunits, typographySizeStyles } from "./typography/typography-sizes";
 import { typographySpacingStyles } from './typography/typography-spacing';
 import { typographStyles } from "./typography/typography-styles";
-import { buildRelunits } from "./utilities/relunits";
+import { buildRelunits } from "./helpers/relunits";
 import { containers, screens } from "./utilities/screens";
 import { spacingUnits } from "./utilities/spacing";
 import { colors } from "./theme/colors";

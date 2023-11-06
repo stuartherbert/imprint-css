@@ -1,4 +1,4 @@
-import { calculateRelunit } from '../utilities/relunits';
+import { calculateRelunit } from '../helpers/relunits';
 
 const spacingUnits = {
     "1su": 4,
