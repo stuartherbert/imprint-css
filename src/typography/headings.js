@@ -1,3 +1,5 @@
+import { calculateRelunit } from "../helpers/relunits";
+
 module.exports = {
     headingStyles: {
         'h1, h2, h3, h4, h5, h6': {
@@ -11,7 +13,7 @@ module.exports = {
             '@apply canon-nestedSpacingTop': {},
         },
         'h1:nth-of-type(1)': {
-            'padding-bottom': '0.25rem',
+            'padding-bottom': calculateRelunit(6),
             'border-bottom': '1px solid var(--imprint-fg)',
         },
 
