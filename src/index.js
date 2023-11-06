@@ -15,6 +15,7 @@ import { defaultColors } from "./variables/default-colors";
 import { fontVars } from "./variables/fonts";
 import { spacingVars } from "./variables/spacing";
 import { preStyles } from "./typography/pre";
+import { listStyles, listVars } from "./typography/lists";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
@@ -47,6 +48,11 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   // add the variables that we reuse in other styles
   addUtilities(fontVars);
   addUtilities(spacingVars);
+  addUtilities({
+    ':root': {
+      ...listVars,
+    }
+  });
 
   // add our default colors
   addUtilities(defaultColors);
@@ -58,6 +64,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   addUtilities(typographStyles);
   addUtilities(textStyles);
   addUtilities(preStyles);
+  addUtilities(listStyles);
 
   // add the containers as static utilities
   addUtilities(containers);

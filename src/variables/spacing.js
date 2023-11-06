@@ -1,8 +1,5 @@
 const spacingVars = {
     ':root': {
-        '--imprint-inline-kbd-size': '0.8em',
-        '--imprint-inline-mono-size': '0.85em',
-        '--imprint-inline-mark-size': '0.95em',
         '--imprint-inline-text-padding': '0.1em 0.2em',
     }
 }
