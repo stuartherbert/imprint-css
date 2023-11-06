@@ -26,7 +26,7 @@ module.exports = {
 
             'kbd': {
                 'font-family': 'var(--imprint-monospace)',
-                'font-size': 'var(--imprint-inline-mono-size)',
+                'font-size': 'var(--imprint-inline-kbd-size)',
                 'font-weight': 'bolder',
                 'padding': '1px 4px',
                 'border': '1px solid',
