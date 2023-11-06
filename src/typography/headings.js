@@ -10,6 +10,10 @@ module.exports = {
         '*:not(h1) + h1': {
             '@apply canon-nestedSpacingTop': {},
         },
+        'h1:nth-of-type(1)': {
+            'padding-bottom': '0.25rem',
+            'border-bottom': '1px solid var(--imprint-fg)',
+        },
 
         'h2': {
             '@apply trafalga-block trafalga-fonts': {},

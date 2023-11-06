@@ -7,13 +7,15 @@ import { typographyFontModifierStyles } from "./typography/font-modifiers";
 import { inlineBlockRelunits, inlineBlockStyles } from "./typography/inline-block";
 import { typographySpacingStyles } from './typography/font-spacing';
 import { buildRelunits } from "./helpers/relunits";
-import { containers, screens } from "./utilities/screens";
+import { containers, screens } from "./theme/screens";
 import { spacingUnits } from "./utilities/spacing";
 import { colors } from "./theme/colors";
 import { fontVars } from "./typography/fonts";
 import { spacingVars } from "./variables/spacing";
 import { preStyles, preVars } from "./typography/pre";
 import { listStyles, listVars } from "./typography/lists";
+import { bodyStyles, bodyVars } from "./typography/body";
+import { mainStyles } from "./typography/main";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
@@ -48,6 +50,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
     ':root': {
       ...spacingVars,
       ...fontVars,
+      ...bodyVars,
       ...preVars,
       ...textVars,
       ...listVars,
@@ -59,9 +62,12 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   addUtilities(typographyFontModifierStyles);
   addUtilities(inlineBlockStyles);
 
+  addUtilities(bodyStyles);
+
   // add our typography styles
   addUtilities({
     '.imprint': {
+      ...mainStyles,
       ...headingStyles,
       ...textStyles,
       ...preStyles,

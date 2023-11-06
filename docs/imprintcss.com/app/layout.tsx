@@ -13,8 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <main role="main" className="imprint">
+      <body className="imprint">
+        <main role="main">
           {children}
         </main>
       </body>
