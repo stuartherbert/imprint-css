@@ -12,6 +12,9 @@ module.exports = {
                 'list-style-position': 'outside',
             }
         },
+        "*:not(li, ul) + ul, *:not(li, ol) + ol": {
+            '@apply bodycopy-spacing': {},
+        },
 
         ol: {
             'list-style-type': 'decimal',
