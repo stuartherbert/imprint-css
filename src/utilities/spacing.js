@@ -20,9 +20,9 @@ const spacingUnits = {
 
 Object.getOwnPropertyNames(spacingUnits).forEach(
     function(unitValue, unitName) {
-        spacingUnits[unitName] = calculateRelunit(unitValue)
+        spacingUnits[unitName] = calculateRelunit(unitValue);
     }
-)
+);
 
 module.exports = {
     spacingUnits,

@@ -1,17 +1,21 @@
 const plugin = require('tailwindcss/plugin')
 import { colors } from "./colors";
-import { containers, screens } from "./screens";
-import { typographySizeRelunits, typographySizeStyles } from "./typography-sizes";
-import { buildRelunits } from "./relunits";
-import { spacingUnits } from "./spacing";
-import { typographStyles } from "./typography-styles";
+import { containers, screens } from "./utilities/screens";
+import { typographySpacingStyles } from './typography/typography-spacing';
+import { typographySizeRelunits, typographySizeStyles } from "./typography/typography-sizes";
+import { typographyFontModifierStyles } from "./typography/typography-font-modifiers";
+import { buildRelunits } from "./utilities/relunits";
+import { spacingUnits } from "./utilities/spacing";
+import { typographStyles } from "./typography/typography-styles";
+import colorSwatch from "./components/color-swatch";
+import { headings } from "./typography/headings";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
   typographySizeRelunits
 );
 
-module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
+module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, theme }) {
   matchUtilities(
     {
       fontsize: (value) => (
@@ -35,6 +39,8 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
   );
 
   // add the typography as static utilities
+  addUtilities(typographySpacingStyles);
+  addUtilities(typographyFontModifierStyles);
   addUtilities(typographySizeStyles);
   addUtilities(typographStyles);
 
@@ -42,17 +48,10 @@ module.exports = plugin(function({ matchUtilities, addUtilities, theme }) {
   addUtilities(containers);
 
   // add our base styles
-  addUtilities({
-    '.imprint': {
-      // base styles
-      'h1': {
-        '@apply canon-block': {}
-      },
-      'h2': {
-        '@apply trafalga-block': {},
-      },
-    },
-  })
+  addUtilities(headings);
+
+  // add more complex components
+  addComponents(colorSwatch);
 },
 {
   theme: {
