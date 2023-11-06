@@ -16,6 +16,7 @@ import { preStyles, preVars } from "./typography/pre";
 import { listStyles, listVars } from "./typography/lists";
 import { bodyStyles, bodyVars } from "./typography/body";
 import { mainStyles } from "./typography/main";
+import { linksStyles, linksVars } from "./typography/links";
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
@@ -54,6 +55,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
       ...preVars,
       ...textVars,
       ...listVars,
+      ...linksVars,
     }
   });
 
@@ -72,6 +74,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
       ...textStyles,
       ...preStyles,
       ...listStyles,
+      ...linksStyles,
     }
   })
 
