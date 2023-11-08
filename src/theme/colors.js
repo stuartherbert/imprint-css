@@ -1299,9 +1299,6 @@ colorGroupNames.forEach(
 
         colorNames.forEach(
             function(colorName) {
-                // add to the colors we export in the theme
-                themeColors[colorName] = colorGroups[colorGroupName][colorName];
-
                 // build the analysis data
                 const color = Color(colorGroups[colorGroupName][colorName]);
 
@@ -1309,6 +1306,7 @@ colorGroupNames.forEach(
                     hsl: color.hsl().object(),
                     hex: color.hex(),
                     rgb: color.rgb().object(),
+                    rgbChannels: color.red() + ' ' + color.green() + ' ' + color.blue(),
                     isLight: color.isLight(),
                     isDark: color.isDark(),
                     lightModeContrast: color.contrast(Color("white")),
@@ -1317,6 +1315,12 @@ colorGroupNames.forEach(
                     shades: hslToShade(color),
                     group: colorGroupName,
                 }
+
+                // add to the colors we export in the theme
+                //
+                // we convert to the individual channels, as per the
+                // Tailwind docs
+                themeColors[colorName] = colorDetails[colorName].hex;
             }
         )
     }

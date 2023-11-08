@@ -1,13 +1,14 @@
-import { colors } from "../theme/colors";
+import { colorDetails } from "../theme/colors";
 
 module.exports = {
     textVars: {
-        '--imprint-del-bg': colors['imprint-palered'],
-        '--imprint-ins-bg': colors['imprint-palegreen'],
+        '--imprint-del-bg': colorDetails['imprint-palered'].hex,
+        '--imprint-ins-bg': colorDetails['imprint-palegreen'].hex,
 
-        '--imprint-kbd-bg': colors['imprint-palegray'],
+        '--imprint-kbd-bg': 'transparent',
         '--imprint-kbd-size': '0.8em',
 
+        '--imprint-mark-bg': 'yellow',
         '--imprint-mark-size': '0.95em',
 
         '--imprint-inline-text-padding': '0.1rem 0.2rem',
@@ -29,10 +30,10 @@ module.exports = {
         },
 
         'ins': {
-            'background-color': 'var(--imprint-ins-bg)',
+            'background-color': 'rgb(var(--imprint-ins-bg))',
         },
         'del': {
-            'background-color': 'var(--imprint-del-bg)',
+            'background-color': 'rgb(var(--imprint-del-bg))',
             'text-decoration': 'line-through',
         },
 
@@ -42,13 +43,14 @@ module.exports = {
             'font-weight': 'bolder',
             'padding': '1px 4px',
             'border': '1px solid',
-            'border-radius': '3px',
-            'background-color': 'transparent',
+            'border-radius': 'var(--imprint-inline-mono-border-radius)',
+            'background-color': 'var(--imprint-kbd-bg)',
             'box-shadow': '0 1px 1px rgba(0, 0, 0, 0.20), inset 1px 0px 2px rgba(0, 0, 0, 0.20), inset -1px 0px 2px rgba(0, 0, 0, 0.20)',
 
         },
 
         'mark': {
+            'background-color': 'var(--imprint-mark-bg)',
             'font-size': 'var(--imprint-mark-size)',
             'padding': 'var(--imprint-inline-text-padding)',
         },

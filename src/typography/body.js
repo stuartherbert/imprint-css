@@ -1,9 +1,9 @@
-import { colors } from "../theme/colors";
+import { colorDetails } from "../theme/colors";
 
 module.exports = {
     bodyVars: {
-        '--imprint-fg': colors['imprint-nero'],
-        '--imprint-bg': colors['white'],
+        '--imprint-fg': colorDetails['imprint-nero'].hex,
+        '--imprint-bg': colorDetails['white'].hex,
     },
     bodyStyles: {
         'body.imprint': {
