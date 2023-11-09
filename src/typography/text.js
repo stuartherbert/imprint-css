@@ -6,7 +6,7 @@ module.exports = {
         '--imprint-ins-bg': colorDetails['imprint-palegreen'].hex,
 
         '--imprint-kbd-bg': 'transparent',
-        '--imprint-kbd-size': '0.8em',
+        '--imprint-kbd-size': '0.85em',
 
         '--imprint-mark-bg': 'yellow',
         '--imprint-mark-size': '0.95em',
@@ -38,9 +38,8 @@ module.exports = {
         },
 
         'kbd': {
-            'font-family': 'var(--imprint-monospace)',
             'font-size': 'var(--imprint-kbd-size)',
-            'font-weight': 'bolder',
+            'font-weight': 'light',
             'padding': '1px 4px',
             'border': '1px solid',
             'border-radius': 'var(--imprint-inline-mono-border-radius)',

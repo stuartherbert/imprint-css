@@ -27,7 +27,7 @@ module.exports = {
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
     },
     preStyles: {
-        'code, kbd, pre, samp': {
+        'code, pre, samp': {
             'font-family': 'var(--imprint-monospace)',
         },
 
