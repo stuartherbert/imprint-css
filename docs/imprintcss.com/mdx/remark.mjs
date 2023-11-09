@@ -1,7 +1,11 @@
 import { mdxAnnotations } from 'mdx-annotations'
 import remarkGfm from 'remark-gfm'
+import remarkFrontmatter from 'remark-frontmatter'
+import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 
 export const remarkPlugins = [
   mdxAnnotations.remark,
   remarkGfm,
+  remarkFrontmatter,
+  remarkMdxFrontmatter,
 ]
