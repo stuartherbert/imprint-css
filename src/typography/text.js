@@ -38,6 +38,7 @@ module.exports = {
         },
 
         'kbd': {
+            'font-family': 'inherit',
             'font-size': 'var(--imprint-kbd-size)',
             'font-weight': 'light',
             'padding': '1px 4px',
