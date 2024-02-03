@@ -14,7 +14,7 @@ module.exports = {
                     'margin-top': 'var(--imprint-prose-spacing)',
                 },
             },
-            "li:has(:not(li))": {
+            "li:has(p)": {
                 'margin-bottom': 'var(--imprint-prose-spacing)',
             }
         },
@@ -27,7 +27,7 @@ module.exports = {
                 'display': 'list-item',
                 'list-style-position': 'outside',
 
-                "li:has(:not(li))": {
+                "li:has(p)": {
                     'margin-bottom': 'var(--imprint-prose-spacing)',
                 },
 
