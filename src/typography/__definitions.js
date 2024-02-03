@@ -26,10 +26,10 @@ const definitions = {
         'd': '28/32 4su/-/8su bold',
     },
     'doublepica': {
-        'a': '20/24 4su/-/8su bold',
-        'b': '20/24 4su/-/8su bold',
-        'c': '26/30 4su/-/8su bold',
-        'd': '24/28 4su/-/8su bold',
+        'a': '20/24 4su/-/8su semibold',
+        'b': '20/24 4su/-/8su semibold',
+        'c': '26/30 4su/-/8su semibold',
+        'd': '24/28 4su/-/8su semibold',
     },
     'greatprimer': {
         'a': '18/22 4su/-/8su bold',
