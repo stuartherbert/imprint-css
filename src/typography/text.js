@@ -15,7 +15,7 @@ module.exports = {
     },
     textStyles: {
         'p': {
-            '@apply bodycopy-block bodycopy-fonts bodycopy-spacing': {},
+            '@apply bodycopy-block bodycopy-fonts': {},
         },
         'p.p--leader': {
             '@apply font-semibold': {},
