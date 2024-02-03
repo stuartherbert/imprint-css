@@ -10,10 +10,13 @@ module.exports = {
             li: {
                 'display': 'list-item',
                 'list-style-position': 'outside',
+                '* + *': {
+                    'margin-top': 'var(--imprint-prose-spacing)',
+                },
+            },
+            "li:has(:not(li))": {
+                'margin-bottom': 'var(--imprint-prose-spacing)',
             }
-        },
-        "*:not(li, ul) + ul, *:not(li, ol) + ol": {
-            '@apply bodycopy-spacing': {},
         },
 
         ol: {
@@ -23,6 +26,10 @@ module.exports = {
             li: {
                 'display': 'list-item',
                 'list-style-position': 'outside',
+
+                "li:has(:not(li))": {
+                    'margin-bottom': 'var(--imprint-prose-spacing)',
+                },
 
                 ol: {
                     'list-style-type': 'lower-alpha',

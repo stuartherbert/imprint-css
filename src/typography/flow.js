@@ -5,6 +5,6 @@ module.exports = {
     flowStyles: {
         ".imprint-prose > * + *": {
             'margin-top': 'var(--imprint-prose-spacing)',
-        }
+        },
     }
 }
