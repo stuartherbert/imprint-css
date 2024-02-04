@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "description": "TailwindCSS styles, components and utilities for long-form text",
   "main": "src/index.js",
-  "scripts": {
-    "tailwind-build": "tailwind -i ./demo/app.css -o ./demo/css/demo.css ",
-    "tailwind-watch": "tailwind -i ./demo/app.css -o ./demo/css/demo.css --watch"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/stuartherbert/tailwind-imprint"
