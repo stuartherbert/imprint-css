@@ -34,6 +34,5 @@ module.exports = {
         'h6': {
             '@apply brevier-block brevier-fonts': {},
         },
-        }
     }
 }
