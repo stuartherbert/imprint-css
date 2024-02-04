@@ -34,7 +34,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
         }
       )
     },
-    { values: theme('relunits') }
+    { values: theme('spacing') }
   );
 
   matchUtilities(
@@ -45,7 +45,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
         }
       )
     },
-    { values: theme('relunits') }
+    { values: theme('spacing') }
   );
 
   // add the variables that we reuse in other styles
@@ -96,7 +96,9 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
     relunits,
     colors: colors,
     extend: {
-      spacing: spacingUnits,
+      fontSize: { ...relunits },
+      lineHeight: { ...relunits },
+      spacing: { ...spacingUnits, ...relunits },
     }
   }
 })

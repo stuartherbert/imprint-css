@@ -18,8 +18,8 @@ styleDefinitions().forEach(
         const blockStyleName = '__imprint-' + styleName + '-' + screenName + '-block';
 
         // define them!
-        applyStyle(inlineBlockStyles, '.'+inlineStyleName, 'fontsize-' + fontSize);
-        applyStyle(inlineBlockStyles, '.'+blockStyleName, inlineStyleName, 'lineheight-' + lineHeight);
+        applyStyle(inlineBlockStyles, '.'+inlineStyleName, 'fontsize-' + fontSize + 'ru');
+        applyStyle(inlineBlockStyles, '.'+blockStyleName, inlineStyleName, 'lineheight-' + lineHeight + 'ru');
 
         // remember them for later
         rememberStyle(internalStyles, styleName, screenName, 'inline', inlineStyleName);

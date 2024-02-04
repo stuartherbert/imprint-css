@@ -3,7 +3,7 @@ import { calculateRelunit } from '../helpers/relunits';
 const spacingUnits = {
     "1su": 4,
     "2su": 8,
-    "3su3": 12,
+    "3su": 12,
     "4su": 16,
     "5su": 20,
     "6su": 24,
@@ -19,7 +19,8 @@ const spacingUnits = {
 }
 
 Object.getOwnPropertyNames(spacingUnits).forEach(
-    function(unitValue, unitName) {
+    function(unitName) {
+        const unitValue = spacingUnits[unitName];
         spacingUnits[unitName] = calculateRelunit(unitValue);
     }
 );

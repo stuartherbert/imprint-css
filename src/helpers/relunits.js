@@ -16,7 +16,7 @@ function buildRelunits(...inputs) {
             const unitNames = Object.getOwnPropertyNames(input);
             unitNames.forEach(function (unitName) {
                 const relunit = calculateRelunit(unitName);
-                retval[unitName] = relunit;
+                retval[unitName + 'ru'] = relunit;
             });
         }
     );
