@@ -1,13 +1,18 @@
 import { calculateRelunit } from "../helpers/relunits";
 
 module.exports = {
+    headingVars: {
+        '--imprint-h1-underline-width': '1px',
+        '--imprint-h1-underline-style': 'solid',
+        '--imprint-h1-underline-color': 'var(--imprint-border-outer)',
+    },
     headingStyles: {
         'h1': {
             '@apply canon-block canon-fonts': {},
         },
         'h1:nth-of-type(1)': {
             'padding-bottom': calculateRelunit(6),
-            'border-bottom': '1px solid var(--imprint-fg)',
+            'border-bottom': 'var(--imprint-h1-underline-width) var(--imprint-h1-underline-style) var(--imprint-h1-underline-color)',
         },
 
         'h2': {

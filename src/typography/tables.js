@@ -2,8 +2,8 @@ import { colorDetails } from "../theme/colors";
 
 module.exports = {
     tableVars: {
-        "--imprint-border-outer": colorDetails['ganbaro-mono-300'].hex,
-        "--imprint-border-inner": colorDetails['ganbaro-mono-200'].hex,
+        "--imprint-border-outer": colorDetails['imprint-dimgray'].hex,
+        "--imprint-border-inner": colorDetails['imprint-gray'].hex,
     },
     tableStyles: {
         "table": {

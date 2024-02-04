@@ -3,7 +3,7 @@ const util = require('util')
 const plugin = require('tailwindcss/plugin')
 
 import { colorSwatch } from "./components/color-swatch";
-import { headingStyles } from "./typography/headings";
+import { headingVars, headingStyles } from "./typography/headings";
 import { textStyles, textVars } from "./typography/text";
 import { typographyFontModifierStyles } from "./typography/font-modifiers";
 import { inlineBlockRelunits, inlineBlockStyles } from "./typography/inline-block";
@@ -100,6 +100,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
       ...spacingVars,
       ...fontVars,
       ...bodyVars,
+      ...headingVars,
       ...preVars,
       ...textVars,
       ...listVars,
