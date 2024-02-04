@@ -8,16 +8,16 @@
  */
 const definitions = {
     'canon': {
-        'a': '28/32/bold 4su/-/8su bold',
-        'b': '32/36/bold 4su/-/8su bold',
-        'c': '52/56/bold 4su/-/8su bold',
-        'd': '44/48/bold 4su/-/8su bold',
+        'a': '28/32 4su/-/8su bold',
+        'b': '32/36 4su/-/8su bold',
+        'c': '52/56 4su/-/8su bold',
+        'd': '44/48 4su/-/8su bold',
     },
     'trafalga': {
-        'a': '20/24/bold 4su/-/8su bold',
-        'b': '24/28/bold 4su/-/8su bold',
-        'c': '36/40/bold 4su/-/8su bold',
-        'd': '32/36/bold 4su/-/8su bold',
+        'a': '20/24 4su/-/8su bold',
+        'b': '24/28 4su/-/8su bold',
+        'c': '36/40 4su/-/8su bold',
+        'd': '32/36 4su/-/8su bold',
     },
     'paragon': {
         'a': '20/24 4su/-/8su bold',
