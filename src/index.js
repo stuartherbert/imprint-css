@@ -1,3 +1,5 @@
+const util = require('util')
+
 const plugin = require('tailwindcss/plugin')
 
 import { colorSwatch } from "./components/color-swatch";
@@ -47,6 +49,50 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
     },
     { values: theme('spacing') }
   );
+
+  const imprintCss = {
+    utilities: {
+      vars: {
+        ...spacingVars,
+        ...fontVars,
+        ...bodyVars,
+        ...headingVars,
+        ...preVars,
+        ...textVars,
+        ...listVars,
+        ...linksVars,
+        ...flowVars,
+        ...tableVars,
+      },
+      internalStyles: {
+        ...typographySpacingStyles,
+        ...typographyFontModifierStyles,
+        ...inlineBlockStyles,
+        ...bodyStyles,
+      },
+      styles: {
+        ...mainStyles,
+        ...headingStyles,
+        ...textStyles,
+        ...preStyles,
+        ...listStyles,
+        ...linksStyles,
+        ...flowStyles,
+        ...tableStyles,
+      }
+    },
+    theme: {
+      screens,
+      colors,
+      // relunits,
+      extend: {
+        lineHeight: { ...relunits },
+        spacing: { ...spacingUnits, ...relunits },
+      }
+    }
+  }
+
+  console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
 
   // add the variables that we reuse in other styles
   addUtilities({
