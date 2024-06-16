@@ -22,14 +22,13 @@ module.exports = {
         ol: {
             'list-style-type': 'decimal',
             'padding-left': 'var(--imprint-list-indent)',
+            '* + *': {
+                'margin-top': 'var(--imprint-prose-spacing)',
+            },
 
             li: {
                 'display': 'list-item',
                 'list-style-position': 'outside',
-
-                "li:has(p)": {
-                    'margin-bottom': 'var(--imprint-prose-spacing)',
-                },
 
                 ol: {
                     'list-style-type': 'lower-alpha',
@@ -38,7 +37,10 @@ module.exports = {
                         'list-style-type': 'lower-roman',
                     }
                 }
-            }
+            },
+            "li:has(p)": {
+                'margin-bottom': 'var(--imprint-prose-spacing)',
+            },
         },
 
         dl: {
