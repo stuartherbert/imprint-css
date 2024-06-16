@@ -1,4 +1,4 @@
-import { calculateRelunit } from '../helpers/relunits';
+const { calculateRelunit } = require('../helpers/relunits');
 
 const spacingUnits = {
     "1su": 4,

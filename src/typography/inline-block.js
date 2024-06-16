@@ -1,6 +1,6 @@
-import { applyStyle, buildOutExternalStyles, rememberStyle } from "../helpers/styles";
-import { addRelunit } from '../helpers/relunits';
-import { styleDefinitions, stylesAndScreens } from "./__definitions";
+const { applyStyle, buildOutExternalStyles, rememberStyle } = require("../helpers/styles");
+const { addRelunit } = require('../helpers/relunits');
+const { styleDefinitions, stylesAndScreens } = require("./__definitions");
 
 const internalStyles = stylesAndScreens();
 const inlineBlockRelunits = {};

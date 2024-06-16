@@ -1,9 +1,9 @@
-import { colorDetails } from "../theme/colors";
+const { colors } = require("../theme/colors");
 
 module.exports = {
     bodyVars: {
-        '--imprint-fg': colorDetails['imprint-nero'].hex,
-        '--imprint-bg': colorDetails['white'].hex,
+        '--imprint-fg': colors['imprint-nero'],
+        '--imprint-bg': colors['white'],
     },
     bodyStyles: {
         'body.imprint': {

@@ -1,9 +1,9 @@
-import { colorDetails } from "../theme/colors";
+const { colors } = require("../theme/colors");
 
 module.exports = {
     textVars: {
-        '--imprint-del-bg': colorDetails['imprint-palered'].hex,
-        '--imprint-ins-bg': colorDetails['imprint-palegreen'].hex,
+        '--imprint-del-bg': colors['imprint-palered'],
+        '--imprint-ins-bg': colors['imprint-palegreen'],
 
         '--imprint-kbd-bg': 'transparent',
         '--imprint-kbd-size': '0.85em',

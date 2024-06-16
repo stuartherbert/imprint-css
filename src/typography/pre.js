@@ -1,5 +1,5 @@
-import { colorDetails } from "../theme/colors";
-import { rgb } from "../helpers/colors";
+const { colors } = require("../theme/colors");
+const { rgb } = require("../helpers/colors");
 
 module.exports = {
     preVars: {
@@ -9,20 +9,20 @@ module.exports = {
         '--imprint-inline-mono-border-radius': '0.25rem',
         '--imprint-inline-mono-padding': '0.1rem 0.2rem',
 
-        '--imprint-code-bg': rgb(colorDetails['imprint-palegray'].rgbChannels, '0.66'),
-        '--imprint-code-fg': colorDetails['ganbaro-red-500'].hex,
-        '--imprint-code-border-fg': colorDetails['imprint-lightgray'].hex,
+        '--imprint-code-bg': rgb(colors['imprint-palegray'], '0.66'),
+        '--imprint-code-fg': colors['ganbaro-red']['500'],
+        '--imprint-code-border-fg': colors['imprint-lightgray'],
         '--imprint-code-border': '1px solid var(--imprint-code-border-fg)',
         '--imprint-code-padding': 'var(--imprint-inline-mono-padding)',
         '--imprint-code-border-radius': 'var(--imprint-inline-mono-border-radius)',
 
-        '--imprint-pre-fg': colorDetails['imprint-nero'].hex,
-        '--imprint-pre-bg': rgb(colorDetails['imprint-palegray'].rgbChannels, '0.66'),
+        '--imprint-pre-fg': colors['imprint-nero'],
+        '--imprint-pre-bg': rgb(colors['imprint-palegray'], '0.66'),
         '--imprint-pre-padding': '0.5rem 1rem',
         '--imprint-pre-border-radius': 'var(--imprint-block-mono-border-radius)',
 
         '--imprint-samp-fg': 'inherit',
-        '--imprint-samp-bg': rgb(colorDetails['imprint-palegray'].rgbChannels, '0.66'),
+        '--imprint-samp-bg': rgb(colors['imprint-palegray'], '0.66'),
         '--imprint-samp-border-radius': 'var(--imprint-inline-mono-border-radius)',
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
     },

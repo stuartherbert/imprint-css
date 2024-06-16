@@ -1,31 +1,75 @@
-const util = require('util')
+const util = require('util');
 
-const plugin = require('tailwindcss/plugin')
+const plugin = require('tailwindcss/plugin');
 
-import { colorSwatch } from "./components/color-swatch";
-import { headingVars, headingStyles } from "./typography/headings";
-import { textStyles, textVars } from "./typography/text";
-import { typographyFontModifierStyles } from "./typography/font-modifiers";
-import { inlineBlockRelunits, inlineBlockStyles } from "./typography/inline-block";
-import { typographySpacingStyles } from './typography/font-spacing';
-import { buildRelunits } from "./helpers/relunits";
-import { containers, screens } from "./theme/screens";
-import { spacingUnits } from "./utilities/spacing";
-import { colors } from "./theme/colors";
-import { fontVars } from "./typography/fonts";
-import { spacingVars } from "./variables/spacing";
-import { preStyles, preVars } from "./typography/pre";
-import { listStyles, listVars } from "./typography/lists";
-import { bodyStyles, bodyVars } from "./typography/body";
-import { mainStyles } from "./typography/main";
-import { linksStyles, linksVars } from "./typography/links";
-import { flowVars, flowStyles } from "./typography/flow";
-import { tableVars, tableStyles } from "./typography/tables";
+const { colorSwatch } = require("./components/color-swatch");
+const { headingVars, headingStyles } = require("./typography/headings");
+const { textStyles, textVars } = require("./typography/text");
+const { typographyFontModifierStyles } = require("./typography/font-modifiers");
+const { inlineBlockRelunits, inlineBlockStyles } = require("./typography/inline-block");
+const { typographySpacingStyles } = require('./typography/font-spacing');
+const { buildRelunits } = require("./helpers/relunits");
+const { containers, screens } = require("./theme/screens");
+const { spacingUnits } = require("./utilities/spacing");
+const { colors } = require("./theme/colors.js");
+const { fontVars } = require("./typography/fonts");
+const { spacingVars } = require("./variables/spacing");
+const { preStyles, preVars } = require("./typography/pre");
+const { listStyles, listVars } = require("./typography/lists");
+const { bodyStyles, bodyVars } = require("./typography/body");
+const { mainStyles } = require("./typography/main");
+const { linksStyles, linksVars } = require("./typography/links");
+const { flowVars, flowStyles } = require("./typography/flow");
+const { tableVars, tableStyles } = require("./typography/tables");
 
 // calculate the relative units that we need to add to the theme
 const relunits = buildRelunits(
   inlineBlockRelunits
 );
+
+const imprintCss = {
+  utilities: {
+    vars: {
+      ...spacingVars,
+      ...fontVars,
+      ...bodyVars,
+      ...headingVars,
+      ...preVars,
+      ...textVars,
+      ...listVars,
+      ...linksVars,
+      ...flowVars,
+      ...tableVars,
+    },
+    internalStyles: {
+      ...typographySpacingStyles,
+      ...typographyFontModifierStyles,
+      ...inlineBlockStyles,
+      ...bodyStyles,
+    },
+    styles: {
+      ...mainStyles,
+      ...headingStyles,
+      ...textStyles,
+      ...preStyles,
+      ...listStyles,
+      ...linksStyles,
+      ...flowStyles,
+      ...tableStyles,
+    }
+  },
+  theme: {
+    screens,
+    colors,
+    // relunits,
+    extend: {
+      lineHeight: { ...relunits },
+      spacing: { ...spacingUnits, ...relunits },
+    }
+  }
+}
+
+console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
 
 module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, theme }) {
   matchUtilities(
@@ -49,50 +93,6 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
     },
     { values: theme('spacing') }
   );
-
-  const imprintCss = {
-    utilities: {
-      vars: {
-        ...spacingVars,
-        ...fontVars,
-        ...bodyVars,
-        ...headingVars,
-        ...preVars,
-        ...textVars,
-        ...listVars,
-        ...linksVars,
-        ...flowVars,
-        ...tableVars,
-      },
-      internalStyles: {
-        ...typographySpacingStyles,
-        ...typographyFontModifierStyles,
-        ...inlineBlockStyles,
-        ...bodyStyles,
-      },
-      styles: {
-        ...mainStyles,
-        ...headingStyles,
-        ...textStyles,
-        ...preStyles,
-        ...listStyles,
-        ...linksStyles,
-        ...flowStyles,
-        ...tableStyles,
-      }
-    },
-    theme: {
-      screens,
-      colors,
-      // relunits,
-      extend: {
-        lineHeight: { ...relunits },
-        spacing: { ...spacingUnits, ...relunits },
-      }
-    }
-  }
-
-  console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
 
   // add the variables that we reuse in other styles
   addUtilities({

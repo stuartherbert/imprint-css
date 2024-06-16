@@ -1,22 +1,22 @@
-import { colors } from "../theme/colors";
+const { colors } = require("../theme/colors");
 
 module.exports = {
     linksVars: {
-        '--imprint-link-fg': colors['ganbaro-blue-500'],
+        '--imprint-link-fg': colors['ganbaro-blue']['500'],
         '--imprint-link-bg': 'inherit',
         '--imprint-link-border': colors['imprint-gray'],
 
-        '--imprint-link-visited-fg': colors['ganbaro-blue-900'],
+        '--imprint-link-visited-fg': colors['ganbaro-blue']['900'],
         '--imprint-link-visited-bg': 'inherit',
         '--imprint-link-visited-border': 'var(--imprint-link-border)',
 
-        '--imprint-link-hover-fg': colors['ganbaro-red-500'],
+        '--imprint-link-hover-fg': colors['ganbaro-red']['500'],
         '--imprint-link-hover-bg': 'inherit',
         '--imprint-link-hover-border': 'var(--imprint-fg)',
 
-        '--imprint-link-active-fg': colors['ganbaro-red-500'],
+        '--imprint-link-active-fg': colors['ganbaro-red']['500'],
         '--imprint-link-active-bg': 'inherit',
-        '--imprint-link-active-border': colors['ganbaro-red-500'],
+        '--imprint-link-active-border': colors['ganbaro-red']['500'],
     },
     linksStyles: {
         'a': {

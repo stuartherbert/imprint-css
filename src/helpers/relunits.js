@@ -1,4 +1,4 @@
-import rem from "startijenn-rem";
+const { rem } = require("startijenn-rem");
 
 function addRelunit(relunits, newUnit) {
     relunits[newUnit] = newUnit;

@@ -1,9 +1,27 @@
+var CssColor = require("@safelytyped/css-color");
+
 module.exports = {
-    rgb: function(channels, alpha = undefined) {
-        if (alpha === undefined) {
-            return "rgb(" + channels + ")";
+    rgb: function(hex, alpha = undefined) {
+        const color = new CssColor.makeCssColor(hex);
+        if (color === undefined) {
+            throw new Error("unable to understand CSS hex color: " + hex);
         }
 
-        return "rgb(" + channels + " / " + alpha + ")";
-    }
+        const channels = color.rgb().channelsData();
+
+        if (alpha === undefined) {
+            return "rgb("
+                + channels.red + ", "
+                + channels.green + ", "
+                + channels.blue
+                + ")";
+        }
+
+        return "rgb("
+            + channels.red + ", "
+            + channels.green + ", "
+            + channels.blue + ", "
+            + alpha
+            + ")";
+}
 }

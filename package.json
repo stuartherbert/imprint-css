@@ -1,17 +1,22 @@
 {
   "name": "@stuartherbert/imprint-css",
   "version": "0.1.0",
-  "description": "TailwindCSS styles, components and utilities for long-form text",
-  "main": "src/index.js",
+  "description": "TailwindCSS plugin for long-form text",
   "repository": {
     "type": "git",
     "url": "https://github.com/stuartherbert/tailwind-imprint"
   },
+  "main": "src/index.js",
   "keywords": [
     "tailwind",
     "longform",
     "imprint",
     "css"
+  ],
+  "files": [
+    "src/**/*",
+    "CHANGELOG.md",
+    "LICENSE.md"
   ],
   "author": "Stuart Herbert",
   "license": "BSD-3-Clause",
@@ -19,10 +24,11 @@
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "color": "^4.2.3",
+    "@safelytyped/css-color": "^1.0.2",
     "startijenn-rem": "^1.1.1"
   }
 }
