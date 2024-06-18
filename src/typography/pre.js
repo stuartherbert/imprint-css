@@ -38,6 +38,8 @@ module.exports = {
             'color': 'var(--imprint-code-fg)',
             'border': 'var(--imprint-code-border)',
             'border-radius': 'var(--imprint-code-border-radius)',
+            'overflow-wrap': 'break-word',
+            'hyphens': 'none',
         },
 
         'samp': {
@@ -47,6 +49,8 @@ module.exports = {
             'color': 'var(--imprint-samp-fg)',
             'border': 'var(--imprint-code-border)',
             'border-radius': 'var(--imprint-samp-border-radius)',
+            'overflow-wrap': 'break-word',
+            'hyphens': 'none',
         },
 
         "pre": {

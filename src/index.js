@@ -2,6 +2,11 @@ const util = require('util');
 
 const plugin = require('tailwindcss/plugin');
 
+const { borderAlert } = require("./components/borderAlert.js");
+const { borderBlock } = require("./components/borderBlock.js");
+const { borderBlockquote } = require("./components/borderBlockquote.js");
+const { borderCommon } = require("./components/borderCommon.js");
+const { borderPanel } = require("./components/borderPanel.js");
 const { colorSwatch } = require("./components/color-swatch");
 const { headingVars, headingStyles } = require("./typography/headings");
 const { textStyles, textVars } = require("./typography/text");
@@ -13,6 +18,7 @@ const { containers, screens } = require("./theme/screens");
 const { spacingUnits } = require("./utilities/spacing");
 const { colors } = require("./theme/colors.js");
 const { fontVars } = require("./typography/fonts");
+const { semantic } = require("./variables/semantic.js");
 const { spacingVars } = require("./variables/spacing");
 const { preStyles, preVars } = require("./typography/pre");
 const { listStyles, listVars } = require("./typography/lists");
@@ -56,7 +62,25 @@ const imprintCss = {
       ...linksStyles,
       ...flowStyles,
       ...tableStyles,
-    }
+    },
+  },
+  components: {
+    vars: {
+      ...semantic.vars,
+      ...borderCommon.vars,
+      ...borderAlert.vars,
+      ...borderBlock.vars,
+      ...borderBlockquote.vars,
+      ...borderPanel.vars,
+    },
+    styles: {
+      ...borderCommon.styles,
+      ...borderAlert.styles,
+      ...borderBlock.styles,
+      ...borderBlockquote.styles,
+      ...borderPanel.styles,
+      ...colorSwatch,
+    },
   },
   theme: {
     screens,
@@ -97,16 +121,8 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   // add the variables that we reuse in other styles
   addUtilities({
     ':root': {
-      ...spacingVars,
-      ...fontVars,
-      ...bodyVars,
-      ...headingVars,
-      ...preVars,
-      ...textVars,
-      ...listVars,
-      ...linksVars,
-      ...flowVars,
-      ...tableVars,
+      ...imprintCss.utilities.vars,
+      ...imprintCss.components.vars,
     }
   });
 
@@ -135,7 +151,11 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   addUtilities(containers);
 
   // add more complex components
-  addComponents(colorSwatch);
+  addComponents({
+    ".imprint": {
+      ...imprintCss.components.styles,
+    }
+  });
 },
 {
   theme: {

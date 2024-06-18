@@ -6,5 +6,8 @@ module.exports = {
         ".imprint-prose > * + *": {
             'margin-top': 'var(--imprint-prose-spacing)',
         },
+        ".content > * + *": {
+            "margin-top": "var(--imprint-prose-spacing)",
+        },
     }
 }
