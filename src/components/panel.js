@@ -11,7 +11,7 @@ module.exports = {
                 "border-width": "var(--imprint-panel-border-width)",
                 "border-style": "solid",
                 "border-color": "var(--imprint-panel-border-color)",
-                "@apply ring-1 ring-black ring-opacity-5 rounded c:rounded-lg d:rounded-xl": {},
+                "@apply rounded c:rounded-lg d:rounded-xl overflow-hidden": {},
             },
             ".imprint-panel.--subtle": {
                 "--imprint-panel-border-width": "var(--imprint-border-inner-width)",
