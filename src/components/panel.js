@@ -34,10 +34,6 @@ module.exports = {
             ".imprint-panel.--danger": {
                 "--imprint-panel-border-color": "var(--imprint-danger-heading-bg)",
             },
-
-            ".content": {
-                "@apply p-4su": {},
-            },
         },
     }
 }
