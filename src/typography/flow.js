@@ -3,11 +3,8 @@ module.exports = {
         '--imprint-prose-spacing': '1em',
     },
     flowStyles: {
-        ".imprint-prose > * + *": {
+        ".imprint-prose > * + *, .imprint-inner > * + *": {
             'margin-top': 'var(--imprint-prose-spacing)',
-        },
-        ".content > * + *": {
-            "margin-top": "var(--imprint-prose-spacing)",
         },
     }
 }

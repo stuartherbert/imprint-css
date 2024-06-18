@@ -4,7 +4,7 @@ module.exports = {
     headingVars: {
         '--imprint-h1-underline-width': '1px',
         '--imprint-h1-underline-style': 'solid',
-        '--imprint-h1-underline-color': 'var(--imprint-border-outer)',
+        '--imprint-h1-underline-color': 'var(--imprint-border-outer-color)',
     },
     headingStyles: {
         'h1': {

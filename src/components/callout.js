@@ -1,0 +1,34 @@
+module.exports = {
+    callout: {
+        vars: {
+            "--imprint-callout-border-width": "4px",
+        },
+        styles: {
+            ".imprint-callout": {
+                "--imprint-callout-border-color": "var(--imprint-border-outer-color)",
+                "border-left": "var(--imprint-callout-border-width) solid var(--imprint-callout-border-color)",
+            },
+            ".imprint-callout.--subtle": {
+                "--imprint-callout-border-width": "2px",
+            },
+            ".imprint-callout.--primary": {
+                "--imprint-callout-border-color": "var(--imprint-primary-heading-bg)",
+            },
+            ".imprint-callout.--secondary": {
+                "--imprint-callout-border-color": "var(--imprint-secondary-heading-bg)",
+            },
+            ".imprint-callout.--info": {
+                "--imprint-callout-border-color": "var(--imprint-info-heading-bg)",
+            },
+            ".imprint-callout.--success": {
+                "--imprint-callout-border-color": "var(--imprint-success-heading-bg)",
+            },
+            ".imprint-callout.--warning": {
+                "--imprint-callout-border-color": "var(--imprint-warning-heading-bg)",
+            },
+            ".imprint-callout.--danger": {
+                "--imprint-callout-border-color": "var(--imprint-danger-heading-bg)",
+            },
+        },
+    }
+}

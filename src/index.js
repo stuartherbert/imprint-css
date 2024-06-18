@@ -2,11 +2,11 @@ const util = require('util');
 
 const plugin = require('tailwindcss/plugin');
 
-const { borderAlert } = require("./components/borderAlert.js");
-const { borderBlock } = require("./components/borderBlock.js");
-const { borderBlockquote } = require("./components/borderBlockquote.js");
-const { borderCommon } = require("./components/borderCommon.js");
-const { borderPanel } = require("./components/borderPanel.js");
+const { borders } = require("./variables/borders");
+const { alert } = require("./components/alert");
+const { block } = require("./components/block");
+const { callout } = require("./components/callout");
+const { panel } = require("./components/panel");
 const { colorSwatch } = require("./components/color-swatch");
 const { headingVars, headingStyles } = require("./typography/headings");
 const { textStyles, textVars } = require("./typography/text");
@@ -16,9 +16,10 @@ const { typographySpacingStyles } = require('./typography/font-spacing');
 const { buildRelunits } = require("./helpers/relunits");
 const { containers, screens } = require("./theme/screens");
 const { spacingUnits } = require("./utilities/spacing");
+const { inner } = require("./utilities/inner.js");
 const { colors } = require("./theme/colors.js");
 const { fontVars } = require("./typography/fonts");
-const { semantic } = require("./variables/semantic.js");
+const { semantic } = require("./variables/semantic");
 const { spacingVars } = require("./variables/spacing");
 const { preStyles, preVars } = require("./typography/pre");
 const { listStyles, listVars } = require("./typography/lists");
@@ -46,6 +47,8 @@ const imprintCss = {
       ...linksVars,
       ...flowVars,
       ...tableVars,
+      ...borders.vars,
+      ...inner.vars,
     },
     internalStyles: {
       ...typographySpacingStyles,
@@ -62,23 +65,26 @@ const imprintCss = {
       ...linksStyles,
       ...flowStyles,
       ...tableStyles,
+      ...inner.styles,
     },
   },
   components: {
     vars: {
       ...semantic.vars,
-      ...borderCommon.vars,
-      ...borderAlert.vars,
-      ...borderBlock.vars,
-      ...borderBlockquote.vars,
-      ...borderPanel.vars,
+      ...alert.vars,
+      ...block.vars,
+      ...callout.vars,
+      ...panel.vars,
     },
     styles: {
-      ...borderCommon.styles,
-      ...borderAlert.styles,
-      ...borderBlock.styles,
-      ...borderBlockquote.styles,
-      ...borderPanel.styles,
+      // these are utilities, but they go here so that they can be overridden
+      // in the HTML
+      ...inner.styles,
+
+      ...alert.styles,
+      ...block.styles,
+      ...callout.styles,
+      ...panel.styles,
       ...colorSwatch,
     },
   },
@@ -152,9 +158,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
 
   // add more complex components
   addComponents({
-    ".imprint": {
       ...imprintCss.components.styles,
-    }
   });
 },
 {
