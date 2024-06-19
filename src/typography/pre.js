@@ -9,7 +9,7 @@ module.exports = {
         '--imprint-inline-mono-border-radius': '0.25rem',
         '--imprint-inline-mono-padding': '0.1rem 0.2rem',
 
-        '--imprint-code-background-color': rgb(colors['imprint-palegray'], '0.66'),
+        '--imprint-code-background-color': rgb(colors['imprint-palered'], '1'),
         '--imprint-code-color': colors['ganbaro-red']['500'],
         '--imprint-code-border-color': colors['imprint-lightgray'],
         '--imprint-code-border': '1px solid var(--imprint-code-border-color)',
@@ -17,12 +17,12 @@ module.exports = {
         '--imprint-code-border-radius': 'var(--imprint-inline-mono-border-radius)',
 
         '--imprint-pre-color': colors['imprint-nero'],
-        '--imprint-pre-background-color': rgb(colors['imprint-palegray'], '0.66'),
+        '--imprint-pre-background-color': rgb(colors['imprint-palered'], '0.66'),
         '--imprint-pre-padding': '0.5rem 1rem',
         '--imprint-pre-border-radius': 'var(--imprint-block-mono-border-radius)',
 
         '--imprint-samp-color': 'inherit',
-        '--imprint-samp-background-color': rgb(colors['imprint-palegray'], '0.66'),
+        '--imprint-samp-background-color': rgb(colors['imprint-palered'], '0.66'),
         '--imprint-samp-border-radius': 'var(--imprint-inline-mono-border-radius)',
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
     },
@@ -36,7 +36,7 @@ module.exports = {
             'padding': 'var(--imprint-code-padding)',
             'background-color': 'var(--imprint-code-background-color)',
             'color': 'var(--imprint-code-color)',
-            'border': 'var(--imprint-code-border)',
+            // 'border': 'var(--imprint-code-border)',
             'border-radius': 'var(--imprint-code-border-radius)',
             'overflow-wrap': 'break-word',
             'hyphens': 'none',
