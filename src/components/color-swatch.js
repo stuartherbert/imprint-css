@@ -20,7 +20,7 @@ module.exports = {
                 'padding': '1rem',
                 'margin-right': '0.5rem',
             },
-            'li.dark-bg': {
+            'li.dark-background-color': {
                 'color': {
                     '@apply text-material-gray-100': {},
                 }

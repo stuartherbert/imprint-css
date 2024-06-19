@@ -6,6 +6,7 @@ const { borders } = require("./variables/borders");
 const { alert } = require("./components/alert");
 const { block } = require("./components/block");
 const { callout } = require("./components/callout");
+const { depth } = require("./components/depth");
 const { panel } = require("./components/panel");
 const { colorSwatch } = require("./components/color-swatch");
 const { headingVars, headingStyles } = require("./typography/headings");
@@ -49,6 +50,7 @@ const imprintCss = {
       ...tableVars,
       ...borders.vars,
       ...inner.vars,
+      ...depth.cars,
     },
     internalStyles: {
       ...typographySpacingStyles,
@@ -79,6 +81,7 @@ const imprintCss = {
     styles: {
       // these are utilities, but they go here so that they can be overridden
       // in the HTML
+      ...depth.styles,
       ...inner.styles,
 
       ...alert.styles,
