@@ -3,12 +3,11 @@ const { colors } = require("../theme/colors");
 module.exports = {
     alert: {
         vars: {
+            "--imprint-alert-border-color": "var(--imprint-border-outer-color)",
+            "--imprint-alert-heading-fg": colors["white"],
         },
         styles: {
             ".imprint-alert": {
-                "--imprint-alert-border-color": "var(--imprint-border-outer-color)",
-                "--imprint-alert-heading-fg": colors["white"],
-
                 "h1, h2, h3, h4, h5, h6": {
                     "background-color": "var(--imprint-alert-border-color)",
                     "color": "var(--imprint-alert-heading-fg)",
@@ -40,6 +39,14 @@ module.exports = {
                 "--imprint-alert-heading-fg": "var(--imprint-danger-heading-fg)",
             },
 
+            ".imprint-alert.--disabled": {
+                "--imprint-alert-border-color": "var(--imprint-disabled-heading-bg)",
+                "--imprint-alert-heading-fg": "var(--imprint-disabled-heading-fg)",
+            },
+            ".imprint-alert.--faded": {
+                "--imprint-alert-border-color": "var(--imprint-faded-heading-bg)",
+                "--imprint-alert-heading-fg": "var(--imprint-faded-heading-fg)",
+            },
         },
     }
 }

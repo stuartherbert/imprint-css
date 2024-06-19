@@ -31,6 +31,18 @@ module.exports = {
             "--imprint-danger-content-fg": "var(--imprint-fg)",
             "--imprint-danger-heading-bg": colors['imprint-darkred'],
             "--imprint-danger-heading-fg": colors['white'],
+
+            "--imprint-disabled": colors['imprint-lightgray'],
+
+            "--imprint-disabled-content-bg": "var(--imprint-bg)",
+            "--imprint-disabled-content-fg": colors['imprint-gray'],
+            "--imprint-disabled-heading-bg": colors['imprint-gray'],
+            "--imprint-disabled-heading-fg": colors['imprint-palegray'],
+
+            "--imprint-faded-content-bg": "var(--imprint-bg)",
+            "--imprint-faded-content-fg": colors['imprint-gray'],
+            "--imprint-faded-heading-bg": colors['imprint-palegray'],
+            "--imprint-faded-heading-fg": colors['imprint-gray'],
         },
     }
 }

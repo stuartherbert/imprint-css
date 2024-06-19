@@ -363,7 +363,7 @@ const colorGroups = {
         'imprint-darkgreen': '#3c763d',
         'imprint-darkred': '#a94442',
         'imprint-darkyellow': '#e8ca2b',
-        'imprint-dimgray': '#696969',
+        'imprint-darkgray': '#696969',
         'imprint-graphite': '#404040',
         'imprint-gray': '#a8a8a8',
         'imprint-lightblue': '#34789a',

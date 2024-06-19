@@ -2,11 +2,13 @@ module.exports = {
     callout: {
         vars: {
             "--imprint-callout-border-width": "4px",
+            "--imprint-callout-color": "inherit",
         },
         styles: {
             ".imprint-callout": {
                 "--imprint-callout-border-color": "var(--imprint-border-outer-color)",
                 "border-left": "var(--imprint-callout-border-width) solid var(--imprint-callout-border-color)",
+                "color": "var(--imprint-callout-color)",
             },
             ".imprint-callout.--subtle": {
                 "--imprint-callout-border-width": "2px",
@@ -29,6 +31,16 @@ module.exports = {
             ".imprint-callout.--danger": {
                 "--imprint-callout-border-color": "var(--imprint-danger-heading-bg)",
             },
+
+            ".imprint-callout.--disabled": {
+                "--imprint-callout-border-color": "var(--imprint-disabled-heading-bg)",
+                "--imprint-callout-color": "var(--imprint-disabled-content-fg)",
+            },
+            ".imprint-callout.--faded": {
+                "--imprint-callout-border-color": "var(--imprint-faded-heading-bg)",
+                "--imprint-callout-color": "var(--imprint-faded-content-fg)",
+            },
+
         },
     }
 }
