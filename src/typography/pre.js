@@ -25,13 +25,15 @@ module.exports = {
         '--imprint-samp-background-color': rgb(colors['imprint-palered'], '0.66'),
         '--imprint-samp-border-radius': 'var(--imprint-inline-mono-border-radius)',
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
+
+        '--imprint-code-example-line-no-color': rgb(colors['imprint-gray'], '0.80'),
     },
     preStyles: {
         'code, pre, samp': {
             'font-family': 'var(--imprint-monospace)',
         },
 
-        'code': {
+        ':not(pre) > code': {
             'font-size': 'var(--imprint-inline-mono-size)',
             'padding': 'var(--imprint-code-padding)',
             'background-color': 'var(--imprint-code-background-color)',
@@ -53,7 +55,7 @@ module.exports = {
             'hyphens': 'none',
         },
 
-        "pre": {
+        "pre:not(:has(:not(code)))": {
             '@apply bodycopy-block bodycopy-fonts bodycopy-spacing': {},
             'font-size': 'var(--imprint-inline-mono-size)',
             'color': 'var(--imprint-pre-color)',
@@ -63,15 +65,45 @@ module.exports = {
             'border-radius': 'var(--imprint-pre-border-radius)',
         },
 
-        "pre code": {
-            'font-size': 'inherit',
-            "padding": 0,
-            "border": 0,
-            "color": "var(--imprint-pre-color)",
-            "background-color": "var(--imprint-pre-background-color)",
-            "white-space": "pre-wrap",
-            "border-radius": 0,
+        "pre:has(code)": {
+            'font-size': 'var(--imprint-inline-mono-size)',
+            // 'padding': 'var(--imprint-pre-padding)',
         },
+
+        "pre > code": {
+            // "counter-reset": "lineNo",
+
+            // ".line::before": {
+            //     "content": "counter(lineNo)",
+            //     "counter-increment": "lineNo",
+            //     // "width": "3rem",
+            //     "margin-right": "1.5rem",
+            //     "display": "inline-block",
+            //     "text-align": "right",
+            //     "color": "var(--imprint-code-example-line-no-color)",
+            // },
+
+            ".line:last-child:empty" : {
+                "display": "none",
+            },
+
+            "list-style-type": "decimal",
+            "padding-left": "var(--imprint-list-indent)",
+            "display": "flex",
+            "flex-flow": "row wrap",
+            "::marker": {
+                "color": "var(--imprint-code-example-line-no-color)",
+            },
+
+            ".line": {
+                "list-style-position": "outside",
+                "display": "list-item",
+                "flex-basis": "100%",
+                "flex-grow": "1",
+                "flex-shrink": "0",
+            },
+        },
+
 
         "a code": {
             "color": "inherit",
