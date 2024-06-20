@@ -17,7 +17,7 @@ module.exports = {
         '--imprint-code-border-radius': 'var(--imprint-inline-mono-border-radius)',
 
         '--imprint-pre-color': colors['imprint-nero'],
-        '--imprint-pre-background-color': rgb(colors['imprint-palered'], '0.66'),
+        '--imprint-pre-background-color': "var(--imprint-shaded-background-color)",
         '--imprint-pre-padding': '0.5rem 1rem',
         '--imprint-pre-border-radius': 'var(--imprint-block-mono-border-radius)',
 
