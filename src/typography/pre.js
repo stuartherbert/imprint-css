@@ -67,22 +67,9 @@ module.exports = {
 
         "pre:has(code)": {
             'font-size': 'var(--imprint-inline-mono-size)',
-            // 'padding': 'var(--imprint-pre-padding)',
         },
 
-        "pre > code": {
-            // "counter-reset": "lineNo",
-
-            // ".line::before": {
-            //     "content": "counter(lineNo)",
-            //     "counter-increment": "lineNo",
-            //     // "width": "3rem",
-            //     "margin-right": "1.5rem",
-            //     "display": "inline-block",
-            //     "text-align": "right",
-            //     "color": "var(--imprint-code-example-line-no-color)",
-            // },
-
+        ".--shiki-numbered pre > code": {
             ".line:last-child:empty" : {
                 "display": "none",
             },
@@ -103,7 +90,6 @@ module.exports = {
                 "flex-shrink": "0",
             },
         },
-
 
         "a code": {
             "color": "inherit",
