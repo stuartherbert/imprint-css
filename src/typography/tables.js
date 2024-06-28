@@ -31,6 +31,7 @@ module.exports = {
             "thead": {
                 "border-bottom": "var(--imprint-table-border-outer-width) solid var(--imprint-table-border-outer-color)",
                 "th": {
+                    "text-align": "left",
                     "vertical-align": "bottom",
                     "font-weight": "bold",
                     "@apply p-2su": {},
@@ -76,6 +77,9 @@ module.exports = {
                     "border-bottom": "var(--imprint-table-border-inner-width) solid var(--imprint-table-border-inner-color)",
                 },
                 "border-bottom": "var(--imprint-table-border-outer-width) solid var(--imprint-table-border-outer-color)",
+            },
+            "th": {
+                "text-align": "start",
             },
             "th, td": {
                 "@apply p-2su": {},
