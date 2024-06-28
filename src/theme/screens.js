@@ -18,7 +18,7 @@ const containers = {
     '.__imprint-container-d': {
         'max-width': '600px',
     },
-    '.imprint .container': {
+    '.imprint-container': {
         '@apply a:__imprint-container-a b:__imprint-container-b c:__imprint-container-c d:__imprint-container-d': {},
     }
 }
