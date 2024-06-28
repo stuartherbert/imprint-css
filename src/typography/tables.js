@@ -54,6 +54,7 @@ module.exports = {
                 "td": {
                     "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner-color)",
                     "@apply p-2su": {},
+                    "font-weight": "bold",
                 },
             },
         },
