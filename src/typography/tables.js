@@ -34,8 +34,8 @@ module.exports = {
                     "vertical-align": "bottom",
                     "font-weight": "bold",
                     "@apply p-2su": {},
-                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner)",
-                    "border-bottom": "var(--imprint-table-border-inner-width) solid var(--imprint-border-outer)",
+                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner-color)",
+                    "border-bottom": "var(--imprint-table-border-inner-width) solid var(--imprint-border-outer-color)",
                 }
             },
             "tbody": {
@@ -43,7 +43,7 @@ module.exports = {
                     "border-bottom": "var(--imprint-table-border-inner-width) solid var(--imprint-table-border-outer-color)",
                 },
                 "td": {
-                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner)",
+                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner-color)",
                     "@apply p-2su": {},
                 },
             },
@@ -52,7 +52,7 @@ module.exports = {
             },
             "tfoot": {
                 "td": {
-                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner)",
+                    "border-left": "var(--imprint-table-border-inner-width) solid var(--imprint-border-inner-color)",
                     "@apply p-2su": {},
                 },
             },
