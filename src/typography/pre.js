@@ -26,7 +26,7 @@ module.exports = {
         '--imprint-samp-border-radius': 'var(--imprint-inline-mono-border-radius)',
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
 
-        '--imprint-code-example-line-no-color': rgb(colors['imprint-gray'], '0.80'),
+        '--imprint-code-example-line-no-color': rgb(colors['imprint-gray'], '1'),
     },
     preStyles: {
         'code, pre, samp': {
