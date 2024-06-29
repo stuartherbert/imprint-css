@@ -69,6 +69,16 @@ module.exports = {
                 '@apply font-semibold': {},
                 'font-style': 'italic',
             },
+
+            'blockquote': {
+                '@apply imprint-callout text-imprint-darkgray': {},
+                "> *": {
+                    '@apply pl-4su': {},
+                },
+                '> * + *': {
+                    'margin-top': 'var(--imprint-prose-spacing)',
+                },
+            },
         },
     },
 }
