@@ -3,12 +3,20 @@ const util = require('util');
 const plugin = require('tailwindcss/plugin');
 
 const { borders } = require("./variables/borders");
-const { alert } = require("./components/alert");
-const { block } = require("./components/block");
-const { callout } = require("./components/callout");
-const { depth } = require("./components/depth");
-const { panel } = require("./components/panel");
-const { colorSwatch } = require("./components/color-swatch");
+
+// ----------------------------------------------------------------
+//
+// import our components
+//
+// ----------------------------------------------------------------
+
+const alert = require("./components/alert");
+const block = require("./components/block");
+const callout = require("./components/callout");
+const colorSwatch = require("./components/color-swatch");
+const depth = require("./components/depth");
+const panel = require("./components/panel");
+
 const { headingVars, headingStyles } = require("./typography/headings");
 const { textStyles, textVars } = require("./typography/text");
 const { typographyFontModifierStyles } = require("./typography/font-modifiers");
@@ -73,22 +81,24 @@ const imprintCss = {
   components: {
     vars: {
       ...semantic.vars,
-      ...alert.vars,
-      ...block.vars,
-      ...callout.vars,
-      ...panel.vars,
+      ...alert.components.vars,
+      ...block.components.vars,
+      ...callout.components.vars,
+      ...colorSwatch.components.vars,
+      ...depth.components.vars,
+      ...panel.components.vars,
     },
     styles: {
       // these are utilities, but they go here so that they can be overridden
       // in the HTML
-      ...depth.styles,
+      ...depth.components.styles,
       ...inner.styles,
 
-      ...alert.styles,
-      ...block.styles,
-      ...callout.styles,
-      ...panel.styles,
-      ...colorSwatch,
+      ...alert.components.styles,
+      ...block.components.styles,
+      ...callout.components.styles,
+      ...colorSwatch.components.styles,
+      ...panel.components.styles,
     },
   },
   theme: {

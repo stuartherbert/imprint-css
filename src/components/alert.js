@@ -1,7 +1,7 @@
 const { colors } = require("../theme/colors");
 
 module.exports = {
-    alert: {
+    components: {
         vars: {
             "--imprint-alert-border-color": "var(--imprint-border-outer-color)",
             "--imprint-alert-heading-color": colors["white"],
@@ -48,5 +48,5 @@ module.exports = {
                 "--imprint-alert-heading-color": "var(--imprint-faded-heading-color)",
             },
         },
-    }
+    },
 }

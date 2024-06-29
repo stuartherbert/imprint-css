@@ -1,7 +1,5 @@
-const { colors } = require("../theme/colors");
-
 module.exports = {
-    block: {
+    components: {
         vars: {
             "--imprint-block-border-color": "var(--imprint-border-outer-color)",
             "--imprint-block-border-width": "var(--imprint-border-outer-width)",
@@ -66,5 +64,5 @@ module.exports = {
                 "--imprint-block-color": "var(--imprint-faded-content-color)",
             },
         },
-    }
+    },
 }

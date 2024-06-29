@@ -1,5 +1,5 @@
 module.exports = {
-    callout: {
+    components: {
         vars: {
             "--imprint-callout-border-color": "var(--imprint-border-outer-color)",
             "--imprint-callout-border-width": "4px",

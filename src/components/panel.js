@@ -1,7 +1,5 @@
-const { colors } = require("../theme/colors");
-
 module.exports = {
-    panel: {
+    components: {
         vars: {
             "--imprint-panel-border-color": "var(--imprint-border-outer-color)",
             "--imprint-panel-border-width": "var(--imprint-border-outer-width)",

@@ -1,7 +1,7 @@
 const { colors } = require("../theme/colors");
 
 module.exports = {
-    depth: {
+    components: {
         vars: {
         },
         styles: {
