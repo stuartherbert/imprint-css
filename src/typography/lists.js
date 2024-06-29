@@ -1,10 +1,7 @@
 module.exports = {
-    staticUtilities: {
-        vars: {
-            '--imprint-list-indent': '2.5em',
-        },
+    internalUtilities: {
         styles: {
-            ":not(nav) > ul": {
+            ".__imprint-ul": {
                 'list-style-type': 'disc',
                 'padding-left': 'var(--imprint-list-indent)',
 
@@ -20,7 +17,7 @@ module.exports = {
                 }
             },
 
-            ":not(nav) > ol": {
+            ".__imprint_ol": {
                 'list-style-type': 'decimal',
                 'padding-left': 'var(--imprint-list-indent)',
 
@@ -42,6 +39,20 @@ module.exports = {
                 "li:has(p)": {
                     'margin-bottom': 'var(--imprint-prose-spacing)',
                 },
+            },
+        },
+    },
+    staticUtilities: {
+        vars: {
+            '--imprint-list-indent': '2.5em',
+        },
+        styles: {
+            ":not(nav) > ul, .imprint-ul": {
+                "@apply __imprint-ul": {},
+            },
+
+            ":not(nav) > ol, .imprint-ol": {
+                "@apply __imprint_ol": {},
             },
 
             dl: {

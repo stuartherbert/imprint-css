@@ -80,6 +80,7 @@ const imprintCss = {
       ...inlineBlocks.internalUtilities.styles,
       ...body.internalUtilities.styles,
       ...links.internalUtilities.styles,
+      ...lists.internalUtilities.styles,
     }
   },
 
