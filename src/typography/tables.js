@@ -3,6 +3,11 @@ const { colors } = require("../theme/colors");
 module.exports = {
     staticUtilities: {
         vars: {
+            "--imprint-border-outer-color": colors['imprint-graphite'],
+            "--imprint-border-outer-width": "2px",
+            "--imprint-border-inner-color": colors['imprint-gray'],
+            "--imprint-border-inner-width": "1px",
+
             "--imprint-table-stripe": colors['imprint-palegray'],
             "--imprint-table-border-outer-color": "var(--imprint-border-outer-color)",
             "--imprint-table-border-outer-width": "var(--imprint-border-outer-width)",

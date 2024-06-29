@@ -2,8 +2,6 @@ const util = require('util');
 
 const plugin = require('tailwindcss/plugin');
 
-const { borders } = require("./variables/borders");
-
 // ================================================================
 //
 // Import all the bits that make up ImprintCSS
@@ -97,7 +95,6 @@ const imprintCss = {
       ...links.staticUtilities.vars,
       ...flow.staticUtilities.vars,
       ...tables.staticUtilities.vars,
-      ...borders.vars,
       ...depth.cars,
     },
     styles: {
