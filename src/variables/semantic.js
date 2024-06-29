@@ -2,7 +2,7 @@ const { colors } = require("../theme/colors");
 const { rgb } = require("../helpers/colors");
 
 module.exports = {
-    semantic: {
+    staticUtilities: {
         vars: {
             "--imprint-primary": colors['ganbaro-blue'][500],
             "--imprint-secondary": colors['ganbaro-green'][500],

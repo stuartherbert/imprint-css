@@ -30,6 +30,8 @@ const colors = require("./colors/colors.js");
 //
 // ----------------------------------------------------------------
 
+const semantic = require("./variables/semantic");
+
 const body = require("./typography/body");
 const flow = require("./typography/flow");
 const fonts = require("./typography/fonts");
@@ -59,7 +61,6 @@ const depth = require("./components/depth");
 const inner = require("./components/inner");
 const panel = require("./components/panel");
 
-const { semantic } = require("./variables/semantic");
 
 const relunits = {
   ...inlineBlocks.theme.spacing.relunits,
@@ -86,6 +87,7 @@ const imprintCss = {
     vars: {
       ...spacing.staticUtilities.vars,
       ...devices.staticUtilities.vars,
+      ...semantic.staticUtilities.vars,
       ...fonts.staticUtilities.vars,
       ...headings.staticUtilities.vars,
       ...main.staticUtilities.vars,
@@ -112,7 +114,6 @@ const imprintCss = {
   },
   components: {
     vars: {
-      ...semantic.vars,
       ...alert.components.vars,
       ...block.components.vars,
       ...callout.components.vars,
