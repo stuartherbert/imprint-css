@@ -20,6 +20,14 @@ const devices = require("./devices/screens.js");
 
 // ----------------------------------------------------------------
 //
+// import our additional colors
+//
+// ----------------------------------------------------------------
+
+const colors = require("./colors/colors.js");
+
+// ----------------------------------------------------------------
+//
 // import our default styling
 //
 // ----------------------------------------------------------------
@@ -53,7 +61,6 @@ const panel = require("./components/panel");
 
 const { spacingUnits } = require("./utilities/spacing");
 const { inner } = require("./utilities/inner.js");
-const { colors } = require("./theme/colors.js");
 const { semantic } = require("./variables/semantic");
 const { spacingVars } = require("./variables/spacing");
 
@@ -134,7 +141,7 @@ const imprintCss = {
   },
   theme: {
     screens: devices.theme.screens,
-    colors,
+    colors: colors.theme.colors,
     relunits,
     extend: {
       lineHeight: { ...relunits },
@@ -207,7 +214,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   theme: {
     screens: devices.theme.screens,
     relunits,
-    colors,
+    colors: colors.theme.colors,
     extend: {
       fontSize: { ...relunits },
       lineHeight: { ...relunits },
