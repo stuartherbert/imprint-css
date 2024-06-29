@@ -58,9 +58,9 @@ const block = require("./components/block");
 const callout = require("./components/callout");
 const colorSwatch = require("./components/color-swatch");
 const depth = require("./components/depth");
+const inner = require("./components/inner");
 const panel = require("./components/panel");
 
-const { inner } = require("./utilities/inner.js");
 const { semantic } = require("./variables/semantic");
 
 const relunits = {
@@ -98,7 +98,6 @@ const imprintCss = {
       ...flow.staticUtilities.vars,
       ...tables.staticUtilities.vars,
       ...borders.vars,
-      ...inner.vars,
       ...depth.cars,
     },
     styles: {
@@ -112,7 +111,6 @@ const imprintCss = {
       ...links.staticUtilities.styles,
       ...flow.staticUtilities.styles,
       ...tables.staticUtilities.styles,
-      ...inner.styles,
     },
   },
   components: {
@@ -123,13 +121,14 @@ const imprintCss = {
       ...callout.components.vars,
       ...colorSwatch.components.vars,
       ...depth.components.vars,
+      ...inner.components.vars,
       ...panel.components.vars,
     },
     styles: {
       // these are utilities, but they go here so that they can be overridden
       // in the HTML
       ...depth.components.styles,
-      ...inner.styles,
+      ...inner.components.styles,
 
       ...alert.components.styles,
       ...block.components.styles,

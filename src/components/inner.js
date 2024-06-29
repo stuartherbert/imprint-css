@@ -1,5 +1,5 @@
 module.exports = {
-    inner: {
+    components: {
         vars: {
         },
         styles: {
