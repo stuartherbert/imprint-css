@@ -18,7 +18,7 @@ module.exports = {
             '@apply bodycopy-block bodycopy-fonts': {},
         },
         'p.p--leader': {
-            '@apply font-semibold': {},
+            '@apply greatprimer-block greatprimer-fonts text-imprint-graphite': {},
         },
         'p.p--abstract': {
             'text-indent': '2em',
