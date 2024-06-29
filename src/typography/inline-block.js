@@ -23,7 +23,7 @@ styleDefinitions().forEach(
 
         // remember them for later
         rememberStyle(internalStyles, styleName, screenName, 'inline', inlineStyleName);
-        rememberStyle(internalStyles, styleName, screenName, 'block', blockStyleName)
+        rememberStyle(internalStyles, styleName, screenName, 'block', blockStyleName);
     }
 )
 
@@ -31,6 +31,14 @@ styleDefinitions().forEach(
 buildOutExternalStyles(inlineBlockStyles, internalStyles);
 
 module.exports = {
-    inlineBlockRelunits,
-    inlineBlockStyles
+    theme: {
+        spacing: {
+            relunits: {
+                ...inlineBlockRelunits,
+            },
+        },
+    },
+    internalUtilities: {
+        styles: { ...inlineBlockStyles },
+    },
 }

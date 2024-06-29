@@ -4,6 +4,26 @@ const plugin = require('tailwindcss/plugin');
 
 const { borders } = require("./variables/borders");
 
+// ================================================================
+//
+// import our default styling
+//
+// ----------------------------------------------------------------
+
+const body = require("./typography/body");
+const flow = require("./typography/flow");
+const fonts = require("./typography/fonts");
+const fontModifiers = require("./typography/font-modifiers");
+const fontSpacing = require('./typography/font-spacing');
+const headings = require("./typography/headings");
+const inlineBlocks = require("./typography/inline-block");
+const links = require("./typography/links");
+const lists = require("./typography/lists");
+const main = require("./typography/main");
+const pre = require("./typography/pre");
+const text = require("./typography/text");
+const tables = require("./typography/tables");
+
 // ----------------------------------------------------------------
 //
 // import our components
@@ -17,64 +37,60 @@ const colorSwatch = require("./components/color-swatch");
 const depth = require("./components/depth");
 const panel = require("./components/panel");
 
-const { headingVars, headingStyles } = require("./typography/headings");
-const { textStyles, textVars } = require("./typography/text");
-const { typographyFontModifierStyles } = require("./typography/font-modifiers");
-const { inlineBlockRelunits, inlineBlockStyles } = require("./typography/inline-block");
-const { typographySpacingStyles } = require('./typography/font-spacing');
-const { buildRelunits } = require("./helpers/relunits");
 const { containers, screens } = require("./theme/screens");
 const { spacingUnits } = require("./utilities/spacing");
 const { inner } = require("./utilities/inner.js");
 const { colors } = require("./theme/colors.js");
-const { fontVars } = require("./typography/fonts");
 const { semantic } = require("./variables/semantic");
 const { spacingVars } = require("./variables/spacing");
-const { preStyles, preVars } = require("./typography/pre");
-const { listStyles, listVars } = require("./typography/lists");
-const { bodyStyles, bodyVars } = require("./typography/body");
-const { mainStyles } = require("./typography/main");
-const { linksStyles, linksVars } = require("./typography/links");
-const { flowVars, flowStyles } = require("./typography/flow");
-const { tableVars, tableStyles } = require("./typography/tables");
 
-// calculate the relative units that we need to add to the theme
-const relunits = buildRelunits(
-  inlineBlockRelunits
-);
+const relunits = {
+  ...inlineBlocks.theme.spacing.relunits,
+};
 
 const imprintCss = {
-  utilities: {
+  // these are a special case
+  //
+  // they need adding separately, to avoid circular dependencies
+  internalUtilities: {
+    vars: {
+      ...body.internalUtilities.vars,
+    },
+    styles: {
+      ...fontSpacing.internalUtilities.styles,
+      ...fontModifiers.internalUtilities.styles,
+      ...inlineBlocks.internalUtilities.styles,
+      ...body.internalUtilities.styles,
+    }
+  },
+
+  // these can be added using the `addUtility()` function
+  staticUtilities: {
     vars: {
       ...spacingVars,
-      ...fontVars,
-      ...bodyVars,
-      ...headingVars,
-      ...preVars,
-      ...textVars,
-      ...listVars,
-      ...linksVars,
-      ...flowVars,
-      ...tableVars,
+      ...fonts.staticUtilities.vars,
+      ...headings.staticUtilities.vars,
+      ...main.staticUtilities.vars,
+      ...pre.staticUtilities.vars,
+      ...text.staticUtilities.vars,
+      ...lists.staticUtilities.vars,
+      ...links.staticUtilities.vars,
+      ...flow.staticUtilities.vars,
+      ...tables.staticUtilities.vars,
       ...borders.vars,
       ...inner.vars,
       ...depth.cars,
     },
-    internalStyles: {
-      ...typographySpacingStyles,
-      ...typographyFontModifierStyles,
-      ...inlineBlockStyles,
-      ...bodyStyles,
-    },
     styles: {
-      ...mainStyles,
-      ...headingStyles,
-      ...textStyles,
-      ...preStyles,
-      ...listStyles,
-      ...linksStyles,
-      ...flowStyles,
-      ...tableStyles,
+      ...main.staticUtilities.styles,
+      ...fonts.staticUtilities.styles,
+      ...headings.staticUtilities.styles,
+      ...text.staticUtilities.styles,
+      ...pre.staticUtilities.styles,
+      ...lists.staticUtilities.styles,
+      ...links.staticUtilities.styles,
+      ...flow.staticUtilities.styles,
+      ...tables.staticUtilities.styles,
       ...inner.styles,
     },
   },
@@ -104,7 +120,7 @@ const imprintCss = {
   theme: {
     screens,
     colors,
-    // relunits,
+    relunits,
     extend: {
       lineHeight: { ...relunits },
       spacing: { ...spacingUnits, ...relunits },
@@ -113,6 +129,7 @@ const imprintCss = {
 }
 
 console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
+// console.log(util.inspect(imprintCss.internalStyles, { depth: 10, colors: true }));
 
 module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, theme }) {
   matchUtilities(
@@ -140,29 +157,26 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   // add the variables that we reuse in other styles
   addUtilities({
     ':root': {
-      ...imprintCss.utilities.vars,
+      ...imprintCss.internalUtilities.vars,
+      ...imprintCss.staticUtilities.vars,
       ...imprintCss.components.vars,
     }
   });
 
   // these need adding separately to avoid circular dependency errors
-  addUtilities(typographySpacingStyles);
-  addUtilities(typographyFontModifierStyles);
-  addUtilities(inlineBlockStyles);
-
-  addUtilities(bodyStyles);
+  addUtilities(imprintCss.internalUtilities.styles);
 
   // add our typography styles
   addUtilities({
     '.imprint': {
-      ...mainStyles,
-      ...headingStyles,
-      ...textStyles,
-      ...preStyles,
-      ...listStyles,
-      ...linksStyles,
-      ...flowStyles,
-      ...tableStyles,
+      ...main.staticUtilities.styles,
+      ...headings.staticUtilities.styles,
+      ...text.staticUtilities.styles,
+      ...pre.staticUtilities.styles,
+      ...lists.staticUtilities.styles,
+      ...links.staticUtilities.styles,
+      ...flow.staticUtilities.styles,
+      ...tables.staticUtilities.styles,
     }
   })
 
@@ -178,7 +192,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   theme: {
     screens,
     relunits,
-    colors: colors,
+    colors,
     extend: {
       fontSize: { ...relunits },
       lineHeight: { ...relunits },

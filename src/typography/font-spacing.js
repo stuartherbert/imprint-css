@@ -46,5 +46,7 @@ styleDefinitions().forEach(
 buildOutExternalStyles(typographySpacingStyles, typographyInternalStyles);
 
 module.exports = {
-    typographySpacingStyles,
+    internalUtilities: {
+        styles: { ...typographySpacingStyles },
+    },
 }

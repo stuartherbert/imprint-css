@@ -5,6 +5,7 @@
  * bottom-margin/top-margin-always/top-margin-nested
  * list of font-modifers to apply
  *
+ * source: https://www.bbc.co.uk/gel/features/typography
  */
 const definitions = {
     'canon': {

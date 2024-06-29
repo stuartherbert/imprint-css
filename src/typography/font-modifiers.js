@@ -28,5 +28,7 @@ styleDefinitions().forEach(
 buildOutExternalStyles(typographyFontModifierStyles, typographyInternalStyles);
 
 module.exports = {
-    typographyFontModifierStyles,
+    internalUtilities: {
+        styles: { ...typographyFontModifierStyles },
+    },
 }
