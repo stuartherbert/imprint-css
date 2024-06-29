@@ -19,7 +19,7 @@ module.exports = {
         '--imprint-link-active-border': colors['ganbaro-red']['500'],
     },
     linksStyles: {
-        'a': {
+        'a, .imprint-link': {
             // '@apply font-semibold': {},
             'color': 'var(--imprint-link-color)',
             'background-color': 'var(--imprint-link-background-color)',
@@ -28,7 +28,7 @@ module.exports = {
             'border-bottom': '1px solid var(--imprint-link-border)',
         },
 
-        'a:visited': {
+        'a:visited, .imprint-link:visited': {
             // '@apply font-semibold': {},
             'color': 'var(--imprint-link-visited-color)',
             'background-color': 'var(--imprint-link-visited-background-color)',
@@ -37,7 +37,7 @@ module.exports = {
             'border-bottom': '1px solid var(--imprint-link-border)',
         },
 
-        'a:hover': {
+        'a:hover, .imprint-link:hover': {
             // '@apply font-semibold': {},
             'color': 'var(--imprint-link-hover-color)',
             'background-color': 'var(--imprint-link-hover-background-color)',
@@ -45,7 +45,7 @@ module.exports = {
             'font-weight': 'inherit',
         },
 
-        'a:active, a:focus': {
+        'a:active, a:focus, .imprint-link:active, .imprint-link:focus': {
             // '@apply font-semibold': {},
             'color': 'var(--imprint-link-active-color)',
             'background-color': 'var(--imprint-link-active-background-color)',
