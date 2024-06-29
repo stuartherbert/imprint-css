@@ -4,7 +4,7 @@ module.exports = {
             '--imprint-list-indent': '2.5em',
         },
         styles: {
-            ul: {
+            ":not(nav) > ul": {
                 'list-style-type': 'disc',
                 'padding-left': 'var(--imprint-list-indent)',
 
@@ -20,7 +20,7 @@ module.exports = {
                 }
             },
 
-            ol: {
+            ":not(nav) > ol": {
                 'list-style-type': 'decimal',
                 'padding-left': 'var(--imprint-list-indent)',
 
