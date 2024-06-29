@@ -6,6 +6,20 @@ const { borders } = require("./variables/borders");
 
 // ================================================================
 //
+// Import all the bits that make up ImprintCSS
+//
+// ----------------------------------------------------------------
+
+// ----------------------------------------------------------------
+//
+// import our new screens
+//
+// ----------------------------------------------------------------
+
+const devices = require("./devices/screens.js");
+
+// ----------------------------------------------------------------
+//
 // import our default styling
 //
 // ----------------------------------------------------------------
@@ -37,7 +51,6 @@ const colorSwatch = require("./components/color-swatch");
 const depth = require("./components/depth");
 const panel = require("./components/panel");
 
-const { containers, screens } = require("./theme/screens");
 const { spacingUnits } = require("./utilities/spacing");
 const { inner } = require("./utilities/inner.js");
 const { colors } = require("./theme/colors.js");
@@ -68,6 +81,7 @@ const imprintCss = {
   staticUtilities: {
     vars: {
       ...spacingVars,
+      ...devices.staticUtilities.vars,
       ...fonts.staticUtilities.vars,
       ...headings.staticUtilities.vars,
       ...main.staticUtilities.vars,
@@ -82,6 +96,7 @@ const imprintCss = {
       ...depth.cars,
     },
     styles: {
+      ...devices.staticUtilities.styles,
       ...main.staticUtilities.styles,
       ...fonts.staticUtilities.styles,
       ...headings.staticUtilities.styles,
@@ -118,7 +133,7 @@ const imprintCss = {
     },
   },
   theme: {
-    screens,
+    screens: devices.theme.screens,
     colors,
     relunits,
     extend: {
@@ -181,7 +196,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
   })
 
   // add the containers as static utilities
-  addUtilities(containers);
+  addUtilities(devices.staticUtilities.styles);
 
   // add more complex components
   addComponents({
@@ -190,7 +205,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
 },
 {
   theme: {
-    screens,
+    screens: devices.theme.screens,
     relunits,
     colors,
     extend: {
