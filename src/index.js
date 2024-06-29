@@ -79,6 +79,7 @@ const imprintCss = {
       ...fontModifiers.internalUtilities.styles,
       ...inlineBlocks.internalUtilities.styles,
       ...body.internalUtilities.styles,
+      ...links.internalUtilities.styles,
     }
   },
 
