@@ -26,5 +26,14 @@ Object.getOwnPropertyNames(spacingUnits).forEach(
 );
 
 module.exports = {
-    spacingUnits,
+    staticUtilities: {
+        vars: {
+            '--imprint-inline-text-padding': '0.1em 0.2em',
+        },
+    },
+    theme: {
+        spacing: {
+            spacingUnits,
+        },
+    },
 }

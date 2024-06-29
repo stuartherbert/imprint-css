@@ -43,6 +43,7 @@ const links = require("./typography/links");
 const lists = require("./typography/lists");
 const main = require("./typography/main");
 const pre = require("./typography/pre");
+const spacing = require("./typography/spacing.js");
 const text = require("./typography/text");
 const tables = require("./typography/tables");
 
@@ -59,10 +60,8 @@ const colorSwatch = require("./components/color-swatch");
 const depth = require("./components/depth");
 const panel = require("./components/panel");
 
-const { spacingUnits } = require("./utilities/spacing");
 const { inner } = require("./utilities/inner.js");
 const { semantic } = require("./variables/semantic");
-const { spacingVars } = require("./variables/spacing");
 
 const relunits = {
   ...inlineBlocks.theme.spacing.relunits,
@@ -87,7 +86,7 @@ const imprintCss = {
   // these can be added using the `addUtility()` function
   staticUtilities: {
     vars: {
-      ...spacingVars,
+      ...spacing.staticUtilities.vars,
       ...devices.staticUtilities.vars,
       ...fonts.staticUtilities.vars,
       ...headings.staticUtilities.vars,
@@ -145,7 +144,7 @@ const imprintCss = {
     relunits,
     extend: {
       lineHeight: { ...relunits },
-      spacing: { ...spacingUnits, ...relunits },
+      spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
     }
   }
 }
@@ -218,7 +217,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
     extend: {
       fontSize: { ...relunits },
       lineHeight: { ...relunits },
-      spacing: { ...spacingUnits, ...relunits },
+      spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
     }
   }
 })
