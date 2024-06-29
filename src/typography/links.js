@@ -57,16 +57,16 @@ module.exports = {
             '--imprint-link-active-border': colors['ganbaro-red']['500'],
         },
         styles: {
-            ":not(nav) a, .imprint-link": {
+            "a:not(nav a), .imprint-link": {
                 "@apply __imprint-link": {},
             },
-            ":not(nav) a:visited, imprint-link:visited": {
+            "a:visited:not(nav a), .imprint-link:visited": {
                 "@apply __imprint-link-visited": {},
             },
-            ":not(nav) a:hover, imprint-link:hover": {
+            " a:hover:not(nav a), .imprint-link:hover": {
                 "@apply __imprint-link-hover": {},
             },
-            ":not(nav) a:active, not(nav) a:focus, .imprint-link:active, .imprint-link:focus": {
+            "a:active:not(nav a), a:focus:not(nav), .imprint-link:active, .imprint-link:focus": {
                 "@apply __imprint-link-active": {},
             },
         },

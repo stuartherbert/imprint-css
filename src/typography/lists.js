@@ -47,11 +47,11 @@ module.exports = {
             '--imprint-list-indent': '2.5em',
         },
         styles: {
-            ":not(nav) > ul, .imprint-ul": {
+            "ul:not(nav ul), .imprint-ul": {
                 "@apply __imprint-ul": {},
             },
 
-            ":not(nav) > ol, .imprint-ol": {
+            "ol:not(nav ol), .imprint-ol": {
                 "@apply __imprint_ol": {},
             },
 
