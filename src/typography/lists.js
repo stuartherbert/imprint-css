@@ -1,16 +1,16 @@
 const definitionStore = require("../helpers/definitionStore");
 
-definitionStore.defaultStyling.vars = {
-    ...definitionStore.defaultStyling.vars,
+definitionStore.staticUtilities.vars = {
+    ...definitionStore.staticUtilities.vars,
     ...{
         '--imprint-list-indent': '2.5em',
     },
 }
 
-definitionStore.defaultStyling.styles = {
-    ...definitionStore.defaultStyling.styles,
+definitionStore.staticUtilities.styles = {
+    ...definitionStore.staticUtilities.styles,
     ...{
-        "ul:not(nav ul), .imprint-ul": {
+        ".imprint-ul": {
             'list-style-type': 'disc',
             'padding-left': 'var(--imprint-list-indent)',
 
@@ -26,7 +26,7 @@ definitionStore.defaultStyling.styles = {
             }
         },
 
-        "ol:not(nav ol), .imprint-ol": {
+        ".imprint-ol": {
             'list-style-type': 'decimal',
             'padding-left': 'var(--imprint-list-indent)',
 
@@ -48,6 +48,19 @@ definitionStore.defaultStyling.styles = {
             "li:has(p)": {
                 'margin-bottom': 'var(--imprint-prose-spacing)',
             },
+        },
+    }
+}
+
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
+    ...{
+        "ul:not(nav ul)": {
+            "@apply imprint-ul": {},
+        },
+
+        "ol:not(nav ol)": {
+            "@apply imprint-ol": {},
         },
 
         dl: {
