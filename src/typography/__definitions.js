@@ -3,7 +3,7 @@
  *
  * font-size/line-height
  * bottom-margin/top-margin-always/top-margin-nested
- * list of font-modifers to apply
+ * font-weight
  *
  * source: https://www.bbc.co.uk/gel/features/typography
  */
@@ -115,13 +115,7 @@ const definitions = {
     },
 };
 
-function styleNames() {
-    return Object.getOwnPropertyNames(definitions);
-}
-
-function screensForStyle(styleName) {
-    return Object.getOwnPropertyNames(definitions[styleName] ?? {})
-}
+const STYLE_NAMES = Object.getOwnPropertyNames(definitions);
 
 function styleDefinition(styleName, screenName) {
     // our return value
@@ -136,13 +130,13 @@ function styleDefinition(styleName, screenName) {
         marginTop: undefined,
         nestedMarginTop: undefined,
 
-        fontModifiers: [],
+        fontWeight: undefined,
     }
 
     const groupsMapping = [
         [ 'fontSize', 'lineHeight' ],
         [ 'marginBottom', 'marginTop', 'nestedMarginTop' ],
-        [ '...fontModifiers' ],
+        [ 'fontWeight' ],
     ]
 
     // break the definition up into groups
@@ -180,48 +174,27 @@ function styleDefinition(styleName, screenName) {
     return retval
 }
 
-function rememberScreenForStyle(target, styleName, screenName) {
-    if (target[styleName] === undefined) {
-        target[styleName] = {}
+// this will hold our parsed definitions
+const TYPOGRAPHY_DEFINITIONS = [];
+
+// populate TYPOGRAPHY_DEFINITIONS
+Object.getOwnPropertyNames(definitions).forEach(
+    function(styleName) {
+        Object.getOwnPropertyNames(definitions[styleName]).forEach(
+            function(screenName) {
+                TYPOGRAPHY_DEFINITIONS.push(styleDefinition(styleName, screenName));
+            }
+        )
     }
-    target[styleName][screenName] = {}
+);
+
+function internalTypographyStyleSelectorName(styleName, screenName, typeName) {
+    return '.__imprint-' + typeName + '-' + styleName +'-' + screenName;
 }
 
-function stylesAndScreens() {
-    const retval = {}
-
-    styleNames().forEach(
-        function(styleName) {
-            screensForStyle(styleName).forEach(
-                function(screenName) {
-                    rememberScreenForStyle(retval, styleName, screenName)
-                }
-            )
-        }
-    )
-
-    // all done
-    return retval
-}
-
-function styleDefinitions() {
-    const retval = []
-
-    styleNames().forEach(
-        function(styleName) {
-            screensForStyle(styleName).forEach(
-                function(screenName) {
-                    retval.push(styleDefinition(styleName, screenName))
-                }
-            )
-        }
-    )
-
-    // all done
-    return retval;
-}
-
+console.log('RAN');
 module.exports = {
-    styleDefinitions,
-    stylesAndScreens,
-}
+    STYLE_NAMES,
+    TYPOGRAPHY_DEFINITIONS,
+    internalTypographyStyleSelectorName,
+};

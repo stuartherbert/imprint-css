@@ -33,21 +33,33 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
+const { relunit } = require("../helpers/sizingUnits");
 const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
-const { STYLE_NAMES } = require("./__definitions");
+const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
+
+// create the internal definitions
+TYPOGRAPHY_DEFINITIONS.forEach(
+    function({ styleName, screenName, fontSize}) {
+        // what is our internal style called?
+        const fontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontsize');
+
+        // add it to the internal list
+        definitionStore.internalStyles[fontsStyleName] = {
+            "font-size": relunit(fontSize),
+        }
+    }
+);
 
 // create the utility classes
 const staticUtilities = {};
 STYLE_NAMES.forEach(
     function(styleName) {
-        const targetUtility = '.imprint-spacing-' + styleName;
+        const targetUtility = '.imprint-fontsize-' + styleName;
 
-        staticUtilities[targetUtility] = {}
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacing-' + styleName);
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacingTop-' + styleName);
+        staticUtilities[targetUtility] = {};
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontsize-' + styleName);
     }
 );
-
 definitionStore.staticUtilities.styles = {
     ...definitionStore.staticUtilities.styles,
     ...staticUtilities,

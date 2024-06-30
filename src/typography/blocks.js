@@ -40,11 +40,11 @@ const { STYLE_NAMES } = require("./__definitions");
 const staticUtilities = {};
 STYLE_NAMES.forEach(
     function(styleName) {
-        const targetUtility = '.imprint-spacing-' + styleName;
+        const targetUtility = '.imprint-block-' + styleName;
 
         staticUtilities[targetUtility] = {}
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacing-' + styleName);
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacingTop-' + styleName);
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontsize-' + styleName);
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontweight-' + styleName);
     }
 );
 

@@ -1,11 +1,10 @@
-module.exports = {
-    components: {
-        vars: {
+const definitionStore = require("../helpers/definitionStore");
+
+definitionStore.staticComponents.styles = {
+    ...definitionStore.staticComponents.styles,
+    ...{
+        ".imprint-inner": {
+            "@apply p-4su": {},
         },
-        styles: {
-            ".imprint-inner": {
-                "@apply p-4su": {},
-            },
-        },
-    }
+    },
 }

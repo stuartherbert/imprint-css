@@ -32,23 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
-const { STYLE_NAMES } = require("./__definitions");
+const { TYPOGRAPHY_DEFINITIONS } = require("../typography/__definitions");
 
-// create the utility classes
-const staticUtilities = {};
-STYLE_NAMES.forEach(
-    function(styleName) {
-        const targetUtility = '.imprint-spacing-' + styleName;
-
-        staticUtilities[targetUtility] = {}
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacing-' + styleName);
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacingTop-' + styleName);
-    }
-);
-
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
+module.exports = {
+    typographyDefinitions: TYPOGRAPHY_DEFINITIONS,
+    colors: {},
+    internalStyles: {},
+    sizing: {
+        relunits: {},
+        spacing: {},
+    },
+    staticUtilities: {
+        vars: {},
+        styles: {},
+    },
+    staticComponents: {
+        vars: {},
+        styles: {},
+    },
+    theme: {
+        screens: {},
+        extend: {
+            spacing: {},
+        },
+    },
 }

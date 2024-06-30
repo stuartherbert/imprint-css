@@ -1,6 +1,8 @@
 const util = require('util');
 
 const plugin = require('tailwindcss/plugin');
+const definitionStore = require('./helpers/definitionStore.js');
+const { relunit } = require("./helpers/sizingUnits.js");
 
 // ================================================================
 //
@@ -10,11 +12,12 @@ const plugin = require('tailwindcss/plugin');
 
 // ----------------------------------------------------------------
 //
-// import our new screens
+// import our sizing definitions
 //
 // ----------------------------------------------------------------
 
-const devices = require("./devices/screens.js");
+require("./sizing/screens.js");
+require("./sizing/spacing.js");
 
 // ----------------------------------------------------------------
 //
@@ -22,7 +25,7 @@ const devices = require("./devices/screens.js");
 //
 // ----------------------------------------------------------------
 
-const colors = require("./colors/colors.js");
+require("./colors/colors.js");
 
 // ----------------------------------------------------------------
 //
@@ -30,22 +33,25 @@ const colors = require("./colors/colors.js");
 //
 // ----------------------------------------------------------------
 
-const semantic = require("./variables/semantic");
+require("./variables/semantic");
+require("./typography/body");
+require("./typography/flow");
+require("./typography/fonts");
+require("./typography/font-modifiers");
+require('./typography/font-spacing');
+require('./typography/font-sizing');
+require('./typography/line-heights');
+require('./typography/blocks');
+require("./typography/inline-blocks.js");
+require("./typography/spacing.js");
 
-const body = require("./typography/body");
-const flow = require("./typography/flow");
-const fonts = require("./typography/fonts");
-const fontModifiers = require("./typography/font-modifiers");
-const fontSpacing = require('./typography/font-spacing');
-const headings = require("./typography/headings");
-const inlineBlocks = require("./typography/inline-block");
-const links = require("./typography/links");
-const lists = require("./typography/lists");
-const main = require("./typography/main");
-const pre = require("./typography/pre");
-const spacing = require("./typography/spacing.js");
-const text = require("./typography/text");
-const tables = require("./typography/tables");
+require("./typography/headings");
+require("./typography/text");
+require("./typography/links");
+require("./typography/lists");
+require("./typography/pre");
+require("./typography/tables");
+require("./typography/main");
 
 // ----------------------------------------------------------------
 //
@@ -53,170 +59,197 @@ const tables = require("./typography/tables");
 //
 // ----------------------------------------------------------------
 
-const alert = require("./components/alert");
-const block = require("./components/block");
-const callout = require("./components/callout");
-const colorSwatch = require("./components/color-swatch");
-const depth = require("./components/depth");
-const inner = require("./components/inner");
-const panel = require("./components/panel");
+require("./components/alert");
+require("./components/block");
+require("./components/callout");
+require("./components/depth");
+require("./components/inner");
+require("./components/panel");
+// const colorSwatch = require("./components/color-swatch");
 
+// console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
+// process.exit(1);
 
-const relunits = {
-  ...inlineBlocks.theme.spacing.relunits,
-};
-
-const imprintCss = {
-  // these are a special case
-  //
-  // they need adding separately, to avoid circular dependencies
-  internalUtilities: {
-    vars: {
-      ...body.internalUtilities.vars,
-    },
-    styles: {
-      ...fontSpacing.internalUtilities.styles,
-      ...fontModifiers.internalUtilities.styles,
-      ...inlineBlocks.internalUtilities.styles,
-      ...body.internalUtilities.styles,
-      ...links.internalUtilities.styles,
-      ...lists.internalUtilities.styles,
-    }
-  },
-
-  // these can be added using the `addUtility()` function
-  staticUtilities: {
-    vars: {
-      ...spacing.staticUtilities.vars,
-      ...devices.staticUtilities.vars,
-      ...semantic.staticUtilities.vars,
-      ...fonts.staticUtilities.vars,
-      ...headings.staticUtilities.vars,
-      ...main.staticUtilities.vars,
-      ...pre.staticUtilities.vars,
-      ...text.staticUtilities.vars,
-      ...lists.staticUtilities.vars,
-      ...links.staticUtilities.vars,
-      ...flow.staticUtilities.vars,
-      ...tables.staticUtilities.vars,
-      ...depth.cars,
-    },
-    styles: {
-      ...devices.staticUtilities.styles,
-      ...main.staticUtilities.styles,
-      ...fonts.staticUtilities.styles,
-      ...headings.staticUtilities.styles,
-      ...text.staticUtilities.styles,
-      ...pre.staticUtilities.styles,
-      ...lists.staticUtilities.styles,
-      ...links.staticUtilities.styles,
-      ...flow.staticUtilities.styles,
-      ...tables.staticUtilities.styles,
-    },
-  },
-  components: {
-    vars: {
-      ...alert.components.vars,
-      ...block.components.vars,
-      ...callout.components.vars,
-      ...colorSwatch.components.vars,
-      ...depth.components.vars,
-      ...inner.components.vars,
-      ...panel.components.vars,
-    },
-    styles: {
-      // these are utilities, but they go here so that they can be overridden
-      // in the HTML
-      ...depth.components.styles,
-      ...inner.components.styles,
-
-      ...alert.components.styles,
-      ...block.components.styles,
-      ...callout.components.styles,
-      ...colorSwatch.components.styles,
-      ...panel.components.styles,
-    },
-  },
-  theme: {
-    screens: devices.theme.screens,
-    colors: colors.theme.colors,
-    relunits,
-    extend: {
-      lineHeight: { ...relunits },
-      spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
-    }
-  }
-}
-
-console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
-// console.log(util.inspect(imprintCss.internalStyles, { depth: 10, colors: true }));
-
-module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, theme }) {
-  matchUtilities(
-    {
-      fontsize: (value) => (
-        {
-          'font-size': value,
+module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, addVariant, theme }) {
+    addUtilities({
+        ":root": {
+            ...definitionStore.staticUtilities.vars,
+            ...definitionStore.staticComponents.vars,
         }
-      )
-    },
-    { values: theme('spacing') }
-  );
-
-  matchUtilities(
-    {
-      lineheight: (value) => (
-        {
-          'line-height': value
-        }
-      )
-    },
-    { values: theme('spacing') }
-  );
-
-  // add the variables that we reuse in other styles
-  addUtilities({
-    ':root': {
-      ...imprintCss.internalUtilities.vars,
-      ...imprintCss.staticUtilities.vars,
-      ...imprintCss.components.vars,
-    }
-  });
-
-  // these need adding separately to avoid circular dependency errors
-  addUtilities(imprintCss.internalUtilities.styles);
-
-  // add our typography styles
-  addUtilities({
-    '.imprint': {
-      ...main.staticUtilities.styles,
-      ...headings.staticUtilities.styles,
-      ...text.staticUtilities.styles,
-      ...pre.staticUtilities.styles,
-      ...lists.staticUtilities.styles,
-      ...links.staticUtilities.styles,
-      ...flow.staticUtilities.styles,
-      ...tables.staticUtilities.styles,
-    }
-  })
-
-  // add the containers as static utilities
-  addUtilities(devices.staticUtilities.styles);
-
-  // add more complex components
-  addComponents({
-      ...imprintCss.components.styles,
-  });
+    });
+    addUtilities({...definitionStore.staticUtilities.styles});
+    addUtilities({...definitionStore.staticComponents.styles});
 },
 {
-  theme: {
-    screens: devices.theme.screens,
-    relunits,
-    colors: colors.theme.colors,
-    extend: {
-      fontSize: { ...relunits },
-      lineHeight: { ...relunits },
-      spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
-    }
-  }
-})
+    theme: definitionStore.theme,
+});
+
+
+
+// const relunits = {
+//   ...inlineBlocks.theme.spacing.relunits,
+// };
+
+// const imprintCss = {
+//   // these are a special case
+//   //
+//   // they need adding separately, to avoid circular dependencies
+//   internalUtilities: {
+//     vars: {
+//       ...body.internalUtilities.vars,
+//     },
+//     styles: {
+//       ...fontSpacing.internalUtilities.styles,
+//       ...fontModifiers.internalUtilities.styles,
+//       ...inlineBlocks.internalUtilities.styles,
+//       ...body.internalUtilities.styles,
+//       ...links.internalUtilities.styles,
+//       ...lists.internalUtilities.styles,
+//       ...text.internalUtilities.styles,
+//     }
+//   },
+
+//   // these can be added using the `addUtility()` function
+//   staticUtilities: {
+//     vars: {
+//       ...spacing.staticUtilities.vars,
+//       ...devices.staticUtilities.vars,
+//       ...semantic.staticUtilities.vars,
+//       ...fonts.staticUtilities.vars,
+//       ...headings.staticUtilities.vars,
+//       ...main.staticUtilities.vars,
+//       ...pre.staticUtilities.vars,
+//       ...text.staticUtilities.vars,
+//       ...lists.staticUtilities.vars,
+//       ...links.staticUtilities.vars,
+//       ...flow.staticUtilities.vars,
+//       ...tables.staticUtilities.vars,
+//       ...depth.cars,
+//     },
+//     styles: {
+//       ...devices.staticUtilities.styles,
+//       ...main.staticUtilities.styles,
+//       ...fonts.staticUtilities.styles,
+//       ...headings.staticUtilities.styles,
+//       ...text.staticUtilities.styles,
+//       ...pre.staticUtilities.styles,
+//       ...lists.staticUtilities.styles,
+//       ...links.staticUtilities.styles,
+//       ...flow.staticUtilities.styles,
+//       ...tables.staticUtilities.styles,
+//     },
+//   },
+//   components: {
+//     vars: {
+//       ...alert.components.vars,
+//       ...block.components.vars,
+//       ...callout.components.vars,
+//       ...colorSwatch.components.vars,
+//       ...depth.components.vars,
+//       ...inner.components.vars,
+//       ...panel.components.vars,
+//     },
+//     styles: {
+//       // these are utilities, but they go here so that they can be overridden
+//       // in the HTML
+//       ...depth.components.styles,
+//       ...inner.components.styles,
+
+//       ...alert.components.styles,
+//       ...block.components.styles,
+//       ...callout.components.styles,
+//       ...colorSwatch.components.styles,
+//       ...panel.components.styles,
+//     },
+//   },
+//   variants: {
+//     ...text.variants
+//   },
+//   theme: {
+//     screens: devices.theme.screens,
+//     colors: colors.theme.colors,
+//     relunits,
+//     extend: {
+//       lineHeight: { ...relunits },
+//       spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
+//     }
+//   }
+// }
+
+// console.log(util.inspect(imprintCss, { depth: 10, colors: true }));
+// // console.log(util.inspect(imprintCss.internalStyles, { depth: 10, colors: true }));
+
+// module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, addVariant, theme }) {
+//   matchUtilities(
+//     {
+//       fontsize: (value) => (
+//         {
+//           'font-size': value,
+//         }
+//       )
+//     },
+//     { values: theme('spacing') }
+//   );
+
+//   matchUtilities(
+//     {
+//       lineheight: (value) => (
+//         {
+//           'line-height': value
+//         }
+//       )
+//     },
+//     { values: theme('spacing') }
+//   );
+
+//   // add the variables that we reuse in other styles
+//   addUtilities({
+//     ':root': {
+//       ...imprintCss.internalUtilities.vars,
+//       ...imprintCss.staticUtilities.vars,
+//       ...imprintCss.components.vars,
+//     }
+//   });
+
+//   // these need adding separately to avoid circular dependency errors
+//   addUtilities(imprintCss.internalUtilities.styles);
+
+//   // add our typography styles
+//   addUtilities({
+//     '.imprint': {
+//       ...main.staticUtilities.styles,
+//       ...headings.staticUtilities.styles,
+//       ...text.staticUtilities.styles,
+//       ...pre.staticUtilities.styles,
+//       ...lists.staticUtilities.styles,
+//       ...links.staticUtilities.styles,
+//       ...flow.staticUtilities.styles,
+//       ...tables.staticUtilities.styles,
+//     }
+//   })
+
+//   // add the containers as static utilities
+//   addUtilities(devices.staticUtilities.styles);
+
+//   // add more complex components
+//   addComponents({
+//       ...imprintCss.components.styles,
+//   });
+
+//   // add our variants
+//   for (const key of Object.keys(imprintCss.variants)) {
+//     addVariant(key, imprintCss.variants[key]);
+//   }
+// },
+// {
+//   theme: {
+//     screens: devices.theme.screens,
+//     relunits,
+//     colors: colors.theme.colors,
+//     extend: {
+//       fontSize: { ...relunits },
+//       lineHeight: { ...relunits },
+//       spacing: { ...spacing.theme.spacing.spacingUnits, ...relunits },
+//     }
+//   }
+// })
