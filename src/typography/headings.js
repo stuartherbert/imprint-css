@@ -48,7 +48,7 @@ definitionStore.defaultStyling.styles = {
     ...definitionStore.defaultStyling.styles,
     ...{
         'h1': {
-            '@apply imprint-block-canon': {},
+            '@apply imprint-block-canon imprint-fontweight-canon': {},
         },
         'h1:nth-of-type(1)': {
             'padding-bottom': relunit("6px"),
@@ -56,23 +56,23 @@ definitionStore.defaultStyling.styles = {
         },
 
         'h2': {
-            '@apply imprint-block-trafalga': {},
+            '@apply imprint-block-trafalga imprint-fontweight-trafalga': {},
         },
 
         'h3': {
-            '@apply imprint-block-doublepica': {},
+            '@apply imprint-block-doublepica imprint-fontweight-doublepica': {},
         },
 
         'h4': {
-            '@apply imprint-block-greatprimer': {},
+            '@apply imprint-block-greatprimer imprint-fontweight-greatprimer': {},
         },
 
         'h5': {
-            '@apply imprint-block-longprimer': {},
+            '@apply imprint-block-longprimer imprint-fontweight-longprimer': {},
         },
 
         'h6': {
-            '@apply imprint-block-brevier': {},
+            '@apply imprint-block-brevier imprint-fontweight-brevier': {},
         },
     }
 }
