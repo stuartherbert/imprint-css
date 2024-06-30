@@ -37,7 +37,7 @@ const definitionStore = require('../helpers/definitionStore.js');
 definitionStore.staticUtilities.vars = {
     ...definitionStore.staticUtilities.vars,
     ...{
-        '--imprint-font-sans-serif': 'system-ui, sans-serif !default',
+        '--imprint-font-sans-serif': 'system-ui, sans-serif',
         '--imprint-font-serif': 'serif',
         '--imprint-font-system': 'system-ui',
         '--imprint-font-monospace': "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace",
