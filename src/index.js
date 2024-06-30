@@ -70,6 +70,11 @@ require("./components/panel");
 // console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
 // process.exit(1);
 
+// make sure we can use our new spacing units for text-* and leading-*
+// utilities too
+definitionStore.theme.extend.fontSize = definitionStore.theme.extend.spacing;
+definitionStore.theme.extend.lineHeight = definitionStore.theme.extend.spacing;
+
 module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, addVariant, theme }) {
     addUtilities({
         ":root": {
