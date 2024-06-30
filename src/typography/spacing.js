@@ -44,7 +44,7 @@ STYLE_NAMES.forEach(
 
         staticUtilities[targetUtility] = {}
         addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacing-' + styleName);
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-spacingTop-' + styleName);
+        // addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-nestedSpacingTop-' + styleName);
     }
 );
 

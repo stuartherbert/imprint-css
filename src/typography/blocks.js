@@ -45,6 +45,8 @@ STYLE_NAMES.forEach(
         staticUtilities[targetUtility] = {}
         addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontsize-' + styleName);
         addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontweight-' + styleName);
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-lineheight-' + styleName);
+        // addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-nestedSpacingTop-' + styleName);
     }
 );
 

@@ -43,7 +43,8 @@ STYLE_NAMES.forEach(
         const targetUtility = '.imprint-inline-' + styleName;
 
         staticUtilities[targetUtility] = {}
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-lineheight-' + styleName);
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontsize-' + styleName);
+        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontweight-' + styleName);
     }
 );
 definitionStore.staticUtilities.styles = {
