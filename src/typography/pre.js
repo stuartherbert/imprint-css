@@ -37,7 +37,7 @@ definitionStore.defaultStyling.styles = {
     ...definitionStore.defaultStyling.styles,
     ...{
         'code, pre, samp': {
-            'font-family': 'var(--imprint-monospace)',
+            'font-family': 'var(--imprint-font-monospace)',
         },
 
         ':not(pre) > code': {
