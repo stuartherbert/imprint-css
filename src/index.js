@@ -41,9 +41,9 @@ require("./typography/font-weight");
 require('./typography/font-spacing');
 require('./typography/font-sizing');
 require('./typography/line-heights');
+require("./typography/spacing");
+require("./typography/inline-blocks");
 require('./typography/blocks');
-require("./typography/inline-blocks.js");
-require("./typography/spacing.js");
 
 require("./typography/headings");
 require("./typography/text");
@@ -75,8 +75,14 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
         ":root": {
             ...definitionStore.staticUtilities.vars,
             ...definitionStore.staticComponents.vars,
+            ...definitionStore.defaultStyling.vars,
         }
     });
+    addUtilities({
+        ".imprint": {
+            ...definitionStore.defaultStyling.styles,
+        }
+    })
     addUtilities({...definitionStore.staticUtilities.styles});
     addUtilities({...definitionStore.staticComponents.styles});
 },

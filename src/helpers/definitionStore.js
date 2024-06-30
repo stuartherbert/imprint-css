@@ -42,6 +42,10 @@ module.exports = {
         relunits: {},
         spacing: {},
     },
+    defaultStyling: {
+        vars: {},
+        styles: {},
+    },
     staticUtilities: {
         vars: {},
         styles: {},

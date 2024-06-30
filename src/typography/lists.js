@@ -1,14 +1,14 @@
 const definitionStore = require("../helpers/definitionStore");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-list-indent': '2.5em',
     },
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         "ul:not(nav ul), .imprint-ul": {
             'list-style-type': 'disc',

@@ -37,9 +37,9 @@ const definitionStore = require('../helpers/definitionStore.js');
 definitionStore.staticUtilities.vars = {
     ...definitionStore.staticUtilities.vars,
     ...{
-        '--imprint-sans-serif': 'system-ui, sans-serif !default',
-        '--imprint-serif': 'serif',
-        '--imprint-system': 'system-ui',
-        '--imprint-monospace': "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace",
+        '--imprint-font-sans-serif': 'system-ui, sans-serif !default',
+        '--imprint-font-serif': 'serif',
+        '--imprint-font-system': 'system-ui',
+        '--imprint-font-monospace': "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace",
     },
 }

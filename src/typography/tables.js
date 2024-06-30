@@ -1,8 +1,8 @@
 const definitionStore = require("../helpers/definitionStore");
 const { colors } = require("../theme/colors");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         "--imprint-border-outer-color": colors['imprint-graphite'],
         "--imprint-border-outer-width": "2px",
@@ -17,8 +17,8 @@ definitionStore.staticUtilities.vars = {
     }
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         // deliberately left blank - NOT A BUG
         "table-default": {

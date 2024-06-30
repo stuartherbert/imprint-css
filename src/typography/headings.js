@@ -34,8 +34,8 @@
 
 const definitionStore = require("../helpers/definitionStore");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-h1-underline-width': '1px',
         '--imprint-h1-underline-style': 'solid',
@@ -43,8 +43,8 @@ definitionStore.staticUtilities.vars = {
     },
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         'h1': {
             '@apply imprint-block-canon imprint-spacing-canon': {},

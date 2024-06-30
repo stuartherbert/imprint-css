@@ -1,8 +1,8 @@
 const definitionStore = require("../helpers/definitionStore");
 const { colors } = require("../theme/colors");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-del-background-color': colors['imprint-palered'],
         '--imprint-ins-background-color': colors['imprint-palegreen'],
@@ -17,8 +17,8 @@ definitionStore.staticUtilities.vars = {
     },
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         'p': {
             '@apply imprint-block-bodycopy': {},

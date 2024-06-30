@@ -1,8 +1,8 @@
 const definitionStore = require("../helpers/definitionStore");
 const { colors } = require("../theme/colors");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-link-color': colors['ganbaro-blue']['500'],
         '--imprint-link-background-color': 'inherit',
@@ -22,8 +22,8 @@ definitionStore.staticUtilities.vars = {
     },
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         "a:not(nav a), .imprint-link": {
             'color': 'var(--imprint-link-color)',

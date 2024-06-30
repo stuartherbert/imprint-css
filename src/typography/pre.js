@@ -3,8 +3,8 @@ const definitionStore = require("../helpers/definitionStore");
 const { colors } = require("../theme/colors");
 const { rgb } = require("../helpers/colors");
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
+definitionStore.defaultStyling.vars = {
+    ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-block-mono-border-radius': '0.25rem',
 
@@ -33,8 +33,8 @@ definitionStore.staticUtilities.vars = {
     }
 }
 
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
+definitionStore.defaultStyling.styles = {
+    ...definitionStore.defaultStyling.styles,
     ...{
         'code, pre, samp': {
             'font-family': 'var(--imprint-monospace)',
