@@ -84,7 +84,7 @@ module.exports = plugin(function({ matchUtilities, addUtilities, addComponents, 
         }
     })
     addUtilities({...definitionStore.staticUtilities.styles});
-    addUtilities({...definitionStore.staticComponents.styles});
+    addComponents({...definitionStore.staticComponents.styles});
 },
 {
     theme: definitionStore.theme,
