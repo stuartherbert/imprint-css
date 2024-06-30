@@ -37,7 +37,7 @@ require("./variables/semantic");
 require("./typography/body");
 require("./typography/flow");
 require("./typography/fonts");
-require("./typography/font-modifiers");
+require("./typography/font-weight");
 require('./typography/font-spacing');
 require('./typography/font-sizing');
 require('./typography/line-heights');

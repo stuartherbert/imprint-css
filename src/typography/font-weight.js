@@ -35,6 +35,7 @@
 const definitionStore = require("../helpers/definitionStore");
 const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
 const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 // create the internal definitions
 TYPOGRAPHY_DEFINITIONS.forEach(
@@ -49,7 +50,7 @@ TYPOGRAPHY_DEFINITIONS.forEach(
 
         // add it to the internal list
         definitionStore.internalStyles[fontsStyleName] = {
-            "font-weight": fontWeight,
+            "font-weight": defaultTheme.fontWeight[fontWeight],
         }
     }
 );
