@@ -3,7 +3,7 @@ const definitionStore = require('../helpers/definitionStore.js');
 definitionStore.staticUtilities.vars = {
     ...definitionStore.staticUtilities.vars,
     ...{
-        '--imprint-prose-spacing': '1rem',
+        '--imprint-prose-spacing': '1em',
     },
 };
 
