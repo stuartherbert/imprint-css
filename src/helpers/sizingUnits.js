@@ -80,4 +80,5 @@ function relunit(newUnit) {
 
 module.exports = {
     relunit,
+    stripSuffix,
 }
