@@ -33,6 +33,7 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
+const { relunit } = require("../helpers/sizingUnits");
 
 definitionStore.defaultStyling.vars = {
     ...definitionStore.defaultStyling.vars,
@@ -47,30 +48,31 @@ definitionStore.defaultStyling.styles = {
     ...definitionStore.defaultStyling.styles,
     ...{
         'h1': {
-            '@apply imprint-block-canon imprint-spacing-canon': {},
+            '@apply imprint-block-canon': {},
         },
         'h1:nth-of-type(1)': {
+            'padding-bottom': relunit("6px"),
             'border-bottom': 'var(--imprint-h1-underline-width) var(--imprint-h1-underline-style) var(--imprint-h1-underline-color)',
         },
 
         'h2': {
-            '@apply imprint-block-trafalga imprint-spacing-trafalga': {},
+            '@apply imprint-block-trafalga': {},
         },
 
         'h3': {
-            '@apply imprint-block-doublepica imprint-spacing-doublepica': {},
+            '@apply imprint-block-doublepica': {},
         },
 
         'h4': {
-            '@apply imprint-block-greatprimer imprint-spacing-greatprimer': {},
+            '@apply imprint-block-greatprimer': {},
         },
 
         'h5': {
-            '@apply imprint-block-longprimer imprint-spacing-longprimer': {},
+            '@apply imprint-block-longprimer': {},
         },
 
         'h6': {
-            '@apply imprint-block-brevier imprint-spacing-brevier': {},
+            '@apply imprint-block-brevier': {},
         },
     }
 }
