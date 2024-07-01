@@ -61,7 +61,7 @@ TYPOGRAPHY_DEFINITIONS.forEach(
         }
 
         // make it available to use as a size unit too
-        definitionStore.theme.extend.spacing[pxFontsStyleName] = fontSizePx;
+        definitionStore.theme.extend.spacing[styleName + '-px'] = fontSizePx;
     }
 );
 
