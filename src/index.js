@@ -17,6 +17,7 @@ const definitionStore = require('./helpers/definitionStore.js');
 
 require("./sizing/screens.js");
 require("./sizing/spacing.js");
+require("./utilities/imprint-article");
 
 // ----------------------------------------------------------------
 //

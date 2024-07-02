@@ -34,64 +34,49 @@
 
 // this is the central container that we are populating
 const definitionStore = require("../helpers/definitionStore");
+const { objectMap } = require("../helpers/objectMap");
 
-// these are the screens that we want to add
-const screenDefinitions = {
-    'a': { 'max': "319px" },
-    'b': { 'min': "320px" },
-    'c': { 'min': '600px' },
-    'c-t': { 'raw': '(min-width:600px) and (pointer:corse)' },
-    'c-d': { 'raw': '(min-width:600px) and (pointer:fine)' },
-    'd': { 'min': '1920px' },
-};
+const SCREEN_DEFINITIONS = {
+    "a": {
+        theme: { "max": "319px" },
+        articleMaxWidth: "100%",
+    },
+    "b": {
+        theme: { "min": "320px" },
+        articleMaxWidth: "320px",
+    },
+    "c": {
+        theme: { "min": "600px" },
+        articleMaxWidth: "600px",
+    },
+    'c-t': {
+        theme: { 'raw': '(min-width:600px) and (pointer:corse)' },
+        articleMaxWidth: "600px",
+    },
+    'c-d': {
+        theme: { 'raw': '(min-width:600px) and (pointer:fine)' },
+        articleMaxWidth: "600px",
+    },
+    'd': {
+        theme: { 'min': '1920px' },
+        articleMaxWidth: "800px",
+    },
+}
+
+const ALL_SCREEN_NAMES = Object.getOwnPropertyNames(SCREEN_DEFINITIONS);
+const SCREEN_NAMES = ALL_SCREEN_NAMES.filter((screenName) => screenName.length === 1);
 
 definitionStore.theme.screens = {
     ...definitionStore.theme.screens,
-    ...screenDefinitions,
-}
-
-const ALL_SCREEN_NAMES = Object.getOwnPropertyNames(screenDefinitions);
-const SCREEN_NAMES = ALL_SCREEN_NAMES.filter((screenName) => screenName.length === 1);
-
-// these are the internal styles that we want to add
-const internalStyles = {
-    '.__imprint-container-a': {
-        'max-width': '100%',
-    },
-    '.__imprint-container-b': {
-        'max-width': '320px',
-    },
-    '.__imprint-container-c': {
-        'max-width': '600px',
-    },
-    '.__imprint-container-d': {
-        'max-width': '800px',
-    },
-}
-
-definitionStore.internalStyles = {
-    ...definitionStore.internalStyles,
-    ...internalStyles,
-}
-
-// these are the styles that we want to export
-const staticUtilities = {
-    '.imprint-container': {}
-};
-addInternalStyleForScreens(
-    staticUtilities[".imprint-container"],
-    ALL_SCREEN_NAMES,
-    ".__imprint-container",
-);
-
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
+    ...objectMap(
+        SCREEN_DEFINITIONS,
+        (screenDefinition) => screenDefinition.theme,
+    ),
 }
 
 function mediaQuery(screenName) {
     // shorthand
-    const screen = screenDefinitions[screenName];
+    const screen = SCREEN_DEFINITIONS[screenName];
 
     // robustness!
     if (screen === undefined) {
@@ -99,20 +84,20 @@ function mediaQuery(screenName) {
     }
 
     // special case - raw query
-    if (screen['raw'] !== undefined) {
-        return "@media (" + screen['raw'] + ')';
+    if (screen.theme['raw'] !== undefined) {
+        return "@media (" + screen.theme['raw'] + ')';
     }
 
     // general case
     const parts = [];
-    Object.getOwnPropertyNames(screen).forEach(
+    Object.getOwnPropertyNames(screen.theme).forEach(
         function(key) {
             switch (key) {
                 case "min":
-                    parts.push("min-width: " + screen[key]);
+                    parts.push("min-width: " + screen.theme[key]);
                     break;
                 case "max":
-                    parts.push("max-width: "  + screen[key]);
+                    parts.push("max-width: "  + screen.theme[key]);
 
                 default:
                     break;
@@ -148,4 +133,5 @@ module.exports = {
     mediaQuery,
     SCREEN_NAMES,
     ALL_SCREEN_NAMES,
+    SCREEN_DEFINITIONS,
 }
