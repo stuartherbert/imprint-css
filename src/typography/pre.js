@@ -70,6 +70,9 @@ definitionStore.defaultStyling.styles = {
             'border': 'var(--imprint-code-border)',
             'padding': 'var(--imprint-pre-padding)',
             'border-radius': 'var(--imprint-pre-border-radius)',
+            'overflow-x': 'auto',
+            'white-space': 'pre-wrap',
+            'word-wrap': 'break-word',
         },
 
         "pre:has(code)": {
