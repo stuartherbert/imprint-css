@@ -42,18 +42,18 @@ TYPOGRAPHY_DEFINITIONS.forEach(
     function({ styleName, screenName, fontSize}) {
         // what is our internal style called?
         const fontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontsize');
+        const fontSizePx = stripSuffix(fontSize) + "px";
 
         // add it to the internal list
         definitionStore.internalStyles[fontsStyleName] = {
-            "font-size": relunit(fontSize),
+            "font-size": fontSizePx,
         }
 
         // make it available to use as a size unit too!
-        definitionStore.theme.extend.spacing[styleName] = relunit(fontSize);
+        definitionStore.theme.extend.spacing[styleName] = fontSizePx;
 
         // what is our internal style called?
         const pxFontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontsize-px');
-        const fontSizePx = stripSuffix(fontSize) + "px";
 
         // add it to the internal list
         definitionStore.internalStyles[pxFontsStyleName] = {

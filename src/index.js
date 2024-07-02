@@ -17,7 +17,7 @@ const definitionStore = require('./helpers/definitionStore.js');
 
 require("./sizing/screens.js");
 require("./sizing/spacing.js");
-require("./utilities/imprint-article");
+// require("./utilities/imprint-article");
 
 // ----------------------------------------------------------------
 //
@@ -51,7 +51,7 @@ require("./typography/links");
 require("./typography/lists");
 require("./typography/pre");
 require("./typography/tables");
-require("./typography/main");
+// require("./typography/main");
 
 // ----------------------------------------------------------------
 //

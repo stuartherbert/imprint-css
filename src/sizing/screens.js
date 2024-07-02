@@ -35,31 +35,80 @@
 // this is the central container that we are populating
 const definitionStore = require("../helpers/definitionStore");
 const { objectMap } = require("../helpers/objectMap");
+const { buildStyleNameForScreen } = require("../helpers/styles");
 
 const SCREEN_DEFINITIONS = {
     "a": {
-        theme: { "max": "319px" },
+        theme: { "max": "640px" },
         articleMaxWidth: "100%",
     },
+    "a-t": {
+        theme: { "raw": "(max-width: 640px) and (hover: none)" },
+        description: "mobile phones (mostly in portrait)",
+    },
+    "a-d": {
+        theme: { 'raw': "(max-width: 640px) and (hover: hover)" },
+        description: "desktops and laptops",
+    },
     "b": {
-        theme: { "min": "320px" },
-        articleMaxWidth: "320px",
+        theme: { "min": "641px" },
+        articleMaxWidth: "100%",
+    },
+    "b-t": {
+        theme: { "raw": "(min-width: 641px) and (hover: none)" },
+        description: "(many) mobile phones in landscape, and small tablets (in portrait)",
+    },
+    "b-d": {
+        theme: { 'raw': "(min-width: 641px) and (hover: hover)" },
+        description: "desktops and laptops",
     },
     "c": {
-        theme: { "min": "600px" },
-        articleMaxWidth: "600px",
+        theme: { "min": "769px" },
+        articleMaxWidth: "100%",
     },
-    'c-t': {
-        theme: { 'raw': '(min-width:600px) and (pointer:corse)' },
-        articleMaxWidth: "600px",
+    "c-t": {
+        theme: { "raw": "(min-width: 769px) and (hover: none)" },
+        description: "regular tablets (in portrait)",
     },
-    'c-d': {
-        theme: { 'raw': '(min-width:600px) and (pointer:fine)' },
-        articleMaxWidth: "600px",
+    "c-d": {
+        theme: { "raw": "(min-width: 641px) and (hover: hover)" },
+        description: "desktops and laptops",
     },
-    'd': {
-        theme: { 'min': '1920px' },
-        articleMaxWidth: "800px",
+    "d": {
+        theme: { "min": "1025px" },
+        articleMaxWidth: "1024px",
+    },
+    "d-t": {
+        theme: { "raw": "(min-width: 1025px) and (hover: none)" },
+        description: "large tablets (in portrait) and regular tablets (in landscape)",
+    },
+    "d-d": {
+        theme: { "raw": "(min-width: 1025px) and (hover: hover)" },
+        description: "desktops and laptops",
+    },
+    "e": {
+        theme: { "min": "1280px" },
+        articleMaxWidth: "1280px",
+    },
+    "e-t": {
+        theme: { "raw": "(min-width: 1280px) and (hover: none)" },
+        description: "large tablets (in landscape)",
+    },
+    "e-d": {
+        theme: { "raw": "(min-width: 1280px) and (hover: hover)" },
+        description: "desktops and laptops",
+    },
+    "f": {
+        theme: { "min": "1920px" },
+        description: "full-screen windows",
+    },
+    "f-t": {
+        theme: { "raw": "(min-width:1920px) and (hover: none)" },
+        description: "large tablets (in landscape)",
+    },
+    "f-d": {
+        theme: { "raw": "(min-width:1920px) and (hover: hover)" },
+        description: "desktops and laptops",
     },
 }
 
@@ -117,6 +166,15 @@ function applyStylesToScreen(screenName, styles) {
 function addInternalStyleForScreens(container, screenNames, style) {
     screenNames.forEach(
         function(screenName) {
+            // the internal style that we are targetting
+            const internalStyleName = buildStyleNameForScreen(screenName, style);
+
+            // special case - no definition exists
+            if (definitionStore.internalStyles[internalStyleName] === undefined) {
+                return;
+            }
+
+            // general case - we have a style for this screen
             const cssQuery = mediaQuery(screenName);
 
             container[cssQuery] = {

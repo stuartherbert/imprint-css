@@ -33,7 +33,7 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit } = require("../helpers/sizingUnits");
+const { relunit, stripSuffix } = require("../helpers/sizingUnits");
 const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
 const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
 
@@ -45,21 +45,21 @@ TYPOGRAPHY_DEFINITIONS.forEach(
                 name: 'spacing',
                 value: marginBottom,
                 style: {
-                    'margin-bottom': relunit(marginBottom),
+                    'margin-bottom': marginBottom ? stripSuffix(marginBottom) + "px" : undefined,
                 },
             },
             {
                 name: 'spacingTop',
                 value: marginTop,
                 style: {
-                    'margin-top': relunit(marginTop),
+                    'margin-top': marginTop ? stripSuffix(marginTop) + "px" : undefined,
                 },
             },
             {
                 name: 'nestedSpacingTop',
                 value: nestedMarginTop,
                 style: {
-                    'margin-top': relunit(nestedMarginTop),
+                    'margin-top': nestedMarginTop ? stripSuffix(nestedMarginTop) + "px" : undefined,
                 },
             },
         ]

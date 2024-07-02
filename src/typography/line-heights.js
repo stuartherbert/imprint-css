@@ -33,7 +33,7 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit } = require("../helpers/sizingUnits");
+const { relunit, stripSuffix } = require("../helpers/sizingUnits");
 const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
 const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
 
@@ -45,7 +45,7 @@ TYPOGRAPHY_DEFINITIONS.forEach(
 
         // add it to the internal list
         definitionStore.internalStyles[internalStyleName] = {
-            "line-height": relunit(lineHeight),
+            "line-height": stripSuffix(lineHeight) + "px",
         }
     }
 );
