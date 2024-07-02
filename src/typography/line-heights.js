@@ -33,34 +33,19 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit, stripSuffix } = require("../helpers/sizingUnits");
-const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
+const { relunit } = require("../helpers/sizingUnits");
+const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
+const { buildStyleName } = require("../helpers/styles");
 
-// create the internal definitions
+// create the utility classes
 TYPOGRAPHY_DEFINITIONS.forEach(
     function({ styleName, screenName, lineHeight}) {
         // what is our internal style called?
-        const internalStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'lineheight');
+        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
 
         // add it to the internal list
-        definitionStore.internalStyles[internalStyleName] = {
-            "line-height": stripSuffix(lineHeight) + "px",
+        definitionStore.staticUtilities.styles[cssSelector] = {
+            "line-height": relunit(lineHeight),
         }
     }
 );
-
-// create the utility classes
-const staticUtilities = {};
-STYLE_NAMES.forEach(
-    function(styleName) {
-        const targetUtility = '.imprint-lineheight-' + styleName;
-
-        staticUtilities[targetUtility] = {};
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-lineheight-' + styleName);
-    }
-);
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
-}

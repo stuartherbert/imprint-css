@@ -15,9 +15,10 @@ const definitionStore = require('./helpers/definitionStore.js');
 //
 // ----------------------------------------------------------------
 
-require("./sizing/screens.js");
-require("./sizing/spacing.js");
-// require("./utilities/imprint-article");
+require("./sizing/screens");
+require("./sizing/spacing");
+require("./sizing/bodyFontSize");
+require("./utilities/imprint-article");
 
 // ----------------------------------------------------------------
 //
@@ -41,11 +42,13 @@ require("./typography/font-weight");
 require('./typography/font-spacing');
 require('./typography/font-sizing');
 require('./typography/line-heights');
-require("./typography/spacing");
 require("./typography/inline-blocks");
 require('./typography/blocks');
-
 require("./typography/headings");
+
+// console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
+// process.exit(1);
+
 require("./typography/text");
 require("./typography/links");
 require("./typography/lists");
@@ -67,8 +70,6 @@ require("./components/inner");
 require("./components/panel");
 // const colorSwatch = require("./components/color-swatch");
 
-// console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
-// process.exit(1);
 
 // make sure we can use our new spacing units for text-* and leading-*
 // utilities too

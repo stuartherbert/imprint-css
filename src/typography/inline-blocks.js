@@ -33,18 +33,19 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
+const { buildStyleName } = require("../helpers/styles");
 const { STYLE_NAMES } = require("./__definitions");
 
 // create the utility classes
 const staticUtilities = {};
 STYLE_NAMES.forEach(
     function(styleName) {
-        const targetUtility = '.imprint-inline-' + styleName;
+        const targetUtility = buildStyleName('.imprint-inline', styleName);
 
-        staticUtilities[targetUtility] = {}
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontsize-' + styleName);
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontweight-' + styleName);
+        staticUtilities[targetUtility] = {
+            ...definitionStore.staticUtilities.styles['.imprint-fontsize-' + styleName],
+            ...definitionStore.staticUtilities.styles['.imprint-fontweight-' + styleName],
+        }
     }
 );
 definitionStore.staticUtilities.styles = {

@@ -33,53 +33,22 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit, stripSuffix } = require("../helpers/sizingUnits");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
-const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
+const { relunit } = require("../helpers/sizingUnits");
+const { buildStyleName } = require("../helpers/styles");
+const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
 
-// create the internal definitions
+// create the utility classes
 TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, fontSize}) {
+    function({ styleName, fontSize}) {
         // what is our internal style called?
-        const fontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontsize');
-        const fontSizePx = stripSuffix(fontSize) + "px";
+        const cssSelector = buildStyleName('.imprint-fontsize', styleName);
 
         // add it to the internal list
-        definitionStore.internalStyles[fontsStyleName] = {
-            "font-size": fontSizePx,
+        definitionStore.staticUtilities.styles[cssSelector] = {
+            "font-size": relunit(fontSize),
         }
 
         // make it available to use as a size unit too!
-        definitionStore.theme.extend.spacing[styleName] = fontSizePx;
-
-        // what is our internal style called?
-        const pxFontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontsize-px');
-
-        // add it to the internal list
-        definitionStore.internalStyles[pxFontsStyleName] = {
-            "font-size": fontSizePx,
-        }
-
-        // make it available to use as a size unit too
-        definitionStore.theme.extend.spacing[styleName + '-px'] = fontSizePx;
+        definitionStore.theme.extend.spacing[styleName] = relunit(fontSize);
     }
 );
-
-// create the utility classes
-const staticUtilities = {};
-STYLE_NAMES.forEach(
-    function(styleName) {
-        ['fontsize', 'fontsize-px'].forEach(
-            function(typeName) {
-                const targetUtility = '.imprint-' + typeName + '-' + styleName;
-
-                staticUtilities[targetUtility] = {};
-                addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-' + typeName + '-' + styleName);
-            }
-        )
-    }
-);
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
-}

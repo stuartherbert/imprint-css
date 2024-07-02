@@ -45,10 +45,12 @@ const SCREEN_DEFINITIONS = {
     "a-t": {
         theme: { "raw": "(max-width: 640px) and (hover: none)" },
         description: "mobile phones (mostly in portrait)",
+        bodyFontSize: "17px",
     },
     "a-d": {
         theme: { 'raw': "(max-width: 640px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
     "b": {
         theme: { "min": "641px" },
@@ -57,10 +59,12 @@ const SCREEN_DEFINITIONS = {
     "b-t": {
         theme: { "raw": "(min-width: 641px) and (hover: none)" },
         description: "(many) mobile phones in landscape, and small tablets (in portrait)",
+        bodyFontSize: "17px",
     },
     "b-d": {
         theme: { 'raw': "(min-width: 641px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
     "c": {
         theme: { "min": "769px" },
@@ -69,34 +73,40 @@ const SCREEN_DEFINITIONS = {
     "c-t": {
         theme: { "raw": "(min-width: 769px) and (hover: none)" },
         description: "regular tablets (in portrait)",
+        bodyFontSize: "16px",
     },
     "c-d": {
         theme: { "raw": "(min-width: 641px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
     "d": {
         theme: { "min": "1025px" },
-        articleMaxWidth: "1024px",
+        articleMaxWidth: "60rem",
     },
     "d-t": {
         theme: { "raw": "(min-width: 1025px) and (hover: none)" },
         description: "large tablets (in portrait) and regular tablets (in landscape)",
+        bodyFontSize: "16px",
     },
     "d-d": {
         theme: { "raw": "(min-width: 1025px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
     "e": {
         theme: { "min": "1280px" },
-        articleMaxWidth: "1280px",
+        articleMaxWidth: "60rem",
     },
     "e-t": {
         theme: { "raw": "(min-width: 1280px) and (hover: none)" },
         description: "large tablets (in landscape)",
+        bodyFontSize: "16px",
     },
     "e-d": {
         theme: { "raw": "(min-width: 1280px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
     "f": {
         theme: { "min": "1920px" },
@@ -105,10 +115,12 @@ const SCREEN_DEFINITIONS = {
     "f-t": {
         theme: { "raw": "(min-width:1920px) and (hover: none)" },
         description: "large tablets (in landscape)",
+        bodyFontSize: "16px",
     },
     "f-d": {
         theme: { "raw": "(min-width:1920px) and (hover: hover)" },
         description: "desktops and laptops",
+        bodyFontSize: "16px",
     },
 }
 

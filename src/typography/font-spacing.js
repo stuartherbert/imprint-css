@@ -34,32 +34,33 @@
 
 const definitionStore = require("../helpers/definitionStore");
 const { relunit, stripSuffix } = require("../helpers/sizingUnits");
+const { buildStyleName } = require("../helpers/styles");
 const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
 const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
 
-// create the 'internal' utility definitions
+// create the utility classes
 TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, marginBottom, marginTop, nestedMarginTop}) {
+    function({ styleName, marginBottom, marginTop, nestedMarginTop}) {
         const stylesToBuild = [
             {
                 name: 'spacing',
                 value: marginBottom,
                 style: {
-                    'margin-bottom': marginBottom ? stripSuffix(marginBottom) + "px" : undefined,
+                    'margin-bottom': relunit(marginBottom),
                 },
             },
             {
                 name: 'spacingTop',
                 value: marginTop,
                 style: {
-                    'margin-top': marginTop ? stripSuffix(marginTop) + "px" : undefined,
+                    'margin-top': relunit(marginTop),
                 },
             },
             {
                 name: 'nestedSpacingTop',
                 value: nestedMarginTop,
                 style: {
-                    'margin-top': nestedMarginTop ? stripSuffix(nestedMarginTop) + "px" : undefined,
+                    'margin-top': relunit(nestedMarginTop),
                 },
             },
         ]
@@ -74,30 +75,11 @@ TYPOGRAPHY_DEFINITIONS.forEach(
                 // yes we do
 
                 // what will it be called?
-                const internalStyleName = internalTypographyStyleSelectorName(styleName, screenName, styleToBuild.name);
+                const cssSelector = buildStyleName('.imprint', styleToBuild.name, styleName);
 
                 // add it to the list
-                definitionStore.internalStyles[internalStyleName] = styleToBuild.style;
+                definitionStore.staticUtilities.styles[cssSelector] = styleToBuild.style;
             }
         )
     }
 );
-
-// create the utility classes
-const staticUtilities = {};
-STYLE_NAMES.forEach(
-    function(styleName) {
-        ['spacing', 'spacingTop', 'nestedSpacingTop'].forEach (
-            function(typeName) {
-                const targetUtility = '.imprint-' + typeName + '-' + styleName;
-
-                staticUtilities[targetUtility] = {};
-                addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-' + typeName + '-' + styleName);
-            }
-        )
-    }
-);
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
-}

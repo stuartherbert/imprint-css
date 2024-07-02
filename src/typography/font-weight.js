@@ -33,39 +33,24 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
-const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
+const { buildStyleName } = require("../helpers/styles");
+const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
 const defaultTheme = require('tailwindcss/defaultTheme');
 
-// create the internal definitions
+// create the utility classes
 TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, fontWeight}) {
+    function({ styleName, fontWeight}) {
         // do we have a font-weight to apply?
         if (fontWeight === undefined) {
             return;
         }
 
         // what is our internal style called?
-        const fontsStyleName = internalTypographyStyleSelectorName(styleName, screenName, 'fontweight');
+        const fontsStyleName = buildStyleName('.imprint-fontweight', styleName);
 
         // add it to the internal list
-        definitionStore.internalStyles[fontsStyleName] = {
+        definitionStore.staticUtilities.styles[fontsStyleName] = {
             "font-weight": defaultTheme.fontWeight[fontWeight],
         }
     }
 );
-
-// create the utility classes
-const staticUtilities = {};
-STYLE_NAMES.forEach(
-    function(styleName) {
-        const targetUtility = '.imprint-fontweight-' + styleName;
-
-        staticUtilities[targetUtility] = {};
-        addInternalStyleForScreens(staticUtilities[targetUtility], ALL_SCREEN_NAMES, '.__imprint-fontweight-' + styleName);
-    }
-);
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
-}
