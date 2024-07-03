@@ -76,7 +76,7 @@ const SCREEN_DEFINITIONS = {
         bodyFontSize: "16px",
     },
     "c-d": {
-        theme: { "raw": "(min-width: 641px) and (hover: hover)" },
+        theme: { "raw": "(min-width: 769px) and (hover: hover)" },
         description: "desktops and laptops",
         bodyFontSize: "16px",
     },
