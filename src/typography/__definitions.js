@@ -8,11 +8,11 @@
  * based on group D from: https://www.bbc.co.uk/gel/features/typography
  */
 const definitions = {
-    'canon': '44/48 4su/-/8su bold',
-    'trafalga': '32/36 4su/-/8su bold',
-    'paragon': '28/32 4su/-/8su bold',
-    'doublepica': '24/28 4su/-/8su semibold',
-    'greatprimer': '20/24 4su/-/8su bold',
+    'canon': '40/44 4su/-/8su bold',
+    'trafalga': '30/34 4su/-/8su bold',
+    'paragon': '26/30 4su/-/8su bold',
+    'doublepica': '22/26 4su/-/8su 500',
+    'greatprimer': '18/22 4su/-/8su bold',
     'bodycopy': '16/22 4su/-/8su normal',
     'pica': '16/20 4su/-/8su normal',
     'longprimer': '14/18 4su/-/8su normal',

@@ -50,7 +50,7 @@ TYPOGRAPHY_DEFINITIONS.forEach(
 
         // add it to the internal list
         definitionStore.staticUtilities.styles[fontsStyleName] = {
-            "font-weight": defaultTheme.fontWeight[fontWeight],
+            "font-weight": defaultTheme.fontWeight[fontWeight] || fontWeight,
         }
     }
 );

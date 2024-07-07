@@ -45,7 +45,7 @@ const SCREEN_DEFINITIONS = {
     "a-t": {
         theme: { "raw": "(max-width: 640px) and (hover: none)" },
         description: "mobile phones (mostly in portrait)",
-        bodyFontSize: "17px",
+        bodyFontSize: "18px",
     },
     "a-d": {
         theme: { 'raw': "(max-width: 640px) and (hover: hover)" },
@@ -59,7 +59,7 @@ const SCREEN_DEFINITIONS = {
     "b-t": {
         theme: { "raw": "(min-width: 641px) and (hover: none)" },
         description: "(many) mobile phones in landscape, and small tablets (in portrait)",
-        bodyFontSize: "17px",
+        bodyFontSize: "20px",
     },
     "b-d": {
         theme: { 'raw': "(min-width: 641px) and (hover: hover)" },
@@ -73,7 +73,7 @@ const SCREEN_DEFINITIONS = {
     "c-t": {
         theme: { "raw": "(min-width: 769px) and (hover: none)" },
         description: "regular tablets (in portrait)",
-        bodyFontSize: "16px",
+        bodyFontSize: "18px",
     },
     "c-d": {
         theme: { "raw": "(min-width: 769px) and (hover: hover)" },
@@ -87,7 +87,7 @@ const SCREEN_DEFINITIONS = {
     "d-t": {
         theme: { "raw": "(min-width: 1025px) and (hover: none)" },
         description: "large tablets (in portrait) and regular tablets (in landscape)",
-        bodyFontSize: "16px",
+        bodyFontSize: "18px",
     },
     "d-d": {
         theme: { "raw": "(min-width: 1025px) and (hover: hover)" },

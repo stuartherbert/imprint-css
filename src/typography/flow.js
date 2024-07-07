@@ -13,5 +13,8 @@ definitionStore.staticUtilities.styles = {
         ".imprint-prose > * + *, .imprint-inner > * + *, .imprint-prose section > *": {
             'margin-top': 'var(--imprint-prose-spacing)',
         },
+        ".imprint-prose > h2": {
+            'margin-top': '1.5em',
+        },
     },
 };
