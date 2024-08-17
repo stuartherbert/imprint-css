@@ -1,6 +1,40 @@
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
+
 const definitionStore = require("../helpers/definitionStore");
 
-const { colors } = require("../theme/colors");
+const { colors } = require("../colors/colors");
 const { rgb } = require("../helpers/colors");
 
 definitionStore.defaultStyling.vars = {
@@ -10,44 +44,60 @@ definitionStore.defaultStyling.vars = {
 
         '--imprint-inline-mono-size': '0.85em',
         '--imprint-inline-mono-border-radius': '0.25rem',
-        '--imprint-inline-mono-padding': '0.1rem 0.2rem',
+        '--imprint-inline-mono-padding': '0.1em 0.2em',
 
-        '--imprint-code-background-color': rgb(colors['imprint-palered'], '1'),
-        '--imprint-code-color': colors['ganbaro-red']['500'],
-        '--imprint-code-border-color': colors['imprint-lightgray'],
-        '--imprint-code-border': '1px solid var(--imprint-code-border-color)',
+        '--imprint-code-border': '1px solid var(--imprint-semantic-code-border-color)',
         '--imprint-code-padding': 'var(--imprint-inline-mono-padding)',
         '--imprint-code-border-radius': 'var(--imprint-inline-mono-border-radius)',
 
-        '--imprint-pre-color': colors['imprint-nero'],
-        '--imprint-pre-background-color': "var(--imprint-shaded-background-color)",
         '--imprint-pre-padding': '0.5rem 1rem',
         '--imprint-pre-border-radius': 'var(--imprint-block-mono-border-radius)',
 
-        '--imprint-samp-color': 'inherit',
-        '--imprint-samp-background-color': rgb(colors['imprint-palered'], '0.66'),
         '--imprint-samp-border-radius': 'var(--imprint-inline-mono-border-radius)',
         '--imprint-samp-padding': 'var(--imprint-inline-mono-padding)',
-
-        '--imprint-code-example-line-no-color': rgb(colors['imprint-gray'], '1'),
     }
 }
 
 definitionStore.defaultStyling.styles = {
     ...definitionStore.defaultStyling.styles,
     ...{
-        'code, pre, samp': {
+        '.imprint-pre': {
+            'font-family': 'var(--imprint-font-monospace)',
+            '@apply imprint-block-bodycopy': {},
+            'font-size': 'var(--imprint-inline-mono-size)',
+            'color': 'var(--imprint-semantic-pre-color)',
+            'background-color': 'var(--imprint-semantic-pre-background-color)',
+            'border': 'var(--imprint-code-border)',
+            'padding': 'var(--imprint-pre-padding)',
+            'border-radius': 'var(--imprint-pre-border-radius)',
+            'overflow-x': 'auto',
+            'white-space': 'pre-wrap',
+            'word-wrap': 'break-word',
+        },
+        '.imprint-code': {
+            'font-family': 'var(--imprint-font-monospace)',
+            'font-size': 'var(--imprint-inline-mono-size)',
+            'padding': 'var(--imprint-code-padding)',
+            'background-color': 'var(--imprint-semantic-code-background-color)',
+            'color': 'var(--imprint-semantic-code-color)',
+            'border-radius': 'var(--imprint-code-border-radius)',
+            'overflow-wrap': 'break-word',
+            'white-space': 'pre-wrap',
+            'hyphens': 'none',
+        },
+
+        'code, pre, samp, tt': {
             'font-family': 'var(--imprint-font-monospace)',
         },
 
-        ':not(pre) > code': {
+        ':not(pre) > code, tt': {
             'font-size': 'var(--imprint-inline-mono-size)',
             'padding': 'var(--imprint-code-padding)',
-            'background-color': 'var(--imprint-code-background-color)',
-            'color': 'var(--imprint-code-color)',
-            // 'border': 'var(--imprint-code-border)',
+            'background-color': 'var(--imprint-semantic-code-background-color)',
+            'color': 'var(--imprint-semantic-code-color)',
             'border-radius': 'var(--imprint-code-border-radius)',
             'overflow-wrap': 'break-word',
+            'white-space': 'pre-wrap',
             'hyphens': 'none',
         },
 
@@ -55,7 +105,7 @@ definitionStore.defaultStyling.styles = {
             'font-size': 'var(--imprint-inline-mono-size)',
             'padding': 'var(--imprint-samp-padding)',
             'background-color': 'var(--imprint-samp-background-color)',
-            'color': 'var(--imprint-samp-color)',
+            'color': 'var(--imprint-semantic-samp-color)',
             'border': 'var(--imprint-code-border)',
             'border-radius': 'var(--imprint-samp-border-radius)',
             'overflow-wrap': 'break-word',
@@ -65,8 +115,8 @@ definitionStore.defaultStyling.styles = {
         "pre:not(:has(:not(code)))": {
             '@apply imprint-block-bodycopy': {},
             'font-size': 'var(--imprint-inline-mono-size)',
-            'color': 'var(--imprint-pre-color)',
-            'background-color': 'var(--imprint-pre-background-color)',
+            'color': 'var(--imprint-semantic-pre-color)',
+            'background-color': 'var(--imprint-semantic-pre-background-color)',
             'border': 'var(--imprint-code-border)',
             'padding': 'var(--imprint-pre-padding)',
             'border-radius': 'var(--imprint-pre-border-radius)',

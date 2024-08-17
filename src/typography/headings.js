@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2023-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -33,14 +33,13 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit } = require("../helpers/sizingUnits");
 
 definitionStore.defaultStyling.vars = {
     ...definitionStore.defaultStyling.vars,
     ...{
         '--imprint-h1-underline-width': '1px',
         '--imprint-h1-underline-style': 'solid',
-        '--imprint-h1-underline-color': 'var(--imprint-border-outer-color)',
+        '--imprint-h1-underline-color': 'var(--imprint-semantic-border-outer-color)',
     },
 }
 
@@ -51,7 +50,7 @@ definitionStore.defaultStyling.styles = {
             '@apply imprint-block-canon imprint-fontweight-canon': {},
         },
         'h1:nth-of-type(1)': {
-            'padding-bottom': relunit("6px"),
+            'padding-bottom': definitionStore.rootPixel("6px"),
             'border-bottom': 'var(--imprint-h1-underline-width) var(--imprint-h1-underline-style) var(--imprint-h1-underline-color)',
         },
 

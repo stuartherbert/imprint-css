@@ -1,52 +1,57 @@
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
+
 const definitionStore = require("../helpers/definitionStore");
 
 definitionStore.staticComponents.styles = {
     ...definitionStore.staticComponents.styles,
     ...{
         ".--standout": {
-            "@apply shadow-md shadow-imprint-gray/90": {},
+            "@apply shadow shadow-[--imprint-semantic-box-shadow-color]": {},
         },
-        ".--standout.--faded": {
-            "@apply shadow-imprint-palegray": {},
+        ".--standout-sm": {
+            "@apply shadow-sm shadow-[--imprint-semantic-box-shadow-color]": {},
         },
-        ".--standout.--disabled": {
-            "@apply shadow-imprint-gray/60": {},
+        ".--standout-md": {
+            "@apply shadow-md shadow-[--imprint-semantic-box-shadow-color]": {},
+        },
+        ".--standout-lg": {
+            "@apply shadow-lg shadow-[--imprint-semantic-box-shadow-color]": {},
         },
         ".--shaded": {
-            "--background-color": "var(--imprint-shaded-background-color) !important",
-            "background-color": "var(--imprint-shaded-background-color) !important",
-        },
-        ".--shaded.--faded": {
-            "--background-color": "var(--imprint-faded-shaded-background-color) !important",
-            "background-color": "var(--imprint-faded-shaded-background-color) !important",
-        },
-        ".--shaded.--disabled": {
-            "--background-color": "var(--imprint-disabled-shaded-background-color) !important",
-            "background-color": "var(--imprint-shaded-disabled-background-color) !important",
-        },
-        ".--shaded.--info": {
-            "--background-color": "var(--imprint-info-shaded-background-color) !important",
-            "background-color": "var(--imprint-info-shaded-background-color) !important",
-        },
-        ".--shaded.--success": {
-            "--background-color": "var(--imprint-success-shaded-background-color) !important",
-            "background-color": "var(--imprint-success-shaded-background-color) !important",
-        },
-        ".--shaded.--warning": {
-            "--background-color": "var(--imprint-warning-shaded-background-color) !important",
-            "background-color": "var(--imprint-warning-shaded-background-color) !important",
-        },
-        ".--shaded.--danger": {
-            "--background-color": "var(--imprint-danger-background-color) !important",
-            "background-color": "var(--imprint-danger-shaded-background-color) !important",
-        },
-        ".--shaded.--primary": {
-            "--background-color": "var(--imprint-primary-shaded-background-color) !important",
-            "background-color": "var(--imprint-primary-shaded-background-color) !important",
-        },
-        ".--shaded.--secondary": {
-            "--background-color": "var(--imprint-secondary-shaded-background-color) !important",
-            "background-color": "var(--imprint-secondary-shaded-background-color) !important",
+            "background-color": "var(--imprint-semantic-shaded-background-color)",
+            "color": "var(--imprint-semantic-shaded-color)",
         },
     },
 }

@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2023-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -34,53 +34,48 @@
 
 // this is the central container that we are populating
 const definitionStore = require("../helpers/definitionStore");
-const { SCREEN_DEFINITIONS, ALL_SCREEN_NAMES, addInternalStyleForScreens, mediaQuery } = require("../sizing/screens");
+const { DEVICE_GROUPS, ALL_DEVICE_NAMES, addInternalStyleForScreens, mediaQuery } = require("../sizing/devices");
 
-// these are the internal styles that we want to add
-const internalStyles = {}
-ALL_SCREEN_NAMES.forEach(
+/** @type {import('../../types/index.js').StaticUtility} */
+const settings = {
+    vars: {
+        "--imprint-article-width": {
+            name: "--imprint-article-width",
+            value: DEVICE_GROUPS.a.articleMaxWidth,
+            type: "size",
+            description: "default max width for an article",
+            valueDescription: "",
+        },
+    },
+    styles: {
+        ".imprint-article": {
+            "max-width": "var(--imprint-article-width)",
+        },
+    },
+    internalStyles: {},
+}
+
+ALL_DEVICE_NAMES.forEach(
     function(screenName) {
-        const target = '.__imprint-article-' + screenName;
-
-        internalStyles[target] = {
-            'max-width': SCREEN_DEFINITIONS[screenName].articleMaxWidth,
+        if (DEVICE_GROUPS[screenName].articleMaxWidth === undefined) {
+            return;
         }
-    }
-)
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
-    ...{
-        "--imprint-article-width": SCREEN_DEFINITIONS['a'].articleMaxWidth,
-    }
-}
+        const varName = "--imprint-article-width-" + screenName;
+        settings.vars[varName] = {
+            name: varName,
+            value: DEVICE_GROUPS[screenName].articleMaxWidth,
+            type: "size",
+            description: "max article width for screen " + screenName,
+            valueDescription: "",
+        }
 
-definitionStore.internalStyles = {
-    ...definitionStore.internalStyles,
-    ...internalStyles,
-}
-
-// these are the styles that we want to export
-const staticUtilities = {
-    '.imprint-article': {}
-};
-addInternalStyleForScreens(
-    staticUtilities[".imprint-article"],
-    ALL_SCREEN_NAMES,
-    ".__imprint-article",
-);
-ALL_SCREEN_NAMES.forEach(
-    function(screenName) {
-        staticUtilities[mediaQuery(screenName)] = {
+        settings.styles[mediaQuery(screenName)] = {
             ":root": {
-                "--imprint-article-width": SCREEN_DEFINITIONS[screenName].articleMaxWidth,
+                "--imprint-article-width": "var(" + varName + ")",
             },
         }
     }
 )
 
-
-definitionStore.staticUtilities.styles = {
-    ...definitionStore.staticUtilities.styles,
-    ...staticUtilities,
-}
+definitionStore.addStaticUtility("imprint-article", settings);

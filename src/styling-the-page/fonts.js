@@ -32,22 +32,44 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
-const { buildStyleName } = require("../helpers/styles");
+const definitionStore = require('../helpers/definitionStore.js');
 
-// create the utility classes
-TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, lineHeight}) {
-        // what is our internal style called?
-        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
-
-        // remember our definition, for our auto-docs
-        definitionStore.sizing.lineheights[styleName] = definitionStore.rootPixel(lineHeight);
-
-        // add it to the internal list
-        definitionStore.staticUtilities.styles[cssSelector] = {
-            "line-height": definitionStore.rootPixel(lineHeight),
-        }
+/** @type {import('../../types/index.js').StaticUtility} */
+const settings = {
+    vars: {
+        "--imprint-font-sans-serif": {
+            name: "--imprint-font-sans-serif",
+            value: "ui-sans-serif, sans-serif",
+            type: "font-family",
+            description: "sans-serif fonts",
+            valueDescription: "",
+        },
+        "--imprint-font-serif": {
+            name: "--imprint-font-serif",
+            value: "ui-serif, serif",
+            type: "font-family",
+            description: "serif fonts",
+            valueDescription: "",
+        },
+        "--imprint-font-monospace": {
+            name: "--imprint-font-monospace",
+            value: "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', ui-monospace, monospace",
+            type: "font-family",
+            description: "monospaced fonts",
+            valueDescription: "",
+        },
+    },
+    styles: {
+        ".imprint-font-sans-serif": {
+            "font-family": "var(--imprint-font-sans-serif)",
+        },
+        ".imprint-font-serif": {
+            "font-family": "var(--imprint-font-serif)",
+        },
+        ".imprint-font-monospace": {
+            "font-family": "var(--imprint-font-monospace)",
+        },
     }
-);
+}
+
+definitionStore.addStaticUtility("font-families", settings);

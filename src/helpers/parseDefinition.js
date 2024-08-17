@@ -33,57 +33,18 @@
 //
 
 /**
- * our size definitions are:
  *
- * font-size/line-height
- * bottom-margin/top-margin-always/top-margin-nested
- * font-weight
- *
- * based on group D from: https://www.bbc.co.uk/gel/features/typography
+ * @param {string} definition
+ * @param {string[][]} groupsMapping
+ * @param {string} groupSeparator
+ * @returns
  */
-const definitions = {
-    'canon': '40/44 16px/-/40px bold',
-    'trafalga': '30/34 16px/-/40px bold',
-    'paragon': '26/30 16px/-/40px bold',
-    'doublepica': '22/26 16px/-/40px 500',
-    'greatprimer': '18/22 16px/-/40px bold',
-    'bodycopy': '16/22 16px/-/40px normal',
-    'pica': '16/20 16px/-/40px normal',
-    'longprimer': '14/18 16px/-/40px normal',
-    'brevier': '13/16 16px/-/40px normal',
-    'minion': '12/16 16px/-/40px normal',
-    'atlas': '140/148 16px/-/40px bold',
-    'elephant': '116/124 16px/-/40px bold',
-    'imperial': '96/104 16px/-/40px bold',
-    'royal': '76/84 16px/-/40px bold',
-    'foolscap': '56/60 16px/-/40px bold',
-};
-
-const STYLE_NAMES = Object.getOwnPropertyNames(definitions);
-
-function styleDefinition(styleName) {
+function parseDefinition(definition, groupsMapping, groupSeparator) {
     // our return value
-    const retval = {
-        styleName,
-
-        fontSize: undefined,
-        lineHeight: undefined,
-
-        marginBottom: undefined,
-        marginTop: undefined,
-        nestedMarginTop: undefined,
-
-        fontWeight: undefined,
-    }
-
-    const groupsMapping = [
-        [ 'fontSize', 'lineHeight' ],
-        [ 'marginBottom', 'marginTop', 'nestedMarginTop' ],
-        [ 'fontWeight' ],
-    ]
+    const retval = {}
 
     // break the definition up into groups
-    const groups = definitions[styleName].split(' ')
+    const groups = definition.split(groupSeparator)
 
     // use the groups mapping to convert the definition into an object
     groupsMapping.forEach(
@@ -104,8 +65,9 @@ function styleDefinition(styleName) {
                     }
 
                     // general case
-                    if (parts[partsIndex] !== undefined && parts[partsIndex] !== '-') {
-                        retval[key] = parts[partsIndex]
+                    retval[key] = undefined;
+                    if (parts[partsIndex] !== undefined && parts[partsIndex].trim() !== '-') {
+                        retval[key] = parts[partsIndex].trim();
                     }
                 }
             )
@@ -117,23 +79,18 @@ function styleDefinition(styleName) {
     return retval
 }
 
-// this will hold our parsed definitions
-const TYPOGRAPHY_DEFINITIONS = [];
+function parseDefinitions(definitions, groupsMapping, groupSeparator) {
+    let retval = {}
+    Object.getOwnPropertyNames(definitions).forEach(
+        function(key) {
+            retval[key] = parseDefinition(definitions[key], groupsMapping, groupSeparator);
+        }
+    )
 
-// populate TYPOGRAPHY_DEFINITIONS
-Object.getOwnPropertyNames(definitions).forEach(
-    function(styleName) {
-        TYPOGRAPHY_DEFINITIONS.push(styleDefinition(styleName));
-    }
-);
-
-function internalTypographyStyleSelectorName(styleName, screenName, typeName) {
-    return '.__imprint-' + typeName + '-' + styleName +'-' + screenName;
+    return retval;
 }
 
-console.log('RAN');
 module.exports = {
-    STYLE_NAMES,
-    TYPOGRAPHY_DEFINITIONS,
-    internalTypographyStyleSelectorName,
-};
+    parseDefinitions,
+    parseDefinition,
+}

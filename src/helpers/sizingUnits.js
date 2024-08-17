@@ -1,22 +1,53 @@
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
+
 const { rem } = require("startijenn-rem");
 
-// we will populate this as we go
-const definitionStore = require('./definitionStore.js');
-
-function suffix(input) {
+function cssLengthSuffix(input) {
     const re = /[0-9+-.]+/;
 
     return input.replace(re, "");
 }
 
-function stripSuffix(input) {
+function stripCssLengthSuffix(input) {
     const re = /[^0-9+-.]+/;
 
     return input.replace(re, "");
 }
 
-function replaceSuffix(input, newSuffix) {
-    return stripSuffix(input) + newSuffix;
+function replaceCssLengthSuffix(input, newSuffix) {
+    return stripCssLengthSuffix(input) + newSuffix;
 }
 
 /**
@@ -25,60 +56,24 @@ function replaceSuffix(input, newSuffix) {
  * @param {string} input
  * @returns
  */
-function calculateRelunit(input) {
+function calculateRootPixel(input) {
     // shorthand
-    let pxValue = input;
+    let pxValue = stripCssLengthSuffix(input);
 
-    // add the 'px' suffix if one is not present
-    if (!pxValue.endsWith('px')) {
-        pxValue = pxValue + 'px';
+    // special case
+    //
+    // it is not sensible to scale ultra-small values
+    if (pxValue < 4) {
+        return pxValue + 'px';
     }
 
     // do the conversion, and return the result
-    return rem(pxValue, { baseline: 16 } );
-}
-
-/**
- * converts the given px size into rem units
- *
- * also updates our central list of `ru` definitions, so that we can
- * export that to Tailwind at the very end
- *
- * @param {string} newUnit
- * @returns
- */
-function relunit(newUnit) {
-    // robustness
-    if (newUnit === undefined) {
-        return undefined;
-    }
-
-    // what are we looking at?
-    let unitType = suffix(newUnit);
-    if (unitType.length === 0) {
-        unitType = "px";
-    }
-
-    switch (unitType) {
-        case "px":
-            const name = replaceSuffix(newUnit, "ru");
-            const value = calculateRelunit(newUnit)
-
-            definitionStore.sizing.relunits[name] = value;
-            definitionStore.theme.extend.spacing[name] = value;
-
-            // all done
-            return value;
-
-        case "su":
-            return definitionStore.theme.extend.spacing[newUnit];
-
-        default:
-            throw new Error("unsupported spacing unit " + unitType);
-    }
+    return rem(pxValue + 'px', { baseline: 16 } );
 }
 
 module.exports = {
-    relunit,
-    stripSuffix,
+    calculateRootPixel,
+    cssLengthSuffix,
+    stripCssLengthSuffix,
+    replaceCssLengthSuffix,
 }

@@ -1,0 +1,109 @@
+#! /usr/bin/env node
+
+const { writeFileSync } = require('fs');
+const definitionStore = require("../src/definition.js");
+const { objectFilterKeys } = require("../src/helpers/objectFilterKeys.js");
+const { objectFilter } = require("../src/helpers/objectFilter.js");
+
+/**
+ *
+ * @param {string} collection
+ * @param {string} name
+ * @param {object|string} content
+ */
+function writeToDocs(
+    collection,
+    name,
+    content
+)
+{
+    writeFileSync(
+        "../imprint-css-docs/src/content/" + collection + "/" + name + ".json",
+        JSON.stringify(content, null, 4)
+    );
+}
+
+function writeDevice(
+    name,
+    definition,
+)
+{
+    writeToDocs('devices', name, definitionStore.devices[name]);
+}
+
+function writeDevices(
+)
+{
+    Object.getOwnPropertyNames(definitionStore.devices).forEach(
+        function(deviceName) {
+            writeDevice(deviceName);
+        }
+    )
+}
+
+function writeVars(
+    collection,
+    vars
+)
+{
+    Object.getOwnPropertyNames(vars).forEach(
+        function(key) {
+            writeToDocs(collection, key.substring(2), vars[key]);
+        }
+    )
+}
+
+function writeStyles(
+    collection,
+    name,
+    styles
+)
+{
+    writeToDocs(collection, name, styles);
+}
+
+function writeStaticUtility(
+    staticUtilities,
+    name,
+)
+{
+    writeVars("CssVars", staticUtilities[name].vars);
+    writeStyles("CssStyles", name, staticUtilities[name].styles);
+}
+
+function writeSizingUnitSets()
+{
+    writeToDocs('sizingUnitSets', 'rootPixels', definitionStore.sizing.rootpixels);
+    writeToDocs('sizingUnitSets', 'spacingunits', definitionStore.sizing.spacing);
+    writeToDocs('sizingUnitSets', 'fontSizes', definitionStore.sizing.fontsizes);
+    writeToDocs('sizingUnitSets', 'lineHeights', definitionStore.sizing.lineheights);
+}
+
+function writeSpacing(
+    spacingUnits,
+)
+{
+    Object.getOwnPropertyNames(spacingUnits).forEach(
+        function(spacingUnit) {
+            writeToDocs(
+                'spacing',
+                spacingUnit,
+                {
+                    name: spacingUnit,
+                    value: spacingUnits[spacingUnit],
+                }
+            );
+        }
+    )
+}
+
+// generate the default set, for use in our documentation
+definitionStore.generateRootPixels({});
+
+writeDevices();
+writeStaticUtility(definitionStore.staticUtilities.byName, "default-font-size");
+writeStaticUtility(definitionStore.staticUtilities.byName, "font-families");
+writeStaticUtility(definitionStore.staticUtilities.byName, "imprint");
+writeSizingUnitSets();
+writeSpacing(definitionStore.sizing.rootPixels);
+writeSpacing(definitionStore.sizing.spacing);

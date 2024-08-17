@@ -32,22 +32,11 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
-const { buildStyleName } = require("../helpers/styles");
+import type { CssStyles } from "./styles";
+import type { CssVars } from "./vars";
 
-// create the utility classes
-TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, lineHeight}) {
-        // what is our internal style called?
-        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
-
-        // remember our definition, for our auto-docs
-        definitionStore.sizing.lineheights[styleName] = definitionStore.rootPixel(lineHeight);
-
-        // add it to the internal list
-        definitionStore.staticUtilities.styles[cssSelector] = {
-            "line-height": definitionStore.rootPixel(lineHeight),
-        }
-    }
-);
+export interface StaticUtility {
+    vars: CssVars;
+    styles: CssStyles;
+    baseStyles: CssStyles;
+}

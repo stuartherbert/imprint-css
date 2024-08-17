@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2023-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -33,14 +33,23 @@
 //
 
 const { TYPOGRAPHY_DEFINITIONS } = require("../typography/__definitions");
+const _ = require("lodash");
+const { cssLengthSuffix, replaceCssLengthSuffix, calculateRootPixel } = require("./sizingUnits");
 
-module.exports = {
+const definitionStore = {
     typographyDefinitions: TYPOGRAPHY_DEFINITIONS,
+    devices: {},
     colors: {},
     internalStyles: {},
     sizing: {
-        relunits: {},
+        rootPixels: {},
         spacing: {},
+        fontsizes: {},
+        lineheights: {},
+    },
+    baseLayer: {
+        vars: {},
+        styles: {},
     },
     defaultStyling: {
         vars: {},
@@ -49,15 +58,128 @@ module.exports = {
     staticUtilities: {
         vars: {},
         styles: {},
+        byName: {},
     },
     staticComponents: {
         vars: {},
         styles: {},
     },
     theme: {
-        screens: {},
         extend: {
+            borderRadius: {},
+            colors: {},
+            screens: {},
             spacing: {},
         },
     },
+
+    /**
+     *
+     * @param {import("../../types").CssVars} vars
+     * @param {*} destination
+     */
+    addVars: function (vars, destination) {
+        Object.getOwnPropertyNames(vars).forEach(
+            function(varName) {
+                destination.vars[varName] = vars[varName].value;
+            }
+        )
+    },
+
+    /**
+     *
+     * @param {import("../../types").CssStyles} styles
+     * @param {*} destination
+     */
+    addStyles: function (styles, destination) {
+        _.merge(destination.styles, styles);
+        // Object.getOwnPropertyNames(styles).forEach(
+        //     function(styleName) {
+        //         destination.styles[styleName] = {
+        //             ...destination.styles[styleName] ?? {},
+        //             ...styles[styleName]
+        //         };
+        //     }
+        // )
+    },
+
+    /**
+     *
+     * @param {string} name
+     * @param {import("../../types").StaticUtility} staticUtility
+     */
+    addStaticUtility: function (name, staticUtility) {
+        // keep a record for our documentation
+        this.staticUtilities.byName[name] = staticUtility;
+
+        // expand it now, ready to ship to Tailwind
+        this.addVars(staticUtility.vars, this.staticUtilities);
+        this.addStyles(staticUtility.styles, this.staticUtilities);
+        this.addStyles(staticUtility.baseStyles ?? {}, this.baseLayer);
+    },
+
+    generateRootPixels: function(rootPixelOptions) {
+        // set our defaults
+        const rootPixelSizes = {
+            'fullCoverage': rootPixelOptions.fullCoverage ?? 40,
+            'series': rootPixelOptions.series ?? [2, 3, 5],
+            'maxRootPixel': rootPixelOptions.maxRootPixel ?? 800,
+        }
+
+        // full coverage
+        for (let i = 1 ; i <= rootPixelSizes.fullCoverage; i = i+1) {
+            definitionStore.rootPixel(i.toFixed());
+        }
+
+        // individual series
+        for (const series of rootPixelSizes.series) {
+            for (let i = series ; i <= rootPixelSizes.maxRootPixel; i = i+series) {
+                definitionStore.rootPixel(i.toFixed());
+            }
+        }
+
+        // all done
+    },
+
+    /**
+     * converts the given CSS size into rem units, and adds it to our
+     * sizing definitions
+     *
+     * supports units in: px, su
+     *
+     * @param {string} newUnit
+     * @returns
+     */
+    rootPixel: function(newUnit) {
+        // robustness
+        if (newUnit === undefined) {
+            return undefined;
+        }
+
+        // what are we looking at?
+        let unitType = cssLengthSuffix(newUnit);
+        if (unitType.length === 0) {
+            unitType = "px";
+        }
+
+        switch (unitType) {
+            case "px":
+                const name = replaceCssLengthSuffix(newUnit, "rpx");
+                const value = calculateRootPixel(newUnit)
+
+                definitionStore.sizing.rootPixels[name] = value;
+                definitionStore.theme.extend.spacing[name] = value;
+
+                // all done
+                return value;
+
+            case "su":
+                return definitionStore.theme.extend.spacing[newUnit];
+
+            default:
+                throw new Error("unsupported spacing unit " + unitType);
+        }
+    },
 }
+
+module.exports = definitionStore;

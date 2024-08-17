@@ -1,97 +1,75 @@
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
+
 const util = require('util');
 
+// we build all of our styles etc separately, so that we can import it
+// into documentation tooling :)
+const definitionStore = require('./definition');
+
 const plugin = require('tailwindcss/plugin');
-const definitionStore = require('./helpers/definitionStore.js');
+module.exports = plugin.withOptions(
+    function (options = {}) {
+        return function({ addBase, addUtilities, addComponents }) {
+            // the root pixels can be overridden by user-defined options
+            definitionStore.generateRootPixels(options.rootPixels ?? {});
 
-// ================================================================
-//
-// Import all the bits that make up ImprintCSS
-//
-// ----------------------------------------------------------------
+            // console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
 
-// ----------------------------------------------------------------
-//
-// import our sizing definitions
-//
-// ----------------------------------------------------------------
-
-require("./sizing/screens");
-require("./sizing/spacing");
-require("./sizing/bodyFontSize");
-require("./utilities/imprint-article");
-
-// ----------------------------------------------------------------
-//
-// import our additional colors
-//
-// ----------------------------------------------------------------
-
-require("./colors/colors.js");
-
-// ----------------------------------------------------------------
-//
-// import our default styling
-//
-// ----------------------------------------------------------------
-
-require("./variables/semantic");
-require("./typography/body");
-require("./typography/flow");
-require("./typography/fonts");
-require("./typography/font-weight");
-require('./typography/font-spacing');
-require('./typography/font-sizing');
-require('./typography/line-heights');
-require("./typography/inline-blocks");
-require('./typography/blocks');
-require("./typography/headings");
-
-// console.log(util.inspect(definitionStore, { depth: 10, colors: true }));
-// process.exit(1);
-
-require("./typography/text");
-require("./typography/links");
-require("./typography/lists");
-require("./typography/pre");
-require("./typography/tables");
-// require("./typography/main");
-
-// ----------------------------------------------------------------
-//
-// import our components
-//
-// ----------------------------------------------------------------
-
-require("./components/alert");
-require("./components/block");
-require("./components/callout");
-require("./components/depth");
-require("./components/inner");
-require("./components/panel");
-// const colorSwatch = require("./components/color-swatch");
-
-
-// make sure we can use our new spacing units for text-* and leading-*
-// utilities too
-definitionStore.theme.extend.fontSize = definitionStore.theme.extend.spacing;
-definitionStore.theme.extend.lineHeight = definitionStore.theme.extend.spacing;
-
-module.exports = plugin(function({ addUtilities, addComponents }) {
-    addUtilities({
-        ":root": {
-            ...definitionStore.staticUtilities.vars,
-            ...definitionStore.staticComponents.vars,
-            ...definitionStore.defaultStyling.vars,
+            addBase(definitionStore.baseLayer.styles)
+            addUtilities({
+                ":root": {
+                    ...definitionStore.staticUtilities.vars,
+                    ...definitionStore.staticComponents.vars,
+                    ...definitionStore.defaultStyling.vars,
+                }
+            });
+            addUtilities({
+                ".imprint-modern": {
+                    ...definitionStore.defaultStyling.styles,
+                }
+            })
+            addUtilities({...definitionStore.staticUtilities.styles});
+            addComponents({...definitionStore.staticComponents.styles});
         }
-    });
-    addUtilities({
-        ".imprint": {
-            ...definitionStore.defaultStyling.styles,
+    },
+    function(options = {}) {
+        // the root pixels can be overridden by user-defined options
+        definitionStore.generateRootPixels(options.rootPixels ?? {});
+
+        return {
+            theme: definitionStore.theme,
         }
-    })
-    addUtilities({...definitionStore.staticUtilities.styles});
-    addComponents({...definitionStore.staticComponents.styles});
-},
-{
-    theme: definitionStore.theme,
-});
+    }
+);

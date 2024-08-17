@@ -1,56 +1,49 @@
-const definitionStore = require("../helpers/definitionStore");
-const { colors } = require("../theme/colors");
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
 
-definitionStore.staticComponents.vars = {
-    ...definitionStore.staticComponents.vars,
-    ...{
-        "--imprint-alert-border-color": "var(--imprint-border-outer-color)",
-        "--imprint-alert-heading-color": colors["white"],
-    },
-}
+const definitionStore = require("../helpers/definitionStore");
+const { colors } = require("../colors/colors");
 
 definitionStore.staticComponents.styles = {
     ...definitionStore.staticComponents.styles,
     ...{
         ".imprint-alert": {
             "h1, h2, h3, h4, h5, h6": {
-                "background-color": "var(--imprint-alert-border-color)",
-                "color": "var(--imprint-alert-heading-color)",
-                "@apply px-4su py-2su": {},
+                "background-color": "var(--imprint-semantic-heading-background-color)",
+                "color": "var(--imprint-semantic-heading-color)",
+                "@apply px-4 py-2": {},
             },
-        },
-        ".imprint-alert.--primary": {
-            "--imprint-alert-border-color": "var(--imprint-primary-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-primary-heading-color)",
-        },
-        ".imprint-alert.--secondary": {
-            "--imprint-alert-border-color": "var(--imprint-secondary-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-secondary-heading-color)",
-        },
-        ".imprint-alert.--info": {
-            "--imprint-alert-border-color": "var(--imprint-info-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-info-heading-color)",
-        },
-        ".imprint-alert.--success": {
-            "--imprint-alert-border-color": "var(--imprint-success-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-success-heading-color)",
-        },
-        ".imprint-alert.--warning": {
-            "--imprint-alert-border-color": "var(--imprint-warning-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-warning-heading-color)",
-        },
-        ".imprint-alert.--danger": {
-            "--imprint-alert-border-color": "var(--imprint-danger-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-danger-heading-color)",
-        },
-
-        ".imprint-alert.--disabled": {
-            "--imprint-alert-border-color": "var(--imprint-disabled-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-disabled-heading-color)",
-        },
-        ".imprint-alert.--faded": {
-            "--imprint-alert-border-color": "var(--imprint-faded-heading-background-color)",
-            "--imprint-alert-heading-color": "var(--imprint-faded-heading-color)",
         },
     },
 }

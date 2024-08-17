@@ -32,22 +32,27 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
-const { buildStyleName } = require("../helpers/styles");
+import type { CssBreakpoint as _CssBreakpoint, Device as _Device, DeviceGroups as _DeviceGroups } from "./devices";
+import type { CssStyle as _CssStyle, CssStyles as _CssStyles } from "./styles";
+import type { CssVar as _CssVar, CssVars as _CssVars } from "./vars";
 
-// create the utility classes
-TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, lineHeight}) {
-        // what is our internal style called?
-        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
+import type { SemanticSetting as _SemanticSetting, SemanticSettings as _SemanticSettings } from "./semanticSettings";
 
-        // remember our definition, for our auto-docs
-        definitionStore.sizing.lineheights[styleName] = definitionStore.rootPixel(lineHeight);
+import type { StaticUtility as _StaticUtility } from "./staticUtilities";
 
-        // add it to the internal list
-        definitionStore.staticUtilities.styles[cssSelector] = {
-            "line-height": definitionStore.rootPixel(lineHeight),
-        }
-    }
-);
+declare namespace ImprintCSS {
+    export type { _CssBreakpoint as CssBreakpoint }
+    export type { _CssStyle as CssStyle }
+    export type { _CssStyles as CssStyles }
+    export type { _CssVar as CssVar }
+    export type { _CssVars as CssVars }
+    export type { _Device as Device }
+    export type { _DeviceGroups as DeviceGroups }
+
+    export type { _SemanticSetting as SemanticSetting }
+    export type { _SemanticSettings as SemanticSettings }
+
+    export type { _StaticUtility as StaticUtility }
+}
+
+export = ImprintCSS;

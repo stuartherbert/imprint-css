@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -33,10 +33,8 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit, stripSuffix } = require("../helpers/sizingUnits");
 const { buildStyleName } = require("../helpers/styles");
-const { addInternalStyleForScreens, ALL_SCREEN_NAMES } = require("../sizing/screens");
-const { TYPOGRAPHY_DEFINITIONS, internalTypographyStyleSelectorName, STYLE_NAMES } = require("./__definitions");
+const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
 
 // create the utility classes
 TYPOGRAPHY_DEFINITIONS.forEach(
@@ -46,21 +44,21 @@ TYPOGRAPHY_DEFINITIONS.forEach(
                 name: 'spacing',
                 value: marginBottom,
                 style: {
-                    'margin-bottom': relunit(marginBottom),
+                    'margin-bottom': definitionStore.rootPixel(marginBottom),
                 },
             },
             {
                 name: 'spacingTop',
                 value: marginTop,
                 style: {
-                    'margin-top': relunit(marginTop),
+                    'margin-top': definitionStore.rootPixel(marginTop),
                 },
             },
             {
                 name: 'nestedSpacingTop',
                 value: nestedMarginTop,
                 style: {
-                    'margin-top': relunit(nestedMarginTop),
+                    'margin-top': definitionStore.rootPixel(nestedMarginTop),
                 },
             },
         ]

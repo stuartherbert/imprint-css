@@ -32,22 +32,20 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
-const { buildStyleName } = require("../helpers/styles");
+export interface CssBreakpoint {
+    name: string;
+    tailwindDefinition: string;
+    screenWidth: string;
+    targetDevices: string;
+}
 
-// create the utility classes
-TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, lineHeight}) {
-        // what is our internal style called?
-        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
+export interface Device {
+    name: string;
+    breakpoint: CssBreakpoint;
+    remPx: string;
+    articleMaxWidth: string;
+}
 
-        // remember our definition, for our auto-docs
-        definitionStore.sizing.lineheights[styleName] = definitionStore.rootPixel(lineHeight);
-
-        // add it to the internal list
-        definitionStore.staticUtilities.styles[cssSelector] = {
-            "line-height": definitionStore.rootPixel(lineHeight),
-        }
-    }
-);
+export interface DeviceGroups {
+    [name: string]: Device;
+}

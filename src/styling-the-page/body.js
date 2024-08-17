@@ -32,22 +32,36 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require("../helpers/definitionStore");
-const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
-const { buildStyleName } = require("../helpers/styles");
+const { colors } = require("../colors/colors.js");
 
-// create the utility classes
-TYPOGRAPHY_DEFINITIONS.forEach(
-    function({ styleName, screenName, lineHeight}) {
-        // what is our internal style called?
-        const cssSelector = buildStyleName('.imprint-lineheight', styleName);
+const definitionStore = require('../helpers/definitionStore.js');
 
-        // remember our definition, for our auto-docs
-        definitionStore.sizing.lineheights[styleName] = definitionStore.rootPixel(lineHeight);
-
-        // add it to the internal list
-        definitionStore.staticUtilities.styles[cssSelector] = {
-            "line-height": definitionStore.rootPixel(lineHeight),
-        }
+/** @type {import('../../types/index.js').StaticUtility} */
+const staticUtility = {
+    vars: {
+        "--imprint-color": {
+            name: "--imprint-color",
+            value: colors['imprint-nero'],
+            type: "color",
+            description: "default color for text",
+            valueDescription: "imprint-nero",
+        },
+        "--imprint-background-color": {
+            name: "--imprint-background-color",
+            value: colors['imprint-offwhite'],
+            type: "color",
+            description: "default background color for the page",
+            valueDescription: "imprint-offwhite",
+        },
+    },
+    styles: {
+        '.imprint': {
+            'color': 'var(--imprint-color)',
+            'background-color': 'var(--imprint-background-color)',
+        },
     }
-);
+}
+
+definitionStore.addStaticUtility('imprint', staticUtility);
+
+module.export = staticUtility;

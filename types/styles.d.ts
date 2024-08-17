@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,14 +32,10 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-const definitionStore = require('../helpers/definitionStore.js');
+export interface CssStyle {
+    [name: string]: string | CssStyle;
+}
 
-definitionStore.staticUtilities.vars = {
-    ...definitionStore.staticUtilities.vars,
-    ...{
-        '--imprint-font-sans-serif': 'system-ui, sans-serif',
-        '--imprint-font-serif': 'serif',
-        '--imprint-font-system': 'system-ui',
-        '--imprint-font-monospace': "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace",
-    },
+export interface CssStyles {
+    [name: string]: CssStyle;
 }

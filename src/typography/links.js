@@ -1,56 +1,67 @@
+//
+// Copyright (c) 2024-present Ganbaro Digital Ltd
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//
+//   * Re-distributions of source code must retain the above copyright
+//     notice, this list of conditions and the following disclaimer.
+//
+//   * Redistributions in binary form must reproduce the above copyright
+//     notice, this list of conditions and the following disclaimer in
+//     the documentation and/or other materials provided with the
+//     distribution.
+//
+//   * Neither the names of the copyright holders nor the names of his
+//     contributors may be used to endorse or promote products derived
+//     from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+// BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+// CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+// ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+//
+
 const definitionStore = require("../helpers/definitionStore");
-const { colors } = require("../theme/colors");
+const { colors } = require("../colors/colors");
 
 definitionStore.staticUtilities.styles = {
     ...definitionStore.staticUtilities.styles,
     ...{
         ".imprint-link": {
-            'color': 'var(--imprint-link-color)',
-            'background-color': 'var(--imprint-link-background-color)',
+            'color': 'var(--imprint-semantic-link-color)',
+            'background-color': 'var(--imprint-semantic-link-background-color)',
             'text-decoration': 'none',
-            'font-weight': 'inherit',
-            'border-bottom': '1px solid var(--imprint-link-border)',
+            'font-weight': '500',
+            'border-bottom': '1px solid var(--imprint-semantic-link-border-color)',
         },
         ".imprint-link:visited, .imprint-link-visited": {
-            'color': 'var(--imprint-link-visited-color)',
-            'background-color': 'var(--imprint-link-visited-background-color)',
+            'color': 'var(--imprint-semantic-link-visited-color)',
+            'background-color': 'var(--imprint-semantic-link-visited-background-color)',
             'text-decoration': 'none',
-            'font-weight': 'inherit',
-            'border-bottom': '1px solid var(--imprint-link-border)',
+            'border-bottom': '1px solid var(--imprint-semantic-link-border-color)',
         },
         ".imprint-link:hover, .imprint-link-hover": {
-            'color': 'var(--imprint-link-hover-color)',
-            'background-color': 'var(--imprint-link-hover-background-color)',
-            'border-bottom': '1px solid var(--imprint-link-hover-border)',
-            'font-weight': 'inherit',
+            'color': 'var(--imprint-semantic-link-hover-color)',
+            'background-color': 'var(--imprint-semantic-link-hover-background-color)',
+            'border-bottom': '2px solid var(--imprint-semantic-link-hover-border-color)',
         },
         ".imprint-link:active, .imprint-link:focus, .imprint-link-active": {
             'color': 'var(--imprint-link-active-color)',
-            'background-color': 'var(--imprint-link-active-background-color)',
-            'border-bottom': '1px solid var(--imprint-link-active-border)',
-            'font-weight': 'inherit',
+            'background-color': 'var(--imprint-link-semantic-active-background-color)',
+            'border-bottom': '2px solid var(--imprint-semantic-link-active-border-color)',
         },
     }
-}
-definitionStore.defaultStyling.vars = {
-    ...definitionStore.defaultStyling.vars,
-    ...{
-        '--imprint-link-color': colors['ganbaro-blue']['500'],
-        '--imprint-link-background-color': 'inherit',
-        '--imprint-link-border': colors['imprint-gray'],
-
-        '--imprint-link-visited-color': colors['ganbaro-blue']['900'],
-        '--imprint-link-visited-background-color': 'inherit',
-        '--imprint-link-visited-border': 'var(--imprint-link-border)',
-
-        '--imprint-link-hover-color': colors['ganbaro-red']['500'],
-        '--imprint-link-hover-background-color': 'inherit',
-        '--imprint-link-hover-border': 'var(--imprint-color)',
-
-        '--imprint-link-active-color': colors['ganbaro-red']['500'],
-        '--imprint-link-active-background-color': 'inherit',
-        '--imprint-link-active-border': colors['ganbaro-red']['500'],
-    },
 }
 
 definitionStore.defaultStyling.styles = {

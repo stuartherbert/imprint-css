@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2023-present Stuart Herbert
+// Copyright (c) 2024-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -33,7 +33,6 @@
 //
 
 const definitionStore = require("../helpers/definitionStore");
-const { relunit } = require("../helpers/sizingUnits");
 const { buildStyleName } = require("../helpers/styles");
 const { TYPOGRAPHY_DEFINITIONS } = require("./__definitions");
 
@@ -45,10 +44,13 @@ TYPOGRAPHY_DEFINITIONS.forEach(
 
         // add it to the internal list
         definitionStore.staticUtilities.styles[cssSelector] = {
-            "font-size": relunit(fontSize),
+            "font-size": definitionStore.rootPixel(fontSize),
         }
 
+        // remember our definition, for our auto-docs
+        definitionStore.sizing.fontsizes[styleName] = definitionStore.rootPixel(fontSize);
+
         // make it available to use as a size unit too!
-        definitionStore.theme.extend.spacing[styleName] = relunit(fontSize);
+        definitionStore.theme.extend.spacing[styleName] = definitionStore.rootPixel(fontSize);
     }
 );
