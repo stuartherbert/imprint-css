@@ -35,10 +35,7 @@
 import { HashMap } from "@safelytyped/core-types";
 import { TYPOGRAPHY_DEFINITIONS } from "./definitions/TYPOGRAPHY_DEFINITIONS";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
-import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 import { buildStyleName } from "../../helpers/buildStyleName";
-
-const staticUtility = newStaticUtility("font-sizing");
 
 // create the utility classes
 HashMap.forEach(
@@ -48,9 +45,12 @@ HashMap.forEach(
         const cssSelector = buildStyleName('.imprint-fontsize', styleName);
 
         // add it to the internal list
-        staticUtility.styles[cssSelector] = {
-            "font-size": DEFINITION_STORE.rootPixel(fontSize),
-        }
+        DEFINITION_STORE.addInternalStyles(
+            cssSelector,
+            {
+                "font-size": DEFINITION_STORE.rootPixel(fontSize),
+            }
+        );
 
         // make sure the sizing units are registered too!
         const rpx = DEFINITION_STORE.rootPixel(fontSize);
@@ -58,5 +58,3 @@ HashMap.forEach(
         DEFINITION_STORE.theme.extend.spacing[styleName] = rpx;
     }
 );
-
-DEFINITION_STORE.addStaticUtility(staticUtility);

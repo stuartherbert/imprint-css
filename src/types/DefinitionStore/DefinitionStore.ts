@@ -35,7 +35,6 @@
 import { HashMap, isString, type Maybe } from "@safelytyped/core-types";
 import type { ImprintTypographyStyle } from "../ImprintTypographyStyle/ImprintTypographyStyle.type";
 import type { StaticUtility } from "../StaticUtility/StaticUtility.type";
-import type { CssDefinition } from "../CssDefinition/CssDefinition.type";
 import type { StaticUtilities } from "../StaticUtilities/StaticUtilities.type";
 import type { TailwindColorsData } from "../TailwindColorsData/TailwindColorsData.type";
 import { cssLengthSuffix } from "../../helpers/cssLengthSuffix";
@@ -73,15 +72,12 @@ export class DefinitionStore
     public readonly staticUtilities: StaticUtilities = {};
     public readonly staticComponents: StaticComponents = {};
 
-    public allStaticUtilityStyles = {};
+    public allStaticUtilityStyles: CssStyles = {};
     public allStaticUtilityVars: HashMap<string> = {};
-    public allStaticComponentStyles = {};
+    public allStaticComponentStyles: CssStyles = {};
     public allStaticComponentVars: HashMap<string> = {};
 
-    public allBaseLayerStyles: CssDefinition = {
-        vars: {},
-        styles: {},
-    };
+    public allBaseLayerStyles: CssStyles = {};
 
     theme: {
         extend: {
@@ -109,6 +105,11 @@ export class DefinitionStore
             ...this.theme.extend.colors,
             ...colors
         }
+    }
+
+    public addInternalStyles(cssSelector: string, input: CssStyle)
+    {
+        this.internalStyles[cssSelector] = input;
     }
 
     public addStaticComponent(input: StaticComponent)
@@ -217,19 +218,27 @@ export class DefinitionStore
         }
     }
 
-    public styles(styleName: string): CssStyle
+    public styles(cssSelector: string): CssStyle
     {
         let retval: CssStyle = {};
         HashMap.forEach(
             {
-                ...this.staticComponents,
-                ...this.staticUtilities,
+                ...this.internalStyles,
+                ...this.allBaseLayerStyles,
+                ...this.allDefaultStyles,
+                ...this.allStaticComponentStyles,
+                ...this.allStaticUtilityStyles,
             },
-            function(staticUtility) {
-                if (HashMap.has(staticUtility.styles, styleName)) {
-                    retval = {
-                        ...retval,
-                        ...staticUtility.styles[styleName]
+            function(styles, styleName) {
+                if (styleName === cssSelector) {
+                    if (isString(styles)) {
+                        retval[styleName] = styles;
+                    }
+                    else {
+                        retval = {
+                            ...retval,
+                            ...styles,
+                        }
                     }
                 }
             }

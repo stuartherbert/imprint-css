@@ -34,12 +34,8 @@
 
 import { HashMap } from "@safelytyped/core-types";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
-import type { CssStyles } from "../../types/CssStyles/CssStyles.type";
-import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 import { TYPOGRAPHY_DEFINITIONS } from "./definitions/TYPOGRAPHY_DEFINITIONS";
 import { buildStyleName } from "../../helpers/buildStyleName";
-
-const localStyles: CssStyles = {};
 
 // create the utility classes
 HashMap.forEach(
@@ -52,17 +48,11 @@ HashMap.forEach(
         DEFINITION_STORE.sizing.lineHeights[styleName] = DEFINITION_STORE.rootPixel(lineHeight);
 
         // add it to the internal list
-        localStyles[cssSelector] = {
-            "line-height": DEFINITION_STORE.rootPixel(lineHeight),
-        }
+        DEFINITION_STORE.addInternalStyles(
+            cssSelector,
+            {
+                "line-height": DEFINITION_STORE.rootPixel(lineHeight),
+            }
+        );
     }
-);
-
-DEFINITION_STORE.addStaticUtility(
-    newStaticUtility(
-        "line-heights",
-        {
-            styles: localStyles,
-        }
-    ),
 );

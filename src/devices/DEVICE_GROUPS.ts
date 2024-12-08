@@ -114,7 +114,7 @@ HashMap.map(
             }
         }
 
-        tailwindDefinition = { "raw": "(" + tailwindDefinition + ") and (hover:hover)" };
+        tailwindDefinition = { "raw": "(" + mediaQueryDefinition + ") and (hover:hover)" };
         DEVICE_GROUPS[desktopDeviceGroup] = {
             name: desktopDeviceGroup,
             breakpoint: {

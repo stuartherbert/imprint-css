@@ -32,31 +32,20 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { CssStyles } from "../../types/CssStyles/CssStyles.type";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
-import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 import { TYPOGRAPHY_STYLE_NAMES } from "./definitions/TYPOGRAPHY_STYLE_NAMES";
 import { buildStyleName } from "../../helpers/buildStyleName";
 
-// create the utility classes
-const localStyles: CssStyles = {};
-
 TYPOGRAPHY_STYLE_NAMES.forEach(
     function(styleName) {
-        const targetUtility = buildStyleName('.imprint-inline', styleName);
+        const cssSelector = buildStyleName('.imprint-inline', styleName);
 
-        localStyles[targetUtility] = {
-            ...DEFINITION_STORE.styles('.imprint-fontsize-' + styleName),
-            ...DEFINITION_STORE.styles('.imprint-fontweight-' + styleName),
-        }
+        DEFINITION_STORE.addInternalStyles(
+            cssSelector,
+            {
+                ...DEFINITION_STORE.styles('.imprint-fontsize-' + styleName),
+                ...DEFINITION_STORE.styles('.imprint-fontweight-' + styleName),
+            }
+        );
     }
-);
-
-DEFINITION_STORE.addStaticUtility(
-    newStaticUtility(
-        'inline-blocks',
-        {
-            styles: localStyles,
-        }
-    ),
 );

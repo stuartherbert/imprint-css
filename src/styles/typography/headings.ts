@@ -69,7 +69,7 @@ const staticUtility = newStaticUtility(
                 }
             ),
         ),
-        styles: {
+        defaultStyles: {
             'h1': {
                 '@apply imprint-block-canon imprint-fontweight-canon': {},
             },

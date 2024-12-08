@@ -59,7 +59,6 @@ const staticUtility = newStaticUtility(
                 "max-width": "var(--imprint-article-width)",
             },
         },
-        baseStyles: {},
     }
 );
 
