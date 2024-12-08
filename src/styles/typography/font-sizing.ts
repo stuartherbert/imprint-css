@@ -38,7 +38,7 @@ import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
 import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 import { buildStyleName } from "../../helpers/buildStyleName";
 
-const staticUtility = newStaticUtility("font-sizing", { vars: {}, styles: {}, baseStyles: {}});
+const staticUtility = newStaticUtility("font-sizing");
 
 // create the utility classes
 HashMap.forEach(

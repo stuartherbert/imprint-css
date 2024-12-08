@@ -167,7 +167,7 @@ const staticUtility = newStaticUtility(
                 'hyphens': 'none',
             },
         },
-        baseStyles: {
+        defaultStyles: {
             'code, pre, samp, tt': {
                 'font-family': 'var(--imprint-font-monospace)',
             },

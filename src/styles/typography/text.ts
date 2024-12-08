@@ -106,8 +106,7 @@ const staticUtility = newStaticUtility(
                 },
             ),
         ),
-        styles: {},
-        baseStyles: {
+        defaultStyles: {
             'p': {
                 '@apply imprint-block-bodycopy': {},
             },

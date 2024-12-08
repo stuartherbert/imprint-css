@@ -38,7 +38,6 @@ import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 const staticUtility = newStaticUtility(
     "links",
     {
-        vars: {},
         styles: {
             ".imprint-link": {
                 'color': 'var(--imprint-semantic-link-color)',
@@ -64,7 +63,7 @@ const staticUtility = newStaticUtility(
                 'border-bottom': '2px solid var(--imprint-semantic-link-active-border-color)',
             },
         },
-        baseStyles: {
+        defaultStyles: {
             "a:not(nav a)": {
                 "@apply imprint-link": {},
             },

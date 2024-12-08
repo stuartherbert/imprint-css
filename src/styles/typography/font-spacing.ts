@@ -39,7 +39,7 @@ import type { CssStyle } from "../../types/CssStyle/CssStyle.type";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
 import { buildStyleName } from "../../helpers/buildStyleName";
 
-const staticUtility = newStaticUtility('font-spacing', { vars: {}, styles: {}, baseStyles: {}});
+const staticUtility = newStaticUtility('font-spacing');
 
 interface StyleToBuild {
     name: string;

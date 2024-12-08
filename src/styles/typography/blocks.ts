@@ -34,15 +34,10 @@
 
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
 import { buildStyleName } from "../../helpers/buildStyleName";
-import type { StaticUtility } from "../../types/StaticUtility/StaticUtility.type";
+import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 import { TYPOGRAPHY_STYLE_NAMES } from "./definitions/TYPOGRAPHY_STYLE_NAMES";
 
-const staticUtility: StaticUtility = {
-    name: "blocks",
-    vars: {},
-    styles: {},
-    baseStyles: {},
-}
+const staticUtility = newStaticUtility("blocks");
 
 // we build the utility classes dynamically
 TYPOGRAPHY_STYLE_NAMES.forEach(

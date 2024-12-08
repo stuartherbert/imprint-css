@@ -34,11 +34,11 @@
 
 import type { StaticUtility } from "./StaticUtility.type";
 
-export type StaticUtilityInitialiser = Omit<StaticUtility, "name">;
+export type StaticUtilityInitialiser = Partial<Omit<StaticUtility, "name">>;
 
 export function newStaticUtility(
     name: string,
-    parts: StaticUtilityInitialiser,
+    parts: StaticUtilityInitialiser = {},
 ): StaticUtility
 {
     return {
@@ -47,6 +47,7 @@ export function newStaticUtility(
             vars: {},
             styles: {},
             baseStyles: {},
+            defaultStyles: {},
         },
         ...parts,
     }

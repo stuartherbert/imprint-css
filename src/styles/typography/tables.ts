@@ -214,9 +214,6 @@ const staticUtility = newStaticUtility(
                 },
             },
         },
-        baseStyles: {
-
-        },
     }
 );
 

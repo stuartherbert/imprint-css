@@ -77,9 +77,6 @@ const settings = newStaticUtility(
                 "font-size": "calc(var(--imprint-fontsize-root-base) + var(--imprint-fontsize-root-zoom))",
             },
         },
-        baseStyles: {
-
-        }
     },
 );
 

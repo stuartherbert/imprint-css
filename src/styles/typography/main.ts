@@ -38,13 +38,11 @@ import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
 const staticUtility = newStaticUtility(
     "main",
     {
-        vars: {},
         styles: {
             'main': {
                 '@apply a:max-w-[50rem] b:max-w-[30rem] c:max-w-[50rem] d:max-w-[50rem]': {},
             },
         },
-        baseStyles: {},
     }
 );
 

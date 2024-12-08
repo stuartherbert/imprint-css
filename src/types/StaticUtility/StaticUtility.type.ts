@@ -40,4 +40,5 @@ export interface StaticUtility {
     vars: CssVars;
     styles: CssStyles;
     baseStyles: CssStyles;
+    defaultStyles: CssStyles;
 }

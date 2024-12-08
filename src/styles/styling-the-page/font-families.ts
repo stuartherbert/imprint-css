@@ -80,7 +80,6 @@ const settings = newStaticUtility(
                 "font-family": "var(--imprint-font-monospace)",
             },
         },
-        baseStyles: {},
     }
 );
 

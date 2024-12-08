@@ -56,9 +56,7 @@ DEFINITION_STORE.addStaticUtility(
     newStaticUtility(
         'inline-blocks',
         {
-            vars: {},
             styles: localStyles,
-            baseStyles: {},
         }
     ),
 );

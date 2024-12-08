@@ -66,10 +66,7 @@ export class DefinitionStore
         lineHeights: {}
     };
 
-    defaultStyling: CssDefinition = {
-        vars: {},
-        styles: {},
-    };
+    public allDefaultStyles: CssStyles = {}
 
     public internalStyles: CssStyles = {}
 
@@ -81,7 +78,10 @@ export class DefinitionStore
     public allStaticComponentStyles = {};
     public allStaticComponentVars: HashMap<string> = {};
 
-    public allBaseLayerStyles = {};
+    public allBaseLayerStyles: CssDefinition = {
+        vars: {},
+        styles: {},
+    };
 
     theme: {
         extend: {
@@ -145,11 +145,15 @@ export class DefinitionStore
             ...this.allBaseLayerStyles,
             ...staticUtility.baseStyles,
         }
+        this.allDefaultStyles = {
+            ...this.allDefaultStyles,
+            ...staticUtility.defaultStyles,
+        }
+
         HashMap.forEach(
             staticUtility.vars,
             (cssVar) => this.allStaticUtilityVars[cssVar.name] = cssVar.value,
         );
-
     }
 
     public generateRootPixels(rootPixelOptions: RootPixelOptions) {

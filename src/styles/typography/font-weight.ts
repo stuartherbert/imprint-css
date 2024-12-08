@@ -40,7 +40,7 @@ import { buildStyleName } from "../../helpers/buildStyleName";
 
 import { default as defaultTheme } from "tailwindcss/defaultTheme";
 
-const staticUtility = newStaticUtility("font-weight", { vars: {}, styles: {}, baseStyles: {}});
+const staticUtility = newStaticUtility("font-weight");
 
 // create the utility classes
 HashMap.forEach(

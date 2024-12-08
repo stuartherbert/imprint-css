@@ -65,7 +65,6 @@ const staticUtility = newStaticUtility(
                 'margin-top': '1.25em',
             },
         },
-        baseStyles: {}
     }
 );
 

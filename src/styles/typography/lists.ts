@@ -92,7 +92,7 @@ const staticUtility = newStaticUtility(
                 },
             },
         },
-        baseStyles: {
+        defaultStyles: {
             "ul:not(nav ul)": {
                 "@apply imprint-ul": {},
             },

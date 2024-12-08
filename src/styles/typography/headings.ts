@@ -98,7 +98,6 @@ const staticUtility = newStaticUtility(
                 '@apply imprint-block-brevier imprint-fontweight-brevier': {},
             },
         },
-        baseStyles: {}
     },
 );
 

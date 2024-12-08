@@ -62,9 +62,7 @@ DEFINITION_STORE.addStaticUtility(
     newStaticUtility(
         "line-heights",
         {
-            vars: {},
             styles: localStyles,
-            baseStyles: {},
         }
     ),
 );

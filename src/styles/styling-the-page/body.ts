@@ -69,7 +69,6 @@ DEFINITION_STORE.addStaticUtility(
                     'background-color': 'var(--imprint-background-color)',
                 },
             },
-            baseStyles: {},
         }
     )
 );

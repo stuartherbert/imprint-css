@@ -54,14 +54,13 @@ module.exports = plugin.withOptions(
                 ":root": {
                     ...definitionStore.allStaticUtilityVars,
                     ...definitionStore.allStaticComponentVars,
-                    // ...definitionStore.defaultStyling.vars,
                 }
             });
-            // addUtilities({
-            //     ".imprint-modern": {
-            //         ...definitionStore.defaultStyling.styles,
-            //     }
-            // })
+            addUtilities({
+                ".imprint-modern": {
+                    ...definitionStore.allDefaultStyles,
+                }
+            })
             addUtilities({...definitionStore.allStaticUtilityStyles});
             addComponents({...definitionStore.allStaticComponentStyles});
         }
