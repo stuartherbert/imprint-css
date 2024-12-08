@@ -140,6 +140,24 @@ const staticUtility = newStaticUtility(
                     valueDescription: "",
                 }
             ),
+            newCssVar(
+                '--imprint-code-example-line-no-start',
+                {
+                    value: "0",
+                    type: "integer",
+                    description: "starting line number for an embedded code example",
+                    valueDescription: "",
+                },
+            ),
+            newCssVar(
+                '--imprint-code-example-line-no-width',
+                {
+                    value: "1rem",
+                    type: "size",
+                    description: "width of the line number for an embedded code example",
+                    valueDescription: "",
+                },
+            ),
         ),
         styles: {
             '.imprint-pre': {
@@ -216,21 +234,18 @@ const staticUtility = newStaticUtility(
                     "display": "none",
                 },
 
-                "list-style-type": "decimal",
-                "padding-left": "var(--imprint-list-indent)",
-                "display": "flex",
-                "flex-flow": "row wrap",
-                "::marker": {
-                    "color": "var(--imprint-code-example-line-no-color)",
-                },
+                "counter-reset": "code-example var(--imprint-code-example-line-no-start)",
+                "counter-increment": "code-example 0",
+            },
 
-                ".line": {
-                    "list-style-position": "outside",
-                    "display": "list-item",
-                    "flex-basis": "100%",
-                    "flex-grow": "1",
-                    "flex-shrink": "0",
-                },
+            ".--shiki-numbered pre > code .line::before": {
+                "content": "counter(code-example)",
+                "counter-increment": "code-example",
+                "width": "var(--imprint-code-example-line-no-width)",
+                "margin-right": "1.5rem",
+                "display": "inline-block",
+                "text-align": "right",
+                "color": "var(--imprint-code-example-line-no-color)",
             },
 
             "a code": {

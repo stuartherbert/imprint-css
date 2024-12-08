@@ -35,4 +35,4 @@
 /**
  * Enum to describe what kind of CSS variable we have.
  */
-export type CssVarType = "color" | "font-family" | "line-style" | "size" | "group";
+export type CssVarType = "color" | "font-family" | "line-style" | "size" | "group" | "integer";
