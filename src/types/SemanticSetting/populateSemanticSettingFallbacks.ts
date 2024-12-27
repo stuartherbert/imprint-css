@@ -50,7 +50,7 @@ export function populateSemanticSettingFallbacks
     HashMap.keys(fallbacks).forEach(
         function(key) {
             if (!HashMap.has(retval, key) && HashMap.has(retval, fallbacks[key])) {
-                HashMap.set(retval, key, fallbacks[key]);
+                HashMap.set(retval, key, HashMap.get(retval, fallbacks[key]));
             }
         }
     )
