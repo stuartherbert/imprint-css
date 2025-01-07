@@ -32,43 +32,17 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { colors } from "../../colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
-import { newCssVar } from "../../types/CssVar/newCssVar";
-import { newCssVars } from "../../types/CssVars/newCssVars";
-import { newStaticUtility } from "../../types/StaticUtility/newStaticUtility";
-import { tailwindColor } from "../../types/TailwindColorDefinition/tailwindColor";
+import type { TailwindColorsData } from "../TailwindColorsData/TailwindColorsData.type";
 
-DEFINITION_STORE.addStaticUtility(
-    newStaticUtility(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindColor(colors['imprint-nero']),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindColor(colors['imprint-offwhite']),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            styles: {
-                '.imprint': {
-                    'color': 'var(--imprint-color)',
-                    'background-color': 'var(--imprint-background-color)',
-                },
-            },
-        }
-    )
-);
+export interface ColorGroups {
+    apple: TailwindColorsData;
+    css: TailwindColorsData;
+    flat: TailwindColorsData;
+    ganbaro: TailwindColorsData;
+    imprint: TailwindColorsData;
+    materialDesign: TailwindColorsData;
+    metro: TailwindColorsData;
+    misc: TailwindColorsData;
+    msdl: TailwindColorsData;
+    social: TailwindColorsData;
+}

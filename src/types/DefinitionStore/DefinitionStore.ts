@@ -48,6 +48,8 @@ import type { TailwindMediaQueryDefinition } from "../TailwindMediaQueryDefiniti
 import type { CssStyles } from "../CssStyles/CssStyles.type";
 import type { CssStyle } from "../CssStyle/CssStyle.type";
 import type { CssVar } from "../CssVar/CssVar.type";
+import type { ColorGroups } from "../ColorGroups/ColorGroups.type";
+import { newColorGroups, type ColorGroupsInitialiser } from "../ColorGroups/newColorGroups";
 
 export class DefinitionStore
 {
@@ -79,6 +81,8 @@ export class DefinitionStore
 
     public allBaseLayerStyles: CssStyles = {};
 
+    public colorGroups: ColorGroups;
+
     theme: {
         extend: {
             borderRadius: HashMap<string>;
@@ -99,12 +103,30 @@ export class DefinitionStore
         }
     };
 
+    public constructor(
+        {
+            colorGroups,
+        }: {
+            colorGroups: ColorGroupsInitialiser,
+        } = {
+            colorGroups: {}
+        }
+    )
+    {
+        this.colorGroups = newColorGroups(colorGroups);
+    }
+
     public addColors(colors: TailwindColorsData)
     {
         this.theme.extend.colors = {
             ...this.theme.extend.colors,
             ...colors
         }
+    }
+
+    public addColorGroups(colorGroups: ColorGroups)
+    {
+        this.colorGroups = colorGroups;
     }
 
     public addInternalStyles(cssSelector: string, input: CssStyle)

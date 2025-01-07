@@ -80,3 +80,4 @@ export const colorGroups = {
 
 // add colours to the theme
 DEFINITION_STORE.addColors(colors);
+DEFINITION_STORE.addColorGroups(colorGroups);
