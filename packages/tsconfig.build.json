@@ -1,0 +1,29 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended",
+    "compilerOptions": {
+        "target": "es2020",
+        "moduleResolution": "node",
+        "strict": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": false,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+
+        "declaration": true,                      /* Generates corresponding '.d.ts' file. */
+        "declarationMap": true,                   /* Generates a sourcemap for each corresponding '.d.ts' file. */
+        "sourceMap": true,                        /* Generates corresponding '.map' file. */
+        "noUnusedLocals": true,                   /* Report errors on unused locals. */
+        "noImplicitReturns": true,                /* Report error when not all code paths in function return a value. */
+
+        "experimentalDecorators": true,           /* Enables experimental support for ES7 decorators. */
+        "emitDecoratorMetadata": true,            /* Enables experimental support for emitting type metadata for decorators. */
+    },
+    "ts-node": {
+        "esm": true,
+        "require": ["tsconfig-paths/register"],
+        "transpileOnly": true,
+    }
+}

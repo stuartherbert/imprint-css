@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "../tsconfig.build.json",
+    "display": "Recommended",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "./lib",                        /* Redirect output structure to the directory. */
+        "baseUrl": ".",
+    },
+    "include": [
+        "src"
+    ]
+}
