@@ -49,7 +49,7 @@ interface StyleToBuild {
 // create the utility classes
 HashMap.forEach(
     TYPOGRAPHY_DEFINITIONS,
-    function({ styleName, marginBottom, marginTop, nestedMarginTop}) {
+    function({ marginBottom, marginTop, nestedMarginTop}, styleName) {
         const stylesToBuild: StyleToBuild[] = [
             {
                 name: "spacing",

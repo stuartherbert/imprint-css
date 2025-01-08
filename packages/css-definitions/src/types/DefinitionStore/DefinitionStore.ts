@@ -210,16 +210,16 @@ export class DefinitionStore
 
     public exportBaseLayer(): CssStyles
     {
-        return HashMap.map(this.staticStyles, (style) => style.baseStyles);
+        return HashMap.flatMap(this.staticStyles, (style) => style.baseStyles);
     }
 
     public exportUtilityLayer(): CssStyles
     {
-        return HashMap.map(this.staticStyles, (style) => style.utilityStyles);
+        return HashMap.flatMap(this.staticStyles, (style) => style.utilityStyles);
     }
 
     public exportComponentLayer(): CssStyles
     {
-        return HashMap.map(this.staticStyles, (style) => style.componentStyles);
+        return HashMap.flatMap(this.staticStyles, (style) => style.componentStyles);
     }
 }
