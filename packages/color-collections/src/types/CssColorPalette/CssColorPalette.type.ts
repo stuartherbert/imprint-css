@@ -32,40 +32,21 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import type { HashMap } from "@safelytyped/core-types";
+import type { CssColorDefinition } from "../CssColorDefinition/CssColorDefinition.type";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+/**
+ * CssColorPalette is a set of colors that form a single color palette.
+ *
+ * A color palette is any group of colors that are variants of each other.
+ * For example, this might be a palette of different shades of red.
+ *
+ * But equally, this could be a palette of completely different colors,
+ * such as `primary.light`, `primary.dark` etc etc.
+ */
+export type CssColorPalette = HashMap<CssColorDefinition> & {
+    /**
+     * SOMETHING HERE
+     */
+    DEFAULT?: CssColorDefinition;
+};

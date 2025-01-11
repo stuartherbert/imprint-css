@@ -33,9 +33,11 @@
 //
 
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
+import { colorFromCollection } from "../inspectors/colorFromCollection";
+import { GANBARO_COLORS } from "./ganbaro";
 
-export const IMPRINT_COLORS: TailwindColorDefinitions = {
+export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-black": makeCssHexColorDefinition("#000"),
     "imprint-carbon": makeCssHexColorDefinition("#303030"),
     "imprint-darkblue": makeCssHexColorDefinition("#234f83"),
@@ -61,4 +63,12 @@ export const IMPRINT_COLORS: TailwindColorDefinitions = {
     "imprint-blue": makeCssHexColorDefinition("#234f83"),
     "imprint-white": makeCssHexColorDefinition("#fff"),
     "imprint-offwhite": makeCssHexColorDefinition("#f6f6f6"),
+
+    // imprint-nero
+    "imprint-fg-default": makeCssHexColorDefinition("#222"),
+    // imprint-offwhite
+    "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
+
+    "imprint-primary": colorFromCollection("ganbaro-blue-500", { collection: GANBARO_COLORS}),
+    "imprint-secondary": colorFromCollection("ganbaro-green-500", { collection: GANBARO_COLORS}),
 };

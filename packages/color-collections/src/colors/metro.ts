@@ -32,52 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
+import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-import type { TailwindThemeColors } from "@imprintcss/tailwind-plugin-types";
-import { DEFINITION_STORE } from "../definitionStore/DEFINITION_STORE";
-
-import { APPLE_COLORS } from "./apple";
-import { CSS_EXTENDED_COLORS } from "./css";
-import { FLAT_COLORS } from "./flat";
-import { GANBARO_COLORS } from "./ganbaro";
-import { IMPRINT_COLORS } from "./imprint";
-import { MATERIAL_COLORS } from "./material-design";
-import { METRO_COLORS } from "./metro";
-import { MISC_COLORS } from "./misc";
-import { MSDL_COLORS } from "./msdl";
-import { SOCIAL_COLORS } from "./social";
-import { materialColor } from "../types/MaterialColorPalette/materialColor";
-
-export const colors: TailwindThemeColors = {
-    ...APPLE_COLORS,
-    ...CSS_EXTENDED_COLORS,
-    ...FLAT_COLORS,
-    ...GANBARO_COLORS,
-    ...IMPRINT_COLORS,
-    ...MATERIAL_COLORS,
-    ...METRO_COLORS,
-    ...MISC_COLORS,
-    ...MSDL_COLORS,
-    ...SOCIAL_COLORS,
-    ...{
-        "imprint-primary": materialColor(GANBARO_COLORS["ganbaro-blue"], "500"),
-        "imprint-secondary": materialColor(GANBARO_COLORS["ganbaro-green"], "500"),
-    }
+export const METRO_COLORS: CssColorDefinitions = {
+    "metro-amber": makeCssHexColorDefinition("#f0a30a"),
+    "metro-brown": makeCssHexColorDefinition("#825a2c"),
+    "metro-cobalt": makeCssHexColorDefinition("#0050ef"),
+    "metro-crimson": makeCssHexColorDefinition("#a20025"),
+    "metro-cyan": makeCssHexColorDefinition("#1ba1e2"),
+    "metro-emerald": makeCssHexColorDefinition("#008a00"),
+    "metro-green": makeCssHexColorDefinition("#60a917"),
+    "metro-indigo": makeCssHexColorDefinition("#6a00ff"),
+    "metro-lime": makeCssHexColorDefinition("#a4c400"),
+    "metro-magenta": makeCssHexColorDefinition("#d80073"),
+    "metro-mauve": makeCssHexColorDefinition("#76608a"),
+    "metro-olive": makeCssHexColorDefinition("#6d8764"),
+    "metro-orange": makeCssHexColorDefinition("#fa6800"),
+    "metro-pink": makeCssHexColorDefinition("#f472d0"),
+    "metro-red": makeCssHexColorDefinition("#e51400"),
+    "metro-sienna": makeCssHexColorDefinition("#a0522d"),
+    "metro-steel": makeCssHexColorDefinition("#647687"),
+    "metro-teal": makeCssHexColorDefinition("#00aba9"),
+    "metro-violet": makeCssHexColorDefinition("#a0f"),
+    "metro-yellow": makeCssHexColorDefinition("#e3c800"),
 };
-
-export const colorGroups = {
-    apple: APPLE_COLORS,
-    css: CSS_EXTENDED_COLORS,
-    flat: FLAT_COLORS,
-    ganbaro: GANBARO_COLORS,
-    imprint: IMPRINT_COLORS,
-    materialDesign: MATERIAL_COLORS,
-    metro: METRO_COLORS,
-    misc: MISC_COLORS,
-    msdl: MSDL_COLORS,
-    social: SOCIAL_COLORS,
-};
-
-// add colours to the theme
-DEFINITION_STORE.addColors(colors);
-DEFINITION_STORE.addColorGroups(colorGroups);

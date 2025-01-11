@@ -32,26 +32,6 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { DataPath, ExtraPublicData } from "@safelytyped/core-types";
-import type { TailwindColorPaletteData } from "../TailwindColorPaletteData/TailwindColorPaletteData.type";
+import { makeNodeJSModuleName } from "@safelytyped/core-types";
 
-export type UnknownColorPaletteShadeData = ExtraPublicData & {
-    public: {
-        /**
-         * `dataPath` is your location in the data structure that you're
-         * attempting to extract a shade from. Use {@link DEFAULT_DATA_PATH}
-         * if you are no inside a nested structure.
-         */
-        dataPath: DataPath;
-
-        /**
-         * `colorPalette` is the color palette that was searched
-         */
-        colorPalette: TailwindColorPaletteData;
-
-        /**
-         * `shade` is the color shade that could not be found
-         */
-        shade: string;
-    }
-};
+export const MODULE_NAME = makeNodeJSModuleName("@imprintcss/color-collections");

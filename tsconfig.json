@@ -2,6 +2,7 @@
     "files": [],
     "references": [
         { "path": "packages/tailwind-plugin-types" },
+        { "path": "packages/color-collections" },
         { "path": "packages/css-definitions" },
         { "path": "packages/tailwind-plugin" },
     ]

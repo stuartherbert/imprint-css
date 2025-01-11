@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Ganbaro Digital Ltd
+// Copyright (c) 2025-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,40 +32,23 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
+import type { CssColorDefinition } from "../types/CssColorDefinition/CssColorDefinition.type";
+import type { CssColorPalette } from "../types/CssColorPalette/CssColorPalette.type";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+/**
+ * hasDefaultColor() is a type-guard. Use it to tell Typescript that the
+ * given `input` is a {@link CssColorPalette} with a `DEFAULT` color.
+ *
+ * @param input - the CssColor dataset to inspect
+ */
+export function hasDefaultColor(
+    input: CssColorCollection|CssColorPalette
+): input is CssColorPalette & { DEFAULT: CssColorDefinition }
+{
+    if ((input as CssColorPalette).DEFAULT !== undefined) {
+        return true;
+    }
+
+    return false;
+}

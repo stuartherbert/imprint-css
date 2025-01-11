@@ -34,9 +34,9 @@
 
 import { CSS_EXTENDED_COLORS_TO_HEX, makeCssHexColorDefinition } from "@safelytyped/css-color";
 import { HashMap } from "@safelytyped/core-types";
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const CSS_EXTENDED_COLORS: TailwindColorDefinitions = {};
+export const CSS_EXTENDED_COLORS: CssColorDefinitions = {};
 HashMap.forEach(CSS_EXTENDED_COLORS_TO_HEX, (value, name) => {
     CSS_EXTENDED_COLORS[name] = makeCssHexColorDefinition(value);
 });

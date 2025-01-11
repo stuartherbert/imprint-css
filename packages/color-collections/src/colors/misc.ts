@@ -32,10 +32,10 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const MISC_COLORS: TailwindColorDefinitions = {
+export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetyyellow": makeCssHexColorDefinition("#eed202"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "behr-caribbeancurrent": makeCssHexColorDefinition("#006d6f"),

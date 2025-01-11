@@ -32,40 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+export const FLAT_COLORS: CssColorDefinitions = {
+    "flat-alizarin": makeCssHexColorDefinition("#e74c3c"),
+    "flat-amethyst": makeCssHexColorDefinition("#9b59b6"),
+    "flat-asbestos": makeCssHexColorDefinition("#7f8c8d"),
+    "flat-belizehole": makeCssHexColorDefinition("#2980b9"),
+    "flat-carrot": makeCssHexColorDefinition("#e67e22"),
+    "flat-clouds": makeCssHexColorDefinition("#ecf0f1"),
+    "flat-concrete": makeCssHexColorDefinition("#95a5a6"),
+    "flat-emerland": makeCssHexColorDefinition("#2ecc71"),
+    "flat-greensea": makeCssHexColorDefinition("#16a085"),
+    "flat-midnightblue": makeCssHexColorDefinition("#2c3e50"),
+    "flat-nephritis": makeCssHexColorDefinition("#27ae60"),
+    "flat-orange": makeCssHexColorDefinition("#f39c12"),
+    "flat-peterriver": makeCssHexColorDefinition("#3498db"),
+    "flat-pomegranate": makeCssHexColorDefinition("#c0392b"),
+    "flat-pumpkin": makeCssHexColorDefinition("#d35400"),
+    "flat-silver": makeCssHexColorDefinition("#bdc3c7"),
+    "flat-sunflower": makeCssHexColorDefinition("#f1c40f"),
+    "flat-turquoise": makeCssHexColorDefinition("#1abc9c"),
+    "flat-wetasphalt": makeCssHexColorDefinition("#34495e"),
+    "flat-wisteria": makeCssHexColorDefinition("#8e44ad"),
+};

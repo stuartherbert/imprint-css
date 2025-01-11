@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Ganbaro Digital Ltd
+// Copyright (c) 2025-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,28 +32,8 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { AppError, makeStructuredProblemReport, type AppErrorData } from "@safelytyped/core-types";
-import type { UnknownColorPaletteShadeData } from "./UnknownColorPaletteShadeData.type";
-import { MODULE_NAME } from "../MODULE_NAME";
+import { DEFINITION_STORE } from "../definitionStore/DEFINITION_STORE";
+import { ALL_COLOR_COLLECTIONS, ALL_COLORS } from "@imprintcss/color-collections";
 
-export class UnknownColorPaletteShadeError extends AppError<UnknownColorPaletteShadeData>
-{
-    public constructor(
-        params: UnknownColorPaletteShadeData & AppErrorData,
-        {
-            description = "unknown color palette shade"
-        }: {
-            description?: string
-        } = {}
-    )
-    {
-        const spr = makeStructuredProblemReport<UnknownColorPaletteShadeData>({
-            definedBy: MODULE_NAME,
-            description,
-            errorId: params.errorId,
-            extra: { public: params.public }
-        });
-
-        super(spr);
-    }
-}
+DEFINITION_STORE.addColorGroups(ALL_COLOR_COLLECTIONS);
+DEFINITION_STORE.addColors(ALL_COLORS);

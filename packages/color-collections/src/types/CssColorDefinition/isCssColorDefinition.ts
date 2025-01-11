@@ -32,40 +32,22 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { IS_TYPE_DEFAULT_OPTIONS, isType } from "@safelytyped/core-types";
+import type { CssColorDefinition } from "./CssColorDefinition.type";
+import { validateCssColorDefinition } from "./validateCssColorDefinition";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+/**
+ * isCssColorDefinition() is a type guard. Use it to prove to the Typescript
+ * compiler that the given `input` is an acceptable {@link CssColorDefinition}
+ *
+ * @param input
+ * @returns
+ * - `true` if `input` is acceptable
+ * - `false` otherwise
+ */
+export function isCssColorDefinition(
+    input: unknown
+): input is CssColorDefinition
+{
+    return isType(validateCssColorDefinition, input, IS_TYPE_DEFAULT_OPTIONS);
+}

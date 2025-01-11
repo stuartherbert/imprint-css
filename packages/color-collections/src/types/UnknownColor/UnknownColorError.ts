@@ -32,40 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { AppError, makeStructuredProblemReport, type AppErrorData } from "@safelytyped/core-types";
+import type { UnknownColorData } from "./UnknownColorData.type";
+import { MODULE_NAME } from "../../MODULE_NAME";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
+export class UnknownColorError extends AppError<UnknownColorData>
+{
+    public constructor(
+        params: UnknownColorData & AppErrorData,
         {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
+            description = "unknown color"
+        }: {
+            description?: string
+        } = {}
     )
-);
+    {
+        const spr = makeStructuredProblemReport<UnknownColorData>({
+            definedBy: MODULE_NAME,
+            description,
+            errorId: params.errorId,
+            extra: { public: params.public }
+        });
+
+        super(spr);
+    }
+}

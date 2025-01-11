@@ -32,40 +32,43 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { DEFAULT_DATA_PATH, HashMap, UnsupportedTypeError, recast, validate, validateObject, type AnyHashMap, type AppErrorOr, type TypeValidatorOptions } from "@safelytyped/core-types";
+import type { CssColorPalette } from "./CssColorPalette.type";
+import { isCssColorDefinition } from "../CssColorDefinition/isCssColorDefinition";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
+export function validateCssColorPalette
+(
+    input: unknown,
+    {
+        path = DEFAULT_DATA_PATH,
+    }: Partial<TypeValidatorOptions> = {}
+): AppErrorOr<Partial<CssColorPalette>>
+{
+    return validate(input)
+        .next((x) => validateObject(x))
+        .next((x) => validateObjectContainsColors(x, { path }))
+        .value();
+}
+
+function validateObjectContainsColors
+(
+    input: AnyHashMap,
+    {
+        path = DEFAULT_DATA_PATH,
+    }: Partial<TypeValidatorOptions> = {}
+): AppErrorOr<Partial<CssColorPalette>>
+{
+    // all keys in this object must be acceptable color definitions
+    if (HashMap.every(input, (val) => isCssColorDefinition(val))) {
+        return recast<AnyHashMap, Partial<CssColorPalette>>(input);
+    }
+
+    // if we get here, we have a problem
+    return new UnsupportedTypeError({
+        public: {
+            dataPath: path,
+            expected: "CssColorPalette",
+            actual: "something else"
         }
-    )
-);
+    });
+}

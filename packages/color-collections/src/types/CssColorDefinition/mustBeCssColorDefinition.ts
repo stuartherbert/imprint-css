@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Ganbaro Digital Ltd
+// Copyright (c) 2025-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,40 +32,34 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { DEFAULT_DATA_PATH, mustBe, THROW_THE_ERROR, type TypeGuaranteeOptions } from "@safelytyped/core-types";
+import { validateCssColorDefinition } from "./validateCssColorDefinition";
+import type { CssColorDefinition } from "./CssColorDefinition.type";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+/**
+ * mustBeCssColorDefinition() is a type guarantee. Use it to prove to the
+ * Typescript compiler that the given `input` definitely is an acceptable
+ * {@link CssColorDefinition}.
+ *
+ * Throws an Error if `input` is not an acceptable {@link CssColorDefinition}.
+ *
+ * @param input - the value to guarantee
+ * @param path - a dot.notation.path through your data structure to where
+ * `input` came from
+ * @param onError - we call this error handler if `input` is not an acceptable
+ * {@link CssColorDefinition}
+ * @returns `input` type-cast to a {@link CssColorDefinition}
+ */
+export function mustBeCssColorDefinition
+(
+    input: unknown,
+    {
+        path = DEFAULT_DATA_PATH,
+        onError = THROW_THE_ERROR
+    }: Partial<TypeGuaranteeOptions> = {}
+)
+{
+    return mustBe(input, { onError })
+        .next((x) => validateCssColorDefinition(input, { path }))
+        .value();
+}

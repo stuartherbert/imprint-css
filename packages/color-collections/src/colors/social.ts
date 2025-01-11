@@ -32,10 +32,10 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const SOCIAL_COLORS: TailwindColorDefinitions = {
+export const SOCIAL_COLORS: CssColorDefinitions = {
     "social-behance": makeCssHexColorDefinition("#131418"),
     "social-blogger": makeCssHexColorDefinition("#f57d00"),
     "social-dribbble": makeCssHexColorDefinition("#ea4c89"),

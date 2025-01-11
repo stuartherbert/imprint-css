@@ -6,10 +6,6 @@
         "rootDir": "src",
         "outDir": "./lib",                        /* Redirect output structure to the directory. */
         "baseUrl": ".",
-        "paths": {
-            "@imprintcss/color-collections": [ "../color-collections "],
-            "@imprintcss/tailwind-plugin-types": [ "../tailwind-plugin-types" ],
-        }
     },
     "include": [
         "src"

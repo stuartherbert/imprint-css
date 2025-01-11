@@ -39,9 +39,9 @@ import { newCssVars, newCssVar, newStaticStyle } from "@imprintcss/tailwind-plug
 import { newSemanticSetting } from "../types/SemanticSetting/newSemanticSetting";
 import { newSemanticSettings } from "../types/SemanticSettings/newSemanticSettings";
 import { DEFINITION_STORE } from "../definitionStore/DEFINITION_STORE";
-import { IMPRINT_COLORS } from "../colors/imprint";
+import { IMPRINT_COLORS } from "../../../color-collections/src/colors/imprint";
 import { rgb } from "../helpers/rgb";
-import { GANBARO_COLORS } from "../colors/ganbaro";
+import { GANBARO_COLORS } from "../../../color-collections/src/colors/ganbaro";
 
 const semanticVars = newCssVars(
     newCssVar(

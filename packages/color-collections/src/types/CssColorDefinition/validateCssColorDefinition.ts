@@ -32,40 +32,26 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { DEFAULT_DATA_PATH, type AppErrorOr, type TypeValidatorOptions } from "@safelytyped/core-types";
+import { validateCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinition } from "./CssColorDefinition.type";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
-        {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
-        }
-    )
-);
+/**
+ * validateCssColorDefinition() is a type validator. Use it to determine
+ * if the given `input` is an acceptable {@link CssColorDefinition}.
+ *
+ * @param input - the value to validate
+ * @param path - the dot.notation.path to `input` through your data structure
+ * @returns
+ * - `input` type-cast to {@link CssColorDefinition} if validation passes
+ * - an Error otherwise
+ */
+export function validateCssColorDefinition(
+    input: unknown,
+    {
+        path = DEFAULT_DATA_PATH,
+    }: Partial<TypeValidatorOptions> = {}
+): AppErrorOr<CssColorDefinition>
+{
+    return validateCssHexColorDefinition(input, { path });
+}

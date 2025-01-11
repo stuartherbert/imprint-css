@@ -33,8 +33,9 @@
 //
 
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
 
-export const MSDL_COLORS = {
+export const MSDL_COLORS: CssColorCollection = {
     "msdl-bilbao": {
         "1": makeCssHexColorDefinition("#498205"),
         "2": makeCssHexColorDefinition("#599b00"),

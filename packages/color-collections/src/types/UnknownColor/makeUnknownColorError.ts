@@ -32,40 +32,30 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
-import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { DEFAULT_DATA_PATH, type DataPath } from "@safelytyped/core-types";
+import { UnknownColorError } from "./UnknownColorError";
 
-DEFINITION_STORE.addStaticStyle(
-    newStaticStyle(
-        "body-defaults",
+export function makeUnknownColorError
+(
+    colorName: string,
+    {
+        path = DEFAULT_DATA_PATH,
+        description = "unknown color",
+    }: {
+        path?: DataPath,
+        description?: string,
+    } = {}
+)
+{
+    return new UnknownColorError(
         {
-            vars: newCssVars(
-                newCssVar(
-                    "--imprint-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
-                        type: "color",
-                        description: "default color for text",
-                        valueDescription: "imprint-nero",
-                    }
-                ),
-                newCssVar(
-                    "--imprint-background-color",
-                    {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
-                        type: "color",
-                        description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
-                    },
-                ),
-            ),
-            utilityStyles: {
-                ".imprint": {
-                    "color": "var(--imprint-color)",
-                    "background-color": "var(--imprint-background-color)",
-                },
-            },
+            public: {
+                dataPath: path,
+                colorName,
+            }
+        },
+        {
+            description
         }
-    )
-);
+    );
+}

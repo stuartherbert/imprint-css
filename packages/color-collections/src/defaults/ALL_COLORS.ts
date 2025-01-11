@@ -32,28 +32,31 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
-import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import { APPLE_COLORS } from "../colors/apple";
+import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
+import { CSS_EXTENDED_COLORS } from "../colors/css";
+import { FLAT_COLORS } from "../colors/flat";
+import { GANBARO_COLORS } from "../colors/ganbaro";
+import { IMPRINT_COLORS } from "../colors/imprint";
+import { MATERIAL_COLORS } from "../colors/material-design";
+import { METRO_COLORS } from "../colors/metro";
+import { MISC_COLORS } from "../colors/misc";
+import { MSDL_COLORS } from "../colors/msdl";
+import { SOCIAL_COLORS } from "../colors/social";
+import { TAILWIND_COLORS } from "../colors/tailwind";
+import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
 
-export const METRO_COLORS: TailwindColorDefinitions = {
-    "metro-amber": makeCssHexColorDefinition("#f0a30a"),
-    "metro-brown": makeCssHexColorDefinition("#825a2c"),
-    "metro-cobalt": makeCssHexColorDefinition("#0050ef"),
-    "metro-crimson": makeCssHexColorDefinition("#a20025"),
-    "metro-cyan": makeCssHexColorDefinition("#1ba1e2"),
-    "metro-emerald": makeCssHexColorDefinition("#008a00"),
-    "metro-green": makeCssHexColorDefinition("#60a917"),
-    "metro-indigo": makeCssHexColorDefinition("#6a00ff"),
-    "metro-lime": makeCssHexColorDefinition("#a4c400"),
-    "metro-magenta": makeCssHexColorDefinition("#d80073"),
-    "metro-mauve": makeCssHexColorDefinition("#76608a"),
-    "metro-olive": makeCssHexColorDefinition("#6d8764"),
-    "metro-orange": makeCssHexColorDefinition("#fa6800"),
-    "metro-pink": makeCssHexColorDefinition("#f472d0"),
-    "metro-red": makeCssHexColorDefinition("#e51400"),
-    "metro-sienna": makeCssHexColorDefinition("#a0522d"),
-    "metro-steel": makeCssHexColorDefinition("#647687"),
-    "metro-teal": makeCssHexColorDefinition("#00aba9"),
-    "metro-violet": makeCssHexColorDefinition("#a0f"),
-    "metro-yellow": makeCssHexColorDefinition("#e3c800"),
+export const ALL_COLORS: CssColorCollection = {
+    ...APPLE_COLORS,
+    ...BOOTSTRAP_COLORS,
+    ...CSS_EXTENDED_COLORS,
+    ...FLAT_COLORS,
+    ...GANBARO_COLORS,
+    ...IMPRINT_COLORS,
+    ...MATERIAL_COLORS,
+    ...METRO_COLORS,
+    ...MISC_COLORS,
+    ...MSDL_COLORS,
+    ...SOCIAL_COLORS,
+    ...TAILWIND_COLORS
 };

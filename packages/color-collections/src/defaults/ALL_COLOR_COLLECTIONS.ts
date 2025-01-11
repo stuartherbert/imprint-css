@@ -32,33 +32,30 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { DEFAULT_DATA_PATH, type DataPath } from "@safelytyped/core-types";
-import { UnknownColorPaletteShadeError } from "./UnknownColorPaletteShadeError";
-import type { TailwindColorPaletteData } from "../TailwindColorPaletteData/TailwindColorPaletteData.type";
+import { APPLE_COLORS } from "../colors/apple";
+import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
+import { CSS_EXTENDED_COLORS } from "../colors/css";
+import { FLAT_COLORS } from "../colors/flat";
+import { GANBARO_COLORS } from "../colors/ganbaro";
+import { IMPRINT_COLORS } from "../colors/imprint";
+import { MATERIAL_COLORS } from "../colors/material-design";
+import { METRO_COLORS } from "../colors/metro";
+import { MISC_COLORS } from "../colors/misc";
+import { MSDL_COLORS } from "../colors/msdl";
+import { SOCIAL_COLORS } from "../colors/social";
+import { TAILWIND_COLORS } from "../colors/tailwind";
 
-export function makeUnknownColorPaletteShadeError
-(
-    palette: TailwindColorPaletteData,
-    shade: string,
-    {
-        path = DEFAULT_DATA_PATH,
-        description = "unknown color palette shade",
-    }: {
-        path?: DataPath,
-        description?: string,
-    } = {}
-)
-{
-    return new UnknownColorPaletteShadeError(
-        {
-            public: {
-                dataPath: path,
-                colorPalette: palette,
-                shade,
-            }
-        },
-        {
-            description
-        }
-    );
-}
+export const ALL_COLOR_COLLECTIONS = {
+    apple: APPLE_COLORS,
+    bootstrap: BOOTSTRAP_COLORS,
+    css: CSS_EXTENDED_COLORS,
+    flat: FLAT_COLORS,
+    ganbaro: GANBARO_COLORS,
+    imprint: IMPRINT_COLORS,
+    materialDesign: MATERIAL_COLORS,
+    metro: METRO_COLORS,
+    misc: MISC_COLORS,
+    msdl: MSDL_COLORS,
+    social: SOCIAL_COLORS,
+    tailwind: TAILWIND_COLORS,
+};

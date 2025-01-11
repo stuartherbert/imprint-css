@@ -32,28 +32,17 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
-import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import { DEFAULT_DATA_PATH, isType, type TypeValidatorOptions } from "@safelytyped/core-types";
+import type { CssColorPalette } from "./CssColorPalette.type";
+import { validateCssColorPalette } from "./validateCssColorPalette";
 
-export const FLAT_COLORS: TailwindColorDefinitions = {
-    "flat-alizarin": makeCssHexColorDefinition("#e74c3c"),
-    "flat-amethyst": makeCssHexColorDefinition("#9b59b6"),
-    "flat-asbestos": makeCssHexColorDefinition("#7f8c8d"),
-    "flat-belizehole": makeCssHexColorDefinition("#2980b9"),
-    "flat-carrot": makeCssHexColorDefinition("#e67e22"),
-    "flat-clouds": makeCssHexColorDefinition("#ecf0f1"),
-    "flat-concrete": makeCssHexColorDefinition("#95a5a6"),
-    "flat-emerland": makeCssHexColorDefinition("#2ecc71"),
-    "flat-greensea": makeCssHexColorDefinition("#16a085"),
-    "flat-midnightblue": makeCssHexColorDefinition("#2c3e50"),
-    "flat-nephritis": makeCssHexColorDefinition("#27ae60"),
-    "flat-orange": makeCssHexColorDefinition("#f39c12"),
-    "flat-peterriver": makeCssHexColorDefinition("#3498db"),
-    "flat-pomegranate": makeCssHexColorDefinition("#c0392b"),
-    "flat-pumpkin": makeCssHexColorDefinition("#d35400"),
-    "flat-silver": makeCssHexColorDefinition("#bdc3c7"),
-    "flat-sunflower": makeCssHexColorDefinition("#f1c40f"),
-    "flat-turquoise": makeCssHexColorDefinition("#1abc9c"),
-    "flat-wetasphalt": makeCssHexColorDefinition("#34495e"),
-    "flat-wisteria": makeCssHexColorDefinition("#8e44ad"),
-};
+export function isCssColorPalette
+(
+    input: unknown,
+    {
+        path = DEFAULT_DATA_PATH
+    }: Partial<TypeValidatorOptions> = {}
+): input is CssColorPalette
+{
+    return isType(validateCssColorPalette, input, { path });
+}

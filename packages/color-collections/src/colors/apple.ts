@@ -32,10 +32,10 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import type { TailwindColorDefinitions } from "@imprintcss/tailwind-plugin-types";
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const APPLE_COLORS: TailwindColorDefinitions = {
+export const APPLE_COLORS: CssColorDefinitions = {
     "apple-aluminium": makeCssHexColorDefinition("#999"),
     "apple-aqua": makeCssHexColorDefinition("#0080ff"),
     "apple-asparagus": makeCssHexColorDefinition("#808000"),

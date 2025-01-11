@@ -33,7 +33,7 @@
 //
 
 import { newCssVar, newCssVars, newStaticStyle } from "@imprintcss/tailwind-plugin-types";
-import { IMPRINT_COLORS } from "../../colors/imprint";
+import { IMPRINT_COLORS } from "../../../../color-collections/src/colors/imprint";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
 
 const staticUtility = newStaticStyle(
