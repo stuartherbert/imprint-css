@@ -64,12 +64,10 @@ export function colorFromCollection(
     parts.forEach(part => {
         // robustness
         if (isString(colorData)) {
-            // eslint-disable-next-line @typescript-eslint/only-throw-error
-            throw onError(unknownColorError);
+            return onError(unknownColorError);
         }
         if (colorData[part] === undefined) {
-            // eslint-disable-next-line @typescript-eslint/only-throw-error
-            throw onError(unknownColorError);
+            return onError(unknownColorError);
         }
 
         colorData = colorData[part];
@@ -89,6 +87,5 @@ export function colorFromCollection(
     }
 
     // if we get here, then we were unable to find this color
-    // eslint-disable-next-line @typescript-eslint/only-throw-error
-    throw onError(unknownColorError);
+    return onError(unknownColorError);
 }
