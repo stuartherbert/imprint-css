@@ -54,13 +54,19 @@ export interface ColorAnalysis {
         contrastRatio: number;
         wcagContrast: WcagContrastRatings;
         recommendedForHeadings: boolean;
+        passableForHeadings: boolean;
         recommendedForBodyContent: boolean;
+        passableForBodyContent: boolean;
+        passableForUi: boolean;
     },
     pairedWithDarkColor: {
         clearContrast: boolean;
         contrastRatio: number;
         wcagContrast: WcagContrastRatings;
         recommendedForHeadings: boolean;
+        passableForHeadings: boolean;
         recommendedForBodyContent: boolean;
+        passableForBodyContent: boolean;
+        passableForUi: boolean;
     },
 }

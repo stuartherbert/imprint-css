@@ -67,22 +67,34 @@ export function analyseColor(
             contrastRatio: contrastRatio(input, defaultBg),
             wcagContrast: wcagContrast(contrastRatio(input, defaultBg)),
             recommendedForHeadings: false,
+            passableForHeadings: false,
             recommendedForBodyContent: false,
+            passableForBodyContent: false,
+            passableForUi: false,
         },
         pairedWithDarkColor: {
             clearContrast: hasClearContrast(input, defaultFg),
             contrastRatio: contrastRatio(input, defaultFg),
             wcagContrast: wcagContrast(contrastRatio(input, defaultFg)),
             recommendedForHeadings: false,
+            passableForHeadings: false,
             recommendedForBodyContent: false,
+            passableForBodyContent: false,
+            passableForUi: false,
         },
     };
 
     // use that data for some additional analysis
     retval.pairedWithLightColor.recommendedForHeadings = (retval.pairedWithLightColor.wcagContrast.AAA_large && retval.pairedWithLightColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithLightColor.passableForHeadings = (retval.pairedWithLightColor.wcagContrast.AA_large && retval.pairedWithLightColor.clearContrast && !retval.general.isMidtone);
     retval.pairedWithLightColor.recommendedForBodyContent = (retval.pairedWithLightColor.wcagContrast.AAA_normal && retval.pairedWithLightColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithLightColor.passableForBodyContent = (retval.pairedWithLightColor.wcagContrast.AA_normal && retval.pairedWithLightColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithLightColor.passableForUi = (retval.pairedWithLightColor.wcagContrast.AA_ui && retval.pairedWithLightColor.clearContrast && !retval.general.isMidtone);
     retval.pairedWithDarkColor.recommendedForHeadings = (retval.pairedWithDarkColor.wcagContrast.AAA_large && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithDarkColor.passableForHeadings = (retval.pairedWithDarkColor.wcagContrast.AA_large && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
     retval.pairedWithDarkColor.recommendedForBodyContent = (retval.pairedWithDarkColor.wcagContrast.AAA_normal && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithDarkColor.passableForBodyContent = (retval.pairedWithDarkColor.wcagContrast.AA_normal && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
+    retval.pairedWithDarkColor.passableForUi = (retval.pairedWithDarkColor.wcagContrast.AA_ui && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
 
     // all done
     return retval;
