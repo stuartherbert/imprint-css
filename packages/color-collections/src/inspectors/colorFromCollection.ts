@@ -32,12 +32,10 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { DEFAULT_DATA_PATH, isString, THROW_THE_ERROR, type DataPath, type OnError } from "@safelytyped/core-types";
+import { DEFAULT_DATA_PATH, THROW_THE_ERROR, type DataPath, type OnError } from "@safelytyped/core-types";
 import { ALL_COLORS } from "../defaults/ALL_COLORS";
 import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
 import type { CssColorDefinition } from "../types/CssColorDefinition/CssColorDefinition.type";
-import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
-import type { CssColorPalette } from "../types/CssColorPalette/CssColorPalette.type";
 import { isCssColorDefinition } from "../types/CssColorDefinition/isCssColorDefinition";
 import { makeUnknownColorError } from "../types/UnknownColor/makeUnknownColorError";
 import { hasDefaultColor } from "./hasDefaultColor";
@@ -58,32 +56,47 @@ export function colorFromCollection(
     // shorthand
     const unknownColorError = makeUnknownColorError(colorName, { path });
 
+    // special case - colorName matches an entry in our collection
+    if (collection[colorName]) {
+        // is it a color?
+        if (isCssColorDefinition(collection[colorName])) {
+            return collection[colorName];
+        }
+
+        // it must be a color palette
+        if (hasDefaultColor(collection[colorName])) {
+            return collection[colorName].DEFAULT;
+        }
+
+        // if we get here, then no match
+        return onError(unknownColorError);
+    }
+
+    // general case - colorName may be pointing at something inside a
+    // color palette
+
     const parts = colorName.split("-");
-    let colorData: CssColorCollection|CssColorPalette|CssColorDefinitions|CssColorDefinition = collection;
+    if (parts.length < 2) {
+        return onError(unknownColorError);
+    }
 
-    parts.forEach(part => {
-        // robustness
-        if (isString(colorData)) {
-            return onError(unknownColorError);
-        }
-        if (colorData[part] === undefined) {
-            return onError(unknownColorError);
-        }
+    // shorthand
+    const paletteName = parts.slice(0, -1).join("-");
+    const paletteEntry = parts[parts.length - 1];
 
-        colorData = colorData[part];
-    });
+    const maybePalette = collection[paletteName];
+    if (maybePalette === undefined) {
+        return onError(unknownColorError);
+    }
+    if (isCssColorDefinition(maybePalette)) {
+        return onError(unknownColorError);
+    }
 
     // what do we have?
+    const colorData = maybePalette[paletteEntry];
     if (isCssColorDefinition(colorData)) {
         // we found the requested color!
         return colorData;
-    }
-
-    // if we get here, we're probably looking at a color palette
-    //
-    // if it has a default color, we can use that
-    if (hasDefaultColor(colorData)) {
-        return colorData.DEFAULT;
     }
 
     // if we get here, then we were unable to find this color

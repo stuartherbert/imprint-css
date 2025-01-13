@@ -34,8 +34,6 @@
 
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
-import { colorFromCollection } from "../inspectors/colorFromCollection";
-import { GANBARO_COLORS } from "./ganbaro";
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-black": makeCssHexColorDefinition("#000"),
@@ -69,6 +67,13 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     // imprint-offwhite
     "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
 
-    "imprint-primary": colorFromCollection("ganbaro-blue-500", { collection: GANBARO_COLORS}),
-    "imprint-secondary": colorFromCollection("ganbaro-green-500", { collection: GANBARO_COLORS}),
+    // NOTE
+    //
+    // we cannot use colorFromCollection() here, as it creates a
+    // circular dependency
+
+    // ganbaro-blue-500
+    "imprint-primary": makeCssHexColorDefinition("#234f83"),
+    // ganbaro-green-500
+    "imprint-secondary": makeCssHexColorDefinition("#b1dd8c"),
 };

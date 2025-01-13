@@ -32,31 +32,6 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-export type { CssColorDefinition } from "./types/CssColorDefinition/CssColorDefinition.type";
-export { isCssColorDefinition } from "./types/CssColorDefinition/isCssColorDefinition";
-export { mustBeCssColorDefinition } from "./types/CssColorDefinition/mustBeCssColorDefinition";
-export { validateCssColorDefinition } from "./types/CssColorDefinition/validateCssColorDefinition";
-
-export type { CssColorDefinitions } from "./types/CssColorDefinitions/CssColorDefinitions.type";
-
-export type { CssColorPalette } from "./types/CssColorPalette/CssColorPalette.type";
-export { isCssColorPalette } from "./types/CssColorPalette/isCssColorPalette";
-export { mustBeCssColorPalette } from "./types/CssColorPalette/mustBeCssColorPalette";
-export { validateCssColorPalette } from "./types/CssColorPalette/validateCssColorPalette";
-
-export type { CssColorCollection } from "./types/CssColorCollection/CssColorCollection.type";
-export type { CssColorCollections } from "./types/CssColorCollections/CssColorCollections.type";
-
-export type { UnknownColorData } from "./types/UnknownColor/UnknownColorData.type";
-export { UnknownColorError } from "./types/UnknownColor/UnknownColorError";
-export { makeUnknownColorError } from "./types/UnknownColor/makeUnknownColorError";
-
-export type { ColorAnalysis } from "./types/ColorAnalysis/ColorAnalysis.type";
-export { analyseColor } from "./inspectors/analyseColor";
-
-export { hasDefaultColor } from "./inspectors/hasDefaultColor";
-export { colorFromCollection } from "./inspectors/colorFromCollection";
-
 export { APPLE_COLORS } from "./colors/apple";
 export { BOOTSTRAP_COLORS } from "./colors/bootstrap";
 export { CSS_EXTENDED_COLORS } from "./colors/css";
@@ -76,4 +51,29 @@ export { DEFAULT_FG } from "./defaults/DEFAULT_FG";
 
 export { ALL_COLOR_COLLECTIONS } from "./defaults/ALL_COLOR_COLLECTIONS";
 export { ALL_COLORS } from "./defaults/ALL_COLORS";
+
+export { analyseColor } from "./inspectors/analyseColor";
+export { colorFromCollection } from "./inspectors/colorFromCollection";
+export { hasDefaultColor } from "./inspectors/hasDefaultColor";
+
+export type { ColorAnalysis } from "./types/ColorAnalysis/ColorAnalysis.type";
+
+export type { CssColorDefinition } from "./types/CssColorDefinition/CssColorDefinition.type";
+export { isCssColorDefinition } from "./types/CssColorDefinition/isCssColorDefinition";
+export { mustBeCssColorDefinition } from "./types/CssColorDefinition/mustBeCssColorDefinition";
+export { validateCssColorDefinition } from "./types/CssColorDefinition/validateCssColorDefinition";
+
+export type { CssColorDefinitions } from "./types/CssColorDefinitions/CssColorDefinitions.type";
+
+export type { CssColorPalette } from "./types/CssColorPalette/CssColorPalette.type";
+export { isCssColorPalette } from "./types/CssColorPalette/isCssColorPalette";
+export { mustBeCssColorPalette } from "./types/CssColorPalette/mustBeCssColorPalette";
+export { validateCssColorPalette } from "./types/CssColorPalette/validateCssColorPalette";
+
+export type { CssColorCollection } from "./types/CssColorCollection/CssColorCollection.type";
+export type { CssColorCollections } from "./types/CssColorCollections/CssColorCollections.type";
+
+export { makeUnknownColorError } from "./types/UnknownColor/makeUnknownColorError";
+export type { UnknownColorData } from "./types/UnknownColor/UnknownColorData.type";
+export { UnknownColorError } from "./types/UnknownColor/UnknownColorError";
 

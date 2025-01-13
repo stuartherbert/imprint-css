@@ -34,5 +34,11 @@
 
 import { makeCssColor } from "@safelytyped/css-color";
 import { colorFromCollection } from "../inspectors/colorFromCollection";
+import { IMPRINT_COLORS } from "../colors/imprint";
 
-export const DEFAULT_BG = makeCssColor(colorFromCollection("imprint-offwhite"));
+export const DEFAULT_BG = makeCssColor(
+    colorFromCollection(
+        "imprint-offwhite",
+        { collection: IMPRINT_COLORS }
+    )
+);
