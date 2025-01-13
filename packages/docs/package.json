@@ -17,6 +17,7 @@
   "dependencies": {
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/tailwind": "^5.1.4",
+    "@imprintcss/color-collections": "file:../color-collections",
     "@imprintcss/css-definitions": "file:../css-definitions",
     "@imprintcss/tailwind-plugin": "file:../tailwind-plugin",
     "@safelytyped/core-types": "^0.5.0",

@@ -35,6 +35,7 @@
 //
 
 import * as fs from 'node:fs';
+import { DEFAULT_FG, DEFAULT_BG, analyseColor } from "@imprintcss/color-collections";
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
 import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssColor, relativeLuminance, tonality, wcagContrast } from "@safelytyped/css-color";
@@ -72,47 +73,10 @@ function isColorPalette(input)
 
 function processColor(colorGroupName, colorName, colorDefinition)
 {
-    // console.log(colorGroupName + ": " + colorName + ": " + colorDefinition);
-    // shorthand
     const cssColor = makeCssColor(colorDefinition);
-    const defaultFg = makeCssColor(DEFINITION_STORE.colorGroups.imprint["imprint-fg-default"]);
-    const defaultBg = makeCssColor(DEFINITION_STORE.colorGroups.imprint["imprint-bg-default"]);
-
-    // work out which color shades this belongs to
-    const colorHues = hues(cssColor);
-    colorHues.forEach(hue => {
-        hueCollections[hue].push(colorName);
-    });
 
     // analyse the color
-    const colorAnalysis = {
-        hex: cssColor.hex(),
-        general: {
-            hues: hues(cssColor),
-            tonality: tonality(cssColor),
-            isDark: isDark(cssColor),
-            isMidtone: isMidtone(cssColor),
-            isLight: isLight(cssColor),
-            luma: roundDown(3, luma(cssColor)),
-            relativeLuminance: roundDown(3, relativeLuminance(cssColor)),
-        },
-        pairedWithLightColor: {
-            clearContrast: hasClearContrast(cssColor, defaultBg),
-            contrastRatio: contrastRatio(cssColor, defaultBg),
-            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultBg)),
-        },
-        pairedWithDarkColor: {
-            clearContrast: hasClearContrast(cssColor, defaultFg),
-            contrastRatio: contrastRatio(cssColor, defaultFg),
-            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultFg)),
-        },
-    }
-
-    // use that data for some additional analysis
-    colorAnalysis.pairedWithLightColor.useForHeadings = (colorAnalysis.pairedWithLightColor.wcagContrast.AAA_large && colorAnalysis.pairedWithLightColor.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.pairedWithLightColor.useForBodyContent = (colorAnalysis.pairedWithLightColor.wcagContrast.AAA_normal && colorAnalysis.pairedWithLightColor.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.pairedWithDarkColor.useForHeadings = (colorAnalysis.pairedWithDarkColor.wcagContrast.AAA_large && colorAnalysis.pairedWithDarkColor.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.pairedWithDarkColor.useForBodyContent = (colorAnalysis.pairedWithDarkColor.wcagContrast.AAA_normal && colorAnalysis.pairedWithDarkColor.clearContrast && !colorAnalysis.general.isMidtone);
+    const colorAnalysis = analyseColor(cssColor);
 
     writeFile(colorFolorPrefix, colorName, colorAnalysis);
 

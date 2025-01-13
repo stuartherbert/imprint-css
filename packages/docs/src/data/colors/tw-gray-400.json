@@ -1,4 +1,5 @@
 {
+  "definition": "#9ca3af",
   "hex": "#9ca3af",
   "general": {
     "hues": [
@@ -23,8 +24,11 @@
       "AAA_normal": false,
       "AAA_large": false
     },
-    "useForHeadings": false,
-    "useForBodyContent": false
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
@@ -37,7 +41,10 @@
       "AAA_normal": false,
       "AAA_large": true
     },
-    "useForHeadings": false,
-    "useForBodyContent": false
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
   }
 }
