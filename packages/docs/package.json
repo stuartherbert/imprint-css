@@ -1,0 +1,36 @@
+{
+  "name": "imprintcss.com",
+  "version": "1.0.0",
+  "description": "Docs website for the Imprint CSS Tailwind plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx astro dev",
+    "start": "npx astro dev",
+    "build": "npx astro build",
+    "preview": "npx astro preview",
+    "css": "tailwind build -o tmp.css",
+    "update-colors": "node bin/build-colors-collection.mjs"
+  },
+  "author": "stuart@stuartherbert.com",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/mdx": "^4.0.3",
+    "@astrojs/tailwind": "^5.1.4",
+    "@imprintcss/css-definitions": "file:../css-definitions",
+    "@imprintcss/tailwind-plugin": "file:../tailwind-plugin",
+    "@safelytyped/core-types": "^0.5.0",
+    "@safelytyped/css-color": "^1.1.0",
+    "@safelytyped/math-rounding": "^1.0.1",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "astro": "^5.1.1",
+    "heroicons": "^2.1.4",
+    "natsort": "^2.0.3",
+    "node-html-parser": "^6.1.13",
+    "remark-sectionize": "^2.0.0",
+    "rimraf": "^6.0.0",
+    "tailwindcss": "^3.3.6",
+    "ts-node": "^10.9",
+    "typescript": "^5.0"
+  }
+}

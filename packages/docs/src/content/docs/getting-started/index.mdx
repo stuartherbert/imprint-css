@@ -1,0 +1,38 @@
+---
+title: Installation
+navSection: Getting Started
+description: How to install Imprint CSS.
+next: getting-started/using-imprint-css
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import ExternalLink from "../../../components/ExternalLink.astro"
+
+## Requirements
+
+Imprint CSS is a plugin for <ExternalLink name="Tailwind CSS v3.x"/>.
+
+You'll need to <ExternalLink name="Tailwind CSS Installation" text="install and configure Tailwind CSS"/> before adding Imprint CSS to your project.
+
+## Installation
+
+Follow these steps:
+
+1. `npm install @imprintcss/imprint-css`
+2. add `@imprintcss/imprint-css` as a plugin to your `tailwind.config.js` file
+
+and you should be good to go.
+
+### Example Tailwind CSS Config File
+
+<BasicExample>
+```js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+    plugins: [
+        require('@imprintcss/imprint-css'),
+    ],
+};
+```
+</BasicExample>

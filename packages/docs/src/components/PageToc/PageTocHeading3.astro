@@ -1,0 +1,22 @@
+---
+
+import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
+
+import InlineSvg from "../InlineSvg.astro";
+
+interface Props {
+    heading: {
+        depth: number;
+        text: string;
+        slug: string;
+    }
+}
+
+const { heading } = Astro.props;
+
+---
+
+<div class="grid grid-cols-[auto_1fr]">
+<InlineSvg svg={chevonRight} class="h-auto mt-1 w-18rpx text-imprint-gray"/>
+<a href={"#" + heading.slug}>{heading.text}</a>
+</div>
