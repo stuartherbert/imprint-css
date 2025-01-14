@@ -2,32 +2,10 @@
 import { z, defineCollection } from "astro:content";
 import { docsSchema } from "../schemas/doc";
 import { glob } from "astro/loaders";
-
-const colors = defineCollection({
-    type: 'data',
-    schema: z.object({
-        name: z.string(),
-        hsl: z.object({
-            h: z.number(),
-            s: z.number(),
-            l: z.number(),
-        }),
-        hex: z.string(),
-        rgb: z.object({
-            r: z.number(),
-            g: z.number(),
-            b: z.number(),
-        }),
-        rgbChannels: z.string(),
-        isLight: z.boolean(),
-        isDark: z.boolean(),
-        lightModeContrast: z.number(),
-        darkModeContrast: z.number(),
-        luminosity: z.number(),
-        shades: z.array(z.string()),
-        group: z.string(),
-    }),
-});
+import { colorGroupSchema } from "../schemas/colorGroup";
+import { colorHueSchema } from "../schemas/colorHue";
+import { colorPaletteSchema } from "../schemas/colorPalette";
+import { colorsSchema } from "../schemas/color";
 
 const CssStyles = defineCollection({
     type: 'data'
@@ -64,4 +42,33 @@ const CssVars = defineCollection({
     }),
 });
 
-export const collections = { colors, devices, docs, CssStyles, CssVars };
+const colors = defineCollection({
+    loader: glob({ pattern: "*.json", base: "./src/data/colors" }),
+    schema: colorsSchema,
+});
+
+const colorGroups = defineCollection({
+    loader: glob({ pattern: "*.json", base: "./src/data/colorGroups" }),
+    schema: colorGroupSchema,
+});
+
+const colorHues = defineCollection({
+    loader: glob({ pattern: "*.json", base: "./src/data/colorHues" }),
+    schema: colorHueSchema,
+});
+
+const colorPalettes = defineCollection({
+    loader: glob({ pattern: "*.json", base: "./src/data/colorPalettes" }),
+    schema: colorPaletteSchema,
+});
+
+export const collections = {
+    colors,
+    colorGroups,
+    colorHues,
+    colorPalettes,
+    devices,
+    docs,
+    CssStyles,
+    CssVars
+};
