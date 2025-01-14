@@ -48,7 +48,7 @@ export function collectionToDefinitions(
         input,
         (maybePalette, maybeColorName) => {
             if (isCssColorDefinition(maybePalette)) {
-                retval[maybeColorName] = maybePalette;
+                retval[maybeColorName.toLowerCase()] = maybePalette;
             }
             else {
                 const palette = maybePalette;

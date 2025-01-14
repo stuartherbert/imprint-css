@@ -61,5 +61,5 @@ function buildColorName(prefix: string, suffix: string)
         return prefix;
     }
 
-    return [prefix, suffix].join("-");
+    return [prefix, suffix].join("-").toLowerCase();
 }
