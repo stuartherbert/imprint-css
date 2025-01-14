@@ -55,6 +55,7 @@ const generalSchema = z.object({
 });
 
 export const colorsSchema = z.object({
+    name: z.string(),
     definition: z.string().startsWith('#'),
     hex: z.string().startsWith('#'),
     general: generalSchema,
