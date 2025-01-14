@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx astro dev",
-    "start": "npx astro dev",
-    "build": "npx astro build",
-    "preview": "npx astro preview",
+    "dev": "npx astro dev --force",
+    "start": "npx astro dev --force",
+    "build": "npx astro build --force",
+    "preview": "npx astro preview --force",
     "css": "tailwind build -o tmp.css",
     "update-colors": "node bin/build-colors-collection.mjs"
   },
