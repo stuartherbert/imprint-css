@@ -76,7 +76,10 @@ function processColor(colorGroupName, colorName, colorDefinition)
     const cssColor = makeCssColor(colorDefinition);
 
     // analyse the color
-    const colorAnalysis = analyseColor(cssColor);
+    const colorAnalysis = {
+        name: colorName,
+        ...analyseColor(cssColor)
+    };
 
     writeFile(colorFolorPrefix, colorName, colorAnalysis);
 
