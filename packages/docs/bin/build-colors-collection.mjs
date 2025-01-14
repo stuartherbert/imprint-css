@@ -81,9 +81,9 @@ function processColor(colorGroupName, colorName, colorDefinition)
     writeFile(colorFolorPrefix, colorName, colorAnalysis);
 
     // add the color to any remaining collections
-    colorCollections[colorGroupName].push(colorName);
+    colorCollections[colorGroupName].push(colorName.toLowerCase());
     colorAnalysis.general.hues.forEach(hue => {
-        hueCollections[hue].push(colorName);
+        hueCollections[hue].push(colorName.toLowerCase());
     });
 }
 
@@ -99,11 +99,9 @@ function processColorPalette(colorGroupName, paletteName, paletteDefinition)
         // shorthand
         const colorDefinition = flatPalette[colorName];
 
-        console.log(colorName);
-
         // add it to our collections
-        colorGroupsCollections[colorGroupName].push(colorName);
-        colorPaletteCollections[paletteName].push(colorName);
+        colorGroupsCollections[colorGroupName].push(colorName.toLowerCase());
+        colorPaletteCollections[paletteName].push(colorName.toLowerCase());
 
         processColor(colorGroupName, colorName, colorDefinition);
     });
