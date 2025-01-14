@@ -34,7 +34,7 @@
 
 import { describe } from "mocha";
 import { ALL_COLORS } from "../defaults/ALL_COLORS";
-import { colorFromCollection } from "@imprintcss/color-collections";
+import { BOOTSTRAP_COLORS, colorFromCollection, GANBARO_COLORS } from "@imprintcss/color-collections";
 import { expect } from "chai";
 import { mustBeCssColorPalette } from "../types/CssColorPalette/mustBeCssColorPalette";
 
@@ -74,7 +74,7 @@ describe("colorFromCollection", () => {
         // ----------------------------------------------------------------
         // setup your test
 
-        const ganbaroBlue = mustBeCssColorPalette(ALL_COLORS['ganbaro-blue']);
+        const ganbaroBlue = mustBeCssColorPalette(GANBARO_COLORS['ganbaro-blue']);
         const expectedValue = ganbaroBlue['500'];
         expect(expectedValue).is.not.undefined;
 
@@ -100,7 +100,7 @@ describe("colorFromCollection", () => {
         // ----------------------------------------------------------------
         // setup your test
 
-        const bootstrapPurple = mustBeCssColorPalette(ALL_COLORS['bs-purple']);
+        const bootstrapPurple = mustBeCssColorPalette(BOOTSTRAP_COLORS['bs-purple']);
         const expectedValue = bootstrapPurple.DEFAULT;
         expect(expectedValue).is.not.undefined;
 

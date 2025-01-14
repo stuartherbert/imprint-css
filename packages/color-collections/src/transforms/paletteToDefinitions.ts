@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Ganbaro Digital Ltd
+// Copyright (c) 2025-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,34 +32,34 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { APPLE_COLORS } from "../colors/apple";
-import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
-import { CSS_EXTENDED_COLORS } from "../colors/css";
-import { FLAT_COLORS } from "../colors/flat";
-import { GANBARO_COLORS } from "../colors/ganbaro";
-import { IMPRINT_COLORS } from "../colors/imprint";
-import { MATERIAL_COLORS } from "../colors/material-design";
-import { METRO_COLORS } from "../colors/metro";
-import { MISC_COLORS } from "../colors/misc";
-import { MSDL_COLORS } from "../colors/msdl";
-import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND_COLORS } from "../colors/tailwind";
-import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
+import { HashMap } from "@safelytyped/core-types";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
+import type { CssColorPalette } from "../types/CssColorPalette/CssColorPalette.type";
 
-export const ALL_COLORS: CssColorDefinitions = {
-    ...APPLE_COLORS,
-    ...collectionToDefinitions(BOOTSTRAP_COLORS),
-    ...CSS_EXTENDED_COLORS,
-    ...FLAT_COLORS,
-    ...collectionToDefinitions(GANBARO_COLORS),
-    ...IMPRINT_COLORS,
-    ...collectionToDefinitions(MATERIAL_COLORS),
-    ...METRO_COLORS,
-    ...MISC_COLORS,
-    ...collectionToDefinitions(MSDL_COLORS),
-    ...SOCIAL_COLORS,
-    ...collectionToDefinitions(TAILWIND_COLORS)
-};
+export function paletteToDefinitions(
+    prefix: string,
+    input: CssColorPalette
+): CssColorDefinitions
+{
+    const retval: CssColorDefinitions = {};
 
-// console.log(ALL_COLORS);
+    HashMap.forEach(
+        input,
+        (colorDef, suffix) => {
+            const colorName = buildColorName(prefix, suffix);
+            retval[colorName] = colorDef;
+        }
+    );
+
+    // all done
+    return retval;
+}
+
+function buildColorName(prefix: string, suffix: string)
+{
+    if (suffix === "DEFAULT") {
+        return prefix;
+    }
+
+    return [prefix, suffix].join("-");
+}

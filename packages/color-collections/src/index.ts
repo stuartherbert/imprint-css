@@ -56,6 +56,9 @@ export { analyseColor } from "./inspectors/analyseColor";
 export { colorFromCollection } from "./inspectors/colorFromCollection";
 export { hasDefaultColor } from "./inspectors/hasDefaultColor";
 
+export { collectionToDefinitions } from "./transforms/collectionToDefinitions";
+export { paletteToDefinitions } from "./transforms/paletteToDefinitions";
+
 export type { ColorAnalysis } from "./types/ColorAnalysis/ColorAnalysis.type";
 
 export type { CssColorDefinition } from "./types/CssColorDefinition/CssColorDefinition.type";
