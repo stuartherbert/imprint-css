@@ -4,7 +4,8 @@
   "general": {
     "hues": [
       "gray",
-      "cyan"
+      "cyan",
+      "azure"
     ],
     "tonality": "midtone",
     "isDark": false,

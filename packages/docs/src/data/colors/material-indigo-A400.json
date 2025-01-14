@@ -3,7 +3,8 @@
   "hex": "#3d5afe",
   "general": {
     "hues": [
-      "blue"
+      "azure",
+      "indigo"
     ],
     "tonality": "dark",
     "isDark": true,

@@ -3,7 +3,8 @@
   "hex": "#2dd4bf",
   "general": {
     "hues": [
-      "cyan"
+      "springgreen",
+      "teal"
     ],
     "tonality": "midtone",
     "isDark": false,

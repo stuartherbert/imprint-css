@@ -3,7 +3,8 @@
   "hex": "#fe5a1d",
   "general": {
     "hues": [
-      "red"
+      "red",
+      "brown"
     ],
     "tonality": "midtone",
     "isDark": false,

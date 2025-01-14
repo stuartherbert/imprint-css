@@ -3,7 +3,8 @@
   "hex": "#c3d0da",
   "general": {
     "hues": [
-      "cyan"
+      "cyan",
+      "azure"
     ],
     "tonality": "light",
     "isDark": false,

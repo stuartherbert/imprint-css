@@ -3,7 +3,9 @@
   "hex": "#bf0077",
   "general": {
     "hues": [
-      "magenta"
+      "magenta",
+      "fuchsia",
+      "purple"
     ],
     "tonality": "dark",
     "isDark": true,

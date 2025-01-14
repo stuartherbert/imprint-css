@@ -24,5 +24,7 @@
   "imprint-white",
   "imprint-offwhite",
   "imprint-fg-default",
-  "imprint-bg-default"
+  "imprint-bg-default",
+  "imprint-primary",
+  "imprint-secondary"
 ]

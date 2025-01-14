@@ -3,7 +3,8 @@
   "hex": "#eeff41",
   "general": {
     "hues": [
-      "yellow"
+      "yellow",
+      "lime"
     ],
     "tonality": "light",
     "isDark": false,

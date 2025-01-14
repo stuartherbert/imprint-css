@@ -4,7 +4,8 @@
   "general": {
     "hues": [
       "gray",
-      "yellow"
+      "yellow",
+      "lime"
     ],
     "tonality": "dark",
     "isDark": true,

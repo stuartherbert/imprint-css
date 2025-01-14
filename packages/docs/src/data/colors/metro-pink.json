@@ -3,7 +3,9 @@
   "hex": "#f472d0",
   "general": {
     "hues": [
-      "magenta"
+      "magenta",
+      "fuchsia",
+      "purple"
     ],
     "tonality": "midtone",
     "isDark": false,

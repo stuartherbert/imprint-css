@@ -2,7 +2,9 @@
   "definition": "#bb9167",
   "hex": "#bb9167",
   "general": {
-    "hues": [],
+    "hues": [
+      "orange"
+    ],
     "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,

@@ -2,7 +2,9 @@
   "definition": "#fed8b1",
   "hex": "#fed8b1",
   "general": {
-    "hues": [],
+    "hues": [
+      "orange"
+    ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,

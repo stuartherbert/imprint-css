@@ -1,0 +1,50 @@
+{
+  "definition": "#f8d7da",
+  "hex": "#f8d7da",
+  "general": {
+    "hues": [
+      "white",
+      "red"
+    ],
+    "tonality": "light",
+    "isDark": false,
+    "isMidtone": false,
+    "isLight": true,
+    "luma": 225.209,
+    "relativeLuminance": 0.736
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.2,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": true,
+    "contrastRatio": 11.9,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  }
+}

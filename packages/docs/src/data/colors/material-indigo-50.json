@@ -4,7 +4,8 @@
   "general": {
     "hues": [
       "white",
-      "blue"
+      "azure",
+      "indigo"
     ],
     "tonality": "light",
     "isDark": false,

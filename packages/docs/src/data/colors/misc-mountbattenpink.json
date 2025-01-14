@@ -4,7 +4,9 @@
   "general": {
     "hues": [
       "gray",
-      "magenta"
+      "magenta",
+      "fuchsia",
+      "purple"
     ],
     "tonality": "midtone",
     "isDark": false,

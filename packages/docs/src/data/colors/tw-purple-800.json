@@ -3,9 +3,7 @@
   "hex": "#6b21a8",
   "general": {
     "hues": [
-      "violet",
-      "purple",
-      "magenta"
+      "violet"
     ],
     "tonality": "dark",
     "isDark": true,

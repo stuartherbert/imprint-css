@@ -3,7 +3,8 @@
   "hex": "#a4c400",
   "general": {
     "hues": [
-      "yellow"
+      "yellow",
+      "lime"
     ],
     "tonality": "midtone",
     "isDark": false,

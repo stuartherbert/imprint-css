@@ -5,7 +5,9 @@
     "hues": [
       "gray",
       "white",
-      "magenta"
+      "magenta",
+      "fuchsia",
+      "purple"
     ],
     "tonality": "light",
     "isDark": false,

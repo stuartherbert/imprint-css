@@ -4,7 +4,8 @@
   "general": {
     "hues": [
       "gray",
-      "red"
+      "red",
+      "orange"
     ],
     "tonality": "dark",
     "isDark": true,

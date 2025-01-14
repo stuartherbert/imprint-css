@@ -35,7 +35,7 @@
 //
 
 import * as fs from 'node:fs';
-import { DEFAULT_FG, DEFAULT_BG, analyseColor } from "@imprintcss/color-collections";
+import { DEFAULT_FG, DEFAULT_BG, analyseColor, paletteToDefinitions } from "@imprintcss/color-collections";
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
 import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssColor, relativeLuminance, tonality, wcagContrast } from "@safelytyped/css-color";
@@ -82,6 +82,9 @@ function processColor(colorGroupName, colorName, colorDefinition)
 
     // add the color to any remaining collections
     colorCollections[colorGroupName].push(colorName);
+    colorAnalysis.general.hues.forEach(hue => {
+        hueCollections[hue].push(colorName);
+    });
 }
 
 function processColorPalette(colorGroupName, paletteName, paletteDefinition)
@@ -89,11 +92,14 @@ function processColorPalette(colorGroupName, paletteName, paletteDefinition)
     // setup our collections
     colorPaletteCollections[paletteName] = [];
 
-    const paletteContentNames = Object.getOwnPropertyNames(paletteDefinition);
-    paletteContentNames.forEach(paletteContentName => {
+    const flatPalette = paletteToDefinitions(paletteName, paletteDefinition);
+
+    const paletteContentNames = Object.getOwnPropertyNames(flatPalette);
+    paletteContentNames.forEach(colorName => {
         // shorthand
-        const colorName = paletteName + "-" + paletteContentName;
-        const colorDefinition = paletteDefinition[paletteContentName];
+        const colorDefinition = flatPalette[colorName];
+
+        console.log(colorName);
 
         // add it to our collections
         colorGroupsCollections[colorGroupName].push(colorName);
@@ -120,18 +126,27 @@ const colorGroups = DEFINITION_STORE.colorGroups;
 // these will hold our colors data sets
 const hueCollections = {
     black: [],
-    blue: [],
-    cyan: [],
-    gray: [],
-    green: [],
-    magenta: [],
-    orange: [],
-    pink: [],
-    purple: [],
-    red: [],
-    violet: [],
     white: [],
+    gray: [],
+    red: [],
+    brown: [],
+    orange: [],
     yellow: [],
+    lime: [],
+    chartreuse: [],
+    green: [],
+    springgreen: [],
+    teal: [],
+    cyan: [],
+    azure: [],
+    indigo: [],
+    blue: [],
+    violet: [],
+    magenta: [],
+    fuchsia: [],
+    purple: [],
+    rose: [],
+    pink: [],
 }
 const colorGroupsCollections = {};
 const colorCollections = {};

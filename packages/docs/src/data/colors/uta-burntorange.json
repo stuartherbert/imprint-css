@@ -3,7 +3,8 @@
   "hex": "#bf5700",
   "general": {
     "hues": [
-      "red"
+      "red",
+      "orange"
     ],
     "tonality": "dark",
     "isDark": true,
