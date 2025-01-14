@@ -33,8 +33,8 @@
 //
 
 import { newCssVar, newCssVars, newStaticStyle } from "@imprintcss/tailwind-plugin-types";
-import { IMPRINT_COLORS } from "../../../../color-collections/src/colors/imprint";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { colorFromCollection } from "@imprintcss/color-collections";
 
 const staticUtility = newStaticStyle(
     "text",
@@ -43,7 +43,7 @@ const staticUtility = newStaticStyle(
             newCssVar(
                 "--imprint-del-background-color",
                 {
-                    value: IMPRINT_COLORS["imprint-palered"],
+                    value: colorFromCollection("imprint-palered"),
                     type: "color",
                     description: "background color for DEL elements",
                     valueDescription: "imprint-palered",
@@ -52,7 +52,7 @@ const staticUtility = newStaticStyle(
             newCssVar(
                 "--imprint-ins-background-color",
                 {
-                    value: IMPRINT_COLORS["imprint-palegreen"],
+                    value: colorFromCollection("imprint-palegreen"),
                     type: "color",
                     description: "background color for INS elements",
                     valueDescription: "imprint-palegreen",

@@ -33,8 +33,8 @@
 //
 
 import { newCssVar, newCssVars, newStaticStyle, tailwindThemeColor } from "@imprintcss/tailwind-plugin-types";
-import { colors } from "../../../../color-collections/src/colors";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { colorFromCollection } from "@imprintcss/color-collections";
 
 DEFINITION_STORE.addStaticStyle(
     newStaticStyle(
@@ -44,7 +44,7 @@ DEFINITION_STORE.addStaticStyle(
                 newCssVar(
                     "--imprint-color",
                     {
-                        value: tailwindThemeColor(colors["imprint-nero"]),
+                        value: tailwindThemeColor(colorFromCollection("imprint-nero")),
                         type: "color",
                         description: "default color for text",
                         valueDescription: "imprint-nero",
@@ -53,7 +53,7 @@ DEFINITION_STORE.addStaticStyle(
                 newCssVar(
                     "--imprint-background-color",
                     {
-                        value: tailwindThemeColor(colors["imprint-offwhite"]),
+                        value: tailwindThemeColor(colorFromCollection("imprint-offwhite")),
                         type: "color",
                         description: "default background color for the page",
                         valueDescription: "imprint-offwhite",

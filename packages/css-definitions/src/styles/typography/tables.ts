@@ -33,8 +33,8 @@
 //
 
 import { newCssVar, newCssVars, newStaticStyle } from "@imprintcss/tailwind-plugin-types";
-import { IMPRINT_COLORS } from "../../../../color-collections/src/colors/imprint";
 import { DEFINITION_STORE } from "../../definitionStore/DEFINITION_STORE";
+import { colorFromCollection } from "@imprintcss/color-collections";
 
 const staticUtility = newStaticStyle(
     "tables",
@@ -70,7 +70,7 @@ const staticUtility = newStaticStyle(
             newCssVar(
                 "--imprint-table-stripe",
                 {
-                    value: IMPRINT_COLORS["imprint-palegray"],
+                    value: colorFromCollection("imprint-palegray"),
                     type: "color",
                     description: "backgroup color of striped elements",
                     valueDescription: "imprint-palegray",
