@@ -1,5 +1,9 @@
 {
   "name": "tw-slate-600",
+  "title": "tw-slate-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-slate-600'.",
   "definition": "#475569",
   "hex": "#475569",
   "general": {

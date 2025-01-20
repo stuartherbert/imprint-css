@@ -1,5 +1,9 @@
 {
   "name": "apple-lavender",
+  "title": "apple-lavender",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-lavender'.",
   "definition": "#c6f",
   "hex": "#cc66ff",
   "general": {

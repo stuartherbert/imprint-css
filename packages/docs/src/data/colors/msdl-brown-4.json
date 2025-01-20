@@ -1,5 +1,9 @@
 {
   "name": "msdl-brown-4",
+  "title": "msdl-brown-4",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-brown-4'.",
   "definition": "#ffb900",
   "hex": "#ffb900",
   "general": {

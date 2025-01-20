@@ -1,5 +1,9 @@
 {
   "name": "trad-persianpink",
+  "title": "trad-persianpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-persianpink'.",
   "definition": "#f77fbe",
   "hex": "#f77fbe",
   "general": {

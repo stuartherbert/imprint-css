@@ -1,5 +1,9 @@
 {
   "name": "orangered",
+  "title": "orangered",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'orangered'.",
   "definition": "#ff4500",
   "hex": "#ff4500",
   "general": {

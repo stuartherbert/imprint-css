@@ -1,5 +1,9 @@
 {
   "name": "tw-neutral-800",
+  "title": "tw-neutral-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-neutral-800'.",
   "definition": "#262626",
   "hex": "#262626",
   "general": {

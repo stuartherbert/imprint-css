@@ -1,5 +1,9 @@
 {
   "name": "material-teal-a200",
+  "title": "material-teal-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-teal-a200'.",
   "definition": "#64ffda",
   "hex": "#64ffda",
   "general": {

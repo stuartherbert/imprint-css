@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-eggshell",
+  "title": "iscc-nbs-eggshell",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-eggshell'.",
   "definition": "#f0ead6",
   "hex": "#f0ead6",
   "general": {

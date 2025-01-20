@@ -1,5 +1,9 @@
 {
   "name": "darkorange",
+  "title": "darkorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkorange'.",
   "definition": "#ff8c00",
   "hex": "#ff8c00",
   "general": {

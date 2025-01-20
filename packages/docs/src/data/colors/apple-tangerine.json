@@ -1,5 +1,9 @@
 {
   "name": "apple-tangerine",
+  "title": "apple-tangerine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-tangerine'.",
   "definition": "#ff8000",
   "hex": "#ff8000",
   "general": {

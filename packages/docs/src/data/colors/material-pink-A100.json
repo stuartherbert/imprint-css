@@ -1,5 +1,9 @@
 {
   "name": "material-pink-a100",
+  "title": "material-pink-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-a100'.",
   "definition": "#ff80ab",
   "hex": "#ff80ab",
   "general": {

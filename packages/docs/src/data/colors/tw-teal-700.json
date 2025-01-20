@@ -1,5 +1,9 @@
 {
   "name": "tw-teal-700",
+  "title": "tw-teal-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-teal-700'.",
   "definition": "#0f766e",
   "hex": "#0f766e",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-gray-50",
+  "title": "tw-gray-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-gray-50'.",
   "definition": "#f9fafb",
   "hex": "#f9fafb",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-carnation",
+  "title": "apple-carnation",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-carnation'.",
   "definition": "#ff6fcf",
   "hex": "#ff6fcf",
   "general": {

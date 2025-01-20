@@ -1,5 +1,9 @@
 {
   "name": "crayola-atomictangerine",
+  "title": "crayola-atomictangerine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-atomictangerine'.",
   "definition": "#f96",
   "hex": "#ff9966",
   "general": {

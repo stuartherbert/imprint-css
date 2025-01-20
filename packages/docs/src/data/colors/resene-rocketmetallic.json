@@ -1,5 +1,9 @@
 {
   "name": "resene-rocketmetallic",
+  "title": "resene-rocketmetallic",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'resene-rocketmetallic'.",
   "definition": "#8a7f8d",
   "hex": "#8a7f8d",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-deeppurple-400",
+  "title": "material-deeppurple-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeppurple-400'.",
   "definition": "#7e57c2",
   "hex": "#7e57c2",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "darkmagenta",
+  "title": "darkmagenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkmagenta'.",
   "definition": "#8b008b",
   "hex": "#8b008b",
   "general": {

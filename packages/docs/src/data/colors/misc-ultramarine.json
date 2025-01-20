@@ -1,5 +1,9 @@
 {
   "name": "misc-ultramarine",
+  "title": "misc-ultramarine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-ultramarine'.",
   "definition": "#3f00ff",
   "hex": "#3f00ff",
   "general": {

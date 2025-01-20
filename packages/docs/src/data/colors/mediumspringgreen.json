@@ -1,5 +1,9 @@
 {
   "name": "mediumspringgreen",
+  "title": "mediumspringgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mediumspringgreen'.",
   "definition": "#00fa9a",
   "hex": "#00fa9a",
   "general": {

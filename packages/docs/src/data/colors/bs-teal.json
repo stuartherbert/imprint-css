@@ -1,5 +1,9 @@
 {
   "name": "bs-teal",
+  "title": "bs-teal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-teal'.",
   "definition": "#20c997",
   "hex": "#20c997",
   "general": {

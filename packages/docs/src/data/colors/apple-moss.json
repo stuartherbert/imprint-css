@@ -1,5 +1,9 @@
 {
   "name": "apple-moss",
+  "title": "apple-moss",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-moss'.",
   "definition": "#008040",
   "hex": "#008040",
   "general": {

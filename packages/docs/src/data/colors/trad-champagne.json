@@ -1,5 +1,9 @@
 {
   "name": "trad-champagne",
+  "title": "trad-champagne",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-champagne'.",
   "definition": "#f7e7ce",
   "hex": "#f7e7ce",
   "general": {

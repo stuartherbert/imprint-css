@@ -1,5 +1,9 @@
 {
   "name": "msdl-mondo-1",
+  "title": "msdl-mondo-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-mondo-1'.",
   "definition": "#4c4a48",
   "hex": "#4c4a48",
   "general": {

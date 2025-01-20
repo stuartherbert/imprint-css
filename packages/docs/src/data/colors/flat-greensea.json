@@ -1,5 +1,9 @@
 {
   "name": "flat-greensea",
+  "title": "flat-greensea",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-greensea'.",
   "definition": "#16a085",
   "hex": "#16a085",
   "general": {

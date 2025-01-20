@@ -1,5 +1,9 @@
 {
   "name": "misc-olivine",
+  "title": "misc-olivine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-olivine'.",
   "definition": "#9ab973",
   "hex": "#9ab973",
   "general": {

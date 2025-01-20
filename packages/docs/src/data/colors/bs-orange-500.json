@@ -1,5 +1,9 @@
 {
   "name": "bs-orange-500",
+  "title": "bs-orange-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-orange-500'.",
   "definition": "#fd7e14",
   "hex": "#fd7e14",
   "general": {

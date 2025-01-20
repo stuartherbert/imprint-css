@@ -1,5 +1,9 @@
 {
   "name": "behr-caribbeancurrent",
+  "title": "behr-caribbeancurrent",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'behr-caribbeancurrent'.",
   "definition": "#006d6f",
   "hex": "#006d6f",
   "general": {

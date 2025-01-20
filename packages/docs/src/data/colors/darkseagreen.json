@@ -1,5 +1,9 @@
 {
   "name": "darkseagreen",
+  "title": "darkseagreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkseagreen'.",
   "definition": "#8fbc8f",
   "hex": "#8fbc8f",
   "general": {

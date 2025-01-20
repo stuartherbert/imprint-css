@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-red",
+  "title": "ganbaro-red",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-red'.",
   "definition": "#d82726",
   "hex": "#d82726",
   "general": {

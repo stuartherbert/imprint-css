@@ -1,5 +1,9 @@
 {
   "name": "flat-alizarin",
+  "title": "flat-alizarin",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-alizarin'.",
   "definition": "#e74c3c",
   "hex": "#e74c3c",
   "general": {

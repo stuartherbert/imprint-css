@@ -1,5 +1,9 @@
 {
   "name": "metro-red",
+  "title": "metro-red",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-red'.",
   "definition": "#e51400",
   "hex": "#e51400",
   "general": {

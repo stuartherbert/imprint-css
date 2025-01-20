@@ -1,5 +1,9 @@
 {
   "name": "tw-green-500",
+  "title": "tw-green-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-green-500'.",
   "definition": "#22c55e",
   "hex": "#22c55e",
   "general": {

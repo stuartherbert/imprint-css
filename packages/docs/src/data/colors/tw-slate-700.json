@@ -1,5 +1,9 @@
 {
   "name": "tw-slate-700",
+  "title": "tw-slate-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-slate-700'.",
   "definition": "#334155",
   "hex": "#334155",
   "general": {

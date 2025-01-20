@@ -1,5 +1,9 @@
 {
   "name": "trad-shamrockgreen",
+  "title": "trad-shamrockgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-shamrockgreen'.",
   "definition": "#009e60",
   "hex": "#009e60",
   "general": {

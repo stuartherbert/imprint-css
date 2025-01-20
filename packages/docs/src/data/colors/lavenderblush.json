@@ -1,5 +1,9 @@
 {
   "name": "lavenderblush",
+  "title": "lavenderblush",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lavenderblush'.",
   "definition": "#fff0f5",
   "hex": "#fff0f5",
   "general": {

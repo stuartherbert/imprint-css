@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-rosequartz",
+  "title": "iscc-nbs-rosequartz",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-rosequartz'.",
   "definition": "#aa98a9",
   "hex": "#aa98a9",
   "general": {

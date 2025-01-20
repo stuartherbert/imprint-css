@@ -1,5 +1,9 @@
 {
   "name": "misc-lightmossgreen",
+  "title": "misc-lightmossgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-lightmossgreen'.",
   "definition": "#b9bd78",
   "hex": "#b9bd78",
   "general": {

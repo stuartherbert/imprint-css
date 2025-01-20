@@ -1,5 +1,9 @@
 {
   "name": "crayola-screamingreen",
+  "title": "crayola-screamingreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-screamingreen'.",
   "definition": "#76ff7a",
   "hex": "#76ff7a",
   "general": {

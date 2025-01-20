@@ -1,5 +1,9 @@
 {
   "name": "grey",
+  "title": "grey",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'grey'.",
   "definition": "#808080",
   "hex": "#808080",
   "general": {

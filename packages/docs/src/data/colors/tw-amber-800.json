@@ -1,5 +1,9 @@
 {
   "name": "tw-amber-800",
+  "title": "tw-amber-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-amber-800'.",
   "definition": "#92400e",
   "hex": "#92400e",
   "general": {

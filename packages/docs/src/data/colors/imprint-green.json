@@ -1,5 +1,9 @@
 {
   "name": "imprint-green",
+  "title": "imprint-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-green'.",
   "definition": "#4d4d4d",
   "hex": "#4d4d4d",
   "general": {

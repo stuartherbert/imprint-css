@@ -1,5 +1,9 @@
 {
   "name": "bs-gray-500",
+  "title": "bs-gray-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-gray-500'.",
   "definition": "#adb5bd",
   "hex": "#adb5bd",
   "general": {

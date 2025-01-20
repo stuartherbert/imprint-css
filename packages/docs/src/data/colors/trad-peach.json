@@ -1,5 +1,9 @@
 {
   "name": "trad-peach",
+  "title": "trad-peach",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-peach'.",
   "definition": "#ffe5b4",
   "hex": "#ffe5b4",
   "general": {

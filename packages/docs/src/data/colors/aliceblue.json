@@ -1,5 +1,9 @@
 {
   "name": "aliceblue",
+  "title": "aliceblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'aliceblue'.",
   "definition": "#f0f8ff",
   "hex": "#f0f8ff",
   "general": {

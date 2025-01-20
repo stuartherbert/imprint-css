@@ -1,5 +1,9 @@
 {
   "name": "bs-pink-900",
+  "title": "bs-pink-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-pink-900'.",
   "definition": "#2b0a1a",
   "hex": "#2b0a1a",
   "general": {

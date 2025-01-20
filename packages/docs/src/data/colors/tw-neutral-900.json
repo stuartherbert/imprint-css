@@ -1,5 +1,9 @@
 {
   "name": "tw-neutral-900",
+  "title": "tw-neutral-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-neutral-900'.",
   "definition": "#171717",
   "hex": "#171717",
   "general": {

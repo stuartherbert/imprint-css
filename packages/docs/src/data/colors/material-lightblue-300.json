@@ -1,5 +1,9 @@
 {
   "name": "material-lightblue-300",
+  "title": "material-lightblue-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightblue-300'.",
   "definition": "#4fc3f7",
   "hex": "#4fc3f7",
   "general": {

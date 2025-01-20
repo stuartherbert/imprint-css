@@ -1,5 +1,9 @@
 {
   "name": "apple-eggplant",
+  "title": "apple-eggplant",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-eggplant'.",
   "definition": "#400080",
   "hex": "#400080",
   "general": {

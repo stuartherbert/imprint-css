@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-darkmossgreen",
+  "title": "encycolorpedia-darkmossgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-darkmossgreen'.",
   "definition": "#4a5d23",
   "hex": "#4a5d23",
   "general": {

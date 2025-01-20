@@ -1,5 +1,9 @@
 {
   "name": "tw-blue-200",
+  "title": "tw-blue-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-blue-200'.",
   "definition": "#bfdbfe",
   "hex": "#bfdbfe",
   "general": {

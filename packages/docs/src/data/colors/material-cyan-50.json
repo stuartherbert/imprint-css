@@ -1,5 +1,9 @@
 {
   "name": "material-cyan-50",
+  "title": "material-cyan-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-cyan-50'.",
   "definition": "#e0f7fa",
   "hex": "#e0f7fa",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-iron",
+  "title": "apple-iron",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-iron'.",
   "definition": "#4c4c4c",
   "hex": "#4c4c4c",
   "general": {

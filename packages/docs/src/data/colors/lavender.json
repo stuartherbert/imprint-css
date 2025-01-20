@@ -1,5 +1,9 @@
 {
   "name": "lavender",
+  "title": "lavender",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lavender'.",
   "definition": "#e6e6fa",
   "hex": "#e6e6fa",
   "general": {

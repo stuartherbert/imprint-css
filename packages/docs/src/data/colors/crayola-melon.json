@@ -1,5 +1,9 @@
 {
   "name": "crayola-melon",
+  "title": "crayola-melon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-melon'.",
   "definition": "#fdbcb4",
   "hex": "#fdbcb4",
   "general": {

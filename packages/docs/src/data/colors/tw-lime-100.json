@@ -1,5 +1,9 @@
 {
   "name": "tw-lime-100",
+  "title": "tw-lime-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-lime-100'.",
   "definition": "#ecfccb",
   "hex": "#ecfccb",
   "general": {

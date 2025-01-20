@@ -1,5 +1,9 @@
 {
   "name": "chartreuse",
+  "title": "chartreuse",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'chartreuse'.",
   "definition": "#7fff00",
   "hex": "#7fff00",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-amber-900",
+  "title": "tw-amber-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-amber-900'.",
   "definition": "#78350f",
   "hex": "#78350f",
   "general": {

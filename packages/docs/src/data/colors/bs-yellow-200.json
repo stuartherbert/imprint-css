@@ -1,5 +1,9 @@
 {
   "name": "bs-yellow-200",
+  "title": "bs-yellow-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-yellow-200'.",
   "definition": "#ffe69c",
   "hex": "#ffe69c",
   "general": {

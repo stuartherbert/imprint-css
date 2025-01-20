@@ -1,5 +1,9 @@
 {
   "name": "tw-amber-100",
+  "title": "tw-amber-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-amber-100'.",
   "definition": "#fef3c7",
   "hex": "#fef3c7",
   "general": {

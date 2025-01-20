@@ -1,5 +1,9 @@
 {
   "name": "misc-mexicanpink",
+  "title": "misc-mexicanpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-mexicanpink'.",
   "definition": "#e4007c",
   "hex": "#e4007c",
   "general": {

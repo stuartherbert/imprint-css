@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-green",
+  "title": "ganbaro-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-green'.",
   "definition": "#b1dd8c",
   "hex": "#b1dd8c",
   "general": {

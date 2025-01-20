@@ -1,5 +1,9 @@
 {
   "name": "darkcyan",
+  "title": "darkcyan",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkcyan'.",
   "definition": "#008b8b",
   "hex": "#008b8b",
   "general": {

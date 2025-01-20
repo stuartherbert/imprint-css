@@ -1,5 +1,9 @@
 {
   "name": "misc-nickel",
+  "title": "misc-nickel",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-nickel'.",
   "definition": "#727472",
   "hex": "#727472",
   "general": {

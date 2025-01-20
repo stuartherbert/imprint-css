@@ -1,5 +1,9 @@
 {
   "name": "crayola-lemon",
+  "title": "crayola-lemon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-lemon'.",
   "definition": "#fdff00",
   "hex": "#fdff00",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-tin",
+  "title": "apple-tin",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-tin'.",
   "definition": "#7f7f7f",
   "hex": "#7f7f7f",
   "general": {

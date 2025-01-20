@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-raisinblack",
+  "title": "iscc-nbs-raisinblack",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-raisinblack'.",
   "definition": "#242124",
   "hex": "#242124",
   "general": {

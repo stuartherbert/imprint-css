@@ -1,5 +1,9 @@
 {
   "name": "bs-orange-600",
+  "title": "bs-orange-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-orange-600'.",
   "definition": "#ca6510",
   "hex": "#ca6510",
   "general": {

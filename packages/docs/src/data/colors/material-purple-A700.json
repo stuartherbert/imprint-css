@@ -1,5 +1,9 @@
 {
   "name": "material-purple-a700",
+  "title": "material-purple-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-purple-a700'.",
   "definition": "#a0f",
   "hex": "#aa00ff",
   "general": {

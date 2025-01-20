@@ -1,5 +1,9 @@
 {
   "name": "material-yellow-a700",
+  "title": "material-yellow-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-yellow-a700'.",
   "definition": "#ffd600",
   "hex": "#ffd600",
   "general": {

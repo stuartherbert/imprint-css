@@ -1,5 +1,9 @@
 {
   "name": "cmyk-pigmentmagenta",
+  "title": "cmyk-pigmentmagenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cmyk-pigmentmagenta'.",
   "definition": "#ff0090",
   "hex": "#ff0090",
   "general": {

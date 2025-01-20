@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-coralpink",
+  "title": "iscc-nbs-coralpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-coralpink'.",
   "definition": "#f88379",
   "hex": "#f88379",
   "general": {

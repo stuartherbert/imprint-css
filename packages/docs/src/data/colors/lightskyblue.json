@@ -1,5 +1,9 @@
 {
   "name": "lightskyblue",
+  "title": "lightskyblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightskyblue'.",
   "definition": "#87cefa",
   "hex": "#87cefa",
   "general": {

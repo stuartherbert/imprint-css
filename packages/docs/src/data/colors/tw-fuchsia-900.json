@@ -1,5 +1,9 @@
 {
   "name": "tw-fuchsia-900",
+  "title": "tw-fuchsia-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-fuchsia-900'.",
   "definition": "#701a75",
   "hex": "#701a75",
   "general": {

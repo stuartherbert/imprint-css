@@ -1,5 +1,9 @@
 {
   "name": "imprint-lightred",
+  "title": "imprint-lightred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-lightred'.",
   "definition": "#f2dede",
   "hex": "#f2dede",
   "general": {

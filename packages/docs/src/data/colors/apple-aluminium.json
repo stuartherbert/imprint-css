@@ -1,5 +1,9 @@
 {
   "name": "apple-aluminium",
+  "title": "apple-aluminium",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-aluminium'.",
   "definition": "#999",
   "hex": "#999999",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "trad-apricot",
+  "title": "trad-apricot",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-apricot'.",
   "definition": "#fbceb1",
   "hex": "#fbceb1",
   "general": {

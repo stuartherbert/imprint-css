@@ -1,5 +1,9 @@
 {
   "name": "tw-orange-50",
+  "title": "tw-orange-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-orange-50'.",
   "definition": "#fff7ed",
   "hex": "#fff7ed",
   "general": {

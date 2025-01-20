@@ -1,5 +1,9 @@
 {
   "name": "palevioletred",
+  "title": "palevioletred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'palevioletred'.",
   "definition": "#db7093",
   "hex": "#db7093",
   "general": {

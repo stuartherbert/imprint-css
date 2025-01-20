@@ -1,5 +1,9 @@
 {
   "name": "tw-sky-400",
+  "title": "tw-sky-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-sky-400'.",
   "definition": "#38bdf8",
   "hex": "#38bdf8",
   "general": {

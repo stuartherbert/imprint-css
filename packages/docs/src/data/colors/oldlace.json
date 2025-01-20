@@ -1,5 +1,9 @@
 {
   "name": "oldlace",
+  "title": "oldlace",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'oldlace'.",
   "definition": "#fdf5e6",
   "hex": "#fdf5e6",
   "general": {

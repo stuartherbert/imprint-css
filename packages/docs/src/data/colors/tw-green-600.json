@@ -1,5 +1,9 @@
 {
   "name": "tw-green-600",
+  "title": "tw-green-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-green-600'.",
   "definition": "#16a34a",
   "hex": "#16a34a",
   "general": {

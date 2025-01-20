@@ -1,5 +1,9 @@
 {
   "name": "imprint-red",
+  "title": "imprint-red",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-red'.",
   "definition": "#ff3300",
   "hex": "#ff3300",
   "general": {

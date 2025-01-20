@@ -1,5 +1,9 @@
 {
   "name": "tw-neutral-400",
+  "title": "tw-neutral-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-neutral-400'.",
   "definition": "#a3a3a3",
   "hex": "#a3a3a3",
   "general": {

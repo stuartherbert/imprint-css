@@ -1,5 +1,9 @@
 {
   "name": "material-pink-900",
+  "title": "material-pink-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-900'.",
   "definition": "#880e4f",
   "hex": "#880e4f",
   "general": {

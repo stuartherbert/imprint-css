@@ -1,5 +1,9 @@
 {
   "name": "misc-mountbattenpink",
+  "title": "misc-mountbattenpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-mountbattenpink'.",
   "definition": "#997a8d",
   "hex": "#997a8d",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "plochere-mimipink",
+  "title": "plochere-mimipink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'plochere-mimipink'.",
   "definition": "#ffdae9",
   "hex": "#ffdae9",
   "general": {

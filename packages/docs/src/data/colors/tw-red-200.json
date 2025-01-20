@@ -1,5 +1,9 @@
 {
   "name": "tw-red-200",
+  "title": "tw-red-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-200'.",
   "definition": "#fecaca",
   "hex": "#fecaca",
   "general": {

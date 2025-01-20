@@ -1,5 +1,9 @@
 {
   "name": "social-messenger",
+  "title": "social-messenger",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-messenger'.",
   "definition": "#0084ff",
   "hex": "#0084ff",
   "general": {

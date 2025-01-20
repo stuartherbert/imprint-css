@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-davysgrey",
+  "title": "iscc-nbs-davysgrey",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-davysgrey'.",
   "definition": "#555",
   "hex": "#555555",
   "general": {

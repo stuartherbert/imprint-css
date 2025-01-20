@@ -1,5 +1,9 @@
 {
   "name": "misc-bone",
+  "title": "misc-bone",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-bone'.",
   "definition": "#e3dac9",
   "hex": "#e3dac9",
   "general": {

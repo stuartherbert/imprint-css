@@ -1,5 +1,9 @@
 {
   "name": "tw-yellow-600",
+  "title": "tw-yellow-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-yellow-600'.",
   "definition": "#ca8a04",
   "hex": "#ca8a04",
   "general": {

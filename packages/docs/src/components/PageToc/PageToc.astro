@@ -1,12 +1,16 @@
 ---
 
+import type { Headings } from "../../types/headings";
 import PageTocHeading2 from "./PageTocHeading2.astro";
 import PageTocHeading3 from "./PageTocHeading3.astro";
 
+export interface Props {
+    headings: Headings;
+}
 const { headings } = Astro.props;
 
 ---
-
+{headings.length > 0 &&
 <script is:inline>
     document.addEventListener("DOMContentLoaded", () => {
         const obOpts = {
@@ -48,3 +52,4 @@ const { headings } = Astro.props;
         ))}
     </ol>
 </nav>
+}

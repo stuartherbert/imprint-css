@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-orange-a200",
+  "title": "ganbaro-orange-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-orange-a200'.",
   "definition": "#ffb34e",
   "hex": "#ffb34e",
   "general": {

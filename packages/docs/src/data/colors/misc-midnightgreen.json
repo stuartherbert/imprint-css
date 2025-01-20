@@ -1,5 +1,9 @@
 {
   "name": "misc-midnightgreen",
+  "title": "misc-midnightgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-midnightgreen'.",
   "definition": "#004953",
   "hex": "#004953",
   "general": {

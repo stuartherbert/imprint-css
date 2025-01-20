@@ -1,5 +1,9 @@
 {
   "name": "lightgrey",
+  "title": "lightgrey",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightgrey'.",
   "definition": "#d3d3d3",
   "hex": "#d3d3d3",
   "general": {

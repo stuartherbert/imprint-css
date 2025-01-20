@@ -1,5 +1,9 @@
 {
   "name": "material-cyan-a100",
+  "title": "material-cyan-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-cyan-a100'.",
   "definition": "#84ffff",
   "hex": "#84ffff",
   "general": {

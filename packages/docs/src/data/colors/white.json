@@ -1,5 +1,9 @@
 {
   "name": "white",
+  "title": "white",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'white'.",
   "definition": "#ffffff",
   "hex": "#ffffff",
   "general": {

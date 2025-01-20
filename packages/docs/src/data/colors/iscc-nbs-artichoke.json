@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-artichoke",
+  "title": "iscc-nbs-artichoke",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-artichoke'.",
   "definition": "#8f9779",
   "hex": "#8f9779",
   "general": {

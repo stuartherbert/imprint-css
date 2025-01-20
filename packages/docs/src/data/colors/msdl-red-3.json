@@ -1,5 +1,9 @@
 {
   "name": "msdl-red-3",
+  "title": "msdl-red-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-red-3'.",
   "definition": "#c50f1f",
   "hex": "#c50f1f",
   "general": {

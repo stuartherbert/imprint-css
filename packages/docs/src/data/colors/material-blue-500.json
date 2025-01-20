@@ -1,5 +1,9 @@
 {
   "name": "material-blue-500",
+  "title": "material-blue-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-blue-500'.",
   "definition": "#2196f3",
   "hex": "#2196f3",
   "general": {

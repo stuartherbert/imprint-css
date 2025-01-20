@@ -1,5 +1,9 @@
 {
   "name": "msdl-green-2",
+  "title": "msdl-green-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-green-2'.",
   "definition": "#107c10",
   "hex": "#107c10",
   "general": {

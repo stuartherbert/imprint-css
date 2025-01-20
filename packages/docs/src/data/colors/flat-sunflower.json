@@ -1,5 +1,9 @@
 {
   "name": "flat-sunflower",
+  "title": "flat-sunflower",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-sunflower'.",
   "definition": "#f1c40f",
   "hex": "#f1c40f",
   "general": {

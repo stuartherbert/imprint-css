@@ -1,5 +1,9 @@
 {
   "name": "tw-blue-950",
+  "title": "tw-blue-950",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-blue-950'.",
   "definition": "#172554",
   "hex": "#172554",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "imprint-darkgray",
+  "title": "imprint-darkgray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-darkgray'.",
   "definition": "#696969",
   "hex": "#696969",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-paynegray",
+  "title": "misc-paynegray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-paynegray'.",
   "definition": "#536878",
   "hex": "#536878",
   "general": {

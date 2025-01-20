@@ -1,5 +1,9 @@
 {
   "name": "social-slideshare",
+  "title": "social-slideshare",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-slideshare'.",
   "definition": "#0077b5",
   "hex": "#0077b5",
   "general": {

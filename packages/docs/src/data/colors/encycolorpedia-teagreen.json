@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-teagreen",
+  "title": "encycolorpedia-teagreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-teagreen'.",
   "definition": "#d0f0c0",
   "hex": "#d0f0c0",
   "general": {

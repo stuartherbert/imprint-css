@@ -1,5 +1,9 @@
 {
   "name": "bs-red-700",
+  "title": "bs-red-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-red-700'.",
   "definition": "#842029",
   "hex": "#842029",
   "general": {

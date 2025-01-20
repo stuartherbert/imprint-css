@@ -1,5 +1,9 @@
 {
   "name": "tw-yellow-700",
+  "title": "tw-yellow-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-yellow-700'.",
   "definition": "#a16207",
   "hex": "#a16207",
   "general": {

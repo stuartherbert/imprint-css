@@ -1,5 +1,9 @@
 {
   "name": "mediumpurple",
+  "title": "mediumpurple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mediumpurple'.",
   "definition": "#9370db",
   "hex": "#9370db",
   "general": {

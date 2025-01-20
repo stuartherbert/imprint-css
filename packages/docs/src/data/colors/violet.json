@@ -1,5 +1,9 @@
 {
   "name": "violet",
+  "title": "violet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'violet'.",
   "definition": "#ee82ee",
   "hex": "#ee82ee",
   "general": {

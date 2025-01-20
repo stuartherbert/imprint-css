@@ -1,5 +1,9 @@
 {
   "name": "trad-ebony",
+  "title": "trad-ebony",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-ebony'.",
   "definition": "#555d50",
   "hex": "#555d50",
   "general": {

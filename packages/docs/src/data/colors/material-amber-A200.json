@@ -1,5 +1,9 @@
 {
   "name": "material-amber-a200",
+  "title": "material-amber-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-amber-a200'.",
   "definition": "#ffd740",
   "hex": "#ffd740",
   "general": {

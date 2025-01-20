@@ -1,5 +1,9 @@
 {
   "name": "misc-parisgreen",
+  "title": "misc-parisgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-parisgreen'.",
   "definition": "#50c878",
   "hex": "#50c878",
   "general": {

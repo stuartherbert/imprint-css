@@ -1,5 +1,9 @@
 {
   "name": "bs-gray-400",
+  "title": "bs-gray-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-gray-400'.",
   "definition": "#ced4da",
   "hex": "#ced4da",
   "general": {

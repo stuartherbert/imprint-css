@@ -1,5 +1,9 @@
 {
   "name": "tw-purple-700",
+  "title": "tw-purple-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-purple-700'.",
   "definition": "#7e22ce",
   "hex": "#7e22ce",
   "general": {

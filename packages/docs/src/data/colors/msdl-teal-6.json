@@ -1,5 +1,9 @@
 {
   "name": "msdl-teal-6",
+  "title": "msdl-teal-6",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-teal-6'.",
   "definition": "#61d6d6",
   "hex": "#61d6d6",
   "general": {

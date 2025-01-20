@@ -1,5 +1,9 @@
 {
   "name": "material-orange-600",
+  "title": "material-orange-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-orange-600'.",
   "definition": "#fb8c00",
   "hex": "#fb8c00",
   "general": {

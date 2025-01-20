@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-green-a700",
+  "title": "ganbaro-green-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-green-a700'.",
   "definition": "#075735",
   "hex": "#075735",
   "general": {

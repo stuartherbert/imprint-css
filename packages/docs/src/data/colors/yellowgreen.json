@@ -1,5 +1,9 @@
 {
   "name": "yellowgreen",
+  "title": "yellowgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'yellowgreen'.",
   "definition": "#9acd32",
   "hex": "#9acd32",
   "general": {

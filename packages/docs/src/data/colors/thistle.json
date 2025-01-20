@@ -1,5 +1,9 @@
 {
   "name": "thistle",
+  "title": "thistle",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'thistle'.",
   "definition": "#d8bfd8",
   "hex": "#d8bfd8",
   "general": {

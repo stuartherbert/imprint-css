@@ -1,5 +1,9 @@
 {
   "name": "ansi-safetyyellow",
+  "title": "ansi-safetyyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ansi-safetyyellow'.",
   "definition": "#eed202",
   "hex": "#eed202",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-pink-a400",
+  "title": "material-pink-a400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-a400'.",
   "definition": "#f50057",
   "hex": "#f50057",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-800",
+  "title": "tw-rose-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-800'.",
   "definition": "#9f1239",
   "hex": "#9f1239",
   "general": {

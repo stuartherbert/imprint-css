@@ -1,5 +1,9 @@
 {
   "name": "bs-gray-700",
+  "title": "bs-gray-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-gray-700'.",
   "definition": "#495057",
   "hex": "#495057",
   "general": {

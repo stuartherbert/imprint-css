@@ -1,5 +1,9 @@
 {
   "name": "material-red-400",
+  "title": "material-red-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-red-400'.",
   "definition": "#ef5350",
   "hex": "#ef5350",
   "general": {

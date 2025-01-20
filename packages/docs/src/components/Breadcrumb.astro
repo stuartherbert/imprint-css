@@ -10,6 +10,14 @@ import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
 const currentUrl = new URL(Astro.request.url);
 const currentSlug = currentUrl.pathname.substring(1);
 
+export interface Props {
+    origin: {
+        collection: string;
+        id: string;
+    }
+}
+const { origin } = Astro.props;
+
 const breadcrumbs = [
     {
         slug: '',
@@ -19,11 +27,20 @@ const breadcrumbs = [
 ];
 
 async function buildBreadcrumbs() {
-    const currentEntry = await getEntry('docs', currentSlug);
-    const navSection = imprintConfig.navSections.find((navSection) => navSection.name === currentEntry?.data.navSection);
+    const currentEntry = await getEntry(origin.collection, origin.id);
+    if (currentEntry === undefined) {
+        Astro.redirect("/404");
+        // unreachable
+        throw new Error("cannot find '" + origin.id + '" in collection "' + origin.collection + '"');
+    }
+
+    console.log(currentEntry.data);
+    const navSection = imprintConfig.navSections.find((navSection) => navSection.name === currentEntry.data.navSection);
+
+    console.log(navSection);
 
     // special case - home page
-    if (currentEntry.slug !== '/') {
+    if (currentEntry.id !== '/') {
         breadcrumbs[breadcrumbs.length - 1].isEnd = false;
         breadcrumbs.push({
             slug: navSection?.slug === '/' ? '' : navSection.slug,

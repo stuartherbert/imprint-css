@@ -1,5 +1,9 @@
 {
   "name": "darkslateblue",
+  "title": "darkslateblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkslateblue'.",
   "definition": "#483d8b",
   "hex": "#483d8b",
   "general": {

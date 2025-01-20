@@ -1,5 +1,9 @@
 {
   "name": "tw-pink-700",
+  "title": "tw-pink-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-pink-700'.",
   "definition": "#be185d",
   "hex": "#be185d",
   "general": {

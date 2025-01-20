@@ -1,5 +1,9 @@
 {
   "name": "tw-zinc-700",
+  "title": "tw-zinc-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-zinc-700'.",
   "definition": "#3f3f46",
   "hex": "#3f3f46",
   "general": {

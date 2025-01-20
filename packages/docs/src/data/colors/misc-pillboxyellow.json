@@ -1,5 +1,9 @@
 {
   "name": "misc-pillboxyellow",
+  "title": "misc-pillboxyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-pillboxyellow'.",
   "definition": "#c0ba82",
   "hex": "#c0ba82",
   "general": {

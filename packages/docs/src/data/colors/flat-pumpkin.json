@@ -1,5 +1,9 @@
 {
   "name": "flat-pumpkin",
+  "title": "flat-pumpkin",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-pumpkin'.",
   "definition": "#d35400",
   "hex": "#d35400",
   "general": {

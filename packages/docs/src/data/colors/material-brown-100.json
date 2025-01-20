@@ -1,5 +1,9 @@
 {
   "name": "material-brown-100",
+  "title": "material-brown-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-brown-100'.",
   "definition": "#d7ccc8",
   "hex": "#d7ccc8",
   "general": {

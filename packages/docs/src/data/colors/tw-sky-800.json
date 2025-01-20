@@ -1,5 +1,9 @@
 {
   "name": "tw-sky-800",
+  "title": "tw-sky-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-sky-800'.",
   "definition": "#075985",
   "hex": "#075985",
   "general": {

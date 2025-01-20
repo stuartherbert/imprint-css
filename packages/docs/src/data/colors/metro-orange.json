@@ -1,5 +1,9 @@
 {
   "name": "metro-orange",
+  "title": "metro-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-orange'.",
   "definition": "#fa6800",
   "hex": "#fa6800",
   "general": {

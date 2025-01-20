@@ -1,5 +1,9 @@
 {
   "name": "tw-purple-600",
+  "title": "tw-purple-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-purple-600'.",
   "definition": "#9333ea",
   "hex": "#9333ea",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-deeporange-300",
+  "title": "material-deeporange-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeporange-300'.",
   "definition": "#ff8a65",
   "hex": "#ff8a65",
   "general": {

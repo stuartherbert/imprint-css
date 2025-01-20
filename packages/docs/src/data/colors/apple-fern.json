@@ -1,5 +1,9 @@
 {
   "name": "apple-fern",
+  "title": "apple-fern",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-fern'.",
   "definition": "#408000",
   "hex": "#408000",
   "general": {

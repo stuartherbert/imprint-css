@@ -1,5 +1,9 @@
 {
   "name": "imprint-yellow",
+  "title": "imprint-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-yellow'.",
   "definition": "#ff8c1a",
   "hex": "#ff8c1a",
   "general": {

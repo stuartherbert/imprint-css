@@ -1,5 +1,9 @@
 {
   "name": "msdl-mondo-2",
+  "title": "msdl-mondo-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-mondo-2'.",
   "definition": "#5d5a58",
   "hex": "#5d5a58",
   "general": {

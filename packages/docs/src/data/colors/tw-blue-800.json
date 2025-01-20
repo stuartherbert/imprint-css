@@ -1,5 +1,9 @@
 {
   "name": "tw-blue-800",
+  "title": "tw-blue-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-blue-800'.",
   "definition": "#1e40af",
   "hex": "#1e40af",
   "general": {

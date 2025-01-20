@@ -1,5 +1,9 @@
 {
   "name": "tw-red-500",
+  "title": "tw-red-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-500'.",
   "definition": "#ef4444",
   "hex": "#ef4444",
   "general": {

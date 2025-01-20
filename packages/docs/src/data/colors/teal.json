@@ -1,5 +1,9 @@
 {
   "name": "teal",
+  "title": "teal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'teal'.",
   "definition": "#008080",
   "hex": "#008080",
   "general": {

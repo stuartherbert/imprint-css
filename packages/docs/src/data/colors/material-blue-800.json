@@ -1,5 +1,9 @@
 {
   "name": "material-blue-800",
+  "title": "material-blue-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-blue-800'.",
   "definition": "#1565c0",
   "hex": "#1565c0",
   "general": {

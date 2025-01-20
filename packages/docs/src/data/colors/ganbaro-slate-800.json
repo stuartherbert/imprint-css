@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-slate-800",
+  "title": "ganbaro-slate-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-slate-800'.",
   "definition": "#363a3d",
   "hex": "#363a3d",
   "general": {

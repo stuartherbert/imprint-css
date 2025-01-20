@@ -1,5 +1,9 @@
 {
   "name": "snow",
+  "title": "snow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'snow'.",
   "definition": "#fffafa",
   "hex": "#fffafa",
   "general": {

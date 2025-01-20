@@ -1,5 +1,9 @@
 {
   "name": "metro-violet",
+  "title": "metro-violet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-violet'.",
   "definition": "#a0f",
   "hex": "#aa00ff",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "aqua",
+  "title": "aqua",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'aqua'.",
   "definition": "#00ffff",
   "hex": "#00ffff",
   "general": {

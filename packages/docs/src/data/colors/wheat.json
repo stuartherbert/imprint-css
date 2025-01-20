@@ -1,5 +1,9 @@
 {
   "name": "wheat",
+  "title": "wheat",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'wheat'.",
   "definition": "#f5deb3",
   "hex": "#f5deb3",
   "general": {

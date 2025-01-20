@@ -1,5 +1,9 @@
 {
   "name": "material-indigo-a100",
+  "title": "material-indigo-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-indigo-a100'.",
   "definition": "#8c9eff",
   "hex": "#8c9eff",
   "general": {

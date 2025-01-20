@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-coolgray",
+  "title": "iscc-nbs-coolgray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-coolgray'.",
   "definition": "#9090c0",
   "hex": "#9090c0",
   "general": {

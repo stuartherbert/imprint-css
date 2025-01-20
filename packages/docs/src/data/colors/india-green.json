@@ -1,5 +1,9 @@
 {
   "name": "india-green",
+  "title": "india-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'india-green'.",
   "definition": "#138808",
   "hex": "#138808",
   "general": {

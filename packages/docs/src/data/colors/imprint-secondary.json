@@ -1,5 +1,9 @@
 {
   "name": "imprint-secondary",
+  "title": "imprint-secondary",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-secondary'.",
   "definition": "#b1dd8c",
   "hex": "#b1dd8c",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-emerald-50",
+  "title": "tw-emerald-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-emerald-50'.",
   "definition": "#ecfdf5",
   "hex": "#ecfdf5",
   "general": {

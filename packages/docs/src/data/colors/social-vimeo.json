@@ -1,5 +1,9 @@
 {
   "name": "social-vimeo",
+  "title": "social-vimeo",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-vimeo'.",
   "definition": "#1ab7ea",
   "hex": "#1ab7ea",
   "general": {

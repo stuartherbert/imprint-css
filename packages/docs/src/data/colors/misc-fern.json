@@ -1,5 +1,9 @@
 {
   "name": "misc-fern",
+  "title": "misc-fern",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-fern'.",
   "definition": "#4f7942",
   "hex": "#4f7942",
   "general": {

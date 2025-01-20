@@ -1,5 +1,9 @@
 {
   "name": "azure",
+  "title": "azure",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'azure'.",
   "definition": "#f0ffff",
   "hex": "#f0ffff",
   "general": {

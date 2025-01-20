@@ -1,5 +1,9 @@
 {
   "name": "crayola-licorice",
+  "title": "crayola-licorice",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-licorice'.",
   "definition": "#1a1110",
   "hex": "#1a1110",
   "general": {

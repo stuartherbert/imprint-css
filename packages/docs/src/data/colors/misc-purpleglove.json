@@ -1,5 +1,9 @@
 {
   "name": "misc-purpleglove",
+  "title": "misc-purpleglove",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-purpleglove'.",
   "definition": "#7449c0",
   "hex": "#7449c0",
   "general": {

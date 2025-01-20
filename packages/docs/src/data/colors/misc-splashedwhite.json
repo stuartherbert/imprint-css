@@ -1,5 +1,9 @@
 {
   "name": "misc-splashedwhite",
+  "title": "misc-splashedwhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-splashedwhite'.",
   "definition": "#fefdff",
   "hex": "#fefdff",
   "general": {

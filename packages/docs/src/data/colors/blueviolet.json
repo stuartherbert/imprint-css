@@ -1,5 +1,9 @@
 {
   "name": "blueviolet",
+  "title": "blueviolet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'blueviolet'.",
   "definition": "#8a2be2",
   "hex": "#8a2be2",
   "general": {

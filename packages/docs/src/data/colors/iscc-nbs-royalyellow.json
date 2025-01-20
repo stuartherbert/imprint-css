@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-royalyellow",
+  "title": "iscc-nbs-royalyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-royalyellow'.",
   "definition": "#fada5e",
   "hex": "#fada5e",
   "general": {

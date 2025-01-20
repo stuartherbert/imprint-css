@@ -1,5 +1,9 @@
 {
   "name": "material-gray-800",
+  "title": "material-gray-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-gray-800'.",
   "definition": "#424242",
   "hex": "#424242",
   "general": {

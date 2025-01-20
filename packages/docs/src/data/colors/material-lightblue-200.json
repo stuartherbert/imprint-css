@@ -1,5 +1,9 @@
 {
   "name": "material-lightblue-200",
+  "title": "material-lightblue-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightblue-200'.",
   "definition": "#81d4fa",
   "hex": "#81d4fa",
   "general": {

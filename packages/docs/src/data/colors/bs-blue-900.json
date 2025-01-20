@@ -1,5 +1,9 @@
 {
   "name": "bs-blue-900",
+  "title": "bs-blue-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue-900'.",
   "definition": "#031633",
   "hex": "#031633",
   "general": {

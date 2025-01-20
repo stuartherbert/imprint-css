@@ -1,5 +1,9 @@
 {
   "name": "apple-cantaloupe",
+  "title": "apple-cantaloupe",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-cantaloupe'.",
   "definition": "#fc6",
   "hex": "#ffcc66",
   "general": {

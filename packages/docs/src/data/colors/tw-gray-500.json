@@ -1,5 +1,9 @@
 {
   "name": "tw-gray-500",
+  "title": "tw-gray-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-gray-500'.",
   "definition": "#6b7280",
   "hex": "#6b7280",
   "general": {

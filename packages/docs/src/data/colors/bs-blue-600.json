@@ -1,5 +1,9 @@
 {
   "name": "bs-blue-600",
+  "title": "bs-blue-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue-600'.",
   "definition": "#0a58ca",
   "hex": "#0a58ca",
   "general": {

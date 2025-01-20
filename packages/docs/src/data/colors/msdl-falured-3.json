@@ -1,5 +1,9 @@
 {
   "name": "msdl-falured-3",
+  "title": "msdl-falured-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-falured-3'.",
   "definition": "#da3b01",
   "hex": "#da3b01",
   "general": {

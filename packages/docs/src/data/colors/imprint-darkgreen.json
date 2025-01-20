@@ -1,5 +1,9 @@
 {
   "name": "imprint-darkgreen",
+  "title": "imprint-darkgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-darkgreen'.",
   "definition": "#3c763d",
   "hex": "#3c763d",
   "general": {

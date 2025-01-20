@@ -1,5 +1,9 @@
 {
   "name": "flat-midnightblue",
+  "title": "flat-midnightblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-midnightblue'.",
   "definition": "#2c3e50",
   "hex": "#2c3e50",
   "general": {

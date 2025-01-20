@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-50",
+  "title": "tw-rose-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-50'.",
   "definition": "#fff1f2",
   "hex": "#fff1f2",
   "general": {

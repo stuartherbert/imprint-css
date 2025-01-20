@@ -1,5 +1,9 @@
 {
   "name": "tw-amber-400",
+  "title": "tw-amber-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-amber-400'.",
   "definition": "#fbbf24",
   "hex": "#fbbf24",
   "general": {

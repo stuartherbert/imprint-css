@@ -1,5 +1,9 @@
 {
   "name": "crayola-alloyorange",
+  "title": "crayola-alloyorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-alloyorange'.",
   "definition": "#c46210",
   "hex": "#c46210",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-magnesium",
+  "title": "apple-magnesium",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-magnesium'.",
   "definition": "#b3b3b3",
   "hex": "#b3b3b3",
   "general": {

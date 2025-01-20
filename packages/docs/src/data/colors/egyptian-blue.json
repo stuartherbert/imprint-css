@@ -1,5 +1,9 @@
 {
   "name": "egyptian-blue",
+  "title": "egyptian-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'egyptian-blue'.",
   "definition": "#1034a6",
   "hex": "#1034a6",
   "general": {

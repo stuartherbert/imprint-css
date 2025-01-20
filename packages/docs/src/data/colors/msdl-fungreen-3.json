@@ -1,5 +1,9 @@
 {
   "name": "msdl-fungreen-3",
+  "title": "msdl-fungreen-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-fungreen-3'.",
   "definition": "#00ae56",
   "hex": "#00ae56",
   "general": {

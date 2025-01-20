@@ -1,5 +1,9 @@
 {
   "name": "tw-red-600",
+  "title": "tw-red-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-600'.",
   "definition": "#dc2626",
   "hex": "#dc2626",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "metro-emerald",
+  "title": "metro-emerald",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-emerald'.",
   "definition": "#008a00",
   "hex": "#008a00",
   "general": {

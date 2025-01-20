@@ -1,5 +1,9 @@
 {
   "name": "bs-blue",
+  "title": "bs-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue'.",
   "definition": "#0d6efd",
   "hex": "#0d6efd",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-a200",
+  "title": "material-lightgreen-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-a200'.",
   "definition": "#b2ff59",
   "hex": "#b2ff59",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "darkslategray",
+  "title": "darkslategray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkslategray'.",
   "definition": "#2f4f4f",
   "hex": "#2f4f4f",
   "general": {

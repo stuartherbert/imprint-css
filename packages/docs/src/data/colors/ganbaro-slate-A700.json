@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-slate-a700",
+  "title": "ganbaro-slate-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-slate-a700'.",
   "definition": "#494c52",
   "hex": "#494c52",
   "general": {

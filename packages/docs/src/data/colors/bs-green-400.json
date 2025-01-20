@@ -1,5 +1,9 @@
 {
   "name": "bs-green-400",
+  "title": "bs-green-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-green-400'.",
   "definition": "#479f76",
   "hex": "#479f76",
   "general": {

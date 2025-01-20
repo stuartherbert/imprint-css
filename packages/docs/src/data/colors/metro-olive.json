@@ -1,5 +1,9 @@
 {
   "name": "metro-olive",
+  "title": "metro-olive",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-olive'.",
   "definition": "#6d8764",
   "hex": "#6d8764",
   "general": {

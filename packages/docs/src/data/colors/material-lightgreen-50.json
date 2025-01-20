@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-50",
+  "title": "material-lightgreen-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-50'.",
   "definition": "#f1f8e9",
   "hex": "#f1f8e9",
   "general": {

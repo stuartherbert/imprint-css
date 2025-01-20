@@ -1,5 +1,9 @@
 {
   "name": "misc-cerulean",
+  "title": "misc-cerulean",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-cerulean'.",
   "definition": "#007ba7",
   "hex": "#007ba7",
   "general": {

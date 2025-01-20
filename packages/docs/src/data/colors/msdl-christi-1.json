@@ -1,5 +1,9 @@
 {
   "name": "msdl-christi-1",
+  "title": "msdl-christi-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-christi-1'.",
   "definition": "#73aa24",
   "hex": "#73aa24",
   "general": {

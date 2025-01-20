@@ -1,5 +1,9 @@
 {
   "name": "trad-cardinalred",
+  "title": "trad-cardinalred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-cardinalred'.",
   "definition": "#c41e3a",
   "hex": "#c41e3a",
   "general": {

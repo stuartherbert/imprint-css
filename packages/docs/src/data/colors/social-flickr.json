@@ -1,5 +1,9 @@
 {
   "name": "social-flickr",
+  "title": "social-flickr",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-flickr'.",
   "definition": "#ff0084",
   "hex": "#ff0084",
   "general": {

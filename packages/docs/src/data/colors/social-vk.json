@@ -1,5 +1,9 @@
 {
   "name": "social-vk",
+  "title": "social-vk",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-vk'.",
   "definition": "#4c75a3",
   "hex": "#4c75a3",
   "general": {

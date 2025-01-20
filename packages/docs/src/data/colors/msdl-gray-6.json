@@ -1,5 +1,9 @@
 {
   "name": "msdl-gray-6",
+  "title": "msdl-gray-6",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-gray-6'.",
   "definition": "#e6e6e6",
   "hex": "#e6e6e6",
   "general": {

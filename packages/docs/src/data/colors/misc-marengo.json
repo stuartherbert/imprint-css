@@ -1,5 +1,9 @@
 {
   "name": "misc-marengo",
+  "title": "misc-marengo",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-marengo'.",
   "definition": "#4c5866",
   "hex": "#4c5866",
   "general": {

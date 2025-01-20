@@ -1,5 +1,9 @@
 {
   "name": "royalblue",
+  "title": "royalblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'royalblue'.",
   "definition": "#4169e1",
   "hex": "#4169e1",
   "general": {

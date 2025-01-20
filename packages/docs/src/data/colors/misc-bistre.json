@@ -1,5 +1,9 @@
 {
   "name": "misc-bistre",
+  "title": "misc-bistre",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-bistre'.",
   "definition": "#3d2b1f",
   "hex": "#3d2b1f",
   "general": {

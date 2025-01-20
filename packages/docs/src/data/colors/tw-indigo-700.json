@@ -1,5 +1,9 @@
 {
   "name": "tw-indigo-700",
+  "title": "tw-indigo-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-indigo-700'.",
   "definition": "#4338ca",
   "hex": "#4338ca",
   "general": {

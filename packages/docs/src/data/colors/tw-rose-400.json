@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-400",
+  "title": "tw-rose-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-400'.",
   "definition": "#fb7185",
   "hex": "#fb7185",
   "general": {

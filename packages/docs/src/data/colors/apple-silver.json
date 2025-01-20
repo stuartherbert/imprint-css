@@ -1,5 +1,9 @@
 {
   "name": "apple-silver",
+  "title": "apple-silver",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-silver'.",
   "definition": "#ccc",
   "hex": "#cccccc",
   "general": {

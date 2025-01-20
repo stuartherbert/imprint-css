@@ -1,5 +1,9 @@
 {
   "name": "material-pink-a700",
+  "title": "material-pink-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-a700'.",
   "definition": "#c51162",
   "hex": "#c51162",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "bs-purple-400",
+  "title": "bs-purple-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-purple-400'.",
   "definition": "#8c68cd",
   "hex": "#8c68cd",
   "general": {

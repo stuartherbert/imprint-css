@@ -1,5 +1,9 @@
 {
   "name": "xona-blackbean",
+  "title": "xona-blackbean",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'xona-blackbean'.",
   "definition": "#3d0c02",
   "hex": "#3d0c02",
   "general": {

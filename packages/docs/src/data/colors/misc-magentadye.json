@@ -1,5 +1,9 @@
 {
   "name": "misc-magentadye",
+  "title": "misc-magentadye",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-magentadye'.",
   "definition": "#ca1f7b",
   "hex": "#ca1f7b",
   "general": {

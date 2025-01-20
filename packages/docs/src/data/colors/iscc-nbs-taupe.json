@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-taupe",
+  "title": "iscc-nbs-taupe",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-taupe'.",
   "definition": "#483c32",
   "hex": "#483c32",
   "general": {

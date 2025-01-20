@@ -1,5 +1,9 @@
 {
   "name": "tw-orange-200",
+  "title": "tw-orange-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-orange-200'.",
   "definition": "#fed7aa",
   "hex": "#fed7aa",
   "general": {

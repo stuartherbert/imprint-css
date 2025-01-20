@@ -1,5 +1,9 @@
 {
   "name": "material-pink-50",
+  "title": "material-pink-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-50'.",
   "definition": "#fce4ec",
   "hex": "#fce4ec",
   "general": {

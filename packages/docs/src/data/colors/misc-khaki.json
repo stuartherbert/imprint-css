@@ -1,5 +1,9 @@
 {
   "name": "misc-khaki",
+  "title": "misc-khaki",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-khaki'.",
   "definition": "#c3b091",
   "hex": "#c3b091",
   "general": {

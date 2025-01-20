@@ -1,5 +1,9 @@
 {
   "name": "misc-brown",
+  "title": "misc-brown",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-brown'.",
   "definition": "#964b00",
   "hex": "#964b00",
   "general": {

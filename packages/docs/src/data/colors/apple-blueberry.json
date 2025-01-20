@@ -1,5 +1,9 @@
 {
   "name": "apple-blueberry",
+  "title": "apple-blueberry",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-blueberry'.",
   "definition": "#00f",
   "hex": "#0000ff",
   "general": {

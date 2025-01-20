@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-verdigris",
+  "title": "encycolorpedia-verdigris",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-verdigris'.",
   "definition": "#43b3ae",
   "hex": "#43b3ae",
   "general": {

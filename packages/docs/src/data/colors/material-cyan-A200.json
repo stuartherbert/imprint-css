@@ -1,5 +1,9 @@
 {
   "name": "material-cyan-a200",
+  "title": "material-cyan-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-cyan-a200'.",
   "definition": "#18ffff",
   "hex": "#18ffff",
   "general": {

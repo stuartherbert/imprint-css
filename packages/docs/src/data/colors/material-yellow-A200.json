@@ -1,5 +1,9 @@
 {
   "name": "material-yellow-a200",
+  "title": "material-yellow-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-yellow-a200'.",
   "definition": "#ff0",
   "hex": "#ffff00",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "metro-crimson",
+  "title": "metro-crimson",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-crimson'.",
   "definition": "#a20025",
   "hex": "#a20025",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "trad-ruby",
+  "title": "trad-ruby",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-ruby'.",
   "definition": "#e0115f",
   "hex": "#e0115f",
   "general": {

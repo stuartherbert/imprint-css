@@ -1,5 +1,9 @@
 {
   "name": "msdl-bilbao-6",
+  "title": "msdl-bilbao-6",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-bilbao-6'.",
   "definition": "#b7df74",
   "hex": "#b7df74",
   "general": {

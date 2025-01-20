@@ -78,6 +78,13 @@ function processColor(colorGroupName, colorName, colorDefinition)
     // analyse the color
     const colorAnalysis = {
         name: colorName,
+        // frontmatter
+        title: colorName,
+        navSection: "Colors",
+        collection: "colors",
+        description: "Analysis of the color '" + colorName + "'.",
+
+        // detailed color analysis
         ...analyseColor(cssColor)
     };
 

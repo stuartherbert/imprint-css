@@ -1,5 +1,9 @@
 {
   "name": "crayola-lightorange",
+  "title": "crayola-lightorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-lightorange'.",
   "definition": "#fed8b1",
   "hex": "#fed8b1",
   "general": {

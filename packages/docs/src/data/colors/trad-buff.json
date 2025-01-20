@@ -1,5 +1,9 @@
 {
   "name": "trad-buff",
+  "title": "trad-buff",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-buff'.",
   "definition": "#f0dc82",
   "hex": "#f0dc82",
   "general": {

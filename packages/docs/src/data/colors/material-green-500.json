@@ -1,5 +1,9 @@
 {
   "name": "material-green-500",
+  "title": "material-green-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-green-500'.",
   "definition": "#4caf50",
   "hex": "#4caf50",
   "general": {

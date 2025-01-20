@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-800",
+  "title": "material-lightgreen-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-800'.",
   "definition": "#558b2f",
   "hex": "#558b2f",
   "general": {

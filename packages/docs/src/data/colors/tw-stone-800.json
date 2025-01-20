@@ -1,5 +1,9 @@
 {
   "name": "tw-stone-800",
+  "title": "tw-stone-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-stone-800'.",
   "definition": "#292524",
   "hex": "#292524",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-asparagus",
+  "title": "apple-asparagus",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-asparagus'.",
   "definition": "#808000",
   "hex": "#808000",
   "general": {

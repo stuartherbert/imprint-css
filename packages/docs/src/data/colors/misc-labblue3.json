@@ -1,5 +1,9 @@
 {
   "name": "misc-labblue3",
+  "title": "misc-labblue3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-labblue3'.",
   "definition": "#3d4353",
   "hex": "#3d4353",
   "general": {

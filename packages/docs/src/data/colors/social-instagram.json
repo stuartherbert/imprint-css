@@ -1,5 +1,9 @@
 {
   "name": "social-instagram",
+  "title": "social-instagram",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-instagram'.",
   "definition": "#e4405f",
   "hex": "#e4405f",
   "general": {

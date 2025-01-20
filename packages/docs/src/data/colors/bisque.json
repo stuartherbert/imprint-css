@@ -1,5 +1,9 @@
 {
   "name": "bisque",
+  "title": "bisque",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bisque'.",
   "definition": "#ffe4c4",
   "hex": "#ffe4c4",
   "general": {

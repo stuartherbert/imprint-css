@@ -1,5 +1,9 @@
 {
   "name": "material-gray-900",
+  "title": "material-gray-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-gray-900'.",
   "definition": "#212121",
   "hex": "#212121",
   "general": {

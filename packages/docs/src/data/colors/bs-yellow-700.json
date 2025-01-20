@@ -1,5 +1,9 @@
 {
   "name": "bs-yellow-700",
+  "title": "bs-yellow-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-yellow-700'.",
   "definition": "#997404",
   "hex": "#997404",
   "general": {

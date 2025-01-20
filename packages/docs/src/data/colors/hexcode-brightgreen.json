@@ -1,5 +1,9 @@
 {
   "name": "hexcode-brightgreen",
+  "title": "hexcode-brightgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'hexcode-brightgreen'.",
   "definition": "#6f0",
   "hex": "#66ff00",
   "general": {

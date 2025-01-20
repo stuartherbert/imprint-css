@@ -1,5 +1,9 @@
 {
   "name": "orange",
+  "title": "orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'orange'.",
   "definition": "#ffa500",
   "hex": "#ffa500",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-eggplant-4",
+  "title": "msdl-eggplant-4",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-eggplant-4'.",
   "definition": "#e3008c",
   "hex": "#e3008c",
   "general": {

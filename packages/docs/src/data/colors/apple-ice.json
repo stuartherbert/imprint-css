@@ -1,5 +1,9 @@
 {
   "name": "apple-ice",
+  "title": "apple-ice",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-ice'.",
   "definition": "#6ff",
   "hex": "#66ffff",
   "general": {

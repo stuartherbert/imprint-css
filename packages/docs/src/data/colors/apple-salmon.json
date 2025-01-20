@@ -1,5 +1,9 @@
 {
   "name": "apple-salmon",
+  "title": "apple-salmon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-salmon'.",
   "definition": "#f66",
   "hex": "#ff6666",
   "general": {

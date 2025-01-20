@@ -1,5 +1,9 @@
 {
   "name": "ncs-green",
+  "title": "ncs-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ncs-green'.",
   "definition": "#009f6b",
   "hex": "#009f6b",
   "general": {

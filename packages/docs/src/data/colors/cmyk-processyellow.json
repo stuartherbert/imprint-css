@@ -1,5 +1,9 @@
 {
   "name": "cmyk-processyellow",
+  "title": "cmyk-processyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cmyk-processyellow'.",
   "definition": "#ffef00",
   "hex": "#ffef00",
   "general": {

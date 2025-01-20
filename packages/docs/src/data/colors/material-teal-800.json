@@ -1,5 +1,9 @@
 {
   "name": "material-teal-800",
+  "title": "material-teal-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-teal-800'.",
   "definition": "#00695c",
   "hex": "#00695c",
   "general": {

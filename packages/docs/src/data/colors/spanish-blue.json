@@ -1,5 +1,9 @@
 {
   "name": "spanish-blue",
+  "title": "spanish-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'spanish-blue'.",
   "definition": "#0070bb",
   "hex": "#0070bb",
   "general": {

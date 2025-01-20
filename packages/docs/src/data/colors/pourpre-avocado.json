@@ -1,5 +1,9 @@
 {
   "name": "pourpre-avocado",
+  "title": "pourpre-avocado",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'pourpre-avocado'.",
   "definition": "#568203",
   "hex": "#568203",
   "general": {

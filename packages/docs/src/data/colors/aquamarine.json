@@ -1,5 +1,9 @@
 {
   "name": "aquamarine",
+  "title": "aquamarine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'aquamarine'.",
   "definition": "#7fffd4",
   "hex": "#7fffd4",
   "general": {

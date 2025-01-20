@@ -1,5 +1,9 @@
 {
   "name": "springgreen",
+  "title": "springgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'springgreen'.",
   "definition": "#00ff7f",
   "hex": "#00ff7f",
   "general": {

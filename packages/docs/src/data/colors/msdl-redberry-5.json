@@ -1,5 +1,9 @@
 {
   "name": "msdl-redberry-5",
+  "title": "msdl-redberry-5",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-redberry-5'.",
   "definition": "#ff6767",
   "hex": "#ff6767",
   "general": {

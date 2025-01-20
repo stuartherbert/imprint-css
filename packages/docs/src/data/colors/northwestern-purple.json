@@ -1,5 +1,9 @@
 {
   "name": "northwestern-purple",
+  "title": "northwestern-purple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'northwestern-purple'.",
   "definition": "#4e2a84",
   "hex": "#4e2a84",
   "general": {

@@ -1,0 +1,22 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+
+type Props = MarkdownLayoutProps<{
+    title: string;
+    description: string;
+    navSection: string;
+    prev?: { collection: "docs"; id: string } | undefined;
+    next?: { collection: "docs"; id: string } | undefined;
+}> & {
+    origin: Origin;
+}
+
+const {frontmatter, headings, origin} = Astro.props;
+import PageLayout from "./page.astro";
+import type { Origin } from "../types/origin";
+
+---
+
+<PageLayout frontmatter={frontmatter} origin={origin} headings={headings}>
+    <slot/>
+</PageLayout>

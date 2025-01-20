@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-blue-200",
+  "title": "ganbaro-blue-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-blue-200'.",
   "definition": "#689bd7",
   "hex": "#689bd7",
   "general": {

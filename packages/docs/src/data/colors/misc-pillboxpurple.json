@@ -1,5 +1,9 @@
 {
   "name": "misc-pillboxpurple",
+  "title": "misc-pillboxpurple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-pillboxpurple'.",
   "definition": "#9c94a7",
   "hex": "#9c94a7",
   "general": {

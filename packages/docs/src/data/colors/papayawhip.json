@@ -1,5 +1,9 @@
 {
   "name": "papayawhip",
+  "title": "papayawhip",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'papayawhip'.",
   "definition": "#ffefd5",
   "hex": "#ffefd5",
   "general": {

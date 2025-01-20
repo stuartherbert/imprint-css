@@ -1,5 +1,9 @@
 {
   "name": "xona-deeppinklight",
+  "title": "xona-deeppinklight",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'xona-deeppinklight'.",
   "definition": "#ff5ccd",
   "hex": "#ff5ccd",
   "general": {

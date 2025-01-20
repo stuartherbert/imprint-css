@@ -1,5 +1,9 @@
 {
   "name": "tw-gray-800",
+  "title": "tw-gray-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-gray-800'.",
   "definition": "#1f2937",
   "hex": "#1f2937",
   "general": {

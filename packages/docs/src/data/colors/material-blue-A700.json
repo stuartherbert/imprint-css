@@ -1,5 +1,9 @@
 {
   "name": "material-blue-a700",
+  "title": "material-blue-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-blue-a700'.",
   "definition": "#2962ff",
   "hex": "#2962ff",
   "general": {

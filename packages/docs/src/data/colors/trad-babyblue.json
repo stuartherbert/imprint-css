@@ -1,5 +1,9 @@
 {
   "name": "trad-babyblue",
+  "title": "trad-babyblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-babyblue'.",
   "definition": "#89cff0",
   "hex": "#89cff0",
   "general": {

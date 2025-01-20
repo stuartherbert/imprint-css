@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import MdxLayout from "../layouts/mdx.astro";
+import MdxWrapperLayout from "../layouts/mdx-wrapper.astro";
 import { render } from "astro:content";
 
 export async function getStaticPaths() {
@@ -17,8 +17,13 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 
+const origin = {
+    collection: "docs",
+    id: entry.id,
+}
+
 ---
 
-<MdxLayout frontmatter={entry.data} headings={headings}>
+<MdxWrapperLayout frontmatter={entry.data} headings={headings} origin={origin}>
   <Content />
-</MdxLayout>
+</MdxWrapperLayout>

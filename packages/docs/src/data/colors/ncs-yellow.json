@@ -1,5 +1,9 @@
 {
   "name": "ncs-yellow",
+  "title": "ncs-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ncs-yellow'.",
   "definition": "#ffd300",
   "hex": "#ffd300",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "metro-magenta",
+  "title": "metro-magenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-magenta'.",
   "definition": "#d80073",
   "hex": "#d80073",
   "general": {

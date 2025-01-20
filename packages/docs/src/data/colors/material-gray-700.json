@@ -1,5 +1,9 @@
 {
   "name": "material-gray-700",
+  "title": "material-gray-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-gray-700'.",
   "definition": "#616161",
   "hex": "#616161",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "khaki",
+  "title": "khaki",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'khaki'.",
   "definition": "#f0e68c",
   "hex": "#f0e68c",
   "general": {

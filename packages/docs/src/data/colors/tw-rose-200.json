@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-200",
+  "title": "tw-rose-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-200'.",
   "definition": "#fecdd3",
   "hex": "#fecdd3",
   "general": {

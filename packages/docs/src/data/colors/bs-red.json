@@ -1,5 +1,9 @@
 {
   "name": "bs-red",
+  "title": "bs-red",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-red'.",
   "definition": "#dc3545",
   "hex": "#dc3545",
   "general": {

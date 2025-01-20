@@ -1,5 +1,9 @@
 {
   "name": "material-purple-a400",
+  "title": "material-purple-a400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-purple-a400'.",
   "definition": "#d500f9",
   "hex": "#d500f9",
   "general": {

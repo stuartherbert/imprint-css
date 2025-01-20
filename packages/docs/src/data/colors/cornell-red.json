@@ -1,5 +1,9 @@
 {
   "name": "cornell-red",
+  "title": "cornell-red",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cornell-red'.",
   "definition": "#b31b1b",
   "hex": "#b31b1b",
   "general": {

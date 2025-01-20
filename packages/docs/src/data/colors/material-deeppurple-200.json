@@ -1,5 +1,9 @@
 {
   "name": "material-deeppurple-200",
+  "title": "material-deeppurple-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeppurple-200'.",
   "definition": "#b39ddb",
   "hex": "#b39ddb",
   "general": {

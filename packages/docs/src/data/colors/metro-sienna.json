@@ -1,5 +1,9 @@
 {
   "name": "metro-sienna",
+  "title": "metro-sienna",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-sienna'.",
   "definition": "#a0522d",
   "hex": "#a0522d",
   "general": {

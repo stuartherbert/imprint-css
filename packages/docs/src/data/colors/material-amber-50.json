@@ -1,5 +1,9 @@
 {
   "name": "material-amber-50",
+  "title": "material-amber-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-amber-50'.",
   "definition": "#fff8e1",
   "hex": "#fff8e1",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "trad-orangepeel",
+  "title": "trad-orangepeel",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-orangepeel'.",
   "definition": "#ff9f00",
   "hex": "#ff9f00",
   "general": {

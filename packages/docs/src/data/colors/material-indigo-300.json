@@ -1,5 +1,9 @@
 {
   "name": "material-indigo-300",
+  "title": "material-indigo-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-indigo-300'.",
   "definition": "#7986cb",
   "hex": "#7986cb",
   "general": {

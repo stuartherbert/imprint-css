@@ -1,5 +1,9 @@
 {
   "name": "crayola-timberwolf",
+  "title": "crayola-timberwolf",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-timberwolf'.",
   "definition": "#dbd7d2",
   "hex": "#dbd7d2",
   "general": {

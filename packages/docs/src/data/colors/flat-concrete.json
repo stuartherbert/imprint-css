@@ -1,5 +1,9 @@
 {
   "name": "flat-concrete",
+  "title": "flat-concrete",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-concrete'.",
   "definition": "#95a5a6",
   "hex": "#95a5a6",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "cmyk-cyan",
+  "title": "cmyk-cyan",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cmyk-cyan'.",
   "definition": "#00b7eb",
   "hex": "#00b7eb",
   "general": {

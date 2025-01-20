@@ -1,5 +1,9 @@
 {
   "name": "tw-indigo-200",
+  "title": "tw-indigo-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-indigo-200'.",
   "definition": "#c7d2fe",
   "hex": "#c7d2fe",
   "general": {

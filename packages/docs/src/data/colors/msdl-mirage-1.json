@@ -1,5 +1,9 @@
 {
   "name": "msdl-mirage-1",
+  "title": "msdl-mirage-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-mirage-1'.",
   "definition": "#394146",
   "hex": "#394146",
   "general": {

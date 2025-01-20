@@ -1,5 +1,9 @@
 {
   "name": "ksu-purple",
+  "title": "ksu-purple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ksu-purple'.",
   "definition": "#512888",
   "hex": "#512888",
   "general": {

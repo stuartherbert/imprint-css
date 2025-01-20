@@ -1,5 +1,9 @@
 {
   "name": "social-snapchat",
+  "title": "social-snapchat",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-snapchat'.",
   "definition": "#fffc00",
   "hex": "#fffc00",
   "general": {

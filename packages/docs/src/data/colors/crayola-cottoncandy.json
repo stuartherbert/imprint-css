@@ -1,5 +1,9 @@
 {
   "name": "crayola-cottoncandy",
+  "title": "crayola-cottoncandy",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-cottoncandy'.",
   "definition": "#ffbcd9",
   "hex": "#ffbcd9",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "lightgoldenrodyellow",
+  "title": "lightgoldenrodyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightgoldenrodyellow'.",
   "definition": "#fafad2",
   "hex": "#fafad2",
   "general": {

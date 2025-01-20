@@ -1,5 +1,9 @@
 {
   "name": "crayola-magenta",
+  "title": "crayola-magenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-magenta'.",
   "definition": "#f653a6",
   "hex": "#f653a6",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-snow",
+  "title": "apple-snow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-snow'.",
   "definition": "#fff",
   "hex": "#ffffff",
   "general": {

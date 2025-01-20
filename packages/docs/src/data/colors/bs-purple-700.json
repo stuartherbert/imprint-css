@@ -1,5 +1,9 @@
 {
   "name": "bs-purple-700",
+  "title": "bs-purple-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-purple-700'.",
   "definition": "#432874",
   "hex": "#432874",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-blue-1",
+  "title": "msdl-blue-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-blue-1'.",
   "definition": "#00188f",
   "hex": "#00188f",
   "general": {

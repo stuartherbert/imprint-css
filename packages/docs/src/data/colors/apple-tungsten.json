@@ -1,5 +1,9 @@
 {
   "name": "apple-tungsten",
+  "title": "apple-tungsten",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-tungsten'.",
   "definition": "#333",
   "hex": "#333333",
   "general": {

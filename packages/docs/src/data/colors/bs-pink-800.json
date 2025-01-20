@@ -1,5 +1,9 @@
 {
   "name": "bs-pink-800",
+  "title": "bs-pink-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-pink-800'.",
   "definition": "#561435",
   "hex": "#561435",
   "general": {

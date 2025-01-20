@@ -1,5 +1,9 @@
 {
   "name": "social-wechat",
+  "title": "social-wechat",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-wechat'.",
   "definition": "#09b83e",
   "hex": "#09b83e",
   "general": {

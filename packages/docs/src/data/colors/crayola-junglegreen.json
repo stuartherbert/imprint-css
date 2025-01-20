@@ -1,5 +1,9 @@
 {
   "name": "crayola-junglegreen",
+  "title": "crayola-junglegreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-junglegreen'.",
   "definition": "#29ab87",
   "hex": "#29ab87",
   "general": {

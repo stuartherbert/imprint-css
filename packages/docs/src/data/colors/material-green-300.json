@@ -1,5 +1,9 @@
 {
   "name": "material-green-300",
+  "title": "material-green-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-green-300'.",
   "definition": "#81c784",
   "hex": "#81c784",
   "general": {

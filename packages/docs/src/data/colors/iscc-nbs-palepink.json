@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-palepink",
+  "title": "iscc-nbs-palepink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-palepink'.",
   "definition": "#f9ccca",
   "hex": "#f9ccca",
   "general": {

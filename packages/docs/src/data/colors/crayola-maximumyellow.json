@@ -1,5 +1,9 @@
 {
   "name": "crayola-maximumyellow",
+  "title": "crayola-maximumyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-maximumyellow'.",
   "definition": "#fafa37",
   "hex": "#fafa37",
   "general": {

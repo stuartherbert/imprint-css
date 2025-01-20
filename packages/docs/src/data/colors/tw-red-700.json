@@ -1,5 +1,9 @@
 {
   "name": "tw-red-700",
+  "title": "tw-red-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-700'.",
   "definition": "#b91c1c",
   "hex": "#b91c1c",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "metro-brown",
+  "title": "metro-brown",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-brown'.",
   "definition": "#825a2c",
   "hex": "#825a2c",
   "general": {

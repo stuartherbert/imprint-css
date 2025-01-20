@@ -1,5 +1,9 @@
 {
   "name": "social-google-plus",
+  "title": "social-google-plus",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-google-plus'.",
   "definition": "#dd4b39",
   "hex": "#dd4b39",
   "general": {

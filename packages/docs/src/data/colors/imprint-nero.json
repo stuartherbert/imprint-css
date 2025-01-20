@@ -1,5 +1,9 @@
 {
   "name": "imprint-nero",
+  "title": "imprint-nero",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-nero'.",
   "definition": "#222",
   "hex": "#222222",
   "general": {

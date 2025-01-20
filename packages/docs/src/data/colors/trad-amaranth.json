@@ -1,5 +1,9 @@
 {
   "name": "trad-amaranth",
+  "title": "trad-amaranth",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-amaranth'.",
   "definition": "#ab274f",
   "hex": "#ab274f",
   "general": {

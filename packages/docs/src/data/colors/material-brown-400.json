@@ -1,5 +1,9 @@
 {
   "name": "material-brown-400",
+  "title": "material-brown-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-brown-400'.",
   "definition": "#8d6e63",
   "hex": "#8d6e63",
   "general": {

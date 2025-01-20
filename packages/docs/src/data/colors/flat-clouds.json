@@ -1,5 +1,9 @@
 {
   "name": "flat-clouds",
+  "title": "flat-clouds",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-clouds'.",
   "definition": "#ecf0f1",
   "hex": "#ecf0f1",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "bs-blue-800",
+  "title": "bs-blue-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue-800'.",
   "definition": "#052c65",
   "hex": "#052c65",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "mediumblue",
+  "title": "mediumblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mediumblue'.",
   "definition": "#0000cd",
   "hex": "#0000cd",
   "general": {

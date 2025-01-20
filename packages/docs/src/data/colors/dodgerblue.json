@@ -1,5 +1,9 @@
 {
   "name": "dodgerblue",
+  "title": "dodgerblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'dodgerblue'.",
   "definition": "#1e90ff",
   "hex": "#1e90ff",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "linen",
+  "title": "linen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'linen'.",
   "definition": "#faf0e6",
   "hex": "#faf0e6",
   "general": {

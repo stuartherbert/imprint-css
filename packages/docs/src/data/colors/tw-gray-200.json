@@ -1,5 +1,9 @@
 {
   "name": "tw-gray-200",
+  "title": "tw-gray-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-gray-200'.",
   "definition": "#e5e7eb",
   "hex": "#e5e7eb",
   "general": {

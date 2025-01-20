@@ -1,5 +1,9 @@
 {
   "name": "pink",
+  "title": "pink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'pink'.",
   "definition": "#ffc0cb",
   "hex": "#ffc0cb",
   "general": {

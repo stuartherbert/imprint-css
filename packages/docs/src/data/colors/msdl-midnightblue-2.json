@@ -1,5 +1,9 @@
 {
   "name": "msdl-midnightblue-2",
+  "title": "msdl-midnightblue-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-midnightblue-2'.",
   "definition": "#32318c",
   "hex": "#32318c",
   "general": {

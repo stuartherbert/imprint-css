@@ -1,5 +1,9 @@
 {
   "name": "tw-sky-50",
+  "title": "tw-sky-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-sky-50'.",
   "definition": "#f0f9ff",
   "hex": "#f0f9ff",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "beige",
+  "title": "beige",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'beige'.",
   "definition": "#f5f5dc",
   "hex": "#f5f5dc",
   "general": {

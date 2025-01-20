@@ -1,5 +1,9 @@
 {
   "name": "tw-stone-900",
+  "title": "tw-stone-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-stone-900'.",
   "definition": "#1c1917",
   "hex": "#1c1917",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-indigo-600",
+  "title": "tw-indigo-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-indigo-600'.",
   "definition": "#4f46e5",
   "hex": "#4f46e5",
   "general": {

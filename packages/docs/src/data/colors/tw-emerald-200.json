@@ -1,5 +1,9 @@
 {
   "name": "tw-emerald-200",
+  "title": "tw-emerald-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-emerald-200'.",
   "definition": "#a7f3d0",
   "hex": "#a7f3d0",
   "general": {

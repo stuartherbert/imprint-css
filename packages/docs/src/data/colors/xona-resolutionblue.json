@@ -1,5 +1,9 @@
 {
   "name": "xona-resolutionblue",
+  "title": "xona-resolutionblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'xona-resolutionblue'.",
   "definition": "#002387",
   "hex": "#002387",
   "general": {

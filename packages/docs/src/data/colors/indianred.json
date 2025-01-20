@@ -1,5 +1,9 @@
 {
   "name": "indianred",
+  "title": "indianred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'indianred'.",
   "definition": "#cd5c5c",
   "hex": "#cd5c5c",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "crayola-plum",
+  "title": "crayola-plum",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-plum'.",
   "definition": "#8e4585",
   "hex": "#8e4585",
   "general": {

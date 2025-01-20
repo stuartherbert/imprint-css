@@ -1,5 +1,9 @@
 {
   "name": "olivedrab",
+  "title": "olivedrab",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'olivedrab'.",
   "definition": "#6b8e23",
   "hex": "#6b8e23",
   "general": {

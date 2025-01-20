@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-pastelpink",
+  "title": "iscc-nbs-pastelpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-pastelpink'.",
   "definition": "#dea5a4",
   "hex": "#dea5a4",
   "general": {

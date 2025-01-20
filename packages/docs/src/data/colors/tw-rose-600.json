@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-600",
+  "title": "tw-rose-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-600'.",
   "definition": "#e11d48",
   "hex": "#e11d48",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-mono-800",
+  "title": "ganbaro-mono-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-mono-800'.",
   "definition": "#222",
   "hex": "#222222",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "social-hackernews",
+  "title": "social-hackernews",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-hackernews'.",
   "definition": "#f60",
   "hex": "#ff6600",
   "general": {

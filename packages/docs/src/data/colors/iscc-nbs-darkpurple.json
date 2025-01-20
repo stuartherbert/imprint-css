@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-darkpurple",
+  "title": "iscc-nbs-darkpurple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-darkpurple'.",
   "definition": "#301934",
   "hex": "#301934",
   "general": {

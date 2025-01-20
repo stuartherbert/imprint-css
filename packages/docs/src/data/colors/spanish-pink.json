@@ -1,5 +1,9 @@
 {
   "name": "spanish-pink",
+  "title": "spanish-pink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'spanish-pink'.",
   "definition": "#f7bfbe",
   "hex": "#f7bfbe",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-cyan-200",
+  "title": "tw-cyan-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-cyan-200'.",
   "definition": "#a5f3fc",
   "hex": "#a5f3fc",
   "general": {

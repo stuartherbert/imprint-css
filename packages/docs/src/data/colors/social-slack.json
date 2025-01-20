@@ -1,5 +1,9 @@
 {
   "name": "social-slack",
+  "title": "social-slack",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-slack'.",
   "definition": "#3aaf85",
   "hex": "#3aaf85",
   "general": {

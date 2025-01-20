@@ -1,5 +1,9 @@
 {
   "name": "trad-chocolate",
+  "title": "trad-chocolate",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-chocolate'.",
   "definition": "#7b3f00",
   "hex": "#7b3f00",
   "general": {

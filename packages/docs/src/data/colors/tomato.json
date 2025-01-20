@@ -1,5 +1,9 @@
 {
   "name": "tomato",
+  "title": "tomato",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tomato'.",
   "definition": "#ff6347",
   "hex": "#ff6347",
   "general": {

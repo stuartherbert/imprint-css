@@ -1,5 +1,9 @@
 {
   "name": "misc-brightpink",
+  "title": "misc-brightpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-brightpink'.",
   "definition": "#ff007f",
   "hex": "#ff007f",
   "general": {

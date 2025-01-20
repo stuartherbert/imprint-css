@@ -1,5 +1,9 @@
 {
   "name": "flat-peterriver",
+  "title": "flat-peterriver",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-peterriver'.",
   "definition": "#3498db",
   "hex": "#3498db",
   "general": {

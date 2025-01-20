@@ -1,5 +1,9 @@
 {
   "name": "imprint-darkred",
+  "title": "imprint-darkred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-darkred'.",
   "definition": "#a94442",
   "hex": "#a94442",
   "general": {

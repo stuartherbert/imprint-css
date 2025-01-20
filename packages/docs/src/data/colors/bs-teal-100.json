@@ -1,5 +1,9 @@
 {
   "name": "bs-teal-100",
+  "title": "bs-teal-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-teal-100'.",
   "definition": "#d2f4ea",
   "hex": "#d2f4ea",
   "general": {

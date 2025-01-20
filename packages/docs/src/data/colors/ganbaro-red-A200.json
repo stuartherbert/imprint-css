@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-red-a200",
+  "title": "ganbaro-red-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-red-a200'.",
   "definition": "#f26d6b",
   "hex": "#f26d6b",
   "general": {

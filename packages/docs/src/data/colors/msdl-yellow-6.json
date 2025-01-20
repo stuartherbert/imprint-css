@@ -1,5 +1,9 @@
 {
   "name": "msdl-yellow-6",
+  "title": "msdl-yellow-6",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-yellow-6'.",
   "definition": "#faec6e",
   "hex": "#faec6e",
   "general": {

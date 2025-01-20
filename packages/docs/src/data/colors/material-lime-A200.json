@@ -1,5 +1,9 @@
 {
   "name": "material-lime-a200",
+  "title": "material-lime-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lime-a200'.",
   "definition": "#eeff41",
   "hex": "#eeff41",
   "general": {

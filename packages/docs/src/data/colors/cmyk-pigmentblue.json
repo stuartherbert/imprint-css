@@ -1,5 +1,9 @@
 {
   "name": "cmyk-pigmentblue",
+  "title": "cmyk-pigmentblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cmyk-pigmentblue'.",
   "definition": "#339",
   "hex": "#333399",
   "general": {

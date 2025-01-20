@@ -1,5 +1,9 @@
 {
   "name": "msu-green",
+  "title": "msu-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msu-green'.",
   "definition": "#18453b",
   "hex": "#18453b",
   "general": {

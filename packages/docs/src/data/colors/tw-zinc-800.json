@@ -1,5 +1,9 @@
 {
   "name": "tw-zinc-800",
+  "title": "tw-zinc-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-zinc-800'.",
   "definition": "#27272a",
   "hex": "#27272a",
   "general": {

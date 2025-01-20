@@ -1,5 +1,9 @@
 {
   "name": "bs-green-800",
+  "title": "bs-green-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-green-800'.",
   "definition": "#0a3622",
   "hex": "#0a3622",
   "general": {

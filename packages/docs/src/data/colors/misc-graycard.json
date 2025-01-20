@@ -1,5 +1,9 @@
 {
   "name": "misc-graycard",
+  "title": "misc-graycard",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-graycard'.",
   "definition": "#7c7c7c",
   "hex": "#7c7c7c",
   "general": {

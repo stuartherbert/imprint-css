@@ -1,5 +1,9 @@
 {
   "name": "tw-purple-400",
+  "title": "tw-purple-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-purple-400'.",
   "definition": "#c084fc",
   "hex": "#c084fc",
   "general": {

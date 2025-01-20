@@ -1,5 +1,9 @@
 {
   "name": "trad-platinum",
+  "title": "trad-platinum",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-platinum'.",
   "definition": "#e5e4e2",
   "hex": "#e5e4e2",
   "general": {

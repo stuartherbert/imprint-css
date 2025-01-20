@@ -1,5 +1,9 @@
 {
   "name": "indigo",
+  "title": "indigo",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'indigo'.",
   "definition": "#4b0082",
   "hex": "#4b0082",
   "general": {

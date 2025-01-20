@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-a100",
+  "title": "material-lightgreen-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-a100'.",
   "definition": "#ccff90",
   "hex": "#ccff90",
   "general": {

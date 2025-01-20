@@ -1,5 +1,9 @@
 {
   "name": "apple-plum",
+  "title": "apple-plum",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-plum'.",
   "definition": "#800080",
   "hex": "#800080",
   "general": {

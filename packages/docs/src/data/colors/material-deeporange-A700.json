@@ -1,5 +1,9 @@
 {
   "name": "material-deeporange-a700",
+  "title": "material-deeporange-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeporange-a700'.",
   "definition": "#dd2c00",
   "hex": "#dd2c00",
   "general": {

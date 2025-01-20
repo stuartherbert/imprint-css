@@ -1,5 +1,9 @@
 {
   "name": "imprint-bg-default",
+  "title": "imprint-bg-default",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-bg-default'.",
   "definition": "#f6f6f6",
   "hex": "#f6f6f6",
   "general": {

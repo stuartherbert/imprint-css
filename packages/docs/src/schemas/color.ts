@@ -1,4 +1,5 @@
-import { z } from "astro:content";
+import { reference, z } from "astro:content";
+import { renderableSchema } from "./renderable";
 
 const wcagContrastSchema = z.object({
     A_normal: z.boolean(),
@@ -59,7 +60,12 @@ const pairingSchema = z.object({
     foreground: z.string().startsWith('#'),
 });
 
-export const colorsSchema = z.object({
+export const colorsSchema = renderableSchema.extend({
+    // for compatibility with the page layout template
+    prev: reference('colors').optional(),
+    next: reference('colors').optional(),
+
+    // the color analysis data
     name: z.string(),
     definition: z.string().startsWith('#'),
     hex: z.string().startsWith('#'),

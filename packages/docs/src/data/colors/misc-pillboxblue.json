@@ -1,5 +1,9 @@
 {
   "name": "misc-pillboxblue",
+  "title": "misc-pillboxblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-pillboxblue'.",
   "definition": "#93acb3",
   "hex": "#93acb3",
   "general": {

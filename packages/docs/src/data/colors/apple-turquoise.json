@@ -1,5 +1,9 @@
 {
   "name": "apple-turquoise",
+  "title": "apple-turquoise",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-turquoise'.",
   "definition": "#0ff",
   "hex": "#00ffff",
   "general": {

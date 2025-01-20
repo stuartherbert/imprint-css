@@ -1,5 +1,9 @@
 {
   "name": "misc-orange",
+  "title": "misc-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-orange'.",
   "definition": "#ff7f00",
   "hex": "#ff7f00",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-prussianblue-4",
+  "title": "msdl-prussianblue-4",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-prussianblue-4'.",
   "definition": "#0078d7",
   "hex": "#0078d7",
   "general": {

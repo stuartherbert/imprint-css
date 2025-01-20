@@ -1,5 +1,9 @@
 {
   "name": "up-forestgreen",
+  "title": "up-forestgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'up-forestgreen'.",
   "definition": "#014421",
   "hex": "#014421",
   "general": {

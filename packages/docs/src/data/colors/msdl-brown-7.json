@@ -1,5 +1,9 @@
 {
   "name": "msdl-brown-7",
+  "title": "msdl-brown-7",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-brown-7'.",
   "definition": "#ffe5b6",
   "hex": "#ffe5b6",
   "general": {

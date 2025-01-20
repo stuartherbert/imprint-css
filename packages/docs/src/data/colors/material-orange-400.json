@@ -1,5 +1,9 @@
 {
   "name": "material-orange-400",
+  "title": "material-orange-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-orange-400'.",
   "definition": "#ffa726",
   "hex": "#ffa726",
   "general": {

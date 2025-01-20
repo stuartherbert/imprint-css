@@ -1,5 +1,9 @@
 {
   "name": "social-twitter",
+  "title": "social-twitter",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-twitter'.",
   "definition": "#55acee",
   "hex": "#55acee",
   "general": {

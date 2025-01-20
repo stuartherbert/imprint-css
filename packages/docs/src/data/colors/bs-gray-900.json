@@ -1,5 +1,9 @@
 {
   "name": "bs-gray-900",
+  "title": "bs-gray-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-gray-900'.",
   "definition": "#212529",
   "hex": "#212529",
   "general": {

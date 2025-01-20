@@ -1,5 +1,9 @@
 {
   "name": "bs-cyan-600",
+  "title": "bs-cyan-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-cyan-600'.",
   "definition": "#0aa2c0",
   "hex": "#0aa2c0",
   "general": {

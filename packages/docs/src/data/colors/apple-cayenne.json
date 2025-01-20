@@ -1,5 +1,9 @@
 {
   "name": "apple-cayenne",
+  "title": "apple-cayenne",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-cayenne'.",
   "definition": "#800000",
   "hex": "#800000",
   "general": {

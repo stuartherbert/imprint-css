@@ -1,5 +1,9 @@
 {
   "name": "imprint-palegreen",
+  "title": "imprint-palegreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-palegreen'.",
   "definition": "#dff0d8",
   "hex": "#dff0d8",
   "general": {

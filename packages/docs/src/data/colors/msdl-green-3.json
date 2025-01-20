@@ -1,5 +1,9 @@
 {
   "name": "msdl-green-3",
+  "title": "msdl-green-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-green-3'.",
   "definition": "#13a10e",
   "hex": "#13a10e",
   "general": {

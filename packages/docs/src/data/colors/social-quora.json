@@ -1,5 +1,9 @@
 {
   "name": "social-quora",
+  "title": "social-quora",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-quora'.",
   "definition": "#b92b27",
   "hex": "#b92b27",
   "general": {

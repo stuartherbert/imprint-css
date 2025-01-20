@@ -1,5 +1,9 @@
 {
   "name": "misc-feldgrau",
+  "title": "misc-feldgrau",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-feldgrau'.",
   "definition": "#4d5d53",
   "hex": "#4d5d53",
   "general": {

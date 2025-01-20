@@ -1,5 +1,9 @@
 {
   "name": "bs-cyan-100",
+  "title": "bs-cyan-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-cyan-100'.",
   "definition": "#cff4fc",
   "hex": "#cff4fc",
   "general": {

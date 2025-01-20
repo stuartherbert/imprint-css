@@ -1,5 +1,9 @@
 {
   "name": "social-blogger",
+  "title": "social-blogger",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-blogger'.",
   "definition": "#f57d00",
   "hex": "#f57d00",
   "general": {

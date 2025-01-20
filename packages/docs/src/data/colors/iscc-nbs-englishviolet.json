@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-englishviolet",
+  "title": "iscc-nbs-englishviolet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-englishviolet'.",
   "definition": "#563c5c",
   "hex": "#563c5c",
   "general": {

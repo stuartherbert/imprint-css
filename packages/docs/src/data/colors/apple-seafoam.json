@@ -1,5 +1,9 @@
 {
   "name": "apple-seafoam",
+  "title": "apple-seafoam",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-seafoam'.",
   "definition": "#00ff80",
   "hex": "#00ff80",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "social-foursquare",
+  "title": "social-foursquare",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-foursquare'.",
   "definition": "#f94877",
   "hex": "#f94877",
   "general": {

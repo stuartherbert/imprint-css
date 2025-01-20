@@ -1,5 +1,9 @@
 {
   "name": "msdl-gray-1",
+  "title": "msdl-gray-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-gray-1'.",
   "definition": "#1f1f1f",
   "hex": "#1f1f1f",
   "general": {

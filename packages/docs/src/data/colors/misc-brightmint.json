@@ -1,5 +1,9 @@
 {
   "name": "misc-brightmint",
+  "title": "misc-brightmint",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-brightmint'.",
   "definition": "#4fffb0",
   "hex": "#4fffb0",
   "general": {

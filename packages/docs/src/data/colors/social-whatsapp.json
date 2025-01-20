@@ -1,5 +1,9 @@
 {
   "name": "social-whatsapp",
+  "title": "social-whatsapp",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-whatsapp'.",
   "definition": "#25d366",
   "hex": "#25d366",
   "general": {

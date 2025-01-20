@@ -1,5 +1,9 @@
 {
   "name": "trad-heliotrope",
+  "title": "trad-heliotrope",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-heliotrope'.",
   "definition": "#df73ff",
   "hex": "#df73ff",
   "general": {

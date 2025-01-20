@@ -1,5 +1,9 @@
 {
   "name": "munsell-green",
+  "title": "munsell-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'munsell-green'.",
   "definition": "#00a877",
   "hex": "#00a877",
   "general": {

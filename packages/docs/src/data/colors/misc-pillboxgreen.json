@@ -1,5 +1,9 @@
 {
   "name": "misc-pillboxgreen",
+  "title": "misc-pillboxgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-pillboxgreen'.",
   "definition": "#a0b169",
   "hex": "#a0b169",
   "general": {

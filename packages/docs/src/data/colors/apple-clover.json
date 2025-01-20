@@ -1,5 +1,9 @@
 {
   "name": "apple-clover",
+  "title": "apple-clover",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-clover'.",
   "definition": "#008000",
   "hex": "#008000",
   "general": {

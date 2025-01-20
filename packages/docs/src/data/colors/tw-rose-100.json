@@ -1,5 +1,9 @@
 {
   "name": "tw-rose-100",
+  "title": "tw-rose-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-rose-100'.",
   "definition": "#ffe4e6",
   "hex": "#ffe4e6",
   "general": {

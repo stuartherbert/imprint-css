@@ -1,5 +1,9 @@
 {
   "name": "antiquewhite",
+  "title": "antiquewhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'antiquewhite'.",
   "definition": "#faebd7",
   "hex": "#faebd7",
   "general": {

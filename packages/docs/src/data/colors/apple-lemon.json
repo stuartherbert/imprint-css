@@ -1,5 +1,9 @@
 {
   "name": "apple-lemon",
+  "title": "apple-lemon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-lemon'.",
   "definition": "#ff0",
   "hex": "#ffff00",
   "general": {

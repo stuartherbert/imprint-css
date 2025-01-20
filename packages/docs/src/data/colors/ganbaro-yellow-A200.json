@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-yellow-a200",
+  "title": "ganbaro-yellow-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-yellow-a200'.",
   "definition": "#fff41f",
   "hex": "#fff41f",
   "general": {

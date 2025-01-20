@@ -1,5 +1,9 @@
 {
   "name": "bs-red-900",
+  "title": "bs-red-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-red-900'.",
   "definition": "#2c0b0e",
   "hex": "#2c0b0e",
   "general": {

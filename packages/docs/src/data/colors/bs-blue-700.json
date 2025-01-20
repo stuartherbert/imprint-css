@@ -1,5 +1,9 @@
 {
   "name": "bs-blue-700",
+  "title": "bs-blue-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue-700'.",
   "definition": "#084298",
   "hex": "#084298",
   "general": {

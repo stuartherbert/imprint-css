@@ -1,5 +1,9 @@
 {
   "name": "tw-pink-600",
+  "title": "tw-pink-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-pink-600'.",
   "definition": "#db2777",
   "hex": "#db2777",
   "general": {

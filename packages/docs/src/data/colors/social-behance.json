@@ -1,5 +1,9 @@
 {
   "name": "social-behance",
+  "title": "social-behance",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-behance'.",
   "definition": "#131418",
   "hex": "#131418",
   "general": {

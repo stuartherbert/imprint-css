@@ -1,5 +1,9 @@
 {
   "name": "flat-orange",
+  "title": "flat-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-orange'.",
   "definition": "#f39c12",
   "hex": "#f39c12",
   "general": {

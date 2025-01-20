@@ -1,5 +1,9 @@
 {
   "name": "go-green",
+  "title": "go-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'go-green'.",
   "definition": "#00ab66",
   "hex": "#00ab66",
   "general": {

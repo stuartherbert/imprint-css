@@ -1,5 +1,9 @@
 {
   "name": "metro-yellow",
+  "title": "metro-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-yellow'.",
   "definition": "#e3c800",
   "hex": "#e3c800",
   "general": {

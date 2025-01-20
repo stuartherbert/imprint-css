@@ -1,5 +1,9 @@
 {
   "name": "tw-pink-800",
+  "title": "tw-pink-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-pink-800'.",
   "definition": "#9d174d",
   "hex": "#9d174d",
   "general": {

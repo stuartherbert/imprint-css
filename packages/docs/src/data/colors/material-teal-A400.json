@@ -1,5 +1,9 @@
 {
   "name": "material-teal-a400",
+  "title": "material-teal-a400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-teal-a400'.",
   "definition": "#1de9b6",
   "hex": "#1de9b6",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "bs-orange-200",
+  "title": "bs-orange-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-orange-200'.",
   "definition": "#fecba1",
   "hex": "#fecba1",
   "general": {

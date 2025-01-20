@@ -1,5 +1,9 @@
 {
   "name": "paleturquoise",
+  "title": "paleturquoise",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'paleturquoise'.",
   "definition": "#afeeee",
   "hex": "#afeeee",
   "general": {

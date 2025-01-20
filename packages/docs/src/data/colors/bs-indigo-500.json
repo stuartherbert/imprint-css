@@ -1,5 +1,9 @@
 {
   "name": "bs-indigo-500",
+  "title": "bs-indigo-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-indigo-500'.",
   "definition": "#6610f2",
   "hex": "#6610f2",
   "general": {

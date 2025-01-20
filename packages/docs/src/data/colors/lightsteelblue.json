@@ -1,5 +1,9 @@
 {
   "name": "lightsteelblue",
+  "title": "lightsteelblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightsteelblue'.",
   "definition": "#b0c4de",
   "hex": "#b0c4de",
   "general": {

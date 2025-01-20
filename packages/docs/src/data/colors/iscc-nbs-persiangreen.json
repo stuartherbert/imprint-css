@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-persiangreen",
+  "title": "iscc-nbs-persiangreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-persiangreen'.",
   "definition": "#00a693",
   "hex": "#00a693",
   "general": {

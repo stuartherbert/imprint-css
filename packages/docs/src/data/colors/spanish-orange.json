@@ -1,5 +1,9 @@
 {
   "name": "spanish-orange",
+  "title": "spanish-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'spanish-orange'.",
   "definition": "#e86100",
   "hex": "#e86100",
   "general": {

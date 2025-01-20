@@ -1,5 +1,9 @@
 {
   "name": "misc-gunmetal",
+  "title": "misc-gunmetal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-gunmetal'.",
   "definition": "#2a3439",
   "hex": "#2a3439",
   "general": {

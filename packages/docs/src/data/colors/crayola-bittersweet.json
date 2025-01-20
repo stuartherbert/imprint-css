@@ -1,5 +1,9 @@
 {
   "name": "crayola-bittersweet",
+  "title": "crayola-bittersweet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-bittersweet'.",
   "definition": "#fe6f5e",
   "hex": "#fe6f5e",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "bs-yellow",
+  "title": "bs-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-yellow'.",
   "definition": "#ffc107",
   "hex": "#ffc107",
   "general": {

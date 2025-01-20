@@ -1,5 +1,9 @@
 {
   "name": "misc-darkestmossgreen",
+  "title": "misc-darkestmossgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-darkestmossgreen'.",
   "definition": "#272809",
   "hex": "#272809",
   "general": {

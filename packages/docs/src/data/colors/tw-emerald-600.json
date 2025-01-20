@@ -1,5 +1,9 @@
 {
   "name": "tw-emerald-600",
+  "title": "tw-emerald-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-emerald-600'.",
   "definition": "#059669",
   "hex": "#059669",
   "general": {

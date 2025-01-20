@@ -1,5 +1,9 @@
 {
   "name": "crayola-babypowder",
+  "title": "crayola-babypowder",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-babypowder'.",
   "definition": "#fefefa",
   "hex": "#fefefa",
   "general": {

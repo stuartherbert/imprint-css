@@ -1,5 +1,9 @@
 {
   "name": "lawngreen",
+  "title": "lawngreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lawngreen'.",
   "definition": "#7cfc00",
   "hex": "#7cfc00",
   "general": {

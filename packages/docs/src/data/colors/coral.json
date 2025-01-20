@@ -1,5 +1,9 @@
 {
   "name": "coral",
+  "title": "coral",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'coral'.",
   "definition": "#ff7f50",
   "hex": "#ff7f50",
   "general": {

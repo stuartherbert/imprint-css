@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-darkgreen",
+  "title": "encycolorpedia-darkgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-darkgreen'.",
   "definition": "#013220",
   "hex": "#013220",
   "general": {

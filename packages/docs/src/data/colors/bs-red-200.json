@@ -1,5 +1,9 @@
 {
   "name": "bs-red-200",
+  "title": "bs-red-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-red-200'.",
   "definition": "#f1aeb5",
   "hex": "#f1aeb5",
   "general": {

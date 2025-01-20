@@ -1,5 +1,9 @@
 {
   "name": "tw-slate-900",
+  "title": "tw-slate-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-slate-900'.",
   "definition": "#0f172a",
   "hex": "#0f172a",
   "general": {

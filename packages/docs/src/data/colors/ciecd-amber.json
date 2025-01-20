@@ -1,5 +1,9 @@
 {
   "name": "ciecd-amber",
+  "title": "ciecd-amber",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ciecd-amber'.",
   "definition": "#ffbf00",
   "hex": "#ffbf00",
   "general": {

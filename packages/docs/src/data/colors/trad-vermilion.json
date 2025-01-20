@@ -1,5 +1,9 @@
 {
   "name": "trad-vermilion",
+  "title": "trad-vermilion",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-vermilion'.",
   "definition": "#e34234",
   "hex": "#e34234",
   "general": {

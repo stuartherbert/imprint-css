@@ -1,5 +1,9 @@
 {
   "name": "material-bluegray-800",
+  "title": "material-bluegray-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-bluegray-800'.",
   "definition": "#37474f",
   "hex": "#37474f",
   "general": {

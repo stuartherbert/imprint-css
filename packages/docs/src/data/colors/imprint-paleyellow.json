@@ -1,5 +1,9 @@
 {
   "name": "imprint-paleyellow",
+  "title": "imprint-paleyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-paleyellow'.",
   "definition": "#fcf8e3",
   "hex": "#fcf8e3",
   "general": {

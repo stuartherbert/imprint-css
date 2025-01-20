@@ -1,5 +1,9 @@
 {
   "name": "sacramentostate-green",
+  "title": "sacramentostate-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'sacramentostate-green'.",
   "definition": "#043927",
   "hex": "#043927",
   "general": {

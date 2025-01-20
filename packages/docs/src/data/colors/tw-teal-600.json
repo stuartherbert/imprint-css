@@ -1,5 +1,9 @@
 {
   "name": "tw-teal-600",
+  "title": "tw-teal-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-teal-600'.",
   "definition": "#0d9488",
   "hex": "#0d9488",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-violet-400",
+  "title": "tw-violet-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-violet-400'.",
   "definition": "#a78bfa",
   "hex": "#a78bfa",
   "general": {

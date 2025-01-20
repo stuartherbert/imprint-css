@@ -1,5 +1,9 @@
 {
   "name": "pakistan-green",
+  "title": "pakistan-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'pakistan-green'.",
   "definition": "#060",
   "hex": "#006600",
   "general": {

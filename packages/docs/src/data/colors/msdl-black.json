@@ -1,5 +1,9 @@
 {
   "name": "msdl-black",
+  "title": "msdl-black",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-black'.",
   "definition": "#000",
   "hex": "#000000",
   "general": {

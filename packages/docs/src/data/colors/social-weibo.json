@@ -1,5 +1,9 @@
 {
   "name": "social-weibo",
+  "title": "social-weibo",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-weibo'.",
   "definition": "#df2029",
   "hex": "#df2029",
   "general": {

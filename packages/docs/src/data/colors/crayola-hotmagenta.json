@@ -1,5 +1,9 @@
 {
   "name": "crayola-hotmagenta",
+  "title": "crayola-hotmagenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-hotmagenta'.",
   "definition": "#ff1dce",
   "hex": "#ff1dce",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "apple-maraschino",
+  "title": "apple-maraschino",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-maraschino'.",
   "definition": "#f00",
   "hex": "#ff0000",
   "general": {

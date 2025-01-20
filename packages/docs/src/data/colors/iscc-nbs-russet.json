@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-russet",
+  "title": "iscc-nbs-russet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-russet'.",
   "definition": "#80461b",
   "hex": "#80461b",
   "general": {

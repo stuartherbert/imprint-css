@@ -1,5 +1,9 @@
 {
   "name": "tw-lime-700",
+  "title": "tw-lime-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-lime-700'.",
   "definition": "#4d7c0f",
   "hex": "#4d7c0f",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "saddlebrown",
+  "title": "saddlebrown",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'saddlebrown'.",
   "definition": "#8b4513",
   "hex": "#8b4513",
   "general": {

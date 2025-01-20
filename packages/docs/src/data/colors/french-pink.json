@@ -1,5 +1,9 @@
 {
   "name": "french-pink",
+  "title": "french-pink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'french-pink'.",
   "definition": "#fd6c9e",
   "hex": "#fd6c9e",
   "general": {

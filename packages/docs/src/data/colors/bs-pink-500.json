@@ -1,5 +1,9 @@
 {
   "name": "bs-pink-500",
+  "title": "bs-pink-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-pink-500'.",
   "definition": "#d63384",
   "hex": "#d63384",
   "general": {

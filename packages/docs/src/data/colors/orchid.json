@@ -1,5 +1,9 @@
 {
   "name": "orchid",
+  "title": "orchid",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'orchid'.",
   "definition": "#da70d6",
   "hex": "#da70d6",
   "general": {

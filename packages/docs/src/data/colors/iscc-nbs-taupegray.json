@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-taupegray",
+  "title": "iscc-nbs-taupegray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-taupegray'.",
   "definition": "#8b8589",
   "hex": "#8b8589",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-bluegray-100",
+  "title": "material-bluegray-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-bluegray-100'.",
   "definition": "#cfd8dc",
   "hex": "#cfd8dc",
   "general": {

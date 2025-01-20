@@ -1,5 +1,9 @@
 {
   "name": "msdl-mosque-1",
+  "title": "msdl-mosque-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-mosque-1'.",
   "definition": "#005e50",
   "hex": "#005e50",
   "general": {

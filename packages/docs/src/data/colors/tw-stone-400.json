@@ -1,5 +1,9 @@
 {
   "name": "tw-stone-400",
+  "title": "tw-stone-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-stone-400'.",
   "definition": "#a8a29e",
   "hex": "#a8a29e",
   "general": {

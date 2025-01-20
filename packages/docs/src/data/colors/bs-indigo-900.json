@@ -1,5 +1,9 @@
 {
   "name": "bs-indigo-900",
+  "title": "bs-indigo-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-indigo-900'.",
   "definition": "#140330",
   "hex": "#140330",
   "general": {

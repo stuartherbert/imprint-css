@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-bottlegreen",
+  "title": "encycolorpedia-bottlegreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-bottlegreen'.",
   "definition": "#006a4e",
   "hex": "#006a4e",
   "general": {

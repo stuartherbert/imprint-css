@@ -1,5 +1,9 @@
 {
   "name": "material-lightblue-900",
+  "title": "material-lightblue-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightblue-900'.",
   "definition": "#01579b",
   "hex": "#01579b",
   "general": {

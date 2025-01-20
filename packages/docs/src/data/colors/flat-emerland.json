@@ -1,5 +1,9 @@
 {
   "name": "flat-emerland",
+  "title": "flat-emerland",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-emerland'.",
   "definition": "#2ecc71",
   "hex": "#2ecc71",
   "general": {

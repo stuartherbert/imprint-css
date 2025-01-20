@@ -1,5 +1,9 @@
 {
   "name": "material-yellow-100",
+  "title": "material-yellow-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-yellow-100'.",
   "definition": "#fff9c4",
   "hex": "#fff9c4",
   "general": {

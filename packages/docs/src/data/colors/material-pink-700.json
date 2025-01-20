@@ -1,5 +1,9 @@
 {
   "name": "material-pink-700",
+  "title": "material-pink-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-700'.",
   "definition": "#c2185b",
   "hex": "#c2185b",
   "general": {

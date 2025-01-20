@@ -1,5 +1,9 @@
 {
   "name": "lightpink",
+  "title": "lightpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightpink'.",
   "definition": "#ffb6c1",
   "hex": "#ffb6c1",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "imprint-fg-default",
+  "title": "imprint-fg-default",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-fg-default'.",
   "definition": "#222",
   "hex": "#222222",
   "general": {

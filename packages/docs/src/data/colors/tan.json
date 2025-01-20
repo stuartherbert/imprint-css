@@ -1,5 +1,9 @@
 {
   "name": "tan",
+  "title": "tan",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tan'.",
   "definition": "#d2b48c",
   "hex": "#d2b48c",
   "general": {

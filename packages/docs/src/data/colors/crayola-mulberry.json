@@ -1,5 +1,9 @@
 {
   "name": "crayola-mulberry",
+  "title": "crayola-mulberry",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-mulberry'.",
   "definition": "#c54b8c",
   "hex": "#c54b8c",
   "general": {

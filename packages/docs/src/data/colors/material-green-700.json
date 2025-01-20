@@ -1,5 +1,9 @@
 {
   "name": "material-green-700",
+  "title": "material-green-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-green-700'.",
   "definition": "#388e3c",
   "hex": "#388e3c",
   "general": {

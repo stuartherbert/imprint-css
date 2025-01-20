@@ -1,5 +1,9 @@
 {
   "name": "msdl-mirage-7",
+  "title": "msdl-mirage-7",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-mirage-7'.",
   "definition": "#bac8cc",
   "hex": "#bac8cc",
   "general": {

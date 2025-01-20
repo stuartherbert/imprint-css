@@ -1,5 +1,9 @@
 {
   "name": "social-producthunt",
+  "title": "social-producthunt",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-producthunt'.",
   "definition": "#da552f",
   "hex": "#da552f",
   "general": {

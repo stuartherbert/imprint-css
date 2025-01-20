@@ -1,5 +1,9 @@
 {
   "name": "misc-celeste",
+  "title": "misc-celeste",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-celeste'.",
   "definition": "#b2ffff",
   "hex": "#b2ffff",
   "general": {

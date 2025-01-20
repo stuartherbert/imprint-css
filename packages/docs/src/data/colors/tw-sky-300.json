@@ -1,5 +1,9 @@
 {
   "name": "tw-sky-300",
+  "title": "tw-sky-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-sky-300'.",
   "definition": "#7dd3fc",
   "hex": "#7dd3fc",
   "general": {

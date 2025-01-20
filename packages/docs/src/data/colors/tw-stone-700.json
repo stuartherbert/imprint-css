@@ -1,5 +1,9 @@
 {
   "name": "tw-stone-700",
+  "title": "tw-stone-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-stone-700'.",
   "definition": "#44403c",
   "hex": "#44403c",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-saddlebrown-2",
+  "title": "msdl-saddlebrown-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-saddlebrown-2'.",
   "definition": "#a74109",
   "hex": "#a74109",
   "general": {

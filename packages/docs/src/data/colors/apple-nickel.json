@@ -1,5 +1,9 @@
 {
   "name": "apple-nickel",
+  "title": "apple-nickel",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-nickel'.",
   "definition": "#808080",
   "hex": "#808080",
   "general": {

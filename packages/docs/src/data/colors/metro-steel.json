@@ -1,5 +1,9 @@
 {
   "name": "metro-steel",
+  "title": "metro-steel",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-steel'.",
   "definition": "#647687",
   "hex": "#647687",
   "general": {

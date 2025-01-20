@@ -1,5 +1,9 @@
 {
   "name": "msdl-red-4",
+  "title": "msdl-red-4",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-red-4'.",
   "definition": "#e81123",
   "hex": "#e81123",
   "general": {

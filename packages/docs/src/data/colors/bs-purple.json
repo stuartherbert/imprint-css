@@ -1,5 +1,9 @@
 {
   "name": "bs-purple",
+  "title": "bs-purple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-purple'.",
   "definition": "#6f42c1",
   "hex": "#6f42c1",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-brunswickgreen",
+  "title": "misc-brunswickgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-brunswickgreen'.",
   "definition": "#1b4d3e",
   "hex": "#1b4d3e",
   "general": {

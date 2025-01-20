@@ -1,5 +1,9 @@
 {
   "name": "mediumturquoise",
+  "title": "mediumturquoise",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mediumturquoise'.",
   "definition": "#48d1cc",
   "hex": "#48d1cc",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "uta-burntorange",
+  "title": "uta-burntorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'uta-burntorange'.",
   "definition": "#bf5700",
   "hex": "#bf5700",
   "general": {

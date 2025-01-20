@@ -1,5 +1,9 @@
 {
   "name": "yellow",
+  "title": "yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'yellow'.",
   "definition": "#ffff00",
   "hex": "#ffff00",
   "general": {

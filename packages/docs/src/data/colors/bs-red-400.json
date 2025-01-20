@@ -1,5 +1,9 @@
 {
   "name": "bs-red-400",
+  "title": "bs-red-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-red-400'.",
   "definition": "#e35d6a",
   "hex": "#e35d6a",
   "general": {

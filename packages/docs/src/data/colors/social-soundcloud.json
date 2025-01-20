@@ -1,5 +1,9 @@
 {
   "name": "social-soundcloud",
+  "title": "social-soundcloud",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-soundcloud'.",
   "definition": "#f30",
   "hex": "#ff3300",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-antiflashwhite",
+  "title": "misc-antiflashwhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-antiflashwhite'.",
   "definition": "#f2f3f4",
   "hex": "#f2f3f4",
   "general": {

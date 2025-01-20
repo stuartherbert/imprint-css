@@ -1,5 +1,9 @@
 {
   "name": "crayola-pearlypurple",
+  "title": "crayola-pearlypurple",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-pearlypurple'.",
   "definition": "#b768a2",
   "hex": "#b768a2",
   "general": {

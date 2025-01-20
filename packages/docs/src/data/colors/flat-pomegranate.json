@@ -1,5 +1,9 @@
 {
   "name": "flat-pomegranate",
+  "title": "flat-pomegranate",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-pomegranate'.",
   "definition": "#c0392b",
   "hex": "#c0392b",
   "general": {

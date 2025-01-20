@@ -1,5 +1,9 @@
 {
   "name": "msdl-indiantan-2",
+  "title": "msdl-indiantan-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-indiantan-2'.",
   "definition": "#603d30",
   "hex": "#603d30",
   "general": {

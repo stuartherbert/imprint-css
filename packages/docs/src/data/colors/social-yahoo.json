@@ -1,5 +1,9 @@
 {
   "name": "social-yahoo",
+  "title": "social-yahoo",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-yahoo'.",
   "definition": "#410093",
   "hex": "#410093",
   "general": {

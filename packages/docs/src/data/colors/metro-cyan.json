@@ -1,5 +1,9 @@
 {
   "name": "metro-cyan",
+  "title": "metro-cyan",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-cyan'.",
   "definition": "#1ba1e2",
   "hex": "#1ba1e2",
   "general": {

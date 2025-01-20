@@ -1,5 +1,9 @@
 {
   "name": "navajowhite",
+  "title": "navajowhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'navajowhite'.",
   "definition": "#ffdead",
   "hex": "#ffdead",
   "general": {

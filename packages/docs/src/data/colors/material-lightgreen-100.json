@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-100",
+  "title": "material-lightgreen-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-100'.",
   "definition": "#dcedc8",
   "hex": "#dcedc8",
   "general": {

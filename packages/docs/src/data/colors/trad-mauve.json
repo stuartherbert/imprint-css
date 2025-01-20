@@ -1,5 +1,9 @@
 {
   "name": "trad-mauve",
+  "title": "trad-mauve",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-mauve'.",
   "definition": "#e0b0ff",
   "hex": "#e0b0ff",
   "general": {

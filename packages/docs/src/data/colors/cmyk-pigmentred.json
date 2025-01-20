@@ -1,5 +1,9 @@
 {
   "name": "cmyk-pigmentred",
+  "title": "cmyk-pigmentred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cmyk-pigmentred'.",
   "definition": "#ed1c24",
   "hex": "#ed1c24",
   "general": {

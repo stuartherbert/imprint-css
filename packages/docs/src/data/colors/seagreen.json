@@ -1,5 +1,9 @@
 {
   "name": "seagreen",
+  "title": "seagreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'seagreen'.",
   "definition": "#2e8b57",
   "hex": "#2e8b57",
   "general": {

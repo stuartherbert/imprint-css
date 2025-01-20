@@ -1,5 +1,9 @@
 {
   "name": "misc-labblue1",
+  "title": "misc-labblue1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-labblue1'.",
   "definition": "#0f2d56",
   "hex": "#0f2d56",
   "general": {

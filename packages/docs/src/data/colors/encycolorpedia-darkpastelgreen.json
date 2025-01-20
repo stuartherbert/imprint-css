@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-darkpastelgreen",
+  "title": "encycolorpedia-darkpastelgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-darkpastelgreen'.",
   "definition": "#03c03c",
   "hex": "#03c03c",
   "general": {

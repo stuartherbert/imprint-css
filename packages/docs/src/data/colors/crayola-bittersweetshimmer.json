@@ -1,5 +1,9 @@
 {
   "name": "crayola-bittersweetshimmer",
+  "title": "crayola-bittersweetshimmer",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-bittersweetshimmer'.",
   "definition": "#bf4f51",
   "hex": "#bf4f51",
   "general": {

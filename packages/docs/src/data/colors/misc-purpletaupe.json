@@ -1,5 +1,9 @@
 {
   "name": "misc-purpletaupe",
+  "title": "misc-purpletaupe",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-purpletaupe'.",
   "definition": "#50404d",
   "hex": "#50404d",
   "general": {

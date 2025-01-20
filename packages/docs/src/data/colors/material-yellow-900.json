@@ -1,5 +1,9 @@
 {
   "name": "material-yellow-900",
+  "title": "material-yellow-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-yellow-900'.",
   "definition": "#f57f17",
   "hex": "#f57f17",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "darkviolet",
+  "title": "darkviolet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkviolet'.",
   "definition": "#9400d3",
   "hex": "#9400d3",
   "general": {

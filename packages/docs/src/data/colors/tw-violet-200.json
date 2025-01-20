@@ -1,5 +1,9 @@
 {
   "name": "tw-violet-200",
+  "title": "tw-violet-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-violet-200'.",
   "definition": "#ddd6fe",
   "hex": "#ddd6fe",
   "general": {

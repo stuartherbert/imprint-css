@@ -1,5 +1,9 @@
 {
   "name": "tw-stone-300",
+  "title": "tw-stone-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-stone-300'.",
   "definition": "#d6d3d1",
   "hex": "#d6d3d1",
   "general": {

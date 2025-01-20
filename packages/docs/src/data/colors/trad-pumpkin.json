@@ -1,5 +1,9 @@
 {
   "name": "trad-pumpkin",
+  "title": "trad-pumpkin",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-pumpkin'.",
   "definition": "#ff7518",
   "hex": "#ff7518",
   "general": {

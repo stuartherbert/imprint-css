@@ -1,5 +1,9 @@
 {
   "name": "apple-mocha",
+  "title": "apple-mocha",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-mocha'.",
   "definition": "#804000",
   "hex": "#804000",
   "general": {

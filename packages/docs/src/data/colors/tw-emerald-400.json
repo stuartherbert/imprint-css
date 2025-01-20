@@ -1,5 +1,9 @@
 {
   "name": "tw-emerald-400",
+  "title": "tw-emerald-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-emerald-400'.",
   "definition": "#34d399",
   "hex": "#34d399",
   "general": {

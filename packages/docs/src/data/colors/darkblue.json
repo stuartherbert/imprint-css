@@ -1,5 +1,9 @@
 {
   "name": "darkblue",
+  "title": "darkblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkblue'.",
   "definition": "#00008b",
   "hex": "#00008b",
   "general": {

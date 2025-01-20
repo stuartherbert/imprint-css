@@ -1,5 +1,9 @@
 {
   "name": "tw-zinc-400",
+  "title": "tw-zinc-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-zinc-400'.",
   "definition": "#a1a1aa",
   "hex": "#a1a1aa",
   "general": {

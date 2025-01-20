@@ -1,5 +1,9 @@
 {
   "name": "apple-flora",
+  "title": "apple-flora",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-flora'.",
   "definition": "#6f6",
   "hex": "#66ff66",
   "general": {

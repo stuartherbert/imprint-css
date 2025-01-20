@@ -1,5 +1,9 @@
 {
   "name": "tw-slate-200",
+  "title": "tw-slate-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-slate-200'.",
   "definition": "#e2e8f0",
   "hex": "#e2e8f0",
   "general": {

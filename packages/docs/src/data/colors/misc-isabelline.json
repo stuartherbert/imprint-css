@@ -1,5 +1,9 @@
 {
   "name": "misc-isabelline",
+  "title": "misc-isabelline",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-isabelline'.",
   "definition": "#f4f0ec",
   "hex": "#f4f0ec",
   "general": {

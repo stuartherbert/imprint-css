@@ -1,5 +1,9 @@
 {
   "name": "msdl-brown-3",
+  "title": "msdl-brown-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-brown-3'.",
   "definition": "#eaa300",
   "hex": "#eaa300",
   "general": {

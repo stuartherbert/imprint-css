@@ -1,5 +1,9 @@
 {
   "name": "honeydew",
+  "title": "honeydew",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'honeydew'.",
   "definition": "#f0fff0",
   "hex": "#f0fff0",
   "general": {

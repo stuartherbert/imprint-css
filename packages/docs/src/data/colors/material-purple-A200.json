@@ -1,5 +1,9 @@
 {
   "name": "material-purple-a200",
+  "title": "material-purple-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-purple-a200'.",
   "definition": "#e040fb",
   "hex": "#e040fb",
   "general": {

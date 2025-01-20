@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-glaucous",
+  "title": "iscc-nbs-glaucous",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-glaucous'.",
   "definition": "#6082b6",
   "hex": "#6082b6",
   "general": {

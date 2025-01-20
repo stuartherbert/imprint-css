@@ -1,5 +1,9 @@
 {
   "name": "bs-orange-900",
+  "title": "bs-orange-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-orange-900'.",
   "definition": "#331904",
   "hex": "#331904",
   "general": {

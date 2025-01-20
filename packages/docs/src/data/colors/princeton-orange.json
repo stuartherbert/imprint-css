@@ -1,5 +1,9 @@
 {
   "name": "princeton-orange",
+  "title": "princeton-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'princeton-orange'.",
   "definition": "#ee7f2d",
   "hex": "#ee7f2d",
   "general": {

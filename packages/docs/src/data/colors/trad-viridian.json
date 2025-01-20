@@ -1,5 +1,9 @@
 {
   "name": "trad-viridian",
+  "title": "trad-viridian",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-viridian'.",
   "definition": "#40826d",
   "hex": "#40826d",
   "general": {

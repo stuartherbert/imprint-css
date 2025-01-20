@@ -1,5 +1,9 @@
 {
   "name": "social-reddit",
+  "title": "social-reddit",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-reddit'.",
   "definition": "#ff5700",
   "hex": "#ff5700",
   "general": {

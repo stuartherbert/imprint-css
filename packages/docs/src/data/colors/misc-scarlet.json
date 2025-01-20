@@ -1,5 +1,9 @@
 {
   "name": "misc-scarlet",
+  "title": "misc-scarlet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-scarlet'.",
   "definition": "#ff2400",
   "hex": "#ff2400",
   "general": {

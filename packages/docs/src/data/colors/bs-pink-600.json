@@ -1,5 +1,9 @@
 {
   "name": "bs-pink-600",
+  "title": "bs-pink-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-pink-600'.",
   "definition": "#ab296a",
   "hex": "#ab296a",
   "general": {

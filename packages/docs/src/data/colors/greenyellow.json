@@ -1,5 +1,9 @@
 {
   "name": "greenyellow",
+  "title": "greenyellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'greenyellow'.",
   "definition": "#adff2f",
   "hex": "#adff2f",
   "general": {

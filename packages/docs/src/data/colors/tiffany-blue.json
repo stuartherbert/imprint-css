@@ -1,5 +1,9 @@
 {
   "name": "tiffany-blue",
+  "title": "tiffany-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tiffany-blue'.",
   "definition": "#81d8d0",
   "hex": "#81d8d0",
   "general": {

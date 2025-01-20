@@ -1,5 +1,9 @@
 {
   "name": "apple-maroon",
+  "title": "apple-maroon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-maroon'.",
   "definition": "#800040",
   "hex": "#800040",
   "general": {

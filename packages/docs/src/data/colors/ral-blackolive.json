@@ -1,5 +1,9 @@
 {
   "name": "ral-blackolive",
+  "title": "ral-blackolive",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ral-blackolive'.",
   "definition": "#3b3c36",
   "hex": "#3b3c36",
   "general": {

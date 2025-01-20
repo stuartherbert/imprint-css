@@ -1,5 +1,9 @@
 {
   "name": "crayola-carnationpink",
+  "title": "crayola-carnationpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-carnationpink'.",
   "definition": "#ffa6c9",
   "hex": "#ffa6c9",
   "general": {

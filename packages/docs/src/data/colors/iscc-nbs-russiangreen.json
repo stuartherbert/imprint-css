@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-russiangreen",
+  "title": "iscc-nbs-russiangreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-russiangreen'.",
   "definition": "#679267",
   "hex": "#679267",
   "general": {

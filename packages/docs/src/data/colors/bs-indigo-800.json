@@ -1,5 +1,9 @@
 {
   "name": "bs-indigo-800",
+  "title": "bs-indigo-800",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-indigo-800'.",
   "definition": "#290661",
   "hex": "#290661",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "ou-crimson",
+  "title": "ou-crimson",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ou-crimson'.",
   "definition": "#900",
   "hex": "#990000",
   "general": {

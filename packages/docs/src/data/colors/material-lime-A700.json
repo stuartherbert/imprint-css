@@ -1,5 +1,9 @@
 {
   "name": "material-lime-a700",
+  "title": "material-lime-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lime-a700'.",
   "definition": "#aeea00",
   "hex": "#aeea00",
   "general": {

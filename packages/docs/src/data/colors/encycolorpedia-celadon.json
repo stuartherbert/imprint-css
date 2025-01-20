@@ -1,5 +1,9 @@
 {
   "name": "encycolorpedia-celadon",
+  "title": "encycolorpedia-celadon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'encycolorpedia-celadon'.",
   "definition": "#ace1af",
   "hex": "#ace1af",
   "general": {

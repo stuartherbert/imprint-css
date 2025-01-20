@@ -1,5 +1,9 @@
 {
   "name": "tw-indigo-50",
+  "title": "tw-indigo-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-indigo-50'.",
   "definition": "#eef2ff",
   "hex": "#eef2ff",
   "general": {

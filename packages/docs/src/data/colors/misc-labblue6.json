@@ -1,5 +1,9 @@
 {
   "name": "misc-labblue6",
+  "title": "misc-labblue6",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-labblue6'.",
   "definition": "#203a59",
   "hex": "#203a59",
   "general": {

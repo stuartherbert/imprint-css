@@ -1,5 +1,9 @@
 {
   "name": "material-pink-500",
+  "title": "material-pink-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-pink-500'.",
   "definition": "#e91e63",
   "hex": "#e91e63",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-olivedrabcamouflage",
+  "title": "misc-olivedrabcamouflage",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-olivedrabcamouflage'.",
   "definition": "#544f3d",
   "hex": "#544f3d",
   "general": {

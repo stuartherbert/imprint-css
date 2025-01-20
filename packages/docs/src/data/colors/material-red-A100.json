@@ -1,5 +1,9 @@
 {
   "name": "material-red-a100",
+  "title": "material-red-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-red-a100'.",
   "definition": "#ff8a80",
   "hex": "#ff8a80",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-red-950",
+  "title": "tw-red-950",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-950'.",
   "definition": "#450a0a",
   "hex": "#450a0a",
   "general": {

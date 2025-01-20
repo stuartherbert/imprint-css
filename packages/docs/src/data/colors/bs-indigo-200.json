@@ -1,5 +1,9 @@
 {
   "name": "bs-indigo-200",
+  "title": "bs-indigo-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-indigo-200'.",
   "definition": "#c29ffa",
   "hex": "#c29ffa",
   "general": {

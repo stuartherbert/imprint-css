@@ -1,5 +1,9 @@
 {
   "name": "tw-red-100",
+  "title": "tw-red-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-100'.",
   "definition": "#fee2e2",
   "hex": "#fee2e2",
   "general": {

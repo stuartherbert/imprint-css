@@ -1,5 +1,9 @@
 {
   "name": "tw-teal-400",
+  "title": "tw-teal-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-teal-400'.",
   "definition": "#2dd4bf",
   "hex": "#2dd4bf",
   "general": {

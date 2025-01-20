@@ -1,5 +1,9 @@
 {
   "name": "tw-cyan-100",
+  "title": "tw-cyan-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-cyan-100'.",
   "definition": "#cffafe",
   "hex": "#cffafe",
   "general": {

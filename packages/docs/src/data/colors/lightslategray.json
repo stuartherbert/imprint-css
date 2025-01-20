@@ -1,5 +1,9 @@
 {
   "name": "lightslategray",
+  "title": "lightslategray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightslategray'.",
   "definition": "#778899",
   "hex": "#778899",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-green-300",
+  "title": "ganbaro-green-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-green-300'.",
   "definition": "#cce9b3",
   "hex": "#cce9b3",
   "general": {

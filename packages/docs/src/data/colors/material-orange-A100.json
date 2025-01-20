@@ -1,5 +1,9 @@
 {
   "name": "material-orange-a100",
+  "title": "material-orange-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-orange-a100'.",
   "definition": "#ffd180",
   "hex": "#ffd180",
   "general": {

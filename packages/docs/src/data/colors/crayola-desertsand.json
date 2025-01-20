@@ -1,5 +1,9 @@
 {
   "name": "crayola-desertsand",
+  "title": "crayola-desertsand",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-desertsand'.",
   "definition": "#edc9af",
   "hex": "#edc9af",
   "general": {

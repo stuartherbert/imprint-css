@@ -1,5 +1,9 @@
 {
   "name": "misc-electricviolet",
+  "title": "misc-electricviolet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-electricviolet'.",
   "definition": "#8f00ff",
   "hex": "#8f00ff",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-orange-a700",
+  "title": "material-orange-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-orange-a700'.",
   "definition": "#ff6d00",
   "hex": "#ff6d00",
   "general": {

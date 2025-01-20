@@ -1,5 +1,9 @@
 {
   "name": "material-teal-a100",
+  "title": "material-teal-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-teal-a100'.",
   "definition": "#a7ffeb",
   "hex": "#a7ffeb",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-pink-50",
+  "title": "tw-pink-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-pink-50'.",
   "definition": "#fdf2f8",
   "hex": "#fdf2f8",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "crayola-skyblue",
+  "title": "crayola-skyblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-skyblue'.",
   "definition": "#80daeb",
   "hex": "#80daeb",
   "general": {

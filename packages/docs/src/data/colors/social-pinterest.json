@@ -1,5 +1,9 @@
 {
   "name": "social-pinterest",
+  "title": "social-pinterest",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-pinterest'.",
   "definition": "#bd081c",
   "hex": "#bd081c",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "material-blue-a200",
+  "title": "material-blue-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-blue-a200'.",
   "definition": "#448aff",
   "hex": "#448aff",
   "general": {

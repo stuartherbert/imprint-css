@@ -1,5 +1,9 @@
 {
   "name": "msdl-white",
+  "title": "msdl-white",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-white'.",
   "definition": "#fff",
   "hex": "#ffffff",
   "general": {

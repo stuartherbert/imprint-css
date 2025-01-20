@@ -1,5 +1,9 @@
 {
   "name": "crayola-purplepizzazz",
+  "title": "crayola-purplepizzazz",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-purplepizzazz'.",
   "definition": "#fe4eda",
   "hex": "#fe4eda",
   "general": {

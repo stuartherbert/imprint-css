@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-independence",
+  "title": "iscc-nbs-independence",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-independence'.",
   "definition": "#4c516d",
   "hex": "#4c516d",
   "general": {

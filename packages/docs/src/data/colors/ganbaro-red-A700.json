@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-red-a700",
+  "title": "ganbaro-red-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-red-a700'.",
   "definition": "#b51110",
   "hex": "#b51110",
   "general": {

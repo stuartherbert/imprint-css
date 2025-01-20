@@ -1,5 +1,9 @@
 {
   "name": "misc-hookersgreen",
+  "title": "misc-hookersgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-hookersgreen'.",
   "definition": "#49796b",
   "hex": "#49796b",
   "general": {

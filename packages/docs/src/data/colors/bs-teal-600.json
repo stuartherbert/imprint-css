@@ -1,5 +1,9 @@
 {
   "name": "bs-teal-600",
+  "title": "bs-teal-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-teal-600'.",
   "definition": "#1aa179",
   "hex": "#1aa179",
   "general": {

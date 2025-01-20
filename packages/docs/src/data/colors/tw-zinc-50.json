@@ -1,5 +1,9 @@
 {
   "name": "tw-zinc-50",
+  "title": "tw-zinc-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-zinc-50'.",
   "definition": "#fafafa",
   "hex": "#fafafa",
   "general": {

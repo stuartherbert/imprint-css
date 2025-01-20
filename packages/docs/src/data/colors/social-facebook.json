@@ -1,5 +1,9 @@
 {
   "name": "social-facebook",
+  "title": "social-facebook",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-facebook'.",
   "definition": "#3b5999",
   "hex": "#3b5999",
   "general": {

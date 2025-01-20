@@ -1,5 +1,9 @@
 {
   "name": "cornflowerblue",
+  "title": "cornflowerblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'cornflowerblue'.",
   "definition": "#6495ed",
   "hex": "#6495ed",
   "general": {

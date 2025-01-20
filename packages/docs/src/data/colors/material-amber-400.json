@@ -1,5 +1,9 @@
 {
   "name": "material-amber-400",
+  "title": "material-amber-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-amber-400'.",
   "definition": "#ffca28",
   "hex": "#ffca28",
   "general": {

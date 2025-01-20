@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-myrtlegreen",
+  "title": "iscc-nbs-myrtlegreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-myrtlegreen'.",
   "definition": "#317873",
   "hex": "#317873",
   "general": {

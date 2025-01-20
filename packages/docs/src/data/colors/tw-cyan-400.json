@@ -1,5 +1,9 @@
 {
   "name": "tw-cyan-400",
+  "title": "tw-cyan-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-cyan-400'.",
   "definition": "#22d3ee",
   "hex": "#22d3ee",
   "general": {

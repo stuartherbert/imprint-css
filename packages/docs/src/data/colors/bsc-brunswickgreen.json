@@ -1,5 +1,9 @@
 {
   "name": "bsc-brunswickgreen",
+  "title": "bsc-brunswickgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bsc-brunswickgreen'.",
   "definition": "#1e3e2e",
   "hex": "#1e3e2e",
   "general": {

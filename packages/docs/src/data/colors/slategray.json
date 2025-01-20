@@ -1,5 +1,9 @@
 {
   "name": "slategray",
+  "title": "slategray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'slategray'.",
   "definition": "#708090",
   "hex": "#708090",
   "general": {

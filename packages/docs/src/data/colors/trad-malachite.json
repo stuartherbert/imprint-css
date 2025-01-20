@@ -1,5 +1,9 @@
 {
   "name": "trad-malachite",
+  "title": "trad-malachite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-malachite'.",
   "definition": "#0bda51",
   "hex": "#0bda51",
   "general": {

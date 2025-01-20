@@ -1,5 +1,9 @@
 {
   "name": "apple-grape",
+  "title": "apple-grape",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-grape'.",
   "definition": "#8000ff",
   "hex": "#8000ff",
   "general": {

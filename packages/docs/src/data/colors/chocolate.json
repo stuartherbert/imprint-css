@@ -1,5 +1,9 @@
 {
   "name": "chocolate",
+  "title": "chocolate",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'chocolate'.",
   "definition": "#d2691e",
   "hex": "#d2691e",
   "general": {

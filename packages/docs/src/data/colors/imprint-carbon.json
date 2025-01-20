@@ -1,5 +1,9 @@
 {
   "name": "imprint-carbon",
+  "title": "imprint-carbon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-carbon'.",
   "definition": "#303030",
   "hex": "#303030",
   "general": {

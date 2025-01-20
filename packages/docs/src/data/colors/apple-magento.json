@@ -1,5 +1,9 @@
 {
   "name": "apple-magento",
+  "title": "apple-magento",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-magento'.",
   "definition": "#f0f",
   "hex": "#ff00ff",
   "general": {

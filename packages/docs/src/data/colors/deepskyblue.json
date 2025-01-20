@@ -1,5 +1,9 @@
 {
   "name": "deepskyblue",
+  "title": "deepskyblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'deepskyblue'.",
   "definition": "#00bfff",
   "hex": "#00bfff",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "ghostwhite",
+  "title": "ghostwhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ghostwhite'.",
   "definition": "#f8f8ff",
   "hex": "#f8f8ff",
   "general": {

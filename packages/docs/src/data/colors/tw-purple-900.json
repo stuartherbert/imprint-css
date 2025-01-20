@@ -1,5 +1,9 @@
 {
   "name": "tw-purple-900",
+  "title": "tw-purple-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-purple-900'.",
   "definition": "#581c87",
   "hex": "#581c87",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "mediumslateblue",
+  "title": "mediumslateblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mediumslateblue'.",
   "definition": "#7b68ee",
   "hex": "#7b68ee",
   "general": {

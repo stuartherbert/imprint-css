@@ -1,5 +1,9 @@
 {
   "name": "hotpink",
+  "title": "hotpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'hotpink'.",
   "definition": "#ff69b4",
   "hex": "#ff69b4",
   "general": {

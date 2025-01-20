@@ -1,5 +1,9 @@
 {
   "name": "tw-green-100",
+  "title": "tw-green-100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-green-100'.",
   "definition": "#dcfce7",
   "hex": "#dcfce7",
   "general": {

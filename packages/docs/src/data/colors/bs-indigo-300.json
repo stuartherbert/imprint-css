@@ -1,5 +1,9 @@
 {
   "name": "bs-indigo-300",
+  "title": "bs-indigo-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-indigo-300'.",
   "definition": "#a370f7",
   "hex": "#a370f7",
   "general": {

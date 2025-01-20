@@ -1,5 +1,9 @@
 {
   "name": "material-lime-700",
+  "title": "material-lime-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lime-700'.",
   "definition": "#afb42b",
   "hex": "#afb42b",
   "general": {

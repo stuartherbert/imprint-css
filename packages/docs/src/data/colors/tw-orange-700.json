@@ -1,5 +1,9 @@
 {
   "name": "tw-orange-700",
+  "title": "tw-orange-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-orange-700'.",
   "definition": "#c2410c",
   "hex": "#c2410c",
   "general": {

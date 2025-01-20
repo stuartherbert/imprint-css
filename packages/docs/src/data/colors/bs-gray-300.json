@@ -1,5 +1,9 @@
 {
   "name": "bs-gray-300",
+  "title": "bs-gray-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-gray-300'.",
   "definition": "#dee2e6",
   "hex": "#dee2e6",
   "general": {

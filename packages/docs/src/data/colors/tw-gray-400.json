@@ -1,5 +1,9 @@
 {
   "name": "tw-gray-400",
+  "title": "tw-gray-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-gray-400'.",
   "definition": "#9ca3af",
   "hex": "#9ca3af",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "brown",
+  "title": "brown",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'brown'.",
   "definition": "#a52a2a",
   "hex": "#a52a2a",
   "general": {

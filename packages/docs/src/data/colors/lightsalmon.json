@@ -1,5 +1,9 @@
 {
   "name": "lightsalmon",
+  "title": "lightsalmon",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'lightsalmon'.",
   "definition": "#ffa07a",
   "hex": "#ffa07a",
   "general": {

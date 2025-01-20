@@ -1,5 +1,9 @@
 {
   "name": "darkorchid",
+  "title": "darkorchid",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkorchid'.",
   "definition": "#9932cc",
   "hex": "#9932cc",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "tw-amber-600",
+  "title": "tw-amber-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-amber-600'.",
   "definition": "#d97706",
   "hex": "#d97706",
   "general": {

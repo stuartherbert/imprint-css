@@ -1,5 +1,9 @@
 {
   "name": "material-deeporange-400",
+  "title": "material-deeporange-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeporange-400'.",
   "definition": "#ff7043",
   "hex": "#ff7043",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "resene-dutchwhite",
+  "title": "resene-dutchwhite",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'resene-dutchwhite'.",
   "definition": "#efdfbb",
   "hex": "#efdfbb",
   "general": {

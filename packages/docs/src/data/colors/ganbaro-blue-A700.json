@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-blue-a700",
+  "title": "ganbaro-blue-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-blue-a700'.",
   "definition": "#0065c1",
   "hex": "#0065c1",
   "general": {

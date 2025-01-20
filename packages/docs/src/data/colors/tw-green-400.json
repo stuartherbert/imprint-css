@@ -1,5 +1,9 @@
 {
   "name": "tw-green-400",
+  "title": "tw-green-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-green-400'.",
   "definition": "#4ade80",
   "hex": "#4ade80",
   "general": {

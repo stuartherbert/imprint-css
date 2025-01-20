@@ -1,5 +1,9 @@
 {
   "name": "dartmouth-green",
+  "title": "dartmouth-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'dartmouth-green'.",
   "definition": "#00693e",
   "hex": "#00693e",
   "general": {

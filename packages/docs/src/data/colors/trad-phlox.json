@@ -1,5 +1,9 @@
 {
   "name": "trad-phlox",
+  "title": "trad-phlox",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'trad-phlox'.",
   "definition": "#df00ff",
   "hex": "#df00ff",
   "general": {

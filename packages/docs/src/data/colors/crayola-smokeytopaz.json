@@ -1,5 +1,9 @@
 {
   "name": "crayola-smokeytopaz",
+  "title": "crayola-smokeytopaz",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-smokeytopaz'.",
   "definition": "#832a0d",
   "hex": "#832a0d",
   "general": {

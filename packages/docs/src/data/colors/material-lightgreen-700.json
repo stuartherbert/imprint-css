@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-700",
+  "title": "material-lightgreen-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-700'.",
   "definition": "#689f38",
   "hex": "#689f38",
   "general": {

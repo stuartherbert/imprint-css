@@ -1,5 +1,9 @@
 {
   "name": "crayola-steelpink",
+  "title": "crayola-steelpink",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-steelpink'.",
   "definition": "#c3c",
   "hex": "#cc33cc",
   "general": {

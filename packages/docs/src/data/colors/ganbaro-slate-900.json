@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-slate-900",
+  "title": "ganbaro-slate-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-slate-900'.",
   "definition": "#242628",
   "hex": "#242628",
   "general": {

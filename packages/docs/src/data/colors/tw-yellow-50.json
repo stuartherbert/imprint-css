@@ -1,5 +1,9 @@
 {
   "name": "tw-yellow-50",
+  "title": "tw-yellow-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-yellow-50'.",
   "definition": "#fefce8",
   "hex": "#fefce8",
   "general": {

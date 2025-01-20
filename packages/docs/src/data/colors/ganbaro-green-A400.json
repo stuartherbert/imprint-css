@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-green-a400",
+  "title": "ganbaro-green-a400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-green-a400'.",
   "definition": "#6d8f71",
   "hex": "#6d8f71",
   "general": {

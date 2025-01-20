@@ -1,5 +1,9 @@
 {
   "name": "tw-fuchsia-500",
+  "title": "tw-fuchsia-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-fuchsia-500'.",
   "definition": "#d946ef",
   "hex": "#d946ef",
   "general": {

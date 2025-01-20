@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-graygreen",
+  "title": "iscc-nbs-graygreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-graygreen'.",
   "definition": "#5e716a",
   "hex": "#5e716a",
   "general": {

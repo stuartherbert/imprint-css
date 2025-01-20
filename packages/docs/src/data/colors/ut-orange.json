@@ -1,5 +1,9 @@
 {
   "name": "ut-orange",
+  "title": "ut-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ut-orange'.",
   "definition": "#ff8200",
   "hex": "#ff8200",
   "general": {

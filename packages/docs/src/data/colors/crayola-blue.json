@@ -1,5 +1,9 @@
 {
   "name": "crayola-blue",
+  "title": "crayola-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'crayola-blue'.",
   "definition": "#1f75fe",
   "hex": "#1f75fe",
   "general": {

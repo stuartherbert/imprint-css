@@ -1,5 +1,9 @@
 {
   "name": "flat-wisteria",
+  "title": "flat-wisteria",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-wisteria'.",
   "definition": "#8e44ad",
   "hex": "#8e44ad",
   "general": {

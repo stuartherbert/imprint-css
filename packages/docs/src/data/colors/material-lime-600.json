@@ -1,5 +1,9 @@
 {
   "name": "material-lime-600",
+  "title": "material-lime-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lime-600'.",
   "definition": "#c0ca33",
   "hex": "#c0ca33",
   "general": {

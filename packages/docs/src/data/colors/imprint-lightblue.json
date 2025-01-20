@@ -1,5 +1,9 @@
 {
   "name": "imprint-lightblue",
+  "title": "imprint-lightblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-lightblue'.",
   "definition": "#34789a",
   "hex": "#34789a",
   "general": {

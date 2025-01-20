@@ -1,5 +1,9 @@
 {
   "name": "apple-teal",
+  "title": "apple-teal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-teal'.",
   "definition": "#008080",
   "hex": "#008080",
   "general": {

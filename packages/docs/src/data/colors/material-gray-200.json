@@ -1,5 +1,9 @@
 {
   "name": "material-gray-200",
+  "title": "material-gray-200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-gray-200'.",
   "definition": "#eee",
   "hex": "#eeeeee",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-christalle-1",
+  "title": "msdl-christalle-1",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-christalle-1'.",
   "definition": "#401b6c",
   "hex": "#401b6c",
   "general": {

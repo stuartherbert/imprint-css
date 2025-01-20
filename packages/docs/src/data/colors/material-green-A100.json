@@ -1,5 +1,9 @@
 {
   "name": "material-green-a100",
+  "title": "material-green-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-green-a100'.",
   "definition": "#b9f6ca",
   "hex": "#b9f6ca",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-saddlebrown-3",
+  "title": "msdl-saddlebrown-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-saddlebrown-3'.",
   "definition": "#ca5010",
   "hex": "#ca5010",
   "general": {

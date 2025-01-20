@@ -1,5 +1,9 @@
 {
   "name": "material-bluegray-600",
+  "title": "material-bluegray-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-bluegray-600'.",
   "definition": "#546e7a",
   "hex": "#546e7a",
   "general": {

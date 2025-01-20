@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-charcoal",
+  "title": "iscc-nbs-charcoal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-charcoal'.",
   "definition": "#36454f",
   "hex": "#36454f",
   "general": {

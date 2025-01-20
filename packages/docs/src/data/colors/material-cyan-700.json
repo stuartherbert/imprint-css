@@ -1,5 +1,9 @@
 {
   "name": "material-cyan-700",
+  "title": "material-cyan-700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-cyan-700'.",
   "definition": "#0097a7",
   "hex": "#0097a7",
   "general": {

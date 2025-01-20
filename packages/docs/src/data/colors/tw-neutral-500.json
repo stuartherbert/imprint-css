@@ -1,5 +1,9 @@
 {
   "name": "tw-neutral-500",
+  "title": "tw-neutral-500",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-neutral-500'.",
   "definition": "#737373",
   "hex": "#737373",
   "general": {

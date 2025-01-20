@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-pompandpower",
+  "title": "iscc-nbs-pompandpower",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-pompandpower'.",
   "definition": "#86608e",
   "hex": "#86608e",
   "general": {

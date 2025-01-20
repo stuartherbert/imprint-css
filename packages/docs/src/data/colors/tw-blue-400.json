@@ -1,5 +1,9 @@
 {
   "name": "tw-blue-400",
+  "title": "tw-blue-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-blue-400'.",
   "definition": "#60a5fa",
   "hex": "#60a5fa",
   "general": {

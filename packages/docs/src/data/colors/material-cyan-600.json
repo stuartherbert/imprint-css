@@ -1,5 +1,9 @@
 {
   "name": "material-cyan-600",
+  "title": "material-cyan-600",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-cyan-600'.",
   "definition": "#00acc1",
   "hex": "#00acc1",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "msdl-bluelagoon-3",
+  "title": "msdl-bluelagoon-3",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-bluelagoon-3'.",
   "definition": "#0099bc",
   "hex": "#0099bc",
   "general": {

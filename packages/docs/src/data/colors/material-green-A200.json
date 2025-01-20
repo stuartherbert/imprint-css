@@ -1,5 +1,9 @@
 {
   "name": "material-green-a200",
+  "title": "material-green-a200",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-green-a200'.",
   "definition": "#69f0ae",
   "hex": "#69f0ae",
   "general": {

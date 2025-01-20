@@ -1,5 +1,9 @@
 {
   "name": "limegreen",
+  "title": "limegreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'limegreen'.",
   "definition": "#32cd32",
   "hex": "#32cd32",
   "general": {

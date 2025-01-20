@@ -1,5 +1,9 @@
 {
   "name": "misc-vividviolet",
+  "title": "misc-vividviolet",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-vividviolet'.",
   "definition": "#9f00ff",
   "hex": "#9f00ff",
   "general": {

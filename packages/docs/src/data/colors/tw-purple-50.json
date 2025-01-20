@@ -1,5 +1,9 @@
 {
   "name": "tw-purple-50",
+  "title": "tw-purple-50",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-purple-50'.",
   "definition": "#faf5ff",
   "hex": "#faf5ff",
   "general": {

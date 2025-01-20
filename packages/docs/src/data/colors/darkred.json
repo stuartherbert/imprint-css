@@ -1,5 +1,9 @@
 {
   "name": "darkred",
+  "title": "darkred",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'darkred'.",
   "definition": "#8b0000",
   "hex": "#8b0000",
   "general": {

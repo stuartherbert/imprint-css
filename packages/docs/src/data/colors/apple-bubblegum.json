@@ -1,5 +1,9 @@
 {
   "name": "apple-bubblegum",
+  "title": "apple-bubblegum",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-bubblegum'.",
   "definition": "#f6f",
   "hex": "#ff66ff",
   "general": {

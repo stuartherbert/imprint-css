@@ -1,5 +1,9 @@
 {
   "name": "tw-zinc-900",
+  "title": "tw-zinc-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-zinc-900'.",
   "definition": "#18181b",
   "hex": "#18181b",
   "general": {

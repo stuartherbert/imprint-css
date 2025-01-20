@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-red-300",
+  "title": "ganbaro-red-300",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-red-300'.",
   "definition": "#ea5250",
   "hex": "#ea5250",
   "general": {

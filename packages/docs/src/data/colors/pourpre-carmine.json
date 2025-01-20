@@ -1,5 +1,9 @@
 {
   "name": "pourpre-carmine",
+  "title": "pourpre-carmine",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'pourpre-carmine'.",
   "definition": "#960018",
   "hex": "#960018",
   "general": {

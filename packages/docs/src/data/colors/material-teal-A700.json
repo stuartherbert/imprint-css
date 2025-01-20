@@ -1,5 +1,9 @@
 {
   "name": "material-teal-a700",
+  "title": "material-teal-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-teal-a700'.",
   "definition": "#00bfa5",
   "hex": "#00bfa5",
   "general": {

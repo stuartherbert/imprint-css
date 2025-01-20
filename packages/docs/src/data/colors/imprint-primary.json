@@ -1,5 +1,9 @@
 {
   "name": "imprint-primary",
+  "title": "imprint-primary",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-primary'.",
   "definition": "#234f83",
   "hex": "#234f83",
   "general": {

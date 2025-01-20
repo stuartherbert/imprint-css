@@ -1,5 +1,9 @@
 {
   "name": "apple-lime",
+  "title": "apple-lime",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-lime'.",
   "definition": "#80ff00",
   "hex": "#80ff00",
   "general": {

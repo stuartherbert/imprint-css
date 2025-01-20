@@ -1,5 +1,9 @@
 {
   "name": "misc-pillboxorange",
+  "title": "misc-pillboxorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-pillboxorange'.",
   "definition": "#d1ad82",
   "hex": "#d1ad82",
   "general": {

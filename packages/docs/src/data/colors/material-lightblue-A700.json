@@ -1,5 +1,9 @@
 {
   "name": "material-lightblue-a700",
+  "title": "material-lightblue-a700",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightblue-a700'.",
   "definition": "#0091ea",
   "hex": "#0091ea",
   "general": {

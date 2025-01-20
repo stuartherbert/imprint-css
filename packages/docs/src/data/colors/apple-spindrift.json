@@ -1,5 +1,9 @@
 {
   "name": "apple-spindrift",
+  "title": "apple-spindrift",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-spindrift'.",
   "definition": "#6fc",
   "hex": "#66ffcc",
   "general": {

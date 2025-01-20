@@ -1,5 +1,9 @@
 {
   "name": "material-lightgreen-900",
+  "title": "material-lightgreen-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-lightgreen-900'.",
   "definition": "#33691e",
   "hex": "#33691e",
   "general": {

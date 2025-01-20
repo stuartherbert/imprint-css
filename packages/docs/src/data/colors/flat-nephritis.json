@@ -1,5 +1,9 @@
 {
   "name": "flat-nephritis",
+  "title": "flat-nephritis",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'flat-nephritis'.",
   "definition": "#27ae60",
   "hex": "#27ae60",
   "general": {

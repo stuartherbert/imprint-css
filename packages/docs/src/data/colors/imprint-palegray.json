@@ -1,5 +1,9 @@
 {
   "name": "imprint-palegray",
+  "title": "imprint-palegray",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-palegray'.",
   "definition": "#e2e2e2",
   "hex": "#e2e2e2",
   "general": {

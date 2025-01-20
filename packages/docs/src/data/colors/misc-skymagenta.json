@@ -1,5 +1,9 @@
 {
   "name": "misc-skymagenta",
+  "title": "misc-skymagenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-skymagenta'.",
   "definition": "#cf71af",
   "hex": "#cf71af",
   "general": {

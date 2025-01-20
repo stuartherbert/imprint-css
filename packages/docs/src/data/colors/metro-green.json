@@ -1,5 +1,9 @@
 {
   "name": "metro-green",
+  "title": "metro-green",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'metro-green'.",
   "definition": "#60a917",
   "hex": "#60a917",
   "general": {

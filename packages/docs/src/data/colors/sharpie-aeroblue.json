@@ -1,5 +1,9 @@
 {
   "name": "sharpie-aeroblue",
+  "title": "sharpie-aeroblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'sharpie-aeroblue'.",
   "definition": "#c9ffe5",
   "hex": "#c9ffe5",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-chilired",
+  "title": "misc-chilired",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-chilired'.",
   "definition": "#e23d28",
   "hex": "#e23d28",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-orange-a100",
+  "title": "ganbaro-orange-a100",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-orange-a100'.",
   "definition": "#ffc981",
   "hex": "#ffc981",
   "general": {

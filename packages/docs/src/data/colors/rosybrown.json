@@ -1,5 +1,9 @@
 {
   "name": "rosybrown",
+  "title": "rosybrown",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'rosybrown'.",
   "definition": "#bc8f8f",
   "hex": "#bc8f8f",
   "general": {

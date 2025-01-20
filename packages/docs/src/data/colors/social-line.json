@@ -1,5 +1,9 @@
 {
   "name": "social-line",
+  "title": "social-line",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'social-line'.",
   "definition": "#00c300",
   "hex": "#00c300",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-charlestongreen",
+  "title": "misc-charlestongreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-charlestongreen'.",
   "definition": "#232b2b",
   "hex": "#232b2b",
   "general": {

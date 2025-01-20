@@ -1,5 +1,9 @@
 {
   "name": "misc-midmossgreen",
+  "title": "misc-midmossgreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-midmossgreen'.",
   "definition": "#686b47",
   "hex": "#686b47",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "iscc-nbs-lust",
+  "title": "iscc-nbs-lust",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-lust'.",
   "definition": "#e62020",
   "hex": "#e62020",
   "general": {

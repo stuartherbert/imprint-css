@@ -1,5 +1,9 @@
 {
   "name": "material-deeppurple-900",
+  "title": "material-deeppurple-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'material-deeppurple-900'.",
   "definition": "#311b92",
   "hex": "#311b92",
   "general": {

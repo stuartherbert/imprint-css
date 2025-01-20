@@ -1,5 +1,9 @@
 {
   "name": "msdl-teal-2",
+  "title": "msdl-teal-2",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl-teal-2'.",
   "definition": "#038387",
   "hex": "#038387",
   "general": {

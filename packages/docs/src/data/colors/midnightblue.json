@@ -1,5 +1,9 @@
 {
   "name": "midnightblue",
+  "title": "midnightblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'midnightblue'.",
   "definition": "#191970",
   "hex": "#191970",
   "general": {

@@ -1,5 +1,9 @@
 {
   "name": "misc-palatinate",
+  "title": "misc-palatinate",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-palatinate'.",
   "definition": "#682860",
   "hex": "#682860",
   "general": {

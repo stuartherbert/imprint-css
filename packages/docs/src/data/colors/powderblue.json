@@ -1,5 +1,9 @@
 {
   "name": "powderblue",
+  "title": "powderblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'powderblue'.",
   "definition": "#b0e0e6",
   "hex": "#b0e0e6",
   "general": {

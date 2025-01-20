@@ -1,5 +1,9 @@
 {
   "name": "apple-honeydew",
+  "title": "apple-honeydew",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'apple-honeydew'.",
   "definition": "#cf6",
   "hex": "#ccff66",
   "general": {

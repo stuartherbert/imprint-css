@@ -1,5 +1,9 @@
 {
   "name": "tw-red-400",
+  "title": "tw-red-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw-red-400'.",
   "definition": "#f87171",
   "hex": "#f87171",
   "general": {

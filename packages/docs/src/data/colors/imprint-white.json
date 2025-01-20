@@ -1,5 +1,9 @@
 {
   "name": "imprint-white",
+  "title": "imprint-white",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'imprint-white'.",
   "definition": "#fff",
   "hex": "#ffffff",
   "general": {

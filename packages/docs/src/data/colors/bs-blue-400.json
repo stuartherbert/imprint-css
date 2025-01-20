@@ -1,5 +1,9 @@
 {
   "name": "bs-blue-400",
+  "title": "bs-blue-400",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'bs-blue-400'.",
   "definition": "#3d8bfd",
   "hex": "#3d8bfd",
   "general": {

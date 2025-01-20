@@ -1,5 +1,9 @@
 {
   "name": "misc-electricblue",
+  "title": "misc-electricblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-electricblue'.",
   "definition": "#7df9ff",
   "hex": "#7df9ff",
   "general": {

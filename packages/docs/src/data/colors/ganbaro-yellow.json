@@ -1,5 +1,9 @@
 {
   "name": "ganbaro-yellow",
+  "title": "ganbaro-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ganbaro-yellow'.",
   "definition": "#fde11a",
   "hex": "#fde11a",
   "general": {
