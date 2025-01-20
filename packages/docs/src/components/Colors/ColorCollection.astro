@@ -1,0 +1,26 @@
+---
+import { getEntry } from "astro:content";
+import ColorSwatches from "./ColorSwatches.astro";
+import FullWidthColorSwatch from "./FullWidthColorSwatch.astro";
+
+export interface Props {
+    colorGroup: string;
+}
+
+const { colorGroup } = Astro.props;
+
+// load the group
+const groupData = await getEntry("colorGroups", colorGroup);
+if (groupData === undefined) {
+    throw new Error("unknown color group: " + colorGroup);
+}
+
+---
+
+<ColorSwatches>
+    <div class="grid grid-cols-4 gap-2 grow shrink-0">
+        {groupData.data.map((colorData) => (
+            <FullWidthColorSwatch colorName={colorData.id}/>
+        ))}
+    </div>
+</ColorSwatches>
