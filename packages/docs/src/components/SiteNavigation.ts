@@ -80,7 +80,7 @@ export async function buildNavList(navList: Map<string, NavItems>, docList: Map<
         while(nextDoc.data.next !== undefined) {
             const nextContent = await getEntry("docs", nextDoc.data.next.id);
             if (nextContent === undefined) {
-                throw new Error("cannot find docs entry " + nextDoc.data.next);
+                throw new Error("cannot find docs entry " + JSON.stringify(nextDoc.data.next));
             }
             const nextSlug = nextContent.id;
             const maybeNextDoc = docs.find((doc) => doc.id === nextSlug);
