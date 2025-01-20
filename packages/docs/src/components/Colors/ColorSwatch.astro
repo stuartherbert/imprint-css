@@ -1,0 +1,32 @@
+---
+import { getEntry } from "astro:content";
+
+
+export interface Props {
+    colorName: string;
+}
+const { colorName } = Astro.props;
+
+const payload = await getEntry("colors", colorName );
+if (payload === undefined) {
+    throw new Error("no such color: " + colorName);
+}
+
+// shorthand
+const color = payload?.data;
+const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.pairings.background + " !important;";
+
+---
+
+<nav class="flex w-max grow">
+    <ul class="w-full font-bold list-none whitespace-nowrap">
+        <li class="flex flex-row justify-between w-full px-8 py-4 list-none shrink-0 basis-full grow flex-nowrap" style={swatchStyle}>
+            <span class="w-full break-words grow pr-32rpx">
+                <a href="">{color.name}</a>
+            </span>
+            <span>
+                <a href="">{color.hex.toUpperCase()}
+            </span>
+        </li>
+    </ul>
+</>
