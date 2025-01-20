@@ -14,14 +14,14 @@ export async function getStaticPaths() {
 
 // const {id} = Astro.params;
 const {colorDetails} = Astro.props;
-const luminosity = colorDetails.data.luminosity.toFixed(3);
-
+const luminosity = colorDetails.data.general.relativeLuminance;
+const allDetails = JSON.stringify(colorDetails.data);
 ---
 
-<h1>{colorDetails.data.name}</h1>
+<h1>{colorDetails.id}</h1>
 
 <h2>Introduction</h2>
-<p>This page contains everything we know about the color <code>{colorDetails.data.name}</code>.</p>
+<p>This page contains everything we know about the color <code>{allDetails}</code>.</p>
 
 <h2>How To Use</h2>
 <h3>Color Variables</h3>

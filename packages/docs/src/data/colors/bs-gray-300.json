@@ -49,5 +49,9 @@
     "recommendedForBodyContent": true,
     "passableForBodyContent": true,
     "passableForUi": true
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
   }
 }

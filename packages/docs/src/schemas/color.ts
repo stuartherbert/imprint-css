@@ -54,6 +54,11 @@ const generalSchema = z.object({
     relativeLuminance: z.number(),
 });
 
+const pairingSchema = z.object({
+    background: z.string().startsWith('#'),
+    foreground: z.string().startsWith('#'),
+});
+
 export const colorsSchema = z.object({
     name: z.string(),
     definition: z.string().startsWith('#'),
@@ -61,4 +66,5 @@ export const colorsSchema = z.object({
     general: generalSchema,
     pairedWithLightColor: pairedWithColorSchema,
     pairedWithDarkColor: pairedWithColorSchema,
+    pairings: pairingSchema,
 });

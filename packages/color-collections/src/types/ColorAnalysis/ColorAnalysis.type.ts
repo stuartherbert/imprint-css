@@ -33,6 +33,7 @@
 //
 
 import type { CssHexColorDefinition, Hue, Tonality, WcagContrastRatings } from "@safelytyped/css-color";
+import type { CssColorDefinition } from "../CssColorDefinition/CssColorDefinition.type";
 
 /**
  * ColorAnalysis is a set of detailed information about the given color.
@@ -68,5 +69,9 @@ export interface ColorAnalysis {
         recommendedForBodyContent: boolean;
         passableForBodyContent: boolean;
         passableForUi: boolean;
+    },
+    pairings: {
+        background: CssColorDefinition;
+        foreground: CssColorDefinition;
     },
 }

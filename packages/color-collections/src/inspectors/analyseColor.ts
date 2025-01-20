@@ -32,7 +32,7 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssHexColorDefinition, relativeLuminance, tonality, wcagContrast, type AnyCssColor } from "@safelytyped/css-color";
+import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, relativeLuminance, tonality, wcagContrast, type AnyCssColor } from "@safelytyped/css-color";
 import type { ColorAnalysis } from "../types/ColorAnalysis/ColorAnalysis.type";
 import { roundDown } from "@safelytyped/math-rounding";
 import { DEFAULT_FG } from "../defaults/DEFAULT_FG";
@@ -52,7 +52,7 @@ export function analyseColor(
     // analyse the color
     const retval = {
         definition: input.definition(),
-        hex: makeCssHexColorDefinition(input.hex()),
+        hex: input.hex(),
         general: {
             hues: hues(input),
             tonality: tonality(input),
@@ -82,6 +82,10 @@ export function analyseColor(
             passableForBodyContent: false,
             passableForUi: false,
         },
+        pairings: {
+            background: defaultBg.hex(),
+            foreground: defaultFg.hex(),
+        }
     };
 
     // use that data for some additional analysis
@@ -95,6 +99,11 @@ export function analyseColor(
     retval.pairedWithDarkColor.recommendedForBodyContent = (retval.pairedWithDarkColor.wcagContrast.AAA_normal && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
     retval.pairedWithDarkColor.passableForBodyContent = (retval.pairedWithDarkColor.wcagContrast.AA_normal && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
     retval.pairedWithDarkColor.passableForUi = (retval.pairedWithDarkColor.wcagContrast.AA_ui && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
+
+    if (retval.general.luma > (255/2)) {
+        retval.pairings.background = defaultFg.hex();
+        retval.pairings.foreground = defaultBg.hex();
+    }
 
     // all done
     return retval;
