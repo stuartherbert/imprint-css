@@ -1,0 +1,13 @@
+---
+import ColorSwatch from "./ColorSwatch.astro";
+
+export interface Props {
+    colorName: string;
+}
+const { colorName } = Astro.props;
+
+---
+
+<div class="flex justify-center p-8 border rounded-lg grow shrink-0 border-imprint-lightgray bg-zinc-200">
+    <ColorSwatch colorName={colorName}/>
+</div>
