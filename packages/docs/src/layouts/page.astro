@@ -29,6 +29,11 @@ export interface Props {
 
 const {frontmatter, origin, headings} = Astro.props;
 import "../styles/global.css";
+import { getEntry } from "astro:content";
+import PrevNextNavigation from "../components/PrevNextNavigation.astro";
+
+const prev = frontmatter.prev ? await getEntry(frontmatter.prev) : undefined;
+const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
 
 ---
 
@@ -75,6 +80,7 @@ import "../styles/global.css";
                                 </header>
                                 <slot />
                             </div>
+                            <PrevNextNavigation prev={prev} next={next}/>
                         </main>
                         <div id="compact" class="mt-6 mb-10 imprint e:hidden">
                             <div class="mb-4 imprint-panel --subtle bg-imprint-palegray/75 border-imprint-gray/40">
