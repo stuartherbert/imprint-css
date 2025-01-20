@@ -18,15 +18,25 @@ const swatchStyle = "background-color: " + color.hex + " !important; color: " + 
 
 ---
 
-<nav class="flex w-max grow">
-    <ul class="w-full font-bold list-none whitespace-nowrap">
-        <li class="flex flex-row justify-between w-full px-8 py-4 list-none shrink-0 basis-full grow flex-nowrap" style={swatchStyle}>
-            <span class="w-full break-words grow pr-32rpx">
-                <a href="">{color.name}</a>
-            </span>
-            <span>
+<div class="overflow-hidden bg-white border rounded-md border-imprint-lightgray">
+    <div class="m-2 overflow-hidden border rounded --standout-md border-imprint-lightgray">
+    <a href={"/colors/" + colorName}>
+    <div class="w-200rpx h-160rpx" style={swatchStyle}>
+        <p>&nbsp;</p>
+    </div>
+    </a>
+    </div>
+    <div class="px-2 pb-4">
+        <span class="block">
+            <a href="" class="font-bold">{color.name}</a>
+        </span>
+        <div class="flex justify-between grow basis-1/2">
+            <span class="block imprint-fontsize-minion">
                 <a href="">{color.hex.toUpperCase()}
             </span>
-        </li>
-    </ul>
-</>
+            <span class="block imprint-fontsize-minion">
+                <a href={"/colors/" + color.name}>Info</a>
+            </span>
+        </span>
+    </div>
+</div>
