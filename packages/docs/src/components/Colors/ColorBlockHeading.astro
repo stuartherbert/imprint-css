@@ -1,0 +1,32 @@
+---
+import { getEntry } from "astro:content";
+
+export interface Props {
+    colorName: string;
+    title?: string;
+}
+const { colorName, title } = Astro.props;
+
+const payload = await getEntry("colors", colorName );
+if (payload === undefined) {
+    throw new Error("no such color: " + colorName);
+}
+
+// shorthand
+const color = payload?.data;
+const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.pairings.background + " !important;";
+
+const displayName = title || color.name;
+
+---
+
+<nav>
+    <div class="w-full px-4 py-4 --standout-md" style={swatchStyle}>
+        <div class="flex justify-between grow-1">
+            <span class="block font-bold">
+                {displayName}
+            </span>
+        </div>
+    </d>
+</form>
+</nav>
