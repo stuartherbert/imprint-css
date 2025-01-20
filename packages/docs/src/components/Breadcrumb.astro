@@ -34,10 +34,7 @@ async function buildBreadcrumbs() {
         throw new Error("cannot find '" + origin.id + '" in collection "' + origin.collection + '"');
     }
 
-    console.log(currentEntry.data);
     const navSection = imprintConfig.navSections.find((navSection) => navSection.name === currentEntry.data.navSection);
-
-    console.log(navSection);
 
     // special case - home page
     if (currentEntry.id !== '/') {
