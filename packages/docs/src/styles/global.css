@@ -220,7 +220,7 @@ nav.pagetoc-ol {
 }
 
 .docs-color-blocks {
-    @apply grid grid-cols-1 gap-2 b:grid-cols-2 e:grid-cols-3;
+    @apply grid grid-cols-1 gap-2 b:grid-cols-2 e:grid-cols-3 f:grid-cols-4;
 }
 
 .docs-color-swatches, .docs-color-swatches-5 {
