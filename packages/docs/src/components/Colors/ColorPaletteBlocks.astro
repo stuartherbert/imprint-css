@@ -1,0 +1,36 @@
+---
+
+import { breakdownColorPalette } from "./ColorPalettes";
+import ColorBlock from "./ColorBlock.astro";
+import ColorBlockHeading from "./ColorBlockHeading.astro";
+
+export interface Props {
+    colorPalette: string;
+    headingColor?: string;
+    headingTitle?: string;
+    headingColorSuffix?: string;
+    [name: string]: string;
+}
+
+const { colorPalette, headingColor, headingTitle, headingColorSuffix, ...attributes } = Astro.props;
+const { defaultColor, regularPalette, alternatePalette } = await breakdownColorPalette(colorPalette);
+
+// if there is no default color, we need to work out what to show as
+// the heading block
+const headingDisplayTitle = headingTitle || colorPalette;
+const headingColorName = headingColor ||
+    (headingColorSuffix ? colorPalette + '-' + headingColorSuffix
+                        : regularPalette.find((x) => x!==undefined)?.colorName)
+
+---
+
+<div {...attributes}>
+    {defaultColor && <ColorBlock colorName={defaultColor}/>}
+    {!defaultColor && <ColorBlockHeading colorName={headingColorName} title={headingDisplayTitle}/>}
+    {regularPalette.map(({colorName, shortName}) => (
+        <ColorBlock colorName={colorName} shortName={shortName}/>
+    ))}
+    {alternatePalette.map(({colorName, shortName}) => (
+        <ColorBlock colorName={colorName} shortName={shortName}/>
+    ))}
+</div>

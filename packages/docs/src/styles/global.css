@@ -206,3 +206,47 @@ nav.pagetoc-ol {
     background: rgb(228,228,231);
     background: linear-gradient(0deg, rgba(218,218,220,1) 0%, rgba(224,224,228,1) 35%, rgba(228,228,231,1) 100%);
 }
+
+.copied-tooltip {
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 0%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    @apply w-16 px-1 py-2 font-bold text-white border rounded-md bg-imprint-primary --standout-lg imprint-fontsize-brevier border-imprint-lightgray;
+}
+
+/* workarounds for Astro / Tailwind issues */
+.dummy-grid-cols-3 {
+    @apply grid-cols-3;
+}
+.dummy-grid-cols-4 {
+    @apply grid-cols-4;
+}
+.dummy-grid-cols-5 {
+    @apply grid-cols-5;
+}
+.dummy-grid-cols-6 {
+    @apply grid-cols-6;
+}
+.dummy-grid-cols-7 {
+    @apply grid-cols-7;
+}
+.dummy-grid-cols-8 {
+    @apply grid-cols-8;
+}
+.dummy-grid-cols-9 {
+    @apply grid-cols-9;
+}
+.dummy-grid-cols-10 {
+    @apply grid-cols-10;
+}
+.dummy-grid-cols-11 {
+    @apply grid-cols-11;
+}
+.dummy-grid-cols-12 {
+    @apply grid-cols-12;
+}

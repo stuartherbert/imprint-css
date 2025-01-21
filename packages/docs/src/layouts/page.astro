@@ -113,5 +113,49 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
         <div id="footer" class="flex justify-center px-4 py-4 text-white shadow bg-ganbaro-blue-500">
             <p>Copyright (c) 2024-present Ganbaro Digital Ltd.</p>
         </div>
+
+        <script is:inline>
+            document.addEventListener("DOMContentLoaded", () => {
+                function showCopiedTooltip(event, copyText) {
+                    let tooltipElement = event.target.querySelector('.copied-tooltip');
+
+                    if (!tooltipElement) {
+                        tooltipElement = document.createElement("span");
+                        tooltipElement.className = "copied-tooltip";
+                        event.target.appendChild(tooltipElement);
+                    }
+
+                    // make all other visible tooltips hidden
+                    document.querySelectorAll('.copied-tooltip').forEach((el) => {
+                        el.style.visibility = "hidden";
+                        el.style.opacity = "0";
+                    });
+
+                    tooltipElement.textContent ="Copied";
+                    tooltipElement.style.visibility = "visible";
+                    tooltipElement.style.opacity = "1";
+
+                    setTimeout(function() {
+                        tooltipElement.style.visibility = "hidden";
+                        tooltipElement.style.opacity = "0";
+                    }, 2000);
+                }
+
+                function copyToClipboard(event) {
+                    event.preventDefault();
+                    var target = event.target;
+                    var copyText = target.dataset.clipboard;
+
+                    navigator.clipboard.writeText(copyText);
+                    // alert("Copied: " + copyText);
+                    showCopiedTooltip(event, copyText);
+                }
+
+
+                document.querySelectorAll("[data-clipboard]").forEach(
+                    el => el.addEventListener("click", copyToClipboard)
+                );
+            });
+            </script>
     </body>
 </html>

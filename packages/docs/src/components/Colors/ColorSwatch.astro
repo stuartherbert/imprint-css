@@ -21,8 +21,8 @@ const displayName = shortName || color.name;
 
 ---
 
-<div class="overflow-hidden bg-white border rounded border-imprint-lightgray">
-    <div class="m-2 overflow-hidden rounded --standout-md">
+<div class="bg-white border rounded border-imprint-lightgray">
+    <div class="m-2 rounded --standout-md">
         <a href={"/colors/" + colorName}>
             <div class="w-full aspect-[5/4]" style={swatchStyle}>
                 <p>&nbsp;</p>
@@ -31,10 +31,10 @@ const displayName = shortName || color.name;
     </div>
     <div class="px-2 pb-2">
         <span class="block">
-            <a href="" class="font-bold">{displayName}</a>
+            <a href="" title="copy to clipboard" class="relative font-bold" data-clipboard={color.name}>{displayName}</a>
         </span>
         { shortName && <span class="block imprint-fontsize-minion">
-                <a href="">{color.hex.toUpperCase()}
+                <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
             </span>
             <span class="block pt-2 imprint-fontsize-minion">
                 <a href={"/colors/" + color.name}>Info</a>
@@ -42,7 +42,7 @@ const displayName = shortName || color.name;
         }
         { !shortName && <div class="flex justify-between pb-2 grow basis-1/2">
                 <span class="block imprint-fontsize-minion">
-                    <a href="">{color.hex.toUpperCase()}
+                    <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
                 </span>
                 <span class="block imprint-fontsize-minion">
                     <a href={"/colors/" + color.name}>Info</a>
