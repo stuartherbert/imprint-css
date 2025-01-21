@@ -99,14 +99,14 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                             </div>
                         </div>
                     </div>
+                    {headings.length > 0 &&
                     <div id="pagetoc" class="sticky top-0 order-3 hidden pt-4 pl-4 mt-2 overflow-y-auto border-l e:block border-imprint-palegray text-pica max-h-dvh">
                         <aside>
-                            {headings.length > 0 &&
                             <h5 class="font-semibold text-18rpx">On This Page</h5>
                             <PageToc headings={headings}/>
-                            }
                         </aside>
                     </div>
+                    }
                 </div>
             </div>
         </div>
