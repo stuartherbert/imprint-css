@@ -29,7 +29,7 @@ const displayName = shortName || color.name;
             </div>
         </a>
     </div>
-    <div class="px-2 pb-4">
+    <div class="px-2 pb-2">
         <span class="block">
             <a href="" class="font-bold">{displayName}</a>
         </span>
@@ -40,7 +40,7 @@ const displayName = shortName || color.name;
                 <a href={"/colors/" + color.name}>Info</a>
             </span>
         }
-        { !shortName && <div class="flex justify-between grow basis-1/2">
+        { !shortName && <div class="flex justify-between pb-2 grow basis-1/2">
                 <span class="block imprint-fontsize-minion">
                     <a href="">{color.hex.toUpperCase()}
                 </span>
