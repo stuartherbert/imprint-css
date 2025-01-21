@@ -4,8 +4,9 @@ import { getEntry } from "astro:content";
 
 export interface Props {
     colorName: string;
+    shortName?: string;
 }
-const { colorName } = Astro.props;
+const { colorName, shortName } = Astro.props;
 
 const payload = await getEntry("colors", colorName );
 if (payload === undefined) {
@@ -16,27 +17,37 @@ if (payload === undefined) {
 const color = payload?.data;
 const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.pairings.background + " !important;";
 
+const displayName = shortName || color.name;
+
 ---
 
-<div class="overflow-hidden bg-white border rounded-md border-imprint-lightgray">
+<div class="overflow-hidden bg-white border rounded border-imprint-lightgray">
     <div class="m-2 overflow-hidden rounded --standout-md">
-    <a href={"/colors/" + colorName}>
-    <div class="w-200rpx h-160rpx" style={swatchStyle}>
-        <p>&nbsp;</p>
-    </div>
-    </a>
+        <a href={"/colors/" + colorName}>
+            <div class="w-full aspect-[5/4]" style={swatchStyle}>
+                <p>&nbsp;</p>
+            </div>
+        </a>
     </div>
     <div class="px-2 pb-4">
         <span class="block">
-            <a href="" class="font-bold">{color.name}</a>
+            <a href="" class="font-bold">{displayName}</a>
         </span>
-        <div class="flex justify-between grow basis-1/2">
-            <span class="block imprint-fontsize-minion">
+        { shortName && <span class="block imprint-fontsize-minion">
                 <a href="">{color.hex.toUpperCase()}
             </span>
-            <span class="block imprint-fontsize-minion">
+            <span class="block pt-2 imprint-fontsize-minion">
                 <a href={"/colors/" + color.name}>Info</a>
             </span>
-        </span>
+        }
+        { !shortName && <div class="flex justify-between grow basis-1/2">
+                <span class="block imprint-fontsize-minion">
+                    <a href="">{color.hex.toUpperCase()}
+                </span>
+                <span class="block imprint-fontsize-minion">
+                    <a href={"/colors/" + color.name}>Info</a>
+                </span>
+            </span>
+        }
     </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 import { getEntry } from "astro:content";
 import ColorSwatches from "./ColorSwatches.astro";
-import FullWidthColorSwatch from "./FullWidthColorSwatch.astro";
+import ColorSwatch from "./ColorSwatch.astro";
 
 export interface Props {
     colorGroup: string;
@@ -20,7 +20,7 @@ if (groupData === undefined) {
 <ColorSwatches>
     <div class="grid grid-cols-4 gap-2 grow shrink-0">
         {groupData.data.map((colorData) => (
-            <FullWidthColorSwatch colorName={colorData.id}/>
+            <ColorSwatch colorName={colorData.id}/>
         ))}
     </div>
 </ColorSwatches>
