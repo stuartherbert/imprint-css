@@ -146,11 +146,26 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                     var target = event.target;
                     var copyText = target.dataset.clipboard;
 
-                    navigator.clipboard.writeText(copyText);
-                    // alert("Copied: " + copyText);
+                    if (navigator.clipboard?.writeText) {
+                        navigator.clipboard.writeText(copyText);
+                    }
+                    else {
+                        // Fallback for browsers that do not support the
+                        // Clipboard API
+                        const tempInput = document.createElement('input');
+                        tempInput.style.position = 'fixed';
+                        tempInput.style.left = '-9999px';
+                        tempInput.value = copyText;
+                        document.body.appendChild(tempInput);
+                        tempInput.select();
+                        tempInput.setSelectionRange(0, 99999);
+                        document.execCommand('copy');
+                        document.body.removeChild(tempInput);
+                    }
+
+                    // all done
                     showCopiedTooltip(event, copyText);
                 }
-
 
                 document.querySelectorAll("[data-clipboard]").forEach(
                     el => el.addEventListener("click", copyToClipboard)
