@@ -39,7 +39,6 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetyyellow": makeCssHexColorDefinition("#eed202"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "behr-caribbeancurrent": makeCssHexColorDefinition("#006d6f"),
-    "black": makeCssHexColorDefinition("#000"),
     "bsc-brunswickgreen": makeCssHexColorDefinition("#1e3e2e"),
     "calpolypomona-green": makeCssHexColorDefinition("#1e4d2b"),
     "castleton-green": makeCssHexColorDefinition("#00563b"),
