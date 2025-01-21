@@ -5,14 +5,19 @@ import ColorSwatch from "./ColorSwatch.astro";
 
 export interface Props {
     colorGroup: string;
+    prefix?: string;
 }
 
-const { colorGroup } = Astro.props;
+const { colorGroup, prefix } = Astro.props;
 
 // load the group
 const groupData = await getEntry("colorGroups", colorGroup);
 if (groupData === undefined) {
     throw new Error("unknown color group: " + colorGroup);
+}
+
+if (prefix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.startsWith(prefix + "-"));
 }
 
 ---
