@@ -219,6 +219,38 @@ nav.pagetoc-ol {
     @apply w-16 px-1 py-2 font-bold text-white border rounded-md bg-imprint-primary --standout-lg imprint-fontsize-brevier border-imprint-lightgray;
 }
 
+.docs-color-blocks {
+    @apply grid grid-cols-1 gap-2 b:grid-cols-2 e:grid-cols-3;
+}
+
+.docs-color-swatches, .docs-color-swatches-5 {
+    @apply grid grid-cols-2 gap-2 b:grid-cols-3 d:grid-cols-4 f:grid-cols-5;
+}
+
+.docs-color-palette-5 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5;
+}
+
+.docs-color-palette-7 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5 d:grid-cols-7;
+}
+
+.docs-color-palette-8 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5 d:grid-cols-7 e:grid-cols-8;
+}
+
+.docs-color-palette-9 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5 d:grid-cols-7 e:grid-cols-8 f:grid-cols-9;
+}
+
+.docs-color-palette-10 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5 d:grid-cols-7 e:grid-cols-8 f:grid-cols-10;
+}
+
+.docs-color-palette-11 {
+    @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-6 d:grid-cols-7 e:grid-cols-8 f:grid-cols-11;
+}
+
 /* workarounds for Astro / Tailwind issues */
 .dummy-grid-cols-3 {
     @apply grid-cols-3;

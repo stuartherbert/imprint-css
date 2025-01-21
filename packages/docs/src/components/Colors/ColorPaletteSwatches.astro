@@ -11,8 +11,6 @@ export interface Props {
 const { colorPalette, ...attributes } = Astro.props;
 const { defaultColor, regularPalette, alternatePalette } = await breakdownColorPalette(colorPalette);
 
-// we need help to display the grid
-attributes.class = "grid gap-2 row shrink-0 " + (attributes.class || "")
 ---
 
 {defaultColor && <FixedHeightColorSwatch colorName={defaultColor}/>}
@@ -23,7 +21,7 @@ attributes.class = "grid gap-2 row shrink-0 " + (attributes.class || "")
 </div>
 
 {alternatePalette.length > 0 &&
-<div class="grid grid-cols-10 gap-2 row shrink-0 !mt-0">
+<div {...attributes}>
     {alternatePalette.map(({colorName, shortName}) => (
         <ColorSwatch colorName={colorName} shortName={shortName}/>
     ))}
