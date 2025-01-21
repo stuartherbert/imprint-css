@@ -25,6 +25,7 @@ const headingColorName = headingColor ||
 ---
 
 <div {...attributes}>
+    <div class="--standout-md">
     {defaultColor && <ColorBlock colorName={defaultColor}/>}
     {!defaultColor && <ColorBlockHeading colorName={headingColorName} title={headingDisplayTitle}/>}
     {regularPalette.map(({colorName, shortName}) => (
@@ -33,4 +34,5 @@ const headingColorName = headingColor ||
     {alternatePalette.map(({colorName, shortName}) => (
         <ColorBlock colorName={colorName} shortName={shortName}/>
     ))}
+    </div>
 </div>
