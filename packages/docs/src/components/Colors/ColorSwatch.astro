@@ -21,26 +21,29 @@ const displayName = shortName || color.name;
 
 ---
 
-<div class="bg-white border rounded border-imprint-lightgray">
-    <div class="m-2 overflow-hidden rounded --standout-md">
+<div class="grid row-span-3 gap-0 px-2 py-2 bg-white border rounded border-imprint-lightgray grid-rows-subgrid">
+    <div class="overflow-hidden rounded --standout-md">
         <a href={"/colors/" + colorName}>
             <div class="w-full aspect-[5/4]" style={swatchStyle}>
                 <p>&nbsp;</p>
             </div>
         </a>
     </div>
-    <div class="px-2 pb-2">
-        <span class="block">
+    <div>
+        <span class="block pt-2">
             <a href="" title="copy to clipboard" class="relative font-bold text-overflow-anywhere" data-clipboard={color.name}>{displayName}</a>
         </span>
         { shortName && <span class="block imprint-fontsize-minion">
-                <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
-            </span>
-            <span class="block pt-2 imprint-fontsize-minion">
+            <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
+        </span>
+        }
+    </div>
+    <div class="pb-1">
+        { shortName && <span class="block pt-2 imprint-fontsize-minion">
                 <a href={"/colors/" + color.name}>Info</a>
             </span>
         }
-        { !shortName && <div class="flex justify-between pt-1 pb-2 grow basis-1/2">
+        { !shortName && <div class="flex justify-between pt-1 grow basis-1/2">
                 <span class="block imprint-fontsize-minion">
                     <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
                 </span>

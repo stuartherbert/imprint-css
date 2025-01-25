@@ -20,13 +20,13 @@ const swatchStyle = "background-color: " + color.hex + " !important; color: " + 
 
 <div class="overflow-hidden bg-white border rounded border-imprint-lightgray">
     <div class="m-2 overflow-hidden rounded --standout-md">
-    <a href={"/colors/" + colorName}>
-    <div class="w-full h-100rpx" style={swatchStyle}>
-        <p>&nbsp;</p>
+        <a href={"/colors/" + colorName}>
+            <div class="w-full h-100rpx" style={swatchStyle}>
+                <p>&nbsp;</p>
+            </div>
+        </a>
     </div>
-    </a>
-    </div>
-    <div class="px-2 pb-4">
+    <div class="px-2 pb-4 grid-rows-subgrid">
         <span class="block">
             <a href="" title="copy to clipboard" class="relative font-bold text-overflow-anywhere" data-clipboard={color.name}>{color.name}</a>
         </span>
