@@ -94,6 +94,7 @@ import "./styles/typography/pre";
 import "./styles/typography/tables";
 // require("./typography/main");
 import "./utilities/imprint-article";
+import "./utilities/text-overflow";
 
 // ----------------------------------------------------------------
 //

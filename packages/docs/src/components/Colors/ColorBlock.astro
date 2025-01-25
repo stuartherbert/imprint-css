@@ -26,7 +26,7 @@ const displayName = shortName || color.name;
     <button class="w-full px-4 py-4" style={swatchStyle}>
         <div class="flex justify-between grow-1">
             <span class="block text-left">
-                <a href="" title="copy to clipboard" class="relative font-bold" data-clipboard={color.name}>{displayName}</a>
+                <a href="" title="copy to clipboard" class="relative font-bold text-overflow-anywhere" data-clipboard={color.name}>{displayName}</a>
             </span>
             <span class="block font-bold">
                 <a href="" title="copy to clipboard" class="relative" data-clipboard={color.hex.toUpperCase()}>{color.hex.toUpperCase()}
