@@ -1,5 +1,6 @@
 {
   "name": "material-teal-900",
+  "jsName": "MATERIAL_TEAL_900",
   "title": "material-teal-900",
   "navSection": "Colors",
   "collection": "colors",
@@ -27,7 +28,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": true,
-      "AAA_large": true
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
     },
     "recommendedForHeadings": true,
     "passableForHeadings": true,
@@ -44,7 +48,10 @@
       "AA_large": false,
       "AA_ui": false,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

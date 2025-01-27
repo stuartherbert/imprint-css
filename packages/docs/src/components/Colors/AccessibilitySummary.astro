@@ -1,0 +1,208 @@
+---
+
+import Callout from "../Callouts/Callout.astro";
+import { titleCase } from "../../helpers/titleCase";
+
+export interface Props {
+    colorName: string;
+    lightOrDark: "light" | "dark";
+    accessibilityDetails: {
+        clearContrast: boolean;
+        contrastRatio: number;
+        wcagContrast: {
+            A_normal: boolean;
+            AA_normal: boolean;
+            AA_large: boolean;
+            AA_ui: boolean;
+            AAA_normal: boolean;
+            AAA_large: boolean;
+        };
+        recommendedForHeadings: boolean;
+        passableForHeadings: boolean;
+        recommendedForBodyContent: boolean;
+        passableForBodyContent: boolean;
+        passableForUi: boolean;
+    }
+}
+
+const { colorName, lightOrDark, accessibilityDetails} = Astro.props;
+
+// to simplfy the code below, we need to convert the accessibility data into
+// a single value
+let accessibilityCode = "";
+if (accessibilityDetails.recommendedForHeadings) {
+    accessibilityCode += "H1";
+}
+else if (accessibilityDetails.passableForHeadings) {
+    accessibilityCode += "H2";
+}
+else if (accessibilityDetails.wcagContrast.AAA_large) {
+    accessibilityCode += "h1";
+}
+else if (accessibilityDetails.wcagContrast.AA_large) {
+    accessibilityCode += "h2";
+}
+if (accessibilityDetails.recommendedForBodyContent) {
+    accessibilityCode += "B1";
+}
+else if (accessibilityDetails.passableForBodyContent) {
+    accessibilityCode += "B2";
+}
+else if (accessibilityDetails.wcagContrast.AAA_normal) {
+    accessibilityCode += "b1";
+}
+else if (accessibilityDetails.wcagContrast.AA_normal) {
+    accessibilityCode += "b2";
+}
+if (accessibilityCode === "") {
+    accessibilityCode = "ZZ";
+}
+
+const midtoneWarning = `We recommend avoiding it for text, because it looks too close to ${lightOrDark} colors. At best, your content will be tiring to read. At worst, it'll be very difficult for partially-sighted people to read your content`
+console.log(accessibilityCode);
+
+---
+
+{ accessibilityCode == "H1B1" && (
+    <Callout icon="success">
+        <h4>This Color Is Accessible When Paired With A {titleCase(lightOrDark)} Color!</h4>
+
+        <p>Great! <code>{colorName}</code> meets the WCAG AAA standard for both headings and body text.</p>
+
+        <p>You can safely use it for both headings and content.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "H2B1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Fairly Accessible For Headings, And Very Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for body text. You can safely use it for content.</p>
+
+        <p>We don't recommend it for headings, as it only meets the WGAC AA standard.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "H1B2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Very Accessible For Headings, And Fairly Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for headings. You can safely use this color for headings.</p>
+
+        <p>It only meets the WCAG AA standard for body text. While you can use it for body text, other colors will be better for partially-sighted readers.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "H2B2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Fairly Accessible For Headings And Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AA standard for headings and for body text.</p>
+
+        <p>While you can use this color, other colors will be better for partially-sighted readers.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h1b1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> does meet the WCAG AAA standard for headings and body text.</p>
+
+        <p>However, it is a midtone color. {midtoneWarning}</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h2b1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for body text. However, it is a midtone color. {midtoneWarning}</p>
+        <p>We don't recommend it for headings, as it only meets WCAG AA standard.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h1b2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for headings, and the WCAG AA standard for body text.</p>
+
+        <p>However, it is a midtone color. {midtoneWarning}</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h2b2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Headings And Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for headings and for body text.</p>
+
+        <p>However, it is a midtone color. {midtoneWarning}</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "H1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for heading text. You can safely use this color for your headings.</p>
+        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "H2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> only meets the WCAG AA standard for heading text. While you can use this color for your headings, other colors will provide a better reading experience for people who are partially-sighted.</p>
+        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for heading text. Unfortunately, it is a midtone color. {midtoneWarning}</p>
+
+        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "h2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> only meets the WCAG AA standard for heading text. It is also a midtone color. {midtoneWarning}</p>
+        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+    </Callout>
+)}
+
+<!-- { accessibilityCode === "b1" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> meets the WCAG AAA standard for body text. Unfortunately, it is a midtone color. {midtoneWarning}</p>
+        <p>It does not meet the WCAG AA standard for headings. Do not use it for headings.</p>
+    </Callout>
+)}
+
+{ accessibilityCode === "b2" && (
+    <Callout icon="warning">
+        <h4>This Color Is Somewhat Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
+
+        <p><code>{colorName}</code> only meets the WCAG AA standard for body text. Also, it is a midtone color. {midtoneWarning}</p>
+        <p>It does not meet the WCAG AA standard for headings. Do not use it for headings.</p>
+    </Callout>
+)} -->
+
+{ accessibilityCode === "ZZ" && (
+    <Callout icon="danger">
+        <h4>This Color Is Not Accessible At All When Paired With A {titleCase(lightOrDark)} Color</h4>
+
+        <p><code>{colorName}</code> does not meet the WCAG AA standard for any kind of text.</p>
+
+        <p>Only use this color for non-content elements (like borders, underlines, and the like).</p>
+    </Callout>
+)}

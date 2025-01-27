@@ -1,5 +1,6 @@
 {
   "name": "msdl-eggplant-5",
+  "jsName": "MSDL_EGGPLANT_5",
   "title": "msdl-eggplant-5",
   "navSection": "Colors",
   "collection": "colors",
@@ -28,7 +29,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": true,
@@ -45,7 +49,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

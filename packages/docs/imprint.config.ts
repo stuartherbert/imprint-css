@@ -45,6 +45,7 @@ export default {
         "Astro": "https://astro.build",
         "BBC GEL Spacing Units": "https://www.bbc.co.uk/gel/features/spacing-units",
         "BBC GEL Typography": "https://www.bbc.co.uk/gel/features/typography",
+        "Brian Suda YIQ Algorithm": "https://24ways.org/2010/calculating-color-contrast/",
         "Creative Commons Attribution-ShareAlike 4.0 International Public License": "https://creativecommons.org/licenses/by-sa/4.0/",
         "Google Fonts": "https://fonts.google.com",
         "Mozilla MDN": "https://developer.mozilla.org/",
@@ -66,6 +67,10 @@ export default {
         "Tailwind CSS Responsive Design": "https://tailwindcss.com/docs/responsive-design",
         "Tailwind CSS Screens": "https://tailwindcss.com/docs/screens",
         "Tailwind CSS Utility-First": "https://tailwindcss.com/docs/utility-first",
-        "W3C CSS Media Queries": "https://drafts.csswg.org/mediaqueries/#hover",
+        "W3C CSS Media Queries": "https://drafts.csswg.org/mediaqueries",
+        "W3C Content Accessibility Guide": "https://www.w3.org/TR/WCAG22/",
+        "W3C WCAG 2.2 Contrast Success Criterion": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+        "W3C WCAG 2.2 Relative Luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance",
+        "YIQ Color Space": "https://en.wikipedia.org/wiki/YIQ",
     }
 }

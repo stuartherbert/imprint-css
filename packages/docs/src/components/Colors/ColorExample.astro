@@ -1,0 +1,28 @@
+---
+import { getEntry } from "astro:content";
+
+
+export interface Props {
+    colorName: string;
+    background: string;
+}
+const { colorName, background } = Astro.props;
+
+const fgColor = await getEntry("colors", colorName );
+if (fgColor === undefined) {
+    throw new Error("no such color: " + colorName);
+}
+const bgColor = await getEntry("colors", background );
+if (bgColor === undefined) {
+    throw new Error("no such color: " + background);
+}
+
+// shorthand
+const swatchStyle = "background-color: " + bgColor.data.hex + " !important; color: " + fgColor.data.hex + " !important;";
+
+---
+
+<div class="p-4 border boder-imprint-lightgray --standout" style={swatchStyle}>
+    <h4>An Example Heading</h4>
+    <p class="mt-4">Occaecat velit mollit voluptate sunt laboris dolore ex commodo elit veniam minim eu ad ullamco. Deserunt ullamco pariatur dolore cillum nulla sint non ex aute qui reprehenderit amet do ad. Elit excepteur cupidatat et proident. Non aute officia eiusmod mollit reprehenderit magna exercitation velit sunt. Id eu velit magna ullamco voluptate cillum enim consectetur sunt laborum ipsum Lorem dolore dolor.</p>
+</div>

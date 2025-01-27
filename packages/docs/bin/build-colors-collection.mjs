@@ -35,7 +35,7 @@
 //
 
 import * as fs from 'node:fs';
-import { DEFAULT_FG, DEFAULT_BG, analyseColor, paletteToDefinitions } from "@imprintcss/color-collections";
+import { DEFAULT_FG, DEFAULT_BG, analyseColor, paletteToDefinitions, toExportName } from "@imprintcss/color-collections";
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
 import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssColor, relativeLuminance, tonality, wcagContrast } from "@safelytyped/css-color";
@@ -78,6 +78,7 @@ function processColor(colorGroupName, colorName, colorDefinition)
     // analyse the color
     const colorAnalysis = {
         name: colorName,
+        jsName: toExportName(colorName),
         // frontmatter
         title: colorName,
         navSection: "Colors",

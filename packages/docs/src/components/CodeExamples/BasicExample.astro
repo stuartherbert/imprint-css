@@ -4,7 +4,7 @@ interface Props {
     [name: string]: string;
 }
 
-const { heading, ...attributes } = Astro.props;
+const { ...attributes } = Astro.props;
 attributes.class = "imprint-callout --imprint-primary --standout " + attributes.class;
 
 ---

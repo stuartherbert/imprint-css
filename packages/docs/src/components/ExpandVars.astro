@@ -1,0 +1,15 @@
+---
+interface Props {
+    [name:string]: string
+}
+
+const { ...vars } = Astro.props;
+
+let html = await Astro.slots.render('default');
+for (const key of Object.keys(vars)) {
+    html = html.replaceAll(`${key}`, vars[key]);
+}
+
+---
+
+<Fragment set:html={html} />

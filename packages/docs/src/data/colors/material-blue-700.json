@@ -1,5 +1,6 @@
 {
   "name": "material-blue-700",
+  "jsName": "MATERIAL_BLUE_700",
   "title": "material-blue-700",
   "navSection": "Colors",
   "collection": "colors",
@@ -27,7 +28,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": true,
@@ -44,7 +48,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

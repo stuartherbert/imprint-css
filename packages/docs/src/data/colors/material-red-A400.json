@@ -1,5 +1,6 @@
 {
   "name": "material-red-a400",
+  "jsName": "MATERIAL_RED_A400",
   "title": "material-red-a400",
   "navSection": "Colors",
   "collection": "colors",
@@ -26,7 +27,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": true,
@@ -43,7 +47,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

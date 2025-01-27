@@ -8,6 +8,9 @@ const wcagContrastSchema = z.object({
     AA_ui: z.boolean(),
     AAA_normal: z.boolean(),
     AAA_large: z.boolean(),
+    large: z.enum(["AAA", "AA", "not accessible"]),
+    normal: z.enum(["AAA", "AA", "A", "not accessible"]),
+    ui: z.enum(["AA", "not accessible"]),
 });
 
 const pairedWithColorSchema = z.object({
@@ -67,6 +70,7 @@ export const colorsSchema = renderableSchema.extend({
 
     // the color analysis data
     name: z.string(),
+    jsName: z.string(),
     definition: z.string().startsWith('#'),
     hex: z.string().startsWith('#'),
     general: generalSchema,

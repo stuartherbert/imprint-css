@@ -40,7 +40,7 @@
             "name": "Start Block",
             "scope": "punctuation.definition.block",
             "settings": {
-                "foreground": "#e6e0db"
+                "foreground": "#222"
             }
         },
         {
@@ -251,7 +251,7 @@
 			"name": "JSON String",
 			"scope": "meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
-				"foreground": "#CFCFC2"
+				"foreground": "#2e67ab"
 			}
 		},
 		{

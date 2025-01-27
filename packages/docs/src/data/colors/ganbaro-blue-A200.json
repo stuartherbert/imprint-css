@@ -1,5 +1,6 @@
 {
   "name": "ganbaro-blue-a200",
+  "jsName": "GANBARO_BLUE_A200",
   "title": "ganbaro-blue-a200",
   "navSection": "Colors",
   "collection": "colors",
@@ -27,7 +28,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": true,
@@ -44,7 +48,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": true
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

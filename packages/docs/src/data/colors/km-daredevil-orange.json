@@ -1,0 +1,65 @@
+{
+  "name": "km-daredevil-orange",
+  "jsName": "KM_DAREDEVIL_ORANGE",
+  "title": "km-daredevil-orange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'km-daredevil-orange'.",
+  "definition": "#e56220",
+  "hex": "#e56220",
+  "general": {
+    "hues": [
+      "red"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 129.645,
+    "relativeLuminance": 0.254
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

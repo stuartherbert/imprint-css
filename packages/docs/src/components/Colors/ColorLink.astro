@@ -1,0 +1,21 @@
+---
+
+import { getEntry } from "astro:content";
+
+export interface Props {
+    colorName: string;
+    text?: string;
+}
+
+const { colorName, text } = Astro.props;
+
+const entry = await getEntry("colors", colorName);
+if (entry === undefined) {
+    throw new Error("no such named color '" + colorName + "'");
+}
+
+const displayText = text || entry.data.name;
+
+---
+
+<span class="inline internal-link"><a class="imprint-link" href={"/colors/" + entry.id}><code class="doc-title">{displayText}</code> (<code>{entry.data.definition}</code>)</a></span></s>

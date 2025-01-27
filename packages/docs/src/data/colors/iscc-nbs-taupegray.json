@@ -1,5 +1,6 @@
 {
   "name": "iscc-nbs-taupegray",
+  "jsName": "ISCC_NBS_TAUPEGRAY",
   "title": "iscc-nbs-taupegray",
   "navSection": "Colors",
   "collection": "colors",
@@ -29,7 +30,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,
@@ -46,7 +50,10 @@
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": false
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

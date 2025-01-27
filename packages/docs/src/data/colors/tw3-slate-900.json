@@ -1,0 +1,66 @@
+{
+  "name": "tw3-slate-900",
+  "jsName": "TW3_SLATE_900",
+  "title": "tw3-slate-900",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tw3-slate-900'.",
+  "definition": "#0f172a",
+  "hex": "#0f172a",
+  "general": {
+    "hues": [
+      "black",
+      "azure"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 22.774,
+    "relativeLuminance": 0.008
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 16.5,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.1,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

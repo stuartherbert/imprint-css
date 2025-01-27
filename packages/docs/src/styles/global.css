@@ -282,3 +282,6 @@ nav.pagetoc-ol {
 .dummy-grid-cols-12 {
     @apply grid-cols-12;
 }
+.dummy-inline {
+    @apply inline;
+}

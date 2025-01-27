@@ -1,0 +1,228 @@
+---
+colorName: placeholder
+---
+
+export let colorDetails = {}
+
+import BasicExample from "../components/CodeExamples/BasicExample.astro"
+import Callout from "../components/Callouts/Callout.astro"
+import ColorSwatchShowcase from "../components/Colors/ColorSwatchShowcase.astro";
+import ColorLink from "../components/Colors/ColorLink.astro";
+import ColorExample from "../components/Colors/ColorExample.astro";
+
+import ExpandVars from "../components/ExpandVars.astro"
+import ExternalLink from "../components/ExternalLink.astro";
+import AccessibilitySummary from "../components/Colors/AccessibilitySummary.astro";
+import AccessibilityTable from "../components/Colors/AccessibilityTable.astro";
+
+import { Code } from 'astro:components';
+import PhixLight from "../../phix-light.json";
+
+<Callout icon="info">
+    This page is auto-generated from the CSS definition of <code>{colorDetails.data.name}</code>.
+
+    If you're curious to learn more, the data comes from the <code>analyseColor()</code> function in <code>@imprint-css/color-collections</code>.
+</Callout>
+
+## At A Glance
+
+Here is a summary of the named color <code>{colorDetails.data.name}</code>.
+
+<ColorSwatchShowcase colorName={colorDetails.data.name}/>
+
+<table>
+    <tr>
+        <th>Tailwind CSS Name</th>
+        <td><code>{colorDetails.data.name}</code></td>
+    </tr>
+    <tr>
+        <th>Javascript `const` Name</th>
+        <td><code>{colorDetails.data.jsName}</code></td>
+    </tr>
+    <tr>
+        <th>CSS Definition</th>
+        <td><code>{colorDetails.data.definition}</code></td>
+    </tr>
+    <tr>
+        <th>Hex Value</th>
+        <td><code>{colorDetails.data.hex.toUpperCase()}</code></td>
+    </tr>
+    <tr>
+        <th>WCAG Relative Luminance (0-1)[^1]</th>
+        <td>{colorDetails.data.general.relativeLuminance}</td>
+    </tr>
+    <tr>
+        <th>YIQ Luminosity (0-255)[^2]</th>
+        <td>{colorDetails.data.general.luma}</td>
+    </tr>
+    <tr>
+        <th>Tonality (dark | midtone | light)[^3]</th>
+        <td>{colorDetails.data.general.tonality}</td>
+    </tr>
+    <tr>
+        <th>Good choice for heading text color?[^4]</th>
+        <td>{colorDetails.data.pairedWithLightColor.recommendedForHeadings ? "yes" : "no"}</td>
+    </tr>
+    <tr>
+        <th>Good choice for body content text color?[^5]</th>
+        <td>{colorDetails.data.pairedWithLightColor.recommendedForBodyContent ? "yes" : "no"}</td>
+    </tr>
+    <tr>
+        <th>Good choice for page background color?[^6]</th>
+        <td>{colorDetails.data.pairedWithDarkColor.recommendedForBodyContent ? "yes " : "no"}</td>
+    </tr>
+</table>
+
+## How To Use
+
+### In Tailwind CSS
+
+This color is available as a Tailwind CSS theme color. You can use it with any Tailwind CSS class that accepts a color suffix:
+
+<BasicExample>
+    <ExpandVars $colorName={colorDetails.data.name}>
+        ```html
+        <div class="bg-$colorName">...</div>
+        <p class="text-$colorName">...</p>
+        ```
+    </ExpandVars>
+</BasicExample>
+
+Just remember to [install the Imprint CSS plugin](/getting-started) first!
+
+### In Javascript Projects
+
+<Callout icon="info">
+    All of our exported constants follow the UPPER_CASE_SNAKE_CASE naming convention.
+
+    <code>{colorDetails.data.name}</code> in Tailwind CSS becomes <code>{colorDetails.data.jsName}</code> in Javascript and Typescript.
+</Callout>
+
+#### Import Directly Into Your Project
+
+Do you want to use this color, but you're not using Tailwind CSS? You can import it directly from our `@imprintcss/color-collections` Javascript package:
+
+<BasicExample>
+    <ExpandVars $colorName={colorDetails.data.jsName} $colorValue={colorDetails.data.definition}>
+        ```js
+        // $colorName will have the value `$colorValue`
+        import { $colorName } from "@imprintcss/color-collections";
+        ```
+    </ExpandVars>
+</BasicExample>
+
+#### Typescript Types
+
+If you need to pass colors around as input parameters or return values in Typescript projects, use the type `CssColorDefinition`:
+
+<BasicExample>
+    ```typescript
+    import type { `CssColorDefinition` } from "@imprintcss/color-collections";
+
+    function processColor(input: CssColorDefinition) {
+        // ... do something here
+    }
+    ```
+</BasicExample>
+
+#### Manipulating The Color
+
+`CssColorDefinition` is guaranteed to always be a string (and valid CSS definition) at runtime. It is __not__ guaranteed to always be a hex definition.
+
+If you wish to manipulate / transform this color, use the `@safelytyped/css-colors` package:
+
+<BasicExample>
+    <ExpandVars $colorName={colorDetails.data.jsName} colorValue={colorDetails.data.definition}>
+        ```js
+        import { $colorName } from "@imprintcss/color-collections";
+        import { makeCssColor } from "@safelytyped/css-colors";
+
+        const colorObj = makeCssColor($colorName);
+        console.log(colorObj.hex());
+
+        // convert to HSL to get saturation value
+        const hslColor = colorObj.hsl();
+        console.log(hslColor.saturation());
+        ```
+    </ExpandVars>
+</BasicExample>
+
+## Accessibility
+
+A color's accessibility depends on whether you're using it with a light or dark background. It all depends on the contrast ratio between the two colors that you're using.
+
+That's why you'll find _two_ different analyses below:
+
+- pairing <code>{colorDetails.data.name}</code> with a light color (we've used <ColorLink colorName="imprint-bg-default"/>, the background color of this page); and
+- pairing <code>{colorDetails.data.name}</code> with a dark color (we've used <ColorLink colorName="imprint-fg-default"/>, the body text color of this page).
+
+Some colors are midtones. These are never accessible for partially-sighted people, even the ones that technically meet the WCAG AAA success standard.
+
+### When Paired With A Light Color
+
+<AccessibilitySummary colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
+
+#### Detailed Analysis
+
+Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a light color (<ColorLink colorName="imprint-bg-default"/>).
+
+<AccessibilityTable colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
+
+#### See For Yourself
+
+Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-bg-default"/> as the background.
+
+<ColorExample colorName={colorDetails.id} background="imprint-bg-default"/>
+
+Here's a visual example of using <ColorLink colorName="imprint-bg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
+
+<ColorExample background={colorDetails.id} colorName="imprint-bg-default"/>
+
+### When Paired With a Dark Color
+
+#### Detailed Analysis
+
+Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a dark color (<ColorLink colorName="imprint-fg-default"/>).
+
+<AccessibilitySummary colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
+
+<AccessibilityTable colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
+
+#### See For Yourself
+
+Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-fg-default"/> as the background.
+
+<ColorExample colorName={colorDetails.id} background="imprint-fg-default"/>
+
+Here's a visual example of using <ColorLink colorName="imprint-fg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
+
+<ColorExample background={colorDetails.id} colorName="imprint-fg-default"/>
+
+### Further Reading
+
+Need to learn how color can affect whether people can use your web-based app / read your content or not?
+
+* [Everything About Color Contrast And Why You Should Rethink It](https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/), by Cathy O'Connor
+
+Let me know of any other articles that I should recommend, please!
+
+## Raw Data
+
+Here's the raw data that this page was built from.
+
+<BasicExample>
+    <Code code={JSON.stringify(colorDetails.data, null, "    ")} lang="json" theme={PhixLight}/>
+</BasicExample>
+
+[^1]: The sRGB relative luminosity is calculated using the <ExternalLink name="W3C WCAG 2.2 Relative Luminance" text="WCAG 2.2 formula"/>. This uses the revised formula published in May 2021.
+[^2]: To determine color luminosity, we calculate the color's luma value from the <ExternalLink name="YIQ Color Space" text="YIQ color space"/>, using <ExternalLink name="Brian Suda YIQ Algorithm" text="a formula originally by Brian Suda"/>.
+[^3]: We consider "dark" colors to be any color with a YIQ luminosity of 0-127; "midtone" colors are any color with a YIQ luminosity of 128-190; and "light" colors are any color with a YIQ luminosity of 191-255.
+[^4]: We consider a color to be a good choice for headings if:
+    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/> for large text (contrast ratio of at least 4.5:1); **and**
+    2. the color is not a midtone
+[^5]: We consider a color to be a good choice for body content text if:
+    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
+    2. the color is not a midtone
+[^6]: We consider a color to be a good choice for a page's background color if:
+    1. the color meet the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
+    2. the color is a light color (dark themes are not accessible to people with limited vision)

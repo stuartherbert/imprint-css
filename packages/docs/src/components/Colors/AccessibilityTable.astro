@@ -1,0 +1,69 @@
+---
+
+export interface Props {
+    colorName: string;
+    lightOrDark: "light" | "dark";
+    accessibilityDetails: {
+        clearContrast: boolean;
+        contrastRatio: number;
+        wcagContrast: {
+            A_normal: boolean;
+            AA_normal: boolean;
+            AA_large: boolean;
+            AA_ui: boolean;
+            AAA_normal: boolean;
+            AAA_large: boolean;
+            large: string;
+            normal: string;
+            ui: string;
+        };
+        recommendedForHeadings: boolean;
+        passableForHeadings: boolean;
+        recommendedForBodyContent: boolean;
+        passableForBodyContent: boolean;
+        passableForUi: boolean;
+    }
+}
+
+const { colorName, lightOrDark, accessibilityDetails} = Astro.props;
+
+---
+
+<table>
+    <tr>
+        <th>Has clear contrast with {lightOrDark} colors?</th>
+        <td>{accessibilityDetails.clearContrast ? "yes" : "no"}</td>
+    </tr>
+    <tr>
+        <th>Contrast ratio</th>
+        <td>{accessibilityDetails.contrastRatio}</td>
+    </tr>
+    <tr>
+        <th>WCAG 2.2 rating for headings</th>
+        <td>{accessibilityDetails.wcagContrast.large}</td>
+    </tr>
+    <tr>
+        <th>WCAG 2.2 rating for body text</th>
+        <td>{accessibilityDetails.wcagContrast.normal}</td>
+    </tr>
+    <tr>
+        <th>WCAG 2.2 rating for UI elements</th>
+        <td>{accessibilityDetails.wcagContrast.ui}</td>
+    </tr>
+    <!-- <tr>
+        <th>Great for headings?</th>
+        <td>{accessibilityDetails.recommendedForHeadings ? "yes" : "no" }</td>
+    </tr>
+    <tr>
+        <th>Great for body text?</th>
+        <td>{accessibilityDetails.recommendedForBodyContent ? "yes" : "no" }</td>
+    </tr>
+    <tr>
+        <th>Passable for headings?</th>
+        <td>{accessibilityDetails.passableForHeadings ? "yes" : "no" }</td>
+    </tr>
+    <tr>
+        <th>Passable for headings?</th>
+        <td>{accessibilityDetails.passableForHeadings ? "yes" : "no" }</td>
+    </tr> -->
+</table>
