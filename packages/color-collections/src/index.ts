@@ -51,6 +51,7 @@ export { DEFAULT_FG } from "./defaults/DEFAULT_FG";
 
 export { ALL_COLOR_COLLECTIONS } from "./defaults/ALL_COLOR_COLLECTIONS";
 export { ALL_COLORS } from "./defaults/ALL_COLORS";
+export * from "./colors/exports";
 
 export { analyseColor } from "./inspectors/analyseColor";
 export { colorFromCollection } from "./inspectors/colorFromCollection";
@@ -58,6 +59,7 @@ export { hasDefaultColor } from "./inspectors/hasDefaultColor";
 
 export { collectionToDefinitions } from "./transforms/collectionToDefinitions";
 export { paletteToDefinitions } from "./transforms/paletteToDefinitions";
+export { toExportName } from "./transforms/toExportName";
 
 export type { ColorAnalysis } from "./types/ColorAnalysis/ColorAnalysis.type";
 

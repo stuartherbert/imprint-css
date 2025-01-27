@@ -16,7 +16,8 @@
         "prepack": "npm run build && npm run lint && rimraf lib/**/_*",
         "test": "npm run build && mocha",
         "cover": "npm run clean && c8 --cache=false npm run test",
-        "clean": "rimraf coverage lib"
+        "clean": "rimraf coverage lib",
+        "update-color-exports": "node lib/cjs/bin/update-color-exports.js"
     },
     "contributors": [
         "Stuart Herbert <stuherbert@ganbarodigital.com> (https://ganbarodigital.com)"
@@ -35,7 +36,7 @@
     "author": "Stuart Herbert",
     "license": "BSD-3-Clause",
     "dependencies": {
-        "@safelytyped/css-color": "^1.2.2",
+        "@safelytyped/css-color": "^1.3.0",
         "@safelytyped/core-types": "^0.5.1",
         "@safelytyped/math-rounding": "^1.0.1"
     },
