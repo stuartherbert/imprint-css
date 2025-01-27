@@ -43,7 +43,7 @@ import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
 import { MSDL_COLORS } from "../colors/msdl";
 import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND_COLORS } from "../colors/tailwind";
+import { TAILWIND3_COLORS } from "../colors/tailwind3";
 import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
@@ -59,7 +59,7 @@ export const ALL_COLORS: CssColorDefinitions = {
     ...MISC_COLORS,
     ...collectionToDefinitions(MSDL_COLORS),
     ...SOCIAL_COLORS,
-    ...collectionToDefinitions(TAILWIND_COLORS)
+    ...collectionToDefinitions(TAILWIND3_COLORS)
 };
 
 // console.log(ALL_COLORS);

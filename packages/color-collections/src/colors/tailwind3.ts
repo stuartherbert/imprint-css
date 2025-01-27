@@ -34,8 +34,8 @@
 
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 
-export const TAILWIND_COLORS = {
-    "tw-slate": {
+export const TAILWIND3_COLORS = {
+    "tw3-slate": {
         "50": makeCssHexColorDefinition("#f8fafc"),
         "100": makeCssHexColorDefinition("#f1f5f9"),
         "200": makeCssHexColorDefinition("#e2e8f0"),
@@ -48,7 +48,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#0f172a"),
         "950": makeCssHexColorDefinition("#020617"),
     },
-    "tw-gray": {
+    "tw3-gray": {
         "50": makeCssHexColorDefinition("#f9fafb"),
         "100": makeCssHexColorDefinition("#f3f4f6"),
         "200": makeCssHexColorDefinition("#e5e7eb"),
@@ -61,7 +61,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#111827"),
         "950": makeCssHexColorDefinition("#030712"),
     },
-    "tw-zinc": {
+    "tw3-zinc": {
         "50": makeCssHexColorDefinition("#fafafa"),
         "100": makeCssHexColorDefinition("#f4f4f5"),
         "200": makeCssHexColorDefinition("#e4e4e7"),
@@ -74,7 +74,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#18181b"),
         "950": makeCssHexColorDefinition("#09090b"),
     },
-    "tw-neutral": {
+    "tw3-neutral": {
         "50": makeCssHexColorDefinition("#fafafa"),
         "100": makeCssHexColorDefinition("#f5f5f5"),
         "200": makeCssHexColorDefinition("#e5e5e5"),
@@ -87,7 +87,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#171717"),
         "950": makeCssHexColorDefinition("#0a0a0a"),
     },
-    "tw-stone": {
+    "tw3-stone": {
         "50": makeCssHexColorDefinition("#fafaf9"),
         "100": makeCssHexColorDefinition("#f5f5f4"),
         "200": makeCssHexColorDefinition("#e7e5e4"),
@@ -100,7 +100,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#1c1917"),
         "950": makeCssHexColorDefinition("#0c0a09"),
     },
-    "tw-red": {
+    "tw3-red": {
         "50": makeCssHexColorDefinition("#fef2f2"),
         "100": makeCssHexColorDefinition("#fee2e2"),
         "200": makeCssHexColorDefinition("#fecaca"),
@@ -113,7 +113,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#7f1d1d"),
         "950": makeCssHexColorDefinition("#450a0a"),
     },
-    "tw-orange": {
+    "tw3-orange": {
         "50": makeCssHexColorDefinition("#fff7ed"),
         "100": makeCssHexColorDefinition("#ffedd5"),
         "200": makeCssHexColorDefinition("#fed7aa"),
@@ -126,7 +126,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#7c2d12"),
         "950": makeCssHexColorDefinition("#431407"),
     },
-    "tw-amber": {
+    "tw3-amber": {
         "50": makeCssHexColorDefinition("#fffbeb"),
         "100": makeCssHexColorDefinition("#fef3c7"),
         "200": makeCssHexColorDefinition("#fde68a"),
@@ -139,7 +139,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#78350f"),
         "950": makeCssHexColorDefinition("#451a03"),
     },
-    "tw-yellow": {
+    "tw3-yellow": {
         "50": makeCssHexColorDefinition("#fefce8"),
         "100": makeCssHexColorDefinition("#fef9c3"),
         "200": makeCssHexColorDefinition("#fef08a"),
@@ -152,7 +152,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#713f12"),
         "950": makeCssHexColorDefinition("#422006"),
     },
-    "tw-lime": {
+    "tw3-lime": {
         "50": makeCssHexColorDefinition("#f7fee7"),
         "100": makeCssHexColorDefinition("#ecfccb"),
         "200": makeCssHexColorDefinition("#d9f99d"),
@@ -165,7 +165,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#365314"),
         "950": makeCssHexColorDefinition("#1a2e05"),
     },
-    "tw-green": {
+    "tw3-green": {
         "50": makeCssHexColorDefinition("#f0fdf4"),
         "100": makeCssHexColorDefinition("#dcfce7"),
         "200": makeCssHexColorDefinition("#bbf7d0"),
@@ -178,7 +178,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#14532d"),
         "950": makeCssHexColorDefinition("#052e16"),
     },
-    "tw-emerald": {
+    "tw3-emerald": {
         "50": makeCssHexColorDefinition("#ecfdf5"),
         "100": makeCssHexColorDefinition("#d1fae5"),
         "200": makeCssHexColorDefinition("#a7f3d0"),
@@ -191,7 +191,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#064e3b"),
         "950": makeCssHexColorDefinition("#022c22"),
     },
-    "tw-teal": {
+    "tw3-teal": {
         "50": makeCssHexColorDefinition("#f0fdfa"),
         "100": makeCssHexColorDefinition("#ccfbf1"),
         "200": makeCssHexColorDefinition("#99f6e4"),
@@ -204,7 +204,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#134e4a"),
         "950": makeCssHexColorDefinition("#042f2e"),
     },
-    "tw-cyan": {
+    "tw3-cyan": {
         "50": makeCssHexColorDefinition("#ecfeff"),
         "100": makeCssHexColorDefinition("#cffafe"),
         "200": makeCssHexColorDefinition("#a5f3fc"),
@@ -217,7 +217,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#164e63"),
         "950": makeCssHexColorDefinition("#083344"),
     },
-    "tw-sky": {
+    "tw3-sky": {
         "50": makeCssHexColorDefinition("#f0f9ff"),
         "100": makeCssHexColorDefinition("#e0f2fe"),
         "200": makeCssHexColorDefinition("#bae6fd"),
@@ -230,7 +230,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#0c4a6e"),
         "950": makeCssHexColorDefinition("#082f49"),
     },
-    "tw-blue": {
+    "tw3-blue": {
         "50": makeCssHexColorDefinition("#eff6ff"),
         "100": makeCssHexColorDefinition("#dbeafe"),
         "200": makeCssHexColorDefinition("#bfdbfe"),
@@ -243,7 +243,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#1e3a8a"),
         "950": makeCssHexColorDefinition("#172554"),
     },
-    "tw-indigo": {
+    "tw3-indigo": {
         "50": makeCssHexColorDefinition("#eef2ff"),
         "100": makeCssHexColorDefinition("#e0e7ff"),
         "200": makeCssHexColorDefinition("#c7d2fe"),
@@ -256,7 +256,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#312e81"),
         "950": makeCssHexColorDefinition("#1e1b4b"),
     },
-    "tw-violet": {
+    "tw3-violet": {
         "50": makeCssHexColorDefinition("#f5f3ff"),
         "100": makeCssHexColorDefinition("#ede9fe"),
         "200": makeCssHexColorDefinition("#ddd6fe"),
@@ -269,7 +269,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#4c1d95"),
         "950": makeCssHexColorDefinition("#2e1065"),
     },
-    "tw-purple": {
+    "tw3-purple": {
         "50": makeCssHexColorDefinition("#faf5ff"),
         "100": makeCssHexColorDefinition("#f3e8ff"),
         "200": makeCssHexColorDefinition("#e9d5ff"),
@@ -282,7 +282,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#581c87"),
         "950": makeCssHexColorDefinition("#3b0764"),
     },
-    "tw-fuchsia": {
+    "tw3-fuchsia": {
         "50": makeCssHexColorDefinition("#fdf4ff"),
         "100": makeCssHexColorDefinition("#fae8ff"),
         "200": makeCssHexColorDefinition("#f5d0fe"),
@@ -295,7 +295,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#701a75"),
         "950": makeCssHexColorDefinition("#4a044e"),
     },
-    "tw-pink": {
+    "tw3-pink": {
         "50": makeCssHexColorDefinition("#fdf2f8"),
         "100": makeCssHexColorDefinition("#fce7f3"),
         "200": makeCssHexColorDefinition("#fbcfe8"),
@@ -308,7 +308,7 @@ export const TAILWIND_COLORS = {
         "900": makeCssHexColorDefinition("#831843"),
         "950": makeCssHexColorDefinition("#500724"),
     },
-    "tw-rose": {
+    "tw3-rose": {
         "50": makeCssHexColorDefinition("#fff1f2"),
         "100": makeCssHexColorDefinition("#ffe4e6"),
         "200": makeCssHexColorDefinition("#fecdd3"),

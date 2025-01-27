@@ -43,7 +43,7 @@ import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
 import { MSDL_COLORS } from "../colors/msdl";
 import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND_COLORS } from "../colors/tailwind";
+import { TAILWIND3_COLORS } from "../colors/tailwind3";
 
 export const ALL_COLOR_COLLECTIONS = {
     apple: APPLE_COLORS,
@@ -57,5 +57,5 @@ export const ALL_COLOR_COLLECTIONS = {
     misc: MISC_COLORS,
     msdl: MSDL_COLORS,
     social: SOCIAL_COLORS,
-    tailwind: TAILWIND_COLORS,
+    tailwind3: TAILWIND3_COLORS,
 };
