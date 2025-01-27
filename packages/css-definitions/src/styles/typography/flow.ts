@@ -62,6 +62,9 @@ const staticStyle = newStaticStyle(
             ".imprint-prose section > h3": {
                 "margin-top": "1.25em",
             },
+            ".imprint-prose section > h4": {
+                "margin-top": "1.5em",
+            },
         },
     }
 );
