@@ -43,7 +43,7 @@ export { METRO_COLORS } from "./colors/metro";
 export { MISC_COLORS } from "./colors/misc";
 export { MSDL_COLORS } from "./colors/msdl";
 export { SOCIAL_COLORS } from "./colors/social";
-export { TAILWIND_COLORS } from "./colors/tailwind";
+export { TAILWIND3_COLORS } from "./colors/tailwind3";
 
 // the light and dark colors that we use in our color analysis inspector
 export { DEFAULT_BG } from "./defaults/DEFAULT_BG";

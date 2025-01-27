@@ -38,6 +38,7 @@ import { CSS_EXTENDED_COLORS } from "../colors/css";
 import { FLAT_COLORS } from "../colors/flat";
 import { GANBARO_COLORS } from "../colors/ganbaro";
 import { IMPRINT_COLORS } from "../colors/imprint";
+import { KM_COLORS } from "../colors/kevin-muldoon";
 import { MATERIAL_COLORS } from "../colors/material-design";
 import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
@@ -52,6 +53,7 @@ export const ALL_COLOR_COLLECTIONS = {
     flat: FLAT_COLORS,
     ganbaro: GANBARO_COLORS,
     imprint: IMPRINT_COLORS,
+    km: KM_COLORS,
     materialDesign: MATERIAL_COLORS,
     metro: METRO_COLORS,
     misc: MISC_COLORS,
