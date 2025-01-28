@@ -65,41 +65,41 @@ console.log(accessibilityCode);
 
 { accessibilityCode == "H1B1" && (
     <Callout icon="success">
-        <h4>This Color Is Accessible When Paired With A {titleCase(lightOrDark)} Color!</h4>
+        <h4>This Color Is Very Accessible When Paired With A {titleCase(lightOrDark)} Color!</h4>
 
-        <p>Great! <code>{colorName}</code> meets the WCAG AAA standard for both headings and body text.</p>
+        <p>Great! <code>{colorName}</code> meets the WCAG AAA standard for both headings and body text. You can safely use it for both headings and content.</p>
 
-        <p>You can safely use it for both headings and content.</p>
+        <p>Best of all, it isn't a midtone color, so it's also great for partially-sighted readers.</p>
     </Callout>
 )}
 
 { accessibilityCode === "H2B1" && (
-    <Callout icon="warning">
+    <Callout icon="success">
         <h4>This Color Is Fairly Accessible For Headings, And Very Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
         <p><code>{colorName}</code> meets the WCAG AAA standard for body text. You can safely use it for content.</p>
 
-        <p>We don't recommend it for headings, as it only meets the WGAC AA standard.</p>
+        <p>It only meets the WGAC AA standard for headings. While you can use it for headings, other colors will be even better for partiall-sighted readers.</p>
     </Callout>
 )}
 
 { accessibilityCode === "H1B2" && (
-    <Callout icon="warning">
+    <Callout icon="success">
         <h4>This Color Is Very Accessible For Headings, And Fairly Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
         <p><code>{colorName}</code> meets the WCAG AAA standard for headings. You can safely use this color for headings.</p>
 
-        <p>It only meets the WCAG AA standard for body text. While you can use it for body text, other colors will be better for partially-sighted readers.</p>
+        <p>It only meets the WCAG AA standard for body text. While you can use it for body text, other colors will be even better for partially-sighted readers.</p>
     </Callout>
 )}
 
 { accessibilityCode === "H2B2" && (
-    <Callout icon="warning">
+    <Callout icon="success">
         <h4>This Color Is Fairly Accessible For Headings And Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
         <p><code>{colorName}</code> meets the WCAG AA standard for headings and for body text.</p>
 
-        <p>While you can use this color, other colors will be better for partially-sighted readers.</p>
+        <p>While you can use this color, other colors will be even better for partially-sighted readers.</p>
     </Callout>
 )}
 

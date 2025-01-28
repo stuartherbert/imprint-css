@@ -12,6 +12,7 @@ import ColorExample from "../components/Colors/ColorExample.astro";
 
 import ExpandVars from "../components/ExpandVars.astro"
 import ExternalLink from "../components/ExternalLink.astro";
+import InternalLink from "../components/InternalLink.astro";
 import AccessibilitySummary from "../components/Colors/AccessibilitySummary.astro";
 import AccessibilityTable from "../components/Colors/AccessibilityTable.astro";
 
@@ -21,7 +22,7 @@ import PhixLight from "../../phix-light.json";
 <Callout icon="info">
     This page is auto-generated from the CSS definition of <code>{colorDetails.data.name}</code>.
 
-    If you're curious to learn more, the data comes from the <code>analyseColor()</code> function in <code>@imprint-css/color-collections</code>.
+    If you're curious to learn more, the data comes from the <code>analyseColor()</code> function in our Javascript package <ExternalLink name="NPMJS @imprintcss/color-collections" text="@imprint-css/color-collections"/>.
 </Callout>
 
 ## At A Glance
@@ -75,7 +76,7 @@ Here is a summary of the named color <code>{colorDetails.data.name}</code>.
 
 ## How To Use
 
-### In Tailwind CSS
+### In Tailwind CSS v3
 
 This color is available as a Tailwind CSS theme color. You can use it with any Tailwind CSS class that accepts a color suffix:
 
@@ -100,7 +101,7 @@ Just remember to [install the Imprint CSS plugin](/getting-started) first!
 
 #### Import Directly Into Your Project
 
-Do you want to use this color, but you're not using Tailwind CSS? You can import it directly from our `@imprintcss/color-collections` Javascript package:
+Do you want to use this color, but you're not using Tailwind CSS? You can import it directly from our <ExternalLink name="NPMJS @imprintcss/color-collections" text="@imprint-css/color-collections"/> Javascript package:
 
 <BasicExample>
     <ExpandVars $colorName={colorDetails.data.jsName} $colorValue={colorDetails.data.definition}>
@@ -129,14 +130,15 @@ If you need to pass colors around as input parameters or return values in Typesc
 
 `CssColorDefinition` is guaranteed to always be a string (and valid CSS definition) at runtime. It is __not__ guaranteed to always be a hex definition.
 
-If you wish to manipulate / transform this color, use the `@safelytyped/css-colors` package:
+If you wish to manipulate / transform this color, use our <ExternalLink name="NPMJS @safelytyped/css-color" text="@safelytyped/css-color"/> package:
 
 <BasicExample>
     <ExpandVars $colorName={colorDetails.data.jsName} colorValue={colorDetails.data.definition}>
         ```js
         import { $colorName } from "@imprintcss/color-collections";
-        import { makeCssColor } from "@safelytyped/css-colors";
+        import { makeCssColor } from "@safelytyped/css-color";
 
+        // creates a `CssColor` object
         const colorObj = makeCssColor($colorName);
         console.log(colorObj.hex());
 
@@ -149,14 +151,16 @@ If you wish to manipulate / transform this color, use the `@safelytyped/css-colo
 
 ## Accessibility
 
-A color's accessibility depends on whether you're using it with a light or dark background. It all depends on the contrast ratio between the two colors that you're using.
+<Callout icon="furtherReading">
+See "<InternalLink slug="colors/color-contrast"/>" to learn more about color accessibility.
+</Callout>
 
-That's why you'll find _two_ different analyses below:
+### Introduction
+
+There are two different color accessibility analyses below:
 
 - pairing <code>{colorDetails.data.name}</code> with a light color (we've used <ColorLink colorName="imprint-bg-default"/>, the background color of this page); and
 - pairing <code>{colorDetails.data.name}</code> with a dark color (we've used <ColorLink colorName="imprint-fg-default"/>, the body text color of this page).
-
-Some colors are midtones. These are never accessible for partially-sighted people, even the ones that technically meet the WCAG AAA success standard.
 
 ### When Paired With A Light Color
 
@@ -198,14 +202,6 @@ Here's a visual example of using <ColorLink colorName="imprint-fg-default"/> as 
 
 <ColorExample background={colorDetails.id} colorName="imprint-fg-default"/>
 
-### Further Reading
-
-Need to learn how color can affect whether people can use your web-based app / read your content or not?
-
-* [Everything About Color Contrast And Why You Should Rethink It](https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/), by Cathy O'Connor
-
-Let me know of any other articles that I should recommend, please!
-
 ## Raw Data
 
 Here's the raw data that this page was built from.
@@ -218,11 +214,11 @@ Here's the raw data that this page was built from.
 [^2]: To determine color luminosity, we calculate the color's luma value from the <ExternalLink name="YIQ Color Space" text="YIQ color space"/>, using <ExternalLink name="Brian Suda YIQ Algorithm" text="a formula originally by Brian Suda"/>.
 [^3]: We consider "dark" colors to be any color with a YIQ luminosity of 0-127; "midtone" colors are any color with a YIQ luminosity of 128-190; and "light" colors are any color with a YIQ luminosity of 191-255.
 [^4]: We consider a color to be a good choice for headings if:
-    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/> for large text (contrast ratio of at least 4.5:1); **and**
+    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/> for large text (contrast ratio of at least 4.5:1); **and**
     2. the color is not a midtone
 [^5]: We consider a color to be a good choice for body content text if:
-    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
+    1. the color meets the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
     2. the color is not a midtone
 [^6]: We consider a color to be a good choice for a page's background color if:
-    1. the color meet the <ExternalLink name="W3C WCAG 2.2 Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
+    1. the color meet the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
     2. the color is a light color (dark themes are not accessible to people with limited vision)

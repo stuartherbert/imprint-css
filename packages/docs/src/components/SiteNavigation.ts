@@ -97,3 +97,5 @@ export async function buildNavList(navList: Map<string, NavItems>, docList: Map<
         navList.set(navSectionName, navItems);
     }
 };
+
+await buildNavList(navList, docList);
