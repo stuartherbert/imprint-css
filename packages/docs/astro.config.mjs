@@ -35,5 +35,12 @@ export default defineConfig({
   ],
   server: {
     host: true,
+  },
+  vite: {
+    server: {
+        allowedHosts: [
+            ".local"
+        ]
+    }
   }
 });
