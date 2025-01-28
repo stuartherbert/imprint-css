@@ -10,6 +10,26 @@ body {
     @apply imprint;
 }
 
+.docs-content-grid {
+    --padding-inline: 0.05rem;
+    --content-max-width: 100rem;
+
+    display: grid;
+    grid-template-columns: [full-width-start] minmax(var(--padding-inline), 1fr) [content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width)) [content-end] minmax(var(--padding-inline), 1fr) [full-width-end];
+}
+
+.docs-content-grid > :not(.full-width),
+.full-width > :not(.full-width) {
+    grid-column: content;
+}
+
+.docs-content-grid > .full-width {
+    grid-column: full-width;
+
+    display: grid;
+    grid-template-columns: inherit;
+}
+
 .docs-margin {
     @apply mx-6 b:mx-8;
 }
