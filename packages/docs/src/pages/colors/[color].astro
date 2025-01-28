@@ -30,11 +30,12 @@ import { colorDetails as mdxColorDetails, Content, getHeadings } from "../../lay
 for (const key of Object.keys(colorDetails)) {
     mdxColorDetails[key] = colorDetails[key]
 }
-// console.log(mdxColorDetails)
-// templateColorDetails.data = colorDetails.data;
+
+const headings = getHeadings()
+console.log(headings);
 
 ---
 
-<PageLayout frontmatter={frontmatter} origin={origin} headings={getHeadings()}>
+<PageLayout frontmatter={frontmatter} origin={origin} headings={headings}>
     <Content/>
 </PageLayout>

@@ -1,6 +1,7 @@
 ---
 
 import Callout from "../Callouts/Callout.astro";
+import NoClearContrastWarning from "./NoClearContrastWarning.astro";
 import { titleCase } from "../../helpers/titleCase";
 
 export interface Props {
@@ -58,7 +59,6 @@ if (accessibilityCode === "") {
     accessibilityCode = "ZZ";
 }
 
-const midtoneWarning = `We recommend avoiding it for text, because it looks too close to ${lightOrDark} colors. At best, your content will be tiring to read. At worst, it'll be very difficult for partially-sighted people to read your content`
 console.log(accessibilityCode);
 
 ---
@@ -67,19 +67,16 @@ console.log(accessibilityCode);
     <Callout icon="success">
         <h4>This Color Is Very Accessible When Paired With A {titleCase(lightOrDark)} Color!</h4>
 
-        <p>Great! <code>{colorName}</code> meets the WCAG AAA standard for both headings and body text. You can safely use it for both headings and content.</p>
-
-        <p>Best of all, it isn't a midtone color, so it's also great for partially-sighted readers.</p>
-    </Callout>
-)}
-
-{ accessibilityCode === "H2B1" && (
-    <Callout icon="success">
-        <h4>This Color Is Fairly Accessible For Headings, And Very Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
-
-        <p><code>{colorName}</code> meets the WCAG AAA standard for body text. You can safely use it for content.</p>
-
-        <p>It only meets the WGAC AA standard for headings. While you can use it for headings, other colors will be even better for partiall-sighted readers.</p>
+        <p><code>{colorName}</code> meets the <strong>WCAG AAA standard for both headings and body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can safely use this color:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background,</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
+        <p>Best of all, it isn't a {lightOrDark} or midtone color. It is a great choice for accessibility.</p>
+        <p>We can't tell you if it is a <em>tasteful</em> color combination though. That's for you to decide!</p>
     </Callout>
 )}
 
@@ -87,9 +84,19 @@ console.log(accessibilityCode);
     <Callout icon="success">
         <h4>This Color Is Very Accessible For Headings, And Fairly Accessible For Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AAA standard for headings. You can safely use this color for headings.</p>
-
-        <p>It only meets the WCAG AA standard for body text. While you can use it for body text, other colors will be even better for partially-sighted readers.</p>
+        <p><code>{colorName}</code> meets the <strong>WCAG AAA standard for headings</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can safely use this color:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+        </ul>
+        <p>It only meets the <strong>WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text,</li>
+        </ul>
+        <p>but other colors will be more accessible for partially-sighted readers.</p>
     </Callout>
 )}
 
@@ -97,7 +104,7 @@ console.log(accessibilityCode);
     <Callout icon="success">
         <h4>This Color Is Fairly Accessible For Headings And Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AA standard for headings and for body text.</p>
+        <p><code>{colorName}</code> meets the WCAG AA standard for headings and for body text when paired with a {lightOrDark} color.</p>
 
         <p>While you can use this color, other colors will be even better for partially-sighted readers.</p>
     </Callout>
@@ -107,18 +114,15 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> does meet the WCAG AAA standard for headings and body text.</p>
-
-        <p>However, it is a midtone color. {midtoneWarning}</p>
-    </Callout>
-)}
-
-{ accessibilityCode === "h2b1" && (
-    <Callout icon="warning">
-        <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
-
-        <p><code>{colorName}</code> meets the WCAG AAA standard for body text. However, it is a midtone color. {midtoneWarning}</p>
-        <p>We don't recommend it for headings, as it only meets WCAG AA standard.</p>
+        <p><code>{colorName}</code> does meet the <strong>WCAG AAA standard for headings and body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You could use it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background,</li>
+            <li>as the background color for {lightOrDark}-colored heading text,</li>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
+        <NoClearContrastWarning colorName={colorName} lightOrDark={lightOrDark}/>
     </Callout>
 )}
 
@@ -126,9 +130,19 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AAA standard for headings, and the WCAG AA standard for body text.</p>
-
-        <p>However, it is a midtone color. {midtoneWarning}</p>
+        <p><code>{colorName}</code> meets the <strong>WCAG AAA standard for headings</strong> when paired with a {lightOrDark} color.</p>
+        <p>You could use it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+        </ul>
+        <p> It only meets the <strong>WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
+        <NoClearContrastWarning colorName={colorName} lightOrDark={lightOrDark}/>
     </Callout>
 )}
 
@@ -136,9 +150,16 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible For Headings And Body Text (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AAA standard for headings and for body text.</p>
+        <p><code>{colorName}</code> does meet the <strong>WCAG AA standard for headings and for body text</strong> when paired with a {lightOrDark} color.</p>
 
-        <p>However, it is a midtone color. {midtoneWarning}</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background,</li>
+            <li>as the background color for {lightOrDark}-colored heading text,</li>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
+        <NoClearContrastWarning colorName={colorName} lightOrDark={lightOrDark}/>
     </Callout>
 )}
 
@@ -146,8 +167,19 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AAA standard for heading text. You can safely use this color for your headings.</p>
-        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+        <p><code>{colorName}</code> meets the <strong>WCAG AAA standard for heading text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can safely use it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+        </ul>
+
+        <p>It <strong>does not meet the WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>Do not use it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
     </Callout>
 )}
 
@@ -155,8 +187,20 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> only meets the WCAG AA standard for heading text. While you can use this color for your headings, other colors will provide a better reading experience for people who are partially-sighted.</p>
-        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+        <p><code>{colorName}</code> only meets the <strong>WCAG AA standard for heading text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text,</li>
+        </ul>
+        <p>but other colors will be more accessible for partially-sighted readers.</p>
+
+        <p>It <strong>does not meet the WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>Do not use it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
     </Callout>
 )}
 
@@ -164,9 +208,20 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> meets the WCAG AAA standard for heading text. Unfortunately, it is a midtone color. {midtoneWarning}</p>
+        <p><code>{colorName}</code> meets the <strong>WCAG AAA standard for heading text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+        </ul>
+        <NoClearContrastWarning colorName={colorName} lightOrDark={lightOrDark}/>
 
-        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+        <p>It <strong>does not meet the WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>Do not use it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
     </Callout>
 )}
 
@@ -174,8 +229,20 @@ console.log(accessibilityCode);
     <Callout icon="warning">
         <h4>This Color Is Somewhat Accessible For Headings (When Paired With A {titleCase(lightOrDark)} Color)</h4>
 
-        <p><code>{colorName}</code> only meets the WCAG AA standard for heading text. It is also a midtone color. {midtoneWarning}</p>
-        <p>It does not meet the WCAG AA standard for body text. Do not use it for body text.</p>
+        <p><code>{colorName}</code> only meets the <strong>WCAG AA standard for heading text</strong> when paired with a {lightOrDark} color.</p>
+        <p>You can get away with using it:</p>
+        <ul>
+            <li>as the text color for headings on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored heading text.</li>
+        </ul>
+        <NoClearContrastWarning colorName={colorName} lightOrDark={lightOrDark}/>
+
+        <p>It <strong>does not meet the WCAG AA standard for body text</strong> when paired with a {lightOrDark} color.</p>
+        <p>Do not use it:</p>
+        <ul>
+            <li>as the text color for body text on a {lightOrDark} background, or</li>
+            <li>as the background color for {lightOrDark}-colored body text.</li>
+        </ul>
     </Callout>
 )}
 
@@ -201,7 +268,12 @@ console.log(accessibilityCode);
     <Callout icon="danger">
         <h4>This Color Is Not Accessible At All When Paired With A {titleCase(lightOrDark)} Color</h4>
 
-        <p><code>{colorName}</code> does not meet the WCAG AA standard for any kind of text.</p>
+        <p><code>{colorName}</code> <strong> does not meet the WCAG AA standard for any kind of text</strong> when paired with a {lightOrDark} color.</p>
+        <p>Do not use this color:</p>
+        <ul>
+            <li>for any text on a {lightOrDark} background, or</li>
+            <li>as the background for any {lightOrDark}-colored text.</li>
+        </ul>
 
         <p>Only use this color for non-content elements (like borders, underlines, and the like).</p>
     </Callout>

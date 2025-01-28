@@ -1,0 +1,17 @@
+---
+
+export interface Props {
+    colorName: string;
+    lightOrDark: "light" | "dark";
+}
+
+const { colorName, lightOrDark } = Astro.props;
+
+---
+<p>However, this is not a great choice of color pairs, because <code>{colorName}</code> is a shade too close to {lightOrDark} colors.</p>
+<ul>
+    <li>At best, your content will be tiring to read.</li>
+    <li>At worst, it'll be very difficult for partially-sighted people to read your content.</li>
+</ul>
+
+<p>We recommend using something else for text.</p>

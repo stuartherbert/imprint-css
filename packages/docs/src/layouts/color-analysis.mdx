@@ -74,6 +74,62 @@ Here is a summary of the named color <code>{colorDetails.data.name}</code>.
     </tr>
 </table>
 
+## About This Page
+
+This page documents the readability and accessibility of the color <code>{colorDetails.data.name}</code> when paired with light and dark colors. The analysis focuses on contrast ratios and compliance with Web Content Accessibility Guidelines (WCAG 2.2) standards.
+
+Further down the page, you'll also find instructions on how to use this color with Tailwind CSS v3, and directly in Javascript and Typescript.
+
+## Accessibility
+
+<Callout icon="furtherReading">
+See "<InternalLink slug="colors/color-contrast"/>" to learn more about color accessibility and the Web Content Accessibility Guidelines (WCAG).
+</Callout>
+
+### WCAG Compliance & Recommendations
+
+<AccessibilitySummary colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
+
+<AccessibilitySummary colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
+
+### Analysis: Paired With A Light Color
+
+Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a light color (<ColorLink colorName="imprint-bg-default"/>, the background color of this page).
+
+<AccessibilityTable colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
+
+### Analysis: Paired With a Dark Color
+
+Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a dark color (<ColorLink colorName="imprint-fg-default"/>, the body text color of this page).
+
+<AccessibilityTable colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
+
+## Visual Examples
+
+### Example 1: As Text Color On A Light Background
+
+Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-bg-default"/> as the background.
+
+<ColorExample colorName={colorDetails.id} background="imprint-bg-default"/>
+
+### Example 2: As Text Color On A Dark Background
+
+Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-fg-default"/> as the background.
+
+<ColorExample colorName={colorDetails.id} background="imprint-fg-default"/>
+
+### Example 3: As Background Color With Light Text
+
+Here's a visual example of using <ColorLink colorName="imprint-bg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
+
+<ColorExample background={colorDetails.id} colorName="imprint-bg-default"/>
+
+### Example 4: As Background Color With Dark Text
+
+Here's a visual example of using <ColorLink colorName="imprint-fg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
+
+<ColorExample background={colorDetails.id} colorName="imprint-fg-default"/>
+
 ## How To Use
 
 ### In Tailwind CSS v3
@@ -148,59 +204,6 @@ If you wish to manipulate / transform this color, use our <ExternalLink name="NP
         ```
     </ExpandVars>
 </BasicExample>
-
-## Accessibility
-
-<Callout icon="furtherReading">
-See "<InternalLink slug="colors/color-contrast"/>" to learn more about color accessibility.
-</Callout>
-
-### Introduction
-
-There are two different color accessibility analyses below:
-
-- pairing <code>{colorDetails.data.name}</code> with a light color (we've used <ColorLink colorName="imprint-bg-default"/>, the background color of this page); and
-- pairing <code>{colorDetails.data.name}</code> with a dark color (we've used <ColorLink colorName="imprint-fg-default"/>, the body text color of this page).
-
-### When Paired With A Light Color
-
-<AccessibilitySummary colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
-
-#### Detailed Analysis
-
-Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a light color (<ColorLink colorName="imprint-bg-default"/>).
-
-<AccessibilityTable colorName={colorDetails.id} lightOrDark="light" accessibilityDetails={colorDetails.data.pairedWithLightColor}/>
-
-#### See For Yourself
-
-Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-bg-default"/> as the background.
-
-<ColorExample colorName={colorDetails.id} background="imprint-bg-default"/>
-
-Here's a visual example of using <ColorLink colorName="imprint-bg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
-
-<ColorExample background={colorDetails.id} colorName="imprint-bg-default"/>
-
-### When Paired With a Dark Color
-
-#### Detailed Analysis
-
-Here is an analysis of how accessible <code>{colorDetails.data.name}</code> is (or isn't!) when paired with a dark color (<ColorLink colorName="imprint-fg-default"/>).
-
-<AccessibilitySummary colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
-
-<AccessibilityTable colorName={colorDetails.id} lightOrDark="dark" accessibilityDetails={colorDetails.data.pairedWithDarkColor}/>
-
-#### See For Yourself
-
-Here's a visual example of using <code>{colorDetails.id}</code> as the text color, with <ColorLink colorName="imprint-fg-default"/> as the background.
-
-<ColorExample colorName={colorDetails.id} background="imprint-fg-default"/>
-
-Here's a visual example of using <ColorLink colorName="imprint-fg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
-
-<ColorExample background={colorDetails.id} colorName="imprint-fg-default"/>
 
 ## Raw Data
 
