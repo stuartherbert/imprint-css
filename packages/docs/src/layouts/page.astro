@@ -62,22 +62,22 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
         </div>
         <div class="pb-2 border-b shadow-sm imprint pt-2 docs-padding border-imprint-gray/40 !bg-neutral-50 full-width">
             <div class="flex items-center">
-            <div class="pr-4 mr-4 border-r d:hidden border-imprint-gray/40">
+            <div class="pr-4 mr-4 border-r e:hidden border-imprint-gray/40">
                 <label for="show-hide-nav"><InlineSvg id="open-show-hide-nav" svg={bars3} class="cursor-pointer w-24rpx h-24rpx"/><InlineSvg id="close-show-hide-nav" svg={xCircle} class="cursor-pointer w-24rpx h-24rpx"/></label>
             </div>
             <Breadcrumb origin={origin}/>
             </div>
         </div>
-        <div id="content" class="d:grid d-t:grid-cols-[17rem_1fr] d-d:grid-cols-[19rem_1fr]">
-            <div id="sidebar" class="hidden pt-2 pb-4 border-b shadow-sm left-sidebar border-imprint-gray/40 d:border-r d:border-l docs-padding d:shadow-none d:border-b-0 d:overflow-y-auto d:sticky d:top-0 d:block d:pb-2 d:max-h-dvh d:border-imprint-palegray bg-imprint-palegray/35">
+        <div id="content" class="e:grid e-t:grid-cols-[17rem_1fr] e-d:grid-cols-[19rem_1fr]">
+            <div id="sidebar" class="hidden pt-2 pb-4 border-b shadow-sm left-sidebar border-imprint-gray/40 e:border-r e:border-l docs-padding e:shadow-none e:border-b-0 e:overflow-y-auto e:sticky e:top-0 e:block e:pb-2 e:max-h-dvh e:border-imprint-palegray bg-imprint-palegray/35">
                 <SiteNavigation/>
             </div>
             <div class="page">
-                <div class="e:grid e:grid-cols-[1fr_17rem] e:gap-10 docs-padding d:pt-2 e:pt-0 mb-10 e:mb-4 justify-center">
-                    <div class="imprint-modern my-6 e:my-4 max-w-[70rem] content">
+                <div class="d:grid d:grid-cols-[1fr_17rem] d:gap-10 docs-padding mb-10 d:mb-4 justify-center">
+                    <div class="imprint-modern my-6 d:my-4 max-w-[70rem] content">
                         <main role="main" class="">
                             <div class="mb-4 imprint-prose">
-                                <header class="mt-4 mb-8 e:mt-2">
+                                <header class="mt-4 mb-8 d:mt-2">
                                     <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer !text-imprint-graphite">{frontmatter.navSection}</p>
                                     <h1 class="!mt-2">{frontmatter.title}</h1>
                                     {frontmatter.description && <p class="!imprint-block-greatprimer mt-2 font-light">{frontmatter.description}</p>}
@@ -104,7 +104,7 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                         </div>
                     </div>
                     {headings.length > 0 &&
-                    <div id="pagetoc" class="sticky top-0 order-3 hidden pt-4 pl-4 mt-2 overflow-y-auto border-l right-sidebar e:block border-imprint-palegray text-pica max-h-dvh">
+                    <div id="pagetoc" class="sticky top-0 order-3 hidden pt-4 pl-4 mt-2 overflow-y-auto border-l right-sidebar d:block border-imprint-palegray text-pica max-h-dvh">
                         <aside>
                             <h5 class="font-semibold text-18rpx">On This Page</h5>
                             <PageToc headings={headings}/>

@@ -6,7 +6,7 @@ export interface Props {
 }
 
 const { icon, ...attributes } = Astro.props;
-attributes.class = "--standout-sm docs-alert rounded-1 " + (attributes.class || "");
+attributes.class = "docs-alert rounded-1 " + (attributes.class || "");
 
 import InlineSvg from "../InlineSvg.astro";
 
