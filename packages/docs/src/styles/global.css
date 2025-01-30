@@ -12,7 +12,7 @@ body {
 
 .docs-content-grid {
     --padding-inline: 0.05rem;
-    --content-max-width: 100rem;
+    --content-max-width: 85rem;
 
     display: grid;
     grid-template-columns: [full-width-start] minmax(var(--padding-inline), 1fr) [content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width)) [content-end] minmax(var(--padding-inline), 1fr) [full-width-end];
@@ -39,7 +39,7 @@ body {
 }
 
 .docs-padding-left {
-    @apply pl-6 b:pl-4;
+    @apply pl-6 b:pl-8;
 }
 
 .astro-code {
@@ -97,9 +97,18 @@ nav.pagetoc-ol {
     list-style-position: outside;
 }
 
-#show-hide-nav:checked ~ * #sidebar {
+#show-hide-nav:checked ~ * #hamburger-sidebar {
     display: block !important;
     transition: all 0.5secs ease;
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    background-color: rgb(234 234 234);
+    width: 100%;
+    z-index: 20;
+    max-height: 100dvh;
+    padding-bottom: 10rem;
+    overflow-y: auto;
 }
 
 #show-hide-nav:checked ~ * #open-show-hide-nav {
@@ -247,11 +256,18 @@ nav.pagetoc-ol {
     @apply grid grid-cols-2 gap-2 b:grid-cols-3 d:grid-cols-4 f:grid-cols-5;
 }
 
+.docs-color-palette,
+.docs-color-palette-7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 0.5rem;
+}
+
 .docs-color-palette-5 {
     @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5;
 }
 
-.docs-color-palette-7 {
+.docs-color-palette-70 {
     @apply grid grid-cols-2 gap-2 shrink-0 b:grid-cols-4 c:grid-cols-5 d:grid-cols-7;
 }
 
