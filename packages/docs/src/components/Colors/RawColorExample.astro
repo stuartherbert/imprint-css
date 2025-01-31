@@ -1,0 +1,19 @@
+---
+
+export interface Props {
+    color: string;
+    background: string;
+}
+const { color, background } = Astro.props;
+
+// shorthand
+const swatchStyle = "background-color: " + background + " !important; color: " + color + " !important;";
+
+---
+
+<div class="px-4 py-2">
+    <div class="p-4 border border-imprint-lightgray" style={swatchStyle}>
+        <h4>An Example Heading</h4>
+        <p class="mt-4">Occaecat velit mollit voluptate sunt laboris dolore ex commodo elit veniam minim eu ad ullamco. Deserunt ullamco pariatur dolore cillum nulla sint non ex aute qui reprehenderit amet do ad. Elit excepteur cupidatat et proident. Non aute officia eiusmod mollit reprehenderit magna exercitation velit sunt. Id eu velit magna ullamco voluptate cillum enim consectetur sunt laborum ipsum Lorem dolore dolor.</p>
+    </div>
+</div>

@@ -31,17 +31,19 @@ const {frontmatter, origin, headings} = Astro.props;
 import "../styles/global.css";
 import { getEntry } from "astro:content";
 import PrevNextNavigation from "../components/PrevNextNavigation.astro";
+import { trimEnd } from "../helpers/trimEnd";
 
 const prev = frontmatter.prev ? await getEntry(frontmatter.prev) : undefined;
 const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
 
+const pageTitle = `${frontmatter.title}: ${trimEnd(frontmatter.description, '.')} - Imprint CSS`;
 ---
 
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{frontmatter.title}</title>
+        <title>{pageTitle}</title>
     </head>
     <body class="docs-content-grid">
         <DebugCssBreakpoints />

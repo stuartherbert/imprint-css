@@ -7,33 +7,121 @@ next: colors/css-extended-colors-collection
 ---
 
 import Callout from "../../../components/Callouts/Callout.astro";
+import ColorLink from "../../../components/Colors/ColorLink.astro"
+import ColorExample from "../../../components/Colors/ColorExample.astro";
+import RawColorExample from "../../../components/Colors/RawColorExample.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
-
-## Background Reading
-
-<Callout icon="furtherReading">
-Need to learn how color can affect whether people can use your web-based app / read your content or not?
-
-* [Everything About Color Contrast And Why You Should Rethink It](https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/), by Cathy O'Connor
-
-Let me know of any other articles that I should recommend, please!
-</Callout>
+import InternalLink from "../../../components/InternalLink.astro";
 
 ## Introduction
 
-A single color is not accessible by itself. It depends on what color you're pairing it with (i.e. the text or background color.) Accessible color pairs have a _color contrast_ that meets the WCAG AA or AAA standard.
+Imprint CSS gives you a lot of colors to pick from for your website or web-based app. When you pick your colors, you need to consider how accessible they are - or aren't!
 
-Depending on what you are building and who will use it, you may be legally required to make your website or web-based app WCAG AA-compliant.
+To help you with that, each color's dedicated page (such as <ColorLink colorName="imprint-nero"/>) includes both color accessibility data and our recommendations for when a color is safe to use.
 
-However, we have concerns about the WCAG standards, and we believe that even WCAG AAA-compliance can still lead to color pairs that aren't accessible for partially-sighted people.
+What does the data mean? Where did we get it from? Why are our recommendations sometimes stricter than the W3C's own standards?
 
-In this article, we're going to discuss those concerns and explain how we've addressed them in the Imprint CSS docs.
+This page is here to explain all of that.
+
+<Callout icon="furtherReading">
+Here are some great articles if you'd like to read more about _color accessibility_.
+
+* <ExternalLink name="Smashing Magazine Everything About Color Contrast And Why You Should Rethink It" text="Everything About Color Contrast And Why You Should Rethink It"/>, by Cathy O'Connor
+* <ExternalLink name="UK Gov Color Contrast" text="Colour contrast - why does it matter?"/> by Richard Morton
+
+Let me know of any other articles that we should recommend, please!
+</Callout>
+
+## What Is Color Accessibility?
+
+### It's All About Color Pairs
+
+_Color accessibility_ is a way of measuring how easy it is to read text in that color. (And/or how easy is it to read text on that color background.)
+
+That's why we can't look at a single color on its own to determine how accessible it is. We have to pair it with another color to do so, and look at their _color contrast_ (how much the two colors stand out from each other).
+
+Let's look at some examples of this.
+
+### Some Color Pairs Are Very Accessible
+
+Here are two colors (<ColorLink colorName="imprint-nero"/> and <ColorLink colorName="imprint-bg-default"/>) that are _very accessible_ when paired together.
+
+<ColorExample colorName="imprint-nero" background="imprint-bg-default"/>
+<ColorExample background="imprint-nero" colorName="imprint-bg-default"/>
+
+What makes them _very accessible_? These two colors are total opposites. (We're basically pairing black and white together.)
+
+Most color pairs aren't total opposites though, and that's why we need a way of measuring _color accessibility_. Armed with this data, we can choose color pairs that are easier for everyone to read - not just those people who have the very best eyesight.
+
+### It's Obvious That Some Color Pairs Are Not Accessibile
+
+With some color pairs (such as <ColorLink colorName="imprint-lightgray"/> and <ColorLink colorName="imprint-bg-default"/>), we can immediately see that it's far too difficult for anyone to read text using those colors.
+
+<ColorExample colorName="imprint-lightgray" background="imprint-bg-default"/>
+<ColorExample background="imprint-lightgray" colorName="imprint-bg-default"/>
+
+It doesn't matter which one we use as the background and which one we use as the text color. Neither of them can stand out against the other. These two colors are simply too similar to each other.
+
+What about color pairs that fall somewhere inbetween total opposites and those that are very similar? That's where it gets more difficult to tell just by looking, and why we need accessibility data to refer to when we make our color choices.
+
+### Some Color Pairs Look Accessible ... But Aren't
+
+To demonstrate, here are two colors (<ColorLink colorName="bs-orange"/> and <ColorLink colorName="white"/>) that are not accessible when paired together.
+
+<ColorExample colorName="bs-orange" background="white"/>
+<ColorExample colorName="white" background="bs-orange"/>
+
+Orange and white is one of those color combinations that brands like to use, and that's (in part) because, to some people, these colors look perfectly fine together.
+
+Unfortunately, <ColorLink colorName="bs-orange" fragment="#accessibility" text="the accessibility analysis for bs-orange"/> tells us that this combination is _not accessible_. This particular orange simply doesn't stand out enough from white. In technical terms, the _color contrast ratio_ isn't high enough.
+
+We'll go into color contrast ratios in more detail further down.
+
+### Some Color Pairs Are Accessible ... But Only Passably
+
+If we swap <ColorLink colorName="white"/> for <ColorLink colorName="black"/>, we get a color pairing that's _somewhat accessible_:
+
+<ColorExample colorName="bs-orange" background="black"/>
+<ColorExample colorName="black" background="bs-orange"/>
+
+You definitely can get away with using <ColorLink colorName="black"/> and <ColorLink colorName="bs-orange"/> together for both headings and body text. This color pair meets the minimum accessibility standard (known as WCAG AA) for body text, and the enhanced accessibility standard (known as WCAG AAA) for headings.
+
+So what's the problem?
+
+Even though they meet the standards (we'll explain what the standards are shortly), in practice they're still a poor color combination, because <ColorLink colorName="black"/> and <ColorLink colorName="bs-orange"/> are more similar than they might appear to the mark 1 eyeball.
+
+Color accessibility issues cannot be reliably spotted just by looking at a visual example on the screen. As we've shown above, it isn't always immediately apparent. A lot of factors affect our perception of color, and the current standards (by their own admission) don't take them into account.
+
+### Color Accessibility Is A Complicated Topic
+
+We all see color and contrast differently - even those people who have healthy vision. A great example of this is <ExternalLink name="Wikipedia The Dress" text="The Dress"/>, a photo that went viral because some people see the dress as blue and black, and other people see it as white and gold. (The dress is actually blue and black.)
+
+On top of that, we also need to consider other things like:
+
+* the quality of the computer monitor or phone display,
+* ambient light levels,
+* the amount of light falling on the screen,
+* the color of the light falling on the screen,
+
+and so on.
+
+There's also a range of health issues that can affect the reader's vision. You might be aware of things like color-blindness and partial-sightedness (due to retinal tears, macular holes, macular degeneration, or simply getting older).
+
+But did you know that common conditions such as dyslexia also affect how accessible color pairs are?
+
+It's a complicated topic. That's why we need standards for color accessibility. And when it comes to the web, those standards are the **Web Content Accessibility Guidelines** (**WCAG** for short).
 
 ## The Web Content Accessibility Guidelines (WCAG)
 
 ### What Are The Web Content Accessibility Guidelines (WCAG)?
 
-The <ExternalLink name="W3C Content Accessibility Guide" text="Web Content Accessibility Guidelines (WCAG) 2.2"/> are a W3C standard for what is (and is not) considered an accessible website. The guidelines cover four main areas, called:
+The <ExternalLink name="W3C Content Accessibility Guide" text="Web Content Accessibility Guidelines (WCAG) 2.2"/> is a W3C standard for what is (and is not) considered an accessible website.
+
+WCAG 2.0 was introduced in 2008, and the latest revision - WCAG 2.2 - was last updated on 12th December 2024.
+
+(There is an upcoming WCAG 3.0, currently in early draft. We'll come back to WCAG 3.0 in a bit.)
+
+The guidelines cover four main areas, called:
 
 * Perceivable
 * Operable
@@ -42,11 +130,13 @@ The <ExternalLink name="W3C Content Accessibility Guide" text="Web Content Acces
 
 The guidelines covering color are largely found in the Perceivable section. There are standards on topics such as when and how to use color (e.g. never relying on color alone to convey information), and choosing accessible colors.
 
-In this article, we're interested in the guidelines on choosing accessible colors.
+For today, we're only interested in the guidelines on choosing accessible colors.
 
 ### Contrast Ratio
 
-The WCAG uses _color contrast_ to determine if a website's colors are accessible or not. This is <ExternalLink name="W3C WCAG 2.2 Contrast Ratio" text="defined as the ratio of the relative luminance of two colors"/>. (For example: comparing the color you are using for a heading with the background color behind the heading.)
+WCAG 2.2 uses _color contrast_ to determine if a website's colors are accessible or not.
+
+This is <ExternalLink name="W3C WCAG 2.2 Contrast Ratio" text="defined as the ratio of the relative luminance of two colors"/>. (For example: comparing the color you are using for a heading with the background color behind the heading.)
 
 The result is a _contrast ratio_. It can go from 1:1 (using the same color for foreground and background) up to a maximum of 21:1 (black on white).
 
@@ -57,9 +147,9 @@ To be accessible, color pairs must meet the success critera for either **level A
 * **AA** is the minimum level where a pair of colors are considered accessible, and
 * **AAA** is the most accessible (aka enhanced contrast).
 
-(There is also a **level A**, but this no longer applies to colors. **Level A** is still used in the WCAG for other topics.)
+If a color pair's _contrast ratio_ is below the threshold for the AA standard, the color pair is considered to be _not accessible_.
 
-Each compliance level is different for headings and for body text. This table shows the _contrast ratio_ required for each level:
+There are different thresholds for headings and for body text. This table shows the _contrast ratio_ required for each level:
 
 Element Type            | AA Compliance | AAA Compliance
 ------------------------|---------------|----------------
@@ -67,26 +157,62 @@ Large text (headings)   | >= 3.0:1      | >= 4.5:1
 Normal text (body text) | >= 4.5:1      | >= 7.0:1
 Non-text (UI elements)  | >= 3.0:1      | not specified
 
-What are the different types of elements covered by the compliance levels?
+where:
 
 * <ExternalLink name="W3C WCAG 2.2 Large Text" text="Large text"/> is defined as "18 point or 14 point bold" (for western alphabets). (So, basically, HTML headings.)
 * Any other text on the page (such as your actual content) is considered normal text (or just "<ExternalLink name="W3C WCAG 2.2 Text" text="text"/>" in the WCAG).
 * Anything else that's interactive (user-interface elements such as form controls) or that's part of the content (e.g. graphs, charts, mermaid diagrams) is called <ExternalLink name="W3C WCAG 2.2 Non-Text Contrast Success Criterion" text="non-text"/>.
 
-What isn't covered by the compliance levels? Here's a list of the major ones:
+Why are there different standards for different elements? It's all down to character width.
+
+Large text and bold text are both wider, giving the reader more of each letter to look at. With more pixels side-by-side, it's easier for the human eye to spot large / bold text against its background.
+
+Body text tends to be thinner, with a lot less solid pixels. A larger proportion of each letter is actually made of up the fuzzy anti-aliasing that's used to make characters appear smoother. As a result, letter edges on body text have to appear sharper if they are to stand out against the background color.
+
+### Things That Fall Outside The Scope Of The WCAG On Color Contrast
+
+For completenes, here's a list of the major elements that aren't covered by the compliance levels:
 
 * Anything considered _incidental text_ (such as inactive form fields and controls) can have any contrast ratio.
 * Same goes for _logotypes_ (text that is part of a logo or brand name).
 * And, anything that cannot be styled (anything where the appearance is controlled by the browser, such as a Javascript alert popup).
 
+If you've got established brand colors that everyone associates with you, the good news is that no-one is forcing you to change them. You can keep using them in your logo, even online. You just can't use those colors everywhere if they're not accessible color pairings.
+
+## The Importance Of Compliance
+
+### Who Benefits From Compliance? Everyone!
+
+In the old days, we used to convince people that making your website at least meet the WCAG AA standard was good for business. These arguments still apply today.
+
+Statistics vary from source to source, but something like 10% of the population has some form of visual impairment or partial sight loss. That's a lot of people being excluded if your website doesn't use accessible colors.
+
+This 10% ballpark is very likely to be a significant under-estimate.
+
+It's often a statistical projection based on the number of people who have had a formal medical diagnosis. Such projections are (in the main) limited to the number of people who would be given a diagnosis if they were examined (i.e. undiagnosed cases). It doesn't always account for people who have a visual impairment that isn't considered serious enough to merit a formal diagnosis (i.e. undiagnosable cases).
+
+It also doesn't seem to take into account the aging demographics of modern society, where a lot more than 10% of us are getting on in years! The first generation of home computer users are now into our 50s. Our eyesight may not be what it used to be, but we use the Internet just as much as younger generations do.
+
+Whatever its true value, the 10% ballpark figure is just a number that covers the general population. It doesn't tell you what percentage of your readers / visitors / users will have some form of vision impairment or partial sight loss. You might have more.
+
+The thing is, the WCAG AA standard isn't just for them. It's really the minimum standard for _everyone_.
+
 ### Your Site Should Comply With The AA Standard (If Not Better)
 
-In the old days, we used to convince people that AA-compliance was good for business. Something like 10% of the population has some form of visual impairment or partial sight loss. That's a lot of people being excluded if your website doesn't use accessible colors.
+Any color pairs that don't meet the WCAG AA standard have a very low _color contrast_.
+
+Even people who don't have any visual impairment or partial sight loss will struggle to spend any length of time using a website or app that uses low-contrast colors everywhere. Content like that will be tiring to read, and difficult for people to read accurately.
+
+By all means, use color to make a splash, to attract attention. No-one's trying to tell you that you can't.
+
+But once you've got it, keep that attention by making it easy for all of your readers and users to use your site.
+
+### Compliance Is Becoming The Law
 
 Times have changed. What was once voluntary is becoming a legal requirement.
 
 * From 28th June 2025, if your website or web-based application is used by people in the European Union, your site has be WCAG 2.1 AA-compliant.
-* If your website or web-based application is used by people in the USA, your site may need to be WCAG 2.1 AA-compliant. Federal law mandates this for local governments (plus their agencies and funded projects), along with "places of public accmmodations" (retailers, doctors, malls, restaurants, hotels, and ski resorts). Some states (e.g. California and New York State) may have local laws that mandate this for a wider-range of commercial organisations.
+* If your website or web-based application is used by people in the USA, your site may need to be WCAG 2.1 AA-compliant. Federal law mandates this for local governments (plus their agencies and funded projects), along with "places of public accommodations" (retailers, doctors, malls, restaurants, hotels, and ski resorts). Some states (e.g. California and New York State) may have local laws that mandate this for a wider-range of commercial organisations.
 
 Web accessibility laws do not cover as many organisations as data privacy laws (such as GDPR) do. Even so, it makes sense to comply with these laws today, even if the laws don't apply to you and/or your work at the moment.
 
@@ -95,26 +221,147 @@ Web accessibility laws do not cover as many organisations as data privacy laws (
 
 Plus, all the old benefits about reaching more people still apply!
 
+If meeting the WCAG AA is enough to satisfy legal requirements, why do we recommend that you go further - including beyond the AAA standard in some cases?
+
 ## Limitations Of The WCAG Color Contrast Standards
 
 ### Is Compliance Enough?
 
-It's not technically difficult to meet the AA compliance level for use of colors. The hardest part is often dealing with over-use of long-established brand colors, or with creative directors / decision makers who have particularly poor color taste!
+It's not technically difficult to meet the WCAG AA standard for use of colors. The hardest part is often dealing with over-use of long-established brand colors, or with creative directors / decision makers who have particularly poor color taste!
 
 But is AA-compliance enough? We don't think so.
 
-The WCAG _color contrast_ standard has its flaws, and even if all your color pairs meet the AAA compliance level, that doesn't go far enough to ensure that your website uses colors that are accessible to everyone.
+The WCAG _color contrast_ formula has its flaws, and even if all your color pairs comply with the higher WCAG AAA standard, that doesn't always go far enough to ensure that your website uses colors that are accessible to everyone.
 
-### Doesn't Account For Common Visual Impairments
+### What Is The Contrast Ratio Formula?
 
-The WCAG _contrast ratio_ formula simply divides the _perceived brightness_ of a pair of colors.
+The WCAG _contrast ratio_ formula divides the _perceived brightness_ of a pair of colors.
 
 _Perceived brightness_ uses the formula for _relative luminance_, originally published in <ExternalLink name="IEC 61966-2-1"/>. This formula determines the perceived brightness of an individual color in the sRGB color space.
 
-As long as the two colors have _relative luminance_ values that are sufficently different, they're considered to be accessible ...
+As long as the two colors have _relative luminance_ values that are sufficently different (i.e, they're above the contrast ratio threshold in the WCAG), they're considered to be accessible.
 
-... to who? That's the problem.
+### What Is The Problem With The Contrast Ratio Formula?
+
+The fundamental problem with the WCAG _contrast ratio_ formula is that it only really describes color properties in ideal lab conditions.
+
+It doesn't take into account how colors appear under real-world conditions, and relies on the choice of contrast ratio thresholds to account for visual impariments.
+
+It also doesn't take into account modern understanding of human color perception.
+
+<blockquote cite="https://github.com/w3c/wcag3/issues/192">
+    <p>It [the WCAG _contrast ratio_ formula] fails badly in the midrange colors as it does not adjust for human nonlinear perception. As such it should not be used to programmatically determine legibility of colors, esp. in the middle and darker ranges.</p>
+    <footer>Andrew Somers, <a href="https://github.com/w3c/wcag3/issues/192">link</a></footer>
+</blockquote>
+
+It's not just color perception where the WCAG 2.2 _color contrast_ formula falls a little short.
+
+### Doesn't Account For Real-World Complexity
 
 In <ExternalLink name="W3C WCAG 2.2 Understanding Minimum Contrast" text="their note on Understanding Minimum Contrast"/>, the WCAG authors explain that it isn't feasible for the W3C's accessibility guidelines to take into account all the different ways that people can have impaired vision or be partially-sighted. There's simply too many to account for.
 
-The WCAG authors believe that relying on the _contrast ratio_ is good enough.
+While that was true in 2008 when WCAG 2.0 was first published, the Internet has become such a fundamental part of daily life that there's pressure to revisit the formula, and see if it's now possible to do better.
+
+So much so, that the WCAG _color contrast_ formula may be replaced in an upcoming revision of the guidelines.
+
+### WCAG 3.0 Will Use A Different Standard? (It's Complicated!)
+
+At the time of writing, WCAG 3.0 is an early draft. The sections on color accessibility are just placeholders with the moniker "more research required".
+
+That's because the WCAG authors are reportedly considering a different algorithm, called <ExternalLink name="Accessible Perception Contrast Algorithm (APCA)"/>.
+
+APCA aims to produce results closer to how people perceive color, through two things:
+
+* addressing how the human brain perceives midtone colors, and
+* by treating light colors on a dark background differently to dark colors on a light background.
+
+<ExternalLink name="Google Scholar APCA" text="Google Scholar currently isn't showing any results for peer-reviewed papers that validate the science behind APCA"/>. APCA may have to go through such a process before it is suitable for widespread adoption.
+
+APCA was mentioned in earlier drafts of WCAG 3.0, but was since removed. So, right now, everything's up in the air.
+
+Until WCAG 3.0 settles on its new definition of color accessibility, we don't know for sure that APCA will be the next standard algorithm. Even if it is, there are some color pairs (such as white and orange) which pass under APCA while failing to meet the WCAG 2.2 AA standard.
+
+As a reminder: the WCAG 2.2 AA standard already is (or will be) the law both in the EU and in the USA. Whenever WCAG 3.0 comes out, it'll probably be another 3-5 years after that before legislation catches up.
+
+So what do we do until then?
+
+### Patching WCAG 2.2 While We Wait
+
+There's a few options available to anyone who is selecting color pairs to use.
+
+1. Follow the WCAG 2.2 AA standard, and try to follow the WCAG 2.2 AAA standard wherever possible.
+2. Start using something like APCA, but make sure color pairs also pass the WCAG 2.2 AA standard (for legal compliance).
+
+We think there's an easier way.
+
+Remember Andrew Morton's criticism that the WCAG 2.2 _contrast ratio_ formula doesn't take midtone colors properly into account? (Btw, Andrew is also the author of APCA.)
+
+What if we identify those problematic midtone colors and simply don't use them in our color pairs?
+
+## Stop Using Midtone Colors To Boost Accessibility
+
+### The Basic Premise
+
+* For great accessibility, use a color that has a _light_ shade with a color that has a _dark_ shade.
+* Avoid using two colors that have the same shade (i.e. two _light_ colors or two _dark_ colors).
+* Avoid using any midtone colors at all.
+
+Oh, and avoid using red/black color pairs. They're a special case related to color-blindness.
+
+### Rationale
+
+The WCAG 2.2 _color contrast_ formula has no real awareness of _midtone_ colors. As a result, it will give some color pairs an AA rating even though people find them quite hard to read in practice.
+
+As explained above, changing the WCAG 2.2 _color contrast_ formula runs into significant legal issues. We're stuck with it for the foreseeable future.
+
+We can't change the formula, but we can filter the results, and avoid using any color pairs that include a midtone color or pairing up two colors of the same shade.
+
+Any colors that pass this test will still comply with current and planned legislation, _and_ they'll be more accessible because they're guaranteed to be a _light_ color paired with a _dark_ color.
+
+### What's A Midtone Color?
+
+We define three color shades: light, dark, and midtone:
+
+<dl>
+    <dt>Light color</dt>
+    <dd>Any color that has a luma value above 191.</dd>
+    <dt>Midtone color</dt>
+    <dd>Any color that has a luma value between 128 and 191 inclusive.</dd>
+    <dt>Dark color</dt>
+    <dd>Any color that has a luma value below 128.</dd>
+</dl>
+
+The luma value is the Y component of the <ExternalLink name="YIQ Color Space" text="YIQ color space"/>. Luma values fall in the range 0-255, where 0 corresponds to black and 255 corresponds to white.
+
+Luma is basically old black and white TV. (YIQ was the color space for America's NTSC analogue broadcast standard.)
+
+Luma itself doesn't take human-perception of midtone colors into account, but it doesn't have to. That's the job of our classification.
+
+In general, humans perceive differences between light colors apart a lot easier than the differences between dark colors. To account for that, midtones don't fall bang in the middle on the luma range.
+
+We may adjust the midtone range in future releases, based on feedback and the publishing of further research into WCAG 3.0.
+
+### Filtering Out Midtones Gives Us Clear Contrast
+
+If we restrict color pairs so that they are always one _light_ shade and one _dark_ shade, we can say that such color pairs have _clear contrast_ between them.
+
+And, if we apply this filter to the existing WCAG 2.2 _color contrast_ standard, we can put together accessibility guidelines that help you go beyond minimum compliance.
+
+## How We Rate Accessibility
+
+We have four ratings for the accessibility of color pairs:
+
+<dl>
+    <dt>Very Accessible</dt>
+    <dd>WCAG AAA rating and clear contrast between the pair of colors</dd>
+    <dt>Fairly Accessible</dt>
+    <dd>WCAG AA rating and clear contrast between the pair of colors</dd>
+    <dt>Somewhat Accessible</dt>
+    <dd>WCAG AAA or AA rating, but no clear contrast between the pair of colors</dd>
+    <dt>Not Accessible</dt>
+    <dd>Does not meet WCAG AA rating</dd>
+</dl>
+
+You'll find these ratings on every color's dedicated web page, along with clear guidance on what you can safely use each color pair for - and what you cannot.
+
+To access a color's dedicated web page, find the color in one of the Color Collections in our docs.
