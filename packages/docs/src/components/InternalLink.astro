@@ -1,5 +1,8 @@
 ---
 
+export interface Props {
+    slug: string;
+}
 const { slug } = Astro.props;
 
 import { docList } from "./SiteNavigation";
@@ -14,4 +17,4 @@ const page = doc;
 
 ---
 
-<span class="inline internal-link"><a class="imprint-link" href={"/" + slug}><span class="doc-title">{page.data.title}</span>: <span class="doc-description">{trimEnd(page.data.description, ".")}</span></a></span>
+<span class="inline internal-link"><a class="imprint-link" href={"/" + slug}><span class="doc-title">{page.data.title}</span> - <span class="doc-description">{trimEnd(page.data.description, ".")}</span></a></span>

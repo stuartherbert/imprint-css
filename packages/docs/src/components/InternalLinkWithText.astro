@@ -1,0 +1,20 @@
+---
+
+export interface Props {
+    slug: string;
+    text: string;
+}
+const { slug, text } = Astro.props;
+
+import { docList } from "./SiteNavigation";
+
+// what is the requested doc?
+const doc = docList.get(slug);
+if (doc === undefined) {
+    throw new Error("unable to find doc for slug '" + slug + "'");
+}
+
+---
+
+<span class="inline internal-link"><a class="imprint-link" href={"/" + slug}>
+<span class="doc-title">{text}</span></a></span>
