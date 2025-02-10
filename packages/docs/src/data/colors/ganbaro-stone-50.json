@@ -1,27 +1,27 @@
 {
-  "name": "ganbaro-tan-300",
-  "jsName": "GANBARO_TAN_300",
-  "title": "ganbaro-tan-300",
+  "name": "ganbaro-stone-50",
+  "jsName": "GANBARO_STONE_50",
+  "title": "ganbaro-stone-50",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'ganbaro-tan-300'.",
-  "definition": "#9b9792",
-  "hex": "#9b9792",
+  "description": "Analysis of the color 'ganbaro-stone-50'.",
+  "definition": "#ebe7e2",
+  "hex": "#ebe7e2",
   "general": {
     "hues": [
-      "gray",
+      "white",
       "orange"
     ],
-    "tonality": "midtone",
+    "tonality": "light",
     "isDark": false,
-    "isMidtone": true,
-    "isLight": false,
-    "luma": 151.626,
-    "relativeLuminance": 0.311
+    "isMidtone": false,
+    "isLight": true,
+    "luma": 231.626,
+    "relativeLuminance": 0.803
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.6,
+    "contrastRatio": 1.1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,24 +40,24 @@
     "passableForUi": false
   },
   "pairedWithDarkColor": {
-    "clearContrast": false,
-    "contrastRatio": 5.4,
+    "clearContrast": true,
+    "contrastRatio": 12.9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
+      "AAA_normal": true,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AA",
+      "normal": "AAA",
       "ui": "AA"
     },
-    "recommendedForHeadings": false,
-    "passableForHeadings": false,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": false,
-    "passableForUi": false
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
   },
   "pairings": {
     "background": "#222222",

@@ -58,6 +58,7 @@ export default {
         "Flat UI Homepage": "https://designmodo.github.io/Flat-UI/",
         "Flat UI MIT License": "https://github.com/designmodo/Flat-UI/blob/master/LICENSE",
 
+        "Ganbaro Digital Homepage": "https://ganbarodigital.com",
         "Google Fonts": "https://fonts.google.com",
         "Google Scholar APCA": "https://scholar.google.com/scholar?hl=en&q=Accessible+Perception+Contrast+Algorithm+APCA",
 
