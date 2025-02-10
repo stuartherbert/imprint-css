@@ -6,12 +6,34 @@ prev: colors/imprint-css-collection
 next: colors/bootstrap-collection
 ---
 
+import { Picture } from "astro:assets";
+import colorPicker from "./macOS-color-picker@2x.png";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 
 ## Introduction
 
-SOMETHING HERE
+### Where Did The Apple Color Collection Come From?
+
+If you've ever used an Apple app on macOS, you've probably used the built-in system color picker to choose colors:
+
+<div class="flex justify-center">
+    <Picture src={colorPicker} decoding="async" loading="lazy" alt="macOS color picker" width={colorPicker.width / 1.5}/>
+</div>
+
+When you use it in 'Pencils' mode, the system color picker displays a collection of named colors.
+
+We've taken those colors and made them available in Imprint CSS, so that you can make websites and web-based apps that fit into the Apple color scheme.
+
+### How Did The Colors Get Their Names?
+
+All of the names in the Apple Color Collection are copied from the names shown in the macOS system color picker.
+
+### Intellectual Property Disclaimer
+
+These colors may be the intellectual property of Apple. There may be legal restrictions on when and how you can use these colors.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## Color Palette
 
