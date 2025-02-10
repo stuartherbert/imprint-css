@@ -10,10 +10,32 @@ import ColorPaletteBlocks from "../../../components/Colors/ColorPaletteBlocks.as
 import ColorPaletteSwatches from "../../../components/Colors/ColorPaletteSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import InternalLinkWithText from "../../../components/InternalLinkWithText.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 
 ## Introduction
 
-SOMETHING HERE
+### What Is The Bootstrap Color Collection?
+
+<ExternalLink name="Bootstrap Homepage" text="Bootstrap"/> is one of the original web frontend frameworks, and is still a popular choice today.
+
+<ExternalLink name="Bootstrap v5 Colors" text="It ships with a number of color palettes"/>. We've made those same colors available in Imprint CSS, so that you can make websites and web-based apps that fit alongside ones already made with Bootstrap.
+
+### Where Did The Color Names Come From?
+
+The Bootstrap framework names its colors (for example `$indigo` or `$indigo-500`).
+
+We've added a `bs-` prefix to each of the original Bootstrap color names:
+
+1. to prevent clashes with current (and future) <InternalLinkWithText slug="colors/css-extended-colors-collection" text="official CSS extended color names"/>, and
+2. to prevent clashes with colors from any other collections.
+
+### Intellectual Property Disclaimer
+
+These colors were taken from Bootstrap v5.3, which is released under <ExternalLink name="Bootstrap v5 MIT License" text="the MIT license"/>.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## Color Palettes
 
