@@ -44,6 +44,7 @@ export default {
     externalLinks: {
         "Accessible Perception Contrast Algorithm (APCA)": "https://git.apcacontrast.com",
         "Astro": "https://astro.build",
+
         "BBC GEL Spacing Units": "https://www.bbc.co.uk/gel/features/spacing-units",
         "BBC GEL Typography": "https://www.bbc.co.uk/gel/features/typography",
         "Brian Suda YIQ Algorithm": "https://24ways.org/2010/calculating-color-contrast/",
@@ -51,10 +52,17 @@ export default {
         "Bootstrap v5 Colors": "https://getbootstrap.com/docs/5.3/customize/color/#all-colors",
         "Bootstrap v5 Docs": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
         "Bootstrap v5 MIT License": "https://github.com/twbs/bootstrap/blob/main/LICENSE",
+
         "Creative Commons Attribution-ShareAlike 4.0 International Public License": "https://creativecommons.org/licenses/by-sa/4.0/",
+
+        "Flat UI Homepage": "https://designmodo.github.io/Flat-UI/",
+        "Flat UI MIT License": "https://github.com/designmodo/Flat-UI/blob/master/LICENSE",
+
         "Google Fonts": "https://fonts.google.com",
         "Google Scholar APCA": "https://scholar.google.com/scholar?hl=en&q=Accessible+Perception+Contrast+Algorithm+APCA",
+
         "IEC 61966-2-1": "https://webstore.iec.ch/en/publication/6169",
+
         "Mozilla MDN": "https://developer.mozilla.org/",
         "Mozilla MDN ARIA": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
         "Mozilla MDN Browser Detection": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent",
@@ -65,10 +73,13 @@ export default {
         "Mozilla MDN CSS Sizing Units": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
         "Mozilla MDN CSS Variables": "https://developer.mozilla.org/en-US/docs/Web/CSS/--*",
         "Mozilla MDN HTML Element Teletype Text": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt",
+
         "New BSD License": "https://opensource.org/license/bsd-3-clause",
         "NPMJS @imprintcss/color-collections": "https://npmjs.com/package/@imprintcss/color-collections",
         "NPMJS @safelytyped/css-color": "https://npmjs.com/package/@safelytyped/css-color",
+
         "Smashing Magazine Everything About Color Contrast And Why You Should Rethink It": "https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/",
+
         "Tailwind CSS": "https://tailwindcss/",
         "Tailwind CSS Default Spacing Scale": "https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale",
         "Tailwind CSS Font Family": "https://tailwindcss.com/docs/font-family",
@@ -77,7 +88,9 @@ export default {
         "Tailwind CSS Responsive Design": "https://tailwindcss.com/docs/responsive-design",
         "Tailwind CSS Screens": "https://tailwindcss.com/docs/screens",
         "Tailwind CSS Utility-First": "https://tailwindcss.com/docs/utility-first",
+
         "UK Gov Color Contrast": "https://accessibility.blog.gov.uk/2016/06/17/colour-contrast-why-does-it-matter/",
+
         "W3C CSS Media Queries": "https://drafts.csswg.org/mediaqueries",
         "W3C Content Accessibility Guide": "https://www.w3.org/TR/WCAG22/",
         "W3C WCAG 2.2 Contrast Ratio": "https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio",
@@ -88,7 +101,9 @@ export default {
         "W3C WCAG 2.2 Relative Luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance",
         "W3C WCAG 2.2 Text": "https://www.w3.org/TR/WCAG22/#dfn-text",
         "W3C WCAG 2.2 Understanding Minimum Contrast": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "Wikipedia Flat Design": "https://en.wikipedia.org/wiki/Flat_design",
         "Wikipedia The Dress": "https://en.wikipedia.org/wiki/The_dress",
+
         "YIQ Color Space": "https://en.wikipedia.org/wiki/YIQ",
     }
 }
