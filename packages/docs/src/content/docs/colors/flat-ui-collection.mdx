@@ -6,14 +6,40 @@ prev: colors/bootstrap-collection
 next: colors/ganbaro-digital-collection
 ---
 
+import ColorBlock from "../../../components/Colors/ColorBlock.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+
 
 ## Introduction
 
-SOMETHING HERE
+### What Is The Flat UI Color Collection?
+
+<ExternalLink name="Wikipedia Flat Design" text="Flat design"/> is a minimalist design language or design style that was popular with graphical user interfaces from around 2006-2018. Later design languages have built on the flat design principles of simplicity and minimalism while adding visual depth, motion and lighting to improve usability.
+
+<ExternalLink name="Flat UI Homepage" text="Flat UI by designmodo"/> is perhaps the flatest of all flat design frontend frameworks. It uses colors that are quite similar to the original 16-color VGA graphics of old. It provides complementary light and dark shades of each color.
+
+We've made those colors available in Imprint CSS because they create a look that encapsulates an era.
+
+### Where Did The Color Names Come From?
+
+Flat UI names all of its colors.
+
+We've just added the `flat-` prefix to the front of the color names, to keep them separate from colors from any other color collection.
+
+### Intellectual Property Disclaimer
+
+These colors were taken from Flat-UI Free, which is released under <ExternalLink name="Flat UI MIT License" text="the MIT license"/>.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## Color Palette
+
+### At A Glance
+
+<HowToUseTheseColors/>
 
 <ColorSwatches>
     <div class="docs-color-swatches-5">
@@ -53,3 +79,47 @@ SOMETHING HERE
     </div>
 </ColorSwatches>
 
+### Block Colors
+
+<div class="docs-color-blocks-2">
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-turquoise"/>
+        <ColorBlock colorName="flat-greensea"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-emerland"/>
+        <ColorBlock colorName="flat-nephritis"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-peterriver"/>
+        <ColorBlock colorName="flat-belizehole"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-amethyst"/>
+        <ColorBlock colorName="flat-wisteria"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-wetasphalt"/>
+        <ColorBlock colorName="flat-midnightblue"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-sunflower"/>
+        <ColorBlock colorName="flat-orange"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-carrot"/>
+        <ColorBlock colorName="flat-pumpkin"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-alizarin"/>
+        <ColorBlock colorName="flat-pomegranate"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-clouds"/>
+        <ColorBlock colorName="flat-silver"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="flat-concrete"/>
+        <ColorBlock colorName="flat-asbestos"/>
+    </div>
+</div>
