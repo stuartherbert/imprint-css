@@ -6,14 +6,40 @@ prev: colors/imprint-css-collection
 next: colors/bootstrap-collection
 ---
 
+import { Picture } from "astro:assets";
+import colorPicker from "./macOS-color-picker@2x.png";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ColorBlock from "../../../components/Colors/ColorBlock.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 
 ## Introduction
 
-SOMETHING HERE
+### Where Did The Apple Color Collection Come From?
+
+If you've ever used an Apple app on macOS, you've probably used the built-in system color picker to choose colors:
+
+<div class="flex justify-center">
+    <Picture src={colorPicker} decoding="async" loading="lazy" alt="macOS color picker" width={colorPicker.width / 1.5}/>
+</div>
+
+When you use it in 'Pencils' mode, the system color picker displays a collection of named colors.
+
+We've taken those colors and made them available in Imprint CSS, so that you can make websites and web-based apps that fit into the Apple color scheme.
+
+### How Did The Colors Get Their Names?
+
+All of the names in the Apple Color Collection are copied from the names shown in the macOS system color picker.
+
+### Intellectual Property Disclaimer
+
+These colors may be the intellectual property of Apple. There may be legal restrictions on when and how you can use these colors.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## Color Palette
+
+<HowToUseTheseColors/>
 
 ### macOS Colors
 
@@ -82,3 +108,64 @@ SOMETHING HERE
         <ColorSwatch colorName="apple-carnation"/>
     </div>
 </ColorSwatches>
+
+### Block Colors
+
+<div class="docs-color-blocks-2">
+    <div class="--standout-md">
+        <ColorBlock colorName="apple-licorice"/>
+        <ColorBlock colorName="apple-lead"/>
+        <ColorBlock colorName="apple-tungsten"/>
+        <ColorBlock colorName="apple-iron"/>
+        <ColorBlock colorName="apple-steel"/>
+        <ColorBlock colorName="apple-tin"/>
+        <ColorBlock colorName="apple-nickel"/>
+        <ColorBlock colorName="apple-aluminium"/>
+        <ColorBlock colorName="apple-magnesium"/>
+        <ColorBlock colorName="apple-silver"/>
+        <ColorBlock colorName="apple-mercury"/>
+        <ColorBlock colorName="apple-snow"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="apple-cayenne"/>
+        <ColorBlock colorName="apple-mocha"/>
+        <ColorBlock colorName="apple-asparagus"/>
+        <ColorBlock colorName="apple-fern"/>
+        <ColorBlock colorName="apple-clover"/>
+        <ColorBlock colorName="apple-moss"/>
+        <ColorBlock colorName="apple-teal"/>
+        <ColorBlock colorName="apple-ocean"/>
+        <ColorBlock colorName="apple-midnight"/>
+        <ColorBlock colorName="apple-eggplant"/>
+        <ColorBlock colorName="apple-plum"/>
+        <ColorBlock colorName="apple-maroon"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="apple-maraschino"/>
+        <ColorBlock colorName="apple-tangerine"/>
+        <ColorBlock colorName="apple-lemon"/>
+        <ColorBlock colorName="apple-lime"/>
+        <ColorBlock colorName="apple-spring"/>
+        <ColorBlock colorName="apple-seafoam"/>
+        <ColorBlock colorName="apple-turquoise"/>
+        <ColorBlock colorName="apple-aqua"/>
+        <ColorBlock colorName="apple-blueberry"/>
+        <ColorBlock colorName="apple-grape"/>
+        <ColorBlock colorName="apple-magento"/>
+        <ColorBlock colorName="apple-strawberry"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="apple-salmon"/>
+        <ColorBlock colorName="apple-cantaloupe"/>
+        <ColorBlock colorName="apple-banana"/>
+        <ColorBlock colorName="apple-honeydew"/>
+        <ColorBlock colorName="apple-flora"/>
+        <ColorBlock colorName="apple-spindrift"/>
+        <ColorBlock colorName="apple-ice"/>
+        <ColorBlock colorName="apple-sky"/>
+        <ColorBlock colorName="apple-orchid"/>
+        <ColorBlock colorName="apple-lavender"/>
+        <ColorBlock colorName="apple-bubblegum"/>
+        <ColorBlock colorName="apple-carnation"/>
+    </div>
+</div>
