@@ -1,29 +1,27 @@
 {
-  "name": "ganbaro-tan-a700",
-  "jsName": "GANBARO_TAN_A700",
-  "title": "ganbaro-tan-a700",
+  "name": "ganbaro-stone-700",
+  "jsName": "GANBARO_STONE_700",
+  "title": "ganbaro-stone-700",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'ganbaro-tan-a700'.",
-  "definition": "#3e393c",
-  "hex": "#3e393c",
+  "description": "Analysis of the color 'ganbaro-stone-700'.",
+  "definition": "#3b3732",
+  "hex": "#3b3732",
   "general": {
     "hues": [
       "gray",
-      "magenta",
-      "fuchsia",
-      "purple"
+      "orange"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 58.837,
-    "relativeLuminance": 0.042
+    "luma": 55.626,
+    "relativeLuminance": 0.038
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 10.4,
+    "contrastRatio": 10.9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -43,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 1.4,
+    "contrastRatio": 1.3,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,

@@ -135,7 +135,7 @@ export const GANBARO_COLORS: CssColorCollection = {
         "A400": makeCssHexColorDefinition("#808591"),
         "A700": makeCssHexColorDefinition("#494c52"),
     },
-    "ganbaro-tan": {
+    "ganbaro-stone": {
         "50": makeCssHexColorDefinition("#ebe7e2"),
         "100": makeCssHexColorDefinition("#dbd7d2"),
         "200": makeCssHexColorDefinition("#aba7a2"),
