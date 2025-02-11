@@ -1068,6 +1068,7 @@ export const MISC_MALACHITE = ALL_COLORS["misc-malachite"];
 export const MISC_MARENGO = ALL_COLORS["misc-marengo"];
 export const MISC_MAUVE = ALL_COLORS["misc-mauve"];
 export const MISC_MEDIUMTAUPE = ALL_COLORS["misc-mediumtaupe"];
+export const MISC_MEDIUMVERMILION = ALL_COLORS["misc-mediumvermilion"];
 export const MISC_MEXICANPINK = ALL_COLORS["misc-mexicanpink"];
 export const MISC_MIDMOSSGREEN = ALL_COLORS["misc-midmossgreen"];
 export const MISC_MIDNIGHTGREEN = ALL_COLORS["misc-midnightgreen"];
