@@ -1128,6 +1128,7 @@ export const MISC_VIOLET = ALL_COLORS["misc-violet"];
 export const MISC_VIRIDIAN = ALL_COLORS["misc-viridian"];
 export const MISC_VIVIDVIOLET = ALL_COLORS["misc-vividviolet"];
 export const MISC_WINEDREGS = ALL_COLORS["misc-winedregs"];
+export const MISC_XANTHOUS = ALL_COLORS["misc-xanthous"];
 export const MISC_ZARQA = ALL_COLORS["misc-zarqa"];
 export const MSU_GREEN = ALL_COLORS["msu-green"];
 export const MUNSELL_BLUE = ALL_COLORS["munsell-blue"];
