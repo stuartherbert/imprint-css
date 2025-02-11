@@ -267,6 +267,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-madder": makeCssHexColorDefinition("#a50021"),
     "misc-magentadye": makeCssHexColorDefinition("#ca1f7b"),
     "misc-mahogany": makeCssHexColorDefinition("#c04000"),
+    "misc-mahoganybrown": makeCssHexColorDefinition("#4c2b20"),
     "misc-malachite": makeCssHexColorDefinition("#0bda51"),
     "misc-marengo": makeCssHexColorDefinition("#4c5866"),
     "misc-mauve": makeCssHexColorDefinition("#e0b0ff"),
