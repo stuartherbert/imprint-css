@@ -55,6 +55,8 @@ export default {
         "Bootstrap v5 Docs": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
         "Bootstrap v5 MIT License": "https://github.com/twbs/bootstrap/blob/main/LICENSE",
 
+        "Colorlib Metro Colors": "https://colorlib.com/etc/metro-colors.html",
+
         "Creative Commons Attribution-ShareAlike 4.0 International Public License": "https://creativecommons.org/licenses/by-sa/4.0/",
 
         "Flat UI Homepage": "https://designmodo.github.io/Flat-UI/",
