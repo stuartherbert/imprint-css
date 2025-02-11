@@ -5,22 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-amber'.",
-  "definition": "#f0a30a",
-  "hex": "#f0a30a",
+  "definition": "#ffca2a",
+  "hex": "#ffca2a",
   "general": {
     "hues": [
       "orange"
     ],
-    "tonality": "midtone",
+    "tonality": "light",
     "isDark": false,
-    "isMidtone": true,
-    "isLight": false,
-    "luma": 168.581,
-    "relativeLuminance": 0.447
+    "isMidtone": false,
+    "isLight": true,
+    "luma": 199.607,
+    "relativeLuminance": 0.636
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.9,
+    "contrastRatio": 1.4,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -39,8 +39,8 @@
     "passableForUi": false
   },
   "pairedWithDarkColor": {
-    "clearContrast": false,
-    "contrastRatio": 7.5,
+    "clearContrast": true,
+    "contrastRatio": 10.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -52,11 +52,11 @@
       "normal": "AAA",
       "ui": "AA"
     },
-    "recommendedForHeadings": false,
-    "passableForHeadings": false,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": false,
-    "passableForUi": false
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
   },
   "pairings": {
     "background": "#222222",

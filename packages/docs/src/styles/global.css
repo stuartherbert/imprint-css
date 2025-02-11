@@ -256,6 +256,10 @@ nav.pagetoc-ol {
     @apply grid grid-cols-1 gap-2 b:grid-cols-2;
 }
 
+.docs-color-blocks-2wide {
+    @apply grid grid-cols-1 gap-x-2 b:grid-cols-2;
+}
+
 .docs-color-swatches, .docs-color-swatches-5 {
     @apply grid grid-cols-2 gap-2 b:grid-cols-3 d:grid-cols-4 f:grid-cols-5;
 }

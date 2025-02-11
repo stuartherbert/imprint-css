@@ -1,22 +1,24 @@
 {
-  "name": "metro-yellow",
-  "jsName": "METRO_YELLOW",
-  "title": "metro-yellow",
+  "name": "metro-nude",
+  "jsName": "METRO_NUDE",
+  "title": "metro-nude",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'metro-yellow'.",
-  "definition": "#ffde21",
-  "hex": "#ffde21",
+  "description": "Analysis of the color 'metro-nude'.",
+  "definition": "#f7d9be",
+  "hex": "#f7d9be",
   "general": {
     "hues": [
+      "white",
+      "red",
       "orange"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 210.321,
-    "relativeLuminance": 0.736
+    "luma": 222.892,
+    "relativeLuminance": 0.731
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -40,7 +42,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 11.9,
+    "contrastRatio": 11.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

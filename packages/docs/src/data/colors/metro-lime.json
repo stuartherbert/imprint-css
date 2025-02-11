@@ -5,23 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-lime'.",
-  "definition": "#a4c400",
-  "hex": "#a4c400",
+  "definition": "#aefd6c",
+  "hex": "#aefd6c",
   "general": {
     "hues": [
-      "yellow",
-      "lime"
+      "chartreuse"
     ],
-    "tonality": "midtone",
+    "tonality": "light",
     "isDark": false,
-    "isMidtone": true,
-    "isLight": false,
-    "luma": 164.088,
-    "relativeLuminance": 0.473
+    "isMidtone": false,
+    "isLight": true,
+    "luma": 212.849,
+    "relativeLuminance": 0.803
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.8,
+    "contrastRatio": 1.1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,8 +39,8 @@
     "passableForUi": false
   },
   "pairedWithDarkColor": {
-    "clearContrast": false,
-    "contrastRatio": 7.9,
+    "clearContrast": true,
+    "contrastRatio": 12.9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -53,11 +52,11 @@
       "normal": "AAA",
       "ui": "AA"
     },
-    "recommendedForHeadings": false,
-    "passableForHeadings": false,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": false,
-    "passableForUi": false
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
   },
   "pairings": {
     "background": "#222222",

@@ -1,26 +1,27 @@
 {
-  "name": "metro-yellow",
-  "jsName": "METRO_YELLOW",
-  "title": "metro-yellow",
+  "name": "metro-coral",
+  "jsName": "METRO_CORAL",
+  "title": "metro-coral",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'metro-yellow'.",
-  "definition": "#ffde21",
-  "hex": "#ffde21",
+  "description": "Analysis of the color 'metro-coral'.",
+  "definition": "#ff8559",
+  "hex": "#ff8559",
   "general": {
     "hues": [
-      "orange"
+      "red",
+      "brown"
     ],
-    "tonality": "light",
+    "tonality": "midtone",
     "isDark": false,
-    "isMidtone": false,
-    "isLight": true,
-    "luma": 210.321,
-    "relativeLuminance": 0.736
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 164.462,
+    "relativeLuminance": 0.387
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.2,
+    "contrastRatio": 2.2,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -39,24 +40,24 @@
     "passableForUi": false
   },
   "pairedWithDarkColor": {
-    "clearContrast": true,
-    "contrastRatio": 11.9,
+    "clearContrast": false,
+    "contrastRatio": 6.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": true,
+      "AAA_normal": false,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AAA",
+      "normal": "AA",
       "ui": "AA"
     },
-    "recommendedForHeadings": true,
-    "passableForHeadings": true,
-    "recommendedForBodyContent": true,
-    "passableForBodyContent": true,
-    "passableForUi": true
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
   },
   "pairings": {
     "background": "#222222",

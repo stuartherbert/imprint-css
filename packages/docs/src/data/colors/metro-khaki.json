@@ -1,12 +1,12 @@
 {
-  "name": "metro-yellow",
-  "jsName": "METRO_YELLOW",
-  "title": "metro-yellow",
+  "name": "metro-khaki",
+  "jsName": "METRO_KHAKI",
+  "title": "metro-khaki",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'metro-yellow'.",
-  "definition": "#ffde21",
-  "hex": "#ffde21",
+  "description": "Analysis of the color 'metro-khaki'.",
+  "definition": "#d5c58a",
+  "hex": "#d5c58a",
   "general": {
     "hues": [
       "orange"
@@ -15,12 +15,12 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 210.321,
-    "relativeLuminance": 0.736
+    "luma": 195.058,
+    "relativeLuminance": 0.559
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.2,
+    "contrastRatio": 1.5,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 11.9,
+    "contrastRatio": 9.2,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
