@@ -6,14 +6,30 @@ prev: colors/tailwind3-collection
 ---
 
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
+import ColorCollectionHues from "../../../components/Colors/ColorCollectionHues.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
 ## Introduction
 
 ### What Is The Miscellaneous Colors Collection?
 
+The Miscellaneous Colors Collection is our collection of colors that don't (currently!) need their own dedicated Color Collection page in our docs.
 
+### Where Did The Colors Come From?
+
+These colors are all taken from Wikipedia: either <ExternalLink name="Wikipedia List of Colors by Shade"/>, or:
+
+* <ExternalLink name="Wikipedia Shades of Red"/>
+
+or from Wikipedia pages linked to those pages.
+
+### Intellectual Property Disclaimer
+
+Wikipedia is published under the <ExternalLink name="Wikipeda Creative Commons Attribution-ShareAlike 4.0 License" text="Creative Commons Attribution-ShareAlike 4.0 License"/>.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## Color Sets
 
@@ -29,7 +45,7 @@ import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 
 <ColorCollection colorGroup="misc" prefix="encycolorpedia"/>
 
-### ISCC Colors
+### ISCC-NBS Colors
 
 <ColorCollection colorGroup="misc" prefix="iscc"/>
 
@@ -44,6 +60,16 @@ import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 ### NCS Colors
 
 <ColorCollection colorGroup="misc" prefix="ncs"/>
+
+### Persian Colors
+
+These colors were originally defined in the ISCC-NBS system. We've split them out because they form a related set of colors on their own (just like the Spanish colors do below).
+
+<ColorCollection colorGroup="misc" prefix="persian"/>
+
+### Pourpre Colors
+
+<ColorCollection colorGroup="misc" prefix="pourpre"/>
 
 ### Plochere Colors
 
@@ -69,20 +95,12 @@ import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 
 These colors don't fall into any of the other groups.
 
-<ColorCollection colorGroup="misc" exclude="cmyk,crayola,encycolorpedia,iscc,misc,munsell,ncs,plochere,resene,spanish,trad,xona"/>
+<ColorCollection colorGroup="misc" exclude="cmyk,crayola,encycolorpedia,iscc,misc,munsell,ncs,persian,plochere,pourpre,resene,spanish,trad,xona"/>
 
-## Color Hues
+## Discussion
 
-### Reds
+### Why No Pantone Colors?
 
-<ColorSwatches>
-    <div class="docs-color-swatches">
-        <ColorSwatch colorName="trad-amaranthred"/>
-        <ColorSwatch colorName="trad-amaranthpink"/>
-        <ColorSwatch colorName="trad-brightamaranthpink"/>
-        <ColorSwatch colorName="trad-amaranthred"/>
-        <ColorSwatch colorName="trad-amaranthpurple"/>
-        <ColorSwatch colorName="trad-amaranthdeeppurple"/>
-        <ColorSwatch colorName="trad-alizarin"/>
-    </div>
-</ColorSwatches>
+We'd love to make Pantone's colors available in Imprint CSS. For many design professionals, they're the biggest name in color.
+
+Unfortunately, <ExternalLink name="Wikipedia Pantone" text="according to Wikipedia"/>, Pantone asserts that their lists of color numbers and pigment values are the intellectual property of Pantone and free use of the list is not allowed.
