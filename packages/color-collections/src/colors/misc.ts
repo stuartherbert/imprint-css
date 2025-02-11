@@ -317,6 +317,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-shockingpink": makeCssHexColorDefinition("#fc0fc0"),
     "misc-skymagenta": makeCssHexColorDefinition("#cf71af"),
     "misc-splashedwhite": makeCssHexColorDefinition("#fefdff"),
+    "misc-terracotta": makeCssHexColorDefinition("#e2725b"),
     "misc-turkeyred": makeCssHexColorDefinition("#a91101"),
     "misc-ultramarine": makeCssHexColorDefinition("#3f00ff"),
     "misc-upmaroon": makeCssHexColorDefinition("#8a1538"),
