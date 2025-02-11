@@ -1039,6 +1039,7 @@ export const MISC_CORALRED = ALL_COLORS["misc-coralred"];
 export const MISC_CORDOVAN = ALL_COLORS["misc-cordovan"];
 export const MISC_DARKESTMOSSGREEN = ALL_COLORS["misc-darkestmossgreen"];
 export const MISC_DARKMOSSGREEN = ALL_COLORS["misc-darkmossgreen"];
+export const MISC_DEEPSAFFRON = ALL_COLORS["misc-deepsaffron"];
 export const MISC_EBONY = ALL_COLORS["misc-ebony"];
 export const MISC_ELECTRICBLUE = ALL_COLORS["misc-electricblue"];
 export const MISC_ELECTRICVIOLET = ALL_COLORS["misc-electricviolet"];
