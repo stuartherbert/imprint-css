@@ -832,6 +832,7 @@ export const METRO_TERRACOTTA = ALL_COLORS["metro-terracotta"];
 export const METRO_VIOLET = ALL_COLORS["metro-violet"];
 export const METRO_YELLOW = ALL_COLORS["metro-yellow"];
 export const ANSI_SAFETYYELLOW = ALL_COLORS["ansi-safetyyellow"];
+export const ANSI_SAFETYORANGE = ALL_COLORS["ansi-safetyorange"];
 export const BAKER_MILLER_PINK = ALL_COLORS["baker-miller-pink"];
 export const BEHR_CARIBBEANCURRENT = ALL_COLORS["behr-caribbeancurrent"];
 export const BSC_BRUNSWICKGREEN = ALL_COLORS["bsc-brunswickgreen"];
