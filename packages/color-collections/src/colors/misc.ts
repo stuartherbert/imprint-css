@@ -404,6 +404,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "up-forestgreen": makeCssHexColorDefinition("#014421"),
     "uta-burntorange": makeCssHexColorDefinition("#bf5700"),
     "ut-orange": makeCssHexColorDefinition("#ff8200"),
+    "x11-lightgoldenrod": makeCssHexColorDefinition("#ffec8b"),
     "xona-blackbean": makeCssHexColorDefinition("#3d0c02"),
     "xona-burntumber": makeCssHexColorDefinition("#8a3324"),
     "xona-deeppinklight": makeCssHexColorDefinition("#ff5ccd"),
