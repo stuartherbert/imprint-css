@@ -40,6 +40,7 @@ import { GANBARO_COLORS } from "../colors/ganbaro";
 import { IMPRINT_COLORS } from "../colors/imprint";
 import { KM_COLORS } from "../colors/kevin-muldoon";
 import { MATERIAL_COLORS } from "../colors/material-design";
+import { MATMET_COLORS } from "../colors/material-ui-metro";
 import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
 import { MSDL_COLORS } from "../colors/msdl";
@@ -57,6 +58,7 @@ export const ALL_COLORS: CssColorDefinitions = {
     ...IMPRINT_COLORS,
     ...KM_COLORS,
     ...collectionToDefinitions(MATERIAL_COLORS),
+    ...MATMET_COLORS,
     ...METRO_COLORS,
     ...MISC_COLORS,
     ...collectionToDefinitions(MSDL_COLORS),

@@ -42,6 +42,8 @@ export default {
         },
     ] as const,
     externalLinks: {
+        "7Span Homepage": "https://7span.com/",
+
         "Accessible Perception Contrast Algorithm (APCA)": "https://git.apcacontrast.com",
         "Astro": "https://astro.build",
 
@@ -64,7 +66,10 @@ export default {
 
         "IEC 61966-2-1": "https://webstore.iec.ch/en/publication/6169",
 
-        "MaterialUI Metro Colors": "https://materialui.co/metrocolors",
+        "MaterialUI Homepage": "https://materialui.co/metrocolors",
+        "MaterialUI Metro Colors": "https://materialui.co",
+        "MaterialUI 2016 Homepage": "https://web.archive.org/web/20161029093039/https://www.materialui.co/",
+        "MaterialUI Jun 24 2021 Homepage": "https://web.archive.org/web/20210624215031/https://www.materialui.co/",
 
         "Material Design v2": "https://m2.material.io/design",
         "Material Design 2014 Colors": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors",
