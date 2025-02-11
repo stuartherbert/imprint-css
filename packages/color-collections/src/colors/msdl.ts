@@ -36,6 +36,27 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
 
 export const MSDL_COLORS: CssColorCollection = {
+    // taken from https://colorlib.com/etc/metro-colors.html
+    // on 2025-02-11
+    "msdl1-lightgreen": makeCssHexColorDefinition("#99b433"),
+    "msdl1-green": makeCssHexColorDefinition("#00a300"),
+    "msdl1-darkgreen": makeCssHexColorDefinition("#1e7145"),
+    "msdl1-magenta": makeCssHexColorDefinition("#ff0097"),
+    "msdl1-lightpurple": makeCssHexColorDefinition("#9f00a7"),
+    "msdl1-purple": makeCssHexColorDefinition("#7e3878"),
+    "msdl1-darkpurple": makeCssHexColorDefinition("#603cba"),
+    "msdl1-darken": makeCssHexColorDefinition("#1d1d1d"),
+    "msdl1-teal": makeCssHexColorDefinition("#00aba9"),
+    "msdl1-lightblue": makeCssHexColorDefinition("#eff4ff"),
+    "msdl1-blue": makeCssHexColorDefinition("#2d89ef"),
+    "msdl1-darkblue": makeCssHexColorDefinition("#2b5797"),
+    "msdl1-yellow": makeCssHexColorDefinition("#ffc40d"),
+    "msdl1-orange": makeCssHexColorDefinition("#e3a21a"),
+    "msdl1-darkorange": makeCssHexColorDefinition("#da532c"),
+    "msdl1-red": makeCssHexColorDefinition("#ee1111"),
+    "msdl1-darkred": makeCssHexColorDefinition("#b91d47"),
+    "msdl1-white": makeCssHexColorDefinition("#fff"),
+
     "msdl-bilbao": {
         "1": makeCssHexColorDefinition("#498205"),
         "2": makeCssHexColorDefinition("#599b00"),
