@@ -43,7 +43,8 @@ import { MATERIAL_COLORS } from "../colors/material-design";
 import { MATMET_COLORS } from "../colors/material-ui-metro";
 import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
-import { MSDL_COLORS } from "../colors/msdl";
+import { MSDL1_COLORS } from "../colors/msdl1";
+import { MSDL2_COLORS } from "../colors/msdl2";
 import { SOCIAL_COLORS } from "../colors/social";
 import { TAILWIND3_COLORS } from "../colors/tailwind3";
 
@@ -59,7 +60,8 @@ export const ALL_COLOR_COLLECTIONS = {
     matmet: MATMET_COLORS,
     metro: METRO_COLORS,
     misc: MISC_COLORS,
-    msdl: MSDL_COLORS,
+    msdl1: MSDL1_COLORS,
+    msdl2: MSDL2_COLORS,
     social: SOCIAL_COLORS,
     tailwind3: TAILWIND3_COLORS,
 };

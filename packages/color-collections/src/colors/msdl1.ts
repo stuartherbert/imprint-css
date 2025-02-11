@@ -32,40 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { APPLE_COLORS } from "../colors/apple";
-import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
-import { CSS_EXTENDED_COLORS } from "../colors/css";
-import { FLAT_COLORS } from "../colors/flat";
-import { GANBARO_COLORS } from "../colors/ganbaro";
-import { IMPRINT_COLORS } from "../colors/imprint";
-import { KM_COLORS } from "../colors/kevin-muldoon";
-import { MATERIAL_COLORS } from "../colors/material-design";
-import { MATMET_COLORS } from "../colors/material-ui-metro";
-import { METRO_COLORS } from "../colors/metro";
-import { MISC_COLORS } from "../colors/misc";
-import { MSDL1_COLORS } from "../colors/msdl1";
-import { MSDL2_COLORS } from "../colors/msdl2";
-import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND3_COLORS } from "../colors/tailwind3";
-import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
+import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const ALL_COLORS: CssColorDefinitions = {
-    ...APPLE_COLORS,
-    ...collectionToDefinitions(BOOTSTRAP_COLORS),
-    ...CSS_EXTENDED_COLORS,
-    ...FLAT_COLORS,
-    ...collectionToDefinitions(GANBARO_COLORS),
-    ...IMPRINT_COLORS,
-    ...KM_COLORS,
-    ...collectionToDefinitions(MATERIAL_COLORS),
-    ...MATMET_COLORS,
-    ...METRO_COLORS,
-    ...MISC_COLORS,
-    ...MSDL1_COLORS,
-    ...collectionToDefinitions(MSDL2_COLORS),
-    ...SOCIAL_COLORS,
-    ...collectionToDefinitions(TAILWIND3_COLORS)
+export const MSDL1_COLORS: CssColorDefinitions = {
+    // taken from https://colorlib.com/etc/metro-colors.html
+    // on 2025-02-11
+    "msdl1-lightgreen": makeCssHexColorDefinition("#99b433"),
+    "msdl1-green": makeCssHexColorDefinition("#00a300"),
+    "msdl1-darkgreen": makeCssHexColorDefinition("#1e7145"),
+    "msdl1-magenta": makeCssHexColorDefinition("#ff0097"),
+    "msdl1-lightpurple": makeCssHexColorDefinition("#9f00a7"),
+    "msdl1-purple": makeCssHexColorDefinition("#7e3878"),
+    "msdl1-darkpurple": makeCssHexColorDefinition("#603cba"),
+    "msdl1-darken": makeCssHexColorDefinition("#1d1d1d"),
+    "msdl1-teal": makeCssHexColorDefinition("#00aba9"),
+    "msdl1-lightblue": makeCssHexColorDefinition("#eff4ff"),
+    "msdl1-blue": makeCssHexColorDefinition("#2d89ef"),
+    "msdl1-darkblue": makeCssHexColorDefinition("#2b5797"),
+    "msdl1-yellow": makeCssHexColorDefinition("#ffc40d"),
+    "msdl1-orange": makeCssHexColorDefinition("#e3a21a"),
+    "msdl1-darkorange": makeCssHexColorDefinition("#da532c"),
+    "msdl1-red": makeCssHexColorDefinition("#ee1111"),
+    "msdl1-darkred": makeCssHexColorDefinition("#b91d47"),
+    "msdl1-white": makeCssHexColorDefinition("#fff"),
 };
-
-// console.log(ALL_COLORS);

@@ -35,29 +35,8 @@
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorCollection } from "../types/CssColorCollection/CssColorCollection.type";
 
-export const MSDL_COLORS: CssColorCollection = {
-    // taken from https://colorlib.com/etc/metro-colors.html
-    // on 2025-02-11
-    "msdl1-lightgreen": makeCssHexColorDefinition("#99b433"),
-    "msdl1-green": makeCssHexColorDefinition("#00a300"),
-    "msdl1-darkgreen": makeCssHexColorDefinition("#1e7145"),
-    "msdl1-magenta": makeCssHexColorDefinition("#ff0097"),
-    "msdl1-lightpurple": makeCssHexColorDefinition("#9f00a7"),
-    "msdl1-purple": makeCssHexColorDefinition("#7e3878"),
-    "msdl1-darkpurple": makeCssHexColorDefinition("#603cba"),
-    "msdl1-darken": makeCssHexColorDefinition("#1d1d1d"),
-    "msdl1-teal": makeCssHexColorDefinition("#00aba9"),
-    "msdl1-lightblue": makeCssHexColorDefinition("#eff4ff"),
-    "msdl1-blue": makeCssHexColorDefinition("#2d89ef"),
-    "msdl1-darkblue": makeCssHexColorDefinition("#2b5797"),
-    "msdl1-yellow": makeCssHexColorDefinition("#ffc40d"),
-    "msdl1-orange": makeCssHexColorDefinition("#e3a21a"),
-    "msdl1-darkorange": makeCssHexColorDefinition("#da532c"),
-    "msdl1-red": makeCssHexColorDefinition("#ee1111"),
-    "msdl1-darkred": makeCssHexColorDefinition("#b91d47"),
-    "msdl1-white": makeCssHexColorDefinition("#fff"),
-
-    "msdl-bilbao": {
+export const MSDL2_COLORS: CssColorCollection = {
+    "msdl2-bilbao": {
         "1": makeCssHexColorDefinition("#498205"),
         "2": makeCssHexColorDefinition("#599b00"),
         "3": makeCssHexColorDefinition("#6bb700"),
@@ -66,8 +45,8 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#b7df74"),
         "7": makeCssHexColorDefinition("#d5e5ae"),
     },
-    "msdl-black": makeCssHexColorDefinition("#000"),
-    "msdl-blue": {
+    "msdl2-black": makeCssHexColorDefinition("#000"),
+    "msdl2-blue": {
         "1": makeCssHexColorDefinition("#00188f"),
         "2": makeCssHexColorDefinition("#0027b4"),
         "3": makeCssHexColorDefinition("#0037da"),
@@ -76,7 +55,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#7ba7ff"),
         "7": makeCssHexColorDefinition("#abc9ed"),
     },
-    "msdl-bluelagoon": {
+    "msdl2-bluelagoon": {
         "1": makeCssHexColorDefinition("#005b70"),
         "2": makeCssHexColorDefinition("#006f94"),
         "3": makeCssHexColorDefinition("#0099bc"),
@@ -85,7 +64,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#69eaff"),
         "7": makeCssHexColorDefinition("#99ecff"),
     },
-    "msdl-brown": {
+    "msdl2-brown": {
         "1": makeCssHexColorDefinition("#ab620d"),
         "2": makeCssHexColorDefinition("#d48c00"),
         "3": makeCssHexColorDefinition("#eaa300"),
@@ -94,7 +73,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#ffd679"),
         "7": makeCssHexColorDefinition("#ffe5b6"),
     },
-    "msdl-christalle": {
+    "msdl2-christalle": {
         "1": makeCssHexColorDefinition("#401b6c"),
         "2": makeCssHexColorDefinition("#4e257f"),
         "3": makeCssHexColorDefinition("#5c2e91"),
@@ -102,7 +81,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#8764b8"),
         "6": makeCssHexColorDefinition("#cfc4f5"),
     },
-    "msdl-christi": {
+    "msdl2-christi": {
         "1": makeCssHexColorDefinition("#73aa24"),
         "2": makeCssHexColorDefinition("#8cbd18"),
         "3": makeCssHexColorDefinition("#a4cf0c"),
@@ -111,7 +90,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#e4f577"),
         "7": makeCssHexColorDefinition("#f8ffb3"),
     },
-    "msdl-deepkoamaru": {
+    "msdl2-deepkoamaru": {
         "1": makeCssHexColorDefinition("#373277"),
         "2": makeCssHexColorDefinition("#49409a"),
         "3": makeCssHexColorDefinition("#5a4ebc"),
@@ -119,7 +98,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#8378de"),
         "6": makeCssHexColorDefinition("#b5b5e2"),
     },
-    "msdl-eggplant": {
+    "msdl2-eggplant": {
         "1": makeCssHexColorDefinition("#77004d"),
         "2": makeCssHexColorDefinition("#9b0062"),
         "3": makeCssHexColorDefinition("#bf0077"),
@@ -127,7 +106,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#e43ba6"),
         "6": makeCssHexColorDefinition("#e8a3de"),
     },
-    "msdl-falured": {
+    "msdl2-falured": {
         "1": makeCssHexColorDefinition("#7f1d10"),
         "2": makeCssHexColorDefinition("#a52613"),
         "3": makeCssHexColorDefinition("#da3b01"),
@@ -136,7 +115,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#ee9889"),
         "7": makeCssHexColorDefinition("#eec7c2"),
     },
-    "msdl-fungreen": {
+    "msdl2-fungreen": {
         "1": makeCssHexColorDefinition("#00722e"),
         "2": makeCssHexColorDefinition("#10893e"),
         "3": makeCssHexColorDefinition("#00ae56"),
@@ -145,7 +124,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#70dda5"),
         "7": makeCssHexColorDefinition("#a8e5c2"),
     },
-    "msdl-gablegreen": {
+    "msdl2-gablegreen": {
         "1": makeCssHexColorDefinition("#2d3f3a"),
         "2": makeCssHexColorDefinition("#3b534d"),
         "3": makeCssHexColorDefinition("#486860"),
@@ -154,7 +133,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#a3bfb7"),
         "7": makeCssHexColorDefinition("#cae0d9"),
     },
-    "msdl-gray": {
+    "msdl2-gray": {
         "1": makeCssHexColorDefinition("#1f1f1f"),
         "2": makeCssHexColorDefinition("#2b2b2b"),
         "3": makeCssHexColorDefinition("#393939"),
@@ -163,7 +142,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#e6e6e6"),
         "7": makeCssHexColorDefinition("#f2f2f2"),
     },
-    "msdl-green": {
+    "msdl2-green": {
         "1": makeCssHexColorDefinition("#0b6a0b"),
         "2": makeCssHexColorDefinition("#107c10"),
         "3": makeCssHexColorDefinition("#13a10e"),
@@ -172,7 +151,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#79db75"),
         "7": makeCssHexColorDefinition("#aae5aa"),
     },
-    "msdl-indiantan": {
+    "msdl2-indiantan": {
         "1": makeCssHexColorDefinition("#4d291c"),
         "2": makeCssHexColorDefinition("#603d30"),
         "3": makeCssHexColorDefinition("#8e562e"),
@@ -181,7 +160,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#d8b094"),
         "7": makeCssHexColorDefinition("#f7d7c4"),
     },
-    "msdl-midnightblue": {
+    "msdl2-midnightblue": {
         "1": makeCssHexColorDefinition("#242466"),
         "2": makeCssHexColorDefinition("#32318c"),
         "3": makeCssHexColorDefinition("#413eb3"),
@@ -189,7 +168,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#6b69d6"),
         "6": makeCssHexColorDefinition("#bebee5"),
     },
-    "msdl-mirage": {
+    "msdl2-mirage": {
         "1": makeCssHexColorDefinition("#394146"),
         "2": makeCssHexColorDefinition("#4a5459"),
         "3": makeCssHexColorDefinition("#5a686c"),
@@ -198,7 +177,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#a0aeb2"),
         "7": makeCssHexColorDefinition("#bac8cc"),
     },
-    "msdl-mondo": {
+    "msdl2-mondo": {
         "1": makeCssHexColorDefinition("#4c4a48"),
         "2": makeCssHexColorDefinition("#5d5a58"),
         "3": makeCssHexColorDefinition("#6e6a68"),
@@ -207,7 +186,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#b1adab"),
         "7": makeCssHexColorDefinition("#cbc6c4"),
     },
-    "msdl-mosque": {
+    "msdl2-mosque": {
         "1": makeCssHexColorDefinition("#005e50"),
         "2": makeCssHexColorDefinition("#008272"),
         "3": makeCssHexColorDefinition("#00b294"),
@@ -216,7 +195,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#81e6d3"),
         "7": makeCssHexColorDefinition("#c2f2e9"),
     },
-    "msdl-palatinatepurple": {
+    "msdl2-palatinatepurple": {
         "1": makeCssHexColorDefinition("#5c005c"),
         "2": makeCssHexColorDefinition("#800074"),
         "3": makeCssHexColorDefinition("#9a0089"),
@@ -224,7 +203,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#c239b3"),
         "6": makeCssHexColorDefinition("#de94e0"),
     },
-    "msdl-prussianblue": {
+    "msdl2-prussianblue": {
         "1": makeCssHexColorDefinition("#003966"),
         "2": makeCssHexColorDefinition("#004e8c"),
         "3": makeCssHexColorDefinition("#0063b1"),
@@ -233,7 +212,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#83beec"),
         "7": makeCssHexColorDefinition("#b3dbf2"),
     },
-    "msdl-rawumber": {
+    "msdl2-rawumber": {
         "1": makeCssHexColorDefinition("#7f4200"),
         "2": makeCssHexColorDefinition("#b05e0d"),
         "3": makeCssHexColorDefinition("#d47300"),
@@ -242,7 +221,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#ffc988"),
         "7": makeCssHexColorDefinition("#ffdabb"),
     },
-    "msdl-red": {
+    "msdl2-red": {
         "1": makeCssHexColorDefinition("#750b1c"),
         "2": makeCssHexColorDefinition("#a80000"),
         "3": makeCssHexColorDefinition("#c50f1f"),
@@ -251,7 +230,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#e6808a"),
         "7": makeCssHexColorDefinition("#f4abba"),
     },
-    "msdl-redberry": {
+    "msdl2-redberry": {
         "1": makeCssHexColorDefinition("#761721"),
         "2": makeCssHexColorDefinition("#a4262c"),
         "3": makeCssHexColorDefinition("#d13438"),
@@ -260,7 +239,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#ff8c8c"),
         "7": makeCssHexColorDefinition("#ffc0c0"),
     },
-    "msdl-saddlebrown": {
+    "msdl2-saddlebrown": {
         "1": makeCssHexColorDefinition("#7f2f08"),
         "2": makeCssHexColorDefinition("#a74109"),
         "3": makeCssHexColorDefinition("#ca5010"),
@@ -269,7 +248,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#f7b189"),
         "7": makeCssHexColorDefinition("#f2d5c9"),
     },
-    "msdl-sapphire": {
+    "msdl2-sapphire": {
         "1": makeCssHexColorDefinition("#11255e"),
         "2": makeCssHexColorDefinition("#19318d"),
         "3": makeCssHexColorDefinition("#203dbd"),
@@ -278,7 +257,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#7c96f9"),
         "7": makeCssHexColorDefinition("#a6bdff"),
     },
-    "msdl-scarletgum": {
+    "msdl2-scarletgum": {
         "1": makeCssHexColorDefinition("#460f54"),
         "2": makeCssHexColorDefinition("#5c126b"),
         "3": makeCssHexColorDefinition("#721481"),
@@ -286,7 +265,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#b146c2"),
         "6": makeCssHexColorDefinition("#dea2ed"),
     },
-    "msdl-teal": {
+    "msdl2-teal": {
         "1": makeCssHexColorDefinition("#066"),
         "2": makeCssHexColorDefinition("#038387"),
         "3": makeCssHexColorDefinition("#009ca4"),
@@ -295,7 +274,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "6": makeCssHexColorDefinition("#61d6d6"),
         "7": makeCssHexColorDefinition("#91e5df"),
     },
-    "msdl-tyrianpurple": {
+    "msdl2-tyrianpurple": {
         "1": makeCssHexColorDefinition("#6b0036"),
         "2": makeCssHexColorDefinition("#970044"),
         "3": makeCssHexColorDefinition("#c30052"),
@@ -303,8 +282,8 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#ee3f86"),
         "6": makeCssHexColorDefinition("#edbed2"),
     },
-    "msdl-white": makeCssHexColorDefinition("#fff"),
-    "msdl-windsor": {
+    "msdl2-white": makeCssHexColorDefinition("#fff"),
+    "msdl2-windsor": {
         "1": makeCssHexColorDefinition("#49397a"),
         "2": makeCssHexColorDefinition("#5e4a9d"),
         "3": makeCssHexColorDefinition("#735bc1"),
@@ -312,7 +291,7 @@ export const MSDL_COLORS: CssColorCollection = {
         "5": makeCssHexColorDefinition("#9c89e9"),
         "6": makeCssHexColorDefinition("#c3c3f4"),
     },
-    "msdl-yellow": {
+    "msdl2-yellow": {
         "1": makeCssHexColorDefinition("#986f0b"),
         "2": makeCssHexColorDefinition("#c19c00"),
         "3": makeCssHexColorDefinition("#dfbe00"),
