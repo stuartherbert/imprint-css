@@ -59,6 +59,8 @@ export default {
 
         "Creative Commons Attribution-ShareAlike 4.0 International Public License": "https://creativecommons.org/licenses/by-sa/4.0/",
 
+        "Evil Martians OKLCH In CSS": "https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl",
+
         "Flat UI Homepage": "https://designmodo.github.io/Flat-UI/",
         "Flat UI MIT License": "https://github.com/designmodo/Flat-UI/blob/master/LICENSE",
 
@@ -105,6 +107,9 @@ export default {
         "Tailwind CSS Responsive Design": "https://tailwindcss.com/docs/responsive-design",
         "Tailwind CSS Screens": "https://tailwindcss.com/docs/screens",
         "Tailwind CSS Utility-First": "https://tailwindcss.com/docs/utility-first",
+
+        "Tailwind CSS v3 MIT License": "hhttps://github.com/tailwindlabs/tailwindcss/blob/v3/LICENSE",
+        "Tailwind CSS v3 Colors": "https://v3.tailwindcss.com/docs/customizing-colors",
 
         "UK Gov Color Contrast": "https://accessibility.blog.gov.uk/2016/06/17/colour-contrast-why-does-it-matter/",
 
