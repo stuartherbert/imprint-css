@@ -130,6 +130,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "french-pink": makeCssHexColorDefinition("#fd6c9e"),
     "go-green": makeCssHexColorDefinition("#00ab66"),
     "hexcode-brightgreen": makeCssHexColorDefinition("#6f0"),
+    "hunyadi-yellow": makeCssHexColorDefinition("#e8ac41"),
     "india-green": makeCssHexColorDefinition("#138808"),
     "iscc-nbs-applered": makeCssHexColorDefinition("#be0032"),
     "iscc-nbs-artichoke": makeCssHexColorDefinition("#8f9779"),

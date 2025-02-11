@@ -925,6 +925,7 @@ export const ENCYCOLORPEDIA_VERDIGRIS = ALL_COLORS["encycolorpedia-verdigris"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
 export const GO_GREEN = ALL_COLORS["go-green"];
 export const HEXCODE_BRIGHTGREEN = ALL_COLORS["hexcode-brightgreen"];
+export const HUNYADI_YELLOW = ALL_COLORS["hunyadi-yellow"];
 export const INDIA_GREEN = ALL_COLORS["india-green"];
 export const ISCC_NBS_APPLERED = ALL_COLORS["iscc-nbs-applered"];
 export const ISCC_NBS_ARTICHOKE = ALL_COLORS["iscc-nbs-artichoke"];
