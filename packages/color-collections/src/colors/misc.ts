@@ -323,6 +323,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-shockingpink": makeCssHexColorDefinition("#fc0fc0"),
     "misc-skymagenta": makeCssHexColorDefinition("#cf71af"),
     "misc-splashedwhite": makeCssHexColorDefinition("#fefdff"),
+    "misc-tangelo": makeCssHexColorDefinition("#f94d00"),
     "misc-tangerine": makeCssHexColorDefinition("#f28500"),
     "misc-terracotta": makeCssHexColorDefinition("#e2725b"),
     "misc-turkeyred": makeCssHexColorDefinition("#a91101"),
