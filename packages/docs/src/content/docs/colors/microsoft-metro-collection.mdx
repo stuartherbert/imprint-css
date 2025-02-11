@@ -1,55 +1,91 @@
 ---
-title: Microsoft's Metro Color Collection
+title: Microsoft Design Language v1 Color Collection (aka Metro)
 navSection: Colors
-description: The colors used by Microsoft's Metro Design Language.
+description: The colors used by Microsoft Design Language v1 (aka Metro).
 prev: colors/metro-ui-collection
 next: colors/microsoft-design-language-collection
 ---
 
+import ColorBlock from "../../../components/Colors/ColorBlock.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 
 ## Introduction
 
-### What Is The Microsoft Metro Color Collection?
+### What Is The Microsoft Design Language v1 Color Collection?
 
-"Metro" was the internal codename that Microsoft used for one of its earliest attempts at a design language. It belongs to the <ExternalLink name="Wikipedia Flat Design" text="flat design"/> school of design. It was the main design language for the Windows Phone platform, before being adopted by Xbox, Windows 8 and other Microsoft products.
+The Microsoft Design Language v1 is best known as "Metro".
 
-It was replaced by the Microsoft Design Language as Microsoft transitioned to Windows 10.
+"Metro" was the internal codename that Microsoft used for one of its earliest attempts at a design language. It belonged to the <ExternalLink name="Wikipedia Flat Design" text="flat design"/> school of design. It was the main design language for the Windows Phone platform, before being adopted by Xbox, Windows 8 and other Microsoft products.
 
-Although long gone, we think that Metro was iconic for its time, and its colors worth preserving - both for historical purposes, and because the colors have stood the test of time.
+It was replaced by Microsoft Design Language (MSDL) v2 as Microsoft transitioned to Windows 10. As far as we know, "Metro" was never formally called MSDL v1, but we think it's a fitting name for the collection.
 
 ### Where Did The Color Names Come From?
 
 As far as we know, Microsoft never published public names for any of the Metro colors.
 
-We've taken the names from <ExternalLink name="MaterialUI Metro Colors" text="MaterialUI's list of Metro colors"/>.
+We've taken the names (and definitions) from <ExternalLink name="Colorlib Metro Colors" text="Colorlib's list of Metro colors"/>. The list of names on Colorlib match up with other sites that publish a list of Metro colors.
+
+### Intellectual Property Disclaimer
+
+We've been unable to find any official Microsoft website about the "Metro" / MSDL v1 colors. While they may be abandoned or in the public domain, they may be the intellectual property of Microsoft. There may be legal restrictions on when and how you can use these colors.
+
+Imprint CSS does not claim ownership of these colors.
 
 ## The Colors
 
+<HowToUseTheseColors/>
+
+### Color Swatches
+
 <ColorSwatches>
     <div class="docs-color-swatches">
-        <ColorSwatch colorName="metro-lime"/>
-        <ColorSwatch colorName="metro-green"/>
-        <ColorSwatch colorName="metro-emerald"/>
-        <ColorSwatch colorName="metro-teal"/>
-        <ColorSwatch colorName="metro-cyan"/>
-        <ColorSwatch colorName="metro-cobalt"/>
-        <ColorSwatch colorName="metro-indigo"/>
-        <ColorSwatch colorName="metro-violet"/>
-        <ColorSwatch colorName="metro-pink"/>
-        <ColorSwatch colorName="metro-magenta"/>
-        <ColorSwatch colorName="metro-crimson"/>
-        <ColorSwatch colorName="metro-red"/>
-        <ColorSwatch colorName="metro-orange"/>
-        <ColorSwatch colorName="metro-amber"/>
-        <ColorSwatch colorName="metro-yellow"/>
-        <ColorSwatch colorName="metro-brown"/>
-        <ColorSwatch colorName="metro-olive"/>
-        <ColorSwatch colorName="metro-steel"/>
-        <ColorSwatch colorName="metro-mauve"/>
-        <ColorSwatch colorName="metro-sienna"/>
+        <ColorSwatch colorName="msdl1-lightgreen"/>
+        <ColorSwatch colorName="msdl1-green"/>
+        <ColorSwatch colorName="msdl1-darkgreen"/>
+        <ColorSwatch colorName="msdl1-magenta"/>
+        <ColorSwatch colorName="msdl1-lightpurple"/>
+        <ColorSwatch colorName="msdl1-purple"/>
+        <ColorSwatch colorName="msdl1-darkpurple"/>
+        <ColorSwatch colorName="msdl1-teal"/>
+        <ColorSwatch colorName="msdl1-lightblue"/>
+        <ColorSwatch colorName="msdl1-blue"/>
+        <ColorSwatch colorName="msdl1-darkblue"/>
+        <ColorSwatch colorName="msdl1-yellow"/>
+        <ColorSwatch colorName="msdl1-orange"/>
+        <ColorSwatch colorName="msdl1-darkorange"/>
+        <ColorSwatch colorName="msdl1-red"/>
+        <ColorSwatch colorName="msdl1-darkred"/>
+        <ColorSwatch colorName="msdl1-darken"/>
+        <ColorSwatch colorName="msdl1-white"/>
     </div>
 </ColorSwatches>
 
+### Color Bars
+
+<div class="docs-color-blocks-2">
+    <div class="--standout-md">
+        <ColorBlock colorName="msdl1-lightgreen"/>
+        <ColorBlock colorName="msdl1-green"/>
+        <ColorBlock colorName="msdl1-darkgreen"/>
+        <ColorBlock colorName="msdl1-magenta"/>
+        <ColorBlock colorName="msdl1-lightpurple"/>
+        <ColorBlock colorName="msdl1-purple"/>
+        <ColorBlock colorName="msdl1-darkpurple"/>
+        <ColorBlock colorName="msdl1-teal"/>
+        <ColorBlock colorName="msdl1-lightblue"/>
+    </div>
+    <div class="--standout-md">
+        <ColorBlock colorName="msdl1-blue"/>
+        <ColorBlock colorName="msdl1-darkblue"/>
+        <ColorBlock colorName="msdl1-yellow"/>
+        <ColorBlock colorName="msdl1-orange"/>
+        <ColorBlock colorName="msdl1-darkorange"/>
+        <ColorBlock colorName="msdl1-red"/>
+        <ColorBlock colorName="msdl1-darkred"/>
+        <ColorBlock colorName="msdl1-darken"/>
+        <ColorBlock colorName="msdl1-white"/>
+    </div>
+</div>

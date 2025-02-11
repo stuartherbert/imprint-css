@@ -38,10 +38,13 @@ export { CSS_EXTENDED_COLORS } from "./colors/css";
 export { FLAT_COLORS } from "./colors/flat";
 export { GANBARO_COLORS } from "./colors/ganbaro";
 export { IMPRINT_COLORS } from "./colors/imprint";
+export { KM_COLORS } from "./colors/kevin-muldoon";
 export { MATERIAL_COLORS } from "./colors/material-design";
+export { MATMET_COLORS } from "./colors/material-ui-metro";
 export { METRO_COLORS } from "./colors/metro";
 export { MISC_COLORS } from "./colors/misc";
-export { MSDL_COLORS } from "./colors/msdl";
+export { MSDL1_COLORS } from "./colors/msdl1";
+export { MSDL2_COLORS } from "./colors/msdl2";
 export { SOCIAL_COLORS } from "./colors/social";
 export { TAILWIND3_COLORS } from "./colors/tailwind3";
 

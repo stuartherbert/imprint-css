@@ -1,0 +1,65 @@
+{
+  "name": "msdl2-redberry-4",
+  "jsName": "MSDL2_REDBERRY_4",
+  "title": "msdl2-redberry-4",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'msdl2-redberry-4'.",
+  "definition": "#ff4343",
+  "hex": "#ff4343",
+  "general": {
+    "hues": [
+      "red"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 123.212,
+    "relativeLuminance": 0.256
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 3.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

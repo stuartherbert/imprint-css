@@ -43,7 +43,8 @@ import { MATERIAL_COLORS } from "../colors/material-design";
 import { MATMET_COLORS } from "../colors/material-ui-metro";
 import { METRO_COLORS } from "../colors/metro";
 import { MISC_COLORS } from "../colors/misc";
-import { MSDL_COLORS } from "../colors/msdl";
+import { MSDL1_COLORS } from "../colors/msdl1";
+import { MSDL2_COLORS } from "../colors/msdl2";
 import { SOCIAL_COLORS } from "../colors/social";
 import { TAILWIND3_COLORS } from "../colors/tailwind3";
 import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
@@ -61,7 +62,8 @@ export const ALL_COLORS: CssColorDefinitions = {
     ...MATMET_COLORS,
     ...METRO_COLORS,
     ...MISC_COLORS,
-    ...collectionToDefinitions(MSDL_COLORS),
+    ...MSDL1_COLORS,
+    ...collectionToDefinitions(MSDL2_COLORS),
     ...SOCIAL_COLORS,
     ...collectionToDefinitions(TAILWIND3_COLORS)
 };

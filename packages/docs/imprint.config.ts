@@ -55,6 +55,8 @@ export default {
         "Bootstrap v5 Docs": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
         "Bootstrap v5 MIT License": "https://github.com/twbs/bootstrap/blob/main/LICENSE",
 
+        "Colorlib Metro Colors": "https://colorlib.com/etc/metro-colors.html",
+
         "Creative Commons Attribution-ShareAlike 4.0 International Public License": "https://creativecommons.org/licenses/by-sa/4.0/",
 
         "Flat UI Homepage": "https://designmodo.github.io/Flat-UI/",
@@ -117,6 +119,7 @@ export default {
         "W3C WCAG 2.2 Text": "https://www.w3.org/TR/WCAG22/#dfn-text",
         "W3C WCAG 2.2 Understanding Minimum Contrast": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
         "Wikipedia Flat Design": "https://en.wikipedia.org/wiki/Flat_design",
+        "Wikipedia Metro Design Language": "https://en.wikipedia.org/wiki/Metro_(design_language)",
         "Wikipedia The Dress": "https://en.wikipedia.org/wiki/The_dress",
 
         "YIQ Color Space": "https://en.wikipedia.org/wiki/YIQ",
