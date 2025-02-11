@@ -135,6 +135,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "hexcode-brightgreen": makeCssHexColorDefinition("#6f0"),
     "hunyadi-yellow": makeCssHexColorDefinition("#e8ac41"),
     "india-green": makeCssHexColorDefinition("#138808"),
+    "india-saffron": makeCssHexColorDefinition("#ff7722"),
     "internationalorange-aerospace": makeCssHexColorDefinition("#ff4f00"),
     "internationalorange-engineering": makeCssHexColorDefinition("#ba160c"),
     "internationalorange-ggb": makeCssHexColorDefinition("#f04a00"),
