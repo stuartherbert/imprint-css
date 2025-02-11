@@ -902,6 +902,7 @@ export const CRAYOLA_TICKLEMEPINK = ALL_COLORS["crayola-ticklemepink"];
 export const CRAYOLA_TIMBERWOLF = ALL_COLORS["crayola-timberwolf"];
 export const CRAYOLA_UNMELLOWYELLOW = ALL_COLORS["crayola-unmellowyellow"];
 export const CRAYOLA_YELLOW = ALL_COLORS["crayola-yellow"];
+export const CUNARD_RED = ALL_COLORS["cunard-red"];
 export const DARTMOUTH_GREEN = ALL_COLORS["dartmouth-green"];
 export const EGYPTIAN_BLUE = ALL_COLORS["egyptian-blue"];
 export const ENCYCOLORPEDIA_BOTTLEGREEN = ALL_COLORS["encycolorpedia-bottlegreen"];
