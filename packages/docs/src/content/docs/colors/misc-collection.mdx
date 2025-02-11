@@ -6,10 +6,14 @@ prev: colors/tailwind3-collection
 ---
 
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
+import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 
 ## Introduction
 
-SOMETHING HERE
+### What Is The Miscellaneous Colors Collection?
+
+
 
 ## Color Sets
 
@@ -66,3 +70,19 @@ SOMETHING HERE
 These colors don't fall into any of the other groups.
 
 <ColorCollection colorGroup="misc" exclude="cmyk,crayola,encycolorpedia,iscc,misc,munsell,ncs,plochere,resene,spanish,trad,xona"/>
+
+## Color Hues
+
+### Reds
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        <ColorSwatch colorName="trad-amaranthred"/>
+        <ColorSwatch colorName="trad-amaranthpink"/>
+        <ColorSwatch colorName="trad-brightamaranthpink"/>
+        <ColorSwatch colorName="trad-amaranthred"/>
+        <ColorSwatch colorName="trad-amaranthpurple"/>
+        <ColorSwatch colorName="trad-amaranthdeeppurple"/>
+        <ColorSwatch colorName="trad-alizarin"/>
+    </div>
+</ColorSwatches>
