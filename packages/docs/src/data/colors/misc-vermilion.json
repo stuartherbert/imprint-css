@@ -1,26 +1,27 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-vermilion",
+  "jsName": "MISC_VERMILION",
+  "title": "misc-vermilion",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-vermilion'.",
+  "definition": "#e34234",
+  "hex": "#e34234",
   "general": {
     "hues": [
-      "pink"
+      "red",
+      "brown"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 112.543,
+    "relativeLuminance": 0.204
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4.1,
+    "contrastRatio": 3.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 3.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

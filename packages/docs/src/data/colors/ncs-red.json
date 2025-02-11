@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ncs-red'.",
-  "definition": "#c40233",
-  "hex": "#c40233",
+  "definition": "#c40234",
+  "hex": "#c40234",
   "general": {
     "hues": [
       "pink"
@@ -15,7 +15,7 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 65.592,
+    "luma": 65.706,
     "relativeLuminance": 0.12
   },
   "pairedWithLightColor": {

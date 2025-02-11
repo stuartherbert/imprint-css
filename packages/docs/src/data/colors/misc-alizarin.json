@@ -1,12 +1,12 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-alizarin",
+  "jsName": "MISC_ALIZARIN",
+  "title": "misc-alizarin",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-alizarin'.",
+  "definition": "#db2d43",
+  "hex": "#db2d43",
   "general": {
     "hues": [
       "pink"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 99.534,
+    "relativeLuminance": 0.173
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4.1,
+    "contrastRatio": 4.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 3.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

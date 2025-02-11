@@ -1,26 +1,26 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "cmyk-red",
+  "jsName": "CMYK_RED",
+  "title": "cmyk-red",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'cmyk-red'.",
+  "definition": "#ed1b24",
+  "hex": "#ed1b24",
   "general": {
     "hues": [
-      "pink"
+      "red"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 90.816,
+    "relativeLuminance": 0.189
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4.1,
+    "contrastRatio": 4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 3.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

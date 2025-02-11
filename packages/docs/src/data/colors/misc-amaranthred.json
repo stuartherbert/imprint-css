@@ -1,12 +1,12 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-amaranthred",
+  "jsName": "MISC_AMARANTHRED",
+  "title": "misc-amaranthred",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-amaranthred'.",
+  "definition": "#e52b50",
+  "hex": "#e52b50",
   "general": {
     "hues": [
       "pink"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 102.832,
+    "relativeLuminance": 0.189
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4.1,
+    "contrastRatio": 4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 3.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

@@ -1,26 +1,28 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-cinereous",
+  "jsName": "MISC_CINEREOUS",
+  "title": "misc-cinereous",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-cinereous'.",
+  "definition": "#98817b",
+  "hex": "#98817b",
   "general": {
     "hues": [
-      "pink"
+      "gray",
+      "red",
+      "brown"
     ],
-    "tonality": "dark",
-    "isDark": true,
-    "isMidtone": false,
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 135.193,
+    "relativeLuminance": 0.238
   },
   "pairedWithLightColor": {
-    "clearContrast": true,
-    "contrastRatio": 4.1,
+    "clearContrast": false,
+    "contrastRatio": 3.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -33,14 +35,14 @@
       "ui": "AA"
     },
     "recommendedForHeadings": false,
-    "passableForHeadings": true,
+    "passableForHeadings": false,
     "recommendedForBodyContent": false,
     "passableForBodyContent": false,
-    "passableForUi": true
+    "passableForUi": false
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 4.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -59,7 +61,7 @@
     "passableForUi": false
   },
   "pairings": {
-    "background": "#f6f6f6",
-    "foreground": "#222222"
+    "background": "#222222",
+    "foreground": "#f6f6f6"
   }
 }

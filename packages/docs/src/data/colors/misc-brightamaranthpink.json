@@ -1,12 +1,12 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-brightamaranthpink",
+  "jsName": "MISC_BRIGHTAMARANTHPINK",
+  "title": "misc-brightamaranthpink",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-brightamaranthpink'.",
+  "definition": "#ff355e",
+  "hex": "#ff355e",
   "general": {
     "hues": [
       "pink"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 118.072,
+    "relativeLuminance": 0.246
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4.1,
+    "contrastRatio": 3.2,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.5,
+    "contrastRatio": 4.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

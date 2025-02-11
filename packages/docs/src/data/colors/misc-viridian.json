@@ -1,22 +1,22 @@
 {
-  "name": "crayola-red",
-  "jsName": "CRAYOLA_RED",
-  "title": "crayola-red",
+  "name": "misc-viridian",
+  "jsName": "MISC_VIRIDIAN",
+  "title": "misc-viridian",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ed0a3f",
-  "hex": "#ed0a3f",
+  "description": "Analysis of the color 'misc-viridian'.",
+  "definition": "#40826d",
+  "hex": "#40826d",
   "general": {
     "hues": [
-      "pink"
+      "springgreen"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 83.915,
-    "relativeLuminance": 0.185
+    "luma": 107.872,
+    "relativeLuminance": 0.181
   },
   "pairedWithLightColor": {
     "clearContrast": true,
