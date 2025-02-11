@@ -119,6 +119,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "go-green": makeCssHexColorDefinition("#00ab66"),
     "hexcode-brightgreen": makeCssHexColorDefinition("#6f0"),
     "india-green": makeCssHexColorDefinition("#138808"),
+    "iscc-nbs-applered": makeCssHexColorDefinition("#be0032"),
     "iscc-nbs-artichoke": makeCssHexColorDefinition("#8f9779"),
     "iscc-nbs-ashgrey": makeCssHexColorDefinition("#b2beb5"),
     "iscc-nbs-babypink": makeCssHexColorDefinition("#f4c2c2"),
