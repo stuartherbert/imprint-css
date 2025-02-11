@@ -1118,6 +1118,7 @@ export const MISC_SHAMROCKGREEN = ALL_COLORS["misc-shamrockgreen"];
 export const MISC_SHOCKINGPINK = ALL_COLORS["misc-shockingpink"];
 export const MISC_SKYMAGENTA = ALL_COLORS["misc-skymagenta"];
 export const MISC_SPLASHEDWHITE = ALL_COLORS["misc-splashedwhite"];
+export const MISC_TANGERINE = ALL_COLORS["misc-tangerine"];
 export const MISC_TERRACOTTA = ALL_COLORS["misc-terracotta"];
 export const MISC_TURKEYRED = ALL_COLORS["misc-turkeyred"];
 export const MISC_ULTRAMARINE = ALL_COLORS["misc-ultramarine"];
