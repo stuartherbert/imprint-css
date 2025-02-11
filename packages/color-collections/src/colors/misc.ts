@@ -200,6 +200,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-brown": makeCssHexColorDefinition("#964b00"),
     "misc-brunswickgreen": makeCssHexColorDefinition("#1b4d3e"),
     "misc-buff": makeCssHexColorDefinition("#f0dc82"),
+    "misc-burgundy": makeCssHexColorDefinition("#800020"),
     "misc-canaryyellow": makeCssHexColorDefinition("#ff9"),
     "misc-cardinalred": makeCssHexColorDefinition("#c51e3a"),
     "misc-carrotorange": makeCssHexColorDefinition("#ed9121"),
