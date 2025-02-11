@@ -141,6 +141,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-cameopink": makeCssHexColorDefinition("#efbbcc"),
     "iscc-nbs-candypink": makeCssHexColorDefinition("#e4717a"),
     "iscc-nbs-charcoal": makeCssHexColorDefinition("#36454f"),
+    "iscc-nbs-chinesered": makeCssHexColorDefinition("#aa381e"),
     "iscc-nbs-coolgray": makeCssHexColorDefinition("#9090c0"),
     "iscc-nbs-coralpink": makeCssHexColorDefinition("#f88379"),
     "iscc-nbs-darkpurple": makeCssHexColorDefinition("#301934"),
