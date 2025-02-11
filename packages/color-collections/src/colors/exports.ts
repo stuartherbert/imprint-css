@@ -979,6 +979,7 @@ export const MISC_APRICOT = ALL_COLORS["misc-apricot"];
 export const MISC_ARMYGREEN = ALL_COLORS["misc-armygreen"];
 export const MISC_BABYBLUE = ALL_COLORS["misc-babyblue"];
 export const MISC_BISTRE = ALL_COLORS["misc-bistre"];
+export const MISC_BLOODRED = ALL_COLORS["misc-bloodred"];
 export const MISC_BONE = ALL_COLORS["misc-bone"];
 export const MISC_BRIGHTAMARANTHPINK = ALL_COLORS["misc-brightamaranthpink"];
 export const MISC_BRIGHTMINT = ALL_COLORS["misc-brightmint"];
