@@ -1,12 +1,12 @@
 {
-  "name": "misc-orange",
-  "jsName": "MISC_ORANGE",
-  "title": "misc-orange",
+  "name": "misc-xanthous",
+  "jsName": "MISC_XANTHOUS",
+  "title": "misc-xanthous",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'misc-orange'.",
-  "definition": "#ff8000",
-  "hex": "#ff8000",
+  "description": "Analysis of the color 'misc-xanthous'.",
+  "definition": "#f1b42f",
+  "hex": "#f1b42f",
   "general": {
     "hues": [
       "orange"
@@ -15,12 +15,12 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 151.381,
-    "relativeLuminance": 0.366
+    "luma": 183.077,
+    "relativeLuminance": 0.515
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.3,
+    "contrastRatio": 1.7,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,16 +40,16 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.3,
+    "contrastRatio": 8.5,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
+      "AAA_normal": true,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AA",
+      "normal": "AAA",
       "ui": "AA"
     },
     "recommendedForHeadings": false,

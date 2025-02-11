@@ -1,12 +1,12 @@
 {
-  "name": "misc-orange",
-  "jsName": "MISC_ORANGE",
-  "title": "misc-orange",
+  "name": "misc-deepsaffron",
+  "jsName": "MISC_DEEPSAFFRON",
+  "title": "misc-deepsaffron",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'misc-orange'.",
-  "definition": "#ff8000",
-  "hex": "#ff8000",
+  "description": "Analysis of the color 'misc-deepsaffron'.",
+  "definition": "#ff9933",
+  "hex": "#ff9933",
   "general": {
     "hues": [
       "orange"
@@ -15,12 +15,12 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 151.381,
-    "relativeLuminance": 0.366
+    "luma": 171.87,
+    "relativeLuminance": 0.442
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.3,
+    "contrastRatio": 1.9,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,16 +40,16 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.3,
+    "contrastRatio": 7.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
+      "AAA_normal": true,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AA",
+      "normal": "AAA",
       "ui": "AA"
     },
     "recommendedForHeadings": false,

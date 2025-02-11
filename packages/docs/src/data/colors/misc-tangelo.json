@@ -1,46 +1,47 @@
 {
-  "name": "misc-orange",
-  "jsName": "MISC_ORANGE",
-  "title": "misc-orange",
+  "name": "misc-tangelo",
+  "jsName": "MISC_TANGELO",
+  "title": "misc-tangelo",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'misc-orange'.",
-  "definition": "#ff8000",
-  "hex": "#ff8000",
+  "description": "Analysis of the color 'misc-tangelo'.",
+  "definition": "#f94d00",
+  "hex": "#f94d00",
   "general": {
     "hues": [
-      "orange"
+      "red",
+      "brown"
     ],
-    "tonality": "midtone",
-    "isDark": false,
-    "isMidtone": true,
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
     "isLight": false,
-    "luma": 151.381,
-    "relativeLuminance": 0.366
+    "luma": 119.65,
+    "relativeLuminance": 0.254
   },
   "pairedWithLightColor": {
-    "clearContrast": false,
-    "contrastRatio": 2.3,
+    "clearContrast": true,
+    "contrastRatio": 3.1,
     "wcagContrast": {
-      "A_normal": false,
+      "A_normal": true,
       "AA_normal": false,
-      "AA_large": false,
-      "AA_ui": false,
+      "AA_large": true,
+      "AA_ui": true,
       "AAA_normal": false,
       "AAA_large": false,
-      "large": "not accessible",
-      "normal": "not accessible",
-      "ui": "not accessible"
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
-    "passableForHeadings": false,
+    "passableForHeadings": true,
     "recommendedForBodyContent": false,
     "passableForBodyContent": false,
-    "passableForUi": false
+    "passableForUi": true
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.3,
+    "contrastRatio": 4.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -59,7 +60,7 @@
     "passableForUi": false
   },
   "pairings": {
-    "background": "#222222",
-    "foreground": "#f6f6f6"
+    "background": "#f6f6f6",
+    "foreground": "#222222"
   }
 }

@@ -5,23 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'princeton-orange'.",
-  "definition": "#ee7f2d",
-  "hex": "#ee7f2d",
+  "definition": "#e77500",
+  "hex": "#e77500",
   "general": {
     "hues": [
-      "red",
       "orange"
     ],
     "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 150.841,
-    "relativeLuminance": 0.335
+    "luma": 137.748,
+    "relativeLuminance": 0.297
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.5,
+    "contrastRatio": 2.7,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -41,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 5.8,
+    "contrastRatio": 5.2,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

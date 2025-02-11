@@ -1,12 +1,12 @@
 {
-  "name": "misc-orange",
-  "jsName": "MISC_ORANGE",
-  "title": "misc-orange",
+  "name": "misc-tangerine",
+  "jsName": "MISC_TANGERINE",
+  "title": "misc-tangerine",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'misc-orange'.",
-  "definition": "#ff8000",
-  "hex": "#ff8000",
+  "description": "Analysis of the color 'misc-tangerine'.",
+  "definition": "#f28500",
+  "hex": "#f28500",
   "general": {
     "hues": [
       "orange"
@@ -15,8 +15,8 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 151.381,
-    "relativeLuminance": 0.366
+    "luma": 150.429,
+    "relativeLuminance": 0.356
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.3,
+    "contrastRatio": 6.1,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
