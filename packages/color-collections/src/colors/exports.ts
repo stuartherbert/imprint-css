@@ -1103,6 +1103,7 @@ export const MISC_PURPLEGLOVE = ALL_COLORS["misc-purpleglove"];
 export const MISC_PURPLETAUPE = ALL_COLORS["misc-purpletaupe"];
 export const MISC_REDWOOD = ALL_COLORS["misc-redwood"];
 export const MISC_RICHMAROON = ALL_COLORS["misc-richmaroon"];
+export const MISC_ROSE = ALL_COLORS["misc-rose"];
 export const MISC_ROSEWOOD = ALL_COLORS["misc-rosewood"];
 export const MISC_RUBY = ALL_COLORS["misc-ruby"];
 export const MISC_SCARLET = ALL_COLORS["misc-scarlet"];
