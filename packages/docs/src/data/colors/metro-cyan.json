@@ -5,22 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-cyan'.",
-  "definition": "#1ba1e2",
-  "hex": "#1ba1e2",
+  "definition": "#94b6ff",
+  "hex": "#94b6ff",
   "general": {
     "hues": [
-      "cyan"
+      "azure"
     ],
     "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 128.344,
-    "relativeLuminance": 0.312
+    "luma": 180.156,
+    "relativeLuminance": 0.469
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.6,
+    "contrastRatio": 1.8,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,16 +40,16 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 5.4,
+    "contrastRatio": 7.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
+      "AAA_normal": true,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AA",
+      "normal": "AAA",
       "ui": "AA"
     },
     "recommendedForHeadings": false,

@@ -1,26 +1,27 @@
 {
-  "name": "metro-yellow",
-  "jsName": "METRO_YELLOW",
-  "title": "metro-yellow",
+  "name": "metro-champagne",
+  "jsName": "METRO_CHAMPAGNE",
+  "title": "metro-champagne",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'metro-yellow'.",
-  "definition": "#ffde21",
-  "hex": "#ffde21",
+  "description": "Analysis of the color 'metro-champagne'.",
+  "definition": "#f7e6ca",
+  "hex": "#f7e6ca",
   "general": {
     "hues": [
+      "white",
       "orange"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 210.321,
-    "relativeLuminance": 0.736
+    "luma": 231.891,
+    "relativeLuminance": 0.806
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.2,
+    "contrastRatio": 1.1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 11.9,
+    "contrastRatio": 12.9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

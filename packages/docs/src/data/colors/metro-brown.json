@@ -5,52 +5,53 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-brown'.",
-  "definition": "#825a2c",
-  "hex": "#825a2c",
+  "definition": "#aa6432",
+  "hex": "#aa6432",
   "general": {
     "hues": [
+      "red",
       "orange"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 96.716,
-    "relativeLuminance": 0.122
+    "luma": 115.23,
+    "relativeLuminance": 0.178
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 5.6,
+    "contrastRatio": 4.2,
     "wcagContrast": {
       "A_normal": true,
-      "AA_normal": true,
+      "AA_normal": false,
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": true,
-      "large": "AAA",
-      "normal": "AA",
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
       "ui": "AA"
     },
-    "recommendedForHeadings": true,
+    "recommendedForHeadings": false,
     "passableForHeadings": true,
     "recommendedForBodyContent": false,
-    "passableForBodyContent": true,
+    "passableForBodyContent": false,
     "passableForUi": true
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 2.6,
+    "contrastRatio": 3.4,
     "wcagContrast": {
-      "A_normal": false,
+      "A_normal": true,
       "AA_normal": false,
-      "AA_large": false,
-      "AA_ui": false,
+      "AA_large": true,
+      "AA_ui": true,
       "AAA_normal": false,
       "AAA_large": false,
-      "large": "not accessible",
-      "normal": "not accessible",
-      "ui": "not accessible"
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
     },
     "recommendedForHeadings": false,
     "passableForHeadings": false,

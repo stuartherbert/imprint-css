@@ -5,52 +5,51 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-teal'.",
-  "definition": "#00aba9",
-  "hex": "#00aba9",
+  "definition": "#069494",
+  "hex": "#069494",
   "general": {
     "hues": [
-      "teal",
       "cyan"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 119.643,
-    "relativeLuminance": 0.319
+    "luma": 105.542,
+    "relativeLuminance": 0.233
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 2.6,
-    "wcagContrast": {
-      "A_normal": false,
-      "AA_normal": false,
-      "AA_large": false,
-      "AA_ui": false,
-      "AAA_normal": false,
-      "AAA_large": false,
-      "large": "not accessible",
-      "normal": "not accessible",
-      "ui": "not accessible"
-    },
-    "recommendedForHeadings": false,
-    "passableForHeadings": false,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": false,
-    "passableForUi": false
-  },
-  "pairedWithDarkColor": {
-    "clearContrast": false,
-    "contrastRatio": 5.6,
+    "contrastRatio": 3.4,
     "wcagContrast": {
       "A_normal": true,
-      "AA_normal": true,
+      "AA_normal": false,
       "AA_large": true,
       "AA_ui": true,
       "AAA_normal": false,
-      "AAA_large": true,
-      "large": "AAA",
-      "normal": "AA",
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.2,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
       "ui": "AA"
     },
     "recommendedForHeadings": false,

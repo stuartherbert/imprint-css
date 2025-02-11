@@ -5,42 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-mauve'.",
-  "definition": "#76608a",
-  "hex": "#76608a",
+  "definition": "#e0afff",
+  "hex": "#e0afff",
   "general": {
     "hues": [
       "violet"
     ],
-    "tonality": "dark",
-    "isDark": true,
+    "tonality": "light",
+    "isDark": false,
     "isMidtone": false,
-    "isLight": false,
-    "luma": 107.366,
-    "relativeLuminance": 0.14
+    "isLight": true,
+    "luma": 198.771,
+    "relativeLuminance": 0.537
   },
   "pairedWithLightColor": {
-    "clearContrast": true,
-    "contrastRatio": 5,
-    "wcagContrast": {
-      "A_normal": true,
-      "AA_normal": true,
-      "AA_large": true,
-      "AA_ui": true,
-      "AAA_normal": false,
-      "AAA_large": true,
-      "large": "AAA",
-      "normal": "AA",
-      "ui": "AA"
-    },
-    "recommendedForHeadings": true,
-    "passableForHeadings": true,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": true,
-    "passableForUi": true
-  },
-  "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 2.8,
+    "contrastRatio": 1.6,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -58,8 +38,28 @@
     "passableForBodyContent": false,
     "passableForUi": false
   },
+  "pairedWithDarkColor": {
+    "clearContrast": true,
+    "contrastRatio": 8.8,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
   "pairings": {
-    "background": "#f6f6f6",
-    "foreground": "#222222"
+    "background": "#222222",
+    "foreground": "#f6f6f6"
   }
 }

@@ -64,8 +64,14 @@ export default {
 
         "IEC 61966-2-1": "https://webstore.iec.ch/en/publication/6169",
 
+        "MaterialUI Metro Colors": "https://materialui.co/metrocolors",
+
         "Material Design v2": "https://m2.material.io/design",
         "Material Design 2014 Colors": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors",
+
+        "Metro_UI Homepage": "https://metroui.org.ua",
+        "Metro_UI Colors": "https://docs.metroui.org.ua/colors.html",
+        "Metro_UI MIT License": "https://github.com/olton/metroui/blob/dev/LICENSE",
 
         "Mozilla MDN": "https://developer.mozilla.org/",
         "Mozilla MDN ARIA": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",

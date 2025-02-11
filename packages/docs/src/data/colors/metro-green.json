@@ -5,22 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-green'.",
-  "definition": "#60a917",
-  "hex": "#60a917",
+  "definition": "#00b500",
+  "hex": "#00b500",
   "general": {
     "hues": [
-      "chartreuse"
+      "green"
     ],
-    "tonality": "midtone",
-    "isDark": false,
-    "isMidtone": true,
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
     "isLight": false,
-    "luma": 130.529,
-    "relativeLuminance": 0.309
+    "luma": 106.247,
+    "relativeLuminance": 0.33
   },
   "pairedWithLightColor": {
-    "clearContrast": false,
-    "contrastRatio": 2.7,
+    "clearContrast": true,
+    "contrastRatio": 2.5,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 5.4,
+    "contrastRatio": 5.7,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -59,7 +59,7 @@
     "passableForUi": false
   },
   "pairings": {
-    "background": "#222222",
-    "foreground": "#f6f6f6"
+    "background": "#f6f6f6",
+    "foreground": "#222222"
   }
 }
