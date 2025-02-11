@@ -329,6 +329,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-violet": makeCssHexColorDefinition("#7f00ff"),
     "misc-viridian": makeCssHexColorDefinition("#40826d"),
     "misc-vividviolet": makeCssHexColorDefinition("#9f00ff"),
+    "misc-winedregs": makeCssHexColorDefinition("#673147"),
     "misc-zarqa": makeCssHexColorDefinition("#ff4500"),
     "msu-green": makeCssHexColorDefinition("#18453b"),
     "munsell-blue": makeCssHexColorDefinition("#0093af"),
