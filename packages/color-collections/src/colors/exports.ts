@@ -994,6 +994,7 @@ export const MISC_AMARANTHPINK = ALL_COLORS["misc-amaranthpink"];
 export const MISC_AMARANTHPURPLE = ALL_COLORS["misc-amaranthpurple"];
 export const MISC_ANTIFLASHWHITE = ALL_COLORS["misc-antiflashwhite"];
 export const MISC_APRICOT = ALL_COLORS["misc-apricot"];
+export const MISC_APRICOTPEACH = ALL_COLORS["misc-apricotpeach"];
 export const MISC_ARMYGREEN = ALL_COLORS["misc-armygreen"];
 export const MISC_BABYBLUE = ALL_COLORS["misc-babyblue"];
 export const MISC_BISTRE = ALL_COLORS["misc-bistre"];

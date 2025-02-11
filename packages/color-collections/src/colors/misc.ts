@@ -199,6 +199,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-amaranthpurple": makeCssHexColorDefinition("#ab274f"),
     "misc-antiflashwhite": makeCssHexColorDefinition("#f2f3f4"),
     "misc-apricot": makeCssHexColorDefinition("#fbceb1"),
+    "misc-apricotpeach": makeCssHexColorDefinition("#f8c8b0"),
     "misc-armygreen": makeCssHexColorDefinition("#4b5320"),
     "misc-babyblue": makeCssHexColorDefinition("#89cff0"),
     "misc-bistre": makeCssHexColorDefinition("#3d2b1f"),
