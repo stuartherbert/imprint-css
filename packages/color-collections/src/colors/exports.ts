@@ -1107,6 +1107,7 @@ export const MISC_SPLASHEDWHITE = ALL_COLORS["misc-splashedwhite"];
 export const MISC_TURKEYRED = ALL_COLORS["misc-turkeyred"];
 export const MISC_ULTRAMARINE = ALL_COLORS["misc-ultramarine"];
 export const MISC_VERMILION = ALL_COLORS["misc-vermilion"];
+export const MISC_VENETIANRED = ALL_COLORS["misc-venetianred"];
 export const MISC_VIOLET = ALL_COLORS["misc-violet"];
 export const MISC_VIRIDIAN = ALL_COLORS["misc-viridian"];
 export const MISC_VIVIDVIOLET = ALL_COLORS["misc-vividviolet"];

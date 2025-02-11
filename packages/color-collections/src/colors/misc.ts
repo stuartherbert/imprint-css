@@ -312,6 +312,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-turkeyred": makeCssHexColorDefinition("#a91101"),
     "misc-ultramarine": makeCssHexColorDefinition("#3f00ff"),
     "misc-vermilion": makeCssHexColorDefinition("#e34234"),
+    "misc-venetianred": makeCssHexColorDefinition("#c80815"),
     "misc-violet": makeCssHexColorDefinition("#7f00ff"),
     "misc-viridian": makeCssHexColorDefinition("#40826d"),
     "misc-vividviolet": makeCssHexColorDefinition("#9f00ff"),
