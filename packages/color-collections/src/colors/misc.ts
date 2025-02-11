@@ -220,6 +220,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-fern": makeCssHexColorDefinition("#4f7942"),
     "misc-fireenginered": makeCssHexColorDefinition("#ce2029"),
     "misc-flax": makeCssHexColorDefinition("#eedc82"),
+    "misc-fluorescentred": makeCssHexColorDefinition("#ff2226"),
     "misc-folly": makeCssHexColorDefinition("#ff004f"),
     "misc-giantsorange": makeCssHexColorDefinition("#fe5a1d"),
     "misc-graycard": makeCssHexColorDefinition("#7c7c7c"),
