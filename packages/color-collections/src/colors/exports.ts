@@ -969,6 +969,7 @@ export const ISCC_NBS_TAUPE = ALL_COLORS["iscc-nbs-taupe"];
 export const ISCC_NBS_TEAROSE = ALL_COLORS["iscc-nbs-tearose"];
 export const ISCC_NBS_TAUPEGRAY = ALL_COLORS["iscc-nbs-taupegray"];
 export const ISCC_NBS_VANILLA = ALL_COLORS["iscc-nbs-vanilla"];
+export const ISCC_NBS_WINE = ALL_COLORS["iscc-nbs-wine"];
 export const ISLAMIC_GREEN = ALL_COLORS["islamic-green"];
 export const JTC_KOBICHA = ALL_COLORS["jtc-kobicha"];
 export const JTC_VIOLET = ALL_COLORS["jtc-violet"];
