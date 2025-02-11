@@ -32,34 +32,28 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { APPLE_COLORS } from "../colors/apple";
-import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
-import { CSS_EXTENDED_COLORS } from "../colors/css";
-import { FLAT_COLORS } from "../colors/flat";
-import { GANBARO_COLORS } from "../colors/ganbaro";
-import { IMPRINT_COLORS } from "../colors/imprint";
-import { KM_COLORS } from "../colors/kevin-muldoon";
-import { MATERIAL_COLORS } from "../colors/material-design";
-import { MATMET_COLORS } from "../colors/material-ui-metro";
-import { METRO_COLORS } from "../colors/metro";
-import { MISC_COLORS } from "../colors/misc";
-import { MSDL_COLORS } from "../colors/msdl";
-import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND3_COLORS } from "../colors/tailwind3";
+import { makeCssHexColorDefinition } from "@safelytyped/css-color";
+import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const ALL_COLOR_COLLECTIONS = {
-    apple: APPLE_COLORS,
-    bootstrap: BOOTSTRAP_COLORS,
-    css: CSS_EXTENDED_COLORS,
-    flat: FLAT_COLORS,
-    ganbaro: GANBARO_COLORS,
-    imprint: IMPRINT_COLORS,
-    km: KM_COLORS,
-    materialDesign: MATERIAL_COLORS,
-    matmet: MATMET_COLORS,
-    metro: METRO_COLORS,
-    misc: MISC_COLORS,
-    msdl: MSDL_COLORS,
-    social: SOCIAL_COLORS,
-    tailwind3: TAILWIND3_COLORS,
+export const MATMET_COLORS: CssColorDefinitions = {
+    "matmet-amber": makeCssHexColorDefinition("#f0a30a"),
+    "matmet-brown": makeCssHexColorDefinition("#825a2c"),
+    "matmet-cobalt": makeCssHexColorDefinition("#0050ef"),
+    "matmet-crimson": makeCssHexColorDefinition("#a20025"),
+    "matmet-cyan": makeCssHexColorDefinition("#1ba1e2"),
+    "matmet-emerald": makeCssHexColorDefinition("#008a00"),
+    "matmet-green": makeCssHexColorDefinition("#60a917"),
+    "matmet-indigo": makeCssHexColorDefinition("#6a00ff"),
+    "matmet-lime": makeCssHexColorDefinition("#a4c400"),
+    "matmet-magenta": makeCssHexColorDefinition("#d80073"),
+    "matmet-mauve": makeCssHexColorDefinition("#76608a"),
+    "matmet-olive": makeCssHexColorDefinition("#6d8764"),
+    "matmet-orange": makeCssHexColorDefinition("#fa6800"),
+    "matmet-pink": makeCssHexColorDefinition("#f472d0"),
+    "matmet-red": makeCssHexColorDefinition("#e51400"),
+    "matmet-sienna": makeCssHexColorDefinition("#a0522d"),
+    "matmet-steel": makeCssHexColorDefinition("#647687"),
+    "matmet-teal": makeCssHexColorDefinition("#00aba9"),
+    "matmet-violet": makeCssHexColorDefinition("#a0f"),
+    "matmet-yellow": makeCssHexColorDefinition("#e3c800"),
 };
