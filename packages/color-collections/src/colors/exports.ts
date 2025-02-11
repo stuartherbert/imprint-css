@@ -848,6 +848,7 @@ export const CMYK_PROCESSYELLOW = ALL_COLORS["cmyk-processyellow"];
 export const CMYK_RED = ALL_COLORS["cmyk-red"];
 export const CORNELL_RED = ALL_COLORS["cornell-red"];
 export const CRAYOLA_ALLOYORANGE = ALL_COLORS["crayola-alloyorange"];
+export const CRAYOLA_APRICOT = ALL_COLORS["crayola-apricot"];
 export const CRAYOLA_ASPARAGUS = ALL_COLORS["crayola-asparagus"];
 export const CRAYOLA_ATOMICTANGERINE = ALL_COLORS["crayola-atomictangerine"];
 export const CRAYOLA_BABYPOWDER = ALL_COLORS["crayola-babypowder"];
