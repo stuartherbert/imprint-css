@@ -268,6 +268,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-pumpkin": makeCssHexColorDefinition("#ff7518"),
     "misc-purpleglove": makeCssHexColorDefinition("#7449c0"),
     "misc-purpletaupe": makeCssHexColorDefinition("#50404d"),
+    "misc-rosewood": makeCssHexColorDefinition("#65000b"),
     "misc-ruby": makeCssHexColorDefinition("#e0115f"),
     "misc-scarlet": makeCssHexColorDefinition("#ff2400"),
     "misc-shamrockgreen": makeCssHexColorDefinition("#009e60"),
