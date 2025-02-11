@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'misc-cardinalred'.",
-  "definition": "#c41e3a",
-  "hex": "#c41e3a",
+  "definition": "#c51e3a",
+  "hex": "#c51e3a",
   "general": {
     "hues": [
       "pink"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 82.826,
-    "relativeLuminance": 0.129
+    "luma": 83.125,
+    "relativeLuminance": 0.131
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 5.4,
+    "contrastRatio": 5.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

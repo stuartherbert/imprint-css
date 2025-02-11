@@ -123,9 +123,14 @@ export default {
         "W3C WCAG 2.2 Relative Luminance": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance",
         "W3C WCAG 2.2 Text": "https://www.w3.org/TR/WCAG22/#dfn-text",
         "W3C WCAG 2.2 Understanding Minimum Contrast": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+
+        "Wikipeda Creative Commons Attribution-ShareAlike 4.0 License": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License",
         "Wikipedia Flat Design": "https://en.wikipedia.org/wiki/Flat_design",
+        "Wikipedia List of Colors by Shade": "https://en.wikipedia.org/wiki/List_of_colors_by_shade",
         "Wikipedia Metro Design Language": "https://en.wikipedia.org/wiki/Metro_(design_language)",
         "Wikipedia The Dress": "https://en.wikipedia.org/wiki/The_dress",
+        "Wikipedia Pantone": "https://en.wikipedia.org/wiki/Pantone",
+        "Wikipedia Shades of Red": "https://en.wikipedia.org/wiki/Shades_of_red",
 
         "YIQ Color Space": "https://en.wikipedia.org/wiki/YIQ",
     }
