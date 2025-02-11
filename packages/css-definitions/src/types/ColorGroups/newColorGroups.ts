@@ -47,12 +47,14 @@ export function newColorGroups(
             flat: {},
             ganbaro: {},
             imprint: {},
-            materialDesign: {},
+            km: {},
+            material: {},
+            matmet: {},
             metro: {},
             misc: {},
-            msdl: {},
+            msdl1: {},
+            msdl2: {},
             social: {},
-
         },
         ...parts
     };

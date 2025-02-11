@@ -56,7 +56,7 @@ export const ALL_COLOR_COLLECTIONS = {
     ganbaro: GANBARO_COLORS,
     imprint: IMPRINT_COLORS,
     km: KM_COLORS,
-    materialDesign: MATERIAL_COLORS,
+    material: MATERIAL_COLORS,
     matmet: MATMET_COLORS,
     metro: METRO_COLORS,
     misc: MISC_COLORS,
