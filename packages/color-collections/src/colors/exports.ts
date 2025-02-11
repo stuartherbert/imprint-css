@@ -961,6 +961,7 @@ export const ISCC_NBS_RUSSET = ALL_COLORS["iscc-nbs-russet"];
 export const ISCC_NBS_RUSSIANGREEN = ALL_COLORS["iscc-nbs-russiangreen"];
 export const ISCC_NBS_RUSSIANVIOLET = ALL_COLORS["iscc-nbs-russianviolet"];
 export const ISCC_NBS_TAUPE = ALL_COLORS["iscc-nbs-taupe"];
+export const ISCC_NBS_TEAROSE = ALL_COLORS["iscc-nbs-tearose"];
 export const ISCC_NBS_TAUPEGRAY = ALL_COLORS["iscc-nbs-taupegray"];
 export const ISCC_NBS_VANILLA = ALL_COLORS["iscc-nbs-vanilla"];
 export const ISLAMIC_GREEN = ALL_COLORS["islamic-green"];
