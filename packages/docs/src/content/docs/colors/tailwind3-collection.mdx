@@ -10,9 +10,43 @@ import ColorPaletteBlocks from "../../../components/Colors/ColorPaletteBlocks.as
 import ColorPaletteSwatches from "../../../components/Colors/ColorPaletteSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 
+## Introduction
 
-SOMETHING HERE
+### What Is The Tailwind v3 Color Collection?
+
+<ExternalLink name="Tailwind CSS"/> is a popular mobile-first CSS utility framework. It ships with a rich selection of color palettes.
+
+Tailwind CSS v3 was the last version of Tailwind to use sRGB color definitions. Tailwind CSS v4 was released at the start of 2025, and it switched to using `oklch()` color definitions.
+
+<ExternalLink name="Evil Martians OKLCH In CSS" text="OKLAB and OKLCH color spaces have some big advantages over the old RGB color space"/> that browsers (and W3C standards!) have used for decades. Unfortunately, colors defined using `oklch()` may not be compatible with accessibility legislation in the USA and in the EU.
+
+The problem is simple:
+
+- accessibility legislation relies on the WCAG 2.2 for color accessibility;
+- WCAG 2.2's color accessibility uses a _contrast ratio_ formula that works in the RGB color space; but
+- `oklch()` can be used to define colors that do not exist in the sRGB color space, and
+- mapping colors from OKLCH back to sRGB can change the appearance of the color.
+
+That makes it a bit tricky to determine if color pairs defined in `oklch()` meet the WCAG 2.2 AA or AAA color accessibility standards ... and, therefore, whether they comply with accessibility legislation. Unfortunately, at the time of writing (early 2025), we haven't seen this addressed amidst all the hype around OKLCH.
+
+If you're working in a space where you need to be cautious about accessibility compliance, you might prefer to stick with the Tailwind CSS v3 colors for now.
+
+Let's hope that WCAG 3.0 introduces color accessibility formula that explicitly accounts for OKLCH!
+
+### Where Did These Colors Come From?
+
+We've taken the colors from <ExternalLink name="Tailwind CSS v3 Colors" text="Tailwind CSS v3"/> and made them available in Imprint CSS.
+
+We've just prefixed them with `tw3-` to distinguish them from other color collections - and from the Tailwind v4 colors too.
+
+### Intellectual Property Disclaimer
+
+Tailwind CSS v3 is released under <ExternalLink name="Tailwind CSS v3 MIT License" text="the MIT license"/>.
+
+The Imprint CSS project claims no ownership of these colors, nor of any trademarks owned by Tailwind Labs, Inc. Imprint CSS is not affiliated with Tailwind Labs in any way.
 
 ## Color Palettes
 
