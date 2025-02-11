@@ -994,6 +994,7 @@ export const MISC_CHOCOLATE = ALL_COLORS["misc-chocolate"];
 export const MISC_CHOCOLATECOSMOS = ALL_COLORS["misc-chocolatecosmos"];
 export const MISC_CHILIRED = ALL_COLORS["misc-chilired"];
 export const MISC_CINEREOUS = ALL_COLORS["misc-cinereous"];
+export const MISC_CORDOVAN = ALL_COLORS["misc-cordovan"];
 export const MISC_DARKESTMOSSGREEN = ALL_COLORS["misc-darkestmossgreen"];
 export const MISC_DARKMOSSGREEN = ALL_COLORS["misc-darkmossgreen"];
 export const MISC_EBONY = ALL_COLORS["misc-ebony"];
