@@ -1199,6 +1199,7 @@ export const TYRIAN_PURPLE = ALL_COLORS["tyrian-purple"];
 export const UP_FORESTGREEN = ALL_COLORS["up-forestgreen"];
 export const UTA_BURNTORANGE = ALL_COLORS["uta-burntorange"];
 export const UT_ORANGE = ALL_COLORS["ut-orange"];
+export const X11_CREAM = ALL_COLORS["x11-cream"];
 export const X11_LIGHTGOLDENROD = ALL_COLORS["x11-lightgoldenrod"];
 export const XONA_BLACKBEAN = ALL_COLORS["xona-blackbean"];
 export const XONA_BURNTUMBER = ALL_COLORS["xona-burntumber"];
