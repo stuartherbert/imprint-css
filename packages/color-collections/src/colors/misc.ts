@@ -354,7 +354,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "munsell-green": makeCssHexColorDefinition("#00a877"),
     "munsell-purple": makeCssHexColorDefinition("#9f00c5"),
     "munsell-red": makeCssHexColorDefinition("#ff0042"),
-    "munsell-yellow": makeCssHexColorDefinition("#efcc00"),
+    "munsell-yellow": makeCssHexColorDefinition("#ffdb00"),
     "ncs-blue": makeCssHexColorDefinition("#0087bd"),
     "ncs-green": makeCssHexColorDefinition("#009f6b"),
     "ncs-red": makeCssHexColorDefinition("#c40234"),
