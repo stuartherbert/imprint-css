@@ -37,6 +37,7 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 
 export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetyblue": makeCssHexColorDefinition("#004488"),
+    "ansi-safetygray": makeCssHexColorDefinition("#7e868d"),
     "ansi-safetygreen": makeCssHexColorDefinition("#347856"),
     "ansi-safetyorange": makeCssHexColorDefinition("#ff7900"),
     "ansi-safetypurple": makeCssHexColorDefinition("#67267d"),
