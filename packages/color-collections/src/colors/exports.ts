@@ -832,6 +832,7 @@ export const METRO_TERRACOTTA = ALL_COLORS["metro-terracotta"];
 export const METRO_VIOLET = ALL_COLORS["metro-violet"];
 export const METRO_YELLOW = ALL_COLORS["metro-yellow"];
 export const ANSI_SAFETYBLUE = ALL_COLORS["ansi-safetyblue"];
+export const ANSI_SAFETYGREEN = ALL_COLORS["ansi-safetygreen"];
 export const ANSI_SAFETYORANGE = ALL_COLORS["ansi-safetyorange"];
 export const ANSI_SAFETYRED = ALL_COLORS["ansi-safetyred"];
 export const ANSI_SAFETYYELLOW = ALL_COLORS["ansi-safetyyellow"];
