@@ -1192,6 +1192,7 @@ export const RAL_TELEMAGENTA = ALL_COLORS["ral-telemagenta"];
 export const RAL_SIGNALBLUE = ALL_COLORS["ral-signalblue"];
 export const RAL_SIGNALGREEN = ALL_COLORS["ral-signalgreen"];
 export const RAL_SIGNALRED = ALL_COLORS["ral-signalred"];
+export const RAL_SIGNALWHITE = ALL_COLORS["ral-signalwhite"];
 export const RAL_SIGNALYELLOW = ALL_COLORS["ral-signalyellow"];
 export const RESENE_DESIRE = ALL_COLORS["resene-desire"];
 export const RESENE_DUTCHWHITE = ALL_COLORS["resene-dutchwhite"];
