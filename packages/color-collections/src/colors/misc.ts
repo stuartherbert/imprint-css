@@ -128,6 +128,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "encycolorpedia-darkmossgreen": makeCssHexColorDefinition("#4a5d23"),
     "encycolorpedia-darkpastelgreen": makeCssHexColorDefinition("#03c03c"),
     "encycolorpedia-garnet": makeCssHexColorDefinition("#733635"),
+    "encycolorpedia-greenishyellow": makeCssHexColorDefinition("#eeea62"),
     "encycolorpedia-teagreen": makeCssHexColorDefinition("#d0f0c0"),
     "encycolorpedia-verdigris": makeCssHexColorDefinition("#43b3ae"),
     "french-pink": makeCssHexColorDefinition("#fd6c9e"),
