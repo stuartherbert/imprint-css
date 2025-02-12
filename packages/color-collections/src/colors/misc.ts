@@ -308,6 +308,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-paynegray": makeCssHexColorDefinition("#536878"),
     "misc-phthalogreen": makeCssHexColorDefinition("#123524"),
     "misc-peach": makeCssHexColorDefinition("#ffe5b4"),
+    "misc-pear": makeCssHexColorDefinition("#d1e231"),
     "misc-periwinkle": makeCssHexColorDefinition("#ccf"),
     "misc-persianpink": makeCssHexColorDefinition("#f77fbe"),
     "misc-persimmon": makeCssHexColorDefinition("#ec5800"),
