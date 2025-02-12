@@ -233,6 +233,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-cerulean": makeCssHexColorDefinition("#007ba7"),
     "misc-champagne": makeCssHexColorDefinition("#f7e7ce"),
     "misc-charlestongreen": makeCssHexColorDefinition("#232b2b"),
+    "misc-chartreuseyellow": makeCssHexColorDefinition("#dfff00"),
     "misc-cherryblossompink": makeCssHexColorDefinition("#ffb7c5"),
     "misc-chestnut": makeCssHexColorDefinition("#954535"),
     "misc-chocolate": makeCssHexColorDefinition("#7b3f00"),
