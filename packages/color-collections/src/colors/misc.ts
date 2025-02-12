@@ -38,6 +38,7 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetyyellow": makeCssHexColorDefinition("#eed202"),
     "ansi-safetyorange": makeCssHexColorDefinition("#ff7900"),
+    "ansi-safetyred": makeCssHexColorDefinition("#bd2024"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "behr-caribbeancurrent": makeCssHexColorDefinition("#006d6f"),
     "bsc-brunswickgreen": makeCssHexColorDefinition("#1e3e2e"),
