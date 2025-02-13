@@ -425,6 +425,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "pourpre-violet": makeCssHexColorDefinition("#8806ce"),
     "princeton-orange": makeCssHexColorDefinition("#e77500"),
     "ral-blackolive": makeCssHexColorDefinition("#3b3c36"),
+    "ral-jetblack": makeCssHexColorDefinition("#0e0e10"),
     "ral-resedagreen": makeCssHexColorDefinition("#6c7c59"),
     "ral-telemagenta": makeCssHexColorDefinition("#cf3476"),
     "ral-signalblack": makeCssHexColorDefinition("#2b2b2c"),
