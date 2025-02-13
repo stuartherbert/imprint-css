@@ -1242,7 +1242,6 @@ export const SPANISH_PINK = ALL_COLORS["spanish-pink"];
 export const SPANISH_RED = ALL_COLORS["spanish-red"];
 export const SPANISH_VIOLET = ALL_COLORS["spanish-violet"];
 export const SGBUS_GREEN = ALL_COLORS["sgbus-green"];
-export const TIFFANY_BLUE = ALL_COLORS["tiffany-blue"];
 export const TYRIAN_PURPLE = ALL_COLORS["tyrian-purple"];
 export const UP_FORESTGREEN = ALL_COLORS["up-forestgreen"];
 export const UTA_BURNTORANGE = ALL_COLORS["uta-burntorange"];
