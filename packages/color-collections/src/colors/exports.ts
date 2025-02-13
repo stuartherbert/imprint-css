@@ -986,6 +986,7 @@ export const ISCC_NBS_OLDROSE = ALL_COLORS["iscc-nbs-oldrose"];
 export const ISCC_NBS_PALEPINK = ALL_COLORS["iscc-nbs-palepink"];
 export const ISCC_NBS_PANSYPURPLE = ALL_COLORS["iscc-nbs-pansypurple"];
 export const ISCC_NBS_PASTELPINK = ALL_COLORS["iscc-nbs-pastelpink"];
+export const ISCC_NBS_PEACOCKBLUE = ALL_COLORS["iscc-nbs-peacockblue"];
 export const ISCC_NBS_POMPANDPOWER = ALL_COLORS["iscc-nbs-pompandpower"];
 export const ISCC_NBS_PURPUREUS = ALL_COLORS["iscc-nbs-purpureus"];
 export const ISCC_NBS_RAISINBLACK = ALL_COLORS["iscc-nbs-raisinblack"];
