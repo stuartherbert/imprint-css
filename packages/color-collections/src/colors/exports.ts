@@ -1177,6 +1177,7 @@ export const MISC_XANTHOUS = ALL_COLORS["misc-xanthous"];
 export const MISC_ZARQA = ALL_COLORS["misc-zarqa"];
 export const MSU_GREEN = ALL_COLORS["msu-green"];
 export const MUNSELL_BLUE = ALL_COLORS["munsell-blue"];
+export const MUNSELL_BLUEGREEN = ALL_COLORS["munsell-bluegreen"];
 export const MUNSELL_GREEN = ALL_COLORS["munsell-green"];
 export const MUNSELL_PURPLE = ALL_COLORS["munsell-purple"];
 export const MUNSELL_RED = ALL_COLORS["munsell-red"];

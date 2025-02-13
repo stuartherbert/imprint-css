@@ -382,6 +382,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-zarqa": makeCssHexColorDefinition("#ff4500"),
     "msu-green": makeCssHexColorDefinition("#18453b"),
     "munsell-blue": makeCssHexColorDefinition("#0093af"),
+    "munsell-bluegreen": makeCssHexColorDefinition("#00a59c"),
     "munsell-green": makeCssHexColorDefinition("#00a877"),
     "munsell-purple": makeCssHexColorDefinition("#9f00c5"),
     "munsell-red": makeCssHexColorDefinition("#ff0042"),
