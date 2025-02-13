@@ -1193,6 +1193,7 @@ export const POURPRE_CARMINE = ALL_COLORS["pourpre-carmine"];
 export const POURPRE_VIOLET = ALL_COLORS["pourpre-violet"];
 export const PRINCETON_ORANGE = ALL_COLORS["princeton-orange"];
 export const RAL_BLACKOLIVE = ALL_COLORS["ral-blackolive"];
+export const RAL_RESEDAGREEN = ALL_COLORS["ral-resedagreen"];
 export const RAL_TELEMAGENTA = ALL_COLORS["ral-telemagenta"];
 export const RAL_SIGNALBLACK = ALL_COLORS["ral-signalblack"];
 export const RAL_SIGNALBLUE = ALL_COLORS["ral-signalblue"];
