@@ -1223,6 +1223,7 @@ export const PLOCHERE_TANGOPINK = ALL_COLORS["plochere-tangopink"];
 export const POURPRE_AVOCADO = ALL_COLORS["pourpre-avocado"];
 export const POURPRE_CARMINE = ALL_COLORS["pourpre-carmine"];
 export const POURPRE_ELECTRICBLUE = ALL_COLORS["pourpre-electricblue"];
+export const POURPRE_MAUVE = ALL_COLORS["pourpre-mauve"];
 export const POURPRE_VIOLET = ALL_COLORS["pourpre-violet"];
 export const PRINCETON_ORANGE = ALL_COLORS["princeton-orange"];
 export const RAL_BLACKOLIVE = ALL_COLORS["ral-blackolive"];
