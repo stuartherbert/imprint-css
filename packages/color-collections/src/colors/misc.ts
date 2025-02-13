@@ -49,6 +49,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "behr-caribbeancurrent": makeCssHexColorDefinition("#006d6f"),
     "bsc-brunswickgreen": makeCssHexColorDefinition("#1e3e2e"),
     "calpolypomona-green": makeCssHexColorDefinition("#1e4d2b"),
+    "british-racinggreen": makeCssHexColorDefinition("#004225"),
     "castleton-green": makeCssHexColorDefinition("#00563b"),
     "ciecd-amber": makeCssHexColorDefinition("#ffbf00"),
     "cmyk-cyan": makeCssHexColorDefinition("#00b7eb"),
