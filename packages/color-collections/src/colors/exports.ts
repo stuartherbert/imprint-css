@@ -1099,6 +1099,7 @@ export const MISC_MEXICANPINK = ALL_COLORS["misc-mexicanpink"];
 export const MISC_MIDMOSSGREEN = ALL_COLORS["misc-midmossgreen"];
 export const MISC_MIDNIGHTGREEN = ALL_COLORS["misc-midnightgreen"];
 export const MISC_MOUNTBATTENPINK = ALL_COLORS["misc-mountbattenpink"];
+export const MISC_MYRTLE = ALL_COLORS["misc-myrtle"];
 export const MISC_NEONGREEN = ALL_COLORS["misc-neongreen"];
 export const MISC_NICKEL = ALL_COLORS["misc-nickel"];
 export const MISC_OLIVEDRAB7 = ALL_COLORS["misc-olivedrab7"];

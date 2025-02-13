@@ -304,6 +304,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-midmossgreen": makeCssHexColorDefinition("#686b47"),
     "misc-midnightgreen": makeCssHexColorDefinition("#004953"),
     "misc-mountbattenpink": makeCssHexColorDefinition("#997a8d"),
+    "misc-myrtle": makeCssHexColorDefinition("#21421e"),
     "misc-neongreen": makeCssHexColorDefinition("#39ff14"),
     "misc-nickel": makeCssHexColorDefinition("#727472"),
     "misc-olivedrab7": makeCssHexColorDefinition("#3c341f"),
