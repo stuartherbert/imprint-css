@@ -138,6 +138,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "encycolorpedia-verdigris": makeCssHexColorDefinition("#43b3ae"),
     "french-pink": makeCssHexColorDefinition("#fd6c9e"),
     "go-green": makeCssHexColorDefinition("#00ab66"),
+    "hungarian-green": makeCssHexColorDefinition("#477050"),
     "hunyadi-yellow": makeCssHexColorDefinition("#e8ac41"),
     "india-green": makeCssHexColorDefinition("#138808"),
     "india-saffron": makeCssHexColorDefinition("#ff7722"),

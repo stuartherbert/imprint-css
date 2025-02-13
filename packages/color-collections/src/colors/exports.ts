@@ -933,6 +933,7 @@ export const ENCYCOLORPEDIA_TEAGREEN = ALL_COLORS["encycolorpedia-teagreen"];
 export const ENCYCOLORPEDIA_VERDIGRIS = ALL_COLORS["encycolorpedia-verdigris"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
 export const GO_GREEN = ALL_COLORS["go-green"];
+export const HUNGARIAN_GREEN = ALL_COLORS["hungarian-green"];
 export const HUNYADI_YELLOW = ALL_COLORS["hunyadi-yellow"];
 export const INDIA_GREEN = ALL_COLORS["india-green"];
 export const INDIA_SAFFRON = ALL_COLORS["india-saffron"];
