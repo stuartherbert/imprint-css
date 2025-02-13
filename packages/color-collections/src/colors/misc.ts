@@ -433,6 +433,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "spanish-blue": makeCssHexColorDefinition("#0070bb"),
     "spanish-gray": makeCssHexColorDefinition("#989898"),
     "spanish-green": makeCssHexColorDefinition("#009150"),
+    "spanish-indigo": makeCssHexColorDefinition("#9683ec"),
     "spanish-orange": makeCssHexColorDefinition("#e86100"),
     "spanish-pink": makeCssHexColorDefinition("#f7bfbe"),
     "spanish-red": makeCssHexColorDefinition("#e60026"),
