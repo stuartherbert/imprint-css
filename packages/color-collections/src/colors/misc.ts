@@ -378,7 +378,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ncs-yellow": makeCssHexColorDefinition("#ffd300"),
     "northwestern-purple": makeCssHexColorDefinition("#4e2a84"),
     "ou-crimson": makeCssHexColorDefinition("#900"),
-    "pakistan-green": makeCssHexColorDefinition("#060"),
+    "pakistan-green": makeCssHexColorDefinition("#01411c"),
     "persian-blue": makeCssHexColorDefinition("#1c39bb"),
     "persian-green": makeCssHexColorDefinition("#00a693"),
     "persian-indigo": makeCssHexColorDefinition("#32127a"),
