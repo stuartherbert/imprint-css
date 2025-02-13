@@ -282,6 +282,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-hollywoodcerise": makeCssHexColorDefinition("#f400a1"),
     "misc-hookersgreen": makeCssHexColorDefinition("#49796b"),
     "misc-imperialred": makeCssHexColorDefinition("#ed2939"),
+    "misc-indigo": makeCssHexColorDefinition("#4000ff"),
     "misc-iridescentelectricblue": makeCssHexColorDefinition("#3137fd"),
     "misc-isabelline": makeCssHexColorDefinition("#f4f0ec"),
     "misc-jade": makeCssHexColorDefinition("#00a86b"),
