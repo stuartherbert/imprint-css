@@ -1052,6 +1052,7 @@ export const MISC_EBONY = ALL_COLORS["misc-ebony"];
 export const MISC_ELECTRICBLUE = ALL_COLORS["misc-electricblue"];
 export const MISC_ELECTRICVIOLET = ALL_COLORS["misc-electricviolet"];
 export const MISC_EMERALD = ALL_COLORS["misc-emerald"];
+export const MISC_ERIN = ALL_COLORS["misc-erin"];
 export const MISC_FALURED = ALL_COLORS["misc-falured"];
 export const MISC_FELDGRAU = ALL_COLORS["misc-feldgrau"];
 export const MISC_FERN = ALL_COLORS["misc-fern"];

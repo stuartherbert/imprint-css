@@ -257,6 +257,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-electricblue": makeCssHexColorDefinition("#7df9ff"),
     "misc-electricviolet": makeCssHexColorDefinition("#8f00ff"),
     "misc-emerald": makeCssHexColorDefinition("#50c878"),
+    "misc-erin": makeCssHexColorDefinition("#00ff40"),
     "misc-falured": makeCssHexColorDefinition("#801818"),
     "misc-feldgrau": makeCssHexColorDefinition("#4d5d53"),
     "misc-fern": makeCssHexColorDefinition("#4f7942"),
