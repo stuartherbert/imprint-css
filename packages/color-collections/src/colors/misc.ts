@@ -36,6 +36,8 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const MISC_COLORS: CssColorDefinitions = {
+    "android-green": makeCssHexColorDefinition("#3ddc84"),
+    "android-origgreen": makeCssHexColorDefinition("#a4c639"),
     "ansi-safetyblue": makeCssHexColorDefinition("#004488"),
     "ansi-safetygray": makeCssHexColorDefinition("#7e868d"),
     "ansi-safetygreen": makeCssHexColorDefinition("#347856"),
