@@ -203,6 +203,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ksu-purple": makeCssHexColorDefinition("#512888"),
     "liquitex-quinacridonemagenta": makeCssHexColorDefinition("#8e3a59"),
     "milkpaint-barnred": makeCssHexColorDefinition("#7c0a02"),
+    "misc-acidgreen": makeCssHexColorDefinition("#b0bf1a"),
     "misc-alizarin": makeCssHexColorDefinition("#db2d43"),
     "misc-amaranthdeeppurple": makeCssHexColorDefinition("#9f2b68"),
     "misc-amaranthred": makeCssHexColorDefinition("#e52b50"),
