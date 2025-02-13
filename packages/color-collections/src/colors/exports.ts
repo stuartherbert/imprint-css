@@ -1230,6 +1230,7 @@ export const RESENE_DESIRE = ALL_COLORS["resene-desire"];
 export const RESENE_DUTCHWHITE = ALL_COLORS["resene-dutchwhite"];
 export const RESENE_ROCKETMETALLIC = ALL_COLORS["resene-rocketmetallic"];
 export const RESENE_SPACECADET = ALL_COLORS["resene-spacecadet"];
+export const RESENE_ZOMP = ALL_COLORS["resene-zomp"];
 export const RIDGEWAY_WOODBROWN = ALL_COLORS["ridgeway-woodbrown"];
 export const SACRAMENTOSTATE_GREEN = ALL_COLORS["sacramentostate-green"];
 export const SHARPIE_AEROBLUE = ALL_COLORS["sharpie-aeroblue"];
