@@ -1166,6 +1166,7 @@ export const MUNSELL_GREEN = ALL_COLORS["munsell-green"];
 export const MUNSELL_PURPLE = ALL_COLORS["munsell-purple"];
 export const MUNSELL_RED = ALL_COLORS["munsell-red"];
 export const MUNSELL_YELLOW = ALL_COLORS["munsell-yellow"];
+export const NDHU_GREEN = ALL_COLORS["ndhu-green"];
 export const NCS_BLUE = ALL_COLORS["ncs-blue"];
 export const NCS_GREEN = ALL_COLORS["ncs-green"];
 export const NCS_RED = ALL_COLORS["ncs-red"];
