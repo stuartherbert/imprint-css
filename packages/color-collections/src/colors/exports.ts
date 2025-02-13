@@ -1171,6 +1171,7 @@ export const MISC_VERMILION = ALL_COLORS["misc-vermilion"];
 export const MISC_VENETIANRED = ALL_COLORS["misc-venetianred"];
 export const MISC_VIOLET = ALL_COLORS["misc-violet"];
 export const MISC_VIRIDIAN = ALL_COLORS["misc-viridian"];
+export const MISC_VIVIDCERULEAN = ALL_COLORS["misc-vividcerulean"];
 export const MISC_VIVIDVIOLET = ALL_COLORS["misc-vividviolet"];
 export const MISC_WINEDREGS = ALL_COLORS["misc-winedregs"];
 export const MISC_XANTHOUS = ALL_COLORS["misc-xanthous"];
