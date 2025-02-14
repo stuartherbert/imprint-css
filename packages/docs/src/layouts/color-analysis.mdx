@@ -6,6 +6,7 @@ export let colorDetails = {}
 
 import BasicExample from "../components/CodeExamples/BasicExample.astro"
 import Callout from "../components/Callouts/Callout.astro"
+import ColorAliases from "../components/Colors/ColorAliases.astro";
 import ColorSwatchShowcase from "../components/Colors/ColorSwatchShowcase.astro";
 import ColorLink from "../components/Colors/ColorLink.astro";
 import ColorExample from "../components/Colors/ColorExample.astro";
@@ -129,6 +130,10 @@ Here's a visual example of using <code>{colorDetails.id}</code> as the text colo
 Here's a visual example of using <ColorLink colorName="imprint-fg-default"/> as the text color, with <code>{colorDetails.id}</code> as the background.
 
 <ColorExample background={colorDetails.id} colorName="imprint-fg-default"/>
+
+## Identical Colors
+
+<ColorAliases colorName={colorDetails.data.name}/>
 
 ## How To Use
 

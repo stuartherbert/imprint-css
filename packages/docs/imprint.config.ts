@@ -131,8 +131,12 @@ export default {
         "Wikipedia Metro Design Language": "https://en.wikipedia.org/wiki/Metro_(design_language)",
         "Wikipedia The Dress": "https://en.wikipedia.org/wiki/The_dress",
         "Wikipedia Pantone": "https://en.wikipedia.org/wiki/Pantone",
+        "Wikipedia Shades of Black": "https://en.wikipedia.org/wiki/Shades_of_black",
+        "Wikipedia Shades of Green": "https://en.wikipedia.org/wiki/Shades_of_green",
         "Wikipedia Shades of Orange": "https://en.wikipedia.org/wiki/Shades_of_orange",
         "Wikipedia Shades of Red": "https://en.wikipedia.org/wiki/Shades_of_red",
+        "Wikipedia X Window System": "https://en.wikipedia.org/wiki/X_Window_System",
+        "Wikipedia X11 Color Names": "https://en.wikipedia.org/wiki/X11_color_names",
 
         "YIQ Color Space": "https://en.wikipedia.org/wiki/YIQ",
     }

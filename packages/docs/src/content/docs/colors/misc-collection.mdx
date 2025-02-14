@@ -7,9 +7,12 @@ prev: colors/tailwind3-collection
 
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
 import ColorCollectionHues from "../../../components/Colors/ColorCollectionHues.astro";
+import ColorLink from "../../../components/Colors/ColorLink.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
+import InternalLink from "../../../components/InternalLink.astro";
+import InternalLinkWithText from "../../../components/InternalLinkWithText.astro";
 
 ## Introduction
 
@@ -19,12 +22,36 @@ The Miscellaneous Colors Collection is our collection of colors that don't (curr
 
 ### Where Did The Colors Come From?
 
-These colors are all taken from Wikipedia: either <ExternalLink name="Wikipedia List of Colors by Shade"/>, or:
+These colors are (nearly) all taken from Wikipedia: either <ExternalLink name="Wikipedia List of Colors by Shade"/>, or:
 
+* <ExternalLink name="Wikipedia Shades of Black"/>
+* <ExternalLink name="Wikipedia Shades of Green"/>
 * <ExternalLink name="Wikipedia Shades of Orange"/>
 * <ExternalLink name="Wikipedia Shades of Red"/>
 
 or from Wikipedia pages linked to those pages.
+
+There are some exceptions: either where Wikipedia lacks a definition of the color, or where Wikipedia's definition seems to be an outlier:
+
+* <ColorLink colorName="ansi-safetygray"/>
+* <ColorLink colorName="ansi-safetygreen"/>
+* <ColorLink colorName="ansi-safetypurple"/>
+* <ColorLink colorName="munsell-green"/>
+
+### Color Accuracy
+
+Many of these colors are approximate. Their original definitions are either pre-digital, or are in color spaces that can't always translate perfectly to RGB colors.
+
+It's not unusual for Wikipedia to revise the color definitions over time, either.
+
+### Our Definition Guarantee
+
+We're committed to keeping our color definitions the same once they have been published. We'll only change the color definitions:
+
+1. to fix clear errors in the definition (ie fix typos in the color definition), or
+2. if an "official" definition becomes available from the color's originator (e.g. ANSI publishes official RGB or CSS color definitions for the Safety colors).
+
+You can use these colors knowing that they're going to still exist long into the future.
 
 ### Intellectual Property Disclaimer
 
@@ -33,6 +60,10 @@ Wikipedia is published under the <ExternalLink name="Wikipeda Creative Commons A
 The Imprint CSS project claims no ownership of these colors.
 
 ## Color Sets
+
+### ANSI Colors
+
+<ColorCollection colorGroup="misc" prefix="ansi"/>
 
 ### CMYK Colors
 
@@ -45,6 +76,12 @@ The Imprint CSS project claims no ownership of these colors.
 ### Encycolorpedia Colors
 
 <ColorCollection colorGroup="misc" prefix="encycolorpedia"/>
+
+### French Colors
+
+Wikipedia refers to these colors as "French XXX" (e.g. "French Beige"). It's not clear why most of these colors are named like that.
+
+<ColorCollection colorGroup="misc" prefix="french"/>
 
 ### International Orange
 
@@ -82,17 +119,32 @@ These colors were originally defined in the ISCC-NBS system. We've split them ou
 
 <ColorCollection colorGroup="misc" prefix="plochere"/>
 
+### RAL Colors
+
+<ColorCollection colorGroup="misc" prefix="ral"/>
+
 ### Resene Colors
 
 <ColorCollection colorGroup="misc" prefix="resene"/>
 
-### Spanish Hues
+### Spanish Colors
+
+According to Wikipedia, these colors are popular in the Hispanophone realm (i.e. in Spanish-speaking countries and communities). Wikipedia prefixes many (but not all!) of these colors as "Spanish XXX" (e.g. Spanish Green).
 
 <ColorCollection colorGroup="misc" prefix="spanish"/>
 
-### Trad Colors
+### X11 Colors
 
-<ColorCollection colorGroup="misc" prefix="trad"/>
+The <ExternalLink name="Wikipedia X Window System" text="X Window System"/> (commonly referred to as "X11") defined many of the named colors that are now part of the <InternalLinkWithText slug="colors/css-extended-colors-collection" text="CSS Extended Colors"/>.
+
+However, some <ExternalLink name="Wikipedia X11 named colors" text="X11 named colors"/> never made it into the CSS named colors list:
+
+* some X11 color names clash with CSS named colors;
+* some X11 color names aren't official names (e.g. they're part of the PWG 5101.1 derived color list)
+
+We've added them to Imprint CSS with the `x11-` prefix.
+
+<ColorCollection colorGroup="misc" prefix="x11"/>
 
 ### Xona Colors
 
@@ -102,7 +154,7 @@ These colors were originally defined in the ISCC-NBS system. We've split them ou
 
 These colors don't fall into any of the other groups.
 
-<ColorCollection colorGroup="misc" exclude="cmyk,crayola,encycolorpedia,internationalorange,iscc,misc,munsell,ncs,persian,plochere,pourpre,resene,spanish,trad,xona"/>
+<ColorCollection colorGroup="misc" exclude="ansi,cmyk,crayola,encycolorpedia,french,internationalorange,iscc,misc,munsell,ncs,persian,plochere,pourpre,ral,resene,spanish,x11,xona"/>
 
 ## Discussion
 

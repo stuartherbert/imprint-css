@@ -6,6 +6,7 @@ import { colorGroupSchema } from "../schemas/colorGroup";
 import { colorHueSchema } from "../schemas/colorHue";
 import { colorPaletteSchema } from "../schemas/colorPalette";
 import { colorsSchema } from "../schemas/color";
+import { colorAliasSchema } from "../schemas/colorAlias";
 
 const CssStyles = defineCollection({
     type: 'data'
@@ -47,6 +48,11 @@ const colors = defineCollection({
     schema: colorsSchema,
 });
 
+const colorAliases = defineCollection({
+    loader: glob({ pattern: "*.json", base: "./src/data/colorAliases" }),
+    schema: colorAliasSchema,
+});
+
 const colorGroups = defineCollection({
     loader: glob({ pattern: "*.json", base: "./src/data/colorGroups" }),
     schema: colorGroupSchema,
@@ -64,6 +70,7 @@ const colorPalettes = defineCollection({
 
 export const collections = {
     colors,
+    colorAliases,
     colorGroups,
     colorHues,
     colorPalettes,

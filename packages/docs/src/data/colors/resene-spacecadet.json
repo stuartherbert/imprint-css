@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-spacecadet'.",
-  "definition": "#1d2951",
-  "hex": "#1d2951",
+  "definition": "#1e2952",
+  "hex": "#1e2952",
   "general": {
     "hues": [
       "azure"
@@ -15,7 +15,7 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 41.972,
+    "luma": 42.385,
     "relativeLuminance": 0.024
   },
   "pairedWithLightColor": {
