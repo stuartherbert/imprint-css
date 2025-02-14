@@ -1031,6 +1031,7 @@ export const KSU_PURPLE = ALL_COLORS["ksu-purple"];
 export const LIQUITEX_QUINACRIDONEMAGENTA = ALL_COLORS["liquitex-quinacridonemagenta"];
 export const MILKPAINT_BARNRED = ALL_COLORS["milkpaint-barnred"];
 export const MISC_ACIDGREEN = ALL_COLORS["misc-acidgreen"];
+export const MISC_ALABASTER = ALL_COLORS["misc-alabaster"];
 export const MISC_ALIZARIN = ALL_COLORS["misc-alizarin"];
 export const MISC_AMARANTHDEEPPURPLE = ALL_COLORS["misc-amaranthdeeppurple"];
 export const MISC_AMARANTHRED = ALL_COLORS["misc-amaranthred"];
