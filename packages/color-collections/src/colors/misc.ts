@@ -148,6 +148,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "encycolorpedia-greenishyellow": makeCssHexColorDefinition("#eeea62"),
     "encycolorpedia-teagreen": makeCssHexColorDefinition("#d0f0c0"),
     "encycolorpedia-verdigris": makeCssHexColorDefinition("#43b3ae"),
+    "french-lilac": makeCssHexColorDefinition("#86608e"),
     "french-pink": makeCssHexColorDefinition("#fd6c9e"),
     "go-green": makeCssHexColorDefinition("#00ab66"),
     "hungarian-green": makeCssHexColorDefinition("#477050"),
