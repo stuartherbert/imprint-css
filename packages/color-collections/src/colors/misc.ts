@@ -433,6 +433,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "pourpre-avocado": makeCssHexColorDefinition("#568203"),
     "pourpre-carmine": makeCssHexColorDefinition("#960018"),
     "pourpre-electricblue": makeCssHexColorDefinition("#2c75ff"),
+    "pourpre-lilac": makeCssHexColorDefinition("#b666d2"),
     "pourpre-mauve": makeCssHexColorDefinition("#d473d4"),
     "pourpre-violet": makeCssHexColorDefinition("#8806ce"),
     "princeton-orange": makeCssHexColorDefinition("#e77500"),
