@@ -1151,6 +1151,7 @@ export const MISC_MAGENTADYE = ALL_COLORS["misc-magentadye"];
 export const MISC_MAHOGANY = ALL_COLORS["misc-mahogany"];
 export const MISC_MAHOGANYBROWN = ALL_COLORS["misc-mahoganybrown"];
 export const MISC_MALACHITE = ALL_COLORS["misc-malachite"];
+export const MISC_MANHATTAN = ALL_COLORS["misc-manhattan"];
 export const MISC_MARENGO = ALL_COLORS["misc-marengo"];
 export const MISC_MARENGOCLAIR = ALL_COLORS["misc-marengoclair"];
 export const MISC_MAUVE = ALL_COLORS["misc-mauve"];
