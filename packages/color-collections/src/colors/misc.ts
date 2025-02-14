@@ -188,6 +188,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-eggshell": makeCssHexColorDefinition("#f0ead6"),
     "iscc-nbs-englishred": makeCssHexColorDefinition("#ab4e52"),
     "iscc-nbs-englishviolet": makeCssHexColorDefinition("#563c5c"),
+    "iscc-nbs-fielddrab": makeCssHexColorDefinition("#6c541e"),
     "iscc-nbs-flame": makeCssHexColorDefinition("#e25822"),
     "iscc-nbs-glaucous": makeCssHexColorDefinition("#6082b6"),
     "iscc-nbs-grayblue": makeCssHexColorDefinition("#8c92ac"),

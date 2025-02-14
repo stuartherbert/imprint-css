@@ -983,6 +983,7 @@ export const ISCC_NBS_ECRU = ALL_COLORS["iscc-nbs-ecru"];
 export const ISCC_NBS_EGGSHELL = ALL_COLORS["iscc-nbs-eggshell"];
 export const ISCC_NBS_ENGLISHRED = ALL_COLORS["iscc-nbs-englishred"];
 export const ISCC_NBS_ENGLISHVIOLET = ALL_COLORS["iscc-nbs-englishviolet"];
+export const ISCC_NBS_FIELDDRAB = ALL_COLORS["iscc-nbs-fielddrab"];
 export const ISCC_NBS_FLAME = ALL_COLORS["iscc-nbs-flame"];
 export const ISCC_NBS_GLAUCOUS = ALL_COLORS["iscc-nbs-glaucous"];
 export const ISCC_NBS_GRAYBLUE = ALL_COLORS["iscc-nbs-grayblue"];
