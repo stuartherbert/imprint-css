@@ -1204,6 +1204,7 @@ export const MISC_TANGERINE = ALL_COLORS["misc-tangerine"];
 export const MISC_TERRACOTTA = ALL_COLORS["misc-terracotta"];
 export const MISC_TURKEYRED = ALL_COLORS["misc-turkeyred"];
 export const MISC_ULTRAMARINE = ALL_COLORS["misc-ultramarine"];
+export const MISC_UNBLEACHEDSILK = ALL_COLORS["misc-unbleachedsilk"];
 export const MISC_UPMAROON = ALL_COLORS["misc-upmaroon"];
 export const MISC_VERMILION = ALL_COLORS["misc-vermilion"];
 export const MISC_VENETIANRED = ALL_COLORS["misc-venetianred"];
