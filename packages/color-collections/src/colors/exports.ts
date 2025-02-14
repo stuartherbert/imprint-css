@@ -1290,6 +1290,7 @@ export const PRINCETON_ORANGE = ALL_COLORS["princeton-orange"];
 export const RAL_BLACKOLIVE = ALL_COLORS["ral-blackolive"];
 export const RAL_JETBLACK = ALL_COLORS["ral-jetblack"];
 export const RAL_RESEDAGREEN = ALL_COLORS["ral-resedagreen"];
+export const RAL_RUBYRED = ALL_COLORS["ral-rubyred"];
 export const RAL_TELEMAGENTA = ALL_COLORS["ral-telemagenta"];
 export const RAL_SIGNALBLACK = ALL_COLORS["ral-signalblack"];
 export const RAL_SIGNALBLUE = ALL_COLORS["ral-signalblue"];
