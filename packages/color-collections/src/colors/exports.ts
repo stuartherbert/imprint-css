@@ -1094,6 +1094,7 @@ export const MISC_APRICOTPEACH = ALL_COLORS["misc-apricotpeach"];
 export const MISC_ARMYGREEN = ALL_COLORS["misc-armygreen"];
 export const MISC_BABYBLUE = ALL_COLORS["misc-babyblue"];
 export const MISC_BISTRE = ALL_COLORS["misc-bistre"];
+export const MISC_BLUEDEFRANCE = ALL_COLORS["misc-bluedefrance"];
 export const MISC_BLOODRED = ALL_COLORS["misc-bloodred"];
 export const MISC_BLOODRED_A1 = ALL_COLORS["misc-bloodred-a1"];
 export const MISC_BLOODRED_A2 = ALL_COLORS["misc-bloodred-a2"];
