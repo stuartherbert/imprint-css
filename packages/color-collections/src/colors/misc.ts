@@ -583,6 +583,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "spanish-redpurple": makeCssHexColorDefinition("#e40078"),
     "spanish-violet": makeCssHexColorDefinition("#4c2882"),
     "sgbus-green": makeCssHexColorDefinition("#55dd33"),
+    "tufts-blue": makeCssHexColorDefinition("#538cd8"),
     "tyrian-purple": makeCssHexColorDefinition("#66023c"),
     "tyrian-red": makeCssHexColorDefinition("#990024"),
     "usaf-academyblue": makeCssHexColorDefinition("#004f98"),

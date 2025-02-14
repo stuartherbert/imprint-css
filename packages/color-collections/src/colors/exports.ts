@@ -1378,6 +1378,7 @@ export const SPANISH_RED = ALL_COLORS["spanish-red"];
 export const SPANISH_REDPURPLE = ALL_COLORS["spanish-redpurple"];
 export const SPANISH_VIOLET = ALL_COLORS["spanish-violet"];
 export const SGBUS_GREEN = ALL_COLORS["sgbus-green"];
+export const TUFTS_BLUE = ALL_COLORS["tufts-blue"];
 export const TYRIAN_PURPLE = ALL_COLORS["tyrian-purple"];
 export const TYRIAN_RED = ALL_COLORS["tyrian-red"];
 export const USAF_ACADEMYBLUE = ALL_COLORS["usaf-academyblue"];
