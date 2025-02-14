@@ -1086,6 +1086,7 @@ export const MISC_CHESTNUT = ALL_COLORS["misc-chestnut"];
 export const MISC_CHOCOLATE = ALL_COLORS["misc-chocolate"];
 export const MISC_CHOCOLATECOSMOS = ALL_COLORS["misc-chocolatecosmos"];
 export const MISC_CHILIRED = ALL_COLORS["misc-chilired"];
+export const MISC_CIGARBROWN = ALL_COLORS["misc-cigarbrown"];
 export const MISC_CINEREOUS = ALL_COLORS["misc-cinereous"];
 export const MISC_CINNABAR = ALL_COLORS["misc-cinnabar"];
 export const MISC_CLARET = ALL_COLORS["misc-claret"];
