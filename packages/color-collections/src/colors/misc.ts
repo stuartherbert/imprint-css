@@ -452,6 +452,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-dutchwhite": makeCssHexColorDefinition("#efdfbb"),
     "resene-rocketmetallic": makeCssHexColorDefinition("#8a7f8d"),
     "resene-spacecadet": makeCssHexColorDefinition("#1d2951"),
+    "resene-xanadu": makeCssHexColorDefinition("#738678"),
     "resene-zomp": makeCssHexColorDefinition("#39a78d"),
     "ridgeway-woodbrown": makeCssHexColorDefinition("#c19a6b"),
     "sacramentostate-green": makeCssHexColorDefinition("#043927"),
