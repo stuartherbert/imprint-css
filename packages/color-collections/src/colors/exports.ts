@@ -1293,6 +1293,7 @@ export const PERSIAN_PINK = ALL_COLORS["persian-pink"];
 export const PERSIAN_PLUM = ALL_COLORS["persian-plum"];
 export const PERSIAN_RED = ALL_COLORS["persian-red"];
 export const PERSIAN_ROSE = ALL_COLORS["persian-rose"];
+export const PLOCHERE_ANTIQUEFUCHSIA = ALL_COLORS["plochere-antiquefuchsia"];
 export const PLOCHERE_CHARMPINK = ALL_COLORS["plochere-charmpink"];
 export const PLOCHERE_CHINAPINK = ALL_COLORS["plochere-chinapink"];
 export const PLOCHERE_IRRESISTIBLE = ALL_COLORS["plochere-irresistible"];
