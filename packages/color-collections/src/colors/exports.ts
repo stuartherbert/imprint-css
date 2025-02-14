@@ -1045,6 +1045,7 @@ export const ISCC_NBS_TAUPEBEIGE = ALL_COLORS["iscc-nbs-taupebeige"];
 export const ISCC_NBS_TAUPEBROWN = ALL_COLORS["iscc-nbs-taupebrown"];
 export const ISCC_NBS_TAUPEGRAY = ALL_COLORS["iscc-nbs-taupegray"];
 export const ISCC_NBS_TEAROSE = ALL_COLORS["iscc-nbs-tearose"];
+export const ISCC_NBS_THULIANPINK = ALL_COLORS["iscc-nbs-thulianpink"];
 export const ISCC_NBS_TUSCAN = ALL_COLORS["iscc-nbs-tuscan"];
 export const ISCC_NBS_TUSCANBROWN = ALL_COLORS["iscc-nbs-tuscanbrown"];
 export const ISCC_NBS_TUSCANTAN = ALL_COLORS["iscc-nbs-tuscantan"];

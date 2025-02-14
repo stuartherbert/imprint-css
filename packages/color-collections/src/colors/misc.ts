@@ -250,6 +250,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-taupebrown": makeCssHexColorDefinition("#674c47"),
     "iscc-nbs-taupegray": makeCssHexColorDefinition("#8b8589"),
     "iscc-nbs-tearose": makeCssHexColorDefinition("#f4c2c2"),
+    "iscc-nbs-thulianpink": makeCssHexColorDefinition("#de6fa1"),
     "iscc-nbs-tuscan": makeCssHexColorDefinition("#fad6a5"),
     "iscc-nbs-tuscanbrown": makeCssHexColorDefinition("#6f4e37"),
     "iscc-nbs-tuscantan": makeCssHexColorDefinition("#a67b5b"),
