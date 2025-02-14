@@ -226,6 +226,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-russet": makeCssHexColorDefinition("#80461b"),
     "iscc-nbs-russiangreen": makeCssHexColorDefinition("#679267"),
     "iscc-nbs-russianviolet": makeCssHexColorDefinition("#32174d"),
+    "iscc-nbs-sand": makeCssHexColorDefinition("#c2b280"),
     "iscc-nbs-sanddune": makeCssHexColorDefinition("#967117"),
     "iscc-nbs-sandytaupe": makeCssHexColorDefinition("#967117"),
     "iscc-nbs-skobeloff": makeCssHexColorDefinition("#007474"),
