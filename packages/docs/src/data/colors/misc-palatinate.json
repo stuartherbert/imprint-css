@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'misc-palatinate'.",
-  "definition": "#682860",
-  "hex": "#682860",
+  "definition": "#72246c",
+  "hex": "#72246c",
   "general": {
     "hues": [
       "magenta",
@@ -17,12 +17,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 65.519,
-    "relativeLuminance": 0.053
+    "luma": 67.53,
+    "relativeLuminance": 0.059
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 9.4,
+    "contrastRatio": 8.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -42,7 +42,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 1.5,
+    "contrastRatio": 1.6,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,

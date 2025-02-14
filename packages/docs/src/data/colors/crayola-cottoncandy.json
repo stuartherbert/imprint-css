@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-cottoncandy'.",
-  "definition": "#ffbcd9",
-  "hex": "#ffbcd9",
+  "definition": "#ffb7d5",
+  "hex": "#ffb7d5",
   "general": {
     "hues": [
       "white",
@@ -16,8 +16,8 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 211.339,
-    "relativeLuminance": 0.622
+    "luma": 207.948,
+    "relativeLuminance": 0.599
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 10.1,
+    "contrastRatio": 9.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

@@ -22,12 +22,20 @@ The Miscellaneous Colors Collection is our collection of colors that don't (curr
 
 ### Where Did The Colors Come From?
 
-These colors are (nearly) all taken from Wikipedia: either <ExternalLink name="Wikipedia List of Colors by Shade"/>, or:
+These colors are sourced from Wikipedia, from:
 
+* <ExternalLink name="Wikipedia List of Colors by Shade"/>
 * <ExternalLink name="Wikipedia Shades of Black"/>
+* <ExternalLink name="Wikipedia Shades of Brown"/>
+* <ExternalLink name="Wikipedia Shades of Gray"/>
 * <ExternalLink name="Wikipedia Shades of Green"/>
+* <ExternalLink name="Wikipedia Shades of Magenta"/>
 * <ExternalLink name="Wikipedia Shades of Orange"/>
+* <ExternalLink name="Wikipedia Shades of Pink"/>
 * <ExternalLink name="Wikipedia Shades of Red"/>
+* <ExternalLink name="Wikipedia Shades of Rose"/>
+* <ExternalLink name="Wikipedia Shades of White"/>
+* <ExternalLink name="Wikipedia X11 Color Names"/>
 
 or from Wikipedia pages linked to those pages.
 
@@ -37,6 +45,31 @@ There are some exceptions: either where Wikipedia lacks a definition of the colo
 * <ColorLink colorName="ansi-safetygreen"/>
 * <ColorLink colorName="ansi-safetypurple"/>
 * <ColorLink colorName="munsell-green"/>
+
+### Where Did The Color Names Come From?
+
+Every color must have a prefix of some kind, to avoid clashing with present (and future!) <InternalLinkWithText slug="colors/css-extended-colors-collection" text="named colors from the CSS standards"/>.
+
+* many of the colors (e.g. `crayola-`, `iscc-nbs-`) are grouped by where Wikipedia sourced them from;
+* some colors are grouped by association with a culture (e.g. `french-`, `spanish-`) or by association with an organisation (e.g. `usaf-`); and
+* we use the `misc-` prefix for colors that don't fall into any other category.
+
+We follow the CSS & SVG standards' conventions when normalising names:
+
+* lower-case ASCII characters only; and
+* all words concatenated together.
+
+The results aren't the most accessible (to put it mildly), and it doesn't do a great job of respecting non-English speaking communities either.
+
+### Some Of These Colors Are Duplicates!
+
+We look at each duplicate on a case-by-case basis. In general, we're following this train of thinking:
+
+* Some colors are known by multiple names. Those are allowed (as long as the multiple names aren't in the `misc-` group).
+* If we had two (or more) names that just had different prefixes (e.g. `example1-fakecolor`, `example2-fakecolor`), we'd add them all. We'd rather have complete color groups where possible.
+* We try to keep duplicate colors with the same name out of the `misc-` group (e.g. if `misc-fakecolor` and `example1-fakecolor` shared the same definition, we wouldn't publish `misc-fakecolor`).
+
+If we do publish a duplicate color that breaks these rules, we'll keep it. We try to avoid removing colors once they are published in a tagged release, to minimise disruption to you.
 
 ### Color Accuracy
 
@@ -52,6 +85,8 @@ We're committed to keeping our color definitions the same once they have been pu
 2. if an "official" definition becomes available from the color's originator (e.g. ANSI publishes official RGB or CSS color definitions for the Safety colors).
 
 You can use these colors knowing that they're going to still exist long into the future.
+
+Speaking of which ... If/when the WCAG publish official accessibility guidelines for non-sRGB color spaces (e.g. OKLCH), then we might upgrade some color definitions to use those color spaces.
 
 ### Intellectual Property Disclaimer
 

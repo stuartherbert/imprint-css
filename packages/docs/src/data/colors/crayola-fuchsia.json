@@ -1,26 +1,28 @@
 {
-  "name": "misc-mexicanpink",
-  "jsName": "MISC_MEXICANPINK",
-  "title": "misc-mexicanpink",
+  "name": "crayola-fuchsia",
+  "jsName": "CRAYOLA_FUCHSIA",
+  "title": "crayola-fuchsia",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'misc-mexicanpink'.",
-  "definition": "#e4007c",
-  "hex": "#e4007c",
+  "description": "Analysis of the color 'crayola-fuchsia'.",
+  "definition": "#c154c1",
+  "hex": "#c154c1",
   "general": {
     "hues": [
-      "rose"
+      "magenta",
+      "fuchsia",
+      "purple"
     ],
-    "tonality": "dark",
-    "isDark": true,
-    "isMidtone": false,
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
     "isLight": false,
-    "luma": 82.308,
-    "relativeLuminance": 0.179
+    "luma": 129.017,
+    "relativeLuminance": 0.215
   },
   "pairedWithLightColor": {
-    "clearContrast": true,
-    "contrastRatio": 4.2,
+    "clearContrast": false,
+    "contrastRatio": 3.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -33,14 +35,14 @@
       "ui": "AA"
     },
     "recommendedForHeadings": false,
-    "passableForHeadings": true,
+    "passableForHeadings": false,
     "recommendedForBodyContent": false,
     "passableForBodyContent": false,
-    "passableForUi": true
+    "passableForUi": false
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.4,
+    "contrastRatio": 4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -59,7 +61,7 @@
     "passableForUi": false
   },
   "pairings": {
-    "background": "#f6f6f6",
-    "foreground": "#222222"
+    "background": "#222222",
+    "foreground": "#f6f6f6"
   }
 }
