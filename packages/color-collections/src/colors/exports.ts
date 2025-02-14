@@ -1182,6 +1182,7 @@ export const MISC_GRAYCARD = ALL_COLORS["misc-graycard"];
 export const MISC_GREENEARTH = ALL_COLORS["misc-greenearth"];
 export const MISC_GREIGE = ALL_COLORS["misc-greige"];
 export const MISC_GUNMETAL = ALL_COLORS["misc-gunmetal"];
+export const MISC_HAINTBLUE = ALL_COLORS["misc-haintblue"];
 export const MISC_HARLEQUIN = ALL_COLORS["misc-harlequin"];
 export const MISC_HELIOTROPE = ALL_COLORS["misc-heliotrope"];
 export const MISC_HOLLYWOODCERISE = ALL_COLORS["misc-hollywoodcerise"];
