@@ -448,6 +448,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ral-signalred": makeCssHexColorDefinition("#9b2423"),
     "ral-signalwhite": makeCssHexColorDefinition("#ecece7"),
     "ral-signalyellow": makeCssHexColorDefinition("#f9a900"),
+    "ral-stonegray": makeCssHexColorDefinition("#928e85"),
     "resene-desire": makeCssHexColorDefinition("#ea3c53"),
     "resene-dutchwhite": makeCssHexColorDefinition("#efdfbb"),
     "resene-rocketmetallic": makeCssHexColorDefinition("#8a7f8d"),
