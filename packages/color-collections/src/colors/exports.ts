@@ -968,6 +968,7 @@ export const FRENCH_FUCHSIA = ALL_COLORS["french-fuchsia"];
 export const FRENCH_LIGHTBEIGE = ALL_COLORS["french-lightbeige"];
 export const FRENCH_LILAC = ALL_COLORS["french-lilac"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
+export const FRENCH_RASPBERRY = ALL_COLORS["french-raspberry"];
 export const FRENCH_ROSE = ALL_COLORS["french-rose"];
 export const GO_GREEN = ALL_COLORS["go-green"];
 export const HUNGARIAN_GREEN = ALL_COLORS["hungarian-green"];
