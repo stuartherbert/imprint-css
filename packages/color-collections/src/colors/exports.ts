@@ -1125,6 +1125,7 @@ export const MISC_DARKESTMOSSGREEN = ALL_COLORS["misc-darkestmossgreen"];
 export const MISC_DARKMOSSGREEN = ALL_COLORS["misc-darkmossgreen"];
 export const MISC_DEEPSAFFRON = ALL_COLORS["misc-deepsaffron"];
 export const MISC_DEEPRUBY = ALL_COLORS["misc-deepruby"];
+export const MISC_DOGWOODROSE = ALL_COLORS["misc-dogwoodrose"];
 export const MISC_EAGLEGREEN = ALL_COLORS["misc-eaglegreen"];
 export const MISC_EARTHYELLOW = ALL_COLORS["misc-earthyellow"];
 export const MISC_EBONY = ALL_COLORS["misc-ebony"];
