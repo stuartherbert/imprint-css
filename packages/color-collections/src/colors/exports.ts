@@ -1283,6 +1283,7 @@ export const XONA_MARDIGRAS = ALL_COLORS["xona-mardigras"];
 export const XONA_NEWYORKPINK = ALL_COLORS["xona-newyorkpink"];
 export const XONA_PINKLACE = ALL_COLORS["xona-pinklace"];
 export const XONA_RESOLUTIONBLUE = ALL_COLORS["xona-resolutionblue"];
+export const XONA_SILVERCHALICE = ALL_COLORS["xona-silverchalice"];
 export const XONA_SILVERSAND = ALL_COLORS["xona-silversand"];
 export const XONA_SOLIDPINK = ALL_COLORS["xona-solidpink"];
 export const MSDL1_LIGHTGREEN = ALL_COLORS["msdl1-lightgreen"];
