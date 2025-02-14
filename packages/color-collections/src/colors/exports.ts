@@ -854,6 +854,7 @@ export const CMYK_PIGMENTMAGENTA = ALL_COLORS["cmyk-pigmentmagenta"];
 export const CMYK_PIGMENTRED = ALL_COLORS["cmyk-pigmentred"];
 export const CMYK_PROCESSYELLOW = ALL_COLORS["cmyk-processyellow"];
 export const CMYK_RED = ALL_COLORS["cmyk-red"];
+export const COLUMBIA_BLUE = ALL_COLORS["columbia-blue"];
 export const CORNELL_RED = ALL_COLORS["cornell-red"];
 export const CRAYOLA_ALLOYORANGE = ALL_COLORS["crayola-alloyorange"];
 export const CRAYOLA_ANTIQUERED = ALL_COLORS["crayola-antiquered"];

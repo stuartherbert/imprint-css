@@ -59,6 +59,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "cmyk-pigmentred": makeCssHexColorDefinition("#ed1c24"),
     "cmyk-processyellow": makeCssHexColorDefinition("#ffef00"),
     "cmyk-red": makeCssHexColorDefinition("#ed1b24"),
+    "columbia-blue": makeCssHexColorDefinition("#b9d9eb"),
     "cornell-red": makeCssHexColorDefinition("#b31b1b"),
     "crayola-alloyorange": makeCssHexColorDefinition("#c46210"),
     "crayola-antiquered": makeCssHexColorDefinition("#841b2d"),
