@@ -265,7 +265,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-brightpink": makeCssHexColorDefinition("#ff007f"),
     "misc-brown": makeCssHexColorDefinition("#964b00"),
     "misc-brunswickgreen": makeCssHexColorDefinition("#1b4d3e"),
-    "misc-buff": makeCssHexColorDefinition("#f0dc82"),
+    "misc-buff": makeCssHexColorDefinition("#daa06d"),
     "misc-burgundy": makeCssHexColorDefinition("#800020"),
     "misc-butterscotch": makeCssHexColorDefinition("#e09540"),
     "misc-cadet": makeCssHexColorDefinition("#536872"),
