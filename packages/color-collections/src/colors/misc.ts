@@ -471,6 +471,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ut-orange": makeCssHexColorDefinition("#ff8200"),
     "x11-cream": makeCssHexColorDefinition("#ffffcc"),
     "x11-lightgoldenrod": makeCssHexColorDefinition("#ffec8b"),
+    "x11-mediumgray": makeCssHexColorDefinition("#bebebe"),
     "xona-blackbean": makeCssHexColorDefinition("#3d0c02"),
     "xona-burntumber": makeCssHexColorDefinition("#8a3324"),
     "xona-deeppinklight": makeCssHexColorDefinition("#ff5ccd"),
