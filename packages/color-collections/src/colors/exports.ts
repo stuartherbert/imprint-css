@@ -843,6 +843,7 @@ export const ANSI_SAFETYYELLOW = ALL_COLORS["ansi-safetyyellow"];
 export const BAKER_MILLER_PINK = ALL_COLORS["baker-miller-pink"];
 export const BSC_BRUNSWICKGREEN = ALL_COLORS["bsc-brunswickgreen"];
 export const CALPOLYPOMONA_GREEN = ALL_COLORS["calpolypomona-green"];
+export const BRITISH_AIRFORCEBLUE = ALL_COLORS["british-airforceblue"];
 export const BRITISH_RACINGGREEN = ALL_COLORS["british-racinggreen"];
 export const CASTLETON_GREEN = ALL_COLORS["castleton-green"];
 export const CIECD_AMBER = ALL_COLORS["ciecd-amber"];
