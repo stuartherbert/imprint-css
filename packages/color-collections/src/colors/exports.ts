@@ -1140,6 +1140,7 @@ export const MISC_ORANGE = ALL_COLORS["misc-orange"];
 export const MISC_ORANGEPEEL = ALL_COLORS["misc-orangepeel"];
 export const MISC_OXBLOOD = ALL_COLORS["misc-oxblood"];
 export const MISC_PALATINATE = ALL_COLORS["misc-palatinate"];
+export const MISC_PALELAVENDER = ALL_COLORS["misc-palelavender"];
 export const MISC_PALEYELLOW = ALL_COLORS["misc-paleyellow"];
 export const MISC_PARISGREEN = ALL_COLORS["misc-parisgreen"];
 export const MISC_PAYNEGRAY = ALL_COLORS["misc-paynegray"];
