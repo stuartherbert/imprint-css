@@ -1277,6 +1277,7 @@ export const PERSIAN_ROSE = ALL_COLORS["persian-rose"];
 export const PLOCHERE_CHARMPINK = ALL_COLORS["plochere-charmpink"];
 export const PLOCHERE_CHINAPINK = ALL_COLORS["plochere-chinapink"];
 export const PLOCHERE_IRRESISTIBLE = ALL_COLORS["plochere-irresistible"];
+export const PLOCHERE_LANGUIDLAVENDER = ALL_COLORS["plochere-languidlavender"];
 export const PLOCHERE_MELLOWYELLOW = ALL_COLORS["plochere-mellowyellow"];
 export const PLOCHERE_QUEENPINK = ALL_COLORS["plochere-queenpink"];
 export const PLOCHERE_SILVERPINK = ALL_COLORS["plochere-silverpink"];
