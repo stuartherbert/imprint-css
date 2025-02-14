@@ -227,6 +227,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-taupebrown": makeCssHexColorDefinition("#674c47"),
     "iscc-nbs-taupegray": makeCssHexColorDefinition("#8b8589"),
     "iscc-nbs-tearose": makeCssHexColorDefinition("#f4c2c2"),
+    "iscc-nbs-tuscan": makeCssHexColorDefinition("#fad6a5"),
     "iscc-nbs-vanilla": makeCssHexColorDefinition("#f3e5ab"),
     "iscc-nbs-wine": makeCssHexColorDefinition("#722f37"),
     "islamic-green": makeCssHexColorDefinition("#009000"),
