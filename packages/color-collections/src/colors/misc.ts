@@ -297,6 +297,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-chocolate": makeCssHexColorDefinition("#7b3f00"),
     "misc-chocolatecosmos": makeCssHexColorDefinition("#58111a"),
     "misc-chilired": makeCssHexColorDefinition("#e03c31"),
+    "misc-chileanpink": makeCssHexColorDefinition("#e8c3ba"),
     "misc-cigarbrown": makeCssHexColorDefinition("#6d4f4b"),
     "misc-cinereous": makeCssHexColorDefinition("#98817b"),
     "misc-cinnabar": makeCssHexColorDefinition("#e44d2e"),
