@@ -1353,6 +1353,7 @@ export const SACRAMENTOSTATE_GREEN = ALL_COLORS["sacramentostate-green"];
 export const SHARPIE_AEROBLUE = ALL_COLORS["sharpie-aeroblue"];
 export const SPANISH_BISTRE = ALL_COLORS["spanish-bistre"];
 export const SPANISH_BLUE = ALL_COLORS["spanish-blue"];
+export const SPANISH_CARMINE = ALL_COLORS["spanish-carmine"];
 export const SPANISH_GRAY = ALL_COLORS["spanish-gray"];
 export const SPANISH_GREEN = ALL_COLORS["spanish-green"];
 export const SPANISH_INDIGO = ALL_COLORS["spanish-indigo"];
