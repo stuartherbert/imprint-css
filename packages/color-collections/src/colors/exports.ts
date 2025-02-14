@@ -1372,6 +1372,7 @@ export const X11_LIGHTKHAKI = ALL_COLORS["x11-lightkhaki"];
 export const X11_MEDIUMGRAY = ALL_COLORS["x11-mediumgray"];
 export const XONA_BLACKBEAN = ALL_COLORS["xona-blackbean"];
 export const XONA_BURNTUMBER = ALL_COLORS["xona-burntumber"];
+export const XONA_DARKRASPBERRY = ALL_COLORS["xona-darkraspberry"];
 export const XONA_DEEPPINKLIGHT = ALL_COLORS["xona-deeppinklight"];
 export const XONA_EMINENCE = ALL_COLORS["xona-eminence"];
 export const XONA_KEPPEL = ALL_COLORS["xona-keppel"];
