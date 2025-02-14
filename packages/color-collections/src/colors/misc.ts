@@ -455,6 +455,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-desire": makeCssHexColorDefinition("#ea3c53"),
     "resene-dutchwhite": makeCssHexColorDefinition("#efdfbb"),
     "resene-rocketmetallic": makeCssHexColorDefinition("#8a7f8d"),
+    "resene-romansilver": makeCssHexColorDefinition("#838996"),
     "resene-spacecadet": makeCssHexColorDefinition("#1d2951"),
     "resene-xanadu": makeCssHexColorDefinition("#738678"),
     "resene-zomp": makeCssHexColorDefinition("#39a78d"),
