@@ -1078,6 +1078,7 @@ export const JTC_KOBICHA = ALL_COLORS["jtc-kobicha"];
 export const JTC_VIOLET = ALL_COLORS["jtc-violet"];
 export const KSU_PURPLE = ALL_COLORS["ksu-purple"];
 export const LIQUITEX_QUINACRIDONEMAGENTA = ALL_COLORS["liquitex-quinacridonemagenta"];
+export const MAYA_BLUE = ALL_COLORS["maya-blue"];
 export const MEXICAN_PINK = ALL_COLORS["mexican-pink"];
 export const MILKPAINT_BARNRED = ALL_COLORS["milkpaint-barnred"];
 export const MISC_ACIDGREEN = ALL_COLORS["misc-acidgreen"];

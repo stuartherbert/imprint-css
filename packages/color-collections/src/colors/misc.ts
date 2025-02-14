@@ -283,6 +283,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "jtc-violet": makeCssHexColorDefinition("#5b3256"),
     "ksu-purple": makeCssHexColorDefinition("#512888"),
     "liquitex-quinacridonemagenta": makeCssHexColorDefinition("#8e3a59"),
+    "maya-blue": makeCssHexColorDefinition("#73c2fb"),
     "mexican-pink": makeCssHexColorDefinition("#e4007c"),
     "milkpaint-barnred": makeCssHexColorDefinition("#7c0a02"),
     "misc-acidgreen": makeCssHexColorDefinition("#b0bf1a"),
