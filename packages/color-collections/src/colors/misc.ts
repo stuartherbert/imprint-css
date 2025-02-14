@@ -463,6 +463,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "plochere-silverpink": makeCssHexColorDefinition("#c4aead"),
     "plochere-tangopink": makeCssHexColorDefinition("#e4717a"),
     "pourpre-avocado": makeCssHexColorDefinition("#568203"),
+    "pourpre-bistre": makeCssHexColorDefinition("#856d4d"),
     "pourpre-carmine": makeCssHexColorDefinition("#960018"),
     "pourpre-chalkwhite": makeCssHexColorDefinition("#fbffff"),
     "pourpre-electricblue": makeCssHexColorDefinition("#2c75ff"),

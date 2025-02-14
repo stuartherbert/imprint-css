@@ -1258,6 +1258,7 @@ export const PLOCHERE_QUEENPINK = ALL_COLORS["plochere-queenpink"];
 export const PLOCHERE_SILVERPINK = ALL_COLORS["plochere-silverpink"];
 export const PLOCHERE_TANGOPINK = ALL_COLORS["plochere-tangopink"];
 export const POURPRE_AVOCADO = ALL_COLORS["pourpre-avocado"];
+export const POURPRE_BISTRE = ALL_COLORS["pourpre-bistre"];
 export const POURPRE_CARMINE = ALL_COLORS["pourpre-carmine"];
 export const POURPRE_CHALKWHITE = ALL_COLORS["pourpre-chalkwhite"];
 export const POURPRE_ELECTRICBLUE = ALL_COLORS["pourpre-electricblue"];
