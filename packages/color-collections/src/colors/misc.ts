@@ -408,6 +408,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-kellygreen": makeCssHexColorDefinition("#4cbb17"),
     "misc-khaki": makeCssHexColorDefinition("#c3b091"),
     "misc-khakigreen": makeCssHexColorDefinition("#728639"),
+    "misc-kingblue": makeCssHexColorDefinition("#375184"),
     "misc-labblue1": makeCssHexColorDefinition("#0f2d56"),
     "misc-labblue2": makeCssHexColorDefinition("#233e60"),
     "misc-labblue3": makeCssHexColorDefinition("#3d4353"),

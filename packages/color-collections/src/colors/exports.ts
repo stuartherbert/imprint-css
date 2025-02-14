@@ -1203,6 +1203,7 @@ export const MISC_JADE = ALL_COLORS["misc-jade"];
 export const MISC_KELLYGREEN = ALL_COLORS["misc-kellygreen"];
 export const MISC_KHAKI = ALL_COLORS["misc-khaki"];
 export const MISC_KHAKIGREEN = ALL_COLORS["misc-khakigreen"];
+export const MISC_KINGBLUE = ALL_COLORS["misc-kingblue"];
 export const MISC_LABBLUE1 = ALL_COLORS["misc-labblue1"];
 export const MISC_LABBLUE2 = ALL_COLORS["misc-labblue2"];
 export const MISC_LABBLUE3 = ALL_COLORS["misc-labblue3"];
