@@ -1183,6 +1183,7 @@ export const MISC_PALATINATE = ALL_COLORS["misc-palatinate"];
 export const MISC_PALELAVENDER = ALL_COLORS["misc-palelavender"];
 export const MISC_PALEYELLOW = ALL_COLORS["misc-paleyellow"];
 export const MISC_PARISGREEN = ALL_COLORS["misc-parisgreen"];
+export const MISC_PASTELPINK = ALL_COLORS["misc-pastelpink"];
 export const MISC_PAYNESGRAY = ALL_COLORS["misc-paynesgray"];
 export const MISC_PHTHALOGREEN = ALL_COLORS["misc-phthalogreen"];
 export const MISC_PEACH = ALL_COLORS["misc-peach"];
