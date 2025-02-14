@@ -1339,6 +1339,7 @@ export const RESENE_ZOMP = ALL_COLORS["resene-zomp"];
 export const RIDGEWAY_WOODBROWN = ALL_COLORS["ridgeway-woodbrown"];
 export const RYB_BROWN = ALL_COLORS["ryb-brown"];
 export const RYB_PINK = ALL_COLORS["ryb-pink"];
+export const RYB_PLUM = ALL_COLORS["ryb-plum"];
 export const SACRAMENTOSTATE_GREEN = ALL_COLORS["sacramentostate-green"];
 export const SHARPIE_AEROBLUE = ALL_COLORS["sharpie-aeroblue"];
 export const SPANISH_BISTRE = ALL_COLORS["spanish-bistre"];
