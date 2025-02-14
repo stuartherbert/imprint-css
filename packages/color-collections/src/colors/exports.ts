@@ -949,6 +949,7 @@ export const ENCYCOLORPEDIA_GREENISHYELLOW = ALL_COLORS["encycolorpedia-greenish
 export const ENCYCOLORPEDIA_TEAGREEN = ALL_COLORS["encycolorpedia-teagreen"];
 export const ENCYCOLORPEDIA_VERDIGRIS = ALL_COLORS["encycolorpedia-verdigris"];
 export const FRENCH_BEIGE = ALL_COLORS["french-beige"];
+export const FRENCH_LIGHTBEIGE = ALL_COLORS["french-lightbeige"];
 export const FRENCH_LILAC = ALL_COLORS["french-lilac"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
 export const GO_GREEN = ALL_COLORS["go-green"];
