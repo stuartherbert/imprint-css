@@ -293,6 +293,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "milkpaint-barnred": makeCssHexColorDefinition("#7c0a02"),
     "misc-acidgreen": makeCssHexColorDefinition("#b0bf1a"),
     "misc-alabaster": makeCssHexColorDefinition("#edeae0"),
+    "misc-aliceblue": makeCssHexColorDefinition("#9cd6e4"),
     "misc-alizarin": makeCssHexColorDefinition("#db2d43"),
     "misc-amaranthdeeppurple": makeCssHexColorDefinition("#9f2b68"),
     "misc-amaranthred": makeCssHexColorDefinition("#e52b50"),

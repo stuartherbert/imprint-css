@@ -1088,6 +1088,7 @@ export const MEXICAN_PINK = ALL_COLORS["mexican-pink"];
 export const MILKPAINT_BARNRED = ALL_COLORS["milkpaint-barnred"];
 export const MISC_ACIDGREEN = ALL_COLORS["misc-acidgreen"];
 export const MISC_ALABASTER = ALL_COLORS["misc-alabaster"];
+export const MISC_ALICEBLUE = ALL_COLORS["misc-aliceblue"];
 export const MISC_ALIZARIN = ALL_COLORS["misc-alizarin"];
 export const MISC_AMARANTHDEEPPURPLE = ALL_COLORS["misc-amaranthdeeppurple"];
 export const MISC_AMARANTHRED = ALL_COLORS["misc-amaranthred"];
