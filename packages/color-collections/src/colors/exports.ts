@@ -1175,6 +1175,7 @@ export const MISC_LAURELGREEN = ALL_COLORS["misc-laurelgreen"];
 export const MISC_LAVENDER = ALL_COLORS["misc-lavender"];
 export const MISC_LIGHTMOSSGREEN = ALL_COLORS["misc-lightmossgreen"];
 export const MISC_LILAC = ALL_COLORS["misc-lilac"];
+export const MISC_LISERANPURPLE = ALL_COLORS["misc-liseranpurple"];
 export const MISC_LUSTYGALLANT = ALL_COLORS["misc-lustygallant"];
 export const MISC_MADDER = ALL_COLORS["misc-madder"];
 export const MISC_MAGENTADYE = ALL_COLORS["misc-magentadye"];
