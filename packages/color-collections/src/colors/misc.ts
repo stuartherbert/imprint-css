@@ -80,7 +80,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "crayola-cantaloupemelon": makeCssHexColorDefinition("#fdbcb4"),
     "crayola-carnationpink": makeCssHexColorDefinition("#ffa6c9"),
     "crayola-chestnut": makeCssHexColorDefinition("#b94e48"),
-    "crayola-cottoncandy": makeCssHexColorDefinition("#ffbcd9"),
+    "crayola-cottoncandy": makeCssHexColorDefinition("#ffb7d5"),
     "crayola-deepcerise": makeCssHexColorDefinition("#da3287"),
     "crayola-desertsand": makeCssHexColorDefinition("#edc9af"),
     "crayola-eerieblack": makeCssHexColorDefinition("#1b1b1b"),
