@@ -1229,6 +1229,7 @@ export const MISC_PILLBOXBLUE = ALL_COLORS["misc-pillboxblue"];
 export const MISC_PILLBOXAQUA = ALL_COLORS["misc-pillboxaqua"];
 export const MISC_PILLBOXPURPLE = ALL_COLORS["misc-pillboxpurple"];
 export const MISC_PLATINUM = ALL_COLORS["misc-platinum"];
+export const MISC_PLUM = ALL_COLORS["misc-plum"];
 export const MISC_POPPYRED = ALL_COLORS["misc-poppyred"];
 export const MISC_PUMPKIN = ALL_COLORS["misc-pumpkin"];
 export const MISC_PURPLEGLOVE = ALL_COLORS["misc-purpleglove"];
