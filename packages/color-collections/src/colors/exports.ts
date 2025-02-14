@@ -1300,6 +1300,7 @@ export const XONA_LIGHTHOTPINK = ALL_COLORS["xona-lighthotpink"];
 export const XONA_MANTIS = ALL_COLORS["xona-mantis"];
 export const XONA_MARDIGRAS = ALL_COLORS["xona-mardigras"];
 export const XONA_NEWYORKPINK = ALL_COLORS["xona-newyorkpink"];
+export const XONA_PARCHMENT = ALL_COLORS["xona-parchment"];
 export const XONA_PINKLACE = ALL_COLORS["xona-pinklace"];
 export const XONA_RESOLUTIONBLUE = ALL_COLORS["xona-resolutionblue"];
 export const XONA_SILVERCHALICE = ALL_COLORS["xona-silverchalice"];
