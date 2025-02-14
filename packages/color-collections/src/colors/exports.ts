@@ -1123,6 +1123,7 @@ export const MISC_CARROTORANGE = ALL_COLORS["misc-carrotorange"];
 export const MISC_CELESTE = ALL_COLORS["misc-celeste"];
 export const MISC_CERISE = ALL_COLORS["misc-cerise"];
 export const MISC_CERULEAN = ALL_COLORS["misc-cerulean"];
+export const MISC_CERULEANBLUE = ALL_COLORS["misc-ceruleanblue"];
 export const MISC_CHAMPAGNE = ALL_COLORS["misc-champagne"];
 export const MISC_CHARLESTONGREEN = ALL_COLORS["misc-charlestongreen"];
 export const MISC_CHARTREUSEYELLOW = ALL_COLORS["misc-chartreuseyellow"];
