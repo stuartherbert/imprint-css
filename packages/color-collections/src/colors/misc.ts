@@ -429,7 +429,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-orange": makeCssHexColorDefinition("#ff8000"),
     "misc-orangepeel": makeCssHexColorDefinition("#ff9f00"),
     "misc-oxblood": makeCssHexColorDefinition("#4a0000"),
-    "misc-palatinate": makeCssHexColorDefinition("#682860"),
+    "misc-palatinate": makeCssHexColorDefinition("#72246C"),
     "misc-paleyellow": makeCssHexColorDefinition("#fcf8e3"),
     "misc-parisgreen": makeCssHexColorDefinition("#50c878"),
     "misc-pastelpink": makeCssHexColorDefinition("#ffd1dc"),
