@@ -505,6 +505,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "up-forestgreen": makeCssHexColorDefinition("#014421"),
     "x11-cream": makeCssHexColorDefinition("#ffffcc"),
     "x11-lightgoldenrod": makeCssHexColorDefinition("#ffec8b"),
+    "x11-lightkhaki": makeCssHexColorDefinition("#f0e68c"),
     "x11-mediumgray": makeCssHexColorDefinition("#bebebe"),
     "xona-blackbean": makeCssHexColorDefinition("#3d0c02"),
     "xona-burntumber": makeCssHexColorDefinition("#8a3324"),
