@@ -45,6 +45,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetypurple": makeCssHexColorDefinition("#67267d"),
     "ansi-safetyred": makeCssHexColorDefinition("#bd2024"),
     "ansi-safetyyellow": makeCssHexColorDefinition("#eed202"),
+    "australian-powderblue": makeCssHexColorDefinition("#becfdd"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "bsc-brunswickgreen": makeCssHexColorDefinition("#1e3e2e"),
     "calpolypomona-green": makeCssHexColorDefinition("#1e4d2b"),
