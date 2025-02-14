@@ -531,4 +531,5 @@ export const MISC_COLORS: CssColorDefinitions = {
     "xona-silverchalice": makeCssHexColorDefinition("#acacac"),
     "xona-silversand": makeCssHexColorDefinition("#bfc1c2"),
     "xona-solidpink": makeCssHexColorDefinition("#893843"),
+    "xona-vanilla": makeCssHexColorDefinition("#d1bea8"),
 };
