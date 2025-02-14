@@ -1295,6 +1295,7 @@ export const POURPRE_CHALKWHITE = ALL_COLORS["pourpre-chalkwhite"];
 export const POURPRE_ELECTRICBLUE = ALL_COLORS["pourpre-electricblue"];
 export const POURPRE_LILAC = ALL_COLORS["pourpre-lilac"];
 export const POURPRE_MAUVE = ALL_COLORS["pourpre-mauve"];
+export const POURPRE_ROSEBONBON = ALL_COLORS["pourpre-rosebonbon"];
 export const POURPRE_VIOLET = ALL_COLORS["pourpre-violet"];
 export const PRINCETON_ORANGE = ALL_COLORS["princeton-orange"];
 export const RAL_BLACKOLIVE = ALL_COLORS["ral-blackolive"];
