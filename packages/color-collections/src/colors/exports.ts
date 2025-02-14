@@ -980,6 +980,7 @@ export const FRENCH_LILAC = ALL_COLORS["french-lilac"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
 export const FRENCH_RASPBERRY = ALL_COLORS["french-raspberry"];
 export const FRENCH_ROSE = ALL_COLORS["french-rose"];
+export const FRENCH_SKYBLUE = ALL_COLORS["french-skyblue"];
 export const FRENCH_VIOLET = ALL_COLORS["french-violet"];
 export const GO_GREEN = ALL_COLORS["go-green"];
 export const HUNGARIAN_GREEN = ALL_COLORS["hungarian-green"];
