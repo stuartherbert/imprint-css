@@ -1288,6 +1288,7 @@ export const RESENE_ZOMP = ALL_COLORS["resene-zomp"];
 export const RIDGEWAY_WOODBROWN = ALL_COLORS["ridgeway-woodbrown"];
 export const SACRAMENTOSTATE_GREEN = ALL_COLORS["sacramentostate-green"];
 export const SHARPIE_AEROBLUE = ALL_COLORS["sharpie-aeroblue"];
+export const SPANISH_BISTRE = ALL_COLORS["spanish-bistre"];
 export const SPANISH_BLUE = ALL_COLORS["spanish-blue"];
 export const SPANISH_GRAY = ALL_COLORS["spanish-gray"];
 export const SPANISH_GREEN = ALL_COLORS["spanish-green"];

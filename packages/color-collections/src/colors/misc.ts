@@ -493,6 +493,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ridgeway-woodbrown": makeCssHexColorDefinition("#c19a6b"),
     "sacramentostate-green": makeCssHexColorDefinition("#043927"),
     "sharpie-aeroblue": makeCssHexColorDefinition("#c9ffe5"),
+    "spanish-bistre": makeCssHexColorDefinition("#80755a"),
     "spanish-blue": makeCssHexColorDefinition("#0070bb"),
     "spanish-gray": makeCssHexColorDefinition("#989898"),
     "spanish-green": makeCssHexColorDefinition("#009150"),
