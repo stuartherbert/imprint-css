@@ -1146,6 +1146,7 @@ export const MISC_FALURED = ALL_COLORS["misc-falured"];
 export const MISC_FANDANGO = ALL_COLORS["misc-fandango"];
 export const MISC_FELDGRAU = ALL_COLORS["misc-feldgrau"];
 export const MISC_FERNGREEN = ALL_COLORS["misc-ferngreen"];
+export const MISC_FINN = ALL_COLORS["misc-finn"];
 export const MISC_FIREENGINERED = ALL_COLORS["misc-fireenginered"];
 export const MISC_FLAX = ALL_COLORS["misc-flax"];
 export const MISC_FLUORESCENTRED = ALL_COLORS["misc-fluorescentred"];
