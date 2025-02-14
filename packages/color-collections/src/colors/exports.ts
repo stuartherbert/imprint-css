@@ -924,6 +924,7 @@ export const CRAYOLA_SCREAMINGREEN = ALL_COLORS["crayola-screamingreen"];
 export const CRAYOLA_SHOCKINGPINK = ALL_COLORS["crayola-shockingpink"];
 export const CRAYOLA_SKYBLUE = ALL_COLORS["crayola-skyblue"];
 export const CRAYOLA_SMOKEYTOPAZ = ALL_COLORS["crayola-smokeytopaz"];
+export const CRAYOLA_SILVER = ALL_COLORS["crayola-silver"];
 export const CRAYOLA_STEELPINK = ALL_COLORS["crayola-steelpink"];
 export const CRAYOLA_TICKLEMEPINK = ALL_COLORS["crayola-ticklemepink"];
 export const CRAYOLA_TIGERSEYE = ALL_COLORS["crayola-tigerseye"];
