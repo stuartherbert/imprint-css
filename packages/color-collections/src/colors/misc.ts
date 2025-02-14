@@ -420,6 +420,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-rosepink": makeCssHexColorDefinition("#ff66cc"),
     "misc-rosepompadour": makeCssHexColorDefinition("#ed7a9b"),
     "misc-rosewood": makeCssHexColorDefinition("#65000b"),
+    "misc-rubinered": makeCssHexColorDefinition("#d10056"),
     "misc-ruby": makeCssHexColorDefinition("#e0115f"),
     "misc-rust": makeCssHexColorDefinition("#b7410e"),
     "misc-saffron": makeCssHexColorDefinition("#f4c430"),

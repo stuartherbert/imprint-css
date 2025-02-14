@@ -1215,6 +1215,7 @@ export const MISC_ROSE = ALL_COLORS["misc-rose"];
 export const MISC_ROSEPINK = ALL_COLORS["misc-rosepink"];
 export const MISC_ROSEPOMPADOUR = ALL_COLORS["misc-rosepompadour"];
 export const MISC_ROSEWOOD = ALL_COLORS["misc-rosewood"];
+export const MISC_RUBINERED = ALL_COLORS["misc-rubinered"];
 export const MISC_RUBY = ALL_COLORS["misc-ruby"];
 export const MISC_RUST = ALL_COLORS["misc-rust"];
 export const MISC_SAFFRON = ALL_COLORS["misc-saffron"];
