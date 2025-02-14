@@ -1214,6 +1214,7 @@ export const MISC_MYRTLE = ALL_COLORS["misc-myrtle"];
 export const MISC_NARDOGRAY = ALL_COLORS["misc-nardogray"];
 export const MISC_NEONGREEN = ALL_COLORS["misc-neongreen"];
 export const MISC_NICKEL = ALL_COLORS["misc-nickel"];
+export const MISC_OCHRE = ALL_COLORS["misc-ochre"];
 export const MISC_OLIVEDRAB7 = ALL_COLORS["misc-olivedrab7"];
 export const MISC_OLIVEDRABCAMOUFLAGE = ALL_COLORS["misc-olivedrabcamouflage"];
 export const MISC_OLIVINE = ALL_COLORS["misc-olivine"];
