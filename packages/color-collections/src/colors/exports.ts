@@ -1358,6 +1358,7 @@ export const SPANISH_GRAY = ALL_COLORS["spanish-gray"];
 export const SPANISH_GREEN = ALL_COLORS["spanish-green"];
 export const SPANISH_INDIGO = ALL_COLORS["spanish-indigo"];
 export const SPANISH_ORANGE = ALL_COLORS["spanish-orange"];
+export const SPANISH_PICTORIALCARMINE = ALL_COLORS["spanish-pictorialcarmine"];
 export const SPANISH_PINK = ALL_COLORS["spanish-pink"];
 export const SPANISH_RED = ALL_COLORS["spanish-red"];
 export const SPANISH_REDPURPLE = ALL_COLORS["spanish-redpurple"];
