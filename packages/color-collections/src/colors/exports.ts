@@ -1093,6 +1093,7 @@ export const MISC_FOLLY = ALL_COLORS["misc-folly"];
 export const MISC_GIANTSORANGE = ALL_COLORS["misc-giantsorange"];
 export const MISC_GRAYCARD = ALL_COLORS["misc-graycard"];
 export const MISC_GREENEARTH = ALL_COLORS["misc-greenearth"];
+export const MISC_GREIGE = ALL_COLORS["misc-greige"];
 export const MISC_GUNMETAL = ALL_COLORS["misc-gunmetal"];
 export const MISC_HARLEQUIN = ALL_COLORS["misc-harlequin"];
 export const MISC_HELIOTROPE = ALL_COLORS["misc-heliotrope"];
