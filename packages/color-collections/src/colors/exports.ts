@@ -1052,6 +1052,7 @@ export const MISC_AMARANTHDEEPPURPLE = ALL_COLORS["misc-amaranthdeeppurple"];
 export const MISC_AMARANTHRED = ALL_COLORS["misc-amaranthred"];
 export const MISC_AMARANTHPINK = ALL_COLORS["misc-amaranthpink"];
 export const MISC_AMARANTHPURPLE = ALL_COLORS["misc-amaranthpurple"];
+export const MISC_AMERICANPINK = ALL_COLORS["misc-americanpink"];
 export const MISC_ANTIFLASHWHITE = ALL_COLORS["misc-antiflashwhite"];
 export const MISC_APRICOT = ALL_COLORS["misc-apricot"];
 export const MISC_APRICOTPEACH = ALL_COLORS["misc-apricotpeach"];
