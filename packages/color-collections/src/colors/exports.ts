@@ -1311,6 +1311,7 @@ export const UTA_BURNTORANGE = ALL_COLORS["uta-burntorange"];
 export const UT_ORANGE = ALL_COLORS["ut-orange"];
 export const UP_FORESTGREEN = ALL_COLORS["up-forestgreen"];
 export const X11_CREAM = ALL_COLORS["x11-cream"];
+export const X11_DARKBROWN = ALL_COLORS["x11-darkbrown"];
 export const X11_LIGHTGOLDENROD = ALL_COLORS["x11-lightgoldenrod"];
 export const X11_LIGHTKHAKI = ALL_COLORS["x11-lightkhaki"];
 export const X11_MEDIUMGRAY = ALL_COLORS["x11-mediumgray"];
