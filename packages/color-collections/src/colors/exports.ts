@@ -1023,6 +1023,7 @@ export const ISCC_NBS_TAUPEBROWN = ALL_COLORS["iscc-nbs-taupebrown"];
 export const ISCC_NBS_TAUPEGRAY = ALL_COLORS["iscc-nbs-taupegray"];
 export const ISCC_NBS_TEAROSE = ALL_COLORS["iscc-nbs-tearose"];
 export const ISCC_NBS_TUSCAN = ALL_COLORS["iscc-nbs-tuscan"];
+export const ISCC_NBS_TUSCANTAN = ALL_COLORS["iscc-nbs-tuscantan"];
 export const ISCC_NBS_VANILLA = ALL_COLORS["iscc-nbs-vanilla"];
 export const ISCC_NBS_WINE = ALL_COLORS["iscc-nbs-wine"];
 export const ISLAMIC_GREEN = ALL_COLORS["islamic-green"];
