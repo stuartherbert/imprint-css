@@ -159,6 +159,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "dartmouth-green": makeCssHexColorDefinition("#00693e"),
     "dcu-blue": makeCssHexColorDefinition("#002566"),
     "dcu-orange": makeCssHexColorDefinition("#ffa626"),
+    "duke-blue": makeCssHexColorDefinition("#012169"),
     "egyptian-blue": makeCssHexColorDefinition("#1034a6"),
     "encycolorpedia-bottlegreen": makeCssHexColorDefinition("#006a4e"),
     "encycolorpedia-celadon": makeCssHexColorDefinition("#ace1af"),

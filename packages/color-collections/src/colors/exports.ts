@@ -954,6 +954,7 @@ export const CUNARD_RED = ALL_COLORS["cunard-red"];
 export const DARTMOUTH_GREEN = ALL_COLORS["dartmouth-green"];
 export const DCU_BLUE = ALL_COLORS["dcu-blue"];
 export const DCU_ORANGE = ALL_COLORS["dcu-orange"];
+export const DUKE_BLUE = ALL_COLORS["duke-blue"];
 export const EGYPTIAN_BLUE = ALL_COLORS["egyptian-blue"];
 export const ENCYCOLORPEDIA_BOTTLEGREEN = ALL_COLORS["encycolorpedia-bottlegreen"];
 export const ENCYCOLORPEDIA_CELADON = ALL_COLORS["encycolorpedia-celadon"];
