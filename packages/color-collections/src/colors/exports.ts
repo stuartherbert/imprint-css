@@ -1407,6 +1407,7 @@ export const XONA_SILVERCHALICE = ALL_COLORS["xona-silverchalice"];
 export const XONA_SILVERSAND = ALL_COLORS["xona-silversand"];
 export const XONA_SOLIDPINK = ALL_COLORS["xona-solidpink"];
 export const XONA_VANILLA = ALL_COLORS["xona-vanilla"];
+export const YALE_BLUE = ALL_COLORS["yale-blue"];
 export const MSDL1_LIGHTGREEN = ALL_COLORS["msdl1-lightgreen"];
 export const MSDL1_GREEN = ALL_COLORS["msdl1-green"];
 export const MSDL1_DARKGREEN = ALL_COLORS["msdl1-darkgreen"];
