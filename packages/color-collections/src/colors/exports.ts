@@ -1342,6 +1342,7 @@ export const SPANISH_INDIGO = ALL_COLORS["spanish-indigo"];
 export const SPANISH_ORANGE = ALL_COLORS["spanish-orange"];
 export const SPANISH_PINK = ALL_COLORS["spanish-pink"];
 export const SPANISH_RED = ALL_COLORS["spanish-red"];
+export const SPANISH_REDPURPLE = ALL_COLORS["spanish-redpurple"];
 export const SPANISH_VIOLET = ALL_COLORS["spanish-violet"];
 export const SGBUS_GREEN = ALL_COLORS["sgbus-green"];
 export const TYRIAN_PURPLE = ALL_COLORS["tyrian-purple"];
