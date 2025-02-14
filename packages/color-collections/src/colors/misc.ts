@@ -270,6 +270,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-vanilla": makeCssHexColorDefinition("#f3e5ab"),
     "iscc-nbs-wine": makeCssHexColorDefinition("#722f37"),
     "islamic-green": makeCssHexColorDefinition("#009000"),
+    "jtc-carmine": makeCssHexColorDefinition("#9d2933"),
     "jtc-kobicha": makeCssHexColorDefinition("#6b4423"),
     "jtc-violet": makeCssHexColorDefinition("#5b3256"),
     "ksu-purple": makeCssHexColorDefinition("#512888"),
