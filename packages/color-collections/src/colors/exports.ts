@@ -1048,6 +1048,7 @@ export const MISC_BLOODRED_A2 = ALL_COLORS["misc-bloodred-a2"];
 export const MISC_BLOODRED_A3 = ALL_COLORS["misc-bloodred-a3"];
 export const MISC_BLOODRED_A4 = ALL_COLORS["misc-bloodred-a4"];
 export const MISC_BONE = ALL_COLORS["misc-bone"];
+export const MISC_BONEWHITE = ALL_COLORS["misc-bonewhite"];
 export const MISC_BRIGHTAMARANTHPINK = ALL_COLORS["misc-brightamaranthpink"];
 export const MISC_BRIGHTGREEN = ALL_COLORS["misc-brightgreen"];
 export const MISC_BRIGHTMINT = ALL_COLORS["misc-brightmint"];

@@ -253,6 +253,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-bloodred-a3": makeCssHexColorDefinition("#830303"),
     "misc-bloodred-a4": makeCssHexColorDefinition("#7e3517"),
     "misc-bone": makeCssHexColorDefinition("#e3dac9"),
+    "misc-bonewhite": makeCssHexColorDefinition("#f9f6ee"),
     "misc-brightamaranthpink": makeCssHexColorDefinition("#ff355e"),
     "misc-brightgreen": makeCssHexColorDefinition("#6f0"),
     "misc-brightmint": makeCssHexColorDefinition("#4fffb0"),
