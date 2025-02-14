@@ -303,6 +303,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-apricot": makeCssHexColorDefinition("#fbceb1"),
     "misc-apricotpeach": makeCssHexColorDefinition("#f8c8b0"),
     "misc-armygreen": makeCssHexColorDefinition("#4b5320"),
+    "misc-azure": makeCssHexColorDefinition("#0080ff"),
     "misc-babyblue": makeCssHexColorDefinition("#89cff0"),
     "misc-bistre": makeCssHexColorDefinition("#3d2b1f"),
     "misc-bluedefrance": makeCssHexColorDefinition("#318ce7"),
