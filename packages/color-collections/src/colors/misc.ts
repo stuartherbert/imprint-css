@@ -582,6 +582,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-skymagenta": makeCssHexColorDefinition("#cf71af"),
     "misc-solidwhite": makeCssHexColorDefinition("#f4f5fa"),
     "misc-splashedwhite": makeCssHexColorDefinition("#fefdff"),
+    "misc-springbud": makeCssHexColorDefinition("#a7fc00"),
     "misc-straw": makeCssHexColorDefinition("#e4d96f"),
     "misc-tangblue": makeCssHexColorDefinition("#0059cf"),
     "misc-tangelo": makeCssHexColorDefinition("#f94d00"),
