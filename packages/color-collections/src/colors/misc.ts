@@ -104,6 +104,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "crayola-eerieblack": makeCssHexColorDefinition("#1b1b1b"),
     "crayola-electriclime": makeCssHexColorDefinition("#ccff00"),
     "crayola-fern": makeCssHexColorDefinition("#63b76c"),
+    "crayola-forestgreen": makeCssHexColorDefinition("#5fa777"),
     "crayola-fuchsia": makeCssHexColorDefinition("#c154c1"),
     "crayola-gold": makeCssHexColorDefinition("#e6be8a"),
     "crayola-goldmedal": makeCssHexColorDefinition("#c5bc42"),
