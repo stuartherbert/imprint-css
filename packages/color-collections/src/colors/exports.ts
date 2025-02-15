@@ -1238,6 +1238,7 @@ export const MISC_HELIOTROPE = ALL_COLORS["misc-heliotrope"];
 export const MISC_HOLLYWOODCERISE = ALL_COLORS["misc-hollywoodcerise"];
 export const MISC_HOOKERSGREEN = ALL_COLORS["misc-hookersgreen"];
 export const MISC_ICEBERG = ALL_COLORS["misc-iceberg"];
+export const MISC_ICTERINE = ALL_COLORS["misc-icterine"];
 export const MISC_IMPERIALBLUE = ALL_COLORS["misc-imperialblue"];
 export const MISC_IMPERIALRED = ALL_COLORS["misc-imperialred"];
 export const MISC_INDIGO = ALL_COLORS["misc-indigo"];
