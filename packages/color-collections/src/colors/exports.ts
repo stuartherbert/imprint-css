@@ -1455,6 +1455,7 @@ export const XONA_BURNTUMBER = ALL_COLORS["xona-burntumber"];
 export const XONA_DARKRASPBERRY = ALL_COLORS["xona-darkraspberry"];
 export const XONA_DEEPPINKLIGHT = ALL_COLORS["xona-deeppinklight"];
 export const XONA_EMINENCE = ALL_COLORS["xona-eminence"];
+export const XONA_JORDYBLUE = ALL_COLORS["xona-jordyblue"];
 export const XONA_KEPPEL = ALL_COLORS["xona-keppel"];
 export const XONA_LIGHTHOTPINK = ALL_COLORS["xona-lighthotpink"];
 export const XONA_MANTIS = ALL_COLORS["xona-mantis"];
