@@ -934,6 +934,7 @@ export const CRAYOLA_MAUVE = ALL_COLORS["crayola-mauve"];
 export const CRAYOLA_MELON = ALL_COLORS["crayola-melon"];
 export const CRAYOLA_MIDNIGHTBLUE = ALL_COLORS["crayola-midnightblue"];
 export const CRAYOLA_MOONSTONE = ALL_COLORS["crayola-moonstone"];
+export const CRAYOLA_MOUNTAINMEADOW = ALL_COLORS["crayola-mountainmeadow"];
 export const CRAYOLA_MULBERRY = ALL_COLORS["crayola-mulberry"];
 export const CRAYOLA_MYSTICMAROON = ALL_COLORS["crayola-mysticmaroon"];
 export const CRAYOLA_NAVYBLUE = ALL_COLORS["crayola-navyblue"];
