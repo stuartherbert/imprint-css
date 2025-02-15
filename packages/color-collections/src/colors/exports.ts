@@ -1107,6 +1107,7 @@ export const MISC_ACIDGREEN = ALL_COLORS["misc-acidgreen"];
 export const MISC_ALABASTER = ALL_COLORS["misc-alabaster"];
 export const MISC_ALICEBLUE = ALL_COLORS["misc-aliceblue"];
 export const MISC_ALIZARIN = ALL_COLORS["misc-alizarin"];
+export const MISC_ALIZARINCRIMSON = ALL_COLORS["misc-alizarincrimson"];
 export const MISC_AMARANTHDEEPPURPLE = ALL_COLORS["misc-amaranthdeeppurple"];
 export const MISC_AMARANTHRED = ALL_COLORS["misc-amaranthred"];
 export const MISC_AMARANTHPINK = ALL_COLORS["misc-amaranthpink"];

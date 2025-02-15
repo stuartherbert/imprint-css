@@ -312,6 +312,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-alabaster": makeCssHexColorDefinition("#edeae0"),
     "misc-aliceblue": makeCssHexColorDefinition("#9cd6e4"),
     "misc-alizarin": makeCssHexColorDefinition("#db2d43"),
+    "misc-alizarincrimson": makeCssHexColorDefinition("#e32636"),
     "misc-amaranthdeeppurple": makeCssHexColorDefinition("#9f2b68"),
     "misc-amaranthred": makeCssHexColorDefinition("#e52b50"),
     "misc-amaranthpink": makeCssHexColorDefinition("#f19cbb"),
