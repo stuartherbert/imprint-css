@@ -1227,6 +1227,7 @@ export const MISC_LABBLUE3 = ALL_COLORS["misc-labblue3"];
 export const MISC_LABBLUE4 = ALL_COLORS["misc-labblue4"];
 export const MISC_LABBLUE5 = ALL_COLORS["misc-labblue5"];
 export const MISC_LABBLUE6 = ALL_COLORS["misc-labblue6"];
+export const MISC_LAPISLAZULU = ALL_COLORS["misc-lapislazulu"];
 export const MISC_LAURELGREEN = ALL_COLORS["misc-laurelgreen"];
 export const MISC_LAVENDER = ALL_COLORS["misc-lavender"];
 export const MISC_LITERALLIGHTBLUE = ALL_COLORS["misc-literallightblue"];
