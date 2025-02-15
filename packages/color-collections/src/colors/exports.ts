@@ -1590,6 +1590,7 @@ export const XONA_DEEPPINKLIGHT = ALL_COLORS["xona-deeppinklight"];
 export const XONA_EMINENCE = ALL_COLORS["xona-eminence"];
 export const XONA_JORDYBLUE = ALL_COLORS["xona-jordyblue"];
 export const XONA_KEPPEL = ALL_COLORS["xona-keppel"];
+export const XONA_KOBI = ALL_COLORS["xona-kobi"];
 export const XONA_LIGHTHOTPINK = ALL_COLORS["xona-lighthotpink"];
 export const XONA_MANTIS = ALL_COLORS["xona-mantis"];
 export const XONA_MARDIGRAS = ALL_COLORS["xona-mardigras"];

@@ -795,6 +795,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "xona-eminence": makeCssHexColorDefinition("#6c3082"),
     "xona-jordyblue": makeCssHexColorDefinition("#8ab9f1"),
     "xona-keppel": makeCssHexColorDefinition("#3ab09e"),
+    "xona-kobi": makeCssHexColorDefinition("#e79fc4"),
     "xona-lighthotpink": makeCssHexColorDefinition("#ffb3de"),
     "xona-mantis": makeCssHexColorDefinition("#74c365"),
     "xona-mardigras": makeCssHexColorDefinition("#880085"),
