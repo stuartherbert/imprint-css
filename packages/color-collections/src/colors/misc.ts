@@ -627,6 +627,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-rubinered": makeCssHexColorDefinition("#d10056"),
     "misc-ruby": makeCssHexColorDefinition("#e0115f"),
     "misc-ruddyblue": makeCssHexColorDefinition("#76abdf"),
+    "misc-rufous": makeCssHexColorDefinition("#a81c07"),
     "misc-rust": makeCssHexColorDefinition("#b7410e"),
     "misc-saffron": makeCssHexColorDefinition("#f4c430"),
     "misc-sage": makeCssHexColorDefinition("#bcb88a"),

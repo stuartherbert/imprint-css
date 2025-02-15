@@ -1422,6 +1422,7 @@ export const MISC_ROYALBLUE = ALL_COLORS["misc-royalblue"];
 export const MISC_RUBINERED = ALL_COLORS["misc-rubinered"];
 export const MISC_RUBY = ALL_COLORS["misc-ruby"];
 export const MISC_RUDDYBLUE = ALL_COLORS["misc-ruddyblue"];
+export const MISC_RUFOUS = ALL_COLORS["misc-rufous"];
 export const MISC_RUST = ALL_COLORS["misc-rust"];
 export const MISC_SAFFRON = ALL_COLORS["misc-saffron"];
 export const MISC_SAGE = ALL_COLORS["misc-sage"];
