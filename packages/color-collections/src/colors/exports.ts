@@ -1222,6 +1222,7 @@ export const MISC_FLUORESCENTBLUE = ALL_COLORS["misc-fluorescentblue"];
 export const MISC_FLUORESCENTRED = ALL_COLORS["misc-fluorescentred"];
 export const MISC_FOLLY = ALL_COLORS["misc-folly"];
 export const MISC_FUCHSIAPURPLE = ALL_COLORS["misc-fuchsiapurple"];
+export const MISC_GAMBOGE = ALL_COLORS["misc-gamboge"];
 export const MISC_GIANTSORANGE = ALL_COLORS["misc-giantsorange"];
 export const MISC_GOLDENPOPPY = ALL_COLORS["misc-goldenpoppy"];
 export const MISC_GOLDENYELLOW = ALL_COLORS["misc-goldenyellow"];
