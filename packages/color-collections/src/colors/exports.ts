@@ -918,6 +918,7 @@ export const CRAYOLA_INDIGO_2004 = ALL_COLORS["crayola-indigo-2004"];
 export const CRAYOLA_IRIDESCENTINDIGO = ALL_COLORS["crayola-iridescentindigo"];
 export const CRAYOLA_IRONINDIGO = ALL_COLORS["crayola-ironindigo"];
 export const CRAYOLA_JASPER = ALL_COLORS["crayola-jasper"];
+export const CRAYOLA_JAZZBERRYJAM = ALL_COLORS["crayola-jazzberryjam"];
 export const CRAYOLA_JUNGLEGREEN = ALL_COLORS["crayola-junglegreen"];
 export const CRAYOLA_LASERLEMON = ALL_COLORS["crayola-laserlemon"];
 export const CRAYOLA_LAVENDER = ALL_COLORS["crayola-lavender"];
