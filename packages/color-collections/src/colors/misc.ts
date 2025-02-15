@@ -398,6 +398,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-finn": makeCssHexColorDefinition("#683068"),
     "misc-fireenginered": makeCssHexColorDefinition("#ce2029"),
     "misc-flax": makeCssHexColorDefinition("#eedc82"),
+    "misc-fluorescentblue": makeCssHexColorDefinition("#15f4ee"),
     "misc-fluorescentred": makeCssHexColorDefinition("#ff2226"),
     "misc-folly": makeCssHexColorDefinition("#ff004f"),
     "misc-fuchsiapurple": makeCssHexColorDefinition("#cc397b"),
