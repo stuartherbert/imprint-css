@@ -903,6 +903,7 @@ export const CRAYOLA_CHESTNUT = ALL_COLORS["crayola-chestnut"];
 export const CRAYOLA_COPPERPENNY = ALL_COLORS["crayola-copperpenny"];
 export const CRAYOLA_CORNFLOWER = ALL_COLORS["crayola-cornflower"];
 export const CRAYOLA_COTTONCANDY = ALL_COLORS["crayola-cottoncandy"];
+export const CRAYOLA_CULTUREDPEARL = ALL_COLORS["crayola-culturedpearl"];
 export const CRAYOLA_DEEPCERISE = ALL_COLORS["crayola-deepcerise"];
 export const CRAYOLA_DESERTSAND = ALL_COLORS["crayola-desertsand"];
 export const CRAYOLA_EERIEBLACK = ALL_COLORS["crayola-eerieblack"];
