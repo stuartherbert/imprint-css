@@ -1448,6 +1448,7 @@ export const X11_ELECTRICPURPLE = ALL_COLORS["x11-electricpurple"];
 export const X11_LIGHTGOLDENROD = ALL_COLORS["x11-lightgoldenrod"];
 export const X11_LIGHTKHAKI = ALL_COLORS["x11-lightkhaki"];
 export const X11_MEDIUMGRAY = ALL_COLORS["x11-mediumgray"];
+export const X11_PALEAZURE = ALL_COLORS["x11-paleazure"];
 export const X11_PURPLE = ALL_COLORS["x11-purple"];
 export const XONA_BLACKBEAN = ALL_COLORS["xona-blackbean"];
 export const XONA_BURNTUMBER = ALL_COLORS["xona-burntumber"];
