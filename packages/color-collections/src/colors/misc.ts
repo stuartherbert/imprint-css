@@ -500,6 +500,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-mellowapricot": makeCssHexColorDefinition("#f8b878"),
     "misc-midmossgreen": makeCssHexColorDefinition("#686b47"),
     "misc-midnightgreen": makeCssHexColorDefinition("#004953"),
+    "misc-mikadoyellow": makeCssHexColorDefinition("#ffc40c"),
     "misc-mimipink": makeCssHexColorDefinition("#ffdae9"),
     "misc-mountbattenpink": makeCssHexColorDefinition("#997a8d"),
     "misc-myrtle": makeCssHexColorDefinition("#21421e"),

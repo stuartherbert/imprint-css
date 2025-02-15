@@ -1295,6 +1295,7 @@ export const MISC_MEDIUMVERMILION = ALL_COLORS["misc-mediumvermilion"];
 export const MISC_MELLOWAPRICOT = ALL_COLORS["misc-mellowapricot"];
 export const MISC_MIDMOSSGREEN = ALL_COLORS["misc-midmossgreen"];
 export const MISC_MIDNIGHTGREEN = ALL_COLORS["misc-midnightgreen"];
+export const MISC_MIKADOYELLOW = ALL_COLORS["misc-mikadoyellow"];
 export const MISC_MIMIPINK = ALL_COLORS["misc-mimipink"];
 export const MISC_MOUNTBATTENPINK = ALL_COLORS["misc-mountbattenpink"];
 export const MISC_MYRTLE = ALL_COLORS["misc-myrtle"];
