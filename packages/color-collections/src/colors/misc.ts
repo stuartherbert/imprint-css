@@ -473,6 +473,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-evergreen": makeCssHexColorDefinition("#05472a"),
     "misc-falured": makeCssHexColorDefinition("#801818"),
     "misc-fandango": makeCssHexColorDefinition("#b53389"),
+    "misc-fawn": makeCssHexColorDefinition("#e5aa70"),
     "misc-feldgrau": makeCssHexColorDefinition("#4d5d53"),
     "misc-ferngreen": makeCssHexColorDefinition("#4f7942"),
     "misc-finn": makeCssHexColorDefinition("#683068"),
