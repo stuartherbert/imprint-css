@@ -1454,6 +1454,7 @@ export const NCS_RED = ALL_COLORS["ncs-red"];
 export const NCS_YELLOW = ALL_COLORS["ncs-yellow"];
 export const NORTHWESTERN_PURPLE = ALL_COLORS["northwestern-purple"];
 export const OU_CRIMSON = ALL_COLORS["ou-crimson"];
+export const OXFORD_BLUE = ALL_COLORS["oxford-blue"];
 export const PAKISTAN_GREEN = ALL_COLORS["pakistan-green"];
 export const PERSIAN_BLUE = ALL_COLORS["persian-blue"];
 export const PERSIAN_GREEN = ALL_COLORS["persian-green"];
