@@ -1375,6 +1375,7 @@ export const MISC_PLATINUM = ALL_COLORS["misc-platinum"];
 export const MISC_PLUM = ALL_COLORS["misc-plum"];
 export const MISC_POPPYRED = ALL_COLORS["misc-poppyred"];
 export const MISC_POWDERYCELESTE = ALL_COLORS["misc-powderyceleste"];
+export const MISC_PUCE = ALL_COLORS["misc-puce"];
 export const MISC_PUMPKIN = ALL_COLORS["misc-pumpkin"];
 export const MISC_PURPLEGLOVE = ALL_COLORS["misc-purpleglove"];
 export const MISC_PURPLETAUPE = ALL_COLORS["misc-purpletaupe"];

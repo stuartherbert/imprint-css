@@ -580,6 +580,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-plum": makeCssHexColorDefinition("#8e4585"),
     "misc-poppyred": makeCssHexColorDefinition("#dc343b"),
     "misc-powderyceleste": makeCssHexColorDefinition("#e6ffff"),
+    "misc-puce": makeCssHexColorDefinition("#cc8899"),
     "misc-pumpkin": makeCssHexColorDefinition("#ff7518"),
     "misc-purpleglove": makeCssHexColorDefinition("#7449c0"),
     "misc-purpletaupe": makeCssHexColorDefinition("#50404d"),
