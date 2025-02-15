@@ -1391,6 +1391,7 @@ export const MISC_PHTHALOBLUE = ALL_COLORS["misc-phthaloblue"];
 export const MISC_PHTHALOGREEN = ALL_COLORS["misc-phthalogreen"];
 export const MISC_PEACH = ALL_COLORS["misc-peach"];
 export const MISC_PEAR = ALL_COLORS["misc-pear"];
+export const MISC_PEARL = ALL_COLORS["misc-pearl"];
 export const MISC_PERIWINKLE = ALL_COLORS["misc-periwinkle"];
 export const MISC_PERSIMMON = ALL_COLORS["misc-persimmon"];
 export const MISC_PHLOX = ALL_COLORS["misc-phlox"];
