@@ -1046,6 +1046,7 @@ export const HUNGARIAN_GREEN = ALL_COLORS["hungarian-green"];
 export const HUNYADI_YELLOW = ALL_COLORS["hunyadi-yellow"];
 export const INDIA_GREEN = ALL_COLORS["india-green"];
 export const INDIA_SAFFRON = ALL_COLORS["india-saffron"];
+export const INDIAN_YELLOW = ALL_COLORS["indian-yellow"];
 export const INTERNATIONALORANGE_AEROSPACE = ALL_COLORS["internationalorange-aerospace"];
 export const INTERNATIONALORANGE_ENGINEERING = ALL_COLORS["internationalorange-engineering"];
 export const INTERNATIONALORANGE_GGB = ALL_COLORS["internationalorange-ggb"];

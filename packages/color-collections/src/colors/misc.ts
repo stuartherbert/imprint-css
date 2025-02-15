@@ -251,6 +251,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "hunyadi-yellow": makeCssHexColorDefinition("#e8ac41"),
     "india-green": makeCssHexColorDefinition("#138808"),
     "india-saffron": makeCssHexColorDefinition("#ff7722"),
+    "indian-yellow": makeCssHexColorDefinition("#e3a857"),
     "internationalorange-aerospace": makeCssHexColorDefinition("#ff4f00"),
     "internationalorange-engineering": makeCssHexColorDefinition("#ba160c"),
     "internationalorange-ggb": makeCssHexColorDefinition("#f04a00"),
