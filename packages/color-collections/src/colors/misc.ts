@@ -597,6 +597,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-zomp": makeCssHexColorDefinition("#39a78d"),
     "ridgeway-woodbrown": makeCssHexColorDefinition("#c19a6b"),
     "ryb-brown": makeCssHexColorDefinition("#331800"),
+    "ryb-lightblue": makeCssHexColorDefinition("#95b0cc"),
     "ryb-pink": makeCssHexColorDefinition("#ff8080"),
     "ryb-plum": makeCssHexColorDefinition("#c2938d"),
     "sacramentostate-green": makeCssHexColorDefinition("#043927"),
