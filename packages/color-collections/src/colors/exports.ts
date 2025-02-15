@@ -1306,6 +1306,7 @@ export const MISC_MANHATTAN = ALL_COLORS["misc-manhattan"];
 export const MISC_MARENGO = ALL_COLORS["misc-marengo"];
 export const MISC_MARENGOCLAIR = ALL_COLORS["misc-marengoclair"];
 export const MISC_MARIANBLUE = ALL_COLORS["misc-marianblue"];
+export const MISC_MARRSGREEN = ALL_COLORS["misc-marrsgreen"];
 export const MISC_MAUVE = ALL_COLORS["misc-mauve"];
 export const MISC_MAUVEINE = ALL_COLORS["misc-mauveine"];
 export const MISC_MEDIUMELECTRICBLUE = ALL_COLORS["misc-mediumelectricblue"];

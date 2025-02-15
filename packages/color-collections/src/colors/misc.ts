@@ -511,6 +511,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-marengo": makeCssHexColorDefinition("#4c5866"),
     "misc-marengoclair": makeCssHexColorDefinition("#d7d7d7"),
     "misc-marianblue": makeCssHexColorDefinition("#2b4593"),
+    "misc-marrsgreen": makeCssHexColorDefinition("#008c8c"),
     "misc-mauve": makeCssHexColorDefinition("#e0b0ff"),
     "misc-mauveine": makeCssHexColorDefinition("#8d029b"),
     "misc-mediumelectricblue": makeCssHexColorDefinition("#035096"),
