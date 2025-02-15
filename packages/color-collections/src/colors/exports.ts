@@ -1143,6 +1143,7 @@ export const MISC_AMETHYST = ALL_COLORS["misc-amethyst"];
 export const MISC_ANTIFLASHWHITE = ALL_COLORS["misc-antiflashwhite"];
 export const MISC_APRICOT = ALL_COLORS["misc-apricot"];
 export const MISC_APRICOTPEACH = ALL_COLORS["misc-apricotpeach"];
+export const MISC_AQUAMARINE = ALL_COLORS["misc-aquamarine"];
 export const MISC_ARMYGREEN = ALL_COLORS["misc-armygreen"];
 export const MISC_ARYLIDEYELLOW = ALL_COLORS["misc-arylideyellow"];
 export const MISC_AZURE = ALL_COLORS["misc-azure"];
