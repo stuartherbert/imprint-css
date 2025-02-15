@@ -833,6 +833,7 @@ export const METRO_VIOLET = ALL_COLORS["metro-violet"];
 export const METRO_YELLOW = ALL_COLORS["metro-yellow"];
 export const ANDROID_GREEN = ALL_COLORS["android-green"];
 export const ANDROID_ORIGGREEN = ALL_COLORS["android-origgreen"];
+export const AMS_SCHOOLBUSGLOSSYYELLOW = ALL_COLORS["ams-schoolbusglossyyellow"];
 export const ANSI_SAFETYBLUE = ALL_COLORS["ansi-safetyblue"];
 export const ANSI_SAFETYGRAY = ALL_COLORS["ansi-safetygray"];
 export const ANSI_SAFETYGREEN = ALL_COLORS["ansi-safetygreen"];
