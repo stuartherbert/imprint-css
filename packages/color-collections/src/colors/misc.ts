@@ -438,6 +438,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-haintblue": makeCssHexColorDefinition("#d1eaeb"),
     "misc-harlequin": makeCssHexColorDefinition("#3fff00"),
     "misc-harvestgold": makeCssHexColorDefinition("#da9100"),
+    "misc-harvestgold2": makeCssHexColorDefinition("#e6a817"),
     "misc-heliotrope": makeCssHexColorDefinition("#df73ff"),
     "misc-hollywoodcerise": makeCssHexColorDefinition("#f400a1"),
     "misc-hookersgreen": makeCssHexColorDefinition("#49796b"),
