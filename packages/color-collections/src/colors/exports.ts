@@ -1374,6 +1374,7 @@ export const PICTON_BLUE = ALL_COLORS["picton-blue"];
 export const PLOCHERE_ANTIQUEFUCHSIA = ALL_COLORS["plochere-antiquefuchsia"];
 export const PLOCHERE_BABYBLUEEYES = ALL_COLORS["plochere-babyblueeyes"];
 export const PLOCHERE_BEAUBLUE = ALL_COLORS["plochere-beaublue"];
+export const PLOCHERE_CELESTIALBLUE = ALL_COLORS["plochere-celestialblue"];
 export const PLOCHERE_CHARMPINK = ALL_COLORS["plochere-charmpink"];
 export const PLOCHERE_CHINAPINK = ALL_COLORS["plochere-chinapink"];
 export const PLOCHERE_IRRESISTIBLE = ALL_COLORS["plochere-irresistible"];

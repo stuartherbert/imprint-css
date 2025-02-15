@@ -579,6 +579,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "plochere-antiquefuchsia": makeCssHexColorDefinition("#915c83"),
     "plochere-babyblueeyes": makeCssHexColorDefinition("#a1caf1"),
     "plochere-beaublue": makeCssHexColorDefinition("#bcd4e6"),
+    "plochere-celestialblue": makeCssHexColorDefinition("#4997d0"),
     "plochere-charmpink": makeCssHexColorDefinition("#e68fac"),
     "plochere-chinapink": makeCssHexColorDefinition("#de6fa1"),
     "plochere-irresistible": makeCssHexColorDefinition("#b3446c"),
