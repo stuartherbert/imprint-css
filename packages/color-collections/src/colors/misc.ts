@@ -580,6 +580,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "pourpre-mauve": makeCssHexColorDefinition("#d473d4"),
     "pourpre-rosebonbon": makeCssHexColorDefinition("#f9429e"),
     "princeton-orange": makeCssHexColorDefinition("#e77500"),
+    "prussian-blue": makeCssHexColorDefinition("#003153"),
     "ral-blackolive": makeCssHexColorDefinition("#3b3c36"),
     "ral-jetblack": makeCssHexColorDefinition("#0e0e10"),
     "ral-resedagreen": makeCssHexColorDefinition("#6c7c59"),
