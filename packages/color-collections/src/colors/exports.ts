@@ -1012,6 +1012,7 @@ export const ENCYCOLORPEDIA_OPAL = ALL_COLORS["encycolorpedia-opal"];
 export const ENCYCOLORPEDIA_PERIDOT = ALL_COLORS["encycolorpedia-peridot"];
 export const ENCYCOLORPEDIA_TEAGREEN = ALL_COLORS["encycolorpedia-teagreen"];
 export const ENCYCOLORPEDIA_VERDIGRIS = ALL_COLORS["encycolorpedia-verdigris"];
+export const ETON_BLUE = ALL_COLORS["eton-blue"];
 export const FRENCH_BEIGE = ALL_COLORS["french-beige"];
 export const FRENCH_BLUE = ALL_COLORS["french-blue"];
 export const FRENCH_CANADAROSE = ALL_COLORS["french-canadarose"];
