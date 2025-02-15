@@ -325,6 +325,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-sanddune": makeCssHexColorDefinition("#967117"),
     "iscc-nbs-sandytaupe": makeCssHexColorDefinition("#967117"),
     "iscc-nbs-skobeloff": makeCssHexColorDefinition("#007474"),
+    "iscc-nbs-springbud": makeCssHexColorDefinition("#c9dc87"),
     "iscc-nbs-sunray": makeCssHexColorDefinition("#e3a857"),
     "iscc-nbs-sunset": makeCssHexColorDefinition("#fad6a5"),
     "iscc-nbs-taupe": makeCssHexColorDefinition("#483c32"),
