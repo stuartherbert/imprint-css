@@ -1,0 +1,21 @@
+---
+
+import ColorSwatches from "./ColorSwatches.astro";
+import ColorSwatch from "./ColorSwatch.astro";
+import { getCollection } from "astro:content";
+
+// load the group
+const allColorsData = await getCollection("colors");
+if (allColorsData === undefined) {
+    throw new Error("unable to load colors collection");
+}
+
+---
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        {allColorsData.map((colorData) => (
+            <ColorSwatch colorName={colorData.id}/>
+        ))}
+    </div>
+</ColorSwatches>

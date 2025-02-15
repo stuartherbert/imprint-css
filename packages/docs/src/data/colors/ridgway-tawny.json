@@ -1,0 +1,66 @@
+{
+  "name": "ridgway-tawny",
+  "jsName": "RIDGWAY_TAWNY",
+  "title": "ridgway-tawny",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ridgway-tawny'.",
+  "definition": "#ae6938",
+  "hex": "#ae6938",
+  "general": {
+    "hues": [
+      "red",
+      "orange"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 120.045,
+    "relativeLuminance": 0.193
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 3.9,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

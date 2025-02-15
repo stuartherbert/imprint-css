@@ -1,0 +1,65 @@
+{
+  "name": "iscc-nbs-antiquebronze",
+  "jsName": "ISCC_NBS_ANTIQUEBRONZE",
+  "title": "iscc-nbs-antiquebronze",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'iscc-nbs-antiquebronze'.",
+  "definition": "#665d1e",
+  "hex": "#665d1e",
+  "general": {
+    "hues": [
+      "orange"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 88.509,
+    "relativeLuminance": 0.107
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 6.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 2.3,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

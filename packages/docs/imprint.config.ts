@@ -132,7 +132,9 @@ export default {
         "Wikipedia The Dress": "https://en.wikipedia.org/wiki/The_dress",
         "Wikipedia Pantone": "https://en.wikipedia.org/wiki/Pantone",
         "Wikipedia Shades of Black": "https://en.wikipedia.org/wiki/Shades_of_black",
+        "Wikipedia Shades of Blue": "https://en.wikipedia.org/wiki/Shades_of_blue",
         "Wikipedia Shades of Brown": "https://en.wikipedia.org/wiki/Shades_of_brown",
+        "Wikipedia Shades of Cyan": "https://en.wikipedia.org/wiki/Shades_of_cyan",
         "Wikipedia Shades of Gray": "https://en.wikipedia.org/wiki/Shades_of_gray",
         "Wikipedia Shades of Green": "https://en.wikipedia.org/wiki/Shades_of_green",
         "Wikipedia Shades of Magenta": "https://en.wikipedia.org/wiki/Shades_of_magenta",
@@ -142,6 +144,7 @@ export default {
         "Wikipedia Shades of Red": "https://en.wikipedia.org/wiki/Shades_of_red",
         "Wikipedia Shades of Rose": "https://en.wikipedia.org/wiki/Shades_of_rose",
         "Wikipedia Shades of White": "https://en.wikipedia.org/wiki/Shades_of_white",
+        "Wikipedia Shades of Yellow": "https://en.wikipedia.org/wiki/Shades_of_yellow",
         "Wikipedia X Window System": "https://en.wikipedia.org/wiki/X_Window_System",
         "Wikipedia X11 Color Names": "https://en.wikipedia.org/wiki/X11_color_names",
 

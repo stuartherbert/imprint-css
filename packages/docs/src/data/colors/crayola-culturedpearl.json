@@ -1,22 +1,23 @@
 {
-  "name": "crayola-lemon",
-  "jsName": "CRAYOLA_LEMON",
-  "title": "crayola-lemon",
+  "name": "crayola-culturedpearl",
+  "jsName": "CRAYOLA_CULTUREDPEARL",
+  "title": "crayola-culturedpearl",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'crayola-lemon'.",
-  "definition": "#fdff00",
-  "hex": "#fdff00",
+  "description": "Analysis of the color 'crayola-culturedpearl'.",
+  "definition": "#f5f5f5",
+  "hex": "#f5f5f5",
   "general": {
     "hues": [
-      "yellow"
+      "gray",
+      "white"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 225.332,
-    "relativeLuminance": 0.924
+    "luma": 245,
+    "relativeLuminance": 0.913
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -40,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 14.7,
+    "contrastRatio": 14.5,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
