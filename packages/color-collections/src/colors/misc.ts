@@ -384,6 +384,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-brightlime": makeCssHexColorDefinition("#72fe00"),
     "misc-brightmint": makeCssHexColorDefinition("#4fffb0"),
     "misc-brightpink": makeCssHexColorDefinition("#ff007f"),
+    "misc-brightturquoise": makeCssHexColorDefinition("#08e8de"),
     "misc-brown": makeCssHexColorDefinition("#964b00"),
     "misc-brunswickgreen": makeCssHexColorDefinition("#1b4d3e"),
     "misc-buff": makeCssHexColorDefinition("#daa06d"),
