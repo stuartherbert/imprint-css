@@ -643,6 +643,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-vermilion": makeCssHexColorDefinition("#e34234"),
     "misc-venetianred": makeCssHexColorDefinition("#c80815"),
     "misc-violet": makeCssHexColorDefinition("#7f00ff"),
+    "misc-violetred": makeCssHexColorDefinition("#f0559c"),
     "misc-viridian": makeCssHexColorDefinition("#40826d"),
     "misc-vividcerulean": makeCssHexColorDefinition("#003fff"),
     "misc-vividviolet": makeCssHexColorDefinition("#9f00ff"),
