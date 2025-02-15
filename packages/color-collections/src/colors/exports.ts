@@ -1434,6 +1434,7 @@ export const MISC_SAVOYBLUE = ALL_COLORS["misc-savoyblue"];
 export const MISC_SCARLET = ALL_COLORS["misc-scarlet"];
 export const MISC_SEALBROWN = ALL_COLORS["misc-sealbrown"];
 export const MISC_SELECTIVEYELLOW = ALL_COLORS["misc-selectiveyellow"];
+export const MISC_SEPIA = ALL_COLORS["misc-sepia"];
 export const MISC_SHAMROCKGREEN = ALL_COLORS["misc-shamrockgreen"];
 export const MISC_SHOCKINGPINK = ALL_COLORS["misc-shockingpink"];
 export const MISC_SIENNA = ALL_COLORS["misc-sienna"];
