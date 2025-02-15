@@ -1342,6 +1342,7 @@ export const MISC_SPLASHEDWHITE = ALL_COLORS["misc-splashedwhite"];
 export const MISC_TANGBLUE = ALL_COLORS["misc-tangblue"];
 export const MISC_TANGELO = ALL_COLORS["misc-tangelo"];
 export const MISC_TANGERINE = ALL_COLORS["misc-tangerine"];
+export const MISC_TAWNY = ALL_COLORS["misc-tawny"];
 export const MISC_TEALBLUE = ALL_COLORS["misc-tealblue"];
 export const MISC_TERRACOTTA = ALL_COLORS["misc-terracotta"];
 export const MISC_TRUEBLUE = ALL_COLORS["misc-trueblue"];
