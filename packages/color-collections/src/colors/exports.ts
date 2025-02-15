@@ -1262,6 +1262,7 @@ export const MISC_LIGHTBROWN = ALL_COLORS["misc-lightbrown"];
 export const MISC_LIGHTCHOCOLATE = ALL_COLORS["misc-lightchocolate"];
 export const MISC_LIGHTMOSSGREEN = ALL_COLORS["misc-lightmossgreen"];
 export const MISC_LILAC = ALL_COLORS["misc-lilac"];
+export const MISC_LIME = ALL_COLORS["misc-lime"];
 export const MISC_LIONTAWNY1 = ALL_COLORS["misc-liontawny1"];
 export const MISC_LIONTAWNY2 = ALL_COLORS["misc-liontawny2"];
 export const MISC_LISERANPURPLE = ALL_COLORS["misc-liseranpurple"];
