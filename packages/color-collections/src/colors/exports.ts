@@ -1513,6 +1513,7 @@ export const X11_LIGHTKHAKI = ALL_COLORS["x11-lightkhaki"];
 export const X11_MEDIUMGRAY = ALL_COLORS["x11-mediumgray"];
 export const X11_PALEAZURE = ALL_COLORS["x11-paleazure"];
 export const X11_PURPLE = ALL_COLORS["x11-purple"];
+export const XONA_BITTERYELLOW = ALL_COLORS["xona-bitteryellow"];
 export const XONA_BLACKBEAN = ALL_COLORS["xona-blackbean"];
 export const XONA_BURNTUMBER = ALL_COLORS["xona-burntumber"];
 export const XONA_CITRON = ALL_COLORS["xona-citron"];
