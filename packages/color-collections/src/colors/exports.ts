@@ -1030,6 +1030,7 @@ export const FRENCH_BLUE = ALL_COLORS["french-blue"];
 export const FRENCH_CANADAROSE = ALL_COLORS["french-canadarose"];
 export const FRENCH_ECRU = ALL_COLORS["french-ecru"];
 export const FRENCH_FUCHSIA = ALL_COLORS["french-fuchsia"];
+export const FRENCH_GRAY = ALL_COLORS["french-gray"];
 export const FRENCH_LIGHTBEIGE = ALL_COLORS["french-lightbeige"];
 export const FRENCH_LILAC = ALL_COLORS["french-lilac"];
 export const FRENCH_LIME = ALL_COLORS["french-lime"];
