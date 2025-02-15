@@ -1328,6 +1328,7 @@ export const MISC_KHAKIGREEN = ALL_COLORS["misc-khakigreen"];
 export const MISC_KINGBLUE = ALL_COLORS["misc-kingblue"];
 export const MISC_LAPISLAZULU = ALL_COLORS["misc-lapislazulu"];
 export const MISC_LAURELGREEN = ALL_COLORS["misc-laurelgreen"];
+export const MISC_LAVA = ALL_COLORS["misc-lava"];
 export const MISC_LAVENDER = ALL_COLORS["misc-lavender"];
 export const MISC_LEMON = ALL_COLORS["misc-lemon"];
 export const MISC_LEMONLIME = ALL_COLORS["misc-lemonlime"];
