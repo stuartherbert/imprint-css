@@ -449,6 +449,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-laurelgreen": makeCssHexColorDefinition("#a9ba9d"),
     "misc-lavender": makeCssHexColorDefinition("#b57edc"),
     "misc-literallightblue": makeCssHexColorDefinition("#8080ff"),
+    "misc-lightchocolate": makeCssHexColorDefinition("#cc7f33"),
     "misc-lightmossgreen": makeCssHexColorDefinition("#b9bd78"),
     "misc-lilac": makeCssHexColorDefinition("#c8a2c8"),
     "misc-liseranpurple": makeCssHexColorDefinition("#de6fa1"),
