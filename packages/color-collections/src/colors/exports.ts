@@ -1198,6 +1198,7 @@ export const MISC_BROWN = ALL_COLORS["misc-brown"];
 export const MISC_BRUNSWICKGREEN = ALL_COLORS["misc-brunswickgreen"];
 export const MISC_BUFF = ALL_COLORS["misc-buff"];
 export const MISC_BURGUNDY = ALL_COLORS["misc-burgundy"];
+export const MISC_BURNTSIENNA = ALL_COLORS["misc-burntsienna"];
 export const MISC_BUTTERSCOTCH = ALL_COLORS["misc-butterscotch"];
 export const MISC_BYZANTINE = ALL_COLORS["misc-byzantine"];
 export const MISC_CADET = ALL_COLORS["misc-cadet"];
