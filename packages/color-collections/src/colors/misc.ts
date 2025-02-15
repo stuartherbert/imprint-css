@@ -404,6 +404,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-buff": makeCssHexColorDefinition("#daa06d"),
     "misc-burgundy": makeCssHexColorDefinition("#800020"),
     "misc-burntsienna": makeCssHexColorDefinition("#623034"),
+    "misc-burntsienna2": makeCssHexColorDefinition("#e97451"),
     "misc-butterscotch": makeCssHexColorDefinition("#e09540"),
     "misc-byzantine": makeCssHexColorDefinition("#bd33a4"),
     "misc-cadet": makeCssHexColorDefinition("#536872"),
