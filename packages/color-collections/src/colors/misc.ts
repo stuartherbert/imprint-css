@@ -448,6 +448,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-coralred": makeCssHexColorDefinition("#ff4040"),
     "misc-cordovan": makeCssHexColorDefinition("#893f45"),
     "misc-cosmiclatte": makeCssHexColorDefinition("#fff8e7"),
+    "misc-coyotebrown": makeCssHexColorDefinition("#81613c"),
     "misc-cream": makeCssHexColorDefinition("#fffdd0"),
     "misc-curiousblue": makeCssHexColorDefinition("#269dce"),
     "misc-darkbluegray": makeCssHexColorDefinition("#669"),

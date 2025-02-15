@@ -1243,6 +1243,7 @@ export const MISC_COQUELICOT = ALL_COLORS["misc-coquelicot"];
 export const MISC_CORALRED = ALL_COLORS["misc-coralred"];
 export const MISC_CORDOVAN = ALL_COLORS["misc-cordovan"];
 export const MISC_COSMICLATTE = ALL_COLORS["misc-cosmiclatte"];
+export const MISC_COYOTEBROWN = ALL_COLORS["misc-coyotebrown"];
 export const MISC_CREAM = ALL_COLORS["misc-cream"];
 export const MISC_CURIOUSBLUE = ALL_COLORS["misc-curiousblue"];
 export const MISC_DARKBLUEGRAY = ALL_COLORS["misc-darkbluegray"];
