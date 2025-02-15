@@ -740,6 +740,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "up-forestgreen": makeCssHexColorDefinition("#014421"),
     "x11-cream": makeCssHexColorDefinition("#ffffcc"),
     "x11-darkbrown": makeCssHexColorDefinition("#5c4033"),
+    "x11-darkspringgreen": makeCssHexColorDefinition("#177245"),
     "x11-electricpurple": makeCssHexColorDefinition("#bf00ff"),
     "x11-lightgoldenrod": makeCssHexColorDefinition("#ffec8b"),
     "x11-lightkhaki": makeCssHexColorDefinition("#f0e68c"),
