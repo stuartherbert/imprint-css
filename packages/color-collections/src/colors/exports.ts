@@ -1535,6 +1535,7 @@ export const TYRIAN_RED = ALL_COLORS["tyrian-red"];
 export const UA_CRIMSON = ALL_COLORS["ua-crimson"];
 export const UCLA_GOLD = ALL_COLORS["ucla-gold"];
 export const UN_BLUE = ALL_COLORS["un-blue"];
+export const UNT_GREEN = ALL_COLORS["unt-green"];
 export const USAF_ACADEMYBLUE = ALL_COLORS["usaf-academyblue"];
 export const USAF_AIRFORCEBLUE = ALL_COLORS["usaf-airforceblue"];
 export const USC_GOLD = ALL_COLORS["usc-gold"];

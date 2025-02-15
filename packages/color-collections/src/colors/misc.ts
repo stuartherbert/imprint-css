@@ -740,6 +740,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ua-crimson": makeCssHexColorDefinition("#9e1b32"),
     "ucla-gold": makeCssHexColorDefinition("#ffd100"),
     "un-blue": makeCssHexColorDefinition("#009edb"),
+    "unt-green": makeCssHexColorDefinition("#00853e"),
     "usaf-academyblue": makeCssHexColorDefinition("#004f98"),
     "usaf-airforceblue": makeCssHexColorDefinition("#00308f"),
     "usc-gold": makeCssHexColorDefinition("#ffcc00"),
