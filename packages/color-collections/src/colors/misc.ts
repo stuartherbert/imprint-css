@@ -377,6 +377,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-darksapphire": makeCssHexColorDefinition("#082567"),
     "misc-deepsaffron": makeCssHexColorDefinition("#ff9933"),
     "misc-deepruby": makeCssHexColorDefinition("#843f5b"),
+    "misc-delftblue": makeCssHexColorDefinition("#1f305e"),
     "misc-dogwoodrose": makeCssHexColorDefinition("#d71868"),
     "misc-eaglegreen": makeCssHexColorDefinition("#004c54"),
     "misc-earthyellow": makeCssHexColorDefinition("#e1a95f"),

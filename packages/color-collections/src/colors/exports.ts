@@ -1172,6 +1172,7 @@ export const MISC_DARKPINK = ALL_COLORS["misc-darkpink"];
 export const MISC_DARKSAPPHIRE = ALL_COLORS["misc-darksapphire"];
 export const MISC_DEEPSAFFRON = ALL_COLORS["misc-deepsaffron"];
 export const MISC_DEEPRUBY = ALL_COLORS["misc-deepruby"];
+export const MISC_DELFTBLUE = ALL_COLORS["misc-delftblue"];
 export const MISC_DOGWOODROSE = ALL_COLORS["misc-dogwoodrose"];
 export const MISC_EAGLEGREEN = ALL_COLORS["misc-eaglegreen"];
 export const MISC_EARTHYELLOW = ALL_COLORS["misc-earthyellow"];
