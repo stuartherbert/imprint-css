@@ -532,6 +532,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-wenge": makeCssHexColorDefinition("#645452"),
     "misc-winedregs": makeCssHexColorDefinition("#673147"),
     "misc-xanthous": makeCssHexColorDefinition("#f1b42f"),
+    "misc-yinmnblue": makeCssHexColorDefinition("#306ac0"),
     "misc-zarqa": makeCssHexColorDefinition("#ff4500"),
     "msu-green": makeCssHexColorDefinition("#18453b"),
     "munsell-blue": makeCssHexColorDefinition("#0093af"),
