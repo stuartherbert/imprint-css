@@ -1105,6 +1105,7 @@ export const ISCC_NBS_SAND = ALL_COLORS["iscc-nbs-sand"];
 export const ISCC_NBS_SANDDUNE = ALL_COLORS["iscc-nbs-sanddune"];
 export const ISCC_NBS_SANDYTAUPE = ALL_COLORS["iscc-nbs-sandytaupe"];
 export const ISCC_NBS_SKOBELOFF = ALL_COLORS["iscc-nbs-skobeloff"];
+export const ISCC_NBS_SUNRAY = ALL_COLORS["iscc-nbs-sunray"];
 export const ISCC_NBS_SUNSET = ALL_COLORS["iscc-nbs-sunset"];
 export const ISCC_NBS_TAUPE = ALL_COLORS["iscc-nbs-taupe"];
 export const ISCC_NBS_TAUPEBEIGE = ALL_COLORS["iscc-nbs-taupebeige"];
