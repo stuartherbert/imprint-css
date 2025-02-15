@@ -597,6 +597,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-quinacridonemagenta": makeCssHexColorDefinition("#9a114f"),
     "misc-rajah": makeCssHexColorDefinition("#fbab60"),
     "misc-raspberry": makeCssHexColorDefinition("#e30b5d"),
+    "misc-rawsienna": makeCssHexColorDefinition("#965434"),
     "misc-redlead": makeCssHexColorDefinition("#ff4101"),
     "misc-redwood": makeCssHexColorDefinition("#a45953"),
     "misc-richcarmine": makeCssHexColorDefinition("#d70040"),

@@ -1392,6 +1392,7 @@ export const MISC_PURPLETAUPE = ALL_COLORS["misc-purpletaupe"];
 export const MISC_QUINACRIDONEMAGENTA = ALL_COLORS["misc-quinacridonemagenta"];
 export const MISC_RAJAH = ALL_COLORS["misc-rajah"];
 export const MISC_RASPBERRY = ALL_COLORS["misc-raspberry"];
+export const MISC_RAWSIENNA = ALL_COLORS["misc-rawsienna"];
 export const MISC_REDLEAD = ALL_COLORS["misc-redlead"];
 export const MISC_REDWOOD = ALL_COLORS["misc-redwood"];
 export const MISC_RICHCARMINE = ALL_COLORS["misc-richcarmine"];
