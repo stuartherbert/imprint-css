@@ -847,6 +847,7 @@ export const AUSTRALIAN_POWDERBLUE = ALL_COLORS["australian-powderblue"];
 export const BAKER_MILLER_PINK = ALL_COLORS["baker-miller-pink"];
 export const BERKELEY_BLUE = ALL_COLORS["berkeley-blue"];
 export const BRITISH_AIRFORCEBLUE = ALL_COLORS["british-airforceblue"];
+export const BRITISH_MAGNOLIA = ALL_COLORS["british-magnolia"];
 export const BRITISH_POWDERBLUE = ALL_COLORS["british-powderblue"];
 export const BRITISH_RACINGGREEN = ALL_COLORS["british-racinggreen"];
 export const BSC_BRUNSWICKGREEN = ALL_COLORS["bsc-brunswickgreen"];
