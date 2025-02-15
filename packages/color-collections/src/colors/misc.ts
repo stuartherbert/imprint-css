@@ -179,6 +179,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "crayola-wildwatermelon": makeCssHexColorDefinition("#fc6c85"),
     "crayola-wisteria": makeCssHexColorDefinition("#c9a0dc"),
     "crayola-yellow": makeCssHexColorDefinition("#fce883"),
+    "crayola-yelloworange": makeCssHexColorDefinition("#ffae42"),
     "cunard-red": makeCssHexColorDefinition("#e42313"),
     "dartmouth-green": makeCssHexColorDefinition("#00693e"),
     "dcu-blue": makeCssHexColorDefinition("#002566"),
