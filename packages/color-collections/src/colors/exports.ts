@@ -1154,6 +1154,7 @@ export const MISC_BONE = ALL_COLORS["misc-bone"];
 export const MISC_BONEWHITE = ALL_COLORS["misc-bonewhite"];
 export const MISC_BRIGHTAMARANTHPINK = ALL_COLORS["misc-brightamaranthpink"];
 export const MISC_BRIGHTGREEN = ALL_COLORS["misc-brightgreen"];
+export const MISC_BRIGHTLIME = ALL_COLORS["misc-brightlime"];
 export const MISC_BRIGHTMINT = ALL_COLORS["misc-brightmint"];
 export const MISC_BRIGHTPINK = ALL_COLORS["misc-brightpink"];
 export const MISC_BROWN = ALL_COLORS["misc-brown"];
