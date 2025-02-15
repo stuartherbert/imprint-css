@@ -1250,6 +1250,7 @@ export const MISC_IRIDESCENTELECTRICBLUE = ALL_COLORS["misc-iridescentelectricbl
 export const MISC_ISABELLINE = ALL_COLORS["misc-isabelline"];
 export const MISC_JADE = ALL_COLORS["misc-jade"];
 export const MISC_KELLYGREEN = ALL_COLORS["misc-kellygreen"];
+export const MISC_KEYLIME = ALL_COLORS["misc-keylime"];
 export const MISC_KHAKI = ALL_COLORS["misc-khaki"];
 export const MISC_KHAKIGREEN = ALL_COLORS["misc-khakigreen"];
 export const MISC_KINGBLUE = ALL_COLORS["misc-kingblue"];

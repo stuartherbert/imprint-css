@@ -455,6 +455,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-isabelline": makeCssHexColorDefinition("#f4f0ec"),
     "misc-jade": makeCssHexColorDefinition("#00a86b"),
     "misc-kellygreen": makeCssHexColorDefinition("#4cbb17"),
+    "misc-keylime": makeCssHexColorDefinition("#e8f48c"),
     "misc-khaki": makeCssHexColorDefinition("#c3b091"),
     "misc-khakigreen": makeCssHexColorDefinition("#728639"),
     "misc-kingblue": makeCssHexColorDefinition("#375184"),
