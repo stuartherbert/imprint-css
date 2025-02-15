@@ -484,6 +484,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-magentadye": makeCssHexColorDefinition("#ca1f7b"),
     "misc-mahogany": makeCssHexColorDefinition("#c04000"),
     "misc-mahoganybrown": makeCssHexColorDefinition("#4c2b20"),
+    "misc-maize": makeCssHexColorDefinition("#ffcb05"),
     "misc-malachite": makeCssHexColorDefinition("#0bda51"),
     "misc-manganeseviolet": makeCssHexColorDefinition("#8152b4"),
     "misc-manhattan": makeCssHexColorDefinition("#f8c898"),
