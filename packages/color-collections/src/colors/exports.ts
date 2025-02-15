@@ -1238,6 +1238,7 @@ export const MISC_CLARET = ALL_COLORS["misc-claret"];
 export const MISC_COLBALTVIOLET = ALL_COLORS["misc-colbaltviolet"];
 export const MISC_COOLBLACK = ALL_COLORS["misc-coolblack"];
 export const MISC_COPPER = ALL_COLORS["misc-copper"];
+export const MISC_COPPERROSE = ALL_COLORS["misc-copperrose"];
 export const MISC_COQUELICOT = ALL_COLORS["misc-coquelicot"];
 export const MISC_CORALRED = ALL_COLORS["misc-coralred"];
 export const MISC_CORDOVAN = ALL_COLORS["misc-cordovan"];
