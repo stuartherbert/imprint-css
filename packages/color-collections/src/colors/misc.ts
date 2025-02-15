@@ -195,6 +195,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "french-raspberry": makeCssHexColorDefinition("#c42c48"),
     "french-rose": makeCssHexColorDefinition("#f64a8a"),
     "french-skyblue": makeCssHexColorDefinition("#77b5fe"),
+    "french-ultramarineblue": makeCssHexColorDefinition("#002fa7"),
     "french-violet": makeCssHexColorDefinition("#8806ce"),
     "go-green": makeCssHexColorDefinition("#00ab66"),
     "hungarian-green": makeCssHexColorDefinition("#477050"),
