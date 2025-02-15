@@ -360,6 +360,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-tuscanbrown": makeCssHexColorDefinition("#6f4e37"),
     "iscc-nbs-tuscantan": makeCssHexColorDefinition("#a67b5b"),
     "iscc-nbs-vanilla": makeCssHexColorDefinition("#f3e5ab"),
+    "iscc-nbs-windsortan": makeCssHexColorDefinition("#ae6838"),
     "iscc-nbs-wine": makeCssHexColorDefinition("#722f37"),
     "islamic-green": makeCssHexColorDefinition("#009000"),
     "jtc-carmine": makeCssHexColorDefinition("#9d2933"),
