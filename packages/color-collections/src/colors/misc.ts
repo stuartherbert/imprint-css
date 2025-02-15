@@ -650,6 +650,8 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-rocketmetallic": makeCssHexColorDefinition("#8a7f8d"),
     "resene-romansilver": makeCssHexColorDefinition("#838996"),
     "resene-spacecadet": makeCssHexColorDefinition("#1e2952"),
+    "resene-tawnyport": makeCssHexColorDefinition("#692545"),
+    "resene-tawnyport2007": makeCssHexColorDefinition("#643a48"),
     "resene-vanillaice": makeCssHexColorDefinition("#f3d9df"),
     "resene-xanadu": makeCssHexColorDefinition("#738678"),
     "resene-zomp": makeCssHexColorDefinition("#39a78d"),
