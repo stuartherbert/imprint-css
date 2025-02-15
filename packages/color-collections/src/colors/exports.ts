@@ -1005,6 +1005,7 @@ export const FRENCH_ECRU = ALL_COLORS["french-ecru"];
 export const FRENCH_FUCHSIA = ALL_COLORS["french-fuchsia"];
 export const FRENCH_LIGHTBEIGE = ALL_COLORS["french-lightbeige"];
 export const FRENCH_LILAC = ALL_COLORS["french-lilac"];
+export const FRENCH_LIME = ALL_COLORS["french-lime"];
 export const FRENCH_PINK = ALL_COLORS["french-pink"];
 export const FRENCH_RASPBERRY = ALL_COLORS["french-raspberry"];
 export const FRENCH_ROSE = ALL_COLORS["french-rose"];

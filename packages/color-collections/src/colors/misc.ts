@@ -210,6 +210,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "french-fuchsia": makeCssHexColorDefinition("#fd3f92"),
     "french-lightbeige": makeCssHexColorDefinition("#c8ad7f"),
     "french-lilac": makeCssHexColorDefinition("#86608e"),
+    "french-lime": makeCssHexColorDefinition("#9efd38"),
     "french-pink": makeCssHexColorDefinition("#fd6c9e"),
     "french-raspberry": makeCssHexColorDefinition("#c42c48"),
     "french-rose": makeCssHexColorDefinition("#f64a8a"),
