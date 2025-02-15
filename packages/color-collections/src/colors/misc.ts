@@ -246,6 +246,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "internationalorange-aerospace": makeCssHexColorDefinition("#ff4f00"),
     "internationalorange-engineering": makeCssHexColorDefinition("#ba160c"),
     "internationalorange-ggb": makeCssHexColorDefinition("#f04a00"),
+    "iscc-nbs-antiquebronze": makeCssHexColorDefinition("#665d1e"),
     "iscc-nbs-applegreen": makeCssHexColorDefinition("#8ab800"),
     "iscc-nbs-applered": makeCssHexColorDefinition("#be0032"),
     "iscc-nbs-artichoke": makeCssHexColorDefinition("#8f9779"),

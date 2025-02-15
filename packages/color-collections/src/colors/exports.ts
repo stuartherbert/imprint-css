@@ -1041,6 +1041,7 @@ export const INDIA_SAFFRON = ALL_COLORS["india-saffron"];
 export const INTERNATIONALORANGE_AEROSPACE = ALL_COLORS["internationalorange-aerospace"];
 export const INTERNATIONALORANGE_ENGINEERING = ALL_COLORS["internationalorange-engineering"];
 export const INTERNATIONALORANGE_GGB = ALL_COLORS["internationalorange-ggb"];
+export const ISCC_NBS_ANTIQUEBRONZE = ALL_COLORS["iscc-nbs-antiquebronze"];
 export const ISCC_NBS_APPLEGREEN = ALL_COLORS["iscc-nbs-applegreen"];
 export const ISCC_NBS_APPLERED = ALL_COLORS["iscc-nbs-applered"];
 export const ISCC_NBS_ARTICHOKE = ALL_COLORS["iscc-nbs-artichoke"];
