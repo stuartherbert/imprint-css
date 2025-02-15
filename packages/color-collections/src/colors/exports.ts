@@ -1518,6 +1518,7 @@ export const RAL_STONEGRAY = ALL_COLORS["ral-stonegray"];
 export const RESENE_AEROBLUE = ALL_COLORS["resene-aeroblue"];
 export const RESENE_DESIRE = ALL_COLORS["resene-desire"];
 export const RESENE_DUTCHWHITE = ALL_COLORS["resene-dutchwhite"];
+export const RESENE_POPSTAR = ALL_COLORS["resene-popstar"];
 export const RESENE_RHYTHM = ALL_COLORS["resene-rhythm"];
 export const RESENE_ROCKETMETALLIC = ALL_COLORS["resene-rocketmetallic"];
 export const RESENE_ROMANSILVER = ALL_COLORS["resene-romansilver"];
