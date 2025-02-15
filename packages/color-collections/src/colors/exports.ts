@@ -1219,6 +1219,7 @@ export const MISC_GREIGE = ALL_COLORS["misc-greige"];
 export const MISC_GUNMETAL = ALL_COLORS["misc-gunmetal"];
 export const MISC_HAINTBLUE = ALL_COLORS["misc-haintblue"];
 export const MISC_HARLEQUIN = ALL_COLORS["misc-harlequin"];
+export const MISC_HARVESTGOLD = ALL_COLORS["misc-harvestgold"];
 export const MISC_HELIOTROPE = ALL_COLORS["misc-heliotrope"];
 export const MISC_HOLLYWOODCERISE = ALL_COLORS["misc-hollywoodcerise"];
 export const MISC_HOOKERSGREEN = ALL_COLORS["misc-hookersgreen"];
