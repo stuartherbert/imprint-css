@@ -1314,6 +1314,7 @@ export const MISC_INDIGODYE = ALL_COLORS["misc-indigodye"];
 export const MISC_IRIDESCENTELECTRICBLUE = ALL_COLORS["misc-iridescentelectricblue"];
 export const MISC_ISABELLINE = ALL_COLORS["misc-isabelline"];
 export const MISC_JADE = ALL_COLORS["misc-jade"];
+export const MISC_JONQUIL = ALL_COLORS["misc-jonquil"];
 export const MISC_KELLYGREEN = ALL_COLORS["misc-kellygreen"];
 export const MISC_KEYLIME = ALL_COLORS["misc-keylime"];
 export const MISC_KHAKI = ALL_COLORS["misc-khaki"];
