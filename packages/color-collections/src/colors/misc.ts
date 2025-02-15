@@ -614,6 +614,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-terracotta": makeCssHexColorDefinition("#e2725b"),
     "misc-trueblue": makeCssHexColorDefinition("#2d68c4"),
     "misc-turkeyred": makeCssHexColorDefinition("#a91101"),
+    "misc-turquoiseblue": makeCssHexColorDefinition("#00ffef"),
     "misc-tuscanred": makeCssHexColorDefinition("#7c3030"),
     "misc-twinblue": makeCssHexColorDefinition("#bedbed"),
     "misc-ultramarine": makeCssHexColorDefinition("#120a8f"),
