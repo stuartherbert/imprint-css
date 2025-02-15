@@ -1044,6 +1044,7 @@ export const ISCC_NBS_FALLOW = ALL_COLORS["iscc-nbs-fallow"];
 export const ISCC_NBS_FIELDDRAB = ALL_COLORS["iscc-nbs-fielddrab"];
 export const ISCC_NBS_FLAME = ALL_COLORS["iscc-nbs-flame"];
 export const ISCC_NBS_GLAUCOUS = ALL_COLORS["iscc-nbs-glaucous"];
+export const ISCC_NBS_GOLDENBROWN = ALL_COLORS["iscc-nbs-goldenbrown"];
 export const ISCC_NBS_GRAYBLUE = ALL_COLORS["iscc-nbs-grayblue"];
 export const ISCC_NBS_GRAYGREEN = ALL_COLORS["iscc-nbs-graygreen"];
 export const ISCC_NBS_HUNTERGREEN = ALL_COLORS["iscc-nbs-huntergreen"];
