@@ -201,6 +201,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "french-ultramarineblue": makeCssHexColorDefinition("#002fa7"),
     "french-violet": makeCssHexColorDefinition("#8806ce"),
     "go-green": makeCssHexColorDefinition("#00ab66"),
+    "honolulu-blue": makeCssHexColorDefinition("#0076b6"),
     "hungarian-green": makeCssHexColorDefinition("#477050"),
     "hunyadi-yellow": makeCssHexColorDefinition("#e8ac41"),
     "india-green": makeCssHexColorDefinition("#138808"),

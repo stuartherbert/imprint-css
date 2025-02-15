@@ -996,6 +996,7 @@ export const FRENCH_SKYBLUE = ALL_COLORS["french-skyblue"];
 export const FRENCH_ULTRAMARINEBLUE = ALL_COLORS["french-ultramarineblue"];
 export const FRENCH_VIOLET = ALL_COLORS["french-violet"];
 export const GO_GREEN = ALL_COLORS["go-green"];
+export const HONOLULU_BLUE = ALL_COLORS["honolulu-blue"];
 export const HUNGARIAN_GREEN = ALL_COLORS["hungarian-green"];
 export const HUNYADI_YELLOW = ALL_COLORS["hunyadi-yellow"];
 export const INDIA_GREEN = ALL_COLORS["india-green"];
