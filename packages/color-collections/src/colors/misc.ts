@@ -573,6 +573,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "persian-plum": makeCssHexColorDefinition("#701c1c"),
     "persian-red": makeCssHexColorDefinition("#cc3333"),
     "persian-rose": makeCssHexColorDefinition("#fe28a2"),
+    "picton-blue": makeCssHexColorDefinition("#45b1e8"),
     "plochere-antiquefuchsia": makeCssHexColorDefinition("#915c83"),
     "plochere-babyblueeyes": makeCssHexColorDefinition("#a1caf1"),
     "plochere-beaublue": makeCssHexColorDefinition("#bcd4e6"),
