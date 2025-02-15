@@ -1326,6 +1326,7 @@ export const MISC_RUST = ALL_COLORS["misc-rust"];
 export const MISC_SAFFRON = ALL_COLORS["misc-saffron"];
 export const MISC_SAPGREEN = ALL_COLORS["misc-sapgreen"];
 export const MISC_SAPPHIRE = ALL_COLORS["misc-sapphire"];
+export const MISC_SATINSHEENGOLD = ALL_COLORS["misc-satinsheengold"];
 export const MISC_SAVOYBLUE = ALL_COLORS["misc-savoyblue"];
 export const MISC_SCARLET = ALL_COLORS["misc-scarlet"];
 export const MISC_SHAMROCKGREEN = ALL_COLORS["misc-shamrockgreen"];
