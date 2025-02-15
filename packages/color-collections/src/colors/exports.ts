@@ -1253,6 +1253,7 @@ export const MISC_GAMBOGE = ALL_COLORS["misc-gamboge"];
 export const MISC_GIANTSORANGE = ALL_COLORS["misc-giantsorange"];
 export const MISC_GOLDENPOPPY = ALL_COLORS["misc-goldenpoppy"];
 export const MISC_GOLDENYELLOW = ALL_COLORS["misc-goldenyellow"];
+export const MISC_GOTHAMGREEN = ALL_COLORS["misc-gothamgreen"];
 export const MISC_GRAYCARD = ALL_COLORS["misc-graycard"];
 export const MISC_GREENEARTH = ALL_COLORS["misc-greenearth"];
 export const MISC_GREIGE = ALL_COLORS["misc-greige"];

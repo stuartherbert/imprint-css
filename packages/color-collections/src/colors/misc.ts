@@ -458,6 +458,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-giantsorange": makeCssHexColorDefinition("#fe5a1d"),
     "misc-goldenpoppy": makeCssHexColorDefinition("#fcc200"),
     "misc-goldenyellow": makeCssHexColorDefinition("#ffdf00"),
+    "misc-gothamgreen": makeCssHexColorDefinition("#00573f"),
     "misc-graycard": makeCssHexColorDefinition("#7c7c7c"),
     "misc-greenearth": makeCssHexColorDefinition("#dadd98"),
     "misc-greige": makeCssHexColorDefinition("#ccc2ba"),
