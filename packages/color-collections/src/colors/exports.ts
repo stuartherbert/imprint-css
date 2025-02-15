@@ -1323,6 +1323,7 @@ export const MISC_TWINBLUE = ALL_COLORS["misc-twinblue"];
 export const MISC_ULTRAMARINE = ALL_COLORS["misc-ultramarine"];
 export const MISC_UNBLEACHEDSILK = ALL_COLORS["misc-unbleachedsilk"];
 export const MISC_UPMAROON = ALL_COLORS["misc-upmaroon"];
+export const MISC_URANIANBLUE = ALL_COLORS["misc-uranianblue"];
 export const MISC_VERMILION = ALL_COLORS["misc-vermilion"];
 export const MISC_VENETIANRED = ALL_COLORS["misc-venetianred"];
 export const MISC_VIOLET = ALL_COLORS["misc-violet"];
