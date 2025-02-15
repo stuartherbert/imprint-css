@@ -255,6 +255,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-lust": makeCssHexColorDefinition("#e62020"),
     "iscc-nbs-mauvetaupe": makeCssHexColorDefinition("#915f6d"),
     "iscc-nbs-mediumtuscanred": makeCssHexColorDefinition("#79443b"),
+    "iscc-nbs-metallicgold": makeCssHexColorDefinition("#d4af37"),
     "iscc-nbs-modebeige": makeCssHexColorDefinition("#967117"),
     "iscc-nbs-morningblue": makeCssHexColorDefinition("#8da399"),
     "iscc-nbs-mossgreen": makeCssHexColorDefinition("#8a9a5b"),
