@@ -277,6 +277,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-independence": makeCssHexColorDefinition("#4c516d"),
     "iscc-nbs-jasmine": makeCssHexColorDefinition("#f8de7e"),
     "iscc-nbs-jet": makeCssHexColorDefinition("#343434"),
+    "iscc-nbs-junebud": makeCssHexColorDefinition("#bdda57"),
     "iscc-nbs-junglegreen147": makeCssHexColorDefinition("#1c352d"),
     "iscc-nbs-junglegreen152": makeCssHexColorDefinition("#1a2421"),
     "iscc-nbs-junglegreen165": makeCssHexColorDefinition("#004b49"),
