@@ -849,6 +849,7 @@ export const BERKELEY_BLUE = ALL_COLORS["berkeley-blue"];
 export const BU_SCARLET = ALL_COLORS["bu-scarlet"];
 export const BSC_BRUNSWICKGREEN = ALL_COLORS["bsc-brunswickgreen"];
 export const CALPOLYPOMONA_GREEN = ALL_COLORS["calpolypomona-green"];
+export const CAMBRIDGE_BLUE = ALL_COLORS["cambridge-blue"];
 export const BRITISH_AIRFORCEBLUE = ALL_COLORS["british-airforceblue"];
 export const BRITISH_POWDERBLUE = ALL_COLORS["british-powderblue"];
 export const BRITISH_RACINGGREEN = ALL_COLORS["british-racinggreen"];
