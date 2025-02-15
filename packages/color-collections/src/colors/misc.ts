@@ -177,6 +177,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "crayola-ruby": makeCssHexColorDefinition("#aa4069"),
     "crayola-rustyred": makeCssHexColorDefinition("#da2c43"),
     "crayola-salmonpink": makeCssHexColorDefinition("#ff91a4"),
+    "crayola-sandytan": makeCssHexColorDefinition("#fdd9b5"),
     "crayola-sapphire": makeCssHexColorDefinition("#2d5da1"),
     "crayola-scarlet": makeCssHexColorDefinition("#fc2847"),
     "crayola-screamingreen": makeCssHexColorDefinition("#76ff7a"),
