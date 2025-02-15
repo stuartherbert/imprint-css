@@ -950,6 +950,7 @@ export const CRAYOLA_ORANGEYELLOW = ALL_COLORS["crayola-orangeyellow"];
 export const CRAYOLA_ORCHID = ALL_COLORS["crayola-orchid"];
 export const CRAYOLA_OYNX = ALL_COLORS["crayola-oynx"];
 export const CRAYOLA_OUTERSPACE = ALL_COLORS["crayola-outerspace"];
+export const CRAYOLA_PALECOPPER = ALL_COLORS["crayola-palecopper"];
 export const CRAYOLA_PEACH = ALL_COLORS["crayola-peach"];
 export const CRAYOLA_PEARLYPURPLE = ALL_COLORS["crayola-pearlypurple"];
 export const CRAYOLA_PIGGYPINK = ALL_COLORS["crayola-piggypink"];

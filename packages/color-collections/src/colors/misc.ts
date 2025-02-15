@@ -155,6 +155,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "crayola-orchid": makeCssHexColorDefinition("#e29cd2"),
     "crayola-oynx": makeCssHexColorDefinition("#353839"),
     "crayola-outerspace": makeCssHexColorDefinition("#414a4c"),
+    "crayola-palecopper": makeCssHexColorDefinition("#da8a67"),
     "crayola-peach": makeCssHexColorDefinition("#ffcba4"),
     "crayola-pearlypurple": makeCssHexColorDefinition("#b768a2"),
     "crayola-piggypink": makeCssHexColorDefinition("#fddde6"),
