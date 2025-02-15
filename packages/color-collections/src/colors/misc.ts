@@ -422,6 +422,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-butterscotch": makeCssHexColorDefinition("#e09540"),
     "misc-byzantine": makeCssHexColorDefinition("#bd33a4"),
     "misc-cadet": makeCssHexColorDefinition("#536872"),
+    "misc-cadmiumgreen": makeCssHexColorDefinition("#006b3c"),
     "misc-cadmiumorange": makeCssHexColorDefinition("#ed872d"),
     "misc-cadmiumred": makeCssHexColorDefinition("#e30022"),
     "misc-cadmiumyellow": makeCssHexColorDefinition("#fff600"),

@@ -1217,6 +1217,7 @@ export const MISC_BURNTSIENNA2 = ALL_COLORS["misc-burntsienna2"];
 export const MISC_BUTTERSCOTCH = ALL_COLORS["misc-butterscotch"];
 export const MISC_BYZANTINE = ALL_COLORS["misc-byzantine"];
 export const MISC_CADET = ALL_COLORS["misc-cadet"];
+export const MISC_CADMIUMGREEN = ALL_COLORS["misc-cadmiumgreen"];
 export const MISC_CADMIUMORANGE = ALL_COLORS["misc-cadmiumorange"];
 export const MISC_CADMIUMRED = ALL_COLORS["misc-cadmiumred"];
 export const MISC_CADMIUMYELLOW = ALL_COLORS["misc-cadmiumyellow"];
