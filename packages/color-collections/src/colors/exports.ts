@@ -851,6 +851,7 @@ export const CALPOLYPOMONA_GREEN = ALL_COLORS["calpolypomona-green"];
 export const BRITISH_AIRFORCEBLUE = ALL_COLORS["british-airforceblue"];
 export const BRITISH_POWDERBLUE = ALL_COLORS["british-powderblue"];
 export const BRITISH_RACINGGREEN = ALL_COLORS["british-racinggreen"];
+export const CALIFORNIA_GOLD = ALL_COLORS["california-gold"];
 export const CASTLETON_GREEN = ALL_COLORS["castleton-green"];
 export const CELTIC_BLUE = ALL_COLORS["celtic-blue"];
 export const CHEFCHAOUEN_BLUE = ALL_COLORS["chefchaouen-blue"];
