@@ -1058,6 +1058,7 @@ export const ISCC_NBS_LIBERTY = ALL_COLORS["iscc-nbs-liberty"];
 export const ISCC_NBS_LUST = ALL_COLORS["iscc-nbs-lust"];
 export const ISCC_NBS_MARIGOLD = ALL_COLORS["iscc-nbs-marigold"];
 export const ISCC_NBS_MAUVETAUPE = ALL_COLORS["iscc-nbs-mauvetaupe"];
+export const ISCC_NBS_MEDIUMCHAMPAGNE = ALL_COLORS["iscc-nbs-mediumchampagne"];
 export const ISCC_NBS_MEDIUMTUSCANRED = ALL_COLORS["iscc-nbs-mediumtuscanred"];
 export const ISCC_NBS_METALLICGOLD = ALL_COLORS["iscc-nbs-metallicgold"];
 export const ISCC_NBS_MODEBEIGE = ALL_COLORS["iscc-nbs-modebeige"];
