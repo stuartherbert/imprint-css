@@ -361,6 +361,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-candlelight": makeCssHexColorDefinition("#f8d810"),
     "misc-candyapplered": makeCssHexColorDefinition("#ff0800"),
     "misc-capri": makeCssHexColorDefinition("#00bfff"),
+    "misc-caramel": makeCssHexColorDefinition("#bc7a3d"),
     "misc-cardinalred": makeCssHexColorDefinition("#c51e3a"),
     "misc-caribbeancurrent": makeCssHexColorDefinition("#006d6f"),
     "misc-carrotorange": makeCssHexColorDefinition("#ed9121"),

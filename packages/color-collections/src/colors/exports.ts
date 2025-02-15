@@ -1156,6 +1156,7 @@ export const MISC_CANARYYELLOW = ALL_COLORS["misc-canaryyellow"];
 export const MISC_CANDLELIGHT = ALL_COLORS["misc-candlelight"];
 export const MISC_CANDYAPPLERED = ALL_COLORS["misc-candyapplered"];
 export const MISC_CAPRI = ALL_COLORS["misc-capri"];
+export const MISC_CARAMEL = ALL_COLORS["misc-caramel"];
 export const MISC_CARDINALRED = ALL_COLORS["misc-cardinalred"];
 export const MISC_CARIBBEANCURRENT = ALL_COLORS["misc-caribbeancurrent"];
 export const MISC_CARROTORANGE = ALL_COLORS["misc-carrotorange"];
