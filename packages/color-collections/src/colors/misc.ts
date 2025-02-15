@@ -637,6 +637,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-satinsheengold": makeCssHexColorDefinition("#cba135"),
     "misc-savoyblue": makeCssHexColorDefinition("#4b61d1"),
     "misc-scarlet": makeCssHexColorDefinition("#ff2400"),
+    "misc-sealbrown": makeCssHexColorDefinition("#59260b"),
     "misc-selectiveyellow": makeCssHexColorDefinition("#ffba00"),
     "misc-shamrockgreen": makeCssHexColorDefinition("#009e60"),
     "misc-shockingpink": makeCssHexColorDefinition("#fc0fc0"),
