@@ -688,6 +688,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "puertorican-blue": makeCssHexColorDefinition("#0044ff"),
     "ral-blackolive": makeCssHexColorDefinition("#3b3c36"),
     "ral-jetblack": makeCssHexColorDefinition("#0e0e10"),
+    "ral-maygreen": makeCssHexColorDefinition("#4c9141"),
     "ral-resedagreen": makeCssHexColorDefinition("#6c7c59"),
     "ral-rubyred": makeCssHexColorDefinition("#9b111e"),
     "ral-telemagenta": makeCssHexColorDefinition("#cf3476"),

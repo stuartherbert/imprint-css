@@ -1483,6 +1483,7 @@ export const PRUSSIAN_BLUE = ALL_COLORS["prussian-blue"];
 export const PUERTORICAN_BLUE = ALL_COLORS["puertorican-blue"];
 export const RAL_BLACKOLIVE = ALL_COLORS["ral-blackolive"];
 export const RAL_JETBLACK = ALL_COLORS["ral-jetblack"];
+export const RAL_MAYGREEN = ALL_COLORS["ral-maygreen"];
 export const RAL_RESEDAGREEN = ALL_COLORS["ral-resedagreen"];
 export const RAL_RUBYRED = ALL_COLORS["ral-rubyred"];
 export const RAL_TELEMAGENTA = ALL_COLORS["ral-telemagenta"];
