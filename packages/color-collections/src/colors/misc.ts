@@ -270,6 +270,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-darkchampagne": makeCssHexColorDefinition("#c2b280"),
     "iscc-nbs-darkelectricblue": makeCssHexColorDefinition("#536878"),
     "iscc-nbs-darkpurple": makeCssHexColorDefinition("#301934"),
+    "iscc-nbs-darksienna": makeCssHexColorDefinition("#3c1414"),
     "iscc-nbs-davysgrey": makeCssHexColorDefinition("#555"),
     "iscc-nbs-deepchampagne": makeCssHexColorDefinition("#fad6a5"),
     "iscc-nbs-desert": makeCssHexColorDefinition("#c19a6b"),
