@@ -994,6 +994,7 @@ export const ENCYCOLORPEDIA_DARKMOSSGREEN = ALL_COLORS["encycolorpedia-darkmossg
 export const ENCYCOLORPEDIA_DARKPASTELGREEN = ALL_COLORS["encycolorpedia-darkpastelgreen"];
 export const ENCYCOLORPEDIA_GARNET = ALL_COLORS["encycolorpedia-garnet"];
 export const ENCYCOLORPEDIA_GREENISHYELLOW = ALL_COLORS["encycolorpedia-greenishyellow"];
+export const ENCYCOLORPEDIA_PERIDOT = ALL_COLORS["encycolorpedia-peridot"];
 export const ENCYCOLORPEDIA_TEAGREEN = ALL_COLORS["encycolorpedia-teagreen"];
 export const ENCYCOLORPEDIA_VERDIGRIS = ALL_COLORS["encycolorpedia-verdigris"];
 export const FRENCH_BEIGE = ALL_COLORS["french-beige"];
