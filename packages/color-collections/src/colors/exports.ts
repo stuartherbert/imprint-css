@@ -1520,6 +1520,7 @@ export const RESENE_DUTCHWHITE = ALL_COLORS["resene-dutchwhite"];
 export const RESENE_RHYTHM = ALL_COLORS["resene-rhythm"];
 export const RESENE_ROCKETMETALLIC = ALL_COLORS["resene-rocketmetallic"];
 export const RESENE_ROMANSILVER = ALL_COLORS["resene-romansilver"];
+export const RESENE_SMITTEN = ALL_COLORS["resene-smitten"];
 export const RESENE_SPACECADET = ALL_COLORS["resene-spacecadet"];
 export const RESENE_TAWNYPORT = ALL_COLORS["resene-tawnyport"];
 export const RESENE_TAWNYPORT2007 = ALL_COLORS["resene-tawnyport2007"];

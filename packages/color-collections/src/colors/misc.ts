@@ -725,6 +725,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-rhythm": makeCssHexColorDefinition("#777696"),
     "resene-rocketmetallic": makeCssHexColorDefinition("#8a7f8d"),
     "resene-romansilver": makeCssHexColorDefinition("#838996"),
+    "resene-smitten": makeCssHexColorDefinition("#c84186"),
     "resene-spacecadet": makeCssHexColorDefinition("#1e2952"),
     "resene-tawnyport": makeCssHexColorDefinition("#692545"),
     "resene-tawnyport2007": makeCssHexColorDefinition("#643a48"),
