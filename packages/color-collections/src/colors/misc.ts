@@ -479,6 +479,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-periwinkle": makeCssHexColorDefinition("#ccf"),
     "misc-persimmon": makeCssHexColorDefinition("#ec5800"),
     "misc-phlox": makeCssHexColorDefinition("#df00ff"),
+    "misc-picoteeblue": makeCssHexColorDefinition("#2e2787"),
     "misc-pillboxpink": makeCssHexColorDefinition("#d6aab1"),
     "misc-pillboxorange": makeCssHexColorDefinition("#d1ad82"),
     "misc-pillboxyellow": makeCssHexColorDefinition("#c0ba82"),

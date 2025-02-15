@@ -1274,6 +1274,7 @@ export const MISC_PEAR = ALL_COLORS["misc-pear"];
 export const MISC_PERIWINKLE = ALL_COLORS["misc-periwinkle"];
 export const MISC_PERSIMMON = ALL_COLORS["misc-persimmon"];
 export const MISC_PHLOX = ALL_COLORS["misc-phlox"];
+export const MISC_PICOTEEBLUE = ALL_COLORS["misc-picoteeblue"];
 export const MISC_PILLBOXPINK = ALL_COLORS["misc-pillboxpink"];
 export const MISC_PILLBOXORANGE = ALL_COLORS["misc-pillboxorange"];
 export const MISC_PILLBOXYELLOW = ALL_COLORS["misc-pillboxyellow"];
