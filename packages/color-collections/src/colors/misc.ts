@@ -252,6 +252,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "iscc-nbs-babypink": makeCssHexColorDefinition("#f4c2c2"),
     "iscc-nbs-battleshipgray": makeCssHexColorDefinition("#848482"),
     "iscc-nbs-bistre": makeCssHexColorDefinition("#967117"),
+    "iscc-nbs-bole": makeCssHexColorDefinition("#79443b"),
     "iscc-nbs-byzantium": makeCssHexColorDefinition("#702963"),
     "iscc-nbs-cadetgray": makeCssHexColorDefinition("#91a3b0"),
     "iscc-nbs-cafenoir": makeCssHexColorDefinition("#4b3621"),
