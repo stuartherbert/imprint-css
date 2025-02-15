@@ -1191,6 +1191,7 @@ export const MISC_BRIGHTLIME = ALL_COLORS["misc-brightlime"];
 export const MISC_BRIGHTMINT = ALL_COLORS["misc-brightmint"];
 export const MISC_BRIGHTPINK = ALL_COLORS["misc-brightpink"];
 export const MISC_BRIGHTTURQUOISE = ALL_COLORS["misc-brightturquoise"];
+export const MISC_BRONZE = ALL_COLORS["misc-bronze"];
 export const MISC_BROWN = ALL_COLORS["misc-brown"];
 export const MISC_BRUNSWICKGREEN = ALL_COLORS["misc-brunswickgreen"];
 export const MISC_BUFF = ALL_COLORS["misc-buff"];
