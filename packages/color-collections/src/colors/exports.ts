@@ -1254,6 +1254,7 @@ export const MISC_KINGBLUE = ALL_COLORS["misc-kingblue"];
 export const MISC_LAPISLAZULU = ALL_COLORS["misc-lapislazulu"];
 export const MISC_LAURELGREEN = ALL_COLORS["misc-laurelgreen"];
 export const MISC_LAVENDER = ALL_COLORS["misc-lavender"];
+export const MISC_LEMON = ALL_COLORS["misc-lemon"];
 export const MISC_LITERALLIGHTBLUE = ALL_COLORS["misc-literallightblue"];
 export const MISC_LIGHTBROWN = ALL_COLORS["misc-lightbrown"];
 export const MISC_LIGHTCHOCOLATE = ALL_COLORS["misc-lightchocolate"];
