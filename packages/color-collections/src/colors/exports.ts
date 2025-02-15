@@ -1522,6 +1522,7 @@ export const RIDGWAY_TAWNYOLIVE1 = ALL_COLORS["ridgway-tawnyolive1"];
 export const RIDGWAY_TAWNYOLIVE2 = ALL_COLORS["ridgway-tawnyolive2"];
 export const RIDGWAY_VINACEOUSTAWNY = ALL_COLORS["ridgway-vinaceoustawny"];
 export const RIDGWAY_WOODBROWN = ALL_COLORS["ridgway-woodbrown"];
+export const RSID_BLUE = ALL_COLORS["rsid-blue"];
 export const RYB_BROWN = ALL_COLORS["ryb-brown"];
 export const RYB_LIGHTBLUE = ALL_COLORS["ryb-lightblue"];
 export const RYB_PEACH = ALL_COLORS["ryb-peach"];

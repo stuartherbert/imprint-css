@@ -727,6 +727,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ridgway-tawnyolive2": makeCssHexColorDefinition("#967117"),
     "ridgway-vinaceoustawny": makeCssHexColorDefinition("#b4745e"),
     "ridgway-woodbrown": makeCssHexColorDefinition("#c19a6b"),
+    "rsid-blue": makeCssHexColorDefinition("#3153f6"),
     "ryb-brown": makeCssHexColorDefinition("#331800"),
     "ryb-lightblue": makeCssHexColorDefinition("#95b0cc"),
     "ryb-peach": makeCssHexColorDefinition("#ffdbb6"),
