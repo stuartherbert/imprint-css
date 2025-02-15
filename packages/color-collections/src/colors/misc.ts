@@ -647,6 +647,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "resene-vanillaice": makeCssHexColorDefinition("#f3d9df"),
     "resene-xanadu": makeCssHexColorDefinition("#738678"),
     "resene-zomp": makeCssHexColorDefinition("#39a78d"),
+    "ridgway-ochraceoustawny": makeCssHexColorDefinition("#996515"),
     "ridgway-tawny": makeCssHexColorDefinition("#ae6938"),
     "ridgway-tawnyolive": makeCssHexColorDefinition("#967117"),
     "ridgway-woodbrown": makeCssHexColorDefinition("#c19a6b"),

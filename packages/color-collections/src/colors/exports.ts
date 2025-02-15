@@ -1442,6 +1442,7 @@ export const RESENE_SPACECADET = ALL_COLORS["resene-spacecadet"];
 export const RESENE_VANILLAICE = ALL_COLORS["resene-vanillaice"];
 export const RESENE_XANADU = ALL_COLORS["resene-xanadu"];
 export const RESENE_ZOMP = ALL_COLORS["resene-zomp"];
+export const RIDGWAY_OCHRACEOUSTAWNY = ALL_COLORS["ridgway-ochraceoustawny"];
 export const RIDGWAY_TAWNY = ALL_COLORS["ridgway-tawny"];
 export const RIDGWAY_TAWNYOLIVE = ALL_COLORS["ridgway-tawnyolive"];
 export const RIDGWAY_WOODBROWN = ALL_COLORS["ridgway-woodbrown"];
