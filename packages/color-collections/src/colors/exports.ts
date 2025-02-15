@@ -849,6 +849,7 @@ export const BRITISH_AIRFORCEBLUE = ALL_COLORS["british-airforceblue"];
 export const BRITISH_POWDERBLUE = ALL_COLORS["british-powderblue"];
 export const BRITISH_RACINGGREEN = ALL_COLORS["british-racinggreen"];
 export const CASTLETON_GREEN = ALL_COLORS["castleton-green"];
+export const CELTIC_BLUE = ALL_COLORS["celtic-blue"];
 export const CIECD_AMBER = ALL_COLORS["ciecd-amber"];
 export const CMYK_CYAN = ALL_COLORS["cmyk-cyan"];
 export const CMYK_PIGMENTBLUE = ALL_COLORS["cmyk-pigmentblue"];
