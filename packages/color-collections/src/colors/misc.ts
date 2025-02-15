@@ -49,6 +49,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "australian-powderblue": makeCssHexColorDefinition("#becfdd"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "berkeley-blue": makeCssHexColorDefinition("#003262"),
+    "bu-scarlet": makeCssHexColorDefinition("#cc0000"),
     "bsc-brunswickgreen": makeCssHexColorDefinition("#1e3e2e"),
     "calpolypomona-green": makeCssHexColorDefinition("#1e4d2b"),
     "british-airforceblue": makeCssHexColorDefinition("#5d8aa8"),
