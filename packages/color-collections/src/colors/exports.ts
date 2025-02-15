@@ -841,6 +841,7 @@ export const ANSI_SAFETYPURPLE = ALL_COLORS["ansi-safetypurple"];
 export const ANSI_SAFETYRED = ALL_COLORS["ansi-safetyred"];
 export const ANSI_SAFETYYELLOW = ALL_COLORS["ansi-safetyyellow"];
 export const ARGENTINIAN_BLUE = ALL_COLORS["argentinian-blue"];
+export const ASU_GOLD = ALL_COLORS["asu-gold"];
 export const AUSTRALIAN_POWDERBLUE = ALL_COLORS["australian-powderblue"];
 export const BAKER_MILLER_PINK = ALL_COLORS["baker-miller-pink"];
 export const BERKELEY_BLUE = ALL_COLORS["berkeley-blue"];
