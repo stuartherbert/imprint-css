@@ -1081,6 +1081,7 @@ export const ISCC_NBS_MAUVETAUPE = ALL_COLORS["iscc-nbs-mauvetaupe"];
 export const ISCC_NBS_MEDIUMCHAMPAGNE = ALL_COLORS["iscc-nbs-mediumchampagne"];
 export const ISCC_NBS_MEDIUMTUSCANRED = ALL_COLORS["iscc-nbs-mediumtuscanred"];
 export const ISCC_NBS_METALLICGOLD = ALL_COLORS["iscc-nbs-metallicgold"];
+export const ISCC_NBS_MINT = ALL_COLORS["iscc-nbs-mint"];
 export const ISCC_NBS_MODEBEIGE = ALL_COLORS["iscc-nbs-modebeige"];
 export const ISCC_NBS_MORNINGBLUE = ALL_COLORS["iscc-nbs-morningblue"];
 export const ISCC_NBS_MOSSGREEN = ALL_COLORS["iscc-nbs-mossgreen"];
