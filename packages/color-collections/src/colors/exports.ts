@@ -1536,6 +1536,7 @@ export const SPANISH_PINK = ALL_COLORS["spanish-pink"];
 export const SPANISH_RED = ALL_COLORS["spanish-red"];
 export const SPANISH_REDPURPLE = ALL_COLORS["spanish-redpurple"];
 export const SPANISH_SKYBLUE = ALL_COLORS["spanish-skyblue"];
+export const SPANISH_VERDEVERONES = ALL_COLORS["spanish-verdeverones"];
 export const SPANISH_VIOLET = ALL_COLORS["spanish-violet"];
 export const SGBUS_GREEN = ALL_COLORS["sgbus-green"];
 export const TUFTS_BLUE = ALL_COLORS["tufts-blue"];
