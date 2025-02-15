@@ -1491,6 +1491,7 @@ export const MISC_WENGE = ALL_COLORS["misc-wenge"];
 export const MISC_WINEDREGS = ALL_COLORS["misc-winedregs"];
 export const MISC_XANTHOUS = ALL_COLORS["misc-xanthous"];
 export const MISC_YINMNBLUE = ALL_COLORS["misc-yinmnblue"];
+export const MISC_ZAFFRE = ALL_COLORS["misc-zaffre"];
 export const MISC_ZARQA = ALL_COLORS["misc-zarqa"];
 export const MU_GOLD = ALL_COLORS["mu-gold"];
 export const MSU_GREEN = ALL_COLORS["msu-green"];

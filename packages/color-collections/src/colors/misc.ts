@@ -696,6 +696,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "misc-winedregs": makeCssHexColorDefinition("#673147"),
     "misc-xanthous": makeCssHexColorDefinition("#f1b42f"),
     "misc-yinmnblue": makeCssHexColorDefinition("#306ac0"),
+    "misc-zaffre": makeCssHexColorDefinition("#0014a8"),
     "misc-zarqa": makeCssHexColorDefinition("#ff4500"),
     "mu-gold": makeCssHexColorDefinition("#f1b82d"),
     "msu-green": makeCssHexColorDefinition("#18453b"),
