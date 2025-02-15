@@ -48,6 +48,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "ansi-safetyyellow": makeCssHexColorDefinition("#eed202"),
     "argentinian-blue": makeCssHexColorDefinition("#6cb4ee"),
     "asu-gold": makeCssHexColorDefinition("#ffc627"),
+    "australian-magnolia": makeCssHexColorDefinition("#eee0c6"),
     "australian-powderblue": makeCssHexColorDefinition("#becfdd"),
     "baker-miller-pink": makeCssHexColorDefinition("#ff91af"),
     "berkeley-blue": makeCssHexColorDefinition("#003262"),
