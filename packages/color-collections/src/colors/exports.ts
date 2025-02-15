@@ -1454,6 +1454,7 @@ export const UA_CRIMSON = ALL_COLORS["ua-crimson"];
 export const UN_BLUE = ALL_COLORS["un-blue"];
 export const USAF_ACADEMYBLUE = ALL_COLORS["usaf-academyblue"];
 export const USAF_AIRFORCEBLUE = ALL_COLORS["usaf-airforceblue"];
+export const USC_GOLD = ALL_COLORS["usc-gold"];
 export const UTA_BURNTORANGE = ALL_COLORS["uta-burntorange"];
 export const UT_ORANGE = ALL_COLORS["ut-orange"];
 export const UP_FORESTGREEN = ALL_COLORS["up-forestgreen"];

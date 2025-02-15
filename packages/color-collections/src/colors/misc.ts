@@ -659,6 +659,7 @@ export const MISC_COLORS: CssColorDefinitions = {
     "un-blue": makeCssHexColorDefinition("#009edb"),
     "usaf-academyblue": makeCssHexColorDefinition("#004f98"),
     "usaf-airforceblue": makeCssHexColorDefinition("#00308f"),
+    "usc-gold": makeCssHexColorDefinition("#ffcc00"),
     "uta-burntorange": makeCssHexColorDefinition("#bf5700"),
     "ut-orange": makeCssHexColorDefinition("#ff8200"),
     "up-forestgreen": makeCssHexColorDefinition("#014421"),
