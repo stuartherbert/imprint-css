@@ -182,10 +182,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-hover-color",
         {
-            value: colorFromCollection("ganbaro-red"),
+            value: colorFromCollection("ganbaro-red-800"),
             type: "color",
             description: "text color for HTML links when hovering over them",
-            valueDescription: "ganbaro-red-500",
+            valueDescription: "ganbaro-red-800",
         },
     ),
     newCssVar(
@@ -200,19 +200,19 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-hover-border-color",
         {
-            value: colorFromCollection("ganbaro-red"),
+            value: colorFromCollection("ganbaro-red-800"),
             type: "color",
             description: "border / underline color for HTML links when hovering over them",
-            valueDescription: "ganbaro-red-500",
+            valueDescription: "ganbaro-red-800",
         },
     ),
     newCssVar(
         "--imprint-semantic-link-active-color",
         {
-            value: colorFromCollection("ganbaro-red"),
+            value: colorFromCollection("ganbaro-red-800"),
             type: "color",
             description: "text color for HTML links when clicking on them",
-            valueDescription: "ganbaro-red-500",
+            valueDescription: "ganbaro-red-800",
         },
     ),
     newCssVar(
@@ -227,10 +227,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-active-border-color",
         {
-            value: colorFromCollection("ganbaro-red"),
+            value: colorFromCollection("ganbaro-red-800"),
             type: "color",
             description: "border / underline color for HTML links when clicking on them",
-            valueDescription: "ganbaro-red",
+            valueDescription: "ganbaro-red-800",
         },
     ),
     newCssVar(
