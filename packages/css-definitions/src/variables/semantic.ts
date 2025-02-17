@@ -82,10 +82,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-shaded-background-color",
         {
-            value: rgb(colorFromCollection("imprint-palegray"), "0.66"),
+            value: colorFromCollection("imprint-palegray"),
             type: "color",
             description: "background color for content blocks when --shaded applied",
-            valueDescription: "rgb(imprint-palegray / 0.66)",
+            valueDescription: "imprint-palegray",
         },
     ),
     newCssVar(
@@ -230,13 +230,13 @@ const semanticVars = newCssVars(
             value: colorFromCollection("ganbaro-red"),
             type: "color",
             description: "border / underline color for HTML links when clicking on them",
-            valueDescription: "ganbaro-red-500",
+            valueDescription: "ganbaro-red",
         },
     ),
     newCssVar(
         "--imprint-semantic-code-background-color",
         {
-            value: rgb(colorFromCollection("imprint-palered"), "1"),
+            value: colorFromCollection("imprint-palered"),
             type: "color",
             description: "background color for code elements",
             valueDescription: "imprint-palered",
@@ -248,7 +248,7 @@ const semanticVars = newCssVars(
             value: colorFromCollection("ganbaro-red"),
             type: "color",
             description: "text color for code elements",
-            valueDescription: "ganbaro-red-500",
+            valueDescription: "ganbaro-red",
         },
     ),
     newCssVar(
@@ -273,10 +273,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-pre-background-color",
         {
-            value: "var(--imprint-default-shaded-background-color)",
+            value: colorFromCollection("imprint-palegray"),
             type: "color",
             description: "background color for pre elements",
-            valueDescription: "--imprint-shaded-background-color",
+            valueDescription: "imprint-palegray",
         },
     ),
     newCssVar(
@@ -300,10 +300,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-samp-background-color",
         {
-            value: rgb(colorFromCollection("imprint-palered"), "0.66"),
+            value: colorFromCollection("imprint-palered"),
             type: "color",
             description: "background color for samp elements",
-            valueDescription: "help!",
+            valueDescription: "imprint-palered",
         },
     ),
     newCssVar(
@@ -443,8 +443,8 @@ const semanticThemes = newSemanticSettings(
             contentBackgroundColor: "var(--imprint-background-color)",
             contentColor: "var(--imprint-color)",
             shadedBackgroundColor: colorFromCollection("imprint-paleblue"),
-            headingBackgroundColor: colorFromCollection("imprint-darkblue"),
-            headingAccentColor: rgb(colorFromCollection("imprint-darkblue"), "1"),
+            headingBackgroundColor: colorFromCollection("imprint-blue"),
+            headingAccentColor: colorFromCollection("imprint-blue"),
             headingColor: "white",
             borderInnerColor: colorFromCollection("ganbaro-blue-300"),
             shadedContentColor: colorFromCollection("ganbaro-blue-400"),
@@ -468,8 +468,8 @@ const semanticThemes = newSemanticSettings(
             contentBackgroundColor: "var(--imprint-background-color)",
             contentColor: "var(--imprint-color)",
             shadedBackgroundColor: colorFromCollection("imprint-paleyellow"),
-            headingBackgroundColor: colorFromCollection("ganbaro-yellow-900"),
-            headingAccentColor: colorFromCollection("ganbaro-yellow-900"),
+            headingBackgroundColor: colorFromCollection("imprint-yellow"),
+            headingAccentColor: colorFromCollection("imprint-yellow"),
             headingColor: colorFromCollection("imprint-nero"),
             shadedContentColor: colorFromCollection("ganbaro-yellow-100"),
         },
@@ -480,8 +480,8 @@ const semanticThemes = newSemanticSettings(
             contentBackgroundColor: "var(--imprint-background-color)",
             contentColor: "var(--imprint-color)",
             shadedBackgroundColor: colorFromCollection("imprint-lightred"),
-            headingBackgroundColor: colorFromCollection("ganbaro-red-900"),
-            headingAccentColor: colorFromCollection("ganbaro-red-600"),
+            headingBackgroundColor: colorFromCollection("imprint-red"),
+            headingAccentColor: colorFromCollection("imprint-red"),
             headingColor: "white",
             shadedContentColor: colorFromCollection("imprint-lightred"),
         },

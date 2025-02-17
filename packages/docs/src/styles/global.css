@@ -53,7 +53,7 @@ table pre, table code {
 }
 
 table .cssClassname code, table .cssVarname code {
-    @apply text-imprint-darkblue !important;
+    @apply text-imprint-blue !important;
 }
 
 table pre {

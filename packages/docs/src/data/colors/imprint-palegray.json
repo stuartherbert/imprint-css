@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-palegray'.",
-  "definition": "#e2e2e2",
-  "hex": "#e2e2e2",
+  "definition": "#ededed",
+  "hex": "#ededed",
   "general": {
     "hues": [
       "gray",
@@ -16,12 +16,12 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 226,
-    "relativeLuminance": 0.76
+    "luma": 237,
+    "relativeLuminance": 0.846
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.1,
+    "contrastRatio": 1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 12.2,
+    "contrastRatio": 13.5,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

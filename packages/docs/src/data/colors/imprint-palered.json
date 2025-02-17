@@ -5,19 +5,19 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-palered'.",
-  "definition": "#f3eaec",
-  "hex": "#f3eaec",
+  "definition": "#f9f2f4",
+  "hex": "#f9f2f4",
   "general": {
     "hues": [
       "white",
-      "pink"
+      "rose"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 236.919,
-    "relativeLuminance": 0.839
+    "luma": 244.321,
+    "relativeLuminance": 0.901
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 13.4,
+    "contrastRatio": 14.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
