@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-fern'.",
-  "definition": "#71bc78",
-  "hex": "#71bc78",
+  "definition": "#63b76c",
+  "hex": "#63b76c",
   "general": {
     "hues": [
       "green"
@@ -15,12 +15,12 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 157.823,
-    "relativeLuminance": 0.408
+    "luma": 149.334,
+    "relativeLuminance": 0.376
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.1,
+    "contrastRatio": 2.2,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.9,
+    "contrastRatio": 6.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

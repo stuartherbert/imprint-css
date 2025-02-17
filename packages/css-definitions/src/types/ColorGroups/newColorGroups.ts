@@ -51,10 +51,10 @@ export function newColorGroups(
             material: {},
             matmet: {},
             metro: {},
-            misc: {},
             msdl1: {},
             msdl2: {},
             social: {},
+            wikipedia: {},
         },
         ...parts
     };

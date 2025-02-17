@@ -1,0 +1,47 @@
+---
+import { getEntry } from "astro:content";
+import ColorSwatches from "./ColorSwatches.astro";
+import ColorSwatch from "./ColorSwatch.astro";
+
+export interface Props {
+    colorGroup: string;
+    hue: string;
+    prefix?: string;
+    exclude?: string;
+}
+
+const { colorGroup, prefix, exclude, hue } = Astro.props;
+
+// load the group
+const groupData = await getEntry("colorGroups", colorGroup);
+if (groupData === undefined) {
+    throw new Error("unknown color group: " + colorGroup);
+}
+
+if (prefix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.startsWith(prefix + "-"));
+}
+
+if (exclude) {
+    const excludePrefixes = exclude.split(",");
+    groupData.data = groupData.data.filter((ref) => !excludePrefixes.some((prefix) => ref.id.startsWith(prefix + "-")));
+}
+
+const hueData = await getEntry("colorHues", hue);
+if (hueData === undefined) {
+    throw new Error("unknown color hue: " + hue);
+}
+
+const hueColors = hueData.data.filter(colorData => groupData.data.find(a2 => a2.id === colorData.id));
+
+console.log(hueColors);
+
+---
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        {hueColors.map((colorData) => (
+            <ColorSwatch colorName={colorData.id}/>
+        ))}
+    </div>
+</ColorSwatches>

@@ -44,8 +44,8 @@ export interface ColorGroups {
     material: TailwindThemeColors;
     matmet: TailwindThemeColors;
     metro: TailwindThemeColors;
-    misc: TailwindThemeColors;
     msdl1: TailwindThemeColors;
     msdl2: TailwindThemeColors;
     social: TailwindThemeColors;
+    wikipedia: TailwindThemeColors;
 }

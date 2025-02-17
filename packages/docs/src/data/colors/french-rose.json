@@ -1,0 +1,65 @@
+{
+  "name": "french-rose",
+  "jsName": "FRENCH_ROSE",
+  "title": "french-rose",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'french-rose'.",
+  "definition": "#f64a8a",
+  "hex": "#f64a8a",
+  "general": {
+    "hues": [
+      "rose"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 132.724,
+    "relativeLuminance": 0.263
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.7,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

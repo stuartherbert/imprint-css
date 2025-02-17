@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'misc-orange'.",
-  "definition": "#ff7f00",
-  "hex": "#ff7f00",
+  "definition": "#ff8000",
+  "hex": "#ff8000",
   "general": {
     "hues": [
       "orange"
@@ -15,8 +15,8 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 150.794,
-    "relativeLuminance": 0.364
+    "luma": 151.381,
+    "relativeLuminance": 0.366
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 6.2,
+    "contrastRatio": 6.3,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

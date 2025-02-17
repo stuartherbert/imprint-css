@@ -42,11 +42,11 @@ export { KM_COLORS } from "./colors/kevin-muldoon";
 export { MATERIAL_COLORS } from "./colors/material-design";
 export { MATMET_COLORS } from "./colors/material-ui-metro";
 export { METRO_COLORS } from "./colors/metro";
-export { MISC_COLORS } from "./colors/misc";
 export { MSDL1_COLORS } from "./colors/msdl1";
 export { MSDL2_COLORS } from "./colors/msdl2";
 export { SOCIAL_COLORS } from "./colors/social";
 export { TAILWIND3_COLORS } from "./colors/tailwind3";
+export { WIKIPEDIA_COLORS } from "./colors/wikipedia";
 
 // the light and dark colors that we use in our color analysis inspector
 export { DEFAULT_BG } from "./defaults/DEFAULT_BG";

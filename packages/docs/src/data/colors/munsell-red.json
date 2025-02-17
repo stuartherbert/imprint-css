@@ -5,22 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'munsell-red'.",
-  "definition": "#f2003c",
-  "hex": "#f2003c",
+  "definition": "#ff0042",
+  "hex": "#ff0042",
   "general": {
     "hues": [
-      "pink"
+      "rose"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 79.198,
-    "relativeLuminance": 0.192
+    "luma": 83.769,
+    "relativeLuminance": 0.216
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 4,
+    "contrastRatio": 3.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.6,
+    "contrastRatio": 4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

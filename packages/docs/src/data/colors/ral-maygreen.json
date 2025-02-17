@@ -1,0 +1,65 @@
+{
+  "name": "ral-maygreen",
+  "jsName": "RAL_MAYGREEN",
+  "title": "ral-maygreen",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ral-maygreen'.",
+  "definition": "#4c9141",
+  "hex": "#4c9141",
+  "general": {
+    "hues": [
+      "chartreuse"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 115.249,
+    "relativeLuminance": 0.221
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 3.5,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

@@ -1,0 +1,253 @@
+---
+title: Wikipedia Colors Collection
+navSection: Colors
+description: A collection of colors found on Wikipedia.
+prev: colors/tailwind3-collection
+next: colors/all-colors
+---
+
+import ColorCollection from "../../../components/Colors/ColorCollection.astro";
+import ColorCollectionBlocks from "../../../components/Colors/ColorCollectionBlocks.astro";
+import ColorCollectionHues from "../../../components/Colors/ColorCollectionHues.astro";
+import ColorLink from "../../../components/Colors/ColorLink.astro";
+import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
+import InternalLink from "../../../components/InternalLink.astro";
+import InternalLinkWithText from "../../../components/InternalLinkWithText.astro";
+
+## Introduction
+
+### What Is The Wikipedia Colors Collection?
+
+The Wikipedia Colors Collection are named colors that we've found on Wikipedia.
+
+### Where Did The Colors Come From?
+
+These colors are sourced from Wikipedia, from:
+
+* <ExternalLink name="Wikipedia List of Colors by Shade"/>
+* <ExternalLink name="Wikipedia Shades of Black"/>
+* <ExternalLink name="Wikipedia Shades of Blue"/>
+* <ExternalLink name="Wikipedia Shades of Brown"/>
+* <ExternalLink name="Wikipedia Shades of Cyan"/>
+* <ExternalLink name="Wikipedia Shades of Gray"/>
+* <ExternalLink name="Wikipedia Shades of Green"/>
+* <ExternalLink name="Wikipedia Shades of Magenta"/>
+* <ExternalLink name="Wikipedia Shades of Orange"/>
+* <ExternalLink name="Wikipedia Shades of Pink"/>
+* <ExternalLink name="Wikipedia Shades of Red"/>
+* <ExternalLink name="Wikipedia Shades of Rose"/>
+* <ExternalLink name="Wikipedia Shades of White"/>
+* <ExternalLink name="Wikipedia Shades of Yellow"/>
+* <ExternalLink name="Wikipedia X11 Color Names"/>
+
+or from Wikipedia pages linked to those pages.
+
+There are some exceptions: either where Wikipedia lacks a definition of the color, or where Wikipedia's definition seems to be an outlier:
+
+* <ColorLink colorName="ansi-safetygray"/>
+* <ColorLink colorName="ansi-safetygreen"/>
+* <ColorLink colorName="ansi-safetypurple"/>
+* <ColorLink colorName="munsell-green"/>
+
+### Where Did The Color Names Come From?
+
+Every color must have a prefix of some kind, to avoid clashing with present (and future!) <InternalLinkWithText slug="colors/css-extended-colors-collection" text="named colors from the CSS standards"/>.
+
+* many of the colors (e.g. `crayola-`, `isccnbs-`) are grouped by where Wikipedia sourced them from;
+* some colors are grouped by association with a culture (e.g. `french-`, `spanish-`) or by association with an organisation (e.g. `usaf-`); and
+* we use the `misc-` prefix for colors that don't fall into any other category.
+
+We follow the CSS & SVG standards' conventions when normalising names:
+
+* lower-case ASCII characters only; and
+* all words concatenated together.
+
+The results aren't the most accessible (to put it mildly), and it doesn't do a great job of respecting non-English speaking communities either.
+
+### Some Of These Colors Are Duplicates!
+
+We look at each duplicate on a case-by-case basis. In general, we're following this train of thinking:
+
+* Some colors are known by multiple names. Those are allowed (as long as the multiple names aren't in the `misc-` group).
+* If we had two (or more) names that just had different prefixes (e.g. `example1-fakecolor`, `example2-fakecolor`), we'd add them all. We'd rather have complete color groups where possible.
+* We try to keep duplicate colors with the same name out of the `misc-` group (e.g. if `misc-fakecolor` and `example1-fakecolor` shared the same definition, we wouldn't publish `misc-fakecolor`).
+
+If we do publish a duplicate color that breaks these rules, we'll keep it. We try to avoid removing colors once they are published in a tagged release, to minimise disruption to you.
+
+### Color Accuracy
+
+Many of these colors are approximate. Their original definitions are either pre-digital, or are in color spaces that can't always translate perfectly to RGB colors.
+
+It's not unusual for Wikipedia to revise the color definitions over time, either.
+
+### Intellectual Property Disclaimer
+
+Wikipedia is published under the <ExternalLink name="Wikipeda Creative Commons Attribution-ShareAlike 4.0 License" text="Creative Commons Attribution-ShareAlike 4.0 License"/>.
+
+The Imprint CSS project claims no ownership of these colors. Any trademarks are used solely for the purpose of identifying where Wikipedia sourced the colors from.
+
+## Color Sets
+
+### ANSI Colors
+
+Wikipedia sourced these colors from ANSI safety standards (such as ANSI standard Z535), which specifies standards for safety and accident prevention information.
+
+<ColorCollection colorGroup="wikipedia" prefix="ansi"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ansi"/>
+
+### CMYK Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia CMYK Color Model" text="CMYK color model"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="cmyk"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="cmyk"/>
+
+### Crayola Colors
+
+Wikipedia based these colors on <ExternalLink name="Wikipedia Crayola Colors" text="Crayola crayons"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="crayola"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="crayola"/>
+
+### Encycolorpedia Colors
+
+Wikipedia sourced these colors from Encycolorpedia.
+
+<ColorCollection colorGroup="wikipedia" prefix="encycolorpedia"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="encycolorpedia"/>
+
+### French Colors
+
+Wikipedia either refers to these colors as "French XXX" (e.g. "French Beige"), or associates these colors with France or French people in some way. Wikipedia sourced them from a variety of places.
+
+<ColorCollection colorGroup="wikipedia" prefix="french"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="french"/>
+
+### International Orange
+
+These colors were taken from <ExternalLink name="Wikipedia International Orange"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="intlorange"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="intlorange"/>
+
+### ISCC-NBS Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia ISCC-NBS" text="ISCC-NBS"/> color dictionary.
+
+<ColorCollection colorGroup="wikipedia" prefix="isccnbs"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="isccnbs"/>
+
+### ISO 3864 Colors
+
+Wikipedia sourced these colors from <ExternalLink name="Wikipedia ISO 3864" text="ISO 3864-4"/>, the international technical standard for safety signs and markings in workplaces and public facilities.
+
+(You'll also find these colors in the [RAL section below](#ral-colors), as `ral-signal*`).
+
+<ColorCollection colorGroup="wikipedia" prefix="iso3864"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="iso3864"/>
+
+### Misc Colors
+
+This is where we put colors that either:
+
+* don't have clear attribution on Wikipedia, or
+* we haven't split out into a separate color set.
+
+<ColorCollection colorGroup="wikipedia" prefix="misc"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="misc"/>
+
+### Munsell Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Munsell Color System" text="Munsell color system"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="munsell"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="munsell"/>
+
+### NCS Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Natural Color System" text="Natural Color System"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="ncs"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ncs"/>
+
+### Persian Colors
+
+These colors were originally defined in the ISCC-NBS system. We've split them out because they form a related set of colors on their own (just like the Spanish colors do below).
+
+<ColorCollection colorGroup="wikipedia" prefix="persian"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="persian"/>
+
+### Pourpre Colors
+
+Wikipedia sourced these colors from the Pourpre color list.
+
+<ColorCollection colorGroup="wikipedia" prefix="pourpre"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="pourpre"/>
+
+### Plochere Colors
+
+Wikipedia sourced these colors from the Plochere Color System.
+
+<ColorCollection colorGroup="wikipedia" prefix="plochere"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="plochere"/>
+
+### RAL Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia RAL Color System" text="RAL Color System"/>.
+
+<ColorCollection colorGroup="wikipedia" prefix="ral"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ral"/>
+
+### Resene Colors
+
+Wikipedia credits these colors to the <ExternalLink name="Wikipedia Resene" text="Resene"/> company. Wikipedia sourced some of them from the <ExternalLink name="Wikipedia Xona Games" text="Xona Games"/> color list.
+
+<ColorCollection colorGroup="wikipedia" prefix="resene"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="resene"/>
+
+### Spanish Colors
+
+According to Wikipedia, these colors are popular in the Hispanophone realm (i.e. in Spanish-speaking countries and communities). Wikipedia prefixes many (but not all!) of these colors as "Spanish XXX" (e.g. Spanish Green).
+
+<ColorCollection colorGroup="wikipedia" prefix="spanish"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="spanish"/>
+
+### X11 Colors
+
+The <ExternalLink name="Wikipedia X Window System" text="X Window System"/> (commonly referred to as "X11") defined many of the named colors that are now part of the <InternalLinkWithText slug="colors/css-extended-colors-collection" text="CSS Extended Colors"/>.
+
+However, some <ExternalLink name="Wikipedia X11 named colors" text="X11 named colors"/> never made it into the CSS named colors list:
+
+* some X11 color names clash with CSS named colors;
+* some X11 color names aren't official names (e.g. they're part of the PWG 5101.1 derived color list)
+
+We've added them to Imprint CSS with the `x11-` prefix.
+
+<ColorCollection colorGroup="wikipedia" prefix="x11"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="x11"/>
+
+### Xona Colors
+
+Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Xona Games" text="Xona Games"/> color list.
+
+This doesn't include colors from the Xona Games color list that (according to Wikipedia) came from other sources (e.g. the Resene colors list).
+
+<ColorCollection colorGroup="wikipedia" prefix="xona"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="xona"/>
+
+### All Other Colors
+
+These colors don't fall into any of the other groups.
+
+<ColorCollection colorGroup="wikipedia" exclude="ansi,cmyk,crayola,encycolorpedia,french,intlorange,isccnbs,misc,munsell,ncs,persian,plochere,pourpre,ral,resene,spanish,x11,xona"/>
+<ColorCollectionBlocks colorGroup="wikipedia" exclude="ansi,cmyk,crayola,encycolorpedia,french,intlorange,isccnbs,iso3864,misc,munsell,ncs,persian,plochere,pourpre,ral,resene,spanish,x11,xona"/>
+
+## Discussion
+
+### Why No Pantone Colors?
+
+We'd love to make Pantone's colors available in Imprint CSS. For many design professionals, they're the biggest name in color.
+
+Unfortunately, <ExternalLink name="Wikipedia Pantone" text="according to Wikipedia"/>, Pantone asserts that their lists of color numbers and pigment values are the intellectual property of Pantone and free use of the list is not allowed.

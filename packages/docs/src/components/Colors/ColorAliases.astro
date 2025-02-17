@@ -1,0 +1,48 @@
+---
+import { getEntry } from "astro:content";
+import ColorLink from "./ColorLink.astro";
+
+export interface Props {
+    colorName: string;
+}
+
+const { colorName } = Astro.props;
+
+// step 1: go get the color
+const payload = await getEntry("colors", colorName );
+if (payload === undefined) {
+    throw new Error("no such color: " + colorName);
+}
+
+// shorthand
+const colorData = payload?.data;
+
+// step 2: load the list of aliases
+const aliasData = await getEntry("colorAliases", colorData.hex.substring(1));
+if (aliasData === undefined) {
+    throw new Error("unknown color definition: " + colorData.hex.substring(1));
+}
+
+// step 3: filter out the given color name:
+aliasData.data = aliasData.data.filter((ref) => ref.id !== colorName);
+
+---
+
+{aliasData.data.length == 0 && <p>This is the only named color in Imprint CSS that maps to <code>{colorData.hex}</code>.</p>}
+{aliasData.data.length == 1 && (
+    <p>This named color is the same as <code>{colorName}</code>:</p>
+    <ul>
+        {aliasData.data.map((alias) => (
+            <li><ColorLink colorName={alias.id}/></li>
+        ))}
+    </ul>
+)}
+
+{aliasData.data.length > 1 && (
+    <p>These named colors are the same as <code>{colorName}</code>:</p>
+    <ul>
+        {aliasData.data.map((alias) => (
+            <li><ColorLink colorName={alias.id}/></li>
+        ))}
+    </ul>
+)}

@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-red'.",
-  "definition": "#ee204d",
-  "hex": "#ee204d",
+  "definition": "#ed0a3f",
+  "hex": "#ed0a3f",
   "general": {
     "hues": [
       "pink"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 98.724,
-    "relativeLuminance": 0.197
+    "luma": 83.915,
+    "relativeLuminance": 0.185
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 3.9,
+    "contrastRatio": 4.1,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.7,
+    "contrastRatio": 3.5,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

@@ -1,0 +1,65 @@
+{
+  "name": "british-airforceblue",
+  "jsName": "BRITISH_AIRFORCEBLUE",
+  "title": "british-airforceblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'british-airforceblue'.",
+  "definition": "#5d8aa8",
+  "hex": "#5d8aa8",
+  "general": {
+    "hues": [
+      "cyan"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 127.965,
+    "relativeLuminance": 0.233
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 3.4,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.2,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

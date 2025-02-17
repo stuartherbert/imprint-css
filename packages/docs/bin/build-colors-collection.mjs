@@ -96,6 +96,12 @@ function processColor(colorGroupName, colorName, colorDefinition)
     colorAnalysis.general.hues.forEach(hue => {
         hueCollections[hue].push(colorName.toLowerCase());
     });
+
+    const aliasName = cssColor.hex().substring(1);
+    if (colorAliasCollections[aliasName] === undefined) {
+        colorAliasCollections[aliasName] = [];
+    }
+    colorAliasCollections[aliasName].push(colorName.toLowerCase());
 }
 
 function processColorPalette(colorGroupName, paletteName, paletteDefinition)
@@ -125,6 +131,7 @@ function processColorPalette(colorGroupName, paletteName, paletteDefinition)
 // ----------------------------------------------------------------
 
 // shorthand
+const aliasFolderPrefix = "./src/data/colorAliases";
 const groupFolderPrefix = "./src/data/colorGroups";
 const colorFolorPrefix = "./src/data/colors";
 const paletteFolderPrefix = "./src/data/colorPalettes";
@@ -133,6 +140,7 @@ const hueFolderPrefix = "./src/data/colorHues";
 const colorGroups = DEFINITION_STORE.colorGroups;
 
 // these will hold our colors data sets
+const colorAliasCollections = {};
 const hueCollections = {
     black: [],
     white: [],
@@ -189,4 +197,4 @@ colorGroupNames.forEach(colorGroupName => {
 writeCollections(groupFolderPrefix, colorGroupsCollections);
 writeCollections(paletteFolderPrefix, colorPaletteCollections);
 writeCollections(hueFolderPrefix, hueCollections);
-
+writeCollections(aliasFolderPrefix, colorAliasCollections);

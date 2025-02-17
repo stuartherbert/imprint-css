@@ -1,0 +1,65 @@
+{
+  "name": "misc-raspberry",
+  "jsName": "MISC_RASPBERRY",
+  "title": "misc-raspberry",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-raspberry'.",
+  "definition": "#e30b5d",
+  "hex": "#e30b5d",
+  "general": {
+    "hues": [
+      "rose"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 84.932,
+    "relativeLuminance": 0.173
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 4.3,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.3,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

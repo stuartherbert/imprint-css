@@ -1,0 +1,65 @@
+{
+  "name": "ridgway-ochraceoustawny",
+  "jsName": "RIDGWAY_OCHRACEOUSTAWNY",
+  "title": "ridgway-ochraceoustawny",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ridgway-ochraceoustawny'.",
+  "definition": "#996515",
+  "hex": "#996515",
+  "general": {
+    "hues": [
+      "orange"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 107.428,
+    "relativeLuminance": 0.161
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 4.5,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.2,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

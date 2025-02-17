@@ -5,19 +5,18 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'misc-chilired'.",
-  "definition": "#e23d28",
-  "hex": "#e23d28",
+  "definition": "#e03c31",
+  "hex": "#e03c31",
   "general": {
     "hues": [
-      "red",
-      "brown"
+      "red"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 107.941,
-    "relativeLuminance": 0.196
+    "luma": 107.782,
+    "relativeLuminance": 0.193
   },
   "pairedWithLightColor": {
     "clearContrast": true,
@@ -41,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 3.7,
+    "contrastRatio": 3.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": false,

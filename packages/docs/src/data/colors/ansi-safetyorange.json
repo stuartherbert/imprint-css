@@ -1,0 +1,66 @@
+{
+  "name": "ansi-safetyorange",
+  "jsName": "ANSI_SAFETYORANGE",
+  "title": "ansi-safetyorange",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'ansi-safetyorange'.",
+  "definition": "#ff7900",
+  "hex": "#ff7900",
+  "general": {
+    "hues": [
+      "red",
+      "orange"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 147.272,
+    "relativeLuminance": 0.349
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 2.4,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

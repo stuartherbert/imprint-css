@@ -1,0 +1,66 @@
+{
+  "name": "tufts-blue",
+  "jsName": "TUFTS_BLUE",
+  "title": "tufts-blue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'tufts-blue'.",
+  "definition": "#538cd8",
+  "hex": "#538cd8",
+  "general": {
+    "hues": [
+      "cyan",
+      "azure"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 131.621,
+    "relativeLuminance": 0.255
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 4.6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

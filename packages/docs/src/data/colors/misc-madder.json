@@ -1,0 +1,65 @@
+{
+  "name": "misc-madder",
+  "jsName": "MISC_MADDER",
+  "title": "misc-madder",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'misc-madder'.",
+  "definition": "#a50021",
+  "hex": "#a50021",
+  "general": {
+    "hues": [
+      "pink"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 53.097,
+    "relativeLuminance": 0.081
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 7.4,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.9,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

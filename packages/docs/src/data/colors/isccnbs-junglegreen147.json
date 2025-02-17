@@ -1,0 +1,65 @@
+{
+  "name": "isccnbs-junglegreen147",
+  "jsName": "ISCCNBS_JUNGLEGREEN147",
+  "title": "isccnbs-junglegreen147",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'isccnbs-junglegreen147'.",
+  "definition": "#1c352d",
+  "hex": "#1c352d",
+  "general": {
+    "hues": [
+      "springgreen"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 44.613,
+    "relativeLuminance": 0.029
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 12.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.2,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

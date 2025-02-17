@@ -1,0 +1,65 @@
+{
+  "name": "isccnbs-rosetaupe",
+  "jsName": "ISCCNBS_ROSETAUPE",
+  "title": "isccnbs-rosetaupe",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'isccnbs-rosetaupe'.",
+  "definition": "#905d5d",
+  "hex": "#905d5d",
+  "general": {
+    "hues": [
+      "red"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 108.249,
+    "relativeLuminance": 0.145
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 4.9,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 2.9,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

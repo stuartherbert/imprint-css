@@ -42,11 +42,11 @@ import { KM_COLORS } from "../colors/kevin-muldoon";
 import { MATERIAL_COLORS } from "../colors/material-design";
 import { MATMET_COLORS } from "../colors/material-ui-metro";
 import { METRO_COLORS } from "../colors/metro";
-import { MISC_COLORS } from "../colors/misc";
 import { MSDL1_COLORS } from "../colors/msdl1";
 import { MSDL2_COLORS } from "../colors/msdl2";
 import { SOCIAL_COLORS } from "../colors/social";
 import { TAILWIND3_COLORS } from "../colors/tailwind3";
+import { WIKIPEDIA_COLORS } from "../colors/wikipedia";
 import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
@@ -61,11 +61,11 @@ export const ALL_COLORS: CssColorDefinitions = {
     ...collectionToDefinitions(MATERIAL_COLORS),
     ...MATMET_COLORS,
     ...METRO_COLORS,
-    ...MISC_COLORS,
     ...MSDL1_COLORS,
     ...collectionToDefinitions(MSDL2_COLORS),
     ...SOCIAL_COLORS,
-    ...collectionToDefinitions(TAILWIND3_COLORS)
+    ...collectionToDefinitions(TAILWIND3_COLORS),
+    ...WIKIPEDIA_COLORS,
 };
 
 // console.log(ALL_COLORS);
