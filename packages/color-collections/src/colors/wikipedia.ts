@@ -35,7 +35,7 @@
 import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const MISC_COLORS: CssColorDefinitions = {
+export const WIKIPEDIA_COLORS: CssColorDefinitions = {
     "android-green": makeCssHexColorDefinition("#3ddc84"),
     "android-origgreen": makeCssHexColorDefinition("#a4c639"),
     "ams-schoolbusglossyyellow": makeCssHexColorDefinition("#f5a500"),
