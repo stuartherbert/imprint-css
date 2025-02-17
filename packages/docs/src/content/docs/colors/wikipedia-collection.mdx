@@ -7,6 +7,7 @@ next: colors/all-colors
 ---
 
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
+import ColorCollectionBlocks from "../../../components/Colors/ColorCollectionBlocks.astro";
 import ColorCollectionHues from "../../../components/Colors/ColorCollectionHues.astro";
 import ColorLink from "../../../components/Colors/ColorLink.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
@@ -94,42 +95,49 @@ The Imprint CSS project claims no ownership of these colors. Any trademarks are 
 Wikipedia sourced these colors from ANSI safety standards (such as ANSI standard Z535), which specifies standards for safety and accident prevention information.
 
 <ColorCollection colorGroup="wikipedia" prefix="ansi"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ansi"/>
 
 ### CMYK Colors
 
 Wikipedia sourced these colors from the <ExternalLink name="Wikipedia CMYK Color Model" text="CMYK color model"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="cmyk"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="cmyk"/>
 
 ### Crayola Colors
 
 Wikipedia based these colors on <ExternalLink name="Wikipedia Crayola Colors" text="Crayola crayons"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="crayola"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="crayola"/>
 
 ### Encycolorpedia Colors
 
 Wikipedia sourced these colors from Encycolorpedia.
 
 <ColorCollection colorGroup="wikipedia" prefix="encycolorpedia"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="encycolorpedia"/>
 
 ### French Colors
 
 Wikipedia either refers to these colors as "French XXX" (e.g. "French Beige"), or associates these colors with France or French people in some way. Wikipedia sourced them from a variety of places.
 
 <ColorCollection colorGroup="wikipedia" prefix="french"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="french"/>
 
 ### International Orange
 
 These colors were taken from <ExternalLink name="Wikipedia International Orange"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="intlorange"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="intlorange"/>
 
 ### ISCC-NBS Colors
 
 Wikipedia sourced these colors from the <ExternalLink name="Wikipedia ISCC-NBS" text="ISCC-NBS"/> color dictionary.
 
 <ColorCollection colorGroup="wikipedia" prefix="isccnbs"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="isccnbs"/>
 
 ### Misc Colors
 
@@ -139,54 +147,63 @@ This is where we put colors that either:
 * we haven't split out into a separate color set.
 
 <ColorCollection colorGroup="wikipedia" prefix="misc"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="misc"/>
 
 ### Munsell Colors
 
 Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Munsell Color System" text="Munsell color system"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="munsell"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="munsell"/>
 
 ### NCS Colors
 
 Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Natural Color System" text="Natural Color System"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="ncs"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ncs"/>
 
 ### Persian Colors
 
 These colors were originally defined in the ISCC-NBS system. We've split them out because they form a related set of colors on their own (just like the Spanish colors do below).
 
 <ColorCollection colorGroup="wikipedia" prefix="persian"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="persian"/>
 
 ### Pourpre Colors
 
 Wikipedia sourced these colors from the Pourpre color list.
 
 <ColorCollection colorGroup="wikipedia" prefix="pourpre"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="pourpre"/>
 
 ### Plochere Colors
 
 Wikipedia sourced these colors from the Plochere Color System.
 
 <ColorCollection colorGroup="wikipedia" prefix="plochere"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="plochere"/>
 
 ### RAL Colors
 
 Wikipedia sourced these colors from the <ExternalLink name="Wikipedia RAL Color System" text="RAL Color System"/>.
 
 <ColorCollection colorGroup="wikipedia" prefix="ral"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="ral"/>
 
 ### Resene Colors
 
 Wikipedia credits these colors to the <ExternalLink name="Wikipedia Resene" text="Resene"/> company. Wikipedia sourced some of them from the <ExternalLink name="Wikipedia Xona Games" text="Xona Games"/> color list.
 
 <ColorCollection colorGroup="wikipedia" prefix="resene"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="resene"/>
 
 ### Spanish Colors
 
 According to Wikipedia, these colors are popular in the Hispanophone realm (i.e. in Spanish-speaking countries and communities). Wikipedia prefixes many (but not all!) of these colors as "Spanish XXX" (e.g. Spanish Green).
 
 <ColorCollection colorGroup="wikipedia" prefix="spanish"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="spanish"/>
 
 ### X11 Colors
 
@@ -200,6 +217,7 @@ However, some <ExternalLink name="Wikipedia X11 named colors" text="X11 named co
 We've added them to Imprint CSS with the `x11-` prefix.
 
 <ColorCollection colorGroup="wikipedia" prefix="x11"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="x11"/>
 
 ### Xona Colors
 
@@ -208,12 +226,14 @@ Wikipedia sourced these colors from the <ExternalLink name="Wikipedia Xona Games
 This doesn't include colors from the Xona Games color list that (according to Wikipedia) came from other sources (e.g. the Resene colors list).
 
 <ColorCollection colorGroup="wikipedia" prefix="xona"/>
+<ColorCollectionBlocks colorGroup="wikipedia" prefix="xona"/>
 
 ### All Other Colors
 
 These colors don't fall into any of the other groups.
 
 <ColorCollection colorGroup="wikipedia" exclude="ansi,cmyk,crayola,encycolorpedia,french,intlorange,isccnbs,misc,munsell,ncs,persian,plochere,pourpre,ral,resene,spanish,x11,xona"/>
+<ColorCollectionBlocks colorGroup="wikipedia" exclude="ansi,cmyk,crayola,encycolorpedia,french,intlorange,isccnbs,misc,munsell,ncs,persian,plochere,pourpre,ral,resene,spanish,x11,xona"/>
 
 ## Discussion
 

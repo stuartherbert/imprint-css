@@ -1,0 +1,36 @@
+---
+import { getEntry } from "astro:content";
+import ColorBlock from "./ColorBlock.astro";
+
+export interface Props {
+    colorGroup: string;
+    prefix?: string;
+    exclude?: string;
+}
+
+const { colorGroup, prefix, exclude } = Astro.props;
+
+// load the group
+const groupData = await getEntry("colorGroups", colorGroup);
+if (groupData === undefined) {
+    throw new Error("unknown color group: " + colorGroup);
+}
+
+if (prefix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.startsWith(prefix + "-"));
+}
+
+if (exclude) {
+    const excludePrefixes = exclude.split(",");
+    groupData.data = groupData.data.filter((ref) => !excludePrefixes.some((prefix) => ref.id.startsWith(prefix + "-")));
+}
+
+---
+
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        {groupData.data.map((colorData) => (
+            <ColorBlock colorName={colorData.id}/>
+        ))}
+    </div>
+</div>
