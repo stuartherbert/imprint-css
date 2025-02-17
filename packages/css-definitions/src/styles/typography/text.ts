@@ -160,13 +160,16 @@ const staticUtility = newStaticStyle(
             },
 
             "blockquote": {
-                "@apply imprint-callout text-imprint-darkgray": {},
+                "@apply imprint-callout text-imprint-graphite": {},
                 "> *": {
                     "@apply pl-4": {},
                 },
                 "> * + *": {
                     "margin-top": "var(--imprint-prose-spacing)",
                 },
+                "> footer": {
+                    "@apply text-imprint-darkgray font-bold": {},
+                }
             },
         },
     }

@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-graphite'.",
-  "definition": "#404040",
-  "hex": "#404040",
+  "definition": "#303030",
+  "hex": "#303030",
   "general": {
     "hues": [
       "gray"
@@ -15,12 +15,12 @@
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 64,
-    "relativeLuminance": 0.051
+    "luma": 48,
+    "relativeLuminance": 0.029
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 9.5,
+    "contrastRatio": 12.2,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -40,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 1.5,
+    "contrastRatio": 1.2,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
