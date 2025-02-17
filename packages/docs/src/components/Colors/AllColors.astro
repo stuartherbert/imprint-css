@@ -10,11 +10,16 @@ if (allColorsData === undefined) {
     throw new Error("unable to load colors collection");
 }
 
+// sort the group
+//
+// we cannot rely on Astro to return a sorted list
+const sortedColorsData = allColorsData.sort((a, b) => a.id < b.id ? -1 : a.id == b.id ? 0 : 1);
+
 ---
 
 <ColorSwatches>
     <div class="docs-color-swatches">
-        {allColorsData.map((colorData) => (
+        {sortedColorsData.map((colorData) => (
             <ColorSwatch colorName={colorData.id}/>
         ))}
     </div>

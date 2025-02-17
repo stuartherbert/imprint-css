@@ -36,9 +36,9 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const WIKIPEDIA_COLORS: CssColorDefinitions = {
+    "ams-schoolbusglossyyellow": makeCssHexColorDefinition("#f5a500"),
     "android-green": makeCssHexColorDefinition("#3ddc84"),
     "android-origgreen": makeCssHexColorDefinition("#a4c639"),
-    "ams-schoolbusglossyyellow": makeCssHexColorDefinition("#f5a500"),
     "ansi-safetyblue": makeCssHexColorDefinition("#004488"),
     "ansi-safetygray": makeCssHexColorDefinition("#7e868d"),
     "ansi-safetygreen": makeCssHexColorDefinition("#347856"),
