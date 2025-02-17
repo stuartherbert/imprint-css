@@ -245,10 +245,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-color",
         {
-            value: colorFromCollection("ganbaro-red"),
+            value: colorFromCollection("ganbaro-red-800"),
             type: "color",
             description: "text color for code elements",
-            valueDescription: "ganbaro-red",
+            valueDescription: "ganbaro-red-800",
         },
     ),
     newCssVar(
