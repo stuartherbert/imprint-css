@@ -130,6 +130,7 @@ export default {
         "Wikipedia Flat Design": "https://en.wikipedia.org/wiki/Flat_design",
         "Wikipedia International Orange": "https://en.wikipedia.org/wiki/International_orange",
         "Wikipedia ISCC-NBS": "https://en.wikipedia.org/wiki/ISCC–NBS_system",
+        "Wikipedia ISO 3864": "https://en.wikipedia.org/wiki/ISO_3864",
         "Wikipedia List of Colors by Shade": "https://en.wikipedia.org/wiki/List_of_colors_by_shade",
         "Wikipedia Metro Design Language": "https://en.wikipedia.org/wiki/Metro_(design_language)",
         "Wikipedia Munsell Color System": "https://en.wikipedia.org/wiki/Munsell_color_system",
