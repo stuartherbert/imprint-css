@@ -173,10 +173,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-hover-color",
         {
-            value: colorFromCollection("ganbaro-red-800"),
+            value: colorFromCollection("imprint-darkred"),
             type: "color",
             description: "text color for HTML links when hovering over them",
-            valueDescription: "ganbaro-red-800",
+            valueDescription: "imprint-darkred",
         },
     ),
     newCssVar(
@@ -191,19 +191,19 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-hover-border-color",
         {
-            value: colorFromCollection("ganbaro-red-800"),
+            value: colorFromCollection("imprint-darkred"),
             type: "color",
             description: "border / underline color for HTML links when hovering over them",
-            valueDescription: "ganbaro-red-800",
+            valueDescription: "imprint-darkred",
         },
     ),
     newCssVar(
         "--imprint-semantic-link-active-color",
         {
-            value: colorFromCollection("ganbaro-red-800"),
+            value: colorFromCollection("imprint-darkred"),
             type: "color",
             description: "text color for HTML links when clicking on them",
-            valueDescription: "ganbaro-red-800",
+            valueDescription: "imprint-darkred",
         },
     ),
     newCssVar(
@@ -218,10 +218,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-active-border-color",
         {
-            value: colorFromCollection("ganbaro-red-800"),
+            value: colorFromCollection("imprint-darkred"),
             type: "color",
             description: "border / underline color for HTML links when clicking on them",
-            valueDescription: "ganbaro-red-800",
+            valueDescription: "imprint-darkred",
         },
     ),
     newCssVar(
@@ -236,10 +236,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-color",
         {
-            value: colorFromCollection("ganbaro-red-800"),
+            value: colorFromCollection("imprint-red"),
             type: "color",
             description: "text color for code elements",
-            valueDescription: "ganbaro-red-800",
+            valueDescription: "imprint-red",
         },
     ),
     newCssVar(
@@ -469,7 +469,8 @@ const semanticThemes = newSemanticSettings(
             shadedBackgroundColor: colorFromCollection("imprint-lightred"),
             headingBackgroundColor: colorFromCollection("imprint-red"),
             headingColor: "white",
-            shadedContentColor: colorFromCollection("imprint-lightred"),
+            borderInnerColor: colorFromCollection("imprint-brightred"),
+            shadedContentColor: "var(--imprint-color)",
         },
     ),
     newSemanticSetting(
@@ -480,6 +481,7 @@ const semanticThemes = newSemanticSettings(
             headingBackgroundColor: colorFromCollection("imprint-palegray"),
             headingColor: colorFromCollection("imprint-gray"),
             shadedBackgroundColor: rgb(colorFromCollection("imprint-palegray"), "0.20"),
+            borderInnerColor: colorFromCollection("imprint-palegray"),
             shadedContentColor: colorFromCollection("imprint-gray"),
             boxShadowColor: semanticVars["--imprint-semantic-box-shadow-color"].value,
         },

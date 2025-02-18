@@ -36,6 +36,7 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
+    "imprint-darkred": makeCssHexColorDefinition("#810f13"),
     "imprint-darkblue": makeCssHexColorDefinition("#132b47"),
     "imprint-darkgray": makeCssHexColorDefinition("#404040"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
@@ -56,8 +57,8 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
 
     "imprint-brightblue": makeCssHexColorDefinition("#3f9bdb"),
     "imprint-brightgreen": makeCssHexColorDefinition("#68a657"),
-    // "imprint-brightyellow": makeCssHexColorDefinition("#c4832a"),
     "imprint-brightyellow": makeCssHexColorDefinition("#f6ba21"),
+    "imprint-brightred": makeCssHexColorDefinition("#bb0039"),
 
     // imprint-nero
     "imprint-fg-default": makeCssHexColorDefinition("#222"),

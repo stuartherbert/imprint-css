@@ -1,4 +1,5 @@
 [
+  "imprint-darkred",
   "imprint-darkblue",
   "imprint-darkgray",
   "imprint-graphite",
@@ -19,6 +20,7 @@
   "imprint-brightblue",
   "imprint-brightgreen",
   "imprint-brightyellow",
+  "imprint-brightred",
   "imprint-fg-default",
   "imprint-bg-default",
   "imprint-primary",
