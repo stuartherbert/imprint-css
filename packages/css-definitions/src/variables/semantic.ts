@@ -457,7 +457,8 @@ const semanticThemes = newSemanticSettings(
             shadedBackgroundColor: colorFromCollection("imprint-paleyellow"),
             headingBackgroundColor: colorFromCollection("imprint-yellow"),
             headingColor: colorFromCollection("imprint-nero"),
-            shadedContentColor: colorFromCollection("ganbaro-yellow-100"),
+            borderInnerColor: colorFromCollection("imprint-brightyellow"),
+            shadedContentColor: "var(--imprint-color)",
         },
     ),
     newSemanticSetting(
