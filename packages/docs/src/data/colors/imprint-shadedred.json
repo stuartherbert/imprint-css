@@ -1,26 +1,27 @@
 {
-  "name": "imprint-brightyellow",
-  "jsName": "IMPRINT_BRIGHTYELLOW",
-  "title": "imprint-brightyellow",
+  "name": "imprint-shadedred",
+  "jsName": "IMPRINT_SHADEDRED",
+  "title": "imprint-shadedred",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-brightyellow'.",
-  "definition": "#f6ba21",
-  "hex": "#f6ba21",
+  "description": "Analysis of the color 'imprint-shadedred'.",
+  "definition": "#f9f2f4",
+  "hex": "#f9f2f4",
   "general": {
     "hues": [
-      "orange"
+      "white",
+      "rose"
     ],
-    "tonality": "midtone",
+    "tonality": "light",
     "isDark": false,
-    "isMidtone": true,
-    "isLight": false,
-    "luma": 186.498,
-    "relativeLuminance": 0.548
+    "isMidtone": false,
+    "isLight": true,
+    "luma": 244.321,
+    "relativeLuminance": 0.901
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.6,
+    "contrastRatio": 1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -39,8 +40,8 @@
     "passableForUi": false
   },
   "pairedWithDarkColor": {
-    "clearContrast": false,
-    "contrastRatio": 9,
+    "clearContrast": true,
+    "contrastRatio": 14.4,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -52,11 +53,11 @@
       "normal": "AAA",
       "ui": "AA"
     },
-    "recommendedForHeadings": false,
-    "passableForHeadings": false,
-    "recommendedForBodyContent": false,
-    "passableForBodyContent": false,
-    "passableForUi": false
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
   },
   "pairings": {
     "background": "#222222",

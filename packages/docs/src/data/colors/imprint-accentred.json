@@ -1,10 +1,10 @@
 {
-  "name": "imprint-brightred",
-  "jsName": "IMPRINT_BRIGHTRED",
-  "title": "imprint-brightred",
+  "name": "imprint-accentred",
+  "jsName": "IMPRINT_ACCENTRED",
+  "title": "imprint-accentred",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-brightred'.",
+  "description": "Analysis of the color 'imprint-accentred'.",
   "definition": "#bb0039",
   "hex": "#bb0039",
   "general": {

@@ -43,19 +43,19 @@ const staticUtility = newStaticStyle(
             newCssVar(
                 "--imprint-del-background-color",
                 {
-                    value: colorFromCollection("imprint-palered"),
+                    value: colorFromCollection("imprint-shadedred"),
                     type: "color",
                     description: "background color for DEL elements",
-                    valueDescription: "imprint-palered",
+                    valueDescription: "imprint-shadedred",
                 },
             ),
             newCssVar(
                 "--imprint-ins-background-color",
                 {
-                    value: colorFromCollection("imprint-palegreen"),
+                    value: colorFromCollection("imprint-shadedgreen"),
                     type: "color",
                     description: "background color for INS elements",
-                    valueDescription: "imprint-palegreen",
+                    valueDescription: "imprint-shadedgreen",
                 },
             ),
             newCssVar(

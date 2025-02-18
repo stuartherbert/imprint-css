@@ -1,22 +1,22 @@
 {
-  "name": "imprint-paleblue",
-  "jsName": "IMPRINT_PALEBLUE",
-  "title": "imprint-paleblue",
+  "name": "imprint-shadedgreen",
+  "jsName": "IMPRINT_SHADEDGREEN",
+  "title": "imprint-shadedgreen",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-paleblue'.",
-  "definition": "#f3fafc",
-  "hex": "#f3fafc",
+  "description": "Analysis of the color 'imprint-shadedgreen'.",
+  "definition": "#f1fced",
+  "hex": "#f1fced",
   "general": {
     "hues": [
       "white",
-      "cyan"
+      "chartreuse"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 248.135,
+    "luma": 247.001,
     "relativeLuminance": 0.944
   },
   "pairedWithLightColor": {

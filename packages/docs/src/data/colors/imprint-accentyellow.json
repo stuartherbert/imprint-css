@@ -1,27 +1,26 @@
 {
-  "name": "imprint-brightblue",
-  "jsName": "IMPRINT_BRIGHTBLUE",
-  "title": "imprint-brightblue",
+  "name": "imprint-accentyellow",
+  "jsName": "IMPRINT_ACCENTYELLOW",
+  "title": "imprint-accentyellow",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-brightblue'.",
-  "definition": "#3f9bdb",
-  "hex": "#3f9bdb",
+  "description": "Analysis of the color 'imprint-accentyellow'.",
+  "definition": "#f6ba21",
+  "hex": "#f6ba21",
   "general": {
     "hues": [
-      "cyan",
-      "azure"
+      "orange"
     ],
     "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 134.788,
-    "relativeLuminance": 0.296
+    "luma": 186.498,
+    "relativeLuminance": 0.548
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 2.8,
+    "contrastRatio": 1.6,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -41,16 +40,16 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 5.2,
+    "contrastRatio": 9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
+      "AAA_normal": true,
       "AAA_large": true,
       "large": "AAA",
-      "normal": "AA",
+      "normal": "AAA",
       "ui": "AA"
     },
     "recommendedForHeadings": false,

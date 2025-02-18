@@ -6,16 +6,39 @@ prev: colors/css-extended-colors-collection
 next: colors/apple-collection
 ---
 
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ColorBlock from "../../../components/Colors/ColorBlock.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 
 ## Introduction
 
-SOMETHING HERE
+These colors are used in the Imprint CSS utility and component classes.
 
 ## The Colors
 
-### Monochrome Colors
+### Page and Text Colors
+
+These colors are the default foreground and background colors.
+
+We've chosen these colors because they're more readable than pure black on white. This color pair meets the WCAG 2.2 AAA standard for headings, bold text and body text.
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        <ColorSwatch colorName="imprint-fg-default"/>
+        <ColorSwatch colorName="imprint-bg-default"/>
+    </div>
+</ColorSwatches>
+
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-fg-default"/>
+        <ColorBlock colorName="imprint-bg-default"/>
+    </div>
+</div>
+
+### Additional Monochrome Colors
+
+Imprint CSS uses a selection of monochrome colors as the defaults for many CSS utility classes.
 
 <ColorSwatches>
     <div class="docs-color-swatches">
@@ -24,62 +47,133 @@ SOMETHING HERE
         <ColorSwatch colorName="imprint-darkgray"/>
         <ColorSwatch colorName="imprint-gray"/>
         <ColorSwatch colorName="imprint-lightgray"/>
-        <ColorSwatch colorName="imprint-palegray"/>
         <ColorSwatch colorName="imprint-offwhite"/>
     </div>
 </ColorSwatches>
 
-### Main Colors
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-nero"/>
+        <ColorBlock colorName="imprint-graphite"/>
+        <ColorBlock colorName="imprint-darkgray"/>
+        <ColorBlock colorName="imprint-gray"/>
+        <ColorBlock colorName="imprint-lightgray"/>
+        <ColorBlock colorName="imprint-offwhite"/>
+    </div>
+</div>
+
+### Link Colors
+
+These colors are used for HTML links.
+
+These colors meet the WCAG 2.2 AAA standard for headings, bold text and body text.
 
 <ColorSwatches>
     <div class="docs-color-swatches">
+        <ColorSwatch colorName="imprint-blue"/>
+        <ColorSwatch colorName="imprint-activeblue"/>
+        <ColorSwatch colorName="imprint-activered"/>
+    </div>
+</ColorSwatches>
+
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-blue"/>
+        <ColorBlock colorName="imprint-activeblue"/>
+        <ColorBlock colorName="imprint-activered"/>
+    </div>
+</div>
+
+## Semantic Colors
+
+### Main Semantic Colors
+
+Imprint CSS uses these colors for the `--imprint-*` semantic styles.
+
+`imprint-red`, `imprint-green`, `imprint-blue` and `imprint-yellow` are used for notices, warnings and errors. They are based on international standards for physical notices.
+
+The `imprint-primary` and `imprint-secondary` colors mostly exist to help us test the `imprint-primary` and `imprint-secondary` semantic classes.
+
+All of these colors meet the WCAG 2.2 AAA standard for headings and bold text. Use them as background colors.
+
+Try not to use them for body text. They don't all meet the WCAG 2.2 AAA standard for body text.
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        <ColorSwatch colorName="imprint-primary"/>
+        <ColorSwatch colorName="imprint-secondary"/>
         <ColorSwatch colorName="imprint-red"/>
         <ColorSwatch colorName="imprint-green"/>
         <ColorSwatch colorName="imprint-blue"/>
         <ColorSwatch colorName="imprint-yellow"/>
+
     </div>
 </ColorSwatches>
 
-### Dark Colors
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-primary"/>
+        <ColorBlock colorName="imprint-secondary"/>
+        <ColorBlock colorName="imprint-red"/>
+        <ColorBlock colorName="imprint-green"/>
+        <ColorBlock colorName="imprint-blue"/>
+        <ColorBlock colorName="imprint-yellow"/>
+    </div>
+</div>
+
+### Semantic Accent Colors
+
+The `imprint-accent*` colors are used for border elements against the main Imprint CSS semantic colors. They've been hand-chosen to complement the main semantic colors.
+
+Do not use these colors for any text elements, as they are not guaranteed to meet the WCAG 2.2 AAA standard. Only use them for UI / decorational elements.
 
 <ColorSwatches>
     <div class="docs-color-swatches">
-        <ColorSwatch colorName="imprint-darkred"/>
-        <ColorSwatch colorName="imprint-darkblue"/>
+        <ColorSwatch colorName="imprint-accentprimary"/>
+        <ColorSwatch colorName="imprint-accentsecondary"/>
+        <ColorSwatch colorName="imprint-accentred"/>
+        <ColorSwatch colorName="imprint-accentgreen"/>
+        <ColorSwatch colorName="imprint-accentblue"/>
+        <ColorSwatch colorName="imprint-accentyellow"/>
     </div>
 </ColorSwatches>
 
-### Light Colors
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-accentprimary"/>
+        <ColorBlock colorName="imprint-accentsecondary"/>
+        <ColorBlock colorName="imprint-accentred"/>
+        <ColorBlock colorName="imprint-accentgreen"/>
+        <ColorBlock colorName="imprint-accentblue"/>
+        <ColorBlock colorName="imprint-accentyellow"/>
+    </div>
+</div>
+
+### Semantic Shaded Colors
+
+The `imprint-shaded*` colors are used as background colors for blocks. They've been hand-chosen to complement the main semantic colors.
+
+All of these colors meet the WCAG 2.2 AAA standard for body text.
 
 <ColorSwatches>
     <div class="docs-color-swatches">
-        <ColorSwatch colorName="imprint-lightred"/>
-        <ColorSwatch colorName="imprint-palered"/>
-        <ColorSwatch colorName="imprint-palegreen"/>
-        <ColorSwatch colorName="imprint-paleblue"/>
-        <ColorSwatch colorName="imprint-paleyellow"/>
+        <ColorSwatch colorName="imprint-shadedprimary"/>
+        <ColorSwatch colorName="imprint-shadedsecondary"/>
+        <ColorSwatch colorName="imprint-shadedred"/>
+        <ColorSwatch colorName="imprint-shadedgreen"/>
+        <ColorSwatch colorName="imprint-shadedblue"/>
+        <ColorSwatch colorName="imprint-shadedyellow"/>
+        <ColorSwatch colorName="imprint-shadedgray"/>
     </div>
 </ColorSwatches>
 
-### Bright Colors
-
-<ColorSwatches>
-    <div class="docs-color-swatches">
-        <ColorSwatch colorName="imprint-brightred"/>
-        <ColorSwatch colorName="imprint-brightgreen"/>
-        <ColorSwatch colorName="imprint-brightblue"/>
-        <ColorSwatch colorName="imprint-brightyellow"/>
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-shadedred"/>
+        <ColorBlock colorName="imprint-shadedgreen"/>
+        <ColorBlock colorName="imprint-shadedblue"/>
+        <ColorBlock colorName="imprint-shadedyellow"/>
+        <ColorBlock colorName="imprint-shadedgray"/>
     </div>
-</ColorSwatches>
+</div>
 
-
-### Semantic Colors
-
-<ColorSwatches>
-    <div class="docs-color-swatches">
-        <ColorSwatch colorName="imprint-fg-default"/>
-        <ColorSwatch colorName="imprint-bg-default"/>
-        <ColorSwatch colorName="imprint-primary"/>
-        <ColorSwatch colorName="imprint-secondary"/>
-    </div>
-</ColorSwatches>

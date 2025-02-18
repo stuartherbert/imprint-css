@@ -1,27 +1,26 @@
 {
-  "name": "imprint-darkblue",
-  "jsName": "IMPRINT_DARKBLUE",
-  "title": "imprint-darkblue",
+  "name": "imprint-activered",
+  "jsName": "IMPRINT_ACTIVERED",
+  "title": "imprint-activered",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-darkblue'.",
-  "definition": "#132b47",
-  "hex": "#132b47",
+  "description": "Analysis of the color 'imprint-activered'.",
+  "definition": "#810f13",
+  "hex": "#810f13",
   "general": {
     "hues": [
-      "cyan",
-      "azure"
+      "red"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 39.016,
-    "relativeLuminance": 0.023
+    "luma": 49.542,
+    "relativeLuminance": 0.05
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 13.2,
+    "contrastRatio": 9.6,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
@@ -41,7 +40,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": false,
-    "contrastRatio": 1.1,
+    "contrastRatio": 1.5,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,

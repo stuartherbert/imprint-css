@@ -1,23 +1,23 @@
 {
-  "name": "imprint-palered",
-  "jsName": "IMPRINT_PALERED",
-  "title": "imprint-palered",
+  "name": "imprint-shadedsecondary",
+  "jsName": "IMPRINT_SHADEDSECONDARY",
+  "title": "imprint-shadedsecondary",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-palered'.",
-  "definition": "#f9f2f4",
-  "hex": "#f9f2f4",
+  "description": "Analysis of the color 'imprint-shadedsecondary'.",
+  "definition": "#e6f4db",
+  "hex": "#e6f4db",
   "general": {
     "hues": [
       "white",
-      "rose"
+      "chartreuse"
     ],
     "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 244.321,
-    "relativeLuminance": 0.901
+    "luma": 236.964,
+    "relativeLuminance": 0.866
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 14.4,
+    "contrastRatio": 13.8,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

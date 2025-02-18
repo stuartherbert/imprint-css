@@ -36,29 +36,30 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
-    "imprint-darkred": makeCssHexColorDefinition("#810f13"),
-    "imprint-darkblue": makeCssHexColorDefinition("#132b47"),
     "imprint-darkgray": makeCssHexColorDefinition("#404040"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
     "imprint-gray": makeCssHexColorDefinition("#a8a8a8"),
     "imprint-lightgray": makeCssHexColorDefinition("#ddd"),
-    "imprint-lightred": makeCssHexColorDefinition("#f2dede"),
     "imprint-nero": makeCssHexColorDefinition("#222"),
-    "imprint-paleblue": makeCssHexColorDefinition("#f3fafc"),
-    "imprint-palegray": makeCssHexColorDefinition("#ededed"),
-    "imprint-palegreen": makeCssHexColorDefinition("#f1fced"),
-    "imprint-palered": makeCssHexColorDefinition("#f9f2f4"),
-    "imprint-paleyellow": makeCssHexColorDefinition("#fcf8e3"),
-    "imprint-yellow": makeCssHexColorDefinition("#f9a900"),
-    "imprint-red": makeCssHexColorDefinition("#9b2423"),
-    "imprint-green": makeCssHexColorDefinition("#237f52"),
-    "imprint-blue": makeCssHexColorDefinition("#005387"),
     "imprint-offwhite": makeCssHexColorDefinition("#f6f6f6"),
 
-    "imprint-brightblue": makeCssHexColorDefinition("#3f9bdb"),
-    "imprint-brightgreen": makeCssHexColorDefinition("#68a657"),
-    "imprint-brightyellow": makeCssHexColorDefinition("#f6ba21"),
-    "imprint-brightred": makeCssHexColorDefinition("#bb0039"),
+    "imprint-activered": makeCssHexColorDefinition("#810f13"),
+    "imprint-activeblue": makeCssHexColorDefinition("#132b47"),
+
+    "imprint-shadedprimary": makeCssHexColorDefinition("#e8eff9"),
+    "imprint-shadedsecondary": makeCssHexColorDefinition("#e6f4db"),
+    "imprint-shadedred": makeCssHexColorDefinition("#f9f2f4"),
+    "imprint-shadedgreen": makeCssHexColorDefinition("#f1fced"),
+    "imprint-shadedblue": makeCssHexColorDefinition("#f3fafc"),
+    "imprint-shadedyellow": makeCssHexColorDefinition("#fcf8e3"),
+    "imprint-shadedgray": makeCssHexColorDefinition("#ededed"),
+
+    "imprint-accentprimary": makeCssHexColorDefinition("#163151"),
+    "imprint-accentsecondary": makeCssHexColorDefinition("#63a12f"),
+    "imprint-accentblue": makeCssHexColorDefinition("#3f9bdb"),
+    "imprint-accentgreen": makeCssHexColorDefinition("#68a657"),
+    "imprint-accentyellow": makeCssHexColorDefinition("#f6ba21"),
+    "imprint-accentred": makeCssHexColorDefinition("#bb0039"),
 
     // imprint-nero
     "imprint-fg-default": makeCssHexColorDefinition("#222"),
@@ -69,9 +70,20 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     //
     // we cannot use colorFromCollection() here, as it creates a
     // circular dependency
+    //
+    // something we should be able to fix when we port to Tailwind CSS v4?
 
     // ganbaro-blue-500
     "imprint-primary": makeCssHexColorDefinition("#234f83"),
     // ganbaro-green-500
     "imprint-secondary": makeCssHexColorDefinition("#b1dd8c"),
+    // iso3864-yellow
+    "imprint-yellow": makeCssHexColorDefinition("#f9a900"),
+    // iso3864-red
+    "imprint-red": makeCssHexColorDefinition("#9b2423"),
+    // iso3864-green
+    "imprint-green": makeCssHexColorDefinition("#237f52"),
+    // iso3864-blue
+    "imprint-blue": makeCssHexColorDefinition("#005387"),
+
 };

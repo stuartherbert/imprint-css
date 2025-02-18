@@ -70,10 +70,10 @@ const staticUtility = newStaticStyle(
             newCssVar(
                 "--imprint-table-stripe",
                 {
-                    value: colorFromCollection("imprint-palegray"),
+                    value: colorFromCollection("imprint-shadedgray"),
                     type: "color",
                     description: "backgroup color of striped elements",
-                    valueDescription: "imprint-palegray",
+                    valueDescription: "imprint-shadedgray",
                 },
             ),
             newCssVar(
