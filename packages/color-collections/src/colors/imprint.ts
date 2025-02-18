@@ -56,6 +56,7 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
 
     // "imprint-brightblue": makeCssHexColorDefinition("#049ceb"),
     "imprint-brightblue": makeCssHexColorDefinition("#3f9bdb"),
+    "imprint-brightgreen": makeCssHexColorDefinition("#68a657"),
 
     // imprint-nero
     "imprint-fg-default": makeCssHexColorDefinition("#222"),

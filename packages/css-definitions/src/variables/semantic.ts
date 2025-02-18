@@ -418,11 +418,11 @@ const semanticThemes = newSemanticSettings(
         {
             contentBackgroundColor: "var(--imprint-background-color)",
             contentColor: colorFromCollection("imprint-nero"),
-            shadedBackgroundColor: rgb(colorFromCollection("ganbaro-green-50"), "0.3"),
-            headingBackgroundColor: colorFromCollection("ganbaro-green"),
+            shadedBackgroundColor: colorFromCollection("imprint-palegreen"),
+            headingBackgroundColor: colorFromCollection("imprint-secondary"),
             headingColor: colorFromCollection("imprint-nero"),
-            borderInnerColor: colorFromCollection("ganbaro-green-200"),
-            shadedContentColor: colorFromCollection("ganbaro-green-400"),
+            borderInnerColor: colorFromCollection("imprint-brightgreen"),
+            shadedContentColor: "var(--imprint-color)",
         },
     ),
     newSemanticSetting(
@@ -443,9 +443,10 @@ const semanticThemes = newSemanticSettings(
             contentBackgroundColor: "var(--imprint-background-color)",
             contentColor: "var(--imprint-color)",
             shadedBackgroundColor: colorFromCollection("imprint-palegreen"),
-            headingBackgroundColor: colorFromCollection("ganbaro-green-900"),
+            headingBackgroundColor: colorFromCollection("imprint-green"),
             headingColor: "white",
-            shadedContentColor: colorFromCollection("ganbaro-green-400"),
+            borderInnerColor: colorFromCollection("imprint-brightgreen"),
+            shadedContentColor: "var(--imprint-color)",
         },
     ),
     newSemanticSetting(
