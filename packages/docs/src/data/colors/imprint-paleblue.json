@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-paleblue'.",
-  "definition": "#eff9fd",
-  "hex": "#eff9fd",
+  "definition": "#f3fafc",
+  "hex": "#f3fafc",
   "general": {
     "hues": [
       "white",
@@ -16,8 +16,8 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 246.466,
-    "relativeLuminance": 0.931
+    "luma": 248.135,
+    "relativeLuminance": 0.944
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 14.8,
+    "contrastRatio": 15,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
