@@ -5,8 +5,8 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-palegreen'.",
-  "definition": "#dff0d8",
-  "hex": "#dff0d8",
+  "definition": "#f1fced",
+  "hex": "#f1fced",
   "general": {
     "hues": [
       "white",
@@ -16,12 +16,12 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 232.181,
-    "relativeLuminance": 0.829
+    "luma": 247.001,
+    "relativeLuminance": 0.944
   },
   "pairedWithLightColor": {
     "clearContrast": false,
-    "contrastRatio": 1.1,
+    "contrastRatio": 1,
     "wcagContrast": {
       "A_normal": false,
       "AA_normal": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 13.3,
+    "contrastRatio": 15,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
