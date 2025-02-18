@@ -40,7 +40,6 @@ import { HashMap } from "@safelytyped/core-types";
  */
 export const SEMANTIC_SETTING_FALLBACKS: HashMap<string> = {
     borderOuterColor: "headingBackgroundColor",
-    borderInnerColor: "headingAccentColor",
     shadedContentColor: "contentColor",
     stripeBackgroundColor: "shadedBackgroundColor",
     stripeColor: "shadedContentColor",

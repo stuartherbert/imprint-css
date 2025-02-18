@@ -73,11 +73,6 @@ export type SemanticSetting = {
     headingColor: string;
 
     /**
-     * the CSS color to use for things like borders around headings
-     */
-    headingAccentColor: string;
-
-    /**
      * the CSS color to use for box shadow effects
      */
     boxShadowColor?: string;

@@ -36,23 +36,26 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
+    "imprint-darkblue": makeCssHexColorDefinition("#132b47"),
     "imprint-darkgray": makeCssHexColorDefinition("#404040"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
     "imprint-gray": makeCssHexColorDefinition("#a8a8a8"),
     "imprint-lightgray": makeCssHexColorDefinition("#ddd"),
     "imprint-lightred": makeCssHexColorDefinition("#f2dede"),
     "imprint-nero": makeCssHexColorDefinition("#222"),
-    "imprint-paleblue": makeCssHexColorDefinition("#f4f8fa"),
+    "imprint-paleblue": makeCssHexColorDefinition("#eff9fd"),
     "imprint-palegray": makeCssHexColorDefinition("#ededed"),
     "imprint-palegreen": makeCssHexColorDefinition("#dff0d8"),
     "imprint-palered": makeCssHexColorDefinition("#f9f2f4"),
-    // "imprint-palered": makeCssHexColorDefinition("#f3eaec"),
     "imprint-paleyellow": makeCssHexColorDefinition("#fcf8e3"),
     "imprint-yellow": makeCssHexColorDefinition("#f9a900"),
     "imprint-red": makeCssHexColorDefinition("#9b2423"),
     "imprint-green": makeCssHexColorDefinition("#237f52"),
     "imprint-blue": makeCssHexColorDefinition("#005387"),
     "imprint-offwhite": makeCssHexColorDefinition("#f6f6f6"),
+
+    // "imprint-brightblue": makeCssHexColorDefinition("#049ceb"),
+    "imprint-brightblue": makeCssHexColorDefinition("#3f9bdb"),
 
     // imprint-nero
     "imprint-fg-default": makeCssHexColorDefinition("#222"),
