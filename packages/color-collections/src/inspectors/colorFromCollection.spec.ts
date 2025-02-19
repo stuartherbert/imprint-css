@@ -49,13 +49,13 @@ describe("colorFromCollection", () => {
         // ----------------------------------------------------------------
         // setup your test
 
-        const expectedValue = ALL_COLORS['imprint-nero'];
+        const expectedValue = ALL_COLORS['imprint-blackgold'];
         expect(expectedValue).is.not.undefined;
 
         // ----------------------------------------------------------------
         // perform the change
 
-        const actualValue = colorFromCollection("imprint-nero");
+        const actualValue = colorFromCollection("imprint-blackgold");
 
         // ----------------------------------------------------------------
         // test the results
@@ -126,13 +126,13 @@ describe("colorFromCollection", () => {
         // ----------------------------------------------------------------
         // setup your test
 
-        const expectedValue = ALL_COLORS['imprint-nero'];
+        const expectedValue = ALL_COLORS['imprint-blackgold'];
         expect(expectedValue).is.not.undefined;
 
         // ----------------------------------------------------------------
         // perform the change
 
-        const actualValue = colorFromCollection("imprint-nero");
+        const actualValue = colorFromCollection("imprint-blackgold");
 
         // ----------------------------------------------------------------
         // test the results

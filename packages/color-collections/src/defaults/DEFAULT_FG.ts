@@ -38,7 +38,7 @@ import { IMPRINT_COLORS } from "../colors/imprint";
 
 export const DEFAULT_FG = makeCssColor(
     colorFromCollection(
-        "imprint-nero",
+        "imprint-blackgold",
         { collection: IMPRINT_COLORS }
     )
 );

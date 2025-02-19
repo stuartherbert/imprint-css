@@ -80,7 +80,7 @@ li.pagetoc-2 {
 }
 
 li.pagetoc-3 {
-    @apply font-light mt-1 text-imprint-nero text-[0.95em];
+    @apply font-light mt-1 text-imprint-blackgold text-[0.95em];
 }
 
 nav.pagetoc-ol {

@@ -46,10 +46,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-color",
         {
-            value: colorFromCollection("imprint-nero"),
+            value: colorFromCollection("imprint-blackgold"),
             type: "color",
             description: "default color for text",
-            valueDescription: "imprint-nero",
+            valueDescription: "imprint-blackgold",
         },
     ),
     newCssVar(
@@ -282,10 +282,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-pre-color",
         {
-            value: colorFromCollection("imprint-nero"),
+            value: colorFromCollection("imprint-blackgold"),
             type: "color",
             description: "text color for pre elements",
-            valueDescription: "imprint-nero",
+            valueDescription: "imprint-blackgold",
         },
     ),
     newCssVar(
@@ -346,10 +346,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-border-outer-color",
         {
-            value: colorFromCollection("imprint-nero"),
+            value: colorFromCollection("imprint-blackgold"),
             type: "color",
             description: "outer border color for tables and featured blocks",
-            valueDescription: "imprint-nero",
+            valueDescription: "imprint-blackgold",
         },
     ),
     newCssVar(
@@ -373,10 +373,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-stripe-color",
         {
-            value: colorFromCollection("imprint-nero"),
+            value: colorFromCollection("imprint-blackgold"),
             type: "color",
             description: "text color for striped data blocks",
-            valueDescription: "imprint-nero",
+            valueDescription: "imprint-blackgold",
         },
     ),
 );
@@ -483,7 +483,7 @@ const semanticThemes = newSemanticSettings(
             contentColor: "var(--imprint-color)",
             shadedBackgroundColor: colorFromCollection("imprint-shadedyellow"),
             headingBackgroundColor: colorFromCollection("imprint-yellow"),
-            headingColor: colorFromCollection("imprint-nero"),
+            headingColor: colorFromCollection("imprint-blackgold"),
             borderInnerColor: colorFromCollection("imprint-accentyellow"),
             shadedContentColor: "var(--imprint-color)",
         },

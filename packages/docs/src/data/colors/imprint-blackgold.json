@@ -1,10 +1,10 @@
 {
-  "name": "imprint-nero",
-  "jsName": "IMPRINT_NERO",
-  "title": "imprint-nero",
+  "name": "imprint-blackgold",
+  "jsName": "IMPRINT_BLACKGOLD",
+  "title": "imprint-blackgold",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-nero'.",
+  "description": "Analysis of the color 'imprint-blackgold'.",
   "definition": "#222",
   "hex": "#222222",
   "general": {
