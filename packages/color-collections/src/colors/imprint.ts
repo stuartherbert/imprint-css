@@ -36,44 +36,52 @@ import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
-    "imprint-black": makeCssHexColorDefinition("#000"),
-    "imprint-carbon": makeCssHexColorDefinition("#303030"),
-    "imprint-darkblue": makeCssHexColorDefinition("#234f83"),
-    "imprint-darkgreen": makeCssHexColorDefinition("#3c763d"),
-    "imprint-darkred": makeCssHexColorDefinition("#a94442"),
-    "imprint-darkyellow": makeCssHexColorDefinition("#e8ca2b"),
-    "imprint-darkgray": makeCssHexColorDefinition("#696969"),
-    "imprint-graphite": makeCssHexColorDefinition("#404040"),
-    "imprint-gray": makeCssHexColorDefinition("#a8a8a8"),
-    "imprint-lightblue": makeCssHexColorDefinition("#34789a"),
-    "imprint-lightgray": makeCssHexColorDefinition("#ddd"),
-    "imprint-lightred": makeCssHexColorDefinition("#f2dede"),
-    "imprint-nero": makeCssHexColorDefinition("#222"),
-    "imprint-paleblue": makeCssHexColorDefinition("#f4f8fa"),
-    "imprint-palegray": makeCssHexColorDefinition("#e2e2e2"),
-    "imprint-palegreen": makeCssHexColorDefinition("#dff0d8"),
-    // 'imprint-palered': makeCssHexColorDefinition('#f9f2f4'),
-    "imprint-palered": makeCssHexColorDefinition("#f3eaec"),
-    "imprint-paleyellow": makeCssHexColorDefinition("#fcf8e3"),
-    "imprint-yellow": makeCssHexColorDefinition("#ff8c1a"),
-    "imprint-red": makeCssHexColorDefinition("#ff3300"),
-    "imprint-green": makeCssHexColorDefinition("#4d4d4d"),
-    "imprint-blue": makeCssHexColorDefinition("#234f83"),
-    "imprint-white": makeCssHexColorDefinition("#fff"),
-    "imprint-offwhite": makeCssHexColorDefinition("#f6f6f6"),
+    "imprint-blackgold": makeCssHexColorDefinition("#222"),
+    "imprint-graphite": makeCssHexColorDefinition("#303030"),
+    "imprint-pigiron": makeCssHexColorDefinition("#404040"),
+    "imprint-tin": makeCssHexColorDefinition("#999"),
+    "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
+    "imprint-valleyssun": makeCssHexColorDefinition("#ccc"),
+    "imprint-inversion": makeCssHexColorDefinition("#f6f6f6"),
 
-    // imprint-nero
-    "imprint-fg-default": makeCssHexColorDefinition("#222"),
-    // imprint-offwhite
-    "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
+    "imprint-activered": makeCssHexColorDefinition("#810f13"),
+    "imprint-activeblue": makeCssHexColorDefinition("#132b47"),
+
+    "imprint-shadedprimary": makeCssHexColorDefinition("#e8eff9"),
+    "imprint-shadedsecondary": makeCssHexColorDefinition("#e6f4db"),
+    "imprint-shadedred": makeCssHexColorDefinition("#f9f2f4"),
+    "imprint-shadedgreen": makeCssHexColorDefinition("#f1fced"),
+    "imprint-shadedblue": makeCssHexColorDefinition("#f3fafc"),
+    "imprint-shadedyellow": makeCssHexColorDefinition("#fcf8e3"),
+    "imprint-shadedgray": makeCssHexColorDefinition("#ededed"),
+    "imprint-shadedlightgray": makeCssHexColorDefinition("#efefef"),
+    "imprint-shadedpalegray": makeCssHexColorDefinition("#f0f0f0"),
+
+    "imprint-accentprimary": makeCssHexColorDefinition("#163151"),
+    "imprint-accentsecondary": makeCssHexColorDefinition("#63a12f"),
+    "imprint-accentblue": makeCssHexColorDefinition("#3f9bdb"),
+    "imprint-accentgreen": makeCssHexColorDefinition("#68a657"),
+    "imprint-accentyellow": makeCssHexColorDefinition("#f6ba21"),
+    "imprint-accentred": makeCssHexColorDefinition("#bb0039"),
 
     // NOTE
     //
     // we cannot use colorFromCollection() here, as it creates a
     // circular dependency
+    //
+    // something we should be able to fix when we port to Tailwind CSS v4?
 
     // ganbaro-blue-500
     "imprint-primary": makeCssHexColorDefinition("#234f83"),
     // ganbaro-green-500
     "imprint-secondary": makeCssHexColorDefinition("#b1dd8c"),
+    // iso3864-yellow
+    "imprint-yellow": makeCssHexColorDefinition("#f9a900"),
+    // iso3864-red
+    "imprint-red": makeCssHexColorDefinition("#9b2423"),
+    // iso3864-green
+    "imprint-green": makeCssHexColorDefinition("#237f52"),
+    // iso3864-blue
+    "imprint-blue": makeCssHexColorDefinition("#005387"),
+
 };

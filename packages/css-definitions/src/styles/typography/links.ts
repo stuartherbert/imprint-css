@@ -58,7 +58,7 @@ const staticUtility = newStaticStyle(
                 "border-bottom": "2px solid var(--imprint-semantic-link-hover-border-color)",
             },
             ".imprint-link:active, .imprint-link:focus, .imprint-link-active": {
-                "color": "var(--imprint-link-active-color)",
+                "color": "var(--imprint-semantic-link-active-color)",
                 "background-color": "var(--imprint-link-semantic-active-background-color)",
                 "border-bottom": "2px solid var(--imprint-semantic-link-active-border-color)",
             },

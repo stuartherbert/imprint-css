@@ -33,7 +33,7 @@
 //
 
 /**
- * toExportName() transforms the given `colorName` (e.g. `imprint-nero`)
+ * toExportName() transforms the given `colorName` (e.g. `imprint-blackgold`)
  * to its Javascript package export name (e.g. `imprint_nero`)
  *
  * @param colorName

@@ -5,23 +5,22 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-blue'.",
-  "definition": "#234f83",
-  "hex": "#234f83",
+  "definition": "#005387",
+  "hex": "#005387",
   "general": {
     "hues": [
-      "cyan",
-      "azure"
+      "cyan"
     ],
     "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
-    "luma": 71.772,
-    "relativeLuminance": 0.075
+    "luma": 64.111,
+    "relativeLuminance": 0.079
   },
   "pairedWithLightColor": {
     "clearContrast": true,
-    "contrastRatio": 7.7,
+    "contrastRatio": 7.5,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,

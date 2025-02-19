@@ -44,19 +44,19 @@ DEFINITION_STORE.addStaticStyle(
                 newCssVar(
                     "--imprint-color",
                     {
-                        value: tailwindThemeColor(colorFromCollection("imprint-nero")),
+                        value: tailwindThemeColor(colorFromCollection("imprint-blackgold")),
                         type: "color",
                         description: "default color for text",
-                        valueDescription: "imprint-nero",
+                        valueDescription: "imprint-blackgold",
                     }
                 ),
                 newCssVar(
                     "--imprint-background-color",
                     {
-                        value: tailwindThemeColor(colorFromCollection("imprint-offwhite")),
+                        value: tailwindThemeColor(colorFromCollection("imprint-inversion")),
                         type: "color",
                         description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
+                        valueDescription: "imprint-inversion",
                     },
                 ),
             ),
