@@ -8,9 +8,9 @@ const { prev, next } = Astro.props;
 
 ---
 
-<nav class="border-t prevnext border-imprint-graphite">
+<nav class="border-t prevnext border-imprint-castiron">
     <ul class="grid grid-cols-[1fr_1fr] gap-2 pt-2 items-center">
-        <li class="mr-auto prev">{prev && <a href={"/" + prev.id} class="group text-imprint-graphite hover:text-[--imprint-semantic-link-hover-color] flex items-center justify-start"><InlineSvg svg={chevonLeft} class="-ml-8rpx w-auto h-24rpx text-imprint-neutral inline group-hover:text-[--imprint-semantic-link-hover-color]"/><span>{prev.data.title}</span></a>}</li>
-        <li class="ml-auto next">{next && <a href={"/" + next.id} class="group text-imprint-graphite hover:text-[--imprint-semantic-link-hover-color] flex items-center justify-end"><span class="text-right">{next.data.title}</span><InlineSvg svg={chevonRight} class="-mr-8rpx w-auto h-24rpx text-imprint-neutral inline group-hover:text-[--imprint-semantic-link-hover-color]"/></a>}</li>
+        <li class="mr-auto prev">{prev && <a href={"/" + prev.id} class="group text-imprint-castiron hover:text-[--imprint-semantic-link-hover-color] flex items-center justify-start"><InlineSvg svg={chevonLeft} class="-ml-8rpx w-auto h-24rpx text-imprint-neutral inline group-hover:text-[--imprint-semantic-link-hover-color]"/><span>{prev.data.title}</span></a>}</li>
+        <li class="ml-auto next">{next && <a href={"/" + next.id} class="group text-imprint-castiron hover:text-[--imprint-semantic-link-hover-color] flex items-center justify-end"><span class="text-right">{next.data.title}</span><InlineSvg svg={chevonRight} class="-mr-8rpx w-auto h-24rpx text-imprint-neutral inline group-hover:text-[--imprint-semantic-link-hover-color]"/></a>}</li>
     </ul>
 </nav>

@@ -37,7 +37,7 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 
 export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-blackgold": makeCssHexColorDefinition("#222"),
-    "imprint-graphite": makeCssHexColorDefinition("#303030"),
+    "imprint-castiron": makeCssHexColorDefinition("#303030"),
     "imprint-pigiron": makeCssHexColorDefinition("#404040"),
     "imprint-tin": makeCssHexColorDefinition("#999"),
     "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
