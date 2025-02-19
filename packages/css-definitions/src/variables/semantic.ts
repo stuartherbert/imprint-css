@@ -100,19 +100,19 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-shaded-background-midcolor",
         {
-            value: colorFromCollection("imprint-shadedlightgray"),
+            value: colorFromCollection("imprint-lightshadedgray"),
             type: "color",
             description: "mid-gradient (35%) background color for content blocks when --shaded applied",
-            valueDescription: "imprint-shadedlightgray",
+            valueDescription: "imprint-lightshadedgray",
         },
     ),
     newCssVar(
         "--imprint-semantic-shaded-background-lightcolor",
         {
-            value: colorFromCollection("imprint-shadedpalegray"),
+            value: colorFromCollection("imprint-paleshadedgray"),
             type: "color",
             description: "first-gradient (0%) background color for content blocks when --shaded applied",
-            valueDescription: "imprint-shadedpalegray",
+            valueDescription: "imprint-paleshadedgray",
         },
     ),
     newCssVar(

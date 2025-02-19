@@ -1,12 +1,12 @@
 {
-  "name": "imprint-shadedlightgray",
-  "jsName": "IMPRINT_SHADEDLIGHTGRAY",
-  "title": "imprint-shadedlightgray",
+  "name": "imprint-paleshadedgray",
+  "jsName": "IMPRINT_PALESHADEDGRAY",
+  "title": "imprint-paleshadedgray",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-shadedlightgray'.",
-  "definition": "#efefef",
-  "hex": "#efefef",
+  "description": "Analysis of the color 'imprint-paleshadedgray'.",
+  "definition": "#f0f0f0",
+  "hex": "#f0f0f0",
   "general": {
     "hues": [
       "gray",
@@ -16,8 +16,8 @@
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
-    "luma": 239,
-    "relativeLuminance": 0.863
+    "luma": 240,
+    "relativeLuminance": 0.871
   },
   "pairedWithLightColor": {
     "clearContrast": false,
@@ -41,7 +41,7 @@
   },
   "pairedWithDarkColor": {
     "clearContrast": true,
-    "contrastRatio": 13.8,
+    "contrastRatio": 13.9,
     "wcagContrast": {
       "A_normal": true,
       "AA_normal": true,
