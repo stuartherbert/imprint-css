@@ -336,11 +336,11 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-box-shadow-color",
         {
-            value: colorFromCollection("imprint-ghost"),
+            value: colorFromCollection("imprint-tin"),
             // value: "black",
             type: "color",
             description: "color for box shadow effects",
-            valueDescription: "imprint-ghost",
+            valueDescription: "imprint-tin",
         },
     ),
     newCssVar(

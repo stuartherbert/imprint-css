@@ -39,7 +39,7 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-nero": makeCssHexColorDefinition("#222"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
     "imprint-pigiron": makeCssHexColorDefinition("#404040"),
-    "imprint-ghost": makeCssHexColorDefinition("#999"),
+    "imprint-tin": makeCssHexColorDefinition("#999"),
     "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
     "imprint-valleyssun": makeCssHexColorDefinition("#ccc"),
     "imprint-inversion": makeCssHexColorDefinition("#f6f6f6"),
