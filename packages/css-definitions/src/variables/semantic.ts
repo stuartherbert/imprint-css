@@ -55,10 +55,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-background-color",
         {
-            value: "imprint-mistymorn",
+            value: "imprint-inversion",
             type: "color",
             description: "default background color for the page",
-            valueDescription: "imprint-mistymorn",
+            valueDescription: "imprint-inversion",
         },
     ),
     newCssVar(
