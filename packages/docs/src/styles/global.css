@@ -231,11 +231,6 @@ nav.pagetoc-ol {
     color: var(--imprint-semantic-heading-color);
 }
 
-.gradient-panel {
-    background: rgb(237,237,237);
-    background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(234,234,234,1) 35%, rgba(237,237,237,1) 100%);
-}
-
 .copied-tooltip {
     visibility: hidden;
     text-align: center;

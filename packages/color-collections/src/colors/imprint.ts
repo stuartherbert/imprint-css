@@ -54,6 +54,8 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-shadedblue": makeCssHexColorDefinition("#f3fafc"),
     "imprint-shadedyellow": makeCssHexColorDefinition("#fcf8e3"),
     "imprint-shadedgray": makeCssHexColorDefinition("#ededed"),
+    "imprint-shadedlightgray": makeCssHexColorDefinition("#efefef"),
+    "imprint-shadedpalegray": makeCssHexColorDefinition("#f0f0f0"),
 
     "imprint-accentprimary": makeCssHexColorDefinition("#163151"),
     "imprint-accentsecondary": makeCssHexColorDefinition("#63a12f"),

@@ -29,6 +29,8 @@ Here's all the named colors in one place:
         <ColorSwatch colorName="imprint-neutral"/>
         <ColorSwatch colorName="imprint-inversion"/>
         <ColorSwatch colorName="imprint-shadedgray"/>
+        <ColorSwatch colorName="imprint-shadedlightgray"/>
+        <ColorSwatch colorName="imprint-shadedpalegray"/>
         <ColorSwatch colorName="imprint-mistymorn"/>
         <ColorSwatch colorName="imprint-red"/>
         <ColorSwatch colorName="imprint-activered"/>
@@ -62,6 +64,8 @@ Here's all the named colors in one place:
         <ColorBlock colorName="imprint-neutral"/>
         <ColorBlock colorName="imprint-inversion"/>
         <ColorBlock colorName="imprint-shadedgray"/>
+        <ColorBlock colorName="imprint-shadedlightgray"/>
+        <ColorBlock colorName="imprint-shadedpalegray"/>
         <ColorBlock colorName="imprint-mistymorn"/>
         <ColorBlock colorName="imprint-red"/>
         <ColorBlock colorName="imprint-activered"/>
@@ -162,9 +166,11 @@ These colors meet the WCAG 2.2 AAA standard for headings, bold text and body tex
 
 These colors are used for backgrounds and borders of shaded HTML elements:
 
-* `imprint-inversion` as the default border color around shared HTML elements;
+* `imprint-inversion` as the default border color around shaded HTML elements;
 * `imprint-shadedgray` for backgrounds of shaded HTML elements;
 * `imprint-shadedred` for background of `<code>` (and related) elements
+
+On browsers that support it, `imprint-shadedpalegray` > `imprint-shadedlightgray` > `imprint-shadedgray` are used together for a gradient backdrop.
 
 The colors for background colors all meet the WCAG 2.2 AAA standard for body text.
 
@@ -172,6 +178,8 @@ The colors for background colors all meet the WCAG 2.2 AAA standard for body tex
     <div class="docs-color-swatches">
         <ColorSwatch colorName="imprint-inversion"/>
         <ColorSwatch colorName="imprint-shadedgray"/>
+        <ColorSwatch colorName="imprint-shadedlightgray"/>
+        <ColorSwatch colorName="imprint-shadedpalegray"/>
         <ColorSwatch colorName="imprint-shadedred"/>
     </div>
 </ColorSwatches>
@@ -180,6 +188,8 @@ The colors for background colors all meet the WCAG 2.2 AAA standard for body tex
     <div class="--standout-md">
         <ColorBlock colorName="imprint-inversion"/>
         <ColorBlock colorName="imprint-shadedgray"/>
+        <ColorBlock colorName="imprint-shadedlightgray"/>
+        <ColorBlock colorName="imprint-shadedpalegray"/>
         <ColorBlock colorName="imprint-shadedred"/>
     </div>
 </div>

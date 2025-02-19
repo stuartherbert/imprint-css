@@ -89,6 +89,33 @@ const semanticVars = newCssVars(
         },
     ),
     newCssVar(
+        "--imprint-semantic-shaded-background-color",
+        {
+            value: colorFromCollection("imprint-shadedgray"),
+            type: "color",
+            description: "background color for content blocks when --shaded applied",
+            valueDescription: "imprint-shadedgray",
+        },
+    ),
+    newCssVar(
+        "--imprint-semantic-shaded-background-midcolor",
+        {
+            value: colorFromCollection("imprint-shadedlightgray"),
+            type: "color",
+            description: "mid-gradient (35%) background color for content blocks when --shaded applied",
+            valueDescription: "imprint-shadedlightgray",
+        },
+    ),
+    newCssVar(
+        "--imprint-semantic-shaded-background-lightcolor",
+        {
+            value: colorFromCollection("imprint-shadedpalegray"),
+            type: "color",
+            description: "first-gradient (0%) background color for content blocks when --shaded applied",
+            valueDescription: "imprint-shadedpalegray",
+        },
+    ),
+    newCssVar(
         "--imprint-semantic-shaded-color",
         {
             value: "var(--imprint-color)",
