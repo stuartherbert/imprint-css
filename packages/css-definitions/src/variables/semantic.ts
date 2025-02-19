@@ -55,10 +55,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-background-color",
         {
-            value: "white",
+            value: "imprint-mistymorn",
             type: "color",
             description: "default background color for the page",
-            valueDescription: "white",
+            valueDescription: "imprint-mistymorn",
         },
     ),
     newCssVar(
@@ -136,10 +136,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-border-color",
         {
-            value: colorFromCollection("imprint-fgt-alt"),
+            value: colorFromCollection("imprint-darksteel"),
             type: "color",
             description: "border / underline color for HTML links",
-            valueDescription: "imprint-fgt-alt",
+            valueDescription: "imprint-darksteel",
         },
     ),
     newCssVar(
@@ -163,10 +163,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-visited-border-color",
         {
-            value: "var(--imprint-link-border)",
+            value: "var(--imprint-semantic-link-visited-color)",
             type: "color",
             description: "border / underline color for visited HTML links",
-            valueDescription: "--imprint-link-border",
+            valueDescription: "--imprint-semantic-link-visited-color",
         },
     ),
 
@@ -200,10 +200,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-active-color",
         {
-            value: colorFromCollection("imprint-activered"),
+            value: colorFromCollection("imprint-accentred"),
             type: "color",
             description: "text color for HTML links when clicking on them",
-            valueDescription: "imprint-activered",
+            valueDescription: "imprint-accentred",
         },
     ),
     newCssVar(
@@ -218,10 +218,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-active-border-color",
         {
-            value: colorFromCollection("imprint-activered"),
+            value: colorFromCollection("imprint-accentred"),
             type: "color",
             description: "border / underline color for HTML links when clicking on them",
-            valueDescription: "imprint-activered",
+            valueDescription: "imprint-accentred",
         },
     ),
     newCssVar(
@@ -300,10 +300,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-example-line-no-color",
         {
-            value: colorFromCollection("imprint-fgt-alt"),
+            value: colorFromCollection("imprint-darksteel"),
             type: "color",
             description: "text color for line numbers in code example blocks",
-            valueDescription: "imprint-fgt-alt",
+            valueDescription: "imprint-darksteel",
         },
     ),
     newCssVar(

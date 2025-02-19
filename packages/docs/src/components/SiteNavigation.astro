@@ -16,11 +16,11 @@ await buildNavList(navList, docList);
         <ul>
             <li class="mt-4">
                 <h5 class="mb-2 font-bold text-imprint-nero text-18rpx">{navSection.name}</h5>
-                <ul class="border-l-2 border-imprint-gray/35">
+                <ul class="border-l-2 border-imprint-inversion">
                 {getNavSection(navList, navSection.name).map((slug) => (
                     <li class="">
-                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-imprint-primary leading-relaxed pl-4 text-imprint-primary font-semibold" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
-                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray leading-relaxed pl-4 hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-semantic-link-hover-color]" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-imprint-activered leading-relaxed pl-4 text-imprint-primary font-semibold" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-inversion leading-relaxed pl-4 hover:border-imprint-accentred hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-semantic-link-hover-color]" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
                     </li>
                 ))}
                 </ul>

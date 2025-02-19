@@ -63,13 +63,13 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-accentred": makeCssHexColorDefinition("#bb0039"),
 
     // imprint-nero
-    "imprint-fg-default": makeCssHexColorDefinition("#222"),
+    // "imprint-fg-default": makeCssHexColorDefinition("#222"),
     // imprint-offwhite
-    "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
+    // "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
     // imprint-darkgray
-    "imprint-fgh-alt": makeCssHexColorDefinition("#404040"),
+    // "imprint-fgh-alt": makeCssHexColorDefinition("#404040"),
     // imprint-graphite
-    "imprint-fgt-alt": makeCssHexColorDefinition("#303030"),
+    // "imprint-fgt-alt": makeCssHexColorDefinition("#303030"),
 
     // NOTE
     //

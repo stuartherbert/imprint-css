@@ -232,8 +232,8 @@ nav.pagetoc-ol {
 }
 
 .gradient-panel {
-    background: rgb(228,228,231);
-    background: linear-gradient(0deg, rgba(218,218,220,1) 0%, rgba(224,224,228,1) 35%, rgba(228,228,231,1) 100%);
+    background: rgb(237,237,237);
+    background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(234,234,234,1) 35%, rgba(237,237,237,1) 100%);
 }
 
 .copied-tooltip {

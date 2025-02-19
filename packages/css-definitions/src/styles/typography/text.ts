@@ -109,7 +109,7 @@ const staticUtility = newStaticStyle(
                 "@apply imprint-block-bodycopy": {},
             },
             "p.p--leader": {
-                "@apply imprint-block-greatprimer text-imprint-fgt-alt": {},
+                "@apply imprint-block-greatprimer text-imprint-graphite": {},
             },
             "p.p--abstract": {
                 "text-indent": "2em",
@@ -160,7 +160,7 @@ const staticUtility = newStaticStyle(
             },
 
             "blockquote": {
-                "@apply imprint-callout text-imprint-fgt-alt": {},
+                "@apply imprint-callout text-imprint-graphite": {},
                 "> *": {
                     "@apply pl-4": {},
                 },
@@ -168,7 +168,7 @@ const staticUtility = newStaticStyle(
                     "margin-top": "var(--imprint-prose-spacing)",
                 },
                 "> footer": {
-                    "@apply text-imprint-fgh-alt font-bold": {},
+                    "@apply text-imprint-graphite font-bold": {},
                 }
             },
         },
