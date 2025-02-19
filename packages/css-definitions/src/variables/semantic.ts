@@ -163,10 +163,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-border-color",
         {
-            value: colorFromCollection("imprint-darksteel"),
+            value: colorFromCollection("imprint-pigiron"),
             type: "color",
             description: "border / underline color for HTML links",
-            valueDescription: "imprint-darksteel",
+            valueDescription: "imprint-pigiron",
         },
     ),
     newCssVar(
@@ -327,10 +327,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-example-line-no-color",
         {
-            value: colorFromCollection("imprint-darksteel"),
+            value: colorFromCollection("imprint-pigiron"),
             type: "color",
             description: "text color for line numbers in code example blocks",
-            valueDescription: "imprint-darksteel",
+            valueDescription: "imprint-pigiron",
         },
     ),
     newCssVar(

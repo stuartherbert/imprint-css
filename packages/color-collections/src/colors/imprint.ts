@@ -38,7 +38,7 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-nero": makeCssHexColorDefinition("#222"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
-    "imprint-darksteel": makeCssHexColorDefinition("#404040"),
+    "imprint-pigiron": makeCssHexColorDefinition("#404040"),
     "imprint-ghost": makeCssHexColorDefinition("#999"),
     "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
     "imprint-valleyssun": makeCssHexColorDefinition("#ccc"),
@@ -63,15 +63,6 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-accentgreen": makeCssHexColorDefinition("#68a657"),
     "imprint-accentyellow": makeCssHexColorDefinition("#f6ba21"),
     "imprint-accentred": makeCssHexColorDefinition("#bb0039"),
-
-    // imprint-nero
-    // "imprint-fg-default": makeCssHexColorDefinition("#222"),
-    // imprint-offwhite
-    // "imprint-bg-default": makeCssHexColorDefinition("#f6f6f6"),
-    // imprint-darkgray
-    // "imprint-fgh-alt": makeCssHexColorDefinition("#404040"),
-    // imprint-graphite
-    // "imprint-fgt-alt": makeCssHexColorDefinition("#303030"),
 
     // NOTE
     //
