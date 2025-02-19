@@ -38,9 +38,10 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-nero": makeCssHexColorDefinition("#222"),
     "imprint-graphite": makeCssHexColorDefinition("#303030"),
-    "imprint-darkgray": makeCssHexColorDefinition("#404040"),
-    "imprint-gray": makeCssHexColorDefinition("#a8a8a8"),
-    "imprint-lightgray": makeCssHexColorDefinition("#ddd"),
+    "imprint-darksteel": makeCssHexColorDefinition("#404040"),
+    "imprint-ghost": makeCssHexColorDefinition("#999"),
+    "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
+    "imprint-inversion": makeCssHexColorDefinition("#ccc"),
     "imprint-offwhite": makeCssHexColorDefinition("#f6f6f6"),
 
     "imprint-activered": makeCssHexColorDefinition("#810f13"),

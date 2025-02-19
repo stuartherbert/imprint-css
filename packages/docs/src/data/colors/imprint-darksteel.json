@@ -1,10 +1,10 @@
 {
-  "name": "imprint-darkgray",
-  "jsName": "IMPRINT_DARKGRAY",
-  "title": "imprint-darkgray",
+  "name": "imprint-darksteel",
+  "jsName": "IMPRINT_DARKSTEEL",
+  "title": "imprint-darksteel",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-darkgray'.",
+  "description": "Analysis of the color 'imprint-darksteel'.",
   "definition": "#404040",
   "hex": "#404040",
   "general": {

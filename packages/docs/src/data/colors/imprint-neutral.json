@@ -1,10 +1,10 @@
 {
-  "name": "imprint-gray",
-  "jsName": "IMPRINT_GRAY",
-  "title": "imprint-gray",
+  "name": "imprint-neutral",
+  "jsName": "IMPRINT_NEUTRAL",
+  "title": "imprint-neutral",
   "navSection": "Colors",
   "collection": "colors",
-  "description": "Analysis of the color 'imprint-gray'.",
+  "description": "Analysis of the color 'imprint-neutral'.",
   "definition": "#a8a8a8",
   "hex": "#a8a8a8",
   "general": {

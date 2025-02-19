@@ -136,10 +136,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-link-border-color",
         {
-            value: colorFromCollection("imprint-gray"),
+            value: colorFromCollection("imprint-fgt-alt"),
             type: "color",
-            description: "border / underlinke color for HTML links",
-            valueDescription: "imprint-gray",
+            description: "border / underline color for HTML links",
+            valueDescription: "imprint-fgt-alt",
         },
     ),
     newCssVar(
@@ -245,10 +245,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-border-color",
         {
-            value: colorFromCollection("imprint-lightgray"),
+            value: colorFromCollection("imprint-inversion"),
             type: "color",
             description: "border / outline color for code elements",
-            valueDescription: "imprint-lightgray",
+            valueDescription: "imprint-inversion",
         },
     ),
 
@@ -273,10 +273,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-pre-border-color",
         {
-            value: colorFromCollection("imprint-lightgray"),
+            value: colorFromCollection("imprint-inversion"),
             type: "color",
             description: "border / outline color for pre elements",
-            valueDescription: "imprint-lightgray",
+            valueDescription: "imprint-inversion",
         },
     ),
     newCssVar(
@@ -300,20 +300,20 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-example-line-no-color",
         {
-            value: colorFromCollection("imprint-gray"),
+            value: colorFromCollection("imprint-fgt-alt"),
             type: "color",
             description: "text color for line numbers in code example blocks",
-            valueDescription: "--imprint-gray",
+            valueDescription: "imprint-fgt-alt",
         },
     ),
     newCssVar(
         "--imprint-semantic-box-shadow-color",
         {
-            value: rgb(colorFromCollection("imprint-gray"), "0.90"),
+            value: colorFromCollection("imprint-ghost"),
             // value: "black",
             type: "color",
             description: "color for box shadow effects",
-            valueDescription: "rgb(imprint-gray / 0.90)",
+            valueDescription: "imprint-ghost",
         },
     ),
     newCssVar(
@@ -328,10 +328,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-border-inner-color",
         {
-            value: colorFromCollection("imprint-gray"),
+            value: colorFromCollection("imprint-neutral"),
             type: "color",
             description: "inner border color for tables and featured blocks",
-            valueDescription: "imprint-gray",
+            valueDescription: "imprint-neutral",
         },
     ),
     newCssVar(
@@ -477,12 +477,12 @@ const semanticThemes = newSemanticSettings(
         "faded",
         {
             contentBackgroundColor: "var(--imprint-background-color)",
-            contentColor: colorFromCollection("imprint-gray"),
+            contentColor: colorFromCollection("imprint-neutral"),
             headingBackgroundColor: colorFromCollection("imprint-shadedgray"),
-            headingColor: colorFromCollection("imprint-gray"),
+            headingColor: colorFromCollection("imprint-neutral"),
             shadedBackgroundColor: rgb(colorFromCollection("imprint-shadedgray"), "0.20"),
             borderInnerColor: colorFromCollection("imprint-shadedgray"),
-            shadedContentColor: colorFromCollection("imprint-gray"),
+            shadedContentColor: colorFromCollection("imprint-neutral"),
             boxShadowColor: semanticVars["--imprint-semantic-box-shadow-color"].value,
         },
     ),
@@ -490,11 +490,11 @@ const semanticThemes = newSemanticSettings(
         "disabled",
         {
             contentBackgroundColor: "var(--imprint-background-color)",
-            contentColor: colorFromCollection("imprint-gray"),
-            headingBackgroundColor: colorFromCollection("imprint-gray"),
+            contentColor: colorFromCollection("imprint-neutral"),
+            headingBackgroundColor: colorFromCollection("imprint-neutral"),
             headingColor: colorFromCollection("imprint-shadedgray"),
             shadedBackgroundColor: rgb(colorFromCollection("imprint-shadedgray"), "0.40"),
-            shadedContentColor: colorFromCollection("imprint-gray"),
+            shadedContentColor: colorFromCollection("imprint-neutral"),
         },
     ),
 );
