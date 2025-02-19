@@ -41,7 +41,7 @@ export const IMPRINT_COLORS: CssColorDefinitions = {
     "imprint-darksteel": makeCssHexColorDefinition("#404040"),
     "imprint-ghost": makeCssHexColorDefinition("#999"),
     "imprint-neutral": makeCssHexColorDefinition("#a8a8a8"),
-    "imprint-inversion": makeCssHexColorDefinition("#ccc"),
+    "imprint-valleyssun": makeCssHexColorDefinition("#ccc"),
     "imprint-mistymorn": makeCssHexColorDefinition("#f6f6f6"),
 
     "imprint-activered": makeCssHexColorDefinition("#810f13"),

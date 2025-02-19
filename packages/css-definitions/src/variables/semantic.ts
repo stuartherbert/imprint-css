@@ -272,10 +272,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-code-border-color",
         {
-            value: colorFromCollection("imprint-inversion"),
+            value: colorFromCollection("imprint-valleyssun"),
             type: "color",
             description: "border / outline color for code elements",
-            valueDescription: "imprint-inversion",
+            valueDescription: "imprint-valleyssun",
         },
     ),
 
@@ -300,10 +300,10 @@ const semanticVars = newCssVars(
     newCssVar(
         "--imprint-semantic-pre-border-color",
         {
-            value: colorFromCollection("imprint-inversion"),
+            value: colorFromCollection("imprint-valleyssun"),
             type: "color",
             description: "border / outline color for pre elements",
-            valueDescription: "imprint-inversion",
+            valueDescription: "imprint-valleyssun",
         },
     ),
     newCssVar(
