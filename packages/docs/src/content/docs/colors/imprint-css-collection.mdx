@@ -14,6 +14,13 @@ import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 
 These colors are used in the Imprint CSS utility and component classes.
 
+Most of the Imprint CSS colors are named after their purpose (e.g. `imprint-fg-default`).
+
+* It helps us use the colors consistently throughout Imprint CSS.
+* We can refine the colors in the future without having making any changes to our CSS definitions.
+
+It just makes more sense for Imprint CSS, because it isn't a utility framework in the way that Tailwind CSS itself is.
+
 ## The Colors
 
 ### Page and Text Colors
@@ -36,9 +43,34 @@ We've chosen these colors because they're more readable than pure black on white
     </div>
 </div>
 
-### Additional Monochrome Colors
+### Alternative Text Colors
 
-Imprint CSS uses a selection of monochrome colors as the defaults for many CSS utility classes.
+There are two colors available as alternatives to `imprint-fg-default`:
+
+* `imprint-fgh-alt` (meets WCAG 2.2 AAA for headings and bold text); and
+* `imprint-fgt-alt` (meets WCAG 2.2 AAA for body text)
+
+They're currently used to make `<blockquote>` visually distinct from regular paragraphs.
+
+We also use them in the Imprint CSS docs (e.g. to make the nav section heading at the top of this page less prominent than the actual `<h1>` heading).
+
+<ColorSwatches>
+    <div class="docs-color-swatches">
+        <ColorSwatch colorName="imprint-fgh-alt"/>
+        <ColorSwatch colorName="imprint-fgt-alt"/>
+    </div>
+</ColorSwatches>
+
+<div class="docs-color-blocks-1">
+    <div class="--standout-md">
+        <ColorBlock colorName="imprint-fgh-alt"/>
+        <ColorBlock colorName="imprint-fgt-alt"/>
+    </div>
+</div>
+
+### Underlying Named Colors
+
+`imprint-fg-default` et al are just aliases for these named colors:
 
 <ColorSwatches>
     <div class="docs-color-swatches">
@@ -84,9 +116,7 @@ These colors meet the WCAG 2.2 AAA standard for headings, bold text and body tex
     </div>
 </div>
 
-## Semantic Colors
-
-### Main Semantic Colors
+### Main Semantic Utility Colors
 
 Imprint CSS uses these colors for the `--imprint-*` semantic styles.
 
