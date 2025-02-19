@@ -1,0 +1,65 @@
+{
+  "name": "wiki-jade",
+  "jsName": "WIKI_JADE",
+  "title": "wiki-jade",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'wiki-jade'.",
+  "definition": "#00a86b",
+  "hex": "#00a86b",
+  "general": {
+    "hues": [
+      "springgreen"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 110.814,
+    "relativeLuminance": 0.29
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 2.8,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 5.1,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

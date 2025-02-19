@@ -1,0 +1,65 @@
+{
+  "name": "wiki-rosepompadour",
+  "jsName": "WIKI_ROSEPOMPADOUR",
+  "title": "wiki-rosepompadour",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'wiki-rosepompadour'.",
+  "definition": "#ed7a9b",
+  "hex": "#ed7a9b",
+  "general": {
+    "hues": [
+      "rose"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 160.147,
+    "relativeLuminance": 0.342
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 2.4,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 5.9,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}

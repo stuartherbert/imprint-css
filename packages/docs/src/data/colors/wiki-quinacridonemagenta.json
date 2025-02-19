@@ -1,0 +1,65 @@
+{
+  "name": "wiki-quinacridonemagenta",
+  "jsName": "WIKI_QUINACRIDONEMAGENTA",
+  "title": "wiki-quinacridonemagenta",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'wiki-quinacridonemagenta'.",
+  "definition": "#9a114f",
+  "hex": "#9a114f",
+  "general": {
+    "hues": [
+      "rose"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 65.031,
+    "relativeLuminance": 0.078
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 7.5,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": true,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.9,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}
