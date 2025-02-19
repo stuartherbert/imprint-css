@@ -6,10 +6,12 @@ import ColorSwatch from "./ColorSwatch.astro";
 export interface Props {
     colorGroup: string;
     prefix?: string;
+    suffix?: string;
+    regex?: string;
     exclude?: string;
 }
 
-const { colorGroup, prefix, exclude } = Astro.props;
+const { colorGroup, prefix, suffix, regex, exclude } = Astro.props;
 
 // load the group
 const groupData = await getEntry("colorGroups", colorGroup);
@@ -19,6 +21,15 @@ if (groupData === undefined) {
 
 if (prefix) {
     groupData.data = groupData.data.filter((ref) => ref.id.startsWith(prefix + "-"));
+}
+
+if (suffix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.endsWith(suffix));
+}
+
+if (regex) {
+    const compRegex = new RegExp(regex);
+    groupData.data = groupData.data.filter((ref) => ref.id.match(compRegex));
 }
 
 if (exclude) {
