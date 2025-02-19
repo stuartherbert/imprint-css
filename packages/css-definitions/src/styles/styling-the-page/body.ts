@@ -53,10 +53,10 @@ DEFINITION_STORE.addStaticStyle(
                 newCssVar(
                     "--imprint-background-color",
                     {
-                        value: tailwindThemeColor(colorFromCollection("imprint-offwhite")),
+                        value: tailwindThemeColor(colorFromCollection("imprint-mistymorn")),
                         type: "color",
                         description: "default background color for the page",
-                        valueDescription: "imprint-offwhite",
+                        valueDescription: "imprint-mistymorn",
                     },
                 ),
             ),

@@ -38,7 +38,7 @@ import { IMPRINT_COLORS } from "../colors/imprint";
 
 export const DEFAULT_BG = makeCssColor(
     colorFromCollection(
-        "imprint-offwhite",
+        "imprint-mistymorn",
         { collection: IMPRINT_COLORS }
     )
 );
