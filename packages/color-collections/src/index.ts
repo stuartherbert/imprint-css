@@ -38,7 +38,6 @@ export { CSS_EXTENDED_COLORS } from "./colors/css";
 export { FLAT_COLORS } from "./colors/flat";
 export { GANBARO_COLORS } from "./colors/ganbaro";
 export { IMPRINT_COLORS } from "./colors/imprint";
-export { KM_COLORS } from "./colors/kevin-muldoon";
 export { MATERIAL_COLORS } from "./colors/material-design";
 export { MATMET_COLORS } from "./colors/material-ui-metro";
 export { METRO_COLORS } from "./colors/metro";
