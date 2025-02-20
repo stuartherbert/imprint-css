@@ -9,53 +9,79 @@ import Callout from "../../../components/Callouts/Callout.astro";
 import ColorLink from "../../../components/Colors/ColorLink.astro"
 import ExternalLink from "../../../components/ExternalLink.astro";
 import InternalLink from "../../../components/InternalLink.astro";
+import InternalLinkWithText from "../../../components/InternalLinkWithText.astro";
 
 import SectionNavigation from "../../../components/SectionNavigation.astro";
 
-# Colors
+## Introduction
 
-## What's In This Section?
+### What's In This Section?
 
-Imprint CSS includes over 1,500 named colors that you can use in Tailwind CSS v3 or import directly into your Javascript and Typescript projects. There's a dedicated page for each color collection (such as <InternalLink slug="colors/imprint-css-collection"/>), and a dedicated page for each individual color (such as <ColorLink colorName="imprint-blackgold"/>).
+Imprint CSS includes over 2,000 named colors that you can use in Tailwind CSS v3 or import directly into your Javascript and Typescript projects.
 
-<p className="p--leader">Color is one of the key tools we all use to personalise things. Whether it's company branding or just personal preference, choosing our own colors helps us feel like we've made something ours.</p>
+To stop that spiralling into madness [too late! - ed.], we've organised them into separate Color Collections. There's a dedicated page for each color collection (such as <InternalLink slug="colors/imprint-css-collection"/>), where you can see exactly what each color looks like as a series of artists' swatches.
+
+Every individual color (such as <ColorLink colorName="imprint-blackgold"/>) gets a dedicated page too. You can access those by clicking on the color swatches on our color collection pages.
+
+### Why Does Imprint CSS Ship With So Many Colors?
+
+In a world where so many physical products are only manufactured in the same drab and dull tones, color is more important than ever.
+
+Color is one of the key tools we all use to personalise things. Whether it's company branding or just personal preference, choosing our own colors helps us feel like we've made something ours.
 
 But it isn't just the ability to customise component colors that matters. Using colors from familiar palettes can help our work fit in to the ecosystem where it is going to be used. It helps our work look like it belongs.
 
-Imprint CSS ships with a large (and thoughly documented!) choice of color palettes right out of the box.
+These include several popular "ecosystem" color palettes, including colors familiar to
 
-These include:
+* <InternalLinkWithText slug="colors/apple-collection" text="Apple OSX / MacOS users"/>,
+* <InternalLinkWithText slug="colors/material-design-collection" text="Android / Google users"/>,
+* <InternalLinkWithText slug="colors/microsoft-design-language-collection" text="Microsoft users"/>,
+* <InternalLinkWithText slug="colors/bootstrap-collection" text="Bootstrap users"/>,
 
-* several pre-defined color palettes to select from, including colors familiar to [Apple OSX / MacOS users](apple-palette.html), [Android / Google users](material-design-palette.html), [Microsoft users](microsoft-palette.html), and more
-* access to a wide collection of [miscellaneous colors](misc-palette.html)
+and more.
 
-You can click on any color at any time to see full details on how to use the color, and our automated analysis of the color's properties.
+We also include a wide collection of <InternalLinkWithText slug="colors/wikipedia-collection" text="colors originally documented on Wikipedia"/>. If you're looking for seed colors for your next color theme, maybe you'll find inspiration there!
 
-## General Notes
+There is another reason why we're collecting as many colors as we can.
 
-### Accessibility and Contrast
+### Detailed Color Accessibility Analysis Of Every Single Color
 
-The [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/) from 2008 recommend that we use foreground / background color combinations with these contrast ratios:
+We want to document all these colors, so that we can quickly and easily understand which colors are accessible ... and which are not.
 
-Compliance Level | When | Contrast Ratio
------------------|------|------
-AA Compliant | normal text | >= 4.5:1
-AA Compliant | 18pt+ text | >= 3.1:1
-AAA Compliant | normal text | >= 7:1
-AAA Compliant | 18pt+ text | >= 4.5:1
+Color accessibility standards have been around for decades, but awareness and adoption is far from complete. That has to change. Did you know that color accessibility standards are becoming a legal requirement (depending on your target audience)?
 
-Anything less than this, and you're making your website hard-to-read for readers with visual impairments.
+(<InternalLinkWithText slug="colors/color-contrast" text="You can do a (very) deep dive into it here"/>.)
 
-Where possible, we've picked color combinations that are <em>at least</em> AA compliant for normal text. We say "where possible" because color contrast isn't that straight-forward:
+To help you make great color choices, every color's dedicated page includes:
 
-* Some colors were defined before accessibility guidelines were drawn up, and just don't offer enough contrast when used as a background.
-* The WCAG's contrast-ratio formula (which dates from a 1995 paper looking at CRT displays with a gamma point of 2.2) doesn't always produce pleasing results. We cross-check this with the luma channel from the [YIQ color space](https://en.wikipedia.org/wiki/YIQ), and use both results to decide on which foreground color to recommend.
+* a list of which accessibility standards it complies with (if any!),
+* clear guidance on what a color can be accessibly used for; and
+* visual examples of the color in use (so you can see if it's a tasteful color or not!)
 
-Affected colors come with a warning that they might not be the best choice as a background color.
+If there's any further information you think we could add to each color's dedicated page, let us know!
+
+### Our Definition Guarantee
+
+We're committed to keeping our color definitions the same once they have been published. We'll only change the color definitions:
+
+1. to fix clear errors in the definition (ie fix typos in the color definition), or
+2. if an "official" definition becomes available from the color's originator (e.g. ANSI publishes official RGB or CSS color definitions for the Safety colors).
+
+You can use these colors knowing that they're going to still exist long into the future.
+
+### Intellectual Property Disclaimer
+
+We believe that every color that ships in Imprint CSS is either available under an open / permissive license, or can be reasonably claimed under fair use. You'll find details about where we sourced the colors from on each of the color collection pages.
+
+Imprint CSS does not claim ownership on any of these colors (except <InternalLinkWithText slug="colors/imprint-css-collection" text="our own colors"/>). We acknowledge all trademarks, and only use them to document where each color came from.
+
+Be aware: intellectual property laws vary from country to country. There may be legal restrictions on when and how you can use these colors.
+
+## Discussion
 
 ### Grey or Gray?
 
-<p className="p--leader">Imprint CSS uses the spelling 'gray' everywhere (except for when we've lapsed back into British English by mistake!)</p>
+Imprint CSS uses the spelling 'gray' everywhere (except for when we've lapsed back into British English by mistake!).
 
 In English, there are two different spellings for the color grey:
 
@@ -72,13 +98,3 @@ In computing, _gray_ is the accepted spelling. ([Wikipedia says that this stems 
         <SectionNavigation navSection={frontmatter.navSection}/>
     </div>
 </div>
-
-### Our Definition Guarantee
-
-We're committed to keeping our color definitions the same once they have been published. We'll only change the color definitions:
-
-1. to fix clear errors in the definition (ie fix typos in the color definition), or
-2. if an "official" definition becomes available from the color's originator (e.g. ANSI publishes official RGB or CSS color definitions for the Safety colors).
-
-You can use these colors knowing that they're going to still exist long into the future.
-
