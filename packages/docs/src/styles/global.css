@@ -282,6 +282,15 @@ nav.pagetoc-ol {
     gap: 0.5rem;
 }
 
+.docs-inline-color-sample {
+    display: inline-block;
+    vertical-align: calc(-0.1em - 3px);
+    padding: 0.5em;
+    border: 1px solid var(--imprint-semantic-pre-border-color);
+    border-radius: 3px;
+    /* box-shadow: 1px 1px 1px var(--imprint-semantic-box-shadow-color); */
+}
+
 /* workarounds for Astro / Tailwind issues */
 .dummy-grid-cols-3 {
     @apply grid-cols-3;

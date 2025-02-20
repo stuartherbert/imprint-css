@@ -113,8 +113,10 @@ export default {
 
         "UK Gov Color Contrast": "https://accessibility.blog.gov.uk/2016/06/17/colour-contrast-why-does-it-matter/",
 
+        "W3C CSS Color Module Level 4 Named Colors": "https://www.w3.org/TR/css-color-4/#named-colors",
         "W3C CSS Media Queries": "https://drafts.csswg.org/mediaqueries",
         "W3C Content Accessibility Guide": "https://www.w3.org/TR/WCAG22/",
+        "W3C Software and Document License - 2023 Version": "https://www.w3.org/copyright/software-license-2023/",
         "W3C WCAG 2.2 Contrast Ratio": "https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio",
         "W3C WCAG 2.2 Large Text": "https://www.w3.org/TR/WCAG22/#dfn-large-scale",
         "W3C WCAG 2.2 Minimum Contrast Success Criterion": "https://www.w3.org/TR/WCAG22/#contrast-minimum",

@@ -1,6 +1,7 @@
 ---
 
 import { getEntry } from "astro:content";
+import InlineColorSample from "./InlineColorSample.astro";
 
 export interface Props {
     colorName: string;
@@ -17,5 +18,6 @@ if (entry === undefined) {
 
 ---
 
+<InlineColorSample colorName={colorName}/>
 {text && <span class="inline internal-link"><a class="imprint-link" href={"/colors/" + entry.id + fragment}>{text}</a></span>}
 {!text &&<span class="inline internal-link"><a class="imprint-link" href={"/colors/" + entry.id}><code class="doc-title">{entry.data.name}</code> (<code>{entry.data.definition}</code>)</a></span>}
