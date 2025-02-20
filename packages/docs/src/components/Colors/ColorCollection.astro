@@ -37,6 +37,9 @@ if (exclude) {
     groupData.data = groupData.data.filter((ref) => !excludePrefixes.some((prefix) => ref.id.startsWith(prefix + "-")));
 }
 
+// we need to sort the results!
+groupData.data.sort((a, b) => a.id < b.id ? -1 : a.id == b.id ? 0 : 1);
+
 ---
 
 <ColorSwatches>
