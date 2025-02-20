@@ -1,15 +1,46 @@
 ---
 title: CSS Extended Colors Collection
 navSection: Colors
-description: HTML's named colors.
+description: CSS's named colors.
 prev: colors/color-contrast
 next: colors/imprint-css-collection
 ---
 
+import Callout from "../../../components/Callouts/Callout.astro";
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
 import ColorCollectionBlocks from "../../../components/Colors/ColorCollectionBlocks.astro";
+import ColorLink from "../../../components/Colors/ColorLink.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
-SOMETHING HERE
+## Introduction
+
+### What Is The CSS Extended Colors Collection?
+
+The CSS Extended Colors Collection are all of the named colors that are supported directly in your browser.
+
+### Where Did These Colors Come From?
+
+These colors were taken from the official <ExternalLink name="W3C Color Module Level 4 Named Colors"/> list.
+
+According to the W3C, these colors are (mostly) a mix of the original VGA color palette and colors taken from X Windows. These colors were first adopted by SVG.
+
+### Warning About The CSS Extended Colors
+
+There's a note in the W3C CSS Color spec that's well worth reproducing here:
+
+<Callout icon="warning">
+These color names are standardized here [in the W3C CSS Colors spec], **not because they are good**, but because their use and implementation has been widespead for decades and the standard needs to reflect reality.
+
+Indeed, it is often hard to imagine what each name will look like (hence the list [in the spec]); the names are not evenly distributed throughout the sRGB color volume, the names are not even internally consistent (<ColorLink colorName="darkgray"/> is lighter than <ColorLink colorName="gray"/>, while <ColorLink colorName="lightpink"/> is darker than <ColorLink colorName="pink"/>), and some names (such as <ColorLink colorName="indianred"/>, which was originally named after a red pigment from India), have been found to be offensive.
+
+Thus, their use is **not encouraged**.
+</Callout>
+
+### Intellectual Property Disclaimer
+
+These colors were taken from the W3C spec. The spec itself is released under the <ExternalLink name="W3C Software and Document License - 2023 Version"/>.
+
+The Imprint CSS project claims no ownership of these colors.
 
 ## The Colors
 
