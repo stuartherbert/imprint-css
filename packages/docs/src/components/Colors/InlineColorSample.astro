@@ -1,0 +1,21 @@
+---
+
+import { getEntry } from "astro:content";
+
+export interface Props {
+    colorName: string;
+}
+
+const { colorName } = Astro.props;
+
+const colorData = await getEntry("colors", colorName);
+if (colorData === undefined) {
+    throw new Error("no such named color '" + colorName + "'");
+}
+const color = colorData.data;
+
+const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.pairings.background + " !important;";
+
+---
+
+<span class="docs-inline-color-sample" style={swatchStyle}></span>
