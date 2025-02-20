@@ -89,10 +89,11 @@ function processColor(colorGroupName, colorName, colorDefinition)
         ...analyseColor(cssColor)
     };
 
-    writeFile(colorFolorPrefix, colorName, colorAnalysis);
+    writeFile(colorFolderPrefix, colorName, colorAnalysis);
 
     // add the color to any remaining collections
     colorCollections[colorGroupName].push(colorName.toLowerCase());
+    colorGroupsCollections["all"].push(colorName.toLowerCase());
     colorAnalysis.general.hues.forEach(hue => {
         hueCollections[hue].push(colorName.toLowerCase());
     });
@@ -133,7 +134,7 @@ function processColorPalette(colorGroupName, paletteName, paletteDefinition)
 // shorthand
 const aliasFolderPrefix = "./src/data/colorAliases";
 const groupFolderPrefix = "./src/data/colorGroups";
-const colorFolorPrefix = "./src/data/colors";
+const colorFolderPrefix = "./src/data/colors";
 const paletteFolderPrefix = "./src/data/colorPalettes";
 const hueFolderPrefix = "./src/data/colorHues";
 
@@ -165,7 +166,9 @@ const hueCollections = {
     rose: [],
     pink: [],
 }
-const colorGroupsCollections = {};
+const colorGroupsCollections = {
+    all: [],
+};
 const colorCollections = {};
 const colorPaletteCollections = {};
 

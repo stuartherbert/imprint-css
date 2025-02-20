@@ -2,6 +2,10 @@
 import { getEntry } from "astro:content";
 import ColorSwatches from "./ColorSwatches.astro";
 import ColorSwatch from "./ColorSwatch.astro";
+import { natsort } from "natsort-esm";
+import { normalizeTheLocale } from "astro:i18n";
+
+const sorter = natsort();
 
 export interface Props {
     colorGroup: string;
@@ -9,9 +13,11 @@ export interface Props {
     suffix?: string;
     regex?: string;
     exclude?: string;
+    sort?: string;
+    startsWith?: string;
 }
 
-const { colorGroup, prefix, suffix, regex, exclude } = Astro.props;
+let { colorGroup, prefix, suffix, regex, exclude, sort, startsWith } = Astro.props;
 
 // load the group
 const groupData = await getEntry("colorGroups", colorGroup);
@@ -27,6 +33,12 @@ if (suffix) {
     groupData.data = groupData.data.filter((ref) => ref.id.endsWith(suffix));
 }
 
+// special case - we want all colors that start with a given letter
+if (startsWith) {
+    regex = `^${startsWith}[^-]+$|^[^-]+-${startsWith}.*`;
+    sort = "ignore-prefix";
+}
+
 if (regex) {
     const compRegex = new RegExp(regex);
     groupData.data = groupData.data.filter((ref) => ref.id.match(compRegex));
@@ -37,8 +49,35 @@ if (exclude) {
     groupData.data = groupData.data.filter((ref) => !excludePrefixes.some((prefix) => ref.id.startsWith(prefix + "-")));
 }
 
+function normaliseColorName(input: string)
+{
+    const parts = input.split("-");
+    if (parts.length === 1) {
+        return input;
+    }
+
+    const tmp = parts[1];
+    parts[1] = parts[0];
+    parts[0] = tmp;
+
+    return parts.join("-");
+}
+
 // we need to sort the results!
-groupData.data.sort((a, b) => a.id < b.id ? -1 : a.id == b.id ? 0 : 1);
+switch (sort) {
+    case "ignore-prefix":
+        groupData.data.sort(function (a, b) {
+            return sorter(
+                normaliseColorName(a.id),
+                normaliseColorName(b.id),
+            );
+        });
+        break;
+
+    default:
+        groupData.data.sort((a, b) => sorter(a.id, b.id));
+        break;
+}
 
 ---
 
