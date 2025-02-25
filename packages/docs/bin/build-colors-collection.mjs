@@ -86,6 +86,7 @@ function processColor(colorGroupName, colorName, colorDefinition)
 
         // additional color definitions
         oklch: cssColor.oklch().channelsData(),
+        cmyk: cssColor.cmyk().channelsData(),
 
         // detailed color analysis
         ...analyseColor(cssColor)

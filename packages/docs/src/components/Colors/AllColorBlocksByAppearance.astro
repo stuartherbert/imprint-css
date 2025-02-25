@@ -1,0 +1,60 @@
+---
+
+import { getCollection } from "astro:content";
+import { natsort } from "natsort-esm";
+import ColorBlock from "./ColorBlock.astro";
+
+const sorter = natsort();
+
+// load the group
+const allColorsData = await getCollection("colors");
+if (allColorsData === undefined) {
+    throw new Error("unable to load colors collection");
+}
+
+function normaliseColorName(input: string)
+{
+    const parts = input.split("-");
+    if (parts.length === 1) {
+        return 'AAA' + input;
+    }
+
+    const tmp = parts[1];
+    parts[1] = parts[0];
+    parts[0] = tmp;
+
+    return parts.join("-");
+}
+
+
+function sortByOklch(a, b) {
+    // normalise
+    const aCol = (a.data.oklch.hue / 3) + 1000 + Math.round((a.data.oklch.chroma * 100) / 5) + a.data.oklch.lightness;
+    const bCol = (b.data.oklch.hue / 3) + 1000 + Math.round((b.data.oklch.chroma * 100) / 5) + b.data.oklch.lightness;
+
+    if (aCol !== bCol) {
+        return aCol - bCol;
+    }
+
+    // at this point, we have two identical colors
+    return sorter(
+        normaliseColorName(a.id),
+        normaliseColorName(b.id),
+    );
+}
+
+// sort the group
+//
+// we cannot rely on Astro to return a sorted list
+const sortedColorsData = allColorsData.sort(sortByOklch);
+
+---
+
+    <!-- <div class="docs-color-swatches">
+        {sortedColorsData.map((colorData) => (
+            <ColorSwatch colorName={colorData.id}/>
+        ))}
+    </div> -->
+    {sortedColorsData.map((colorData) => (
+        <ColorBlock colorName={colorData.id}/>
+    ))}

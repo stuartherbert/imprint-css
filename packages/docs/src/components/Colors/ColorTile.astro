@@ -1,0 +1,22 @@
+---
+
+import { getEntry } from "astro:content";
+import InlineColorSample from "./InlineColorSample.astro";
+
+export interface Props {
+    colorName: string;
+}
+
+const { colorName } = Astro.props;
+
+const colorData = await getEntry("colors", colorName);
+if (colorData === undefined) {
+    throw new Error("no such named color '" + colorName + "'");
+}
+let lastLightness = 0;
+
+---
+
+{(colorData.data.oklch.lightness < lastLightness) && <br/>}
+<a href={"/colors/" + colorData.id}><InlineColorSample colorName={colorData.id}/></a>
+{lastLightness = colorData.data.oklch.lightness}
