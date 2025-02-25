@@ -29,8 +29,8 @@ function normaliseColorName(input: string)
 
 function sortByOklch(a, b) {
     // normalise
-    const aCol = (a.data.oklch.hue / 3) + 1000 + Math.round((a.data.oklch.chroma * 100) / 5) + a.data.oklch.lightness;
-    const bCol = (b.data.oklch.hue / 3) + 1000 + Math.round((b.data.oklch.chroma * 100) / 5) + b.data.oklch.lightness;
+    const aCol = Math.round((a.data.oklch.chroma * 1000) / 5) + Math.round((a.data.oklch.hue * 10) / 5) + a.data.oklch.lightness;
+    const bCol = Math.round((b.data.oklch.chroma * 1000) / 5) + Math.round((b.data.oklch.hue * 10) / 5) + b.data.oklch.lightness;
 
     if (aCol !== bCol) {
         return aCol - bCol;
