@@ -10,9 +10,7 @@
   "general": {
     "hues": [
       "gray",
-      "magenta",
-      "fuchsia",
-      "purple"
+      "rose"
     ],
     "tonality": "dark",
     "isDark": true,

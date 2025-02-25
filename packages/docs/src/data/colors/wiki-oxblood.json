@@ -9,6 +9,7 @@
   "hex": "#4a0000",
   "general": {
     "hues": [
+      "black",
       "red"
     ],
     "tonality": "dark",

@@ -9,7 +9,8 @@
   "hex": "#a45953",
   "general": {
     "hues": [
-      "red"
+      "red",
+      "brown"
     ],
     "tonality": "dark",
     "isDark": true,

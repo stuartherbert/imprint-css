@@ -33,8 +33,8 @@
 //
 
 import { makeCssColor } from "@safelytyped/css-color";
-import { colorFromCollection } from "../inspectors/colorFromCollection";
 import { IMPRINT_COLORS } from "../colors/imprint";
+import { colorFromCollection } from "../inspectors/colorFromCollection";
 
 export const DEFAULT_FG = makeCssColor(
     colorFromCollection(
@@ -42,3 +42,4 @@ export const DEFAULT_FG = makeCssColor(
         { collection: IMPRINT_COLORS }
     )
 );
+console.log(DEFAULT_FG);
