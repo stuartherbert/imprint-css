@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-magentadye'.",
+  "oklch": {
+    "lightness": 0.559144,
+    "chroma": 0.212956,
+    "hue": 354.768709,
+    "alpha": 1
+  },
   "definition": "#ca1f7b",
   "hex": "#ca1f7b",
   "general": {

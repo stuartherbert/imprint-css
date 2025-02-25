@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-canaryyellow'.",
+  "oklch": {
+    "lightness": 0.978353,
+    "chroma": 0.12444,
+    "hue": 108.495078,
+    "alpha": 1
+  },
   "definition": "#ff9",
   "hex": "#ffff99",
   "general": {

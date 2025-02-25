@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-lightgreen'.",
+  "oklch": {
+    "lightness": 0.725626,
+    "chroma": 0.153671,
+    "hue": 120.758527,
+    "alpha": 1
+  },
   "definition": "#99b433",
   "hex": "#99b433",
   "general": {

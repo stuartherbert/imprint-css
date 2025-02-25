@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-amber'.",
+  "oklch": {
+    "lightness": 0.862223,
+    "chroma": 0.167346,
+    "hue": 88.176539,
+    "alpha": 1
+  },
   "definition": "#ffca2a",
   "hex": "#ffca2a",
   "general": {

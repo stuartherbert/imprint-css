@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-satinsheengold'.",
+  "oklch": {
+    "lightness": 0.728744,
+    "chroma": 0.130483,
+    "hue": 86.58517,
+    "alpha": 1
+  },
   "definition": "#cba135",
   "hex": "#cba135",
   "general": {

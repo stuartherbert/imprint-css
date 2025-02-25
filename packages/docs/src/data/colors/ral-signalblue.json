@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-signalblue'.",
+  "oklch": {
+    "lightness": 0.427998,
+    "chroma": 0.109589,
+    "hue": 245.803257,
+    "alpha": 1
+  },
   "definition": "#005387",
   "hex": "#005387",
   "general": {

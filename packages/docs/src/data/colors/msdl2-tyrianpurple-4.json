@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-tyrianpurple-4'.",
+  "oklch": {
+    "lightness": 0.59897,
+    "chroma": 0.239514,
+    "hue": 10.14326,
+    "alpha": 1
+  },
   "definition": "#ea005e",
   "hex": "#ea005e",
   "general": {

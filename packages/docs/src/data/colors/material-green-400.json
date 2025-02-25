@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-400'.",
+  "oklch": {
+    "lightness": 0.718289,
+    "chroma": 0.141472,
+    "hue": 144.912351,
+    "alpha": 1
+  },
   "definition": "#66bb6a",
   "hex": "#66bb6a",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-kobe'.",
+  "oklch": {
+    "lightness": 0.429556,
+    "chroma": 0.128936,
+    "hue": 34.655035,
+    "alpha": 1
+  },
   "definition": "#882d17",
   "hex": "#882d17",
   "general": {

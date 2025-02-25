@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-rocketmetallic'.",
+  "oklch": {
+    "lightness": 0.610818,
+    "chroma": 0.024496,
+    "hue": 318.823314,
+    "alpha": 1
+  },
   "definition": "#8a7f8d",
   "hex": "#8a7f8d",
   "general": {

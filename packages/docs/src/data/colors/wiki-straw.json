@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-straw'.",
+  "oklch": {
+    "lightness": 0.872739,
+    "chroma": 0.128474,
+    "hue": 103.384714,
+    "alpha": 1
+  },
   "definition": "#e4d96f",
   "hex": "#e4d96f",
   "general": {

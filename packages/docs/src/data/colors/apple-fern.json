@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-fern'.",
+  "oklch": {
+    "lightness": 0.535716,
+    "chroma": 0.157036,
+    "hue": 135.204973,
+    "alpha": 1
+  },
   "definition": "#408000",
   "hex": "#408000",
   "general": {

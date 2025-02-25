@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-mossgreen'.",
+  "oklch": {
+    "lightness": 0.658268,
+    "chroma": 0.088343,
+    "hue": 120.560586,
+    "alpha": 1
+  },
   "definition": "#8a9a5b",
   "hex": "#8a9a5b",
   "general": {

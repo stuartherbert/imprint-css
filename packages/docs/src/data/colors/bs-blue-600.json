@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-600'.",
+  "oklch": {
+    "lightness": 0.491616,
+    "chroma": 0.190361,
+    "hue": 259.796889,
+    "alpha": 1
+  },
   "definition": "#0a58ca",
   "hex": "#0a58ca",
   "general": {

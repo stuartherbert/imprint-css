@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-mauve'.",
+  "oklch": {
+    "lightness": 0.825384,
+    "chroma": 0.120832,
+    "hue": 311.74701,
+    "alpha": 1
+  },
   "definition": "#e0afff",
   "hex": "#e0afff",
   "general": {

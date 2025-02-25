@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-fuchsiapurple'.",
+  "oklch": {
+    "lightness": 0.581247,
+    "chroma": 0.190743,
+    "hue": 357.634567,
+    "alpha": 1
+  },
   "definition": "#cc397b",
   "hex": "#cc397b",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-800'.",
+  "oklch": {
+    "lightness": 0.679944,
+    "chroma": 0.184589,
+    "hue": 48.205524,
+    "alpha": 1
+  },
   "definition": "#ef6c00",
   "hex": "#ef6c00",
   "general": {

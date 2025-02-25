@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ochre'.",
+  "oklch": {
+    "lightness": 0.649705,
+    "chroma": 0.140374,
+    "hue": 59.684863,
+    "alpha": 1
+  },
   "definition": "#cc7722",
   "hex": "#cc7722",
   "general": {

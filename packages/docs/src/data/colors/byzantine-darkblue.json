@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'byzantine-darkblue'.",
+  "oklch": {
+    "lightness": 0.315226,
+    "chroma": 0.054229,
+    "hue": 275.872155,
+    "alpha": 1
+  },
   "definition": "#2a2f4d",
   "hex": "#2a2f4d",
   "general": {

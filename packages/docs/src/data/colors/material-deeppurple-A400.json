@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-a400'.",
+  "oklch": {
+    "lightness": 0.514369,
+    "chroma": 0.284508,
+    "hue": 284.283027,
+    "alpha": 1
+  },
   "definition": "#651fff",
   "hex": "#651fff",
   "general": {

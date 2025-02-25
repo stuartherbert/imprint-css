@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-violetred'.",
+  "oklch": {
+    "lightness": 0.675875,
+    "chroma": 0.200538,
+    "hue": 355.50365,
+    "alpha": 1
+  },
   "definition": "#f0559c",
   "hex": "#f0559c",
   "general": {

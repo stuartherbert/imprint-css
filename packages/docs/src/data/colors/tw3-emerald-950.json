@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-emerald-950'.",
+  "oklch": {
+    "lightness": 0.262464,
+    "chroma": 0.048953,
+    "hue": 172.202308,
+    "alpha": 1
+  },
   "definition": "#022c22",
   "hex": "#022c22",
   "general": {

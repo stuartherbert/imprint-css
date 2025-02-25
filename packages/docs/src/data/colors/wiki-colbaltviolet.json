@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-colbaltviolet'.",
+  "oklch": {
+    "lightness": 0.521242,
+    "chroma": 0.136766,
+    "hue": 329.251311,
+    "alpha": 1
+  },
   "definition": "#93488f",
   "hex": "#93488f",
   "general": {

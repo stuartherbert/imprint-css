@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lavender'.",
+  "oklch": {
+    "lightness": 0.930898,
+    "chroma": 0.026792,
+    "hue": 285.867818,
+    "alpha": 1
+  },
   "definition": "#e6e6fa",
   "hex": "#e6e6fa",
   "general": {

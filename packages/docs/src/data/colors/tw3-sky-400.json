@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-sky-400'.",
+  "oklch": {
+    "lightness": 0.753484,
+    "chroma": 0.139082,
+    "hue": 232.751769,
+    "alpha": 1
+  },
   "definition": "#38bdf8",
   "hex": "#38bdf8",
   "general": {

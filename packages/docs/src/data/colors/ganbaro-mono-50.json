@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-mono-50'.",
+  "oklch": {
+    "lightness": 0.948863,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#eee",
   "hex": "#eeeeee",
   "general": {

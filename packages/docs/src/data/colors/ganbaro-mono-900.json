@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-mono-900'.",
+  "oklch": {
+    "lightness": 0,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#000",
   "hex": "#000000",
   "general": {

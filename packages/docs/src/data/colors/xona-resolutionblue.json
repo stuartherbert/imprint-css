@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-resolutionblue'.",
+  "oklch": {
+    "lightness": 0.321613,
+    "chroma": 0.16855,
+    "hue": 263.359493,
+    "alpha": 1
+  },
   "definition": "#002387",
   "hex": "#002387",
   "general": {

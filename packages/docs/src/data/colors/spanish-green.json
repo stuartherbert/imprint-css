@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-green'.",
+  "oklch": {
+    "lightness": 0.576659,
+    "chroma": 0.144626,
+    "hue": 154.273886,
+    "alpha": 1
+  },
   "definition": "#009150",
   "hex": "#009150",
   "general": {

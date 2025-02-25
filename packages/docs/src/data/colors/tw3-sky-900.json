@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-sky-900'.",
+  "oklch": {
+    "lightness": 0.391037,
+    "chroma": 0.084458,
+    "hue": 240.857939,
+    "alpha": 1
+  },
   "definition": "#0c4a6e",
   "hex": "#0c4a6e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-opaqueceleste'.",
+  "oklch": {
+    "lightness": 0.796015,
+    "chroma": 0.075395,
+    "hue": 195.742641,
+    "alpha": 1
+  },
   "definition": "#80cccc",
   "hex": "#80cccc",
   "general": {

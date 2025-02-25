@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-a700'.",
+  "oklch": {
+    "lightness": 0.704726,
+    "chroma": 0.199023,
+    "hue": 45.728369,
+    "alpha": 1
+  },
   "definition": "#ff6d00",
   "hex": "#ff6d00",
   "general": {

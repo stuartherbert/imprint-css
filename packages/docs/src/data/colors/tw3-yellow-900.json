@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-900'.",
+  "oklch": {
+    "lightness": 0.420928,
+    "chroma": 0.089628,
+    "hue": 57.672026,
+    "alpha": 1
+  },
   "definition": "#713f12",
   "hex": "#713f12",
   "general": {

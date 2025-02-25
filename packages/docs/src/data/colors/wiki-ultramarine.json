@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ultramarine'.",
+  "oklch": {
+    "lightness": 0.307382,
+    "chroma": 0.194457,
+    "hue": 268.491101,
+    "alpha": 1
+  },
   "definition": "#120a8f",
   "hex": "#120a8f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-700'.",
+  "oklch": {
+    "lightness": 0.564758,
+    "chroma": 0.163427,
+    "hue": 253.269615,
+    "alpha": 1
+  },
   "definition": "#1976d2",
   "hex": "#1976d2",
   "general": {

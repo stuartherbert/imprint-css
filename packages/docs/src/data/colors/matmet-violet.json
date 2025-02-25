@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-violet'.",
+  "oklch": {
+    "lightness": 0.581348,
+    "chroma": 0.298657,
+    "hue": 307.052023,
+    "alpha": 1
+  },
   "definition": "#a0f",
   "hex": "#aa00ff",
   "general": {

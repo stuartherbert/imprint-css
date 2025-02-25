@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green'.",
+  "oklch": {
+    "lightness": 0.847265,
+    "chroma": 0.116774,
+    "hue": 131.700363,
+    "alpha": 1
+  },
   "definition": "#b1dd8c",
   "hex": "#b1dd8c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mahoganybrown'.",
+  "oklch": {
+    "lightness": 0.328369,
+    "chroma": 0.052833,
+    "hue": 39.552083,
+    "alpha": 1
+  },
   "definition": "#4c2b20",
   "hex": "#4c2b20",
   "general": {

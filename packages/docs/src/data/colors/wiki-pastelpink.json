@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pastelpink'.",
+  "oklch": {
+    "lightness": 0.903406,
+    "chroma": 0.053353,
+    "hue": 2.202756,
+    "alpha": 1
+  },
   "definition": "#ffd1dc",
   "hex": "#ffd1dc",
   "general": {

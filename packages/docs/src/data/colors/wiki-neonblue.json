@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-neonblue'.",
+  "oklch": {
+    "lightness": 0.543566,
+    "chroma": 0.254216,
+    "hue": 273.951222,
+    "alpha": 1
+  },
   "definition": "#4d4dff",
   "hex": "#4d4dff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-shadedgray'.",
+  "oklch": {
+    "lightness": 0.945789,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#ededed",
   "hex": "#ededed",
   "general": {

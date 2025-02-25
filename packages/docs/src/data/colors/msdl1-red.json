@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-red'.",
+  "oklch": {
+    "lightness": 0.599917,
+    "chroma": 0.240362,
+    "hue": 28.711006,
+    "alpha": 1
+  },
   "definition": "#ee1111",
   "hex": "#ee1111",
   "general": {

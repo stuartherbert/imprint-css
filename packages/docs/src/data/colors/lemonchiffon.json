@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lemonchiffon'.",
+  "oklch": {
+    "lightness": 0.977616,
+    "chroma": 0.058078,
+    "hue": 102.034494,
+    "alpha": 1
+  },
   "definition": "#fffacd",
   "hex": "#fffacd",
   "general": {

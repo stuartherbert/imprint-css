@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-deepkoamaru-1'.",
+  "oklch": {
+    "lightness": 0.363024,
+    "chroma": 0.114276,
+    "hue": 282.418225,
+    "alpha": 1
+  },
   "definition": "#373277",
   "hex": "#373277",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darksalmon'.",
+  "oklch": {
+    "lightness": 0.750693,
+    "chroma": 0.108357,
+    "hue": 39.397247,
+    "alpha": 1
+  },
   "definition": "#e9967a",
   "hex": "#e9967a",
   "general": {

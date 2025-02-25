@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-orange'.",
+  "oklch": {
+    "lightness": 0.762922,
+    "chroma": 0.16265,
+    "hue": 69.389754,
+    "alpha": 1
+  },
   "definition": "#f39c12",
   "hex": "#f39c12",
   "general": {

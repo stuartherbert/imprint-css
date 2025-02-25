@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-mulberry'.",
+  "oklch": {
+    "lightness": 0.595249,
+    "chroma": 0.169658,
+    "hue": 350.47074,
+    "alpha": 1
+  },
   "definition": "#c54b8c",
   "hex": "#c54b8c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-eerieblack'.",
+  "oklch": {
+    "lightness": 0.222259,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#1b1b1b",
   "hex": "#1b1b1b",
   "general": {

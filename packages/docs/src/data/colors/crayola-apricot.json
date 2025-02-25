@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-apricot'.",
+  "oklch": {
+    "lightness": 0.897992,
+    "chroma": 0.0653,
+    "hue": 63.775448,
+    "alpha": 1
+  },
   "definition": "#fdd5b1",
   "hex": "#fdd5b1",
   "general": {

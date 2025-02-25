@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-midnightblue'.",
+  "oklch": {
+    "lightness": 0.323338,
+    "chroma": 0.102544,
+    "hue": 253.88518,
+    "alpha": 1
+  },
   "definition": "#003366",
   "hex": "#003366",
   "general": {

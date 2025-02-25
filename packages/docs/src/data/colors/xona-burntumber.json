@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-burntumber'.",
+  "oklch": {
+    "lightness": 0.442775,
+    "chroma": 0.122138,
+    "hue": 32.002215,
+    "alpha": 1
+  },
   "definition": "#8a3324",
   "hex": "#8a3324",
   "general": {

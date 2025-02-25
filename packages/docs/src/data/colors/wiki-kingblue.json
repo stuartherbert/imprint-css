@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-kingblue'.",
+  "oklch": {
+    "lightness": 0.439678,
+    "chroma": 0.090261,
+    "hue": 262.761438,
+    "alpha": 1
+  },
   "definition": "#375184",
   "hex": "#375184",
   "general": {

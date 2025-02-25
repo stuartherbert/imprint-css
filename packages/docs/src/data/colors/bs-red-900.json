@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-900'.",
+  "oklch": {
+    "lightness": 0.207454,
+    "chroma": 0.054812,
+    "hue": 17.775576,
+    "alpha": 1
+  },
   "definition": "#2c0b0e",
   "hex": "#2c0b0e",
   "general": {

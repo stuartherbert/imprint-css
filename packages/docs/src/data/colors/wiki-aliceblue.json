@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-aliceblue'.",
+  "oklch": {
+    "lightness": 0.841014,
+    "chroma": 0.062242,
+    "hue": 214.366683,
+    "alpha": 1
+  },
   "definition": "#9cd6e4",
   "hex": "#9cd6e4",
   "general": {

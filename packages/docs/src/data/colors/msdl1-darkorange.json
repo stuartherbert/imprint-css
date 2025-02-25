@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darkorange'.",
+  "oklch": {
+    "lightness": 0.616234,
+    "chroma": 0.177601,
+    "hue": 36.351139,
+    "alpha": 1
+  },
   "definition": "#da532c",
   "hex": "#da532c",
   "general": {

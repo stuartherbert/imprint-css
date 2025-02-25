@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'yale-blue'.",
+  "oklch": {
+    "lightness": 0.332611,
+    "chroma": 0.107204,
+    "hue": 254.373703,
+    "alpha": 1
+  },
   "definition": "#00356b",
   "hex": "#00356b",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-a200'.",
+  "oklch": {
+    "lightness": 0.672051,
+    "chroma": 0.228053,
+    "hue": 5.716769,
+    "alpha": 1
+  },
   "definition": "#ff4081",
   "hex": "#ff4081",
   "general": {

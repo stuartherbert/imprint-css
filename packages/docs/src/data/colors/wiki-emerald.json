@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-emerald'.",
+  "oklch": {
+    "lightness": 0.74498,
+    "chroma": 0.157472,
+    "hue": 151.569366,
+    "alpha": 1
+  },
   "definition": "#50c878",
   "hex": "#50c878",
   "general": {

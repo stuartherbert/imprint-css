@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-a700'.",
+  "oklch": {
+    "lightness": 0.863948,
+    "chroma": 0.220321,
+    "hue": 126.142815,
+    "alpha": 1
+  },
   "definition": "#aeea00",
   "hex": "#aeea00",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-mahogany'.",
+  "oklch": {
+    "lightness": 0.556993,
+    "chroma": 0.186886,
+    "hue": 25.382365,
+    "alpha": 1
+  },
   "definition": "#ca3435",
   "hex": "#ca3435",
   "general": {

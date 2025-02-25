@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-terracotta'.",
+  "oklch": {
+    "lightness": 0.631324,
+    "chroma": 0.184745,
+    "hue": 33.20532,
+    "alpha": 1
+  },
   "definition": "#e35336",
   "hex": "#e35336",
   "general": {

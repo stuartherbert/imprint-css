@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-800'.",
+  "oklch": {
+    "lightness": 0.550965,
+    "chroma": 0.13916,
+    "hue": 245.374184,
+    "alpha": 1
+  },
   "definition": "#0277bd",
   "hex": "#0277bd",
   "general": {

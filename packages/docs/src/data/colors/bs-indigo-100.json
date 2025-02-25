@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-100'.",
+  "oklch": {
+    "lightness": 0.882631,
+    "chroma": 0.063463,
+    "hue": 302.200566,
+    "alpha": 1
+  },
   "definition": "#e0cffc",
   "hex": "#e0cffc",
   "general": {

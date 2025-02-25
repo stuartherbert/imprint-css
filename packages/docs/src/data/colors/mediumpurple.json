@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumpurple'.",
+  "oklch": {
+    "lightness": 0.626734,
+    "chroma": 0.158159,
+    "hue": 296.619463,
+    "alpha": 1
+  },
   "definition": "#9370db",
   "hex": "#9370db",
   "general": {

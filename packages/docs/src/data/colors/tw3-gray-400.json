@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-400'.",
+  "oklch": {
+    "lightness": 0.713567,
+    "chroma": 0.019101,
+    "hue": 261.649428,
+    "alpha": 1
+  },
   "definition": "#9ca3af",
   "hex": "#9ca3af",
   "general": {

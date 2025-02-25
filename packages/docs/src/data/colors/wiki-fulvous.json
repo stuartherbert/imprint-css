@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-fulvous'.",
+  "oklch": {
+    "lightness": 0.702186,
+    "chroma": 0.161182,
+    "hue": 62.285649,
+    "alpha": 1
+  },
   "definition": "#e48400",
   "hex": "#e48400",
   "general": {

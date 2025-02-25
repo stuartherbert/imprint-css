@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-dropbox'.",
+  "oklch": {
+    "lightness": 0.592481,
+    "chroma": 0.180992,
+    "hue": 252.694923,
+    "alpha": 1
+  },
   "definition": "#007ee5",
   "hex": "#007ee5",
   "general": {

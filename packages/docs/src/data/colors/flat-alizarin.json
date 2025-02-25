@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-alizarin'.",
+  "oklch": {
+    "lightness": 0.630711,
+    "chroma": 0.194061,
+    "hue": 29.459597,
+    "alpha": 1
+  },
   "definition": "#e74c3c",
   "hex": "#e74c3c",
   "general": {

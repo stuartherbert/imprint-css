@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-coquelicot'.",
+  "oklch": {
+    "lightness": 0.649838,
+    "chroma": 0.237895,
+    "hue": 33.302155,
+    "alpha": 1
+  },
   "definition": "#ff3800",
   "hex": "#ff3800",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-a700'.",
+  "oklch": {
+    "lightness": 0.562244,
+    "chroma": 0.240461,
+    "hue": 264.422488,
+    "alpha": 1
+  },
   "definition": "#2962ff",
   "hex": "#2962ff",
   "general": {

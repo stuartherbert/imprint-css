@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-desertsand'.",
+  "oklch": {
+    "lightness": 0.859823,
+    "chroma": 0.053827,
+    "hue": 57.823595,
+    "alpha": 1
+  },
   "definition": "#edc9af",
   "hex": "#edc9af",
   "general": {

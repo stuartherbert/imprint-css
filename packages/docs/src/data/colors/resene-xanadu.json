@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-xanadu'.",
+  "oklch": {
+    "lightness": 0.600295,
+    "chroma": 0.030134,
+    "hue": 153.74139,
+    "alpha": 1
+  },
   "definition": "#738678",
   "hex": "#738678",
   "general": {

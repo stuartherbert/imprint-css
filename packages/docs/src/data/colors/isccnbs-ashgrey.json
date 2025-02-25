@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-ashgrey'.",
+  "oklch": {
+    "lightness": 0.789515,
+    "chroma": 0.018154,
+    "hue": 153.682296,
+    "alpha": 1
+  },
   "definition": "#b2beb5",
   "hex": "#b2beb5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-lime'.",
+  "oklch": {
+    "lightness": 0.913301,
+    "chroma": 0.19373,
+    "hue": 132.980535,
+    "alpha": 1
+  },
   "definition": "#aefd6c",
   "hex": "#aefd6c",
   "general": {

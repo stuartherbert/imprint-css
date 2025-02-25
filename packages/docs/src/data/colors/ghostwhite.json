@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ghostwhite'.",
+  "oklch": {
+    "lightness": 0.981429,
+    "chroma": 0.009115,
+    "hue": 286.230582,
+    "alpha": 1
+  },
   "definition": "#f8f8ff",
   "hex": "#f8f8ff",
   "general": {

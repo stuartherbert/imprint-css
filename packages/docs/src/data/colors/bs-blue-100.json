@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-100'.",
+  "oklch": {
+    "lightness": 0.907679,
+    "chroma": 0.044779,
+    "hue": 258.96918,
+    "alpha": 1
+  },
   "definition": "#cfe2ff",
   "hex": "#cfe2ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'powderblue'.",
+  "oklch": {
+    "lightness": 0.874822,
+    "chroma": 0.050178,
+    "hue": 205.928446,
+    "alpha": 1
+  },
   "definition": "#b0e0e6",
   "hex": "#b0e0e6",
   "general": {

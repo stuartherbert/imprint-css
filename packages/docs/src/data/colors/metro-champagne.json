@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-champagne'.",
+  "oklch": {
+    "lightness": 0.931415,
+    "chroma": 0.041397,
+    "hue": 80.245667,
+    "alpha": 1
+  },
   "definition": "#f7e6ca",
   "hex": "#f7e6ca",
   "general": {

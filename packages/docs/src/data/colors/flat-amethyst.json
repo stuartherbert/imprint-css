@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-amethyst'.",
+  "oklch": {
+    "lightness": 0.577233,
+    "chroma": 0.15258,
+    "hue": 315.313316,
+    "alpha": 1
+  },
   "definition": "#9b59b6",
   "hex": "#9b59b6",
   "general": {

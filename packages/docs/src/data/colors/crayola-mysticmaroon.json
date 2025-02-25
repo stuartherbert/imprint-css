@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-mysticmaroon'.",
+  "oklch": {
+    "lightness": 0.542339,
+    "chroma": 0.149858,
+    "hue": 351.510785,
+    "alpha": 1
+  },
   "definition": "#ad4379",
   "hex": "#ad4379",
   "general": {

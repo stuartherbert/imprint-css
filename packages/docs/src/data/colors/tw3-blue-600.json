@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-600'.",
+  "oklch": {
+    "lightness": 0.546119,
+    "chroma": 0.215421,
+    "hue": 262.894521,
+    "alpha": 1
+  },
   "definition": "#2563eb",
   "hex": "#2563eb",
   "general": {

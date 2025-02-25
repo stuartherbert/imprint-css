@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-900'.",
+  "oklch": {
+    "lightness": 0.421399,
+    "chroma": 0.156933,
+    "hue": 259.934829,
+    "alpha": 1
+  },
   "definition": "#0d47a1",
   "hex": "#0d47a1",
   "general": {

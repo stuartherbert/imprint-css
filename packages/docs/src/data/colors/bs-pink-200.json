@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink-200'.",
+  "oklch": {
+    "lightness": 0.818721,
+    "chroma": 0.087706,
+    "hue": 347.660134,
+    "alpha": 1
+  },
   "definition": "#efadce",
   "hex": "#efadce",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bu-scarlet'.",
+  "oklch": {
+    "lightness": 0.530762,
+    "chroma": 0.2178,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#cc0000",
   "hex": "#cc0000",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-electricblue'.",
+  "oklch": {
+    "lightness": 0.912908,
+    "chroma": 0.111237,
+    "hue": 199.697698,
+    "alpha": 1
+  },
   "definition": "#7df9ff",
   "hex": "#7df9ff",
   "general": {

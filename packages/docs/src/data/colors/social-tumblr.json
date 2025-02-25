@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-tumblr'.",
+  "oklch": {
+    "lightness": 0.38935,
+    "chroma": 0.045568,
+    "hue": 254.667242,
+    "alpha": 1
+  },
   "definition": "#34465d",
   "hex": "#34465d",
   "general": {

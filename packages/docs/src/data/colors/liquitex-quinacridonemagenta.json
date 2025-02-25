@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'liquitex-quinacridonemagenta'.",
+  "oklch": {
+    "lightness": 0.47157,
+    "chroma": 0.118645,
+    "hue": 359.557246,
+    "alpha": 1
+  },
   "definition": "#8e3a59",
   "hex": "#8e3a59",
   "general": {

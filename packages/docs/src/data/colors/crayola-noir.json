@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-noir'.",
+  "oklch": {
+    "lightness": 0.401651,
+    "chroma": 0.012078,
+    "hue": 213.006754,
+    "alpha": 1
+  },
   "definition": "#414a4c",
   "hex": "#414a4c",
   "general": {

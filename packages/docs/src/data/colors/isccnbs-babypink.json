@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-babypink'.",
+  "oklch": {
+    "lightness": 0.858316,
+    "chroma": 0.057382,
+    "hue": 18.33147,
+    "alpha": 1
+  },
   "definition": "#f4c2c2",
   "hex": "#f4c2c2",
   "general": {

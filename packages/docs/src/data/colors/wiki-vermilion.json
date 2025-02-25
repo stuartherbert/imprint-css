@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-vermilion'.",
+  "oklch": {
+    "lightness": 0.612858,
+    "chroma": 0.199889,
+    "hue": 29.150017,
+    "alpha": 1
+  },
   "definition": "#e34234",
   "hex": "#e34234",
   "general": {

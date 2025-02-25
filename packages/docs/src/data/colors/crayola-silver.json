@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-silver'.",
+  "oklch": {
+    "lightness": 0.813667,
+    "chroma": 0.012345,
+    "hue": 52.028806,
+    "alpha": 1
+  },
   "definition": "#c9c0bb",
   "hex": "#c9c0bb",
   "general": {

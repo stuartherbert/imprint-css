@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-yinmnblue'.",
+  "oklch": {
+    "lightness": 0.531766,
+    "chroma": 0.147803,
+    "hue": 258.334054,
+    "alpha": 1
+  },
   "definition": "#306ac0",
   "hex": "#306ac0",
   "general": {

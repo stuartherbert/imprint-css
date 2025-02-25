@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-rosetaupe'.",
+  "oklch": {
+    "lightness": 0.53418,
+    "chroma": 0.067237,
+    "hue": 19.521758,
+    "alpha": 1
+  },
   "definition": "#905d5d",
   "hex": "#905d5d",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-windsor-3'.",
+  "oklch": {
+    "lightness": 0.545116,
+    "chroma": 0.153432,
+    "hue": 291.281243,
+    "alpha": 1
+  },
   "definition": "#735bc1",
   "hex": "#735bc1",
   "general": {

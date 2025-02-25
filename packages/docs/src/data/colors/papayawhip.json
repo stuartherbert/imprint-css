@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'papayawhip'.",
+  "oklch": {
+    "lightness": 0.957936,
+    "chroma": 0.038304,
+    "hue": 79.946015,
+    "alpha": 1
+  },
   "definition": "#ffefd5",
   "hex": "#ffefd5",
   "general": {

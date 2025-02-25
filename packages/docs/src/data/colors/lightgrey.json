@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightgrey'.",
+  "oklch": {
+    "lightness": 0.866509,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#d3d3d3",
   "hex": "#d3d3d3",
   "general": {

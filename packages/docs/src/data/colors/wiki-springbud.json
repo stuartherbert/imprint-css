@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-springbud'.",
+  "oklch": {
+    "lightness": 0.901599,
+    "chroma": 0.242708,
+    "hue": 130.014218,
+    "alpha": 1
+  },
   "definition": "#a7fc00",
   "hex": "#a7fc00",
   "general": {

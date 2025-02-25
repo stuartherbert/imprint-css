@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-hollywoodcerise'.",
+  "oklch": {
+    "lightness": 0.637437,
+    "chroma": 0.265778,
+    "hue": 350.187484,
+    "alpha": 1
+  },
   "definition": "#f400a1",
   "hex": "#f400a1",
   "general": {

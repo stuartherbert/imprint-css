@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-100'.",
+  "oklch": {
+    "lightness": 0.87109,
+    "chroma": 0.047173,
+    "hue": 189.517246,
+    "alpha": 1
+  },
   "definition": "#b2dfdb",
   "hex": "#b2dfdb",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-fandango'.",
+  "oklch": {
+    "lightness": 0.544041,
+    "chroma": 0.18705,
+    "hue": 344.587944,
+    "alpha": 1
+  },
   "definition": "#b53389",
   "hex": "#b53389",
   "general": {

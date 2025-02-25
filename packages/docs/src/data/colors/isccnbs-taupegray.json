@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-taupegray'.",
+  "oklch": {
+    "lightness": 0.62338,
+    "chroma": 0.008962,
+    "hue": 338.18624,
+    "alpha": 1
+  },
   "definition": "#8b8589",
   "hex": "#8b8589",
   "general": {

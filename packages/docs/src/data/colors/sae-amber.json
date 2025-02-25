@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'sae-amber'.",
+  "oklch": {
+    "lightness": 0.728855,
+    "chroma": 0.187078,
+    "hue": 52.142556,
+    "alpha": 1
+  },
   "definition": "#ff7e00",
   "hex": "#ff7e00",
   "general": {

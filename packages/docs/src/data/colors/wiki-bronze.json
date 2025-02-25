@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bronze'.",
+  "oklch": {
+    "lightness": 0.666111,
+    "chroma": 0.131563,
+    "hue": 61.283853,
+    "alpha": 1
+  },
   "definition": "#cd7f32",
   "hex": "#cd7f32",
   "general": {

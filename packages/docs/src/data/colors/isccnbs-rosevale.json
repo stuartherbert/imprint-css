@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-rosevale'.",
+  "oklch": {
+    "lightness": 0.543019,
+    "chroma": 0.122375,
+    "hue": 19.36347,
+    "alpha": 1
+  },
   "definition": "#ab4e52",
   "hex": "#ab4e52",
   "general": {

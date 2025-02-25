@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-scarletgum-4'.",
+  "oklch": {
+    "lightness": 0.459717,
+    "chroma": 0.201649,
+    "hue": 322.118961,
+    "alpha": 1
+  },
   "definition": "#881798",
   "hex": "#881798",
   "general": {

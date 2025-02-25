@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-900'.",
+  "oklch": {
+    "lightness": 0.398236,
+    "chroma": 0.066378,
+    "hue": 227.252988,
+    "alpha": 1
+  },
   "definition": "#164e63",
   "hex": "#164e63",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-emerald-700'.",
+  "oklch": {
+    "lightness": 0.50842,
+    "chroma": 0.105098,
+    "hue": 165.525684,
+    "alpha": 1
+  },
   "definition": "#047857",
   "hex": "#047857",
   "general": {

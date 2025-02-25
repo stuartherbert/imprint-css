@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'prussian-blue'.",
+  "oklch": {
+    "lightness": 0.303303,
+    "chroma": 0.077784,
+    "hue": 245.876013,
+    "alpha": 1
+  },
   "definition": "#003153",
   "hex": "#003153",
   "general": {

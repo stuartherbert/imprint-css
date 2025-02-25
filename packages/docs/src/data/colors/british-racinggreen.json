@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'british-racinggreen'.",
+  "oklch": {
+    "lightness": 0.33373,
+    "chroma": 0.07955,
+    "hue": 156.939215,
+    "alpha": 1
+  },
   "definition": "#004225",
   "hex": "#004225",
   "general": {

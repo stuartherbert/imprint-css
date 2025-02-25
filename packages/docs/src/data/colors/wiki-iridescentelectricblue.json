@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-iridescentelectricblue'.",
+  "oklch": {
+    "lightness": 0.498708,
+    "chroma": 0.278156,
+    "hue": 269.350743,
+    "alpha": 1
+  },
   "definition": "#3137fd",
   "hex": "#3137fd",
   "general": {

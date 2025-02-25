@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-darkliver'.",
+  "oklch": {
+    "lightness": 0.421903,
+    "chroma": 0.012363,
+    "hue": 345.048722,
+    "alpha": 1
+  },
   "definition": "#534b4f",
   "hex": "#534b4f",
   "general": {

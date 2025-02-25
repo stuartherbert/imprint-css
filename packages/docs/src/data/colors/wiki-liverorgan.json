@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-liverorgan'.",
+  "oklch": {
+    "lightness": 0.384321,
+    "chroma": 0.092707,
+    "hue": 34.656246,
+    "alpha": 1
+  },
   "definition": "#6c2e1f",
   "hex": "#6c2e1f",
   "general": {

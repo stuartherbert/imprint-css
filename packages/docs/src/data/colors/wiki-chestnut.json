@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chestnut'.",
+  "oklch": {
+    "lightness": 0.490054,
+    "chroma": 0.111316,
+    "hue": 32.860033,
+    "alpha": 1
+  },
   "definition": "#954535",
   "hex": "#954535",
   "general": {

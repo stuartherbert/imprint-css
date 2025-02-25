@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-pearlypurple'.",
+  "oklch": {
+    "lightness": 0.624991,
+    "chroma": 0.124774,
+    "hue": 337.803255,
+    "alpha": 1
+  },
   "definition": "#b768a2",
   "hex": "#b768a2",
   "general": {

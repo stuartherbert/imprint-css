@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-500'.",
+  "oklch": {
+    "lightness": 0.658014,
+    "chroma": 0.169055,
+    "hue": 248.832454,
+    "alpha": 1
+  },
   "definition": "#2196f3",
   "hex": "#2196f3",
   "general": {

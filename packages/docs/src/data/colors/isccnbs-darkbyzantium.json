@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-darkbyzantium'.",
+  "oklch": {
+    "lightness": 0.397618,
+    "chroma": 0.064579,
+    "hue": 336.653386,
+    "alpha": 1
+  },
   "definition": "#5d3954",
   "hex": "#5d3954",
   "general": {

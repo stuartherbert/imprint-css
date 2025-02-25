@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-blastoffbronze'.",
+  "oklch": {
+    "lightness": 0.598885,
+    "chroma": 0.069488,
+    "hue": 34.607598,
+    "alpha": 1
+  },
   "definition": "#a57164",
   "hex": "#a57164",
   "general": {

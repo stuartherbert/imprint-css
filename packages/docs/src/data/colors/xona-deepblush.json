@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-deepblush'.",
+  "oklch": {
+    "lightness": 0.700145,
+    "chroma": 0.140229,
+    "hue": 1.745793,
+    "alpha": 1
+  },
   "definition": "#e47698",
   "hex": "#e47698",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-50'.",
+  "oklch": {
+    "lightness": 0.970579,
+    "chroma": 0.014177,
+    "hue": 253.890577,
+    "alpha": 1
+  },
   "definition": "#eff6ff",
   "hex": "#eff6ff",
   "general": {

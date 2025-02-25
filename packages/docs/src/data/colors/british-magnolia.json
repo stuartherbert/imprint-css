@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'british-magnolia'.",
+  "oklch": {
+    "lightness": 0.934409,
+    "chroma": 0.025144,
+    "hue": 81.359227,
+    "alpha": 1
+  },
   "definition": "#f2e8d7",
   "hex": "#f2e8d7",
   "general": {

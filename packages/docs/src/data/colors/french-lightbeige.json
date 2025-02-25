@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-lightbeige'.",
+  "oklch": {
+    "lightness": 0.7598,
+    "chroma": 0.068859,
+    "hue": 80.569066,
+    "alpha": 1
+  },
   "definition": "#c8ad7f",
   "hex": "#c8ad7f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-cyan-600'.",
+  "oklch": {
+    "lightness": 0.682414,
+    "chroma": 0.118015,
+    "hue": 209.980877,
+    "alpha": 1
+  },
   "definition": "#00acc1",
   "hex": "#00acc1",
   "general": {

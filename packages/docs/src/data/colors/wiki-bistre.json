@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bistre'.",
+  "oklch": {
+    "lightness": 0.306941,
+    "chroma": 0.033532,
+    "hue": 54.981316,
+    "alpha": 1
+  },
   "definition": "#3d2b1f",
   "hex": "#3d2b1f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cadmiumred'.",
+  "oklch": {
+    "lightness": 0.576565,
+    "chroma": 0.234098,
+    "hue": 25.61796,
+    "alpha": 1
+  },
   "definition": "#e30022",
   "hex": "#e30022",
   "general": {

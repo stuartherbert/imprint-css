@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxpink'.",
+  "oklch": {
+    "lightness": 0.779821,
+    "chroma": 0.052108,
+    "hue": 7.794839,
+    "alpha": 1
+  },
   "definition": "#d6aab1",
   "hex": "#d6aab1",
   "general": {

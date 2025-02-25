@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'egyptian-blue'.",
+  "oklch": {
+    "lightness": 0.389355,
+    "chroma": 0.186154,
+    "hue": 264.71366,
+    "alpha": 1
+  },
   "definition": "#1034a6",
   "hex": "#1034a6",
   "general": {

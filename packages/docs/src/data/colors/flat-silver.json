@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-silver'.",
+  "oklch": {
+    "lightness": 0.813767,
+    "chroma": 0.008667,
+    "hue": 234.807884,
+    "alpha": 1
+  },
   "definition": "#bdc3c7",
   "hex": "#bdc3c7",
   "general": {

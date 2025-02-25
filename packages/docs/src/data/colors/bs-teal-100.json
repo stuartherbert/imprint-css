@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-100'.",
+  "oklch": {
+    "lightness": 0.940191,
+    "chroma": 0.037664,
+    "hue": 175.869809,
+    "alpha": 1
+  },
   "definition": "#d2f4ea",
   "hex": "#d2f4ea",
   "general": {

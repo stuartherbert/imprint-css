@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mahogany'.",
+  "oklch": {
+    "lightness": 0.548537,
+    "chroma": 0.173895,
+    "hue": 39.509929,
+    "alpha": 1
+  },
   "definition": "#c04000",
   "hex": "#c04000",
   "general": {

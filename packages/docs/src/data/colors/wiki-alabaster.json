@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-alabaster'.",
+  "oklch": {
+    "lightness": 0.936695,
+    "chroma": 0.013922,
+    "hue": 94.091934,
+    "alpha": 1
+  },
   "definition": "#edeae0",
   "hex": "#edeae0",
   "general": {

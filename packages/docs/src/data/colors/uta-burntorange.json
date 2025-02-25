@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'uta-burntorange'.",
+  "oklch": {
+    "lightness": 0.577691,
+    "chroma": 0.154553,
+    "hue": 49.180286,
+    "alpha": 1
+  },
   "definition": "#bf5700",
   "hex": "#bf5700",
   "general": {

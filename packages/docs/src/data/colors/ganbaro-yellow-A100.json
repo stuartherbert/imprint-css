@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-yellow-a100'.",
+  "oklch": {
+    "lightness": 0.965367,
+    "chroma": 0.122028,
+    "hue": 105.403002,
+    "alpha": 1
+  },
   "definition": "#fff995",
   "hex": "#fff995",
   "general": {

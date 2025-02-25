@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-tan'.",
+  "oklch": {
+    "lightness": 0.797774,
+    "chroma": 0.12347,
+    "hue": 55.336251,
+    "alpha": 1
+  },
   "definition": "#faa76c",
   "hex": "#faa76c",
   "general": {

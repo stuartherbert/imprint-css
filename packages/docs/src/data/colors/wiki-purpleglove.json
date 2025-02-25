@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-purpleglove'.",
+  "oklch": {
+    "lightness": 0.516012,
+    "chroma": 0.178316,
+    "hue": 296.249681,
+    "alpha": 1
+  },
   "definition": "#7449c0",
   "hex": "#7449c0",
   "general": {

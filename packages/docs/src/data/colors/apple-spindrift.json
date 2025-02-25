@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-spindrift'.",
+  "oklch": {
+    "lightness": 0.904661,
+    "chroma": 0.149298,
+    "hue": 167.720462,
+    "alpha": 1
+  },
   "definition": "#6fc",
   "hex": "#66ffcc",
   "general": {

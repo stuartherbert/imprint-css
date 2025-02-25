@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'antiquewhite'.",
+  "oklch": {
+    "lightness": 0.946815,
+    "chroma": 0.03112,
+    "hue": 75.764486,
+    "alpha": 1
+  },
   "definition": "#faebd7",
   "hex": "#faebd7",
   "general": {

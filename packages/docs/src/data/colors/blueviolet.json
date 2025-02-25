@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'blueviolet'.",
+  "oklch": {
+    "lightness": 0.533726,
+    "chroma": 0.250158,
+    "hue": 301.367274,
+    "alpha": 1
+  },
   "definition": "#8a2be2",
   "hex": "#8a2be2",
   "general": {

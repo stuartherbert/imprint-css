@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-200'.",
+  "oklch": {
+    "lightness": 0.765812,
+    "chroma": 0.127541,
+    "hue": 359.009105,
+    "alpha": 1
+  },
   "definition": "#f48fb1",
   "hex": "#f48fb1",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green-a100'.",
+  "oklch": {
+    "lightness": 0.810047,
+    "chroma": 0.082441,
+    "hue": 147.804675,
+    "alpha": 1
+  },
   "definition": "#9dd0a3",
   "hex": "#9dd0a3",
   "general": {

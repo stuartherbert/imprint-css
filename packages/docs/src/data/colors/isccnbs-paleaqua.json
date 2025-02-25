@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-paleaqua'.",
+  "oklch": {
+    "lightness": 0.856516,
+    "chroma": 0.033864,
+    "hue": 244.291807,
+    "alpha": 1
+  },
   "definition": "#bed3e5",
   "hex": "#bed3e5",
   "general": {

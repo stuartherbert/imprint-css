@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tomato'.",
+  "oklch": {
+    "lightness": 0.696134,
+    "chroma": 0.195603,
+    "hue": 32.33315,
+    "alpha": 1
+  },
   "definition": "#ff6347",
   "hex": "#ff6347",
   "general": {

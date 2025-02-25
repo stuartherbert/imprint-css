@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cambridge-blue'.",
+  "oklch": {
+    "lightness": 0.719666,
+    "chroma": 0.05608,
+    "hue": 162.317645,
+    "alpha": 1
+  },
   "definition": "#85b09a",
   "hex": "#85b09a",
   "general": {

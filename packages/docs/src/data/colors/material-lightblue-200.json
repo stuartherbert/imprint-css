@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-200'.",
+  "oklch": {
+    "lightness": 0.830579,
+    "chroma": 0.096806,
+    "hue": 229.122158,
+    "alpha": 1
+  },
   "definition": "#81d4fa",
   "hex": "#81d4fa",
   "general": {

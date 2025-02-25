@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-bistre'.",
+  "oklch": {
+    "lightness": 0.549721,
+    "chroma": 0.055197,
+    "hue": 73.880118,
+    "alpha": 1
+  },
   "definition": "#856d4d",
   "hex": "#856d4d",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-flirt'.",
+  "oklch": {
+    "lightness": 0.470788,
+    "chroma": 0.197434,
+    "hue": 348.57865,
+    "alpha": 1
+  },
   "definition": "#a2006d",
   "hex": "#a2006d",
   "general": {

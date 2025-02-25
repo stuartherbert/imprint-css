@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-splashedwhite'.",
+  "oklch": {
+    "lightness": 0.995274,
+    "chroma": 0.002882,
+    "hue": 308.428682,
+    "alpha": 1
+  },
   "definition": "#fefdff",
   "hex": "#fefdff",
   "general": {

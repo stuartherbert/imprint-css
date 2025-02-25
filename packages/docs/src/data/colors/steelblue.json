@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'steelblue'.",
+  "oklch": {
+    "lightness": 0.588187,
+    "chroma": 0.099273,
+    "hue": 245.754132,
+    "alpha": 1
+  },
   "definition": "#4682b4",
   "hex": "#4682b4",
   "general": {

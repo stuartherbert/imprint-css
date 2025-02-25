@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-100'.",
+  "oklch": {
+    "lightness": 0.921055,
+    "chroma": 0.068625,
+    "hue": 77.349036,
+    "alpha": 1
+  },
   "definition": "#ffe0b2",
   "hex": "#ffe0b2",
   "general": {

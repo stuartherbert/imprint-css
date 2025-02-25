@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-indigo'.",
+  "oklch": {
+    "lightness": 0.473837,
+    "chroma": 0.300547,
+    "hue": 273.857137,
+    "alpha": 1
+  },
   "definition": "#4000ff",
   "hex": "#4000ff",
   "general": {

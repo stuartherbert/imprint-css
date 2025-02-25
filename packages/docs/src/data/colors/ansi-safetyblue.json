@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ansi-safetyblue'.",
+  "oklch": {
+    "lightness": 0.392363,
+    "chroma": 0.128308,
+    "hue": 254.799357,
+    "alpha": 1
+  },
   "definition": "#004488",
   "hex": "#004488",
   "general": {

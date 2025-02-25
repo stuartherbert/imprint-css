@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-snapchat'.",
+  "oklch": {
+    "lightness": 0.961645,
+    "chroma": 0.208421,
+    "hue": 108.85876,
+    "alpha": 1
+  },
   "definition": "#fffc00",
   "hex": "#fffc00",
   "general": {

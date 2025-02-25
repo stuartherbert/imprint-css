@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-queenblue'.",
+  "oklch": {
+    "lightness": 0.516997,
+    "chroma": 0.080617,
+    "hue": 250.622628,
+    "alpha": 1
+  },
   "definition": "#436b95",
   "hex": "#436b95",
   "general": {

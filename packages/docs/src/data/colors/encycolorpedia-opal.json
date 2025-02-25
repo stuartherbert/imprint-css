@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-opal'.",
+  "oklch": {
+    "lightness": 0.795135,
+    "chroma": 0.030943,
+    "hue": 177.781867,
+    "alpha": 1
+  },
   "definition": "#a8c3bc",
   "hex": "#a8c3bc",
   "general": {

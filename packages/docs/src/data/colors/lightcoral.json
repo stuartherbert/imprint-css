@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightcoral'.",
+  "oklch": {
+    "lightness": 0.7246,
+    "chroma": 0.137673,
+    "hue": 21.026781,
+    "alpha": 1
+  },
   "definition": "#f08080",
   "hex": "#f08080",
   "general": {

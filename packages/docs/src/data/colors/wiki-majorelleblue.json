@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-majorelleblue'.",
+  "oklch": {
+    "lightness": 0.530406,
+    "chroma": 0.20468,
+    "hue": 281.967855,
+    "alpha": 1
+  },
   "definition": "#6050dc",
   "hex": "#6050dc",
   "general": {

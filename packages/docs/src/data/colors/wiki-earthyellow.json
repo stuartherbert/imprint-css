@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-earthyellow'.",
+  "oklch": {
+    "lightness": 0.772181,
+    "chroma": 0.112595,
+    "hue": 72.54766,
+    "alpha": 1
+  },
   "definition": "#e1a95f",
   "hex": "#e1a95f",
   "general": {

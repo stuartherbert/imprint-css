@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-ocean'.",
+  "oklch": {
+    "lightness": 0.376325,
+    "chroma": 0.122549,
+    "hue": 254.67761,
+    "alpha": 1
+  },
   "definition": "#004080",
   "hex": "#004080",
   "general": {

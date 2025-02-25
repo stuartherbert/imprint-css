@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-terracotta'.",
+  "oklch": {
+    "lightness": 0.677267,
+    "chroma": 0.144362,
+    "hue": 32.918936,
+    "alpha": 1
+  },
   "definition": "#e2725b",
   "hex": "#e2725b",
   "general": {

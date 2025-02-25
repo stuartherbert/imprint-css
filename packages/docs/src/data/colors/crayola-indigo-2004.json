@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-indigo-2004'.",
+  "oklch": {
+    "lightness": 0.586555,
+    "chroma": 0.133317,
+    "hue": 269.597251,
+    "alpha": 1
+  },
   "definition": "#5d76cb",
   "hex": "#5d76cb",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-orange-600'.",
+  "oklch": {
+    "lightness": 0.704838,
+    "chroma": 0.162761,
+    "hue": 61.625381,
+    "alpha": 1
+  },
   "definition": "#e68400",
   "hex": "#e68400",
   "general": {

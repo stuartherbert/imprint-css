@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-steelpink'.",
+  "oklch": {
+    "lightness": 0.613107,
+    "chroma": 0.245824,
+    "hue": 328.071382,
+    "alpha": 1
+  },
   "definition": "#c3c",
   "hex": "#cc33cc",
   "general": {

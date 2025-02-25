@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-500'.",
+  "oklch": {
+    "lightness": 0.655642,
+    "chroma": 0.211778,
+    "hue": 354.271765,
+    "alpha": 1
+  },
   "definition": "#ec4899",
   "hex": "#ec4899",
   "general": {

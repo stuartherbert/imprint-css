@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ivory'.",
+  "oklch": {
+    "lightness": 0.995965,
+    "chroma": 0.019674,
+    "hue": 106.751504,
+    "alpha": 1
+  },
   "definition": "#fffff0",
   "hex": "#fffff0",
   "general": {

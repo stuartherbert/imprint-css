@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-shadowblue'.",
+  "oklch": {
+    "lightness": 0.630281,
+    "chroma": 0.045583,
+    "hue": 255.235078,
+    "alpha": 1
+  },
   "definition": "#778ba5",
   "hex": "#778ba5",
   "general": {

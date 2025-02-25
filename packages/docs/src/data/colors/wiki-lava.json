@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lava'.",
+  "oklch": {
+    "lightness": 0.542347,
+    "chroma": 0.214361,
+    "hue": 26.085027,
+    "alpha": 1
+  },
   "definition": "#cf1020",
   "hex": "#cf1020",
   "general": {

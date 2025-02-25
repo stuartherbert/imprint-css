@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-fungreen-5'.",
+  "oklch": {
+    "lightness": 0.772079,
+    "chroma": 0.168859,
+    "hue": 156.437188,
+    "alpha": 1
+  },
   "definition": "#38d487",
   "hex": "#38d487",
   "general": {

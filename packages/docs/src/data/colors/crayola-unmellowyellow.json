@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-unmellowyellow'.",
+  "oklch": {
+    "lightness": 0.972323,
+    "chroma": 0.171321,
+    "hue": 109.203605,
+    "alpha": 1
+  },
   "definition": "#ff6",
   "hex": "#ffff66",
   "general": {

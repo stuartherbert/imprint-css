@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'berkeley-blue'.",
+  "oklch": {
+    "lightness": 0.317449,
+    "chroma": 0.097984,
+    "hue": 253.032307,
+    "alpha": 1
+  },
   "definition": "#003262",
   "hex": "#003262",
   "general": {

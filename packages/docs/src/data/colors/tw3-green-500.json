@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-green-500'.",
+  "oklch": {
+    "lightness": 0.723051,
+    "chroma": 0.192082,
+    "hue": 149.591542,
+    "alpha": 1
+  },
   "definition": "#22c55e",
   "hex": "#22c55e",
   "general": {

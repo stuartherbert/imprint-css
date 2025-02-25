@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ebony'.",
+  "oklch": {
+    "lightness": 0.467345,
+    "chroma": 0.022945,
+    "hue": 133.714154,
+    "alpha": 1
+  },
   "definition": "#555d50",
   "hex": "#555d50",
   "general": {

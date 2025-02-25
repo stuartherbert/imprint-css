@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-ecru'.",
+  "oklch": {
+    "lightness": 0.989186,
+    "chroma": 0.039109,
+    "hue": 107.093698,
+    "alpha": 1
+  },
   "definition": "#fefee0",
   "hex": "#fefee0",
   "general": {

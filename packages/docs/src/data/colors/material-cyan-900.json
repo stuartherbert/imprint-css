@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-cyan-900'.",
+  "oklch": {
+    "lightness": 0.444076,
+    "chroma": 0.075495,
+    "hue": 199.874878,
+    "alpha": 1
+  },
   "definition": "#006064",
   "hex": "#006064",
   "general": {

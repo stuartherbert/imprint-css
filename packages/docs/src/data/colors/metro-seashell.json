@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-seashell'.",
+  "oklch": {
+    "lightness": 0.966412,
+    "chroma": 0.020168,
+    "hue": 57.867379,
+    "alpha": 1
+  },
   "definition": "#fff1e7",
   "hex": "#fff1e7",
   "general": {

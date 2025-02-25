@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-iridescentindigo'.",
+  "oklch": {
+    "lightness": 0.446947,
+    "chroma": 0.22557,
+    "hue": 275.055756,
+    "alpha": 1
+  },
   "definition": "#3c32cd",
   "hex": "#3c32cd",
   "general": {

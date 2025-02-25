@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-finn'.",
+  "oklch": {
+    "lightness": 0.406723,
+    "chroma": 0.111535,
+    "hue": 327.384259,
+    "alpha": 1
+  },
   "definition": "#683068",
   "hex": "#683068",
   "general": {

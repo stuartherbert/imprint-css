@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-400'.",
+  "oklch": {
+    "lightness": 0.873755,
+    "chroma": 0.160244,
+    "hue": 114.294892,
+    "alpha": 1
+  },
   "definition": "#d4e157",
   "hex": "#d4e157",
   "general": {

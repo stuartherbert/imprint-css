@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-keylime'.",
+  "oklch": {
+    "lightness": 0.936078,
+    "chroma": 0.128869,
+    "hue": 114.303211,
+    "alpha": 1
+  },
   "definition": "#e8f48c",
   "hex": "#e8f48c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-pastelpink'.",
+  "oklch": {
+    "lightness": 0.775022,
+    "chroma": 0.067913,
+    "hue": 19.906987,
+    "alpha": 1
+  },
   "definition": "#dea5a4",
   "hex": "#dea5a4",
   "general": {

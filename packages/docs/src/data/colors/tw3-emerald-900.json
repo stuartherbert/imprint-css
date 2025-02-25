@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-emerald-900'.",
+  "oklch": {
+    "lightness": 0.378132,
+    "chroma": 0.073116,
+    "hue": 168.79704,
+    "alpha": 1
+  },
   "definition": "#064e3b",
   "hex": "#064e3b",
   "general": {

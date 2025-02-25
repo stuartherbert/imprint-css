@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pearl'.",
+  "oklch": {
+    "lightness": 0.908149,
+    "chroma": 0.033757,
+    "hue": 87.687564,
+    "alpha": 1
+  },
   "definition": "#eae0c8",
   "hex": "#eae0c8",
   "general": {

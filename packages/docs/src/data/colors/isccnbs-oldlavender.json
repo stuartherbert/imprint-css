@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-oldlavender'.",
+  "oklch": {
+    "lightness": 0.5391,
+    "chroma": 0.032272,
+    "hue": 327.889857,
+    "alpha": 1
+  },
   "definition": "#796878",
   "hex": "#796878",
   "general": {

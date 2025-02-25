@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'greenyellow'.",
+  "oklch": {
+    "lightness": 0.912985,
+    "chroma": 0.233544,
+    "hue": 130.03526,
+    "alpha": 1
+  },
   "definition": "#adff2f",
   "hex": "#adff2f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-copperpenny'.",
+  "oklch": {
+    "lightness": 0.605785,
+    "chroma": 0.080031,
+    "hue": 25.586202,
+    "alpha": 1
+  },
   "definition": "#ad6f69",
   "hex": "#ad6f69",
   "general": {

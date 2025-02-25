@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-eminence'.",
+  "oklch": {
+    "lightness": 0.427879,
+    "chroma": 0.141151,
+    "hue": 315.968846,
+    "alpha": 1
+  },
   "definition": "#6c3082",
   "hex": "#6c3082",
   "general": {

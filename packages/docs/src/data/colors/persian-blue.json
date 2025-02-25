@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-blue'.",
+  "oklch": {
+    "lightness": 0.423156,
+    "chroma": 0.204411,
+    "hue": 266.472203,
+    "alpha": 1
+  },
   "definition": "#1c39bb",
   "hex": "#1c39bb",
   "general": {

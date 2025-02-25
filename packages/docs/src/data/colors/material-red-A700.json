@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-a700'.",
+  "oklch": {
+    "lightness": 0.548074,
+    "chroma": 0.224904,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#d50000",
   "hex": "#d50000",
   "general": {

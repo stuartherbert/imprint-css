@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-wisteria'.",
+  "oklch": {
+    "lightness": 0.763082,
+    "chroma": 0.095121,
+    "hue": 314.847316,
+    "alpha": 1
+  },
   "definition": "#c9a0dc",
   "hex": "#c9a0dc",
   "general": {

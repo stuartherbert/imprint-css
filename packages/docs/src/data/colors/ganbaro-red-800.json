@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-800'.",
+  "oklch": {
+    "lightness": 0.460628,
+    "chroma": 0.170073,
+    "hue": 27.697642,
+    "alpha": 1
+  },
   "definition": "#a21b19",
   "hex": "#a21b19",
   "general": {

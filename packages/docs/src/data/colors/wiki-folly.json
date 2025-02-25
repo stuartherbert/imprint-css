@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-folly'.",
+  "oklch": {
+    "lightness": 0.634352,
+    "chroma": 0.25393,
+    "hue": 17.083249,
+    "alpha": 1
+  },
   "definition": "#ff004f",
   "hex": "#ff004f",
   "general": {

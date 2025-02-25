@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-blogger'.",
+  "oklch": {
+    "lightness": 0.713528,
+    "chroma": 0.17894,
+    "hue": 53.951893,
+    "alpha": 1
+  },
   "definition": "#f57d00",
   "hex": "#f57d00",
   "general": {

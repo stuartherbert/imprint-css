@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'hungarian-green'.",
+  "oklch": {
+    "lightness": 0.505188,
+    "chroma": 0.068475,
+    "hue": 150.437093,
+    "alpha": 1
+  },
   "definition": "#477050",
   "hex": "#477050",
   "general": {

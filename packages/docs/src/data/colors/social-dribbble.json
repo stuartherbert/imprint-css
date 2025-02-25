@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-dribbble'.",
+  "oklch": {
+    "lightness": 0.651632,
+    "chroma": 0.199557,
+    "hue": 0.754235,
+    "alpha": 1
+  },
   "definition": "#ea4c89",
   "hex": "#ea4c89",
   "general": {

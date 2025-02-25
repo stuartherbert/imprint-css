@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-vividviolet'.",
+  "oklch": {
+    "lightness": 0.567322,
+    "chroma": 0.296614,
+    "hue": 303.785789,
+    "alpha": 1
+  },
   "definition": "#9f00ff",
   "hex": "#9f00ff",
   "general": {

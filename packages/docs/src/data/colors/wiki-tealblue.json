@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tealblue'.",
+  "oklch": {
+    "lightness": 0.529053,
+    "chroma": 0.070658,
+    "hue": 220.210214,
+    "alpha": 1
+  },
   "definition": "#367588",
   "hex": "#367588",
   "general": {

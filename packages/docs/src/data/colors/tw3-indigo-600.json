@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-indigo-600'.",
+  "oklch": {
+    "lightness": 0.510779,
+    "chroma": 0.2299,
+    "hue": 276.965773,
+    "alpha": 1
+  },
   "definition": "#4f46e5",
   "hex": "#4f46e5",
   "general": {

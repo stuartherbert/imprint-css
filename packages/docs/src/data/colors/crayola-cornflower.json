@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-cornflower'.",
+  "oklch": {
+    "lightness": 0.81646,
+    "chroma": 0.07253,
+    "hue": 231.751528,
+    "alpha": 1
+  },
   "definition": "#93ccea",
   "hex": "#93ccea",
   "general": {

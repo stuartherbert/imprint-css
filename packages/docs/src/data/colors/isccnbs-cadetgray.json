@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-cadetgray'.",
+  "oklch": {
+    "lightness": 0.705593,
+    "chroma": 0.027733,
+    "hue": 239.493922,
+    "alpha": 1
+  },
   "definition": "#91a3b0",
   "hex": "#91a3b0",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-coolgray'.",
+  "oklch": {
+    "lightness": 0.671233,
+    "chroma": 0.070559,
+    "hue": 284.339297,
+    "alpha": 1
+  },
   "definition": "#9090c0",
   "hex": "#9090c0",
   "general": {

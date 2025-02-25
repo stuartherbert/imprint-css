@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-olive'.",
+  "oklch": {
+    "lightness": 0.686001,
+    "chroma": 0.149538,
+    "hue": 109.769232,
+    "alpha": 1
+  },
   "definition": "#a1a100",
   "hex": "#a1a100",
   "general": {

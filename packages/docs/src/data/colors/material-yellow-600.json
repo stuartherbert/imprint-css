@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-yellow-600'.",
+  "oklch": {
+    "lightness": 0.888187,
+    "chroma": 0.169694,
+    "hue": 95.268787,
+    "alpha": 1
+  },
   "definition": "#fdd835",
   "hex": "#fdd835",
   "general": {

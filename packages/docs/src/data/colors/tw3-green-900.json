@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-green-900'.",
+  "oklch": {
+    "lightness": 0.3921,
+    "chroma": 0.089601,
+    "hue": 152.522156,
+    "alpha": 1
+  },
   "definition": "#14532d",
   "hex": "#14532d",
   "general": {

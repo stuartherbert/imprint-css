@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightsteelblue'.",
+  "oklch": {
+    "lightness": 0.813821,
+    "chroma": 0.042898,
+    "hue": 254.868239,
+    "alpha": 1
+  },
   "definition": "#b0c4de",
   "hex": "#b0c4de",
   "general": {

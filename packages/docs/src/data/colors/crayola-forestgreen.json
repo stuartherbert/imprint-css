@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-forestgreen'.",
+  "oklch": {
+    "lightness": 0.668053,
+    "chroma": 0.102198,
+    "hue": 153.559851,
+    "alpha": 1
+  },
   "definition": "#5fa777",
   "hex": "#5fa777",
   "general": {

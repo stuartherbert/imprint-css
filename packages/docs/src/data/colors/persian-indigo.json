@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-indigo'.",
+  "oklch": {
+    "lightness": 0.311958,
+    "chroma": 0.157701,
+    "hue": 287.06431,
+    "alpha": 1
+  },
   "definition": "#32127a",
   "hex": "#32127a",
   "general": {

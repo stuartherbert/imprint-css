@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-700'.",
+  "oklch": {
+    "lightness": 0.519863,
+    "chroma": 0.093609,
+    "hue": 223.167075,
+    "alpha": 1
+  },
   "definition": "#0e7490",
   "hex": "#0e7490",
   "general": {

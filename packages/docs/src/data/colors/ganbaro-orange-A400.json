@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-orange-a400'.",
+  "oklch": {
+    "lightness": 0.706168,
+    "chroma": 0.163557,
+    "hue": 61.301236,
+    "alpha": 1
+  },
   "definition": "#e78400",
   "hex": "#e78400",
   "general": {

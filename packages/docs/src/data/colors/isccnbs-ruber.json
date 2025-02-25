@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-ruber'.",
+  "oklch": {
+    "lightness": 0.596031,
+    "chroma": 0.17542,
+    "hue": 2.381289,
+    "alpha": 1
+  },
   "definition": "#ce4676",
   "hex": "#ce4676",
   "general": {

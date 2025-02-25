@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-mauve'.",
+  "oklch": {
+    "lightness": 0.526558,
+    "chroma": 0.069578,
+    "hue": 308.191418,
+    "alpha": 1
+  },
   "definition": "#76608a",
   "hex": "#76608a",
   "general": {

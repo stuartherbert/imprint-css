@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-lighthotpink'.",
+  "oklch": {
+    "lightness": 0.850909,
+    "chroma": 0.103159,
+    "hue": 344.494936,
+    "alpha": 1
+  },
   "definition": "#ffb3de",
   "hex": "#ffb3de",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mimipink'.",
+  "oklch": {
+    "lightness": 0.923574,
+    "chroma": 0.045272,
+    "hue": 351.563833,
+    "alpha": 1
+  },
   "definition": "#ffdae9",
   "hex": "#ffdae9",
   "general": {

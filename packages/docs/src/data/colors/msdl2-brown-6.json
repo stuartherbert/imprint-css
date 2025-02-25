@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-brown-6'.",
+  "oklch": {
+    "lightness": 0.892207,
+    "chroma": 0.120821,
+    "hue": 86.06157,
+    "alpha": 1
+  },
   "definition": "#ffd679",
   "hex": "#ffd679",
   "general": {

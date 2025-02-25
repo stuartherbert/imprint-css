@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-800'.",
+  "oklch": {
+    "lightness": 0.489549,
+    "chroma": 0.186816,
+    "hue": 2.514013,
+    "alpha": 1
+  },
   "definition": "#ad1457",
   "hex": "#ad1457",
   "general": {

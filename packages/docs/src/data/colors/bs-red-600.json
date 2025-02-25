@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-600'.",
+  "oklch": {
+    "lightness": 0.502405,
+    "chroma": 0.169426,
+    "hue": 20.912562,
+    "alpha": 1
+  },
   "definition": "#b02a37",
   "hex": "#b02a37",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-gray'.",
+  "oklch": {
+    "lightness": 0.805663,
+    "chroma": 0.008611,
+    "hue": 278.60184,
+    "alpha": 1
+  },
   "definition": "#bebfc5",
   "hex": "#bebfc5",
   "general": {

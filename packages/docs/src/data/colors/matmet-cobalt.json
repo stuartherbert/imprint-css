@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-cobalt'.",
+  "oklch": {
+    "lightness": 0.509227,
+    "chroma": 0.246095,
+    "hue": 262.548543,
+    "alpha": 1
+  },
   "definition": "#0050ef",
   "hex": "#0050ef",
   "general": {

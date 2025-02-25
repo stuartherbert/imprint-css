@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-soundcloud'.",
+  "oklch": {
+    "lightness": 0.646321,
+    "chroma": 0.240916,
+    "hue": 32.615065,
+    "alpha": 1
+  },
   "definition": "#f30",
   "hex": "#ff3300",
   "general": {

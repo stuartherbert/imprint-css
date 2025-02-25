@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'stanford-cardinalred'.",
+  "oklch": {
+    "lightness": 0.413483,
+    "chroma": 0.153448,
+    "hue": 27.244811,
+    "alpha": 1
+  },
   "definition": "#8c1515",
   "hex": "#8c1515",
   "general": {

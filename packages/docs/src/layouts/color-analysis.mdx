@@ -4,18 +4,18 @@ colorName: placeholder
 
 export let colorDetails = {}
 
-import BasicExample from "../components/CodeExamples/BasicExample.astro"
-import Callout from "../components/Callouts/Callout.astro"
+import Callout from "../components/Callouts/Callout.astro";
+import BasicExample from "../components/CodeExamples/BasicExample.astro";
 import ColorAliases from "../components/Colors/ColorAliases.astro";
-import ColorSwatchShowcase from "../components/Colors/ColorSwatchShowcase.astro";
-import ColorLink from "../components/Colors/ColorLink.astro";
 import ColorExample from "../components/Colors/ColorExample.astro";
+import ColorLink from "../components/Colors/ColorLink.astro";
+import ColorSwatchShowcase from "../components/Colors/ColorSwatchShowcase.astro";
 
-import ExpandVars from "../components/ExpandVars.astro"
-import ExternalLink from "../components/ExternalLink.astro";
-import InternalLink from "../components/InternalLink.astro";
 import AccessibilitySummary from "../components/Colors/AccessibilitySummary.astro";
 import AccessibilityTable from "../components/Colors/AccessibilityTable.astro";
+import ExpandVars from "../components/ExpandVars.astro";
+import ExternalLink from "../components/ExternalLink.astro";
+import InternalLink from "../components/InternalLink.astro";
 
 import { Code } from 'astro:components';
 import PhixLight from "../../phix-light.json";
@@ -48,6 +48,10 @@ Here is a summary of the named color <code>{colorDetails.data.name}</code>.
     <tr>
         <th>Hex Value</th>
         <td><code>{colorDetails.data.hex.toUpperCase()}</code></td>
+    </tr>
+    <tr>
+        <th>OKLCH</th>
+        <td><code>oklch({colorDetails.data.oklch.lightness} {colorDetails.data.oklch.chroma} {colorDetails.data.oklch.hue})</code></td>
     </tr>
     <tr>
         <th>WCAG Relative Luminance (0-1)[^1]</th>

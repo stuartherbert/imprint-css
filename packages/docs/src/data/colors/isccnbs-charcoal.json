@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-charcoal'.",
+  "oklch": {
+    "lightness": 0.381714,
+    "chroma": 0.025753,
+    "hue": 237.307091,
+    "alpha": 1
+  },
   "definition": "#36454f",
   "hex": "#36454f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-100'.",
+  "oklch": {
+    "lightness": 0.885649,
+    "chroma": 0.062262,
+    "hue": 38.204148,
+    "alpha": 1
+  },
   "definition": "#ffccbc",
   "hex": "#ffccbc",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'palegoldenrod'.",
+  "oklch": {
+    "lightness": 0.921096,
+    "chroma": 0.079758,
+    "hue": 103.285946,
+    "alpha": 1
+  },
   "definition": "#eee8aa",
   "hex": "#eee8aa",
   "general": {

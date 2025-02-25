@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-aureolin'.",
+  "oklch": {
+    "lightness": 0.931077,
+    "chroma": 0.197503,
+    "hue": 104.955611,
+    "alpha": 1
+  },
   "definition": "#fdee00",
   "hex": "#fdee00",
   "general": {

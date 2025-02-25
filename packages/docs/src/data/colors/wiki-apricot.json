@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-apricot'.",
+  "oklch": {
+    "lightness": 0.883061,
+    "chroma": 0.064055,
+    "hue": 54.63278,
+    "alpha": 1
+  },
   "definition": "#fbceb1",
   "hex": "#fbceb1",
   "general": {

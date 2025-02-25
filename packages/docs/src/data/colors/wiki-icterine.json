@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-icterine'.",
+  "oklch": {
+    "lightness": 0.95293,
+    "chroma": 0.169915,
+    "hue": 107.484534,
+    "alpha": 1
+  },
   "definition": "#fcf75e",
   "hex": "#fcf75e",
   "general": {

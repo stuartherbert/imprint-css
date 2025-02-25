@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-giantsorange'.",
+  "oklch": {
+    "lightness": 0.68066,
+    "chroma": 0.210035,
+    "hue": 38.019931,
+    "alpha": 1
+  },
   "definition": "#fe5a1d",
   "hex": "#fe5a1d",
   "general": {

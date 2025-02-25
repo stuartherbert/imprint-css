@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-900'.",
+  "oklch": {
+    "lightness": 0.536321,
+    "chroma": 0.179824,
+    "hue": 35.389783,
+    "alpha": 1
+  },
   "definition": "#bf360c",
   "hex": "#bf360c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ceruleanblue'.",
+  "oklch": {
+    "lightness": 0.477389,
+    "chroma": 0.175735,
+    "hue": 264.92251,
+    "alpha": 1
+  },
   "definition": "#2a52be",
   "hex": "#2a52be",
   "general": {

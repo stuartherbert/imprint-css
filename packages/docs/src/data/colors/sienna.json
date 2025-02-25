@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'sienna'.",
+  "oklch": {
+    "lightness": 0.526485,
+    "chroma": 0.114951,
+    "hue": 44.774011,
+    "alpha": 1
+  },
   "definition": "#a0522d",
   "hex": "#a0522d",
   "general": {

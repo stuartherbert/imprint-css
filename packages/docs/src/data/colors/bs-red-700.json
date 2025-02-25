@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-700'.",
+  "oklch": {
+    "lightness": 0.410242,
+    "chroma": 0.1346,
+    "hue": 20.703092,
+    "alpha": 1
+  },
   "definition": "#842029",
   "hex": "#842029",
   "general": {

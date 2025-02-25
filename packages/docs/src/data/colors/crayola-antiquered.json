@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-antiquered'.",
+  "oklch": {
+    "lightness": 0.406478,
+    "chroma": 0.139067,
+    "hue": 17.074039,
+    "alpha": 1
+  },
   "definition": "#841b2d",
   "hex": "#841b2d",
   "general": {

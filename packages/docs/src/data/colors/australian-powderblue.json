@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'australian-powderblue'.",
+  "oklch": {
+    "lightness": 0.846092,
+    "chroma": 0.026994,
+    "hue": 242.710851,
+    "alpha": 1
+  },
   "definition": "#becfdd",
   "hex": "#becfdd",
   "general": {

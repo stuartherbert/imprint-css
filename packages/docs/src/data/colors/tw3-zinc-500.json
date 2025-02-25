@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-500'.",
+  "oklch": {
+    "lightness": 0.551517,
+    "chroma": 0.013693,
+    "hue": 285.942248,
+    "alpha": 1
+  },
   "definition": "#71717a",
   "hex": "#71717a",
   "general": {

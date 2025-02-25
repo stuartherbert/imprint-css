@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-amaranthred'.",
+  "oklch": {
+    "lightness": 0.602025,
+    "chroma": 0.217267,
+    "hue": 16.828872,
+    "alpha": 1
+  },
   "definition": "#e52b50",
   "hex": "#e52b50",
   "general": {

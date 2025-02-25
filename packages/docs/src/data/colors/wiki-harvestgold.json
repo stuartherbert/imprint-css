@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-harvestgold'.",
+  "oklch": {
+    "lightness": 0.712873,
+    "chroma": 0.151456,
+    "hue": 73.500913,
+    "alpha": 1
+  },
   "definition": "#da9100",
   "hex": "#da9100",
   "general": {

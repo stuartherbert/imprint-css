@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-sunsetorange'.",
+  "oklch": {
+    "lightness": 0.688803,
+    "chroma": 0.195791,
+    "hue": 27.419918,
+    "alpha": 1
+  },
   "definition": "#fd5e53",
   "hex": "#fd5e53",
   "general": {

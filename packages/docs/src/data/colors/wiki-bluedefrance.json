@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bluedefrance'.",
+  "oklch": {
+    "lightness": 0.631994,
+    "chroma": 0.160848,
+    "hue": 252.021957,
+    "alpha": 1
+  },
   "definition": "#318ce7",
   "hex": "#318ce7",
   "general": {

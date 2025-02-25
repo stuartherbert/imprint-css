@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-300'.",
+  "oklch": {
+    "lightness": 0.809225,
+    "chroma": 0.09553,
+    "hue": 251.635154,
+    "alpha": 1
+  },
   "definition": "#93c5fd",
   "hex": "#93c5fd",
   "general": {

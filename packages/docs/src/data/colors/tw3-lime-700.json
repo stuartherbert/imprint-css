@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-700'.",
+  "oklch": {
+    "lightness": 0.532043,
+    "chroma": 0.140419,
+    "hue": 131.573317,
+    "alpha": 1
+  },
   "definition": "#4d7c0f",
   "hex": "#4d7c0f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-silverchalice'.",
+  "oklch": {
+    "lightness": 0.744829,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#acacac",
   "hex": "#acacac",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-saddlebrown-3'.",
+  "oklch": {
+    "lightness": 0.585429,
+    "chroma": 0.168808,
+    "hue": 42.365024,
+    "alpha": 1
+  },
   "definition": "#ca5010",
   "hex": "#ca5010",
   "general": {

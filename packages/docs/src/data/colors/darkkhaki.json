@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkkhaki'.",
+  "oklch": {
+    "lightness": 0.767642,
+    "chroma": 0.09803,
+    "hue": 104.604324,
+    "alpha": 1
+  },
   "definition": "#bdb76b",
   "hex": "#bdb76b",
   "general": {

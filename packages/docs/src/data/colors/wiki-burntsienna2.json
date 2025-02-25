@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-burntsienna2'.",
+  "oklch": {
+    "lightness": 0.688695,
+    "chroma": 0.153534,
+    "hue": 37.379659,
+    "alpha": 1
+  },
   "definition": "#e97451",
   "hex": "#e97451",
   "general": {

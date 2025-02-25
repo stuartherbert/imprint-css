@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-salmon'.",
+  "oklch": {
+    "lightness": 0.704441,
+    "chroma": 0.18719,
+    "hue": 23.185846,
+    "alpha": 1
+  },
   "definition": "#f66",
   "hex": "#ff6666",
   "general": {

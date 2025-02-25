@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-600'.",
+  "oklch": {
+    "lightness": 0.654872,
+    "chroma": 0.207523,
+    "hue": 36.335493,
+    "alpha": 1
+  },
   "definition": "#f4511e",
   "hex": "#f4511e",
   "general": {

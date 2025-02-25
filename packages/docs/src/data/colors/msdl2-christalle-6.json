@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-christalle-6'.",
+  "oklch": {
+    "lightness": 0.845622,
+    "chroma": 0.068427,
+    "hue": 295.164022,
+    "alpha": 1
+  },
   "definition": "#cfc4f5",
   "hex": "#cfc4f5",
   "general": {

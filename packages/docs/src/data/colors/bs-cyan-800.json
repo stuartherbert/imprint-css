@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-cyan-800'.",
+  "oklch": {
+    "lightness": 0.401609,
+    "chroma": 0.069438,
+    "hue": 215.926511,
+    "alpha": 1
+  },
   "definition": "#055160",
   "hex": "#055160",
   "general": {

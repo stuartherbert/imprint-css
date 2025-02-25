@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-600'.",
+  "oklch": {
+    "lightness": 0.680509,
+    "chroma": 0.142249,
+    "hue": 75.819048,
+    "alpha": 1
+  },
   "definition": "#ca8a04",
   "hex": "#ca8a04",
   "general": {

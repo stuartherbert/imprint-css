@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'byzantine-blue'.",
+  "oklch": {
+    "lightness": 0.509866,
+    "chroma": 0.197553,
+    "hue": 267.064161,
+    "alpha": 1
+  },
   "definition": "#3457d5",
   "hex": "#3457d5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-orchid'.",
+  "oklch": {
+    "lightness": 0.777622,
+    "chroma": 0.108325,
+    "hue": 335.043967,
+    "alpha": 1
+  },
   "definition": "#e29cd2",
   "hex": "#e29cd2",
   "general": {

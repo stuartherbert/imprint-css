@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-indigo-950'.",
+  "oklch": {
+    "lightness": 0.257452,
+    "chroma": 0.085956,
+    "hue": 281.368258,
+    "alpha": 1
+  },
   "definition": "#1e1b4b",
   "hex": "#1e1b4b",
   "general": {

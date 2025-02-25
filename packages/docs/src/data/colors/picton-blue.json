@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'picton-blue'.",
+  "oklch": {
+    "lightness": 0.721689,
+    "chroma": 0.125657,
+    "hue": 234.771164,
+    "alpha": 1
+  },
   "definition": "#45b1e8",
   "hex": "#45b1e8",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-murrey'.",
+  "oklch": {
+    "lightness": 0.402005,
+    "chroma": 0.144318,
+    "hue": 356.508179,
+    "alpha": 1
+  },
   "definition": "#7f174a",
   "hex": "#7f174a",
   "general": {

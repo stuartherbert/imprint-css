@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-300'.",
+  "oklch": {
+    "lightness": 0.896411,
+    "chroma": 0.138945,
+    "hue": 113.747381,
+    "alpha": 1
+  },
   "definition": "#dce775",
   "hex": "#dce775",
   "general": {

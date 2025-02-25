@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-keppel'.",
+  "oklch": {
+    "lightness": 0.687263,
+    "chroma": 0.107001,
+    "hue": 180.931369,
+    "alpha": 1
+  },
   "definition": "#3ab09e",
   "hex": "#3ab09e",
   "general": {

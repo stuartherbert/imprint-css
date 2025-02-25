@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-900'.",
+  "oklch": {
+    "lightness": 0.299963,
+    "chroma": 0.035791,
+    "hue": 30.432546,
+    "alpha": 1
+  },
   "definition": "#3e2723",
   "hex": "#3e2723",
   "general": {

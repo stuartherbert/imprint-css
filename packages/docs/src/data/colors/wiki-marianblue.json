@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-marianblue'.",
+  "oklch": {
+    "lightness": 0.416306,
+    "chroma": 0.131993,
+    "hue": 266.683131,
+    "alpha": 1
+  },
   "definition": "#2b4593",
   "hex": "#2b4593",
   "general": {

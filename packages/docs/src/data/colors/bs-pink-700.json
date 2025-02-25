@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink-700'.",
+  "oklch": {
+    "lightness": 0.412807,
+    "chroma": 0.138527,
+    "hue": 354.846705,
+    "alpha": 1
+  },
   "definition": "#801f4f",
   "hex": "#801f4f",
   "general": {

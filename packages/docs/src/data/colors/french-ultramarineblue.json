@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-ultramarineblue'.",
+  "oklch": {
+    "lightness": 0.378398,
+    "chroma": 0.195528,
+    "hue": 263.237028,
+    "alpha": 1
+  },
   "definition": "#002fa7",
   "hex": "#002fa7",
   "general": {

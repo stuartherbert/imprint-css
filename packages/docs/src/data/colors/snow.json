@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'snow'.",
+  "oklch": {
+    "lightness": 0.988716,
+    "chroma": 0.005444,
+    "hue": 17.249327,
+    "alpha": 1
+  },
   "definition": "#fffafa",
   "hex": "#fffafa",
   "general": {

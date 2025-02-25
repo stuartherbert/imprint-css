@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightpink'.",
+  "oklch": {
+    "lightness": 0.847519,
+    "chroma": 0.0857,
+    "hue": 9.105398,
+    "alpha": 1
+  },
   "definition": "#ffb6c1",
   "hex": "#ffb6c1",
   "general": {

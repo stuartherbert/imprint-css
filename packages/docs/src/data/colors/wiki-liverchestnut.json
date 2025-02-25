@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-liverchestnut'.",
+  "oklch": {
+    "lightness": 0.383477,
+    "chroma": 0.034068,
+    "hue": 34.797272,
+    "alpha": 1
+  },
   "definition": "#543d37",
   "hex": "#543d37",
   "general": {

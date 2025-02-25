@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-pink'.",
+  "oklch": {
+    "lightness": 0.735102,
+    "chroma": 0.191526,
+    "hue": 339.248032,
+    "alpha": 1
+  },
   "definition": "#f472d0",
   "hex": "#f472d0",
   "general": {

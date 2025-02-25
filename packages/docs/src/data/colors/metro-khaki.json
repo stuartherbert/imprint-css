@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-khaki'.",
+  "oklch": {
+    "lightness": 0.822995,
+    "chroma": 0.079047,
+    "hue": 94.946451,
+    "alpha": 1
+  },
   "definition": "#d5c58a",
   "hex": "#d5c58a",
   "general": {

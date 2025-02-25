@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-lilac'.",
+  "oklch": {
+    "lightness": 0.760675,
+    "chroma": 0.149595,
+    "hue": 317.600914,
+    "alpha": 1
+  },
   "definition": "#d891ef",
   "hex": "#d891ef",
   "general": {

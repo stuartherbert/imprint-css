@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-50'.",
+  "oklch": {
+    "lightness": 0.929816,
+    "chroma": 0.008161,
+    "hue": 73.739872,
+    "alpha": 1
+  },
   "definition": "#ebe7e2",
   "hex": "#ebe7e2",
   "general": {

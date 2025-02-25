@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-a100'.",
+  "oklch": {
+    "lightness": 0.827976,
+    "chroma": 0.095703,
+    "hue": 20.718985,
+    "alpha": 1
+  },
   "definition": "#ffaeac",
   "hex": "#ffaeac",
   "general": {

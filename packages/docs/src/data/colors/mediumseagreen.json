@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumseagreen'.",
+  "oklch": {
+    "lightness": 0.68404,
+    "chroma": 0.144094,
+    "hue": 154.993147,
+    "alpha": 1
+  },
   "definition": "#3cb371",
   "hex": "#3cb371",
   "general": {

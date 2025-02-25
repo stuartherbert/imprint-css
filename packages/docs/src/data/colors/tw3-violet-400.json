@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-400'.",
+  "oklch": {
+    "lightness": 0.708893,
+    "chroma": 0.159076,
+    "hue": 293.574335,
+    "alpha": 1
+  },
   "definition": "#a78bfa",
   "hex": "#a78bfa",
   "general": {

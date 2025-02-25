@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-600'.",
+  "oklch": {
+    "lightness": 0.628823,
+    "chroma": 0.154204,
+    "hue": 144.171978,
+    "alpha": 1
+  },
   "definition": "#43a047",
   "hex": "#43a047",
   "general": {

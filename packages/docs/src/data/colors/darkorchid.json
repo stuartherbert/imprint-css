@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkorchid'.",
+  "oklch": {
+    "lightness": 0.541097,
+    "chroma": 0.227259,
+    "hue": 311.510773,
+    "alpha": 1
+  },
   "definition": "#9932cc",
   "hex": "#9932cc",
   "general": {

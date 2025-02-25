@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-jazzberryjam'.",
+  "oklch": {
+    "lightness": 0.473841,
+    "chroma": 0.188101,
+    "hue": 356.586785,
+    "alpha": 1
+  },
   "definition": "#a50b5e",
   "hex": "#a50b5e",
   "general": {

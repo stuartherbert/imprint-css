@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-darkchampagne'.",
+  "oklch": {
+    "lightness": 0.765037,
+    "chroma": 0.069102,
+    "hue": 92.3623,
+    "alpha": 1
+  },
   "definition": "#c2b280",
   "hex": "#c2b280",
   "general": {

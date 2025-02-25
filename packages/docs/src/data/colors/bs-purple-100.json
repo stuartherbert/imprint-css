@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-purple-100'.",
+  "oklch": {
+    "lightness": 0.900279,
+    "chroma": 0.036396,
+    "hue": 301.275907,
+    "alpha": 1
+  },
   "definition": "#e2d9f3",
   "hex": "#e2d9f3",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-myrtlegreen'.",
+  "oklch": {
+    "lightness": 0.526728,
+    "chroma": 0.071205,
+    "hue": 188.788128,
+    "alpha": 1
+  },
   "definition": "#317873",
   "hex": "#317873",
   "general": {

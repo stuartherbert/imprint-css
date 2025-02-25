@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-violet'.",
+  "oklch": {
+    "lightness": 0.495794,
+    "chroma": 0.252324,
+    "hue": 306.683505,
+    "alpha": 1
+  },
   "definition": "#8806ce",
   "hex": "#8806ce",
   "general": {

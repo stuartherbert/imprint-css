@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-200'.",
+  "oklch": {
+    "lightness": 0.737526,
+    "chroma": 0.090873,
+    "hue": 300.421339,
+    "alpha": 1
+  },
   "definition": "#b39ddb",
   "hex": "#b39ddb",
   "general": {

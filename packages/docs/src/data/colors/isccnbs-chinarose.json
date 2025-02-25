@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-chinarose'.",
+  "oklch": {
+    "lightness": 0.55075,
+    "chroma": 0.118154,
+    "hue": 0.748846,
+    "alpha": 1
+  },
   "definition": "#a8516e",
   "hex": "#a8516e",
   "general": {

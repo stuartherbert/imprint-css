@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-rubyred'.",
+  "oklch": {
+    "lightness": 0.441903,
+    "chroma": 0.168817,
+    "hue": 24.289582,
+    "alpha": 1
+  },
   "definition": "#9b111e",
   "hex": "#9b111e",
   "general": {

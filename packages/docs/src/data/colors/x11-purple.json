@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'x11-purple'.",
+  "oklch": {
+    "lightness": 0.565254,
+    "chroma": 0.2741,
+    "hue": 306.370609,
+    "alpha": 1
+  },
   "definition": "#a020f0",
   "hex": "#a020f0",
   "general": {

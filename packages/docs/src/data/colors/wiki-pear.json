@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pear'.",
+  "oklch": {
+    "lightness": 0.871198,
+    "chroma": 0.185375,
+    "hue": 115.253852,
+    "alpha": 1
+  },
   "definition": "#d1e231",
   "hex": "#d1e231",
   "general": {

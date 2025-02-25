@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-imperialred'.",
+  "oklch": {
+    "lightness": 0.611359,
+    "chroma": 0.226451,
+    "hue": 23.861319,
+    "alpha": 1
+  },
   "definition": "#ed2939",
   "hex": "#ed2939",
   "general": {

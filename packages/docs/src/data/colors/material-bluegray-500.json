@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-bluegray-500'.",
+  "oklch": {
+    "lightness": 0.572146,
+    "chroma": 0.039755,
+    "hue": 229.012657,
+    "alpha": 1
+  },
   "definition": "#607d8b",
   "hex": "#607d8b",
   "general": {

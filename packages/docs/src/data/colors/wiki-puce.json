@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-puce'.",
+  "oklch": {
+    "lightness": 0.700063,
+    "chroma": 0.08587,
+    "hue": 3.144432,
+    "alpha": 1
+  },
   "definition": "#cc8899",
   "hex": "#cc8899",
   "general": {

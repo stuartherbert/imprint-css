@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-gray-6'.",
+  "oklch": {
+    "lightness": 0.92497,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#e6e6e6",
   "hex": "#e6e6e6",
   "general": {

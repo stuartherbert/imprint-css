@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bonewhite'.",
+  "oklch": {
+    "lightness": 0.97329,
+    "chroma": 0.011198,
+    "hue": 91.058269,
+    "alpha": 1
+  },
   "definition": "#f9f6ee",
   "hex": "#f9f6ee",
   "general": {

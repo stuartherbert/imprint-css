@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lime'.",
+  "oklch": {
+    "lightness": 0.86644,
+    "chroma": 0.294827,
+    "hue": 142.495339,
+    "alpha": 1
+  },
   "definition": "#00ff00",
   "hex": "#00ff00",
   "general": {

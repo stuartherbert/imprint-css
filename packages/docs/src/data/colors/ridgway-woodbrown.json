@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ridgway-woodbrown'.",
+  "oklch": {
+    "lightness": 0.711374,
+    "chroma": 0.078167,
+    "hue": 71.186884,
+    "alpha": 1
+  },
   "definition": "#c19a6b",
   "hex": "#c19a6b",
   "general": {

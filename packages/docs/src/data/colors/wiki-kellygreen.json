@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-kellygreen'.",
+  "oklch": {
+    "lightness": 0.699646,
+    "chroma": 0.211797,
+    "hue": 138.667227,
+    "alpha": 1
+  },
   "definition": "#4cbb17",
   "hex": "#4cbb17",
   "general": {

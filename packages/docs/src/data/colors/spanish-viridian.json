@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-viridian'.",
+  "oklch": {
+    "lightness": 0.528735,
+    "chroma": 0.110209,
+    "hue": 165.65662,
+    "alpha": 1
+  },
   "definition": "#007f5c",
   "hex": "#007f5c",
   "general": {

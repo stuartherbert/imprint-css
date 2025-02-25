@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-400'.",
+  "oklch": {
+    "lightness": 0.71238,
+    "chroma": 0.184813,
+    "hue": 37.731059,
+    "alpha": 1
+  },
   "definition": "#ff7043",
   "hex": "#ff7043",
   "general": {

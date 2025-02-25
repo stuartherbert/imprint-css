@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-messenger'.",
+  "oklch": {
+    "lightness": 0.623752,
+    "chroma": 0.206173,
+    "hue": 255.106741,
+    "alpha": 1
+  },
   "definition": "#0084ff",
   "hex": "#0084ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'orange'.",
+  "oklch": {
+    "lightness": 0.792662,
+    "chroma": 0.171028,
+    "hue": 70.662153,
+    "alpha": 1
+  },
   "definition": "#ffa500",
   "hex": "#ffa500",
   "general": {

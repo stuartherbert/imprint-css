@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-puce2'.",
+  "oklch": {
+    "lightness": 0.567773,
+    "chroma": 0.100937,
+    "hue": 10.877842,
+    "alpha": 1
+  },
   "definition": "#a95c68",
   "hex": "#a95c68",
   "general": {

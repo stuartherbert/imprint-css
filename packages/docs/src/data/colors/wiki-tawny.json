@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tawny'.",
+  "oklch": {
+    "lightness": 0.599139,
+    "chroma": 0.168145,
+    "hue": 46.108084,
+    "alpha": 1
+  },
   "definition": "#cd5700",
   "hex": "#cd5700",
   "general": {

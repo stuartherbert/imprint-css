@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'salmon'.",
+  "oklch": {
+    "lightness": 0.734881,
+    "chroma": 0.151387,
+    "hue": 28.075115,
+    "alpha": 1
+  },
   "definition": "#fa8072",
   "hex": "#fa8072",
   "general": {

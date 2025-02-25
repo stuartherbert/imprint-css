@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-heliotropemagenta'.",
+  "oklch": {
+    "lightness": 0.529123,
+    "chroma": 0.249528,
+    "hue": 323.350908,
+    "alpha": 1
+  },
   "definition": "#aa00bb",
   "hex": "#aa00bb",
   "general": {

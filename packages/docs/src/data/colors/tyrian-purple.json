@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tyrian-purple'.",
+  "oklch": {
+    "lightness": 0.335422,
+    "chroma": 0.136189,
+    "hue": 353.618614,
+    "alpha": 1
+  },
   "definition": "#66023c",
   "hex": "#66023c",
   "general": {

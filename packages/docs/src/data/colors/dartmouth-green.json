@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'dartmouth-green'.",
+  "oklch": {
+    "lightness": 0.458495,
+    "chroma": 0.109143,
+    "hue": 157.013148,
+    "alpha": 1
+  },
   "definition": "#00693e",
   "hex": "#00693e",
   "general": {

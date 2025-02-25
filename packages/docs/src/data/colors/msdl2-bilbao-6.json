@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-bilbao-6'.",
+  "oklch": {
+    "lightness": 0.852174,
+    "chroma": 0.142092,
+    "hue": 126.119893,
+    "alpha": 1
+  },
   "definition": "#b7df74",
   "hex": "#b7df74",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-indigo-200'.",
+  "oklch": {
+    "lightness": 0.870017,
+    "chroma": 0.062082,
+    "hue": 273.797474,
+    "alpha": 1
+  },
   "definition": "#c7d2fe",
   "hex": "#c7d2fe",
   "general": {

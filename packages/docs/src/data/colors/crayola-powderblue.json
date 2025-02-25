@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-powderblue'.",
+  "oklch": {
+    "lightness": 0.865791,
+    "chroma": 0.04388,
+    "hue": 254.89007,
+    "alpha": 1
+  },
   "definition": "#c0d5f0",
   "hex": "#c0d5f0",
   "general": {

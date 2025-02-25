@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-blackbean'.",
+  "oklch": {
+    "lightness": 0.2414,
+    "chroma": 0.078922,
+    "hue": 35.167182,
+    "alpha": 1
+  },
   "definition": "#3d0c02",
   "hex": "#3d0c02",
   "general": {

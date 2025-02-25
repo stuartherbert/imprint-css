@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-gray-300'.",
+  "oklch": {
+    "lightness": 0.906365,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#e0e0e0",
   "hex": "#e0e0e0",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-palatinatepurple-3'.",
+  "oklch": {
+    "lightness": 0.471062,
+    "chroma": 0.209981,
+    "hue": 334.511606,
+    "alpha": 1
+  },
   "definition": "#9a0089",
   "hex": "#9a0089",
   "general": {

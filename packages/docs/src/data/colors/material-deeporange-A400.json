@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-a400'.",
+  "oklch": {
+    "lightness": 0.653484,
+    "chroma": 0.234828,
+    "hue": 34.0283,
+    "alpha": 1
+  },
   "definition": "#ff3d00",
   "hex": "#ff3d00",
   "general": {

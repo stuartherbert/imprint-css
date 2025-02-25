@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-blue'.",
+  "oklch": {
+    "lightness": 0.595396,
+    "chroma": 0.219083,
+    "hue": 260.069883,
+    "alpha": 1
+  },
   "definition": "#1f75fe",
   "hex": "#1f75fe",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-100'.",
+  "oklch": {
+    "lightness": 0.961888,
+    "chroma": 0.05816,
+    "hue": 95.685673,
+    "alpha": 1
+  },
   "definition": "#fef3c7",
   "hex": "#fef3c7",
   "general": {

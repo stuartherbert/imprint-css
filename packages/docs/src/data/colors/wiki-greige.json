@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-greige'.",
+  "oklch": {
+    "lightness": 0.820053,
+    "chroma": 0.015929,
+    "hue": 62.014874,
+    "alpha": 1
+  },
   "definition": "#ccc2ba",
   "hex": "#ccc2ba",
   "general": {

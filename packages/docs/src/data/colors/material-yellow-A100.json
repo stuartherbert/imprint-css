@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-yellow-a100'.",
+  "oklch": {
+    "lightness": 0.976665,
+    "chroma": 0.13678,
+    "hue": 108.685858,
+    "alpha": 1
+  },
   "definition": "#ffff8d",
   "hex": "#ffff8d",
   "general": {

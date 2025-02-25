@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-greenearth'.",
+  "oklch": {
+    "lightness": 0.87926,
+    "chroma": 0.089209,
+    "hue": 110.240652,
+    "alpha": 1
+  },
   "definition": "#dadd98",
   "hex": "#dadd98",
   "general": {

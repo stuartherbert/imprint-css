@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-chestnut'.",
+  "oklch": {
+    "lightness": 0.561748,
+    "chroma": 0.139875,
+    "hue": 25.844058,
+    "alpha": 1
+  },
   "definition": "#b94e48",
   "hex": "#b94e48",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rosepompadour'.",
+  "oklch": {
+    "lightness": 0.718305,
+    "chroma": 0.145016,
+    "hue": 3.096404,
+    "alpha": 1
+  },
   "definition": "#ed7a9b",
   "hex": "#ed7a9b",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-navyblue'.",
+  "oklch": {
+    "lightness": 0.521966,
+    "chroma": 0.17709,
+    "hue": 255.829726,
+    "alpha": 1
+  },
   "definition": "#0066cc",
   "hex": "#0066cc",
   "general": {

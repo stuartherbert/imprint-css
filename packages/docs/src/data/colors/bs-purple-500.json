@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-purple-500'.",
+  "oklch": {
+    "lightness": 0.501534,
+    "chroma": 0.188323,
+    "hue": 294.939032,
+    "alpha": 1
+  },
   "definition": "#6f42c1",
   "hex": "#6f42c1",
   "general": {

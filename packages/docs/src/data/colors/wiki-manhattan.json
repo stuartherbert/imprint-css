@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-manhattan'.",
+  "oklch": {
+    "lightness": 0.863673,
+    "chroma": 0.083091,
+    "hue": 66.204389,
+    "alpha": 1
+  },
   "definition": "#f8c898",
   "hex": "#f8c898",
   "general": {

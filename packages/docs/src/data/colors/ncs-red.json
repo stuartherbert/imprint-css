@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ncs-red'.",
+  "oklch": {
+    "lightness": 0.520001,
+    "chroma": 0.207857,
+    "hue": 19.38794,
+    "alpha": 1
+  },
   "definition": "#c40234",
   "hex": "#c40234",
   "general": {

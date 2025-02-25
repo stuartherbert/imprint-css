@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-activered'.",
+  "oklch": {
+    "lightness": 0.387678,
+    "chroma": 0.146616,
+    "hue": 26.323308,
+    "alpha": 1
+  },
   "definition": "#810f13",
   "hex": "#810f13",
   "general": {

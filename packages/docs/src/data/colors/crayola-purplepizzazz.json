@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-purplepizzazz'.",
+  "oklch": {
+    "lightness": 0.714445,
+    "chroma": 0.253151,
+    "hue": 337.301749,
+    "alpha": 1
+  },
   "definition": "#fe4eda",
   "hex": "#fe4eda",
   "general": {

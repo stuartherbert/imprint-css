@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'orchid'.",
+  "oklch": {
+    "lightness": 0.702062,
+    "chroma": 0.181314,
+    "hue": 328.734207,
+    "alpha": 1
+  },
   "definition": "#da70d6",
   "hex": "#da70d6",
   "general": {

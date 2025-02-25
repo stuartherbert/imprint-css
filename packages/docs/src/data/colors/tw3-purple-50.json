@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-purple-50'.",
+  "oklch": {
+    "lightness": 0.976877,
+    "chroma": 0.014074,
+    "hue": 307.778182,
+    "alpha": 1
+  },
   "definition": "#faf5ff",
   "hex": "#faf5ff",
   "general": {

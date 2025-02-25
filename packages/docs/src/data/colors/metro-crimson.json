@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-crimson'.",
+  "oklch": {
+    "lightness": 0.574685,
+    "chroma": 0.226527,
+    "hue": 21.072054,
+    "alpha": 1
+  },
   "definition": "#df0e38",
   "hex": "#df0e38",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-citrine'.",
+  "oklch": {
+    "lightness": 0.847807,
+    "chroma": 0.176585,
+    "hue": 102.412217,
+    "alpha": 1
+  },
   "definition": "#e4d00a",
   "hex": "#e4d00a",
   "general": {

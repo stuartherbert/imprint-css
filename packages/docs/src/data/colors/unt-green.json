@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'unt-green'.",
+  "oklch": {
+    "lightness": 0.539715,
+    "chroma": 0.146226,
+    "hue": 150.695772,
+    "alpha": 1
+  },
   "definition": "#00853e",
   "hex": "#00853e",
   "general": {

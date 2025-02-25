@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-nonphotoblue'.",
+  "oklch": {
+    "lightness": 0.863945,
+    "chroma": 0.062189,
+    "hue": 216.707985,
+    "alpha": 1
+  },
   "definition": "#a4dded",
   "hex": "#a4dded",
   "general": {

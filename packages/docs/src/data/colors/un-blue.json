@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'un-blue'.",
+  "oklch": {
+    "lightness": 0.660381,
+    "chroma": 0.140099,
+    "hue": 235.004524,
+    "alpha": 1
+  },
   "definition": "#009edb",
   "hex": "#009edb",
   "general": {

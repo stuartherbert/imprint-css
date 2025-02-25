@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-sky'.",
+  "oklch": {
+    "lightness": 0.803934,
+    "chroma": 0.119229,
+    "hue": 232.686197,
+    "alpha": 1
+  },
   "definition": "#6cf",
   "hex": "#66ccff",
   "general": {

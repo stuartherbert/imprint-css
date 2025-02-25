@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-teal-200'.",
+  "oklch": {
+    "lightness": 0.910115,
+    "chroma": 0.092794,
+    "hue": 180.351642,
+    "alpha": 1
+  },
   "definition": "#99f6e4",
   "hex": "#99f6e4",
   "general": {

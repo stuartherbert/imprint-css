@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-sapphire'.",
+  "oklch": {
+    "lightness": 0.480671,
+    "chroma": 0.121464,
+    "hue": 257.413475,
+    "alpha": 1
+  },
   "definition": "#2d5da1",
   "hex": "#2d5da1",
   "general": {

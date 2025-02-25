@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-green-300'.",
+  "oklch": {
+    "lightness": 0.726434,
+    "chroma": 0.081829,
+    "hue": 163.102541,
+    "alpha": 1
+  },
   "definition": "#75b798",
   "hex": "#75b798",
   "general": {

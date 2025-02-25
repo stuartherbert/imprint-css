@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'oxford-blue'.",
+  "oklch": {
+    "lightness": 0.250087,
+    "chroma": 0.080824,
+    "hue": 254.454048,
+    "alpha": 1
+  },
   "definition": "#002147",
   "hex": "#002147",
   "general": {

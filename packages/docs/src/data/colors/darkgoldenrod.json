@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkgoldenrod'.",
+  "oklch": {
+    "lightness": 0.651946,
+    "chroma": 0.132226,
+    "hue": 81.427989,
+    "alpha": 1
+  },
   "definition": "#b8860b",
   "hex": "#b8860b",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-blue-7'.",
+  "oklch": {
+    "lightness": 0.825846,
+    "chroma": 0.060169,
+    "hue": 253.276051,
+    "alpha": 1
+  },
   "definition": "#abc9ed",
   "hex": "#abc9ed",
   "general": {

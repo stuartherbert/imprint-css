@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-twilightlavender'.",
+  "oklch": {
+    "lightness": 0.495046,
+    "chroma": 0.097972,
+    "hue": 348.49962,
+    "alpha": 1
+  },
   "definition": "#8a496b",
   "hex": "#8a496b",
   "general": {

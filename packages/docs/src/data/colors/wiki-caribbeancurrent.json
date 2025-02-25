@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-caribbeancurrent'.",
+  "oklch": {
+    "lightness": 0.484618,
+    "chroma": 0.082486,
+    "hue": 197.051097,
+    "alpha": 1
+  },
   "definition": "#006d6f",
   "hex": "#006d6f",
   "general": {

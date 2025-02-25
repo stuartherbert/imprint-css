@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-violet'.",
+  "oklch": {
+    "lightness": 0.376256,
+    "chroma": 0.143485,
+    "hue": 297.333643,
+    "alpha": 1
+  },
   "definition": "#4c2882",
   "hex": "#4c2882",
   "general": {

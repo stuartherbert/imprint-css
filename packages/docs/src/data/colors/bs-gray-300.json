@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-300'.",
+  "oklch": {
+    "lightness": 0.910818,
+    "chroma": 0.006928,
+    "hue": 249.663092,
+    "alpha": 1
+  },
   "definition": "#dee2e6",
   "hex": "#dee2e6",
   "general": {

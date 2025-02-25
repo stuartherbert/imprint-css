@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-royalblue'.",
+  "oklch": {
+    "lightness": 0.285141,
+    "chroma": 0.12433,
+    "hue": 261.141809,
+    "alpha": 1
+  },
   "definition": "#002366",
   "hex": "#002366",
   "general": {

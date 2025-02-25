@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-400'.",
+  "oklch": {
+    "lightness": 0.653694,
+    "chroma": 0.192618,
+    "hue": 25.085138,
+    "alpha": 1
+  },
   "definition": "#ef5350",
   "hex": "#ef5350",
   "general": {

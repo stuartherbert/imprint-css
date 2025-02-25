@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-upmaroon'.",
+  "oklch": {
+    "lightness": 0.415604,
+    "chroma": 0.150654,
+    "hue": 10.396793,
+    "alpha": 1
+  },
   "definition": "#8a1538",
   "hex": "#8a1538",
   "general": {

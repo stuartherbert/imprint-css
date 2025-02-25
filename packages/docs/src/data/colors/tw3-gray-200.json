@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-200'.",
+  "oklch": {
+    "lightness": 0.927666,
+    "chroma": 0.00593,
+    "hue": 264.53087,
+    "alpha": 1
+  },
   "definition": "#e5e7eb",
   "hex": "#e5e7eb",
   "general": {

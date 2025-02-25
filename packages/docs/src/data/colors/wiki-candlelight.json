@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-candlelight'.",
+  "oklch": {
+    "lightness": 0.88246,
+    "chroma": 0.180501,
+    "hue": 98.118793,
+    "alpha": 1
+  },
   "definition": "#f8d810",
   "hex": "#f8d810",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-600'.",
+  "oklch": {
+    "lightness": 0.490224,
+    "chroma": 0.207728,
+    "hue": 317.963246,
+    "alpha": 1
+  },
   "definition": "#8e24aa",
   "hex": "#8e24aa",
   "general": {

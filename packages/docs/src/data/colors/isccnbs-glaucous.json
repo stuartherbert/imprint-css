@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-glaucous'.",
+  "oklch": {
+    "lightness": 0.602671,
+    "chroma": 0.088858,
+    "hue": 258.580517,
+    "alpha": 1
+  },
   "definition": "#6082b6",
   "hex": "#6082b6",
   "general": {

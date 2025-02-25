@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-200'.",
+  "oklch": {
+    "lightness": 0.81709,
+    "chroma": 0.105914,
+    "hue": 37.965349,
+    "alpha": 1
+  },
   "definition": "#ffab91",
   "hex": "#ffab91",
   "general": {

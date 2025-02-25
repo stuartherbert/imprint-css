@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-turkeyred'.",
+  "oklch": {
+    "lightness": 0.467502,
+    "chroma": 0.183789,
+    "hue": 30.527337,
+    "alpha": 1
+  },
   "definition": "#a91101",
   "hex": "#a91101",
   "general": {

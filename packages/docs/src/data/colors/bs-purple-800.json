@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-purple-800'.",
+  "oklch": {
+    "lightness": 0.272155,
+    "chroma": 0.09018,
+    "hue": 296.250628,
+    "alpha": 1
+  },
   "definition": "#2c1a4d",
   "hex": "#2c1a4d",
   "general": {

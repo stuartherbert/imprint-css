@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-600'.",
+  "oklch": {
+    "lightness": 0.445271,
+    "chroma": 0.03768,
+    "hue": 257.40188,
+    "alpha": 1
+  },
   "definition": "#475569",
   "hex": "#475569",
   "general": {

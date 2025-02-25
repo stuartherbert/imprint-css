@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'jtc-kobicha'.",
+  "oklch": {
+    "lightness": 0.42471,
+    "chroma": 0.071771,
+    "hue": 59.372043,
+    "alpha": 1
+  },
   "definition": "#6b4423",
   "hex": "#6b4423",
   "general": {

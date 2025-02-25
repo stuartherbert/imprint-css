@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tangblue'.",
+  "oklch": {
+    "lightness": 0.4969,
+    "chroma": 0.196635,
+    "hue": 259.419081,
+    "alpha": 1
+  },
   "definition": "#0059cf",
   "hex": "#0059cf",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-rouge'.",
+  "oklch": {
+    "lightness": 0.510633,
+    "chroma": 0.145279,
+    "hue": 353.845783,
+    "alpha": 1
+  },
   "definition": "#a23b6c",
   "hex": "#a23b6c",
   "general": {

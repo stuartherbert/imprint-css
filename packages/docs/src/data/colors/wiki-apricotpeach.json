@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-apricotpeach'.",
+  "oklch": {
+    "lightness": 0.868675,
+    "chroma": 0.063997,
+    "hue": 47.835787,
+    "alpha": 1
+  },
   "definition": "#f8c8b0",
   "hex": "#f8c8b0",
   "general": {

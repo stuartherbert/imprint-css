@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightgoldenrodyellow'.",
+  "oklch": {
+    "lightness": 0.974757,
+    "chroma": 0.051564,
+    "hue": 107.319213,
+    "alpha": 1
+  },
   "definition": "#fafad2",
   "hex": "#fafad2",
   "general": {

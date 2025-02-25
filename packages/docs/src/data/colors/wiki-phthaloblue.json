@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-phthaloblue'.",
+  "oklch": {
+    "lightness": 0.297062,
+    "chroma": 0.188915,
+    "hue": 264.207335,
+    "alpha": 1
+  },
   "definition": "#000f89",
   "hex": "#000f89",
   "general": {

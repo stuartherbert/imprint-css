@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-indiantan-1'.",
+  "oklch": {
+    "lightness": 0.32494,
+    "chroma": 0.058263,
+    "hue": 40.47322,
+    "alpha": 1
+  },
   "definition": "#4d291c",
   "hex": "#4d291c",
   "general": {

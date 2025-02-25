@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkviolet'.",
+  "oklch": {
+    "lightness": 0.514675,
+    "chroma": 0.260563,
+    "hue": 309.805247,
+    "alpha": 1
+  },
   "definition": "#9400d3",
   "hex": "#9400d3",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-wordpress'.",
+  "oklch": {
+    "lightness": 0.531303,
+    "chroma": 0.097245,
+    "hue": 232.877326,
+    "alpha": 1
+  },
   "definition": "#21759b",
   "hex": "#21759b",
   "general": {

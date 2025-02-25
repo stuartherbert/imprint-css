@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-950'.",
+  "oklch": {
+    "lightness": 0.273763,
+    "chroma": 0.068526,
+    "hue": 132.084532,
+    "alpha": 1
+  },
   "definition": "#1a2e05",
   "hex": "#1a2e05",
   "general": {

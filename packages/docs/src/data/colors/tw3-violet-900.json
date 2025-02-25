@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-900'.",
+  "oklch": {
+    "lightness": 0.379626,
+    "chroma": 0.17815,
+    "hue": 293.75139,
+    "alpha": 1
+  },
   "definition": "#4c1d95",
   "hex": "#4c1d95",
   "general": {

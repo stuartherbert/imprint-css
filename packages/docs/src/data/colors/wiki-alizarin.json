@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-alizarin'.",
+  "oklch": {
+    "lightness": 0.583415,
+    "chroma": 0.20743,
+    "hue": 20.475515,
+    "alpha": 1
+  },
   "definition": "#db2d43",
   "hex": "#db2d43",
   "general": {

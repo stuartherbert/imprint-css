@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ryb-lightblue'.",
+  "oklch": {
+    "lightness": 0.746258,
+    "chroma": 0.050426,
+    "hue": 249.469166,
+    "alpha": 1
+  },
   "definition": "#95b0cc",
   "hex": "#95b0cc",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink-900'.",
+  "oklch": {
+    "lightness": 0.208229,
+    "chroma": 0.058753,
+    "hue": 353.332366,
+    "alpha": 1
+  },
   "definition": "#2b0a1a",
   "hex": "#2b0a1a",
   "general": {

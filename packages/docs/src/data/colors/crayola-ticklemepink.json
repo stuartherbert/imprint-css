@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-ticklemepink'.",
+  "oklch": {
+    "lightness": 0.764685,
+    "chroma": 0.143736,
+    "hue": 1.528542,
+    "alpha": 1
+  },
   "definition": "#fc89ac",
   "hex": "#fc89ac",
   "general": {

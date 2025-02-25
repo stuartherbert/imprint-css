@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'palegreen'.",
+  "oklch": {
+    "lightness": 0.903344,
+    "chroma": 0.162338,
+    "hue": 144.086205,
+    "alpha": 1
+  },
   "definition": "#98fb98",
   "hex": "#98fb98",
   "general": {

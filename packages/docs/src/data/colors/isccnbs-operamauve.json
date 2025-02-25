@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-operamauve'.",
+  "oklch": {
+    "lightness": 0.674746,
+    "chroma": 0.078145,
+    "hue": 338.603605,
+    "alpha": 1
+  },
   "definition": "#b784a7",
   "hex": "#b784a7",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-tropicalrainforest'.",
+  "oklch": {
+    "lightness": 0.501417,
+    "chroma": 0.096466,
+    "hue": 172.798495,
+    "alpha": 1
+  },
   "definition": "#00755e",
   "hex": "#00755e",
   "general": {

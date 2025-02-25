@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-yellow-a700'.",
+  "oklch": {
+    "lightness": 0.884686,
+    "chroma": 0.181613,
+    "hue": 94.873227,
+    "alpha": 1
+  },
   "definition": "#ffd600",
   "hex": "#ffd600",
   "general": {

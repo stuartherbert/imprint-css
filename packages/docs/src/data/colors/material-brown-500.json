@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-500'.",
+  "oklch": {
+    "lightness": 0.484488,
+    "chroma": 0.052808,
+    "hue": 40.588998,
+    "alpha": 1
+  },
   "definition": "#795548",
   "hex": "#795548",
   "general": {

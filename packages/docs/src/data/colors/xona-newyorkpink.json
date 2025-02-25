@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-newyorkpink'.",
+  "oklch": {
+    "lightness": 0.697732,
+    "chroma": 0.104304,
+    "hue": 23.077815,
+    "alpha": 1
+  },
   "definition": "#d7837f",
   "hex": "#d7837f",
   "general": {

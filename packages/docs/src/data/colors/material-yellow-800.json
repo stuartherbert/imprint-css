@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-yellow-800'.",
+  "oklch": {
+    "lightness": 0.791903,
+    "chroma": 0.160257,
+    "hue": 72.510914,
+    "alpha": 1
+  },
   "definition": "#f9a825",
   "hex": "#f9a825",
   "general": {

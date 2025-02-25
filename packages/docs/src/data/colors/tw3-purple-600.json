@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-purple-600'.",
+  "oklch": {
+    "lightness": 0.557469,
+    "chroma": 0.252552,
+    "hue": 302.261124,
+    "alpha": 1
+  },
   "definition": "#9333ea",
   "hex": "#9333ea",
   "general": {

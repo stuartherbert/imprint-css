@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'maya-blue'.",
+  "oklch": {
+    "lightness": 0.785533,
+    "chroma": 0.112827,
+    "hue": 241.447399,
+    "alpha": 1
+  },
   "definition": "#73c2fb",
   "hex": "#73c2fb",
   "general": {

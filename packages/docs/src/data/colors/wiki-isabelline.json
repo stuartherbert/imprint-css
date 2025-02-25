@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-isabelline'.",
+  "oklch": {
+    "lightness": 0.957024,
+    "chroma": 0.007008,
+    "hue": 67.741345,
+    "alpha": 1
+  },
   "definition": "#f4f0ec",
   "hex": "#f4f0ec",
   "general": {

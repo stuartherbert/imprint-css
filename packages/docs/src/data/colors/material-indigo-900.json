@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-900'.",
+  "oklch": {
+    "lightness": 0.320607,
+    "chroma": 0.150976,
+    "hue": 270.307078,
+    "alpha": 1
+  },
   "definition": "#1a237e",
   "hex": "#1a237e",
   "general": {

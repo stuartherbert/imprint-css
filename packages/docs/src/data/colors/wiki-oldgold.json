@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-oldgold'.",
+  "oklch": {
+    "lightness": 0.774378,
+    "chroma": 0.139415,
+    "hue": 96.808046,
+    "alpha": 1
+  },
   "definition": "#cfb53b",
   "hex": "#cfb53b",
   "general": {

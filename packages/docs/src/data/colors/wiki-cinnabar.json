@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cinnabar'.",
+  "oklch": {
+    "lightness": 0.625403,
+    "chroma": 0.192558,
+    "hue": 33.415421,
+    "alpha": 1
+  },
   "definition": "#e44d2e",
   "hex": "#e44d2e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-palecopper'.",
+  "oklch": {
+    "lightness": 0.708431,
+    "chroma": 0.109691,
+    "hue": 44.143522,
+    "alpha": 1
+  },
   "definition": "#da8a67",
   "hex": "#da8a67",
   "general": {

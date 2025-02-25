@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-rougelight'.",
+  "oklch": {
+    "lightness": 0.729549,
+    "chroma": 0.099088,
+    "hue": 345.696804,
+    "alpha": 1
+  },
   "definition": "#d58eb5",
   "hex": "#d58eb5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'chocolate'.",
+  "oklch": {
+    "lightness": 0.634668,
+    "chroma": 0.155044,
+    "hue": 50.253295,
+    "alpha": 1
+  },
   "definition": "#d2691e",
   "hex": "#d2691e",
   "general": {

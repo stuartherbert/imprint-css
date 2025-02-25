@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-clouds'.",
+  "oklch": {
+    "lightness": 0.952194,
+    "chroma": 0.004583,
+    "hue": 214.328949,
+    "alpha": 1
+  },
   "definition": "#ecf0f1",
   "hex": "#ecf0f1",
   "general": {

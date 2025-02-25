@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-tungsten'.",
+  "oklch": {
+    "lightness": 0.321093,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#333",
   "hex": "#333333",
   "general": {

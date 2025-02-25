@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-independence'.",
+  "oklch": {
+    "lightness": 0.442118,
+    "chroma": 0.046205,
+    "hue": 276.279619,
+    "alpha": 1
+  },
   "definition": "#4c516d",
   "hex": "#4c516d",
   "general": {

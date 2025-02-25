@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-maroon'.",
+  "oklch": {
+    "lightness": 0.388167,
+    "chroma": 0.157136,
+    "hue": 0.670366,
+    "alpha": 1
+  },
   "definition": "#800040",
   "hex": "#800040",
   "general": {

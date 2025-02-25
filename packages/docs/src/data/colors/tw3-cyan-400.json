@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-400'.",
+  "oklch": {
+    "lightness": 0.796801,
+    "chroma": 0.133861,
+    "hue": 211.554144,
+    "alpha": 1
+  },
   "definition": "#22d3ee",
   "hex": "#22d3ee",
   "general": {

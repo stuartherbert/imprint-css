@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-rosegold'.",
+  "oklch": {
+    "lightness": 0.706113,
+    "chroma": 0.079015,
+    "hue": 353.606142,
+    "alpha": 1
+  },
   "definition": "#c88ca4",
   "hex": "#c88ca4",
   "general": {

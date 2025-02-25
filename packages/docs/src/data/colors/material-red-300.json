@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-300'.",
+  "oklch": {
+    "lightness": 0.687542,
+    "chroma": 0.141937,
+    "hue": 21.455912,
+    "alpha": 1
+  },
   "definition": "#e57373",
   "hex": "#e57373",
   "general": {

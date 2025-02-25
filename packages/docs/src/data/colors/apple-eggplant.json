@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-eggplant'.",
+  "oklch": {
+    "lightness": 0.322101,
+    "chroma": 0.17605,
+    "hue": 295.816273,
+    "alpha": 1
+  },
   "definition": "#400080",
   "hex": "#400080",
   "general": {

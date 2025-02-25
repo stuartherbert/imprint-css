@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cunard-red'.",
+  "oklch": {
+    "lightness": 0.588694,
+    "chroma": 0.22537,
+    "hue": 29.912196,
+    "alpha": 1
+  },
   "definition": "#e42313",
   "hex": "#e42313",
   "general": {

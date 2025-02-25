@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-honeydew'.",
+  "oklch": {
+    "lightness": 0.935375,
+    "chroma": 0.187217,
+    "hue": 125.455137,
+    "alpha": 1
+  },
   "definition": "#cf6",
   "hex": "#ccff66",
   "general": {

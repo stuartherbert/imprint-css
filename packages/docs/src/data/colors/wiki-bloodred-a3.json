@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bloodred-a3'.",
+  "oklch": {
+    "lightness": 0.384818,
+    "chroma": 0.155585,
+    "hue": 28.905257,
+    "alpha": 1
+  },
   "definition": "#830303",
   "hex": "#830303",
   "general": {

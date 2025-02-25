@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-romansilver'.",
+  "oklch": {
+    "lightness": 0.629327,
+    "chroma": 0.020683,
+    "hue": 266.313822,
+    "alpha": 1
+  },
   "definition": "#838996",
   "hex": "#838996",
   "general": {

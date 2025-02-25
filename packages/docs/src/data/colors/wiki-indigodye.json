@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-indigodye'.",
+  "oklch": {
+    "lightness": 0.362726,
+    "chroma": 0.091294,
+    "hue": 244.995997,
+    "alpha": 1
+  },
   "definition": "#00416a",
   "hex": "#00416a",
   "general": {

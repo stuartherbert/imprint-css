@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-quora'.",
+  "oklch": {
+    "lightness": 0.517114,
+    "chroma": 0.179057,
+    "hue": 27.351438,
+    "alpha": 1
+  },
   "definition": "#b92b27",
   "hex": "#b92b27",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-twitter'.",
+  "oklch": {
+    "lightness": 0.718725,
+    "chroma": 0.12777,
+    "hue": 243.772544,
+    "alpha": 1
+  },
   "definition": "#55acee",
   "hex": "#55acee",
   "general": {

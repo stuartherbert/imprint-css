@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-hotmagenta'.",
+  "oklch": {
+    "lightness": 0.681407,
+    "chroma": 0.285388,
+    "hue": 340.012133,
+    "alpha": 1
+  },
   "definition": "#ff1dce",
   "hex": "#ff1dce",
   "general": {

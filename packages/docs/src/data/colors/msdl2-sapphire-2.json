@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-sapphire-2'.",
+  "oklch": {
+    "lightness": 0.361351,
+    "chroma": 0.154864,
+    "hue": 266.710318,
+    "alpha": 1
+  },
   "definition": "#19318d",
   "hex": "#19318d",
   "general": {

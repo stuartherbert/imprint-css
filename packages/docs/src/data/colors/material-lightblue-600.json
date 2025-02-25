@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-600'.",
+  "oklch": {
+    "lightness": 0.658692,
+    "chroma": 0.152215,
+    "hue": 240.732055,
+    "alpha": 1
+  },
   "definition": "#039be5",
   "hex": "#039be5",
   "general": {

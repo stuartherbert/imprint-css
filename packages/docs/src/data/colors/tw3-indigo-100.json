@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-indigo-100'.",
+  "oklch": {
+    "lightness": 0.929918,
+    "chroma": 0.033424,
+    "hue": 272.525664,
+    "alpha": 1
+  },
   "definition": "#e0e7ff",
   "hex": "#e0e7ff",
   "general": {

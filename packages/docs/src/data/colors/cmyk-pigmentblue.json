@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cmyk-pigmentblue'.",
+  "oklch": {
+    "lightness": 0.390991,
+    "chroma": 0.161635,
+    "hue": 275.910974,
+    "alpha": 1
+  },
   "definition": "#339",
   "hex": "#333399",
   "general": {

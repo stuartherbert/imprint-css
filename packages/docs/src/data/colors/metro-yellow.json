@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-yellow'.",
+  "oklch": {
+    "lightness": 0.901475,
+    "chroma": 0.180894,
+    "hue": 97.875655,
+    "alpha": 1
+  },
   "definition": "#ffde21",
   "hex": "#ffde21",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-palatinate'.",
+  "oklch": {
+    "lightness": 0.408175,
+    "chroma": 0.141106,
+    "hue": 330.958822,
+    "alpha": 1
+  },
   "definition": "#72246c",
   "hex": "#72246c",
   "general": {

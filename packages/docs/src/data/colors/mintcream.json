@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mintcream'.",
+  "oklch": {
+    "lightness": 0.991185,
+    "chroma": 0.012393,
+    "hue": 164.155805,
+    "alpha": 1
+  },
   "definition": "#f5fffa",
   "hex": "#f5fffa",
   "general": {

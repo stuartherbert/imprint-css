@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-500'.",
+  "oklch": {
+    "lightness": 0.768833,
+    "chroma": 0.164683,
+    "hue": 70.11643,
+    "alpha": 1
+  },
   "definition": "#f59e0b",
   "hex": "#f59e0b",
   "general": {

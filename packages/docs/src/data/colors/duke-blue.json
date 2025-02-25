@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'duke-blue'.",
+  "oklch": {
+    "lightness": 0.284396,
+    "chroma": 0.131053,
+    "hue": 262.315332,
+    "alpha": 1
+  },
   "definition": "#012169",
   "hex": "#012169",
   "general": {

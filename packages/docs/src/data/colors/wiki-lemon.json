@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lemon'.",
+  "oklch": {
+    "lightness": 0.951647,
+    "chroma": 0.204429,
+    "hue": 107.355007,
+    "alpha": 1
+  },
   "definition": "#fff700",
   "hex": "#fff700",
   "general": {

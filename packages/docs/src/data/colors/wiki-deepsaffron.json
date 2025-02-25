@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-deepsaffron'.",
+  "oklch": {
+    "lightness": 0.773686,
+    "chroma": 0.162924,
+    "hue": 60.276243,
+    "alpha": 1
+  },
   "definition": "#ff9933",
   "hex": "#ff9933",
   "general": {

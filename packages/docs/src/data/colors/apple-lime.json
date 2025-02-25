@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-lime'.",
+  "oklch": {
+    "lightness": 0.890661,
+    "chroma": 0.264357,
+    "hue": 135.891197,
+    "alpha": 1
+  },
   "definition": "#80ff00",
   "hex": "#80ff00",
   "general": {

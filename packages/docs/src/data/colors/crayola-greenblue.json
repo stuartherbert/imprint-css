@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-greenblue'.",
+  "oklch": {
+    "lightness": 0.501955,
+    "chroma": 0.146505,
+    "hue": 253.137891,
+    "alpha": 1
+  },
   "definition": "#1164b4",
   "hex": "#1164b4",
   "general": {

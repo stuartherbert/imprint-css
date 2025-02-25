@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-400'.",
+  "oklch": {
+    "lightness": 0.849309,
+    "chroma": 0.207359,
+    "hue": 128.864966,
+    "alpha": 1
+  },
   "definition": "#a3e635",
   "hex": "#a3e635",
   "general": {

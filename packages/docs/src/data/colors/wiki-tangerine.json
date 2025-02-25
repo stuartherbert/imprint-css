@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tangerine'.",
+  "oklch": {
+    "lightness": 0.722275,
+    "chroma": 0.17188,
+    "hue": 58.553561,
+    "alpha": 1
+  },
   "definition": "#f28500",
   "hex": "#f28500",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'turquoise'.",
+  "oklch": {
+    "lightness": 0.822095,
+    "chroma": 0.130622,
+    "hue": 185.197218,
+    "alpha": 1
+  },
   "definition": "#40e0d0",
   "hex": "#40e0d0",
   "general": {

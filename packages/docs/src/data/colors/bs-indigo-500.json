@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-500'.",
+  "oklch": {
+    "lightness": 0.494321,
+    "chroma": 0.27794,
+    "hue": 286.978731,
+    "alpha": 1
+  },
   "definition": "#6610f2",
   "hex": "#6610f2",
   "general": {

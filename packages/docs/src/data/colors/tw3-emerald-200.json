@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-emerald-200'.",
+  "oklch": {
+    "lightness": 0.905008,
+    "chroma": 0.089431,
+    "hue": 164.193158,
+    "alpha": 1
+  },
   "definition": "#a7f3d0",
   "hex": "#a7f3d0",
   "general": {

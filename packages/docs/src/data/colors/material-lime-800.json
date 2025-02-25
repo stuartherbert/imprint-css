@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-800'.",
+  "oklch": {
+    "lightness": 0.67606,
+    "chroma": 0.135335,
+    "hue": 109.031289,
+    "alpha": 1
+  },
   "definition": "#9e9d24",
   "hex": "#9e9d24",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-100'.",
+  "oklch": {
+    "lightness": 0.893183,
+    "chroma": 0.056914,
+    "hue": 11.398246,
+    "alpha": 1
+  },
   "definition": "#ffcdd2",
   "hex": "#ffcdd2",
   "general": {

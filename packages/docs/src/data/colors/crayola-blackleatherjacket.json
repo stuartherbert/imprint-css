@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-blackleatherjacket'.",
+  "oklch": {
+    "lightness": 0.310766,
+    "chroma": 0.030122,
+    "hue": 152.224575,
+    "alpha": 1
+  },
   "definition": "#253529",
   "hex": "#253529",
   "general": {

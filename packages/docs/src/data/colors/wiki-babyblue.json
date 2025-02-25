@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-babyblue'.",
+  "oklch": {
+    "lightness": 0.819987,
+    "chroma": 0.084183,
+    "hue": 229.203378,
+    "alpha": 1
+  },
   "definition": "#89cff0",
   "hex": "#89cff0",
   "general": {

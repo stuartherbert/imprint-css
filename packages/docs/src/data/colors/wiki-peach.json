@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-peach'.",
+  "oklch": {
+    "lightness": 0.931346,
+    "chroma": 0.069211,
+    "hue": 83.128217,
+    "alpha": 1
+  },
   "definition": "#ffe5b4",
   "hex": "#ffe5b4",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-blushpink'.",
+  "oklch": {
+    "lightness": 0.748733,
+    "chroma": 0.150737,
+    "hue": 16.387127,
+    "alpha": 1
+  },
   "definition": "#fe828c",
   "hex": "#fe828c",
   "general": {

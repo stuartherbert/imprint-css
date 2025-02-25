@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-burgundy'.",
+  "oklch": {
+    "lightness": 0.379974,
+    "chroma": 0.152338,
+    "hue": 18.68363,
+    "alpha": 1
+  },
   "definition": "#800020",
   "hex": "#800020",
   "general": {

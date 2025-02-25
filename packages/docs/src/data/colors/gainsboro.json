@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'gainsboro'.",
+  "oklch": {
+    "lightness": 0.894689,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#dcdcdc",
   "hex": "#dcdcdc",
   "general": {

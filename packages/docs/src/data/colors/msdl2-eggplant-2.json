@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-eggplant-2'.",
+  "oklch": {
+    "lightness": 0.453346,
+    "chroma": 0.188219,
+    "hue": 351.42774,
+    "alpha": 1
+  },
   "definition": "#9b0062",
   "hex": "#9b0062",
   "general": {

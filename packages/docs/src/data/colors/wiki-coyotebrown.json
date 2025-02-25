@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-coyotebrown'.",
+  "oklch": {
+    "lightness": 0.516398,
+    "chroma": 0.06695,
+    "hue": 69.346843,
+    "alpha": 1
+  },
   "definition": "#81613c",
   "hex": "#81613c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-400'.",
+  "oklch": {
+    "lightness": 0.565437,
+    "chroma": 0.043187,
+    "hue": 40.300197,
+    "alpha": 1
+  },
   "definition": "#8d6e63",
   "hex": "#8d6e63",
   "general": {

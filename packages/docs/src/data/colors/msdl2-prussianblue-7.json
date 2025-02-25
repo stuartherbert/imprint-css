@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-prussianblue-7'.",
+  "oklch": {
+    "lightness": 0.870447,
+    "chroma": 0.05271,
+    "hue": 233.317739,
+    "alpha": 1
+  },
   "definition": "#b3dbf2",
   "hex": "#b3dbf2",
   "general": {

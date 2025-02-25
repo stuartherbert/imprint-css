@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-canadarose'.",
+  "oklch": {
+    "lightness": 0.648891,
+    "chroma": 0.213386,
+    "hue": 358.518571,
+    "alpha": 1
+  },
   "definition": "#ed438d",
   "hex": "#ed438d",
   "general": {

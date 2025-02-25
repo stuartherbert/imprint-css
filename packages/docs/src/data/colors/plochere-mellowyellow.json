@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-mellowyellow'.",
+  "oklch": {
+    "lightness": 0.902587,
+    "chroma": 0.119914,
+    "hue": 94.636018,
+    "alpha": 1
+  },
   "definition": "#f8de7e",
   "hex": "#f8de7e",
   "general": {

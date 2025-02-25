@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-300'.",
+  "oklch": {
+    "lightness": 0.678274,
+    "chroma": 0.008519,
+    "hue": 72.363225,
+    "alpha": 1
+  },
   "definition": "#9b9792",
   "hex": "#9b9792",
   "general": {

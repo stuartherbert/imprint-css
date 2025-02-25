@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-charmpink'.",
+  "oklch": {
+    "lightness": 0.747805,
+    "chroma": 0.110529,
+    "hue": 358.574835,
+    "alpha": 1
+  },
   "definition": "#e68fac",
   "hex": "#e68fac",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-armygreen'.",
+  "oklch": {
+    "lightness": 0.422631,
+    "chroma": 0.073846,
+    "hue": 117.033329,
+    "alpha": 1
+  },
   "definition": "#4b5320",
   "hex": "#4b5320",
   "general": {

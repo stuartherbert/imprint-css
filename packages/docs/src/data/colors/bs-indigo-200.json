@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-200'.",
+  "oklch": {
+    "lightness": 0.768185,
+    "chroma": 0.131367,
+    "hue": 301.076005,
+    "alpha": 1
+  },
   "definition": "#c29ffa",
   "hex": "#c29ffa",
   "general": {

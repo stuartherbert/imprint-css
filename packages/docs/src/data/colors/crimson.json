@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crimson'.",
+  "oklch": {
+    "lightness": 0.571262,
+    "chroma": 0.222034,
+    "hue": 20.10708,
+    "alpha": 1
+  },
   "definition": "#dc143c",
   "hex": "#dc143c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-brown'.",
+  "oklch": {
+    "lightness": 0.500849,
+    "chroma": 0.081222,
+    "hue": 67.758766,
+    "alpha": 1
+  },
   "definition": "#825a2c",
   "hex": "#825a2c",
   "general": {

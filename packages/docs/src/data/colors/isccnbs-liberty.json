@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-liberty'.",
+  "oklch": {
+    "lightness": 0.500436,
+    "chroma": 0.121349,
+    "hue": 277.632005,
+    "alpha": 1
+  },
   "definition": "#545aa7",
   "hex": "#545aa7",
   "general": {

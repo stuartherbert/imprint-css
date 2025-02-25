@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-jonquil'.",
+  "oklch": {
+    "lightness": 0.85071,
+    "chroma": 0.171069,
+    "hue": 93.277693,
+    "alpha": 1
+  },
   "definition": "#f4ca16",
   "hex": "#f4ca16",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-acidgreen'.",
+  "oklch": {
+    "lightness": 0.767076,
+    "chroma": 0.168944,
+    "hue": 115.413928,
+    "alpha": 1
+  },
   "definition": "#b0bf1a",
   "hex": "#b0bf1a",
   "general": {

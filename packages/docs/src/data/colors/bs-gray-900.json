@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-900'.",
+  "oklch": {
+    "lightness": 0.261947,
+    "chroma": 0.009684,
+    "hue": 248.197141,
+    "alpha": 1
+  },
   "definition": "#212529",
   "hex": "#212529",
   "general": {

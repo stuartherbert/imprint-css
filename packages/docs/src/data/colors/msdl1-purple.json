@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-purple'.",
+  "oklch": {
+    "lightness": 0.458254,
+    "chroma": 0.128,
+    "hue": 330.716496,
+    "alpha": 1
+  },
   "definition": "#7e3878",
   "hex": "#7e3878",
   "general": {

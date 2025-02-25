@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ua-crimson'.",
+  "oklch": {
+    "lightness": 0.456762,
+    "chroma": 0.164448,
+    "hue": 18.160477,
+    "alpha": 1
+  },
   "definition": "#9e1b32",
   "hex": "#9e1b32",
   "general": {

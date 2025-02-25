@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-400'.",
+  "oklch": {
+    "lightness": 0.64702,
+    "chroma": 0.186281,
+    "hue": 258.249482,
+    "alpha": 1
+  },
   "definition": "#3d8bfd",
   "hex": "#3d8bfd",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-mantis'.",
+  "oklch": {
+    "lightness": 0.744386,
+    "chroma": 0.1507,
+    "hue": 140.505942,
+    "alpha": 1
+  },
   "definition": "#74c365",
   "hex": "#74c365",
   "general": {

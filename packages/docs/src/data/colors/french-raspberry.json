@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-raspberry'.",
+  "oklch": {
+    "lightness": 0.543092,
+    "chroma": 0.186738,
+    "hue": 16.413851,
+    "alpha": 1
+  },
   "definition": "#c42c48",
   "hex": "#c42c48",
   "general": {

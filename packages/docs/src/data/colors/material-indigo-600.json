@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-600'.",
+  "oklch": {
+    "lightness": 0.451127,
+    "chroma": 0.15719,
+    "hue": 271.670448,
+    "alpha": 1
+  },
   "definition": "#3949ab",
   "hex": "#3949ab",
   "general": {

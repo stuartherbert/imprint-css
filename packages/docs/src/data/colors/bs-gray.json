@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray'.",
+  "oklch": {
+    "lightness": 0.76925,
+    "chroma": 0.014525,
+    "hue": 247.146613,
+    "alpha": 1
+  },
   "definition": "#adb5bd",
   "hex": "#adb5bd",
   "general": {

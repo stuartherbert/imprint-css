@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tuscanred'.",
+  "oklch": {
+    "lightness": 0.416898,
+    "chroma": 0.106342,
+    "hue": 22.851712,
+    "alpha": 1
+  },
   "definition": "#7c3030",
   "hex": "#7c3030",
   "general": {

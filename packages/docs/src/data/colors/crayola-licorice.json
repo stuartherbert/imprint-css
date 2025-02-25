@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-licorice'.",
+  "oklch": {
+    "lightness": 0.189357,
+    "chroma": 0.015222,
+    "hue": 26.050756,
+    "alpha": 1
+  },
   "definition": "#1a1110",
   "hex": "#1a1110",
   "general": {

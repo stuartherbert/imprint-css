@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-orangeyellow'.",
+  "oklch": {
+    "lightness": 0.881666,
+    "chroma": 0.133406,
+    "hue": 91.575391,
+    "alpha": 1
+  },
   "definition": "#f8d568",
   "hex": "#f8d568",
   "general": {

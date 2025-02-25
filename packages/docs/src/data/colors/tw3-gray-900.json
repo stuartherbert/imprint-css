@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-900'.",
+  "oklch": {
+    "lightness": 0.210081,
+    "chroma": 0.03179,
+    "hue": 264.974103,
+    "alpha": 1
+  },
   "definition": "#111827",
   "hex": "#111827",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-red-7'.",
+  "oklch": {
+    "lightness": 0.814931,
+    "chroma": 0.08742,
+    "hue": 5.834155,
+    "alpha": 1
+  },
   "definition": "#f4abba",
   "hex": "#f4abba",
   "general": {

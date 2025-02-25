@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darkpurple'.",
+  "oklch": {
+    "lightness": 0.472065,
+    "chroma": 0.187016,
+    "hue": 290.523048,
+    "alpha": 1
+  },
   "definition": "#603cba",
   "hex": "#603cba",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-800'.",
+  "oklch": {
+    "lightness": 0.450284,
+    "chroma": 0.077116,
+    "hue": 224.189644,
+    "alpha": 1
+  },
   "definition": "#155e75",
   "hex": "#155e75",
   "general": {

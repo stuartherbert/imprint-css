@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-asparagus'.",
+  "oklch": {
+    "lightness": 0.693987,
+    "chroma": 0.094142,
+    "hue": 131.92206,
+    "alpha": 1
+  },
   "definition": "#87a96b",
   "hex": "#87a96b",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sepia'.",
+  "oklch": {
+    "lightness": 0.425589,
+    "chroma": 0.086403,
+    "hue": 61.209796,
+    "alpha": 1
+  },
   "definition": "#704214",
   "hex": "#704214",
   "general": {

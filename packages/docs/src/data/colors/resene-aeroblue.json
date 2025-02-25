@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-aeroblue'.",
+  "oklch": {
+    "lightness": 0.89733,
+    "chroma": 0.049177,
+    "hue": 164.74892,
+    "alpha": 1
+  },
   "definition": "#c0e8d5",
   "hex": "#c0e8d5",
   "general": {

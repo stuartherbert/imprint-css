@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-sapphire-6'.",
+  "oklch": {
+    "lightness": 0.696692,
+    "chroma": 0.148181,
+    "hue": 271.021342,
+    "alpha": 1
+  },
   "definition": "#7c96f9",
   "hex": "#7c96f9",
   "general": {

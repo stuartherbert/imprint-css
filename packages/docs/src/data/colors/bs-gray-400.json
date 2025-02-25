@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-400'.",
+  "oklch": {
+    "lightness": 0.86692,
+    "chroma": 0.010608,
+    "hue": 249.110617,
+    "alpha": 1
+  },
   "definition": "#ced4da",
   "hex": "#ced4da",
   "general": {

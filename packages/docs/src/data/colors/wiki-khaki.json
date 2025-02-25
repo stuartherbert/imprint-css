@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-khaki'.",
+  "oklch": {
+    "lightness": 0.765363,
+    "chroma": 0.047597,
+    "hue": 79.694306,
+    "alpha": 1
+  },
   "definition": "#c3b091",
   "hex": "#c3b091",
   "general": {

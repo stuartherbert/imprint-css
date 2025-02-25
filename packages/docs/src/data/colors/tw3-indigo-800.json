@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-indigo-800'.",
+  "oklch": {
+    "lightness": 0.398343,
+    "chroma": 0.177318,
+    "hue": 277.418248,
+    "alpha": 1
+  },
   "definition": "#3730a3",
   "hex": "#3730a3",
   "general": {

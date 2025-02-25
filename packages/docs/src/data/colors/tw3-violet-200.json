@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-200'.",
+  "oklch": {
+    "lightness": 0.894222,
+    "chroma": 0.054945,
+    "hue": 293.435412,
+    "alpha": 1
+  },
   "definition": "#ddd6fe",
   "hex": "#ddd6fe",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'honeydew'.",
+  "oklch": {
+    "lightness": 0.984798,
+    "chroma": 0.025285,
+    "hue": 145.379905,
+    "alpha": 1
+  },
   "definition": "#f0fff0",
   "hex": "#f0fff0",
   "general": {

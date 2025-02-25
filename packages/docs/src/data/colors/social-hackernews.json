@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-hackernews'.",
+  "oklch": {
+    "lightness": 0.695793,
+    "chroma": 0.204259,
+    "hue": 43.491037,
+    "alpha": 1
+  },
   "definition": "#f60",
   "hex": "#ff6600",
   "general": {

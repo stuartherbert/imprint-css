@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-carrot'.",
+  "oklch": {
+    "lightness": 0.695718,
+    "chroma": 0.15969,
+    "hue": 55.537938,
+    "alpha": 1
+  },
   "definition": "#e67e22",
   "hex": "#e67e22",
   "general": {

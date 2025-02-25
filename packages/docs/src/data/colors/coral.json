@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'coral'.",
+  "oklch": {
+    "lightness": 0.735106,
+    "chroma": 0.167979,
+    "hue": 40.220542,
+    "alpha": 1
+  },
   "definition": "#ff7f50",
   "hex": "#ff7f50",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bubblegumpink'.",
+  "oklch": {
+    "lightness": 0.735539,
+    "chroma": 0.143623,
+    "hue": 11.475682,
+    "alpha": 1
+  },
   "definition": "#f58092",
   "hex": "#f58092",
   "general": {

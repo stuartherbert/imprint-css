@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-darkmossgreen'.",
+  "oklch": {
+    "lightness": 0.448953,
+    "chroma": 0.086327,
+    "hue": 125.046269,
+    "alpha": 1
+  },
   "definition": "#4a5d23",
   "hex": "#4a5d23",
   "general": {

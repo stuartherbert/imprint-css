@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-darkraspberry'.",
+  "oklch": {
+    "lightness": 0.434727,
+    "chroma": 0.139613,
+    "hue": 353.490396,
+    "alpha": 1
+  },
   "definition": "#872657",
   "hex": "#872657",
   "general": {

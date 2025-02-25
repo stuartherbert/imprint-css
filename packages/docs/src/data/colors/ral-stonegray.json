@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-stonegray'.",
+  "oklch": {
+    "lightness": 0.64769,
+    "chroma": 0.013891,
+    "hue": 86.332911,
+    "alpha": 1
+  },
   "definition": "#928e85",
   "hex": "#928e85",
   "general": {

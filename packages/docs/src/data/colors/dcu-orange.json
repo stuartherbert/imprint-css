@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'dcu-orange'.",
+  "oklch": {
+    "lightness": 0.79542,
+    "chroma": 0.163922,
+    "hue": 69.06991,
+    "alpha": 1
+  },
   "definition": "#ffa626",
   "hex": "#ffa626",
   "general": {

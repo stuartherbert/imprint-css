@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-950'.",
+  "oklch": {
+    "lightness": 0.282078,
+    "chroma": 0.087335,
+    "hue": 267.906167,
+    "alpha": 1
+  },
   "definition": "#172554",
   "hex": "#172554",
   "general": {

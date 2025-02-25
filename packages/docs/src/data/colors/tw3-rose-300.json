@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-300'.",
+  "oklch": {
+    "lightness": 0.809542,
+    "chroma": 0.106104,
+    "hue": 11.663991,
+    "alpha": 1
+  },
   "definition": "#fda4af",
   "hex": "#fda4af",
   "general": {

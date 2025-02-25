@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-a400'.",
+  "oklch": {
+    "lightness": 0.637467,
+    "chroma": 0.248951,
+    "hue": 20.708545,
+    "alpha": 1
+  },
   "definition": "#ff1744",
   "hex": "#ff1744",
   "general": {

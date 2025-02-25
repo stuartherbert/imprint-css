@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-100'.",
+  "oklch": {
+    "lightness": 0.981464,
+    "chroma": 0.001584,
+    "hue": 255.450501,
+    "alpha": 1
+  },
   "definition": "#f8f9fa",
   "hex": "#f8f9fa",
   "general": {

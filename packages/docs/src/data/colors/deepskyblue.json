@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'deepskyblue'.",
+  "oklch": {
+    "lightness": 0.755338,
+    "chroma": 0.153425,
+    "hue": 231.641869,
+    "alpha": 1
+  },
   "definition": "#00bfff",
   "hex": "#00bfff",
   "general": {

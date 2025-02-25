@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-50'.",
+  "oklch": {
+    "lightness": 0.970501,
+    "chroma": 0.012931,
+    "hue": 17.379424,
+    "alpha": 1
+  },
   "definition": "#fef2f2",
   "hex": "#fef2f2",
   "general": {

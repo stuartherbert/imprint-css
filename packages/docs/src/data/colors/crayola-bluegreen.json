@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bluegreen'.",
+  "oklch": {
+    "lightness": 0.63025,
+    "chroma": 0.113955,
+    "hue": 221.501921,
+    "alpha": 1
+  },
   "definition": "#0d98ba",
   "hex": "#0d98ba",
   "general": {

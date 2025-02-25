@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-a200'.",
+  "oklch": {
+    "lightness": 0.678771,
+    "chroma": 0.20937,
+    "hue": 24.649928,
+    "alpha": 1
+  },
   "definition": "#ff5252",
   "hex": "#ff5252",
   "general": {

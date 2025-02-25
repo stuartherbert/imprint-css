@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone'.",
+  "oklch": {
+    "lightness": 0.517634,
+    "chroma": 0.010856,
+    "hue": 63.64313,
+    "alpha": 1
+  },
   "definition": "#6d6762",
   "hex": "#6d6762",
   "general": {

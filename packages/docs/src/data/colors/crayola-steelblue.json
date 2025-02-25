@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-steelblue'.",
+  "oklch": {
+    "lightness": 0.565049,
+    "chroma": 0.112687,
+    "hue": 230.068951,
+    "alpha": 1
+  },
   "definition": "#0081ab",
   "hex": "#0081ab",
   "general": {

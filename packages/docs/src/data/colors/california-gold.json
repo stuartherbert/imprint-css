@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'california-gold'.",
+  "oklch": {
+    "lightness": 0.819783,
+    "chroma": 0.166965,
+    "hue": 79.153077,
+    "alpha": 1
+  },
   "definition": "#fdb515",
   "hex": "#fdb515",
   "general": {

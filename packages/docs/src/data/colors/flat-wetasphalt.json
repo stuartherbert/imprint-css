@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-wetasphalt'.",
+  "oklch": {
+    "lightness": 0.396909,
+    "chroma": 0.04455,
+    "hue": 249.305587,
+    "alpha": 1
+  },
   "definition": "#34495e",
   "hex": "#34495e",
   "general": {

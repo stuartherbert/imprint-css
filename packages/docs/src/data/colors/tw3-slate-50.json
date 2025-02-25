@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-50'.",
+  "oklch": {
+    "lightness": 0.984027,
+    "chroma": 0.003317,
+    "hue": 251.477826,
+    "alpha": 1
+  },
   "definition": "#f8fafc",
   "hex": "#f8fafc",
   "general": {

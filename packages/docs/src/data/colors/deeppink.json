@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'deeppink'.",
+  "oklch": {
+    "lightness": 0.654867,
+    "chroma": 0.261332,
+    "hue": 356.979293,
+    "alpha": 1
+  },
   "definition": "#ff1493",
   "hex": "#ff1493",
   "general": {

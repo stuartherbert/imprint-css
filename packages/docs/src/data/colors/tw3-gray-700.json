@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-700'.",
+  "oklch": {
+    "lightness": 0.373097,
+    "chroma": 0.030688,
+    "hue": 259.932458,
+    "alpha": 1
+  },
   "definition": "#374151",
   "hex": "#374151",
   "general": {

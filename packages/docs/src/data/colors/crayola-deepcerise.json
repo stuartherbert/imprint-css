@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-deepcerise'.",
+  "oklch": {
+    "lightness": 0.602483,
+    "chroma": 0.213725,
+    "hue": 355.170521,
+    "alpha": 1
+  },
   "definition": "#da3287",
   "hex": "#da3287",
   "general": {

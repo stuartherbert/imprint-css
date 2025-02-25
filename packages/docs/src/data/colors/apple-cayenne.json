@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-cayenne'.",
+  "oklch": {
+    "lightness": 0.376713,
+    "chroma": 0.154585,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#800000",
   "hex": "#800000",
   "general": {

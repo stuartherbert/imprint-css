@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bloodred-a2'.",
+  "oklch": {
+    "lightness": 0.4806,
+    "chroma": 0.186816,
+    "hue": 25.883966,
+    "alpha": 1
+  },
   "definition": "#af111c",
   "hex": "#af111c",
   "general": {

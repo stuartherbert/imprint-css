@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-cantaloupemelon'.",
+  "oklch": {
+    "lightness": 0.852445,
+    "chroma": 0.076511,
+    "hue": 26.634698,
+    "alpha": 1
+  },
   "definition": "#fdbcb4",
   "hex": "#fdbcb4",
   "general": {

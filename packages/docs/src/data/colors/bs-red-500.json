@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-500'.",
+  "oklch": {
+    "lightness": 0.591711,
+    "chroma": 0.202048,
+    "hue": 21.215353,
+    "alpha": 1
+  },
   "definition": "#dc3545",
   "hex": "#dc3545",
   "general": {

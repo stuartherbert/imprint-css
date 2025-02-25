@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'gold'.",
+  "oklch": {
+    "lightness": 0.886702,
+    "chroma": 0.182167,
+    "hue": 95.315385,
+    "alpha": 1
+  },
   "definition": "#ffd700",
   "hex": "#ffd700",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ansi-safetyyellow'.",
+  "oklch": {
+    "lightness": 0.860969,
+    "chroma": 0.17851,
+    "hue": 99.579301,
+    "alpha": 1
+  },
   "definition": "#eed202",
   "hex": "#eed202",
   "general": {

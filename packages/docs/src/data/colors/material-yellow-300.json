@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-yellow-300'.",
+  "oklch": {
+    "lightness": 0.945384,
+    "chroma": 0.144342,
+    "hue": 102.826725,
+    "alpha": 1
+  },
   "definition": "#fff176",
   "hex": "#fff176",
   "general": {

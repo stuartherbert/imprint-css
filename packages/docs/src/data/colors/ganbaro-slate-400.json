@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-slate-400'.",
+  "oklch": {
+    "lightness": 0.612563,
+    "chroma": 0.014205,
+    "hue": 243.362,
+    "alpha": 1
+  },
   "definition": "#7d858c",
   "hex": "#7d858c",
   "general": {

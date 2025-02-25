@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-700'.",
+  "oklch": {
+    "lightness": 0.742397,
+    "chroma": 0.150873,
+    "hue": 111.750583,
+    "alpha": 1
+  },
   "definition": "#afb42b",
   "hex": "#afb42b",
   "general": {

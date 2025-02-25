@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-selectiveyellow'.",
+  "oklch": {
+    "lightness": 0.830688,
+    "chroma": 0.171371,
+    "hue": 81.495047,
+    "alpha": 1
+  },
   "definition": "#ffba00",
   "hex": "#ffba00",
   "general": {

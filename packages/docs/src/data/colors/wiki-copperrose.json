@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-copperrose'.",
+  "oklch": {
+    "lightness": 0.564352,
+    "chroma": 0.066185,
+    "hue": 19.337988,
+    "alpha": 1
+  },
   "definition": "#996666",
   "hex": "#996666",
   "general": {

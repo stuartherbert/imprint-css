@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-byzantium'.",
+  "oklch": {
+    "lightness": 0.406139,
+    "chroma": 0.124212,
+    "hue": 335.443767,
+    "alpha": 1
+  },
   "definition": "#702963",
   "hex": "#702963",
   "general": {

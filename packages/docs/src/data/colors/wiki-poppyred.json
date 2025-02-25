@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-poppyred'.",
+  "oklch": {
+    "lightness": 0.589394,
+    "chroma": 0.203689,
+    "hue": 24.243518,
+    "alpha": 1
+  },
   "definition": "#dc343b",
   "hex": "#dc343b",
   "general": {

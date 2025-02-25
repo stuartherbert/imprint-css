@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-concrete'.",
+  "oklch": {
+    "lightness": 0.709587,
+    "chroma": 0.01819,
+    "hue": 201.38008,
+    "alpha": 1
+  },
   "definition": "#95a5a6",
   "hex": "#95a5a6",
   "general": {

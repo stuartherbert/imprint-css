@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-solidwhite'.",
+  "oklch": {
+    "lightness": 0.970914,
+    "chroma": 0.006536,
+    "hue": 276.697625,
+    "alpha": 1
+  },
   "definition": "#f4f5fa",
   "hex": "#f4f5fa",
   "general": {

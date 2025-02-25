@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-400'.",
+  "oklch": {
+    "lightness": 0.719053,
+    "chroma": 0.168948,
+    "hue": 13.35833,
+    "alpha": 1
+  },
   "definition": "#fb7185",
   "hex": "#fb7185",
   "general": {

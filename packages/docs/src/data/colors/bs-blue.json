@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue'.",
+  "oklch": {
+    "lightness": 0.577983,
+    "chroma": 0.228269,
+    "hue": 260.038409,
+    "alpha": 1
+  },
   "definition": "#0d6efd",
   "hex": "#0d6efd",
   "general": {

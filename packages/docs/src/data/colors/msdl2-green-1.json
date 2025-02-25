@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-green-1'.",
+  "oklch": {
+    "lightness": 0.456405,
+    "chroma": 0.148646,
+    "hue": 142.651109,
+    "alpha": 1
+  },
   "definition": "#0b6a0b",
   "hex": "#0b6a0b",
   "general": {

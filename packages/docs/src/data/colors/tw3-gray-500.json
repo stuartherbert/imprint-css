@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-500'.",
+  "oklch": {
+    "lightness": 0.551071,
+    "chroma": 0.023344,
+    "hue": 264.708773,
+    "alpha": 1
+  },
   "definition": "#6b7280",
   "hex": "#6b7280",
   "general": {

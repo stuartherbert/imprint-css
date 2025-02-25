@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-violet'.",
+  "oklch": {
+    "lightness": 0.529345,
+    "chroma": 0.293075,
+    "hue": 293.607063,
+    "alpha": 1
+  },
   "definition": "#7f00ff",
   "hex": "#7f00ff",
   "general": {

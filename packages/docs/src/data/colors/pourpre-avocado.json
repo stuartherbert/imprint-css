@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-avocado'.",
+  "oklch": {
+    "lightness": 0.553364,
+    "chroma": 0.146722,
+    "hue": 129.497911,
+    "alpha": 1
+  },
   "definition": "#568203",
   "hex": "#568203",
   "general": {

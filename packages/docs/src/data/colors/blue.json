@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'blue'.",
+  "oklch": {
+    "lightness": 0.452014,
+    "chroma": 0.313214,
+    "hue": 264.052021,
+    "alpha": 1
+  },
   "definition": "#0000ff",
   "hex": "#0000ff",
   "general": {

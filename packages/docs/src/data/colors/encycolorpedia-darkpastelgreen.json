@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-darkpastelgreen'.",
+  "oklch": {
+    "lightness": 0.702883,
+    "chroma": 0.216125,
+    "hue": 145.677145,
+    "alpha": 1
+  },
   "definition": "#03c03c",
   "hex": "#03c03c",
   "general": {

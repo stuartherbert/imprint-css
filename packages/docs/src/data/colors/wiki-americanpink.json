@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-americanpink'.",
+  "oklch": {
+    "lightness": 0.786794,
+    "chroma": 0.123857,
+    "hue": 19.610694,
+    "alpha": 1
+  },
   "definition": "#ff9899",
   "hex": "#ff9899",
   "general": {

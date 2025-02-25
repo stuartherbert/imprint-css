@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-screamingreen'.",
+  "oklch": {
+    "lightness": 0.894339,
+    "chroma": 0.211954,
+    "hue": 144.039964,
+    "alpha": 1
+  },
   "definition": "#76ff7a",
   "hex": "#76ff7a",
   "general": {

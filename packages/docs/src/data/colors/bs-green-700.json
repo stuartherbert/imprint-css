@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-green-700'.",
+  "oklch": {
+    "lightness": 0.386651,
+    "chroma": 0.083303,
+    "hue": 157.477241,
+    "alpha": 1
+  },
   "definition": "#0f5132",
   "hex": "#0f5132",
   "general": {

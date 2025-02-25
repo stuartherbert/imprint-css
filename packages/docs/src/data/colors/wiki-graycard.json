@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-graycard'.",
+  "oklch": {
+    "lightness": 0.586079,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#7c7c7c",
   "hex": "#7c7c7c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-neutral-900'.",
+  "oklch": {
+    "lightness": 0.204405,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#171717",
   "hex": "#171717",
   "general": {

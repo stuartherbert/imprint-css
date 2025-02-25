@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-malachite'.",
+  "oklch": {
+    "lightness": 0.774459,
+    "chroma": 0.229243,
+    "hue": 146.864817,
+    "alpha": 1
+  },
   "definition": "#0bda51",
   "hex": "#0bda51",
   "general": {

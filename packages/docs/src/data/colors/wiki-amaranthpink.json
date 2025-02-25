@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-amaranthpink'.",
+  "oklch": {
+    "lightness": 0.786291,
+    "chroma": 0.107621,
+    "hue": 356.479406,
+    "alpha": 1
+  },
   "definition": "#f19cbb",
   "hex": "#f19cbb",
   "general": {

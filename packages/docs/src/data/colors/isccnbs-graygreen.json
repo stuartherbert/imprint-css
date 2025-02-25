@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-graygreen'.",
+  "oklch": {
+    "lightness": 0.53086,
+    "chroma": 0.024906,
+    "hue": 171.246752,
+    "alpha": 1
+  },
   "definition": "#5e716a",
   "hex": "#5e716a",
   "general": {

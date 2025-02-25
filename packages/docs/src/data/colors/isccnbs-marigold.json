@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-marigold'.",
+  "oklch": {
+    "lightness": 0.763593,
+    "chroma": 0.153336,
+    "hue": 75.086107,
+    "alpha": 1
+  },
   "definition": "#eaa221",
   "hex": "#eaa221",
   "general": {

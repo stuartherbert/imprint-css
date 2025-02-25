@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-900'.",
+  "oklch": {
+    "lightness": 0.707464,
+    "chroma": 0.197505,
+    "hue": 46.42971,
+    "alpha": 1
+  },
   "definition": "#ff6f00",
   "hex": "#ff6f00",
   "general": {

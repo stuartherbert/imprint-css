@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-500'.",
+  "oklch": {
+    "lightness": 0.645097,
+    "chroma": 0.21545,
+    "hue": 16.407833,
+    "alpha": 1
+  },
   "definition": "#f43f5e",
   "hex": "#f43f5e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-400'.",
+  "oklch": {
+    "lightness": 0.836766,
+    "chroma": 0.164408,
+    "hue": 84.460489,
+    "alpha": 1
+  },
   "definition": "#fbbf24",
   "hex": "#fbbf24",
   "general": {

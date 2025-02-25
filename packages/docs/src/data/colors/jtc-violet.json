@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'jtc-violet'.",
+  "oklch": {
+    "lightness": 0.382612,
+    "chroma": 0.079282,
+    "hue": 331.65212,
+    "alpha": 1
+  },
   "definition": "#5b3256",
   "hex": "#5b3256",
   "general": {

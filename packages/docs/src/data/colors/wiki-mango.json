@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mango'.",
+  "oklch": {
+    "lightness": 0.857318,
+    "chroma": 0.175213,
+    "hue": 88.450339,
+    "alpha": 1
+  },
   "definition": "#ffc800",
   "hex": "#ffc800",
   "general": {

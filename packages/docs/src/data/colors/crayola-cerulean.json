@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-cerulean'.",
+  "oklch": {
+    "lightness": 0.69372,
+    "chroma": 0.1253,
+    "hue": 224.300648,
+    "alpha": 1
+  },
   "definition": "#1dacd6",
   "hex": "#1dacd6",
   "general": {

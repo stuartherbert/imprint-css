@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-stumbleupon'.",
+  "oklch": {
+    "lightness": 0.631981,
+    "chroma": 0.204658,
+    "hue": 33.957839,
+    "alpha": 1
+  },
   "definition": "#eb4924",
   "hex": "#eb4924",
   "general": {

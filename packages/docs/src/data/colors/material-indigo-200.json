@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-200'.",
+  "oklch": {
+    "lightness": 0.742528,
+    "chroma": 0.072909,
+    "hue": 276.605625,
+    "alpha": 1
+  },
   "definition": "#9fa8da",
   "hex": "#9fa8da",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'sharpie-aeroblue'.",
+  "oklch": {
+    "lightness": 0.9559,
+    "chroma": 0.065011,
+    "hue": 164.159888,
+    "alpha": 1
+  },
   "definition": "#c9ffe5",
   "hex": "#c9ffe5",
   "general": {

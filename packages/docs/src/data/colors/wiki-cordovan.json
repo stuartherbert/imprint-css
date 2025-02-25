@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cordovan'.",
+  "oklch": {
+    "lightness": 0.465445,
+    "chroma": 0.101112,
+    "hue": 16.72292,
+    "alpha": 1
+  },
   "definition": "#893f45",
   "hex": "#893f45",
   "general": {

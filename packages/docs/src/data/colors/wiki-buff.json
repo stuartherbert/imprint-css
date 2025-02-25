@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-buff'.",
+  "oklch": {
+    "lightness": 0.749418,
+    "chroma": 0.096314,
+    "hue": 61.796169,
+    "alpha": 1
+  },
   "definition": "#daa06d",
   "hex": "#daa06d",
   "general": {

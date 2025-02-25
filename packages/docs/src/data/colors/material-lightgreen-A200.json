@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-a200'.",
+  "oklch": {
+    "lightness": 0.91843,
+    "chroma": 0.208756,
+    "hue": 130.882004,
+    "alpha": 1
+  },
   "definition": "#b2ff59",
   "hex": "#b2ff59",
   "general": {

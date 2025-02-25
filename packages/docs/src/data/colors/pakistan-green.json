@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pakistan-green'.",
+  "oklch": {
+    "lightness": 0.328811,
+    "chroma": 0.087272,
+    "hue": 151.186716,
+    "alpha": 1
+  },
   "definition": "#01411c",
   "hex": "#01411c",
   "general": {

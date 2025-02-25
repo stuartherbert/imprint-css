@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-snow'.",
+  "oklch": {
+    "lightness": 1,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#fff",
   "hex": "#ffffff",
   "general": {

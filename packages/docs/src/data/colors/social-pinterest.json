@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-pinterest'.",
+  "oklch": {
+    "lightness": 0.504885,
+    "chroma": 0.201812,
+    "hue": 25.73426,
+    "alpha": 1
+  },
   "definition": "#bd081c",
   "hex": "#bd081c",
   "general": {

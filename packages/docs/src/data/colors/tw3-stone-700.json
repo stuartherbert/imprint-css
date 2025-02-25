@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-stone-700'.",
+  "oklch": {
+    "lightness": 0.37419,
+    "chroma": 0.008851,
+    "hue": 67.552629,
+    "alpha": 1
+  },
   "definition": "#44403c",
   "hex": "#44403c",
   "general": {

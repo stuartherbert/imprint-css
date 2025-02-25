@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-700'.",
+  "oklch": {
+    "lightness": 0.575367,
+    "chroma": 0.144655,
+    "hue": 144.146399,
+    "alpha": 1
+  },
   "definition": "#388e3c",
   "hex": "#388e3c",
   "general": {

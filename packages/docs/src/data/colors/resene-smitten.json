@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-smitten'.",
+  "oklch": {
+    "lightness": 0.586251,
+    "chroma": 0.182481,
+    "hue": 352.758487,
+    "alpha": 1
+  },
   "definition": "#c84186",
   "hex": "#c84186",
   "general": {

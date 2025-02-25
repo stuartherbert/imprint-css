@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-lion'.",
+  "oklch": {
+    "lightness": 0.848483,
+    "chroma": 0.066129,
+    "hue": 89.786237,
+    "alpha": 1
+  },
   "definition": "#decc9c",
   "hex": "#decc9c",
   "general": {

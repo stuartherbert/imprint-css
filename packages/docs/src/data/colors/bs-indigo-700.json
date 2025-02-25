@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-700'.",
+  "oklch": {
+    "lightness": 0.343484,
+    "chroma": 0.187687,
+    "hue": 288.293346,
+    "alpha": 1
+  },
   "definition": "#3d0a91",
   "hex": "#3d0a91",
   "general": {

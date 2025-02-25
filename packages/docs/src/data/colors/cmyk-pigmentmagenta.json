@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cmyk-pigmentmagenta'.",
+  "oklch": {
+    "lightness": 0.650295,
+    "chroma": 0.265198,
+    "hue": 357.476241,
+    "alpha": 1
+  },
   "definition": "#ff0090",
   "hex": "#ff0090",
   "general": {

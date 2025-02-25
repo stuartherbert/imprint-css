@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-sonicsilver'.",
+  "oklch": {
+    "lightness": 0.56256,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#757575",
   "hex": "#757575",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-violetred'.",
+  "oklch": {
+    "lightness": 0.68192,
+    "chroma": 0.206273,
+    "hue": 359.880001,
+    "alpha": 1
+  },
   "definition": "#f75394",
   "hex": "#f75394",
   "general": {

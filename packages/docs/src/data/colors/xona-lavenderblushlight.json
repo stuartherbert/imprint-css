@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-lavenderblushlight'.",
+  "oklch": {
+    "lightness": 0.987032,
+    "chroma": 0.007033,
+    "hue": 354.793381,
+    "alpha": 1
+  },
   "definition": "#fff9fb",
   "hex": "#fff9fb",
   "general": {

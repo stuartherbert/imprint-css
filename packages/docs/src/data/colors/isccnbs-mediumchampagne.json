@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-mediumchampagne'.",
+  "oklch": {
+    "lightness": 0.919356,
+    "chroma": 0.075854,
+    "hue": 96.108754,
+    "alpha": 1
+  },
   "definition": "#f3e5ab",
   "hex": "#f3e5ab",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-800'.",
+  "oklch": {
+    "lightness": 0.353756,
+    "chroma": 0.039421,
+    "hue": 33.737268,
+    "alpha": 1
+  },
   "definition": "#4e342e",
   "hex": "#4e342e",
   "general": {

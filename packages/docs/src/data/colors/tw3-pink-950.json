@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-950'.",
+  "oklch": {
+    "lightness": 0.284503,
+    "chroma": 0.105012,
+    "hue": 3.951196,
+    "alpha": 1
+  },
   "definition": "#500724",
   "hex": "#500724",
   "general": {

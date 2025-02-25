@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-400'.",
+  "oklch": {
+    "lightness": 0.57626,
+    "chroma": 0.194,
+    "hue": 321.656348,
+    "alpha": 1
+  },
   "definition": "#ab47bc",
   "hex": "#ab47bc",
   "general": {

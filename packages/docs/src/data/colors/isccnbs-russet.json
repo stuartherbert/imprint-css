@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-russet'.",
+  "oklch": {
+    "lightness": 0.45712,
+    "chroma": 0.096855,
+    "hue": 53.72948,
+    "alpha": 1
+  },
   "definition": "#80461b",
   "hex": "#80461b",
   "general": {

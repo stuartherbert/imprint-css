@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-grape'.",
+  "oklch": {
+    "lightness": 0.455117,
+    "chroma": 0.1867,
+    "hue": 304.299587,
+    "alpha": 1
+  },
   "definition": "#6f2da8",
   "hex": "#6f2da8",
   "general": {

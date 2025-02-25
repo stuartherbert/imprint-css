@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bdazzedblue'.",
+  "oklch": {
+    "lightness": 0.460866,
+    "chroma": 0.108797,
+    "hue": 257.498366,
+    "alpha": 1
+  },
   "definition": "#2e5894",
   "hex": "#2e5894",
   "general": {

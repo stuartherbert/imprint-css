@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-darkpurple'.",
+  "oklch": {
+    "lightness": 0.257323,
+    "chroma": 0.057942,
+    "hue": 321.394483,
+    "alpha": 1
+  },
   "definition": "#301934",
   "hex": "#301934",
   "general": {

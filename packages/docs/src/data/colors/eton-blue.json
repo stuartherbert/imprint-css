@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'eton-blue'.",
+  "oklch": {
+    "lightness": 0.824432,
+    "chroma": 0.052213,
+    "hue": 185.251352,
+    "alpha": 1
+  },
   "definition": "#a0d1ca",
   "hex": "#a0d1ca",
   "general": {

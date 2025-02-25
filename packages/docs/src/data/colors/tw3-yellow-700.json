@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-700'.",
+  "oklch": {
+    "lightness": 0.553501,
+    "chroma": 0.120658,
+    "hue": 66.437215,
+    "alpha": 1
+  },
   "definition": "#a16207",
   "hex": "#a16207",
   "general": {

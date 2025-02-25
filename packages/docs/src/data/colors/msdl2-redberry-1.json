@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-redberry-1'.",
+  "oklch": {
+    "lightness": 0.373589,
+    "chroma": 0.128611,
+    "hue": 20.937324,
+    "alpha": 1
+  },
   "definition": "#761721",
   "hex": "#761721",
   "general": {

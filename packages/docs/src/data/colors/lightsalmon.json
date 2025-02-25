@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightsalmon'.",
+  "oklch": {
+    "lightness": 0.793542,
+    "chroma": 0.124968,
+    "hue": 42.397802,
+    "alpha": 1
+  },
   "definition": "#ffa07a",
   "hex": "#ffa07a",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chartreuseyellow'.",
+  "oklch": {
+    "lightness": 0.943776,
+    "chroma": 0.22075,
+    "hue": 118.510918,
+    "alpha": 1
+  },
   "definition": "#dfff00",
   "hex": "#dfff00",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-tuscan'.",
+  "oklch": {
+    "lightness": 0.894676,
+    "chroma": 0.075029,
+    "hue": 75.12884,
+    "alpha": 1
+  },
   "definition": "#fad6a5",
   "hex": "#fad6a5",
   "general": {

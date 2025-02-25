@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sage'.",
+  "oklch": {
+    "lightness": 0.774502,
+    "chroma": 0.062316,
+    "hue": 103.78061,
+    "alpha": 1
+  },
   "definition": "#bcb88a",
   "hex": "#bcb88a",
   "general": {

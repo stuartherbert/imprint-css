@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-cyan-100'.",
+  "oklch": {
+    "lightness": 0.943407,
+    "chroma": 0.039712,
+    "hue": 212.060206,
+    "alpha": 1
+  },
   "definition": "#cff4fc",
   "hex": "#cff4fc",
   "general": {

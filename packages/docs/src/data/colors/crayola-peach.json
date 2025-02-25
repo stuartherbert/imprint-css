@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-peach'.",
+  "oklch": {
+    "lightness": 0.878465,
+    "chroma": 0.078444,
+    "hue": 58.376149,
+    "alpha": 1
+  },
   "definition": "#ffcba4",
   "hex": "#ffcba4",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-richcarmine'.",
+  "oklch": {
+    "lightness": 0.557434,
+    "chroma": 0.223211,
+    "hue": 17.456228,
+    "alpha": 1
+  },
   "definition": "#d70040",
   "hex": "#d70040",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-800'.",
+  "oklch": {
+    "lightness": 0.476361,
+    "chroma": 0.103451,
+    "hue": 61.850751,
+    "alpha": 1
+  },
   "definition": "#854d0e",
   "hex": "#854d0e",
   "general": {

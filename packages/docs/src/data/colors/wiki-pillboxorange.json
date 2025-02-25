@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxorange'.",
+  "oklch": {
+    "lightness": 0.769215,
+    "chroma": 0.07117,
+    "hue": 71.155587,
+    "alpha": 1
+  },
   "definition": "#d1ad82",
   "hex": "#d1ad82",
   "general": {

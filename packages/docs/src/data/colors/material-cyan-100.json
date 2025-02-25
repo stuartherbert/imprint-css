@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-cyan-100'.",
+  "oklch": {
+    "lightness": 0.9037,
+    "chroma": 0.05859,
+    "hue": 205.397697,
+    "alpha": 1
+  },
   "definition": "#b2ebf2",
   "hex": "#b2ebf2",
   "general": {

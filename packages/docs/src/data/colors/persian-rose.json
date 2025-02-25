@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-rose'.",
+  "oklch": {
+    "lightness": 0.665696,
+    "chroma": 0.256792,
+    "hue": 352.774825,
+    "alpha": 1
+  },
   "definition": "#fe28a2",
   "hex": "#fe28a2",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-reddit'.",
+  "oklch": {
+    "lightness": 0.678017,
+    "chroma": 0.215959,
+    "hue": 39.282861,
+    "alpha": 1
+  },
   "definition": "#ff5700",
   "hex": "#ff5700",
   "general": {

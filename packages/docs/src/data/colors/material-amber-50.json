@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-50'.",
+  "oklch": {
+    "lightness": 0.978716,
+    "chroma": 0.03122,
+    "hue": 93.279231,
+    "alpha": 1
+  },
   "definition": "#fff8e1",
   "hex": "#fff8e1",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'x11-paleazure'.",
+  "oklch": {
+    "lightness": 0.83044,
+    "chroma": 0.09161,
+    "hue": 230.5508,
+    "alpha": 1
+  },
   "definition": "#87d3f8",
   "hex": "#87d3f8",
   "general": {

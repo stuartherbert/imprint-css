@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cmyk-processyellow'.",
+  "oklch": {
+    "lightness": 0.934916,
+    "chroma": 0.19802,
+    "hue": 104.64354,
+    "alpha": 1
+  },
   "definition": "#ffef00",
   "hex": "#ffef00",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-skobeloff'.",
+  "oklch": {
+    "lightness": 0.506168,
+    "chroma": 0.086402,
+    "hue": 194.768948,
+    "alpha": 1
+  },
   "definition": "#007474",
   "hex": "#007474",
   "general": {

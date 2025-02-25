@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-green'.",
+  "oklch": {
+    "lightness": 0.661151,
+    "chroma": 0.138612,
+    "hue": 162.108707,
+    "alpha": 1
+  },
   "definition": "#1cac78",
   "hex": "#1cac78",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-orange-a700'.",
+  "oklch": {
+    "lightness": 0.464147,
+    "chroma": 0.105187,
+    "hue": 63.765133,
+    "alpha": 1
+  },
   "definition": "#814a00",
   "hex": "#814a00",
   "general": {

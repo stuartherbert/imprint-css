@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-midmossgreen'.",
+  "oklch": {
+    "lightness": 0.51577,
+    "chroma": 0.053535,
+    "hue": 112.198593,
+    "alpha": 1
+  },
   "definition": "#686b47",
   "hex": "#686b47",
   "general": {

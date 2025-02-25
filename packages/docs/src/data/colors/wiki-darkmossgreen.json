@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-darkmossgreen'.",
+  "oklch": {
+    "lightness": 0.511584,
+    "chroma": 0.09382,
+    "hue": 122.411102,
+    "alpha": 1
+  },
   "definition": "#5d6f2d",
   "hex": "#5d6f2d",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-50'.",
+  "oklch": {
+    "lightness": 0.958159,
+    "chroma": 0.0244,
+    "hue": 226.091764,
+    "alpha": 1
+  },
   "definition": "#e1f5fe",
   "hex": "#e1f5fe",
   "general": {

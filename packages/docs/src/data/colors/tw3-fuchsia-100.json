@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-fuchsia-100'.",
+  "oklch": {
+    "lightness": 0.952058,
+    "chroma": 0.035826,
+    "hue": 318.68319,
+    "alpha": 1
+  },
   "definition": "#fae8ff",
   "hex": "#fae8ff",
   "general": {

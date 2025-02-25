@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-700'.",
+  "oklch": {
+    "lightness": 0.488257,
+    "chroma": 0.2171,
+    "hue": 264.381436,
+    "alpha": 1
+  },
   "definition": "#1d4ed8",
   "hex": "#1d4ed8",
   "general": {

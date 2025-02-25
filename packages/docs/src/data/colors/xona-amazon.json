@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-amazon'.",
+  "oklch": {
+    "lightness": 0.527042,
+    "chroma": 0.086132,
+    "hue": 157.311557,
+    "alpha": 1
+  },
   "definition": "#3b7a57",
   "hex": "#3b7a57",
   "general": {

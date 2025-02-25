@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-200'.",
+  "oklch": {
+    "lightness": 0.899458,
+    "chroma": 0.058734,
+    "hue": 343.148061,
+    "alpha": 1
+  },
   "definition": "#fbcfe8",
   "hex": "#fbcfe8",
   "general": {

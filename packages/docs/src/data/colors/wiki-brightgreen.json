@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-brightgreen'.",
+  "oklch": {
+    "lightness": 0.881532,
+    "chroma": 0.275048,
+    "hue": 138.487192,
+    "alpha": 1
+  },
   "definition": "#6f0",
   "hex": "#66ff00",
   "general": {

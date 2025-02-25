@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-lightshadedgray'.",
+  "oklch": {
+    "lightness": 0.951935,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#efefef",
   "hex": "#efefef",
   "general": {

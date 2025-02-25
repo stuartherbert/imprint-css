@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-800'.",
+  "oklch": {
+    "lightness": 0.385854,
+    "chroma": 0.072836,
+    "hue": 167.459811,
+    "alpha": 1
+  },
   "definition": "#0d503c",
   "hex": "#0d503c",
   "general": {

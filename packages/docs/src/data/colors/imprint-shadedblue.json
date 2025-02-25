@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-shadedblue'.",
+  "oklch": {
+    "lightness": 0.980216,
+    "chroma": 0.007802,
+    "hue": 217.287418,
+    "alpha": 1
+  },
   "definition": "#f3fafc",
   "hex": "#f3fafc",
   "general": {

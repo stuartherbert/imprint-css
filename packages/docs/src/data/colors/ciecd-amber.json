@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ciecd-amber'.",
+  "oklch": {
+    "lightness": 0.840278,
+    "chroma": 0.172449,
+    "hue": 84.073162,
+    "alpha": 1
+  },
   "definition": "#ffbf00",
   "hex": "#ffbf00",
   "general": {

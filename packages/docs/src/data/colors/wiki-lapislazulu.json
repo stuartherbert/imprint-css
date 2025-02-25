@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lapislazulu'.",
+  "oklch": {
+    "lightness": 0.484011,
+    "chroma": 0.113079,
+    "hue": 251.433703,
+    "alpha": 1
+  },
   "definition": "#26619c",
   "hex": "#26619c",
   "general": {

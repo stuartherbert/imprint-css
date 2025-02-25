@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-viridian'.",
+  "oklch": {
+    "lightness": 0.556835,
+    "chroma": 0.076009,
+    "hue": 170.251089,
+    "alpha": 1
+  },
   "definition": "#40826d",
   "hex": "#40826d",
   "general": {

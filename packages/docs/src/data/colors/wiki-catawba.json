@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-catawba'.",
+  "oklch": {
+    "lightness": 0.412118,
+    "chroma": 0.082572,
+    "hue": 8.27175,
+    "alpha": 1
+  },
   "definition": "#703642",
   "hex": "#703642",
   "general": {

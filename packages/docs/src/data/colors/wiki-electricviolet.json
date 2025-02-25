@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-electricviolet'.",
+  "oklch": {
+    "lightness": 0.547697,
+    "chroma": 0.294327,
+    "hue": 298.795727,
+    "alpha": 1
+  },
   "definition": "#8f00ff",
   "hex": "#8f00ff",
   "general": {

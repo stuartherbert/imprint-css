@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'peru'.",
+  "oklch": {
+    "lightness": 0.678416,
+    "chroma": 0.122745,
+    "hue": 62.264338,
+    "alpha": 1
+  },
   "definition": "#cd853f",
   "hex": "#cd853f",
   "general": {

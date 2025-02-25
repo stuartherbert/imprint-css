@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-vine'.",
+  "oklch": {
+    "lightness": 0.683868,
+    "chroma": 0.138434,
+    "hue": 168.027549,
+    "alpha": 1
+  },
   "definition": "#00b489",
   "hex": "#00b489",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-300'.",
+  "oklch": {
+    "lightness": 0.828837,
+    "chroma": 0.145241,
+    "hue": 73.597933,
+    "alpha": 1
+  },
   "definition": "#ffb74d",
   "hex": "#ffb74d",
   "general": {

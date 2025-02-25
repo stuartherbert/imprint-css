@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-100'.",
+  "oklch": {
+    "lightness": 0.895174,
+    "chroma": 0.050505,
+    "hue": 146.050741,
+    "alpha": 1
+  },
   "definition": "#c8e6c9",
   "hex": "#c8e6c9",
   "general": {

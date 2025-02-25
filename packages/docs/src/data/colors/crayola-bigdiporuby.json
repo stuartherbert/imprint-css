@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bigdiporuby'.",
+  "oklch": {
+    "lightness": 0.464377,
+    "chroma": 0.154631,
+    "hue": 11.778188,
+    "alpha": 1
+  },
   "definition": "#9c2542",
   "hex": "#9c2542",
   "general": {

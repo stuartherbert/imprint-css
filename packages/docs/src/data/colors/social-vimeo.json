@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-vimeo'.",
+  "oklch": {
+    "lightness": 0.72865,
+    "chroma": 0.137229,
+    "hue": 227.534714,
+    "alpha": 1
+  },
   "definition": "#1ab7ea",
   "hex": "#1ab7ea",
   "general": {

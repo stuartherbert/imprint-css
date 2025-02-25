@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'castleton-green'.",
+  "oklch": {
+    "lightness": 0.400869,
+    "chroma": 0.085786,
+    "hue": 163.698463,
+    "alpha": 1
+  },
   "definition": "#00563b",
   "hex": "#00563b",
   "general": {

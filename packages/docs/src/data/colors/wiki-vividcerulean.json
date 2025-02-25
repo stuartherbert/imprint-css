@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-vividcerulean'.",
+  "oklch": {
+    "lightness": 0.499715,
+    "chroma": 0.281252,
+    "hue": 263.854663,
+    "alpha": 1
+  },
   "definition": "#003fff",
   "hex": "#003fff",
   "general": {

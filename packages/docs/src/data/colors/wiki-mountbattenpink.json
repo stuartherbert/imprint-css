@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mountbattenpink'.",
+  "oklch": {
+    "lightness": 0.614934,
+    "chroma": 0.046976,
+    "hue": 341.169993,
+    "alpha": 1
+  },
   "definition": "#997a8d",
   "hex": "#997a8d",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wheat'.",
+  "oklch": {
+    "lightness": 0.909089,
+    "chroma": 0.06158,
+    "hue": 83.128467,
+    "alpha": 1
+  },
   "definition": "#f5deb3",
   "hex": "#f5deb3",
   "general": {

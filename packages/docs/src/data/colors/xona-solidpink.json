@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-solidpink'.",
+  "oklch": {
+    "lightness": 0.454482,
+    "chroma": 0.1107,
+    "hue": 14.325526,
+    "alpha": 1
+  },
   "definition": "#893843",
   "hex": "#893843",
   "general": {

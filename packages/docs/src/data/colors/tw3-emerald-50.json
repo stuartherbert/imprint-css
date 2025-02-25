@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-emerald-50'.",
+  "oklch": {
+    "lightness": 0.979165,
+    "chroma": 0.020693,
+    "hue": 166.533448,
+    "alpha": 1
+  },
   "definition": "#ecfdf5",
   "hex": "#ecfdf5",
   "general": {

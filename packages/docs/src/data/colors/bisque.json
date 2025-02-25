@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bisque'.",
+  "oklch": {
+    "lightness": 0.93282,
+    "chroma": 0.051337,
+    "hue": 71.713954,
+    "alpha": 1
+  },
   "definition": "#ffe4c4",
   "hex": "#ffe4c4",
   "general": {

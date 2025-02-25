@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-plum'.",
+  "oklch": {
+    "lightness": 0.366053,
+    "chroma": 0.117567,
+    "hue": 25.129022,
+    "alpha": 1
+  },
   "definition": "#701c1c",
   "hex": "#701c1c",
   "general": {

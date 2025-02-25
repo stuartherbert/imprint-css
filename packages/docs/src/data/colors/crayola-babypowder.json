@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-babypowder'.",
+  "oklch": {
+    "lightness": 0.995841,
+    "chroma": 0.00536,
+    "hue": 106.496426,
+    "alpha": 1
+  },
   "definition": "#fefefa",
   "hex": "#fefefa",
   "general": {

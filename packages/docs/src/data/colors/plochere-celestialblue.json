@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-celestialblue'.",
+  "oklch": {
+    "lightness": 0.6517,
+    "chroma": 0.115006,
+    "hue": 243.041696,
+    "alpha": 1
+  },
   "definition": "#4997d0",
   "hex": "#4997d0",
   "general": {

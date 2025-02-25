@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-carrotorange'.",
+  "oklch": {
+    "lightness": 0.736732,
+    "chroma": 0.157527,
+    "hue": 64.147312,
+    "alpha": 1
+  },
   "definition": "#ed9121",
   "hex": "#ed9121",
   "general": {

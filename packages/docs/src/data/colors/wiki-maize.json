@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-maize'.",
+  "oklch": {
+    "lightness": 0.863295,
+    "chroma": 0.175815,
+    "hue": 89.824234,
+    "alpha": 1
+  },
   "definition": "#ffcb05",
   "hex": "#ffcb05",
   "general": {

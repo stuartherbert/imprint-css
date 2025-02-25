@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-whatsapp'.",
+  "oklch": {
+    "lightness": 0.76065,
+    "chroma": 0.201327,
+    "hue": 149.751208,
+    "alpha": 1
+  },
   "definition": "#25d366",
   "hex": "#25d366",
   "general": {

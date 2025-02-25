@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-green-100'.",
+  "oklch": {
+    "lightness": 0.962341,
+    "chroma": 0.043205,
+    "hue": 156.756935,
+    "alpha": 1
+  },
   "definition": "#dcfce7",
   "hex": "#dcfce7",
   "general": {

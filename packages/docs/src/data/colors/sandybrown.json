@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'sandybrown'.",
+  "oklch": {
+    "lightness": 0.783959,
+    "chroma": 0.12703,
+    "hue": 59.712711,
+    "alpha": 1
+  },
   "definition": "#f4a460",
   "hex": "#f4a460",
   "general": {

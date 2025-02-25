@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-purplemountainmajesty'.",
+  "oklch": {
+    "lightness": 0.62495,
+    "chroma": 0.096637,
+    "hue": 305.856133,
+    "alpha": 1
+  },
   "definition": "#9678b6",
   "hex": "#9678b6",
   "general": {

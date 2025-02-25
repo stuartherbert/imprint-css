@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'dimgray'.",
+  "oklch": {
+    "lightness": 0.521017,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#696969",
   "hex": "#696969",
   "general": {

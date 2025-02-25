@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-mauve'.",
+  "oklch": {
+    "lightness": 0.760541,
+    "chroma": 0.190956,
+    "hue": 317.695664,
+    "alpha": 1
+  },
   "definition": "#e285ff",
   "hex": "#e285ff",
   "general": {

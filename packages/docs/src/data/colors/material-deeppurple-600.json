@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-600'.",
+  "oklch": {
+    "lightness": 0.453304,
+    "chroma": 0.184723,
+    "hue": 292.67532,
+    "alpha": 1
+  },
   "definition": "#5e35b1",
   "hex": "#5e35b1",
   "general": {

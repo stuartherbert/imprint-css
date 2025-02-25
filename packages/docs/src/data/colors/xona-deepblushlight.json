@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-deepblushlight'.",
+  "oklch": {
+    "lightness": 0.848972,
+    "chroma": 0.07039,
+    "hue": 355.687579,
+    "alpha": 1
+  },
   "definition": "#f4bbcf",
   "hex": "#f4bbcf",
   "general": {

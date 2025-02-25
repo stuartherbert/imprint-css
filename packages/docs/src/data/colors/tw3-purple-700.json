@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-purple-700'.",
+  "oklch": {
+    "lightness": 0.495456,
+    "chroma": 0.236965,
+    "hue": 301.908617,
+    "alpha": 1
+  },
   "definition": "#7e22ce",
   "hex": "#7e22ce",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-700'.",
+  "oklch": {
+    "lightness": 0.416485,
+    "chroma": 0.155844,
+    "hue": 271.152915,
+    "alpha": 1
+  },
   "definition": "#303f9f",
   "hex": "#303f9f",
   "general": {

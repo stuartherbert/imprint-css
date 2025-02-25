@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ruby'.",
+  "oklch": {
+    "lightness": 0.584221,
+    "chroma": 0.227869,
+    "hue": 8.855496,
+    "alpha": 1
+  },
   "definition": "#e0115f",
   "hex": "#e0115f",
   "general": {

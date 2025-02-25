@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-coffee'.",
+  "oklch": {
+    "lightness": 0.453914,
+    "chroma": 0.056609,
+    "hue": 55.671152,
+    "alpha": 1
+  },
   "definition": "#6f4e37",
   "hex": "#6f4e37",
   "general": {

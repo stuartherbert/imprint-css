@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-blue-800'.",
+  "oklch": {
+    "lightness": 0.309522,
+    "chroma": 0.06692,
+    "hue": 254.131122,
+    "alpha": 1
+  },
   "definition": "#163151",
   "hex": "#163151",
   "general": {

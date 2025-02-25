@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-600'.",
+  "oklch": {
+    "lightness": 0.58569,
+    "chroma": 0.221934,
+    "hue": 17.610256,
+    "alpha": 1
+  },
   "definition": "#e11d48",
   "hex": "#e11d48",
   "general": {

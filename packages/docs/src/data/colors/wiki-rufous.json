@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rufous'.",
+  "oklch": {
+    "lightness": 0.471906,
+    "chroma": 0.176876,
+    "hue": 31.306838,
+    "alpha": 1
+  },
   "definition": "#a81c07",
   "hex": "#a81c07",
   "general": {

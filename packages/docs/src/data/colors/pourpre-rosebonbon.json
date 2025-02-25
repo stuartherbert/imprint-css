@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-rosebonbon'.",
+  "oklch": {
+    "lightness": 0.672655,
+    "chroma": 0.230247,
+    "hue": 354.597478,
+    "alpha": 1
+  },
   "definition": "#f9429e",
   "hex": "#f9429e",
   "general": {

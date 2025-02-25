@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-salmonpink'.",
+  "oklch": {
+    "lightness": 0.778637,
+    "chroma": 0.13338,
+    "hue": 9.648528,
+    "alpha": 1
+  },
   "definition": "#ff91a4",
   "hex": "#ff91a4",
   "general": {

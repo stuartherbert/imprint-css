@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-500'.",
+  "oklch": {
+    "lightness": 0.516899,
+    "chroma": 0.215078,
+    "hue": 321.275713,
+    "alpha": 1
+  },
   "definition": "#9c27b0",
   "hex": "#9c27b0",
   "general": {

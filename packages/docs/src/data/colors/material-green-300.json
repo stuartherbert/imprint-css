@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-300'.",
+  "oklch": {
+    "lightness": 0.765829,
+    "chroma": 0.117672,
+    "hue": 145.320384,
+    "alpha": 1
+  },
   "definition": "#81c784",
   "hex": "#81c784",
   "general": {

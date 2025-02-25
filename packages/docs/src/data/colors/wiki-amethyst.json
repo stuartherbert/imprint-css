@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-amethyst'.",
+  "oklch": {
+    "lightness": 0.60762,
+    "chroma": 0.156078,
+    "hue": 305.323585,
+    "alpha": 1
+  },
   "definition": "#9966cc",
   "hex": "#9966cc",
   "general": {

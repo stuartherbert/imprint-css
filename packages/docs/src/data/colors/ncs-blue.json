@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ncs-blue'.",
+  "oklch": {
+    "lightness": 0.588852,
+    "chroma": 0.126102,
+    "hue": 235.673162,
+    "alpha": 1
+  },
   "definition": "#0087bd",
   "hex": "#0087bd",
   "general": {

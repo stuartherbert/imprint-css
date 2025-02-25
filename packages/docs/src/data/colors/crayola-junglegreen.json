@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-junglegreen'.",
+  "oklch": {
+    "lightness": 0.664328,
+    "chroma": 0.122005,
+    "hue": 169.266159,
+    "alpha": 1
+  },
   "definition": "#29ab87",
   "hex": "#29ab87",
   "general": {

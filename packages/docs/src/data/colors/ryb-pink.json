@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ryb-pink'.",
+  "oklch": {
+    "lightness": 0.744467,
+    "chroma": 0.154997,
+    "hue": 21.502952,
+    "alpha": 1
+  },
   "definition": "#ff8080",
   "hex": "#ff8080",
   "general": {

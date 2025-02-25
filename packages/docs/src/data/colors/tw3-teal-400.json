@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-teal-400'.",
+  "oklch": {
+    "lightness": 0.784266,
+    "chroma": 0.132477,
+    "hue": 181.961512,
+    "alpha": 1
+  },
   "definition": "#2dd4bf",
   "hex": "#2dd4bf",
   "general": {

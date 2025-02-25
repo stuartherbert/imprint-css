@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-yellow-800'.",
+  "oklch": {
+    "lightness": 0.849347,
+    "chroma": 0.172482,
+    "hue": 88.883546,
+    "alpha": 1
+  },
   "definition": "#fbc609",
   "hex": "#fbc609",
   "general": {

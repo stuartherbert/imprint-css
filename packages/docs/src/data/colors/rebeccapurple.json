@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'rebeccapurple'.",
+  "oklch": {
+    "lightness": 0.440272,
+    "chroma": 0.160296,
+    "hue": 303.37299,
+    "alpha": 1
+  },
   "definition": "#663399",
   "hex": "#663399",
   "general": {

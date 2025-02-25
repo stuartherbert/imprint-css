@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-50'.",
+  "oklch": {
+    "lightness": 0.957033,
+    "chroma": 0.021917,
+    "hue": 7.780794,
+    "alpha": 1
+  },
   "definition": "#ffebee",
   "hex": "#ffebee",
   "general": {

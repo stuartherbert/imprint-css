@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-arylideyellow'.",
+  "oklch": {
+    "lightness": 0.870427,
+    "chroma": 0.129321,
+    "hue": 99.33126,
+    "alpha": 1
+  },
   "definition": "#e9d66b",
   "hex": "#e9d66b",
   "general": {

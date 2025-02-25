@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-bitteryellow'.",
+  "oklch": {
+    "lightness": 0.860213,
+    "chroma": 0.196118,
+    "hue": 116.714041,
+    "alpha": 1
+  },
   "definition": "#cae00d",
   "hex": "#cae00d",
   "general": {

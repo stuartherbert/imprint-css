@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'springgreen'.",
+  "oklch": {
+    "lightness": 0.874928,
+    "chroma": 0.23527,
+    "hue": 151.022422,
+    "alpha": 1
+  },
   "definition": "#00ff7f",
   "hex": "#00ff7f",
   "general": {

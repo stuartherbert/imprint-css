@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-300'.",
+  "oklch": {
+    "lightness": 0.729823,
+    "chroma": 0.122806,
+    "hue": 14.712444,
+    "alpha": 1
+  },
   "definition": "#ea868f",
   "hex": "#ea868f",
   "general": {

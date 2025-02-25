@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-lemonglacier'.",
+  "oklch": {
+    "lightness": 0.966347,
+    "chroma": 0.211476,
+    "hue": 110.364228,
+    "alpha": 1
+  },
   "definition": "#fdff00",
   "hex": "#fdff00",
   "general": {

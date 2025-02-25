@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkgray'.",
+  "oklch": {
+    "lightness": 0.735017,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#a9a9a9",
   "hex": "#a9a9a9",
   "general": {

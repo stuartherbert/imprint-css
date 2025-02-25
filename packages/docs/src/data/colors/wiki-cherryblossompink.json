@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cherryblossompink'.",
+  "oklch": {
+    "lightness": 0.850415,
+    "chroma": 0.085024,
+    "hue": 6.145144,
+    "alpha": 1
+  },
   "definition": "#ffb7c5",
   "hex": "#ffb7c5",
   "general": {

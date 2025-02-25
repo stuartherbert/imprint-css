@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-iron'.",
+  "oklch": {
+    "lightness": 0.416503,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#4c4c4c",
   "hex": "#4c4c4c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-timberwolf'.",
+  "oklch": {
+    "lightness": 0.880915,
+    "chroma": 0.007984,
+    "hue": 72.392729,
+    "alpha": 1
+  },
   "definition": "#dbd7d2",
   "hex": "#dbd7d2",
   "general": {

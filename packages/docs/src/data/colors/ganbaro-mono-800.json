@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-mono-800'.",
+  "oklch": {
+    "lightness": 0.251608,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#222",
   "hex": "#222222",
   "general": {

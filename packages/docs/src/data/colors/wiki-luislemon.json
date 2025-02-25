@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-luislemon'.",
+  "oklch": {
+    "lightness": 0.952262,
+    "chroma": 0.205169,
+    "hue": 116.110433,
+    "alpha": 1
+  },
   "definition": "#e9ff36",
   "hex": "#e9ff36",
   "general": {

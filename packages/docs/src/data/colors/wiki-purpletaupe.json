@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-purpletaupe'.",
+  "oklch": {
+    "lightness": 0.393242,
+    "chroma": 0.030341,
+    "hue": 332.734637,
+    "alpha": 1
+  },
   "definition": "#50404d",
   "hex": "#50404d",
   "general": {

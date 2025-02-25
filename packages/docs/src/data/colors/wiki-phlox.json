@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-phlox'.",
+  "oklch": {
+    "lightness": 0.654637,
+    "chroma": 0.312274,
+    "hue": 321.146151,
+    "alpha": 1
+  },
   "definition": "#df00ff",
   "hex": "#df00ff",
   "general": {

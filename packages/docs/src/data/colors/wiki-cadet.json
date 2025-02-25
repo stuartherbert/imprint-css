@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cadet'.",
+  "oklch": {
+    "lightness": 0.503893,
+    "chroma": 0.029875,
+    "hue": 228.126134,
+    "alpha": 1
+  },
   "definition": "#536872",
   "hex": "#536872",
   "general": {

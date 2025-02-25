@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bittersweet'.",
+  "oklch": {
+    "lightness": 0.713042,
+    "chroma": 0.178016,
+    "hue": 29.014655,
+    "alpha": 1
+  },
   "definition": "#fe6f5e",
   "hex": "#fe6f5e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bsc-brunswickgreen'.",
+  "oklch": {
+    "lightness": 0.333771,
+    "chroma": 0.047818,
+    "hue": 160.304282,
+    "alpha": 1
+  },
   "definition": "#1e3e2e",
   "hex": "#1e3e2e",
   "general": {

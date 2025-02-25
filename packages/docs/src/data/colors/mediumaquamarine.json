@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumaquamarine'.",
+  "oklch": {
+    "lightness": 0.776757,
+    "chroma": 0.109813,
+    "hue": 168.868322,
+    "alpha": 1
+  },
   "definition": "#66cdaa",
   "hex": "#66cdaa",
   "general": {

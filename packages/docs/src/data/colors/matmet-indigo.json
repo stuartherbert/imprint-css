@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-indigo'.",
+  "oklch": {
+    "lightness": 0.507715,
+    "chroma": 0.293333,
+    "hue": 286.714215,
+    "alpha": 1
+  },
   "definition": "#6a00ff",
   "hex": "#6a00ff",
   "general": {

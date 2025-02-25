@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-olivedrabcamouflage'.",
+  "oklch": {
+    "lightness": 0.427087,
+    "chroma": 0.029177,
+    "hue": 94.844761,
+    "alpha": 1
+  },
   "definition": "#544f3d",
   "hex": "#544f3d",
   "general": {

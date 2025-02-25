@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-scarlet'.",
+  "oklch": {
+    "lightness": 0.639383,
+    "chroma": 0.238999,
+    "hue": 21.065348,
+    "alpha": 1
+  },
   "definition": "#fc2847",
   "hex": "#fc2847",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'usaf-academyblue'.",
+  "oklch": {
+    "lightness": 0.43073,
+    "chroma": 0.136525,
+    "hue": 253.867812,
+    "alpha": 1
+  },
   "definition": "#004f98",
   "hex": "#004f98",
   "general": {

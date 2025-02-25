@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-cyan-900'.",
+  "oklch": {
+    "lightness": 0.256005,
+    "chroma": 0.042603,
+    "hue": 215.439988,
+    "alpha": 1
+  },
   "definition": "#032830",
   "hex": "#032830",
   "general": {

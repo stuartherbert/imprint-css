@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cigarbrown'.",
+  "oklch": {
+    "lightness": 0.45841,
+    "chroma": 0.04111,
+    "hue": 27.589725,
+    "alpha": 1
+  },
   "definition": "#6d4f4b",
   "hex": "#6d4f4b",
   "general": {

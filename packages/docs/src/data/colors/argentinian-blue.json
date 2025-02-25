@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'argentinian-blue'.",
+  "oklch": {
+    "lightness": 0.745888,
+    "chroma": 0.110985,
+    "hue": 244.358167,
+    "alpha": 1
+  },
   "definition": "#6cb4ee",
   "hex": "#6cb4ee",
   "general": {

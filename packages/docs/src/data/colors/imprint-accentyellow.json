@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-accentyellow'.",
+  "oklch": {
+    "lightness": 0.821842,
+    "chroma": 0.16228,
+    "hue": 83.855876,
+    "alpha": 1
+  },
   "definition": "#f6ba21",
   "hex": "#f6ba21",
   "general": {

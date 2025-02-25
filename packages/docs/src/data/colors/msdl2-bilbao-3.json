@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-bilbao-3'.",
+  "oklch": {
+    "lightness": 0.702402,
+    "chroma": 0.19771,
+    "hue": 132.849346,
+    "alpha": 1
+  },
   "definition": "#6bb700",
   "hex": "#6bb700",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-taupe'.",
+  "oklch": {
+    "lightness": 0.524473,
+    "chroma": 0.037375,
+    "hue": 64.185047,
+    "alpha": 1
+  },
   "definition": "#7a6654",
   "hex": "#7a6654",
   "general": {

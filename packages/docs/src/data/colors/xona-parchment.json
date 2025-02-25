@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-parchment'.",
+  "oklch": {
+    "lightness": 0.934381,
+    "chroma": 0.031519,
+    "hue": 91.177575,
+    "alpha": 1
+  },
   "definition": "#f1e9d2",
   "hex": "#f1e9d2",
   "general": {

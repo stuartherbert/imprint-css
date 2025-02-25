@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-900'.",
+  "oklch": {
+    "lightness": 0.359979,
+    "chroma": 0.176469,
+    "hue": 296.24301,
+    "alpha": 1
+  },
   "definition": "#4a148c",
   "hex": "#4a148c",
   "general": {

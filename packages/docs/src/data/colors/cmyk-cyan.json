@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cmyk-cyan'.",
+  "oklch": {
+    "lightness": 0.727412,
+    "chroma": 0.140815,
+    "hue": 227.267703,
+    "alpha": 1
+  },
   "definition": "#00b7eb",
   "hex": "#00b7eb",
   "general": {

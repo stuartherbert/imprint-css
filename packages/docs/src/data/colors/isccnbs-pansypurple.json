@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-pansypurple'.",
+  "oklch": {
+    "lightness": 0.390172,
+    "chroma": 0.137669,
+    "hue": 354.04891,
+    "alpha": 1
+  },
   "definition": "#78184a",
   "hex": "#78184a",
   "general": {

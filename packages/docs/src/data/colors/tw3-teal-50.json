@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-teal-50'.",
+  "oklch": {
+    "lightness": 0.983439,
+    "chroma": 0.014229,
+    "hue": 180.418788,
+    "alpha": 1
+  },
   "definition": "#f0fdfa",
   "hex": "#f0fdfa",
   "general": {

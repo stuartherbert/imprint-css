@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'violet'.",
+  "oklch": {
+    "lightness": 0.761831,
+    "chroma": 0.185914,
+    "hue": 327.208134,
+    "alpha": 1
+  },
   "definition": "#ee82ee",
   "hex": "#ee82ee",
   "general": {

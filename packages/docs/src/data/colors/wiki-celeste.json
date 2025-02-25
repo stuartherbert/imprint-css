@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-celeste'.",
+  "oklch": {
+    "lightness": 0.950206,
+    "chroma": 0.075237,
+    "hue": 195.958056,
+    "alpha": 1
+  },
   "definition": "#b2ffff",
   "hex": "#b2ffff",
   "general": {

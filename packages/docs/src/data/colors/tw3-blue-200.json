@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-200'.",
+  "oklch": {
+    "lightness": 0.882424,
+    "chroma": 0.057005,
+    "hue": 254.039599,
+    "alpha": 1
+  },
   "definition": "#bfdbfe",
   "hex": "#bfdbfe",
   "general": {

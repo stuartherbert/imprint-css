@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-falured-4'.",
+  "oklch": {
+    "lightness": 0.625688,
+    "chroma": 0.222004,
+    "hue": 32.482733,
+    "alpha": 1
+  },
   "definition": "#f03a17",
   "hex": "#f03a17",
   "general": {

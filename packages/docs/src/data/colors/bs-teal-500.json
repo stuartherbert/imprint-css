@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-500'.",
+  "oklch": {
+    "lightness": 0.743912,
+    "chroma": 0.148007,
+    "hue": 166.370109,
+    "alpha": 1
+  },
   "definition": "#20c997",
   "hex": "#20c997",
   "general": {

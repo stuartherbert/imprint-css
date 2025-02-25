@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-300'.",
+  "oklch": {
+    "lightness": 0.868787,
+    "chroma": 0.019798,
+    "hue": 253.00359,
+    "alpha": 1
+  },
   "definition": "#cbd5e1",
   "hex": "#cbd5e1",
   "general": {

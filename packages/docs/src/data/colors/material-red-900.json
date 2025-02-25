@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-red-900'.",
+  "oklch": {
+    "lightness": 0.501841,
+    "chroma": 0.188732,
+    "hue": 27.478905,
+    "alpha": 1
+  },
   "definition": "#b71c1c",
   "hex": "#b71c1c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-greensea'.",
+  "oklch": {
+    "lightness": 0.631544,
+    "chroma": 0.115438,
+    "hue": 174.656581,
+    "alpha": 1
+  },
   "definition": "#16a085",
   "hex": "#16a085",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-tawnyport'.",
+  "oklch": {
+    "lightness": 0.376039,
+    "chroma": 0.103944,
+    "hue": 353.930253,
+    "alpha": 1
+  },
   "definition": "#692545",
   "hex": "#692545",
   "general": {

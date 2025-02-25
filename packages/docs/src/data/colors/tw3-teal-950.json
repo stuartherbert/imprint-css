@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-teal-950'.",
+  "oklch": {
+    "lightness": 0.276993,
+    "chroma": 0.044559,
+    "hue": 192.473289,
+    "alpha": 1
+  },
   "definition": "#042f2e",
   "hex": "#042f2e",
   "general": {

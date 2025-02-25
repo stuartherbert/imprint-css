@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-eggplant'.",
+  "oklch": {
+    "lightness": 0.414861,
+    "chroma": 0.052196,
+    "hue": 347.141875,
+    "alpha": 1
+  },
   "definition": "#614051",
   "hex": "#614051",
   "general": {

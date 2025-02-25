@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-feldgrau'.",
+  "oklch": {
+    "lightness": 0.461707,
+    "chroma": 0.02572,
+    "hue": 157.385089,
+    "alpha": 1
+  },
   "definition": "#4d5d53",
   "hex": "#4d5d53",
   "general": {

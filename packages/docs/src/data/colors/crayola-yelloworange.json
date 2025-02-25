@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-yelloworange'.",
+  "oklch": {
+    "lightness": 0.811212,
+    "chroma": 0.151416,
+    "hue": 69.835958,
+    "alpha": 1
+  },
   "definition": "#ffae42",
   "hex": "#ffae42",
   "general": {

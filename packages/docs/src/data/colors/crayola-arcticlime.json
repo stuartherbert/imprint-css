@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-arcticlime'.",
+  "oklch": {
+    "lightness": 0.933643,
+    "chroma": 0.224465,
+    "hue": 122.256032,
+    "alpha": 1
+  },
   "definition": "#d0ff14",
   "hex": "#d0ff14",
   "general": {

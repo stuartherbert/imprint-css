@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-orange-100'.",
+  "oklch": {
+    "lightness": 0.953982,
+    "chroma": 0.037186,
+    "hue": 74.98117,
+    "alpha": 1
+  },
   "definition": "#ffedd5",
   "hex": "#ffedd5",
   "general": {

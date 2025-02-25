@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-slack'.",
+  "oklch": {
+    "lightness": 0.677582,
+    "chroma": 0.121721,
+    "hue": 165.30847,
+    "alpha": 1
+  },
   "definition": "#3aaf85",
   "hex": "#3aaf85",
   "general": {

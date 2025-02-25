@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-100'.",
+  "oklch": {
+    "lightness": 0.967545,
+    "chroma": 0.001352,
+    "hue": 286.374744,
+    "alpha": 1
+  },
   "definition": "#f4f4f5",
   "hex": "#f4f4f5",
   "general": {

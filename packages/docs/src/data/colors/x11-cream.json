@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'x11-cream'.",
+  "oklch": {
+    "lightness": 0.987513,
+    "chroma": 0.065409,
+    "hue": 107.53988,
+    "alpha": 1
+  },
   "definition": "#ffffcc",
   "hex": "#ffffcc",
   "general": {

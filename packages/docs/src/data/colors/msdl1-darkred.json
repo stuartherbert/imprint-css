@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darkred'.",
+  "oklch": {
+    "lightness": 0.512234,
+    "chroma": 0.187944,
+    "hue": 13.036835,
+    "alpha": 1
+  },
   "definition": "#b91d47",
   "hex": "#b91d47",
   "general": {

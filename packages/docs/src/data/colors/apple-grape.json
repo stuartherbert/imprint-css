@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-grape'.",
+  "oklch": {
+    "lightness": 0.530468,
+    "chroma": 0.293119,
+    "hue": 293.940912,
+    "alpha": 1
+  },
   "definition": "#8000ff",
   "hex": "#8000ff",
   "general": {

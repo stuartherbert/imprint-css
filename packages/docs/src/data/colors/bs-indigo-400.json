@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-400'.",
+  "oklch": {
+    "lightness": 0.563853,
+    "chroma": 0.249535,
+    "hue": 294.283703,
+    "alpha": 1
+  },
   "definition": "#8540f5",
   "hex": "#8540f5",
   "general": {

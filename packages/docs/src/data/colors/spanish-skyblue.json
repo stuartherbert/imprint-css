@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-skyblue'.",
+  "oklch": {
+    "lightness": 0.693254,
+    "chroma": 0.141134,
+    "hue": 231.829516,
+    "alpha": 1
+  },
   "definition": "#00aae4",
   "hex": "#00aae4",
   "general": {

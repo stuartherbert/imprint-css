@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-mauve'.",
+  "oklch": {
+    "lightness": 0.697988,
+    "chroma": 0.170674,
+    "hue": 327.21102,
+    "alpha": 1
+  },
   "definition": "#d473d4",
   "hex": "#d473d4",
   "general": {

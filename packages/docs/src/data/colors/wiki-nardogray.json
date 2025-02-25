@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-nardogray'.",
+  "oklch": {
+    "lightness": 0.523462,
+    "chroma": 0.004076,
+    "hue": 247.902966,
+    "alpha": 1
+  },
   "definition": "#686a6c",
   "hex": "#686a6c",
   "general": {

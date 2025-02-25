@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxpurple'.",
+  "oklch": {
+    "lightness": 0.67942,
+    "chroma": 0.029211,
+    "hue": 304.881876,
+    "alpha": 1
+  },
   "definition": "#9c94a7",
   "hex": "#9c94a7",
   "general": {

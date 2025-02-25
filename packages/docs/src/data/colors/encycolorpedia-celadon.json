@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-celadon'.",
+  "oklch": {
+    "lightness": 0.859738,
+    "chroma": 0.087501,
+    "hue": 146.116745,
+    "alpha": 1
+  },
   "definition": "#ace1af",
   "hex": "#ace1af",
   "general": {

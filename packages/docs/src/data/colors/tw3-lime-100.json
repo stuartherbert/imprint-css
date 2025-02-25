@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-100'.",
+  "oklch": {
+    "lightness": 0.966715,
+    "chroma": 0.065887,
+    "hue": 122.394564,
+    "alpha": 1
+  },
   "definition": "#ecfccb",
   "hex": "#ecfccb",
   "general": {

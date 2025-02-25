@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'dcu-blue'.",
+  "oklch": {
+    "lightness": 0.289663,
+    "chroma": 0.121577,
+    "hue": 260.511613,
+    "alpha": 1
+  },
   "definition": "#002566",
   "hex": "#002566",
   "general": {

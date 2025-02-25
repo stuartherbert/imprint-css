@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cerulean'.",
+  "oklch": {
+    "lightness": 0.547627,
+    "chroma": 0.112381,
+    "hue": 232.477663,
+    "alpha": 1
+  },
   "definition": "#007ba7",
   "hex": "#007ba7",
   "general": {

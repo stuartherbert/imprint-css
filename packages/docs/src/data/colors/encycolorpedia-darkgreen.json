@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-darkgreen'.",
+  "oklch": {
+    "lightness": 0.280724,
+    "chroma": 0.060309,
+    "hue": 162.386914,
+    "alpha": 1
+  },
   "definition": "#013220",
   "hex": "#013220",
   "general": {

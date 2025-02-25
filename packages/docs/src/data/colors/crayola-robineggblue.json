@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-robineggblue'.",
+  "oklch": {
+    "lightness": 0.765264,
+    "chroma": 0.130629,
+    "hue": 194.768948,
+    "alpha": 1
+  },
   "definition": "#0cc",
   "hex": "#00cccc",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-fern'.",
+  "oklch": {
+    "lightness": 0.707703,
+    "chroma": 0.135485,
+    "hue": 146.334359,
+    "alpha": 1
+  },
   "definition": "#63b76c",
   "hex": "#63b76c",
   "general": {

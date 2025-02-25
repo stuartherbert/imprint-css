@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'hunyadi-yellow'.",
+  "oklch": {
+    "lightness": 0.782465,
+    "chroma": 0.138622,
+    "hue": 78.355207,
+    "alpha": 1
+  },
   "definition": "#e8ac41",
   "hex": "#e8ac41",
   "general": {

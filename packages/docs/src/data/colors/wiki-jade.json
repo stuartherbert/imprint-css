@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-jade'.",
+  "oklch": {
+    "lightness": 0.644962,
+    "chroma": 0.148806,
+    "hue": 158.804188,
+    "alpha": 1
+  },
   "definition": "#00a86b",
   "hex": "#00a86b",
   "general": {

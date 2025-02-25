@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-100'.",
+  "oklch": {
+    "lightness": 0.97268,
+    "chroma": 0.069119,
+    "hue": 103.085173,
+    "alpha": 1
+  },
   "definition": "#fef9c3",
   "hex": "#fef9c3",
   "general": {

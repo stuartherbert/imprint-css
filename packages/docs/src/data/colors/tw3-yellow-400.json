@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-400'.",
+  "oklch": {
+    "lightness": 0.860459,
+    "chroma": 0.173117,
+    "hue": 91.976591,
+    "alpha": 1
+  },
   "definition": "#facc15",
   "hex": "#facc15",
   "general": {

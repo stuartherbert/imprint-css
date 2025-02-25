@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-700'.",
+  "oklch": {
+    "lightness": 0.514236,
+    "chroma": 0.197739,
+    "hue": 16.968355,
+    "alpha": 1
+  },
   "definition": "#be123c",
   "hex": "#be123c",
   "general": {

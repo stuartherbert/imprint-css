@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-electriclime'.",
+  "oklch": {
+    "lightness": 0.930708,
+    "chroma": 0.228585,
+    "hue": 123.090167,
+    "alpha": 1
+  },
   "definition": "#ccff00",
   "hex": "#ccff00",
   "general": {

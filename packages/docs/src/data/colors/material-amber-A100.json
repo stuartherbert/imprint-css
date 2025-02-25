@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-a100'.",
+  "oklch": {
+    "lightness": 0.922501,
+    "chroma": 0.125546,
+    "hue": 95.406738,
+    "alpha": 1
+  },
   "definition": "#ffe57f",
   "hex": "#ffe57f",
   "general": {

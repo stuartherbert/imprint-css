@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mordantred19'.",
+  "oklch": {
+    "lightness": 0.475004,
+    "chroma": 0.189901,
+    "hue": 30.108039,
+    "alpha": 1
+  },
   "definition": "#ae0c00",
   "hex": "#ae0c00",
   "general": {

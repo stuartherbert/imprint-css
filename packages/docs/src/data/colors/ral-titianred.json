@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-titianred'.",
+  "oklch": {
+    "lightness": 0.574443,
+    "chroma": 0.147581,
+    "hue": 44.643167,
+    "alpha": 1
+  },
   "definition": "#bd5620",
   "hex": "#bd5620",
   "general": {

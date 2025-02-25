@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-facebook'.",
+  "oklch": {
+    "lightness": 0.472992,
+    "chroma": 0.109823,
+    "hue": 263.73491,
+    "alpha": 1
+  },
   "definition": "#3b5999",
   "hex": "#3b5999",
   "general": {

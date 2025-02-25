@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-savoyblue'.",
+  "oklch": {
+    "lightness": 0.537315,
+    "chroma": 0.17399,
+    "hue": 271.062669,
+    "alpha": 1
+  },
   "definition": "#4b61d1",
   "hex": "#4b61d1",
   "general": {

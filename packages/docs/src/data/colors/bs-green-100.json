@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-green-100'.",
+  "oklch": {
+    "lightness": 0.909048,
+    "chroma": 0.026819,
+    "hue": 166.785403,
+    "alpha": 1
+  },
   "definition": "#d1e7dd",
   "hex": "#d1e7dd",
   "general": {

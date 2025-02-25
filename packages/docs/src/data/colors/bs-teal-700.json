@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-700'.",
+  "oklch": {
+    "lightness": 0.514174,
+    "chroma": 0.099949,
+    "hue": 167.04817,
+    "alpha": 1
+  },
   "definition": "#13795b",
   "hex": "#13795b",
   "general": {

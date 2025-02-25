@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-100'.",
+  "oklch": {
+    "lightness": 0.956088,
+    "chroma": 0.04419,
+    "hue": 203.552433,
+    "alpha": 1
+  },
   "definition": "#cffafe",
   "hex": "#cffafe",
   "general": {

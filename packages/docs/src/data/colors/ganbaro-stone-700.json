@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-700'.",
+  "oklch": {
+    "lightness": 0.339274,
+    "chroma": 0.010252,
+    "hue": 75.240994,
+    "alpha": 1
+  },
   "definition": "#3b3732",
   "hex": "#3b3732",
   "general": {

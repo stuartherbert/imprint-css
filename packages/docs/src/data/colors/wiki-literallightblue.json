@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-literallightblue'.",
+  "oklch": {
+    "lightness": 0.661376,
+    "chroma": 0.18372,
+    "hue": 280.131498,
+    "alpha": 1
+  },
   "definition": "#8080ff",
   "hex": "#8080ff",
   "general": {

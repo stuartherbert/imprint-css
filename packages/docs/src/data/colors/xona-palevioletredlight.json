@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-palevioletredlight'.",
+  "oklch": {
+    "lightness": 0.837487,
+    "chroma": 0.071235,
+    "hue": 353.759181,
+    "alpha": 1
+  },
   "definition": "#f0b7cd",
   "hex": "#f0b7cd",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink-800'.",
+  "oklch": {
+    "lightness": 0.3146,
+    "chroma": 0.102514,
+    "hue": 353.912567,
+    "alpha": 1
+  },
   "definition": "#561435",
   "hex": "#561435",
   "general": {

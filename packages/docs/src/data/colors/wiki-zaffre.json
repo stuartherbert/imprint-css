@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-zaffre'.",
+  "oklch": {
+    "lightness": 0.344046,
+    "chroma": 0.220177,
+    "hue": 264.20773,
+    "alpha": 1
+  },
   "definition": "#0014a8",
   "hex": "#0014a8",
   "general": {

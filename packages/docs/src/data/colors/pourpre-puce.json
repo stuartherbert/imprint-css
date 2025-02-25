@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-puce'.",
+  "oklch": {
+    "lightness": 0.29048,
+    "chroma": 0.087444,
+    "hue": 34.359928,
+    "alpha": 1
+  },
   "definition": "#4e1609",
   "hex": "#4e1609",
   "general": {

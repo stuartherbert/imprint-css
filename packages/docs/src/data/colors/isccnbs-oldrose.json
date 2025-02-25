@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-oldrose'.",
+  "oklch": {
+    "lightness": 0.665562,
+    "chroma": 0.079706,
+    "hue": 18.362796,
+    "alpha": 1
+  },
   "definition": "#c08081",
   "hex": "#c08081",
   "general": {

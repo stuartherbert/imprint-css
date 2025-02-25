@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-darkpink'.",
+  "oklch": {
+    "lightness": 0.528352,
+    "chroma": 0.236858,
+    "hue": 333.348156,
+    "alpha": 1
+  },
   "definition": "#b300a3",
   "hex": "#b300a3",
   "general": {

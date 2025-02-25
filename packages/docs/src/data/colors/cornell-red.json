@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cornell-red'.",
+  "oklch": {
+    "lightness": 0.493413,
+    "chroma": 0.185699,
+    "hue": 27.492108,
+    "alpha": 1
+  },
   "definition": "#b31b1b",
   "hex": "#b31b1b",
   "general": {

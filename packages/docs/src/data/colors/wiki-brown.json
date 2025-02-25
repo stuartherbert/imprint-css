@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-brown'.",
+  "oklch": {
+    "lightness": 0.496601,
+    "chroma": 0.123421,
+    "hue": 54.688401,
+    "alpha": 1
+  },
   "definition": "#964b00",
   "hex": "#964b00",
   "general": {

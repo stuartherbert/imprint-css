@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-ruby'.",
+  "oklch": {
+    "lightness": 0.528592,
+    "chroma": 0.144508,
+    "hue": 359.248007,
+    "alpha": 1
+  },
   "definition": "#aa4069",
   "hex": "#aa4069",
   "general": {

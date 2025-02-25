@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-magenta'.",
+  "oklch": {
+    "lightness": 0.701674,
+    "chroma": 0.322491,
+    "hue": 328.363418,
+    "alpha": 1
+  },
   "definition": "#ff00ff",
   "hex": "#ff00ff",
   "general": {

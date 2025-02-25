@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'intlorange-engineering'.",
+  "oklch": {
+    "lightness": 0.502906,
+    "chroma": 0.195663,
+    "hue": 29.539794,
+    "alpha": 1
+  },
   "definition": "#ba160c",
   "hex": "#ba160c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-50'.",
+  "oklch": {
+    "lightness": 0.864127,
+    "chroma": 0.060949,
+    "hue": 19.683326,
+    "alpha": 1
+  },
   "definition": "#f8c3c2",
   "hex": "#f8c3c2",
   "general": {

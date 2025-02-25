@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-tangerine'.",
+  "oklch": {
+    "lightness": 0.73191,
+    "chroma": 0.185797,
+    "hue": 52.988869,
+    "alpha": 1
+  },
   "definition": "#ff8000",
   "hex": "#ff8000",
   "general": {

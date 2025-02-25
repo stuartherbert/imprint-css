@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-queenpink'.",
+  "oklch": {
+    "lightness": 0.871793,
+    "chroma": 0.034509,
+    "hue": 352.244993,
+    "alpha": 1
+  },
   "definition": "#e8ccd7",
   "hex": "#e8ccd7",
   "general": {

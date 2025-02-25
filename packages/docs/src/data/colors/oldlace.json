@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'oldlace'.",
+  "oklch": {
+    "lightness": 0.972419,
+    "chroma": 0.021571,
+    "hue": 83.576808,
+    "alpha": 1
+  },
   "definition": "#fdf5e6",
   "hex": "#fdf5e6",
   "general": {

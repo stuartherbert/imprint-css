@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'goldenrod'.",
+  "oklch": {
+    "lightness": 0.751565,
+    "chroma": 0.146982,
+    "hue": 83.976557,
+    "alpha": 1
+  },
   "definition": "#daa520",
   "hex": "#daa520",
   "general": {

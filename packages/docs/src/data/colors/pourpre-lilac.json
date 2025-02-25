@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-lilac'.",
+  "oklch": {
+    "lightness": 0.643135,
+    "chroma": 0.173863,
+    "hue": 316.686893,
+    "alpha": 1
+  },
   "definition": "#b666d2",
   "hex": "#b666d2",
   "general": {

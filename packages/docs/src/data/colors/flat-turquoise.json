@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-turquoise'.",
+  "oklch": {
+    "lightness": 0.711385,
+    "chroma": 0.130919,
+    "hue": 174.259685,
+    "alpha": 1
+  },
   "definition": "#1abc9c",
   "hex": "#1abc9c",
   "general": {

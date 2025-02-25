@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-50'.",
+  "oklch": {
+    "lightness": 0.969214,
+    "chroma": 0.016044,
+    "hue": 293.917905,
+    "alpha": 1
+  },
   "definition": "#f5f3ff",
   "hex": "#f5f3ff",
   "general": {

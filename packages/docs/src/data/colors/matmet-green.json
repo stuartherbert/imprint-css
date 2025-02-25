@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-green'.",
+  "oklch": {
+    "lightness": 0.661398,
+    "chroma": 0.182346,
+    "hue": 134.015575,
+    "alpha": 1
+  },
   "definition": "#60a917",
   "hex": "#60a917",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-300'.",
+  "oklch": {
+    "lightness": 0.645387,
+    "chroma": 0.161948,
+    "hue": 321.595361,
+    "alpha": 1
+  },
   "definition": "#ba68c8",
   "hex": "#ba68c8",
   "general": {

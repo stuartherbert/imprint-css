@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-lilac'.",
+  "oklch": {
+    "lightness": 0.544993,
+    "chroma": 0.082968,
+    "hue": 320.345669,
+    "alpha": 1
+  },
   "definition": "#86608e",
   "hex": "#86608e",
   "general": {

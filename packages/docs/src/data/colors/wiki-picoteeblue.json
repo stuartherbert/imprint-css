@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-picoteeblue'.",
+  "oklch": {
+    "lightness": 0.349784,
+    "chroma": 0.153001,
+    "hue": 278.150998,
+    "alpha": 1
+  },
   "definition": "#2e2787",
   "hex": "#2e2787",
   "general": {

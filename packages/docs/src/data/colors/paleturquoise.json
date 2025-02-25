@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'paleturquoise'.",
+  "oklch": {
+    "lightness": 0.90666,
+    "chroma": 0.063219,
+    "hue": 196.092108,
+    "alpha": 1
+  },
   "definition": "#afeeee",
   "hex": "#afeeee",
   "general": {

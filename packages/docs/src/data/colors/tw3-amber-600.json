@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-600'.",
+  "oklch": {
+    "lightness": 0.66599,
+    "chroma": 0.157369,
+    "hue": 58.355734,
+    "alpha": 1
+  },
   "definition": "#d97706",
   "hex": "#d97706",
   "general": {

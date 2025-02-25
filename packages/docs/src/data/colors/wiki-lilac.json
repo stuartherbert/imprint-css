@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lilac'.",
+  "oklch": {
+    "lightness": 0.758313,
+    "chroma": 0.06814,
+    "hue": 326.223747,
+    "alpha": 1
+  },
   "definition": "#c8a2c8",
   "hex": "#c8a2c8",
   "general": {

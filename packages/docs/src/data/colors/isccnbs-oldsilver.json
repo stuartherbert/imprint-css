@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-oldsilver'.",
+  "oklch": {
+    "lightness": 0.613016,
+    "chroma": 0.003026,
+    "hue": 106.488411,
+    "alpha": 1
+  },
   "definition": "#848482",
   "hex": "#848482",
   "general": {

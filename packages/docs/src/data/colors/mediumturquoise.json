@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumturquoise'.",
+  "oklch": {
+    "lightness": 0.787019,
+    "chroma": 0.116339,
+    "hue": 191.490858,
+    "alpha": 1
+  },
   "definition": "#48d1cc",
   "hex": "#48d1cc",
   "general": {

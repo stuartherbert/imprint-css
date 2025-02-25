@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-600'.",
+  "oklch": {
+    "lightness": 0.442233,
+    "chroma": 0.014491,
+    "hue": 285.792304,
+    "alpha": 1
+  },
   "definition": "#52525b",
   "hex": "#52525b",
   "general": {

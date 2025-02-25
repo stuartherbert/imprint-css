@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-harlequin'.",
+  "oklch": {
+    "lightness": 0.872156,
+    "chroma": 0.287024,
+    "hue": 141.018739,
+    "alpha": 1
+  },
   "definition": "#3fff00",
   "hex": "#3fff00",
   "general": {

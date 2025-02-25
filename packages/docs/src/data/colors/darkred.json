@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkred'.",
+  "oklch": {
+    "lightness": 0.399805,
+    "chroma": 0.164061,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#8b0000",
   "hex": "#8b0000",
   "general": {

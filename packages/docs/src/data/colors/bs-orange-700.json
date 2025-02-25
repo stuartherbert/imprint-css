@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-700'.",
+  "oklch": {
+    "lightness": 0.501849,
+    "chroma": 0.12229,
+    "hue": 52.85529,
+    "alpha": 1
+  },
   "definition": "#984c0c",
   "hex": "#984c0c",
   "general": {

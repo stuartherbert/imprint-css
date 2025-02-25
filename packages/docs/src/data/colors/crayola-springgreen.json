@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-springgreen'.",
+  "oklch": {
+    "lightness": 0.929494,
+    "chroma": 0.060136,
+    "hue": 106.728128,
+    "alpha": 1
+  },
   "definition": "#ecebbd",
   "hex": "#ecebbd",
   "general": {

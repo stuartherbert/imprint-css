@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-200'.",
+  "oklch": {
+    "lightness": 0.928795,
+    "chroma": 0.012576,
+    "hue": 254.714928,
+    "alpha": 1
+  },
   "definition": "#e2e8f0",
   "hex": "#e2e8f0",
   "general": {

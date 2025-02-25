@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-gothamgreen'.",
+  "oklch": {
+    "lightness": 0.405075,
+    "chroma": 0.083434,
+    "hue": 166.59439,
+    "alpha": 1
+  },
   "definition": "#00573f",
   "hex": "#00573f",
   "general": {

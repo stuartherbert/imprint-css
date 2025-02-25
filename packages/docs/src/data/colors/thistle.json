@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'thistle'.",
+  "oklch": {
+    "lightness": 0.833265,
+    "chroma": 0.043891,
+    "hue": 325.962942,
+    "alpha": 1
+  },
   "definition": "#d8bfd8",
   "hex": "#d8bfd8",
   "general": {

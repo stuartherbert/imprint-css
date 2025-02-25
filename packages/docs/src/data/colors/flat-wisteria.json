@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-wisteria'.",
+  "oklch": {
+    "lightness": 0.526149,
+    "chroma": 0.170265,
+    "hue": 314.698206,
+    "alpha": 1
+  },
   "definition": "#8e44ad",
   "hex": "#8e44ad",
   "general": {

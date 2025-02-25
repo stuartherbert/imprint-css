@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-paleshadedgray'.",
+  "oklch": {
+    "lightness": 0.955005,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#f0f0f0",
   "hex": "#f0f0f0",
   "general": {

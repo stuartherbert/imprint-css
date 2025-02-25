@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'iso3864-green'.",
+  "oklch": {
+    "lightness": 0.531471,
+    "chroma": 0.110845,
+    "hue": 157.424947,
+    "alpha": 1
+  },
   "definition": "#237f52",
   "hex": "#237f52",
   "general": {

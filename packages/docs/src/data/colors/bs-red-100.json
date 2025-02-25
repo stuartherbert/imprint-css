@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-100'.",
+  "oklch": {
+    "lightness": 0.907528,
+    "chroma": 0.037152,
+    "hue": 11.535109,
+    "alpha": 1
+  },
   "definition": "#f8d7da",
   "hex": "#f8d7da",
   "general": {

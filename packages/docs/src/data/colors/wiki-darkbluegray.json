@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-darkbluegray'.",
+  "oklch": {
+    "lightness": 0.531629,
+    "chroma": 0.07946,
+    "hue": 283.36519,
+    "alpha": 1
+  },
   "definition": "#669",
   "hex": "#666699",
   "general": {

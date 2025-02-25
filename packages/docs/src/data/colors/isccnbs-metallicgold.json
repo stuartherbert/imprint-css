@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-metallicgold'.",
+  "oklch": {
+    "lightness": 0.766297,
+    "chroma": 0.138571,
+    "hue": 91.055152,
+    "alpha": 1
+  },
   "definition": "#d4af37",
   "hex": "#d4af37",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-manganeseviolet'.",
+  "oklch": {
+    "lightness": 0.535916,
+    "chroma": 0.152219,
+    "hue": 303.825898,
+    "alpha": 1
+  },
   "definition": "#8152b4",
   "hex": "#8152b4",
   "general": {

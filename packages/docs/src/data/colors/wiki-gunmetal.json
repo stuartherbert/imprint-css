@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-gunmetal'.",
+  "oklch": {
+    "lightness": 0.317965,
+    "chroma": 0.016281,
+    "hue": 230.197817,
+    "alpha": 1
+  },
   "definition": "#2a3439",
   "hex": "#2a3439",
   "general": {

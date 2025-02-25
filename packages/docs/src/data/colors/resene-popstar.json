@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-popstar'.",
+  "oklch": {
+    "lightness": 0.576565,
+    "chroma": 0.143234,
+    "hue": 12.330447,
+    "alpha": 1
+  },
   "definition": "#be4f62",
   "hex": "#be4f62",
   "general": {

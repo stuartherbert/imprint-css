@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-carnation'.",
+  "oklch": {
+    "lightness": 0.745311,
+    "chroma": 0.203718,
+    "hue": 342.41765,
+    "alpha": 1
+  },
   "definition": "#ff6fcf",
   "hex": "#ff6fcf",
   "general": {

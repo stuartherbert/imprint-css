@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-a100'.",
+  "oklch": {
+    "lightness": 0.93872,
+    "chroma": 0.089318,
+    "hue": 178.382868,
+    "alpha": 1
+  },
   "definition": "#a7ffeb",
   "hex": "#a7ffeb",
   "general": {

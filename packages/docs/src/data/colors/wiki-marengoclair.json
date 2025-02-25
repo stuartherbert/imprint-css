@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-marengoclair'.",
+  "oklch": {
+    "lightness": 0.879061,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#d7d7d7",
   "hex": "#d7d7d7",
   "general": {

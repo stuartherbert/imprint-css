@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rajah'.",
+  "oklch": {
+    "lightness": 0.804542,
+    "chroma": 0.131044,
+    "hue": 62.411686,
+    "alpha": 1
+  },
   "definition": "#fbab60",
   "hex": "#fbab60",
   "general": {

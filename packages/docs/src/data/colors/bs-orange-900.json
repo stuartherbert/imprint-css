@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-900'.",
+  "oklch": {
+    "lightness": 0.245501,
+    "chroma": 0.052682,
+    "hue": 56.689336,
+    "alpha": 1
+  },
   "definition": "#331904",
   "hex": "#331904",
   "general": {

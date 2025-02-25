@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-carnationpink'.",
+  "oklch": {
+    "lightness": 0.82257,
+    "chroma": 0.112704,
+    "hue": 354.711104,
+    "alpha": 1
+  },
   "definition": "#ffa6c9",
   "hex": "#ffa6c9",
   "general": {

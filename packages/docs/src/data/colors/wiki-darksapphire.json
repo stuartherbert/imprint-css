@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-darksapphire'.",
+  "oklch": {
+    "lightness": 0.293209,
+    "chroma": 0.120989,
+    "hue": 263.054722,
+    "alpha": 1
+  },
   "definition": "#082567",
   "hex": "#082567",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ansi-safetyorange'.",
+  "oklch": {
+    "lightness": 0.721743,
+    "chroma": 0.190262,
+    "hue": 50.199996,
+    "alpha": 1
+  },
   "definition": "#ff7900",
   "hex": "#ff7900",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-400'.",
+  "oklch": {
+    "lightness": 0.78569,
+    "chroma": 0.130771,
+    "hue": 169.879109,
+    "alpha": 1
+  },
   "definition": "#4dd4ac",
   "hex": "#4dd4ac",
   "general": {

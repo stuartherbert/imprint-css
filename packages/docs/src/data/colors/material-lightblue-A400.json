@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-a400'.",
+  "oklch": {
+    "lightness": 0.720729,
+    "chroma": 0.163209,
+    "hue": 239.314898,
+    "alpha": 1
+  },
   "definition": "#00b0ff",
   "hex": "#00b0ff",
   "general": {

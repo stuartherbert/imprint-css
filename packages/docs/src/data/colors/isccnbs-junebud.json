@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-junebud'.",
+  "oklch": {
+    "lightness": 0.841482,
+    "chroma": 0.159504,
+    "hue": 120.509941,
+    "alpha": 1
+  },
   "definition": "#bdda57",
   "hex": "#bdda57",
   "general": {

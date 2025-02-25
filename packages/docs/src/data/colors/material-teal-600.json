@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-600'.",
+  "oklch": {
+    "lightness": 0.565317,
+    "chroma": 0.101011,
+    "hue": 182.427678,
+    "alpha": 1
+  },
   "definition": "#00897b",
   "hex": "#00897b",
   "general": {

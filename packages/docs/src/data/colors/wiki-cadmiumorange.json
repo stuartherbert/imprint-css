@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cadmiumorange'.",
+  "oklch": {
+    "lightness": 0.720086,
+    "chroma": 0.157746,
+    "hue": 56.684363,
+    "alpha": 1
+  },
   "definition": "#ed872d",
   "hex": "#ed872d",
   "general": {

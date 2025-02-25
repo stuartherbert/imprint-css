@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-sandytan'.",
+  "oklch": {
+    "lightness": 0.906647,
+    "chroma": 0.062001,
+    "hue": 66.909494,
+    "alpha": 1
+  },
   "definition": "#fdd9b5",
   "hex": "#fdd9b5",
   "general": {

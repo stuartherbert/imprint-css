@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-jetblack'.",
+  "oklch": {
+    "lightness": 0.164807,
+    "chroma": 0.004234,
+    "hue": 285.926057,
+    "alpha": 1
+  },
   "definition": "#0e0e10",
   "hex": "#0e0e10",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'azure'.",
+  "oklch": {
+    "lightness": 0.988918,
+    "chroma": 0.015767,
+    "hue": 196.901615,
+    "alpha": 1
+  },
   "definition": "#f0ffff",
   "hex": "#f0ffff",
   "general": {

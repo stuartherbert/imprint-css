@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lightmossgreen'.",
+  "oklch": {
+    "lightness": 0.778915,
+    "chroma": 0.090542,
+    "hue": 111.218265,
+    "alpha": 1
+  },
   "definition": "#b9bd78",
   "hex": "#b9bd78",
   "general": {

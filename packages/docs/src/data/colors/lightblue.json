@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightblue'.",
+  "oklch": {
+    "lightness": 0.856136,
+    "chroma": 0.04904,
+    "hue": 219.647549,
+    "alpha": 1
+  },
   "definition": "#add8e6",
   "hex": "#add8e6",
   "general": {

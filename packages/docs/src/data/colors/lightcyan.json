@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightcyan'.",
+  "oklch": {
+    "lightness": 0.977784,
+    "chroma": 0.032139,
+    "hue": 196.63788,
+    "alpha": 1
+  },
   "definition": "#e0ffff",
   "hex": "#e0ffff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-scarlet'.",
+  "oklch": {
+    "lightness": 0.637864,
+    "chroma": 0.248431,
+    "hue": 31.015528,
+    "alpha": 1
+  },
   "definition": "#ff2400",
   "hex": "#ff2400",
   "general": {

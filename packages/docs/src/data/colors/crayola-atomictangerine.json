@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-atomictangerine'.",
+  "oklch": {
+    "lightness": 0.778888,
+    "chroma": 0.139299,
+    "hue": 46.566979,
+    "alpha": 1
+  },
   "definition": "#f96",
   "hex": "#ff9966",
   "general": {

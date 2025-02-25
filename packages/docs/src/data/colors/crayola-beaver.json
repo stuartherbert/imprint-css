@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-beaver'.",
+  "oklch": {
+    "lightness": 0.627063,
+    "chroma": 0.044871,
+    "hue": 51.167426,
+    "alpha": 1
+  },
   "definition": "#9f8170",
   "hex": "#9f8170",
   "general": {

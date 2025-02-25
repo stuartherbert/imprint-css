@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-pink'.",
+  "oklch": {
+    "lightness": 0.854613,
+    "chroma": 0.064788,
+    "hue": 19.709242,
+    "alpha": 1
+  },
   "definition": "#f7bfbe",
   "hex": "#f7bfbe",
   "general": {

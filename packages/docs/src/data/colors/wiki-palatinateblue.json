@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-palatinateblue'.",
+  "oklch": {
+    "lightness": 0.395884,
+    "chroma": 0.186364,
+    "hue": 262.229941,
+    "alpha": 1
+  },
   "definition": "#0038a8",
   "hex": "#0038a8",
   "general": {

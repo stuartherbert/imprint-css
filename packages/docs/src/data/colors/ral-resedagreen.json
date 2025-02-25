@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-resedagreen'.",
+  "oklch": {
+    "lightness": 0.563426,
+    "chroma": 0.055024,
+    "hue": 127.85108,
+    "alpha": 1
+  },
   "definition": "#6c7c59",
   "hex": "#6c7c59",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-lead'.",
+  "oklch": {
+    "lightness": 0.213379,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#191919",
   "hex": "#191919",
   "general": {

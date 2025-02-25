@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-blue'.",
+  "oklch": {
+    "lightness": 0.537424,
+    "chroma": 0.14203,
+    "hue": 247.217287,
+    "alpha": 1
+  },
   "definition": "#0072bb",
   "hex": "#0072bb",
   "general": {

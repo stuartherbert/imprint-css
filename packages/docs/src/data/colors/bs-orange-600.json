@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-600'.",
+  "oklch": {
+    "lightness": 0.61596,
+    "chroma": 0.153015,
+    "hue": 52.142758,
+    "alpha": 1
+  },
   "definition": "#ca6510",
   "hex": "#ca6510",
   "general": {

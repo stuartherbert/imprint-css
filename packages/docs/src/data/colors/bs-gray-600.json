@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-600'.",
+  "oklch": {
+    "lightness": 0.557717,
+    "chroma": 0.016324,
+    "hue": 244.79033,
+    "alpha": 1
+  },
   "definition": "#6c757d",
   "hex": "#6c757d",
   "general": {

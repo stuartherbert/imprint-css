@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lemonlime'.",
+  "oklch": {
+    "lightness": 0.946525,
+    "chroma": 0.219337,
+    "hue": 117.531126,
+    "alpha": 1
+  },
   "definition": "#e3ff00",
   "hex": "#e3ff00",
   "general": {

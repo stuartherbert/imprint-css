@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-ceruleanfrost'.",
+  "oklch": {
+    "lightness": 0.671928,
+    "chroma": 0.07784,
+    "hue": 245.485886,
+    "alpha": 1
+  },
   "definition": "#6d9bc3",
   "hex": "#6d9bc3",
   "general": {

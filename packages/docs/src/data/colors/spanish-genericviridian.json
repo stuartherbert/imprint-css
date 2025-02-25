@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-genericviridian'.",
+  "oklch": {
+    "lightness": 0.531539,
+    "chroma": 0.102485,
+    "hue": 172.571447,
+    "alpha": 1
+  },
   "definition": "#007f66",
   "hex": "#007f66",
   "general": {

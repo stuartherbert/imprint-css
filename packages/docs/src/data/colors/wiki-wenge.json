@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-wenge'.",
+  "oklch": {
+    "lightness": 0.460949,
+    "chroma": 0.021574,
+    "hue": 25.439646,
+    "alpha": 1
+  },
   "definition": "#645452",
   "hex": "#645452",
   "general": {

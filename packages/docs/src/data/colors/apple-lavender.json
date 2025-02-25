@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-lavender'.",
+  "oklch": {
+    "lightness": 0.693739,
+    "chroma": 0.228421,
+    "hue": 312.725177,
+    "alpha": 1
+  },
   "definition": "#c6f",
   "hex": "#cc66ff",
   "general": {

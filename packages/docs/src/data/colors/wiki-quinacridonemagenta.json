@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-quinacridonemagenta'.",
+  "oklch": {
+    "lightness": 0.450621,
+    "chroma": 0.171884,
+    "hue": 1.379308,
+    "alpha": 1
+  },
   "definition": "#9a114f",
   "hex": "#9a114f",
   "general": {

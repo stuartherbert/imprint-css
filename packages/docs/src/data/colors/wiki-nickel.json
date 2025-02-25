@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-nickel'.",
+  "oklch": {
+    "lightness": 0.556629,
+    "chroma": 0.00396,
+    "hue": 145.522084,
+    "alpha": 1
+  },
   "definition": "#727472",
   "hex": "#727472",
   "general": {

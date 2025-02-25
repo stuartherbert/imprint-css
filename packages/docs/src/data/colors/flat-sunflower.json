@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-sunflower'.",
+  "oklch": {
+    "lightness": 0.835959,
+    "chroma": 0.169003,
+    "hue": 91.822128,
+    "alpha": 1
+  },
   "definition": "#f1c40f",
   "hex": "#f1c40f",
   "general": {

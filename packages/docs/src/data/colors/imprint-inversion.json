@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-inversion'.",
+  "oklch": {
+    "lightness": 0.97337,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#f6f6f6",
   "hex": "#f6f6f6",
   "general": {

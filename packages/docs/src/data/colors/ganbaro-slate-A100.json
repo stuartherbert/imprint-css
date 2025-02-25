@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-slate-a100'.",
+  "oklch": {
+    "lightness": 0.784194,
+    "chroma": 0.02444,
+    "hue": 264.728914,
+    "alpha": 1
+  },
   "definition": "#b1b9c9",
   "hex": "#b1b9c9",
   "general": {

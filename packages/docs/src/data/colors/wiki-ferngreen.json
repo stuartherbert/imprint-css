@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ferngreen'.",
+  "oklch": {
+    "lightness": 0.531219,
+    "chroma": 0.094677,
+    "hue": 138.601148,
+    "alpha": 1
+  },
   "definition": "#4f7942",
   "hex": "#4f7942",
   "general": {

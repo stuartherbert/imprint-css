@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-lighttaupe'.",
+  "oklch": {
+    "lightness": 0.667177,
+    "chroma": 0.06465,
+    "hue": 58.287918,
+    "alpha": 1
+  },
   "definition": "#b38b6d",
   "hex": "#b38b6d",
   "general": {

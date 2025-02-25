@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-antiquefuchsia'.",
+  "oklch": {
+    "lightness": 0.546292,
+    "chroma": 0.087582,
+    "hue": 337.030952,
+    "alpha": 1
+  },
   "definition": "#915c83",
   "hex": "#915c83",
   "general": {

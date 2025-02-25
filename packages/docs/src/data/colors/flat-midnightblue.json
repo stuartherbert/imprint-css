@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-midnightblue'.",
+  "oklch": {
+    "lightness": 0.356438,
+    "chroma": 0.039145,
+    "hue": 249.327732,
+    "alpha": 1
+  },
   "definition": "#2c3e50",
   "hex": "#2c3e50",
   "general": {

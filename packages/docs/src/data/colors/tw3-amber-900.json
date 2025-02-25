@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-900'.",
+  "oklch": {
+    "lightness": 0.413948,
+    "chroma": 0.105435,
+    "hue": 45.886235,
+    "alpha": 1
+  },
   "definition": "#78350f",
   "hex": "#78350f",
   "general": {

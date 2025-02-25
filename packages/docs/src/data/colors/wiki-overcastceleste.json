@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-overcastceleste'.",
+  "oklch": {
+    "lightness": 0.905939,
+    "chroma": 0.027464,
+    "hue": 196.677134,
+    "alpha": 1
+  },
   "definition": "#cce6e6",
   "hex": "#cce6e6",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-yellow-700'.",
+  "oklch": {
+    "lightness": 0.871458,
+    "chroma": 0.176163,
+    "hue": 93.990481,
+    "alpha": 1
+  },
   "definition": "#fbd113",
   "hex": "#fbd113",
   "general": {

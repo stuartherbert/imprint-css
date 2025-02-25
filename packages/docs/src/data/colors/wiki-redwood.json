@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-redwood'.",
+  "oklch": {
+    "lightness": 0.550418,
+    "chroma": 0.099591,
+    "hue": 25.695439,
+    "alpha": 1
+  },
   "definition": "#a45953",
   "hex": "#a45953",
   "general": {

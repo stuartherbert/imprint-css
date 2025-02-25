@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-mosque-2'.",
+  "oklch": {
+    "lightness": 0.543705,
+    "chroma": 0.098566,
+    "hue": 180.117535,
+    "alpha": 1
+  },
   "definition": "#008272",
   "hex": "#008272",
   "general": {

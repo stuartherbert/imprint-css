@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'blanchedalmond'.",
+  "oklch": {
+    "lightness": 0.948657,
+    "chroma": 0.044973,
+    "hue": 78.26836,
+    "alpha": 1
+  },
   "definition": "#ffebcd",
   "hex": "#ffebcd",
   "general": {

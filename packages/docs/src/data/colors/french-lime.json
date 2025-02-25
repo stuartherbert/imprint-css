@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-lime'.",
+  "oklch": {
+    "lightness": 0.900823,
+    "chroma": 0.234702,
+    "hue": 132.707604,
+    "alpha": 1
+  },
   "definition": "#9efd38",
   "hex": "#9efd38",
   "general": {

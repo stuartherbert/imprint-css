@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-russianviolet'.",
+  "oklch": {
+    "lightness": 0.274376,
+    "chroma": 0.096382,
+    "hue": 303.648974,
+    "alpha": 1
+  },
   "definition": "#32174d",
   "hex": "#32174d",
   "general": {

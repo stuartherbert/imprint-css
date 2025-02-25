@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-cottoncandy'.",
+  "oklch": {
+    "lightness": 0.854997,
+    "chroma": 0.090897,
+    "hue": 352.582122,
+    "alpha": 1
+  },
   "definition": "#ffb7d5",
   "hex": "#ffb7d5",
   "general": {

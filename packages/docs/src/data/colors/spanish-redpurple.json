@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-redpurple'.",
+  "oklch": {
+    "lightness": 0.594861,
+    "chroma": 0.241017,
+    "hue": 0.260201,
+    "alpha": 1
+  },
   "definition": "#e40078",
   "hex": "#e40078",
   "general": {

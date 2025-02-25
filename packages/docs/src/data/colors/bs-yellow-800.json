@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-800'.",
+  "oklch": {
+    "lightness": 0.434815,
+    "chroma": 0.087536,
+    "hue": 86.649637,
+    "alpha": 1
+  },
   "definition": "#664d03",
   "hex": "#664d03",
   "general": {

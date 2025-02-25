@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-800'.",
+  "oklch": {
+    "lightness": 0.279659,
+    "chroma": 0.036569,
+    "hue": 259.933956,
+    "alpha": 1
+  },
   "definition": "#1e293b",
   "hex": "#1e293b",
   "general": {

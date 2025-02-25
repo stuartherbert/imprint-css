@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sealbrown'.",
+  "oklch": {
+    "lightness": 0.336279,
+    "chroma": 0.084058,
+    "hue": 45.184514,
+    "alpha": 1
+  },
   "definition": "#59260b",
   "hex": "#59260b",
   "general": {

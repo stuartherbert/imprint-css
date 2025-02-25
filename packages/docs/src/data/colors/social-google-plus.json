@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-google-plus'.",
+  "oklch": {
+    "lightness": 0.613086,
+    "chroma": 0.185299,
+    "hue": 30.151686,
+    "alpha": 1
+  },
   "definition": "#dd4b39",
   "hex": "#dd4b39",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-200'.",
+  "oklch": {
+    "lightness": 0.928884,
+    "chroma": 0.096454,
+    "hue": 91.530404,
+    "alpha": 1
+  },
   "definition": "#ffe69c",
   "hex": "#ffe69c",
   "general": {

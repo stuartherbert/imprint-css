@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-rose'.",
+  "oklch": {
+    "lightness": 0.668696,
+    "chroma": 0.212651,
+    "hue": 2.266789,
+    "alpha": 1
+  },
   "definition": "#f64a8a",
   "hex": "#f64a8a",
   "general": {

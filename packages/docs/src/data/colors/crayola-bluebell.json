@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bluebell'.",
+  "oklch": {
+    "lightness": 0.728261,
+    "chroma": 0.066542,
+    "hue": 284.627931,
+    "alpha": 1
+  },
   "definition": "#a2a2d0",
   "hex": "#a2a2d0",
   "general": {

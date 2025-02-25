@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'dodgerblue'.",
+  "oklch": {
+    "lightness": 0.652181,
+    "chroma": 0.190025,
+    "hue": 253.188691,
+    "alpha": 1
+  },
   "definition": "#1e90ff",
   "hex": "#1e90ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'whitesmoke'.",
+  "oklch": {
+    "lightness": 0.970316,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#f5f5f5",
   "hex": "#f5f5f5",
   "general": {

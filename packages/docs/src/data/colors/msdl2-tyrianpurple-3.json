@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-tyrianpurple-3'.",
+  "oklch": {
+    "lightness": 0.523578,
+    "chroma": 0.209639,
+    "hue": 8.173438,
+    "alpha": 1
+  },
   "definition": "#c30052",
   "hex": "#c30052",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'navajowhite'.",
+  "oklch": {
+    "lightness": 0.916583,
+    "chroma": 0.073169,
+    "hue": 77.624408,
+    "alpha": 1
+  },
   "definition": "#ffdead",
   "hex": "#ffdead",
   "general": {

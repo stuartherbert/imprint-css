@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-skymagenta'.",
+  "oklch": {
+    "lightness": 0.673563,
+    "chroma": 0.139758,
+    "hue": 341.543784,
+    "alpha": 1
+  },
   "definition": "#cf71af",
   "hex": "#cf71af",
   "general": {

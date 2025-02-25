@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-a400'.",
+  "oklch": {
+    "lightness": 0.606386,
+    "chroma": 0.228568,
+    "hue": 27.860786,
+    "alpha": 1
+  },
   "definition": "#ec2725",
   "hex": "#ec2725",
   "general": {

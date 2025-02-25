@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'munsell-green'.",
+  "oklch": {
+    "lightness": 0.647704,
+    "chroma": 0.138366,
+    "hue": 163.824205,
+    "alpha": 1
+  },
   "definition": "#00a877",
   "hex": "#00a877",
   "general": {

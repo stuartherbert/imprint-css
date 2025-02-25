@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'portland-orange'.",
+  "oklch": {
+    "lightness": 0.683962,
+    "chroma": 0.206897,
+    "hue": 33.849457,
+    "alpha": 1
+  },
   "definition": "#ff5a36",
   "hex": "#ff5a36",
   "general": {

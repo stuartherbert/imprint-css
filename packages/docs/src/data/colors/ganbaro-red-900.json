@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-900'.",
+  "oklch": {
+    "lightness": 0.437211,
+    "chroma": 0.161816,
+    "hue": 27.485951,
+    "alpha": 1
+  },
   "definition": "#971817",
   "hex": "#971817",
   "general": {

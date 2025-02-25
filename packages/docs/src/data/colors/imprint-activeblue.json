@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-activeblue'.",
+  "oklch": {
+    "lightness": 0.2856,
+    "chroma": 0.059529,
+    "hue": 253.555627,
+    "alpha": 1
+  },
   "definition": "#132b47",
   "hex": "#132b47",
   "general": {

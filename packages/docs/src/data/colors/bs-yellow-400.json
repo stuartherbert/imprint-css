@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-400'.",
+  "oklch": {
+    "lightness": 0.868877,
+    "chroma": 0.162297,
+    "hue": 88.790779,
+    "alpha": 1
+  },
   "definition": "#ffcd39",
   "hex": "#ffcd39",
   "general": {

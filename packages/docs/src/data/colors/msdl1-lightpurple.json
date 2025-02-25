@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-lightpurple'.",
+  "oklch": {
+    "lightness": 0.498376,
+    "chroma": 0.232073,
+    "hue": 325.802592,
+    "alpha": 1
+  },
   "definition": "#9f00a7",
   "hex": "#9f00a7",
   "general": {

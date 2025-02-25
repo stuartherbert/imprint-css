@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkgreen'.",
+  "oklch": {
+    "lightness": 0.435895,
+    "chroma": 0.148324,
+    "hue": 142.495339,
+    "alpha": 1
+  },
   "definition": "#006400",
   "hex": "#006400",
   "general": {

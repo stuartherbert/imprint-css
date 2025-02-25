@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mediumvermilion'.",
+  "oklch": {
+    "lightness": 0.633461,
+    "chroma": 0.161138,
+    "hue": 37.463204,
+    "alpha": 1
+  },
   "definition": "#d9603b",
   "hex": "#d9603b",
   "general": {

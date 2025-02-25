@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-fluorescentblue'.",
+  "oklch": {
+    "lightness": 0.874572,
+    "chroma": 0.148558,
+    "hue": 191.518951,
+    "alpha": 1
+  },
   "definition": "#15f4ee",
   "hex": "#15f4ee",
   "general": {

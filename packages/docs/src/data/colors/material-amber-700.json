@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-700'.",
+  "oklch": {
+    "lightness": 0.783743,
+    "chroma": 0.171954,
+    "hue": 68.035413,
+    "alpha": 1
+  },
   "definition": "#ffa000",
   "hex": "#ffa000",
   "general": {

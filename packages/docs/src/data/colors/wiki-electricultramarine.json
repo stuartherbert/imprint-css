@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-electricultramarine'.",
+  "oklch": {
+    "lightness": 0.4732,
+    "chroma": 0.300804,
+    "hue": 273.588522,
+    "alpha": 1
+  },
   "definition": "#3f00ff",
   "hex": "#3f00ff",
   "general": {

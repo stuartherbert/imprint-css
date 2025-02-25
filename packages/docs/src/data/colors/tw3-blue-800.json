@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-blue-800'.",
+  "oklch": {
+    "lightness": 0.424421,
+    "chroma": 0.18075,
+    "hue": 265.654748,
+    "alpha": 1
+  },
   "definition": "#1e40af",
   "hex": "#1e40af",
   "general": {

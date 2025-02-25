@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-redorange'.",
+  "oklch": {
+    "lightness": 0.678294,
+    "chroma": 0.209902,
+    "hue": 27.471096,
+    "alpha": 1
+  },
   "definition": "#ff5349",
   "hex": "#ff5349",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-chalkwhite'.",
+  "oklch": {
+    "lightness": 0.996934,
+    "chroma": 0.004312,
+    "hue": 197.087491,
+    "alpha": 1
+  },
   "definition": "#fbffff",
   "hex": "#fbffff",
   "general": {

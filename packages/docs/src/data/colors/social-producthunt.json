@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-producthunt'.",
+  "oklch": {
+    "lightness": 0.619064,
+    "chroma": 0.17517,
+    "hue": 36.385493,
+    "alpha": 1
+  },
   "definition": "#da552f",
   "hex": "#da552f",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'iso3864-yellow'.",
+  "oklch": {
+    "lightness": 0.792835,
+    "chroma": 0.167258,
+    "hue": 74.999654,
+    "alpha": 1
+  },
   "definition": "#f9a900",
   "hex": "#f9a900",
   "general": {

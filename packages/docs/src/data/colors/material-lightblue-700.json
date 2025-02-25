@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-700'.",
+  "oklch": {
+    "lightness": 0.602716,
+    "chroma": 0.146787,
+    "hue": 243.539563,
+    "alpha": 1
+  },
   "definition": "#0288d1",
   "hex": "#0288d1",
   "general": {

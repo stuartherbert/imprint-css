@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-700'.",
+  "oklch": {
+    "lightness": 0.642621,
+    "chroma": 0.146714,
+    "hue": 133.033328,
+    "alpha": 1
+  },
   "definition": "#689f38",
   "hex": "#689f38",
   "general": {

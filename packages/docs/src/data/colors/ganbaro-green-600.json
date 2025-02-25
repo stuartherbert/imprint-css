@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green-600'.",
+  "oklch": {
+    "lightness": 0.796789,
+    "chroma": 0.152741,
+    "hue": 132.625471,
+    "alpha": 1
+  },
   "definition": "#96d165",
   "hex": "#96d165",
   "general": {

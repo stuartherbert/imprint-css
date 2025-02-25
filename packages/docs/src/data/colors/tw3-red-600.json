@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-600'.",
+  "oklch": {
+    "lightness": 0.577214,
+    "chroma": 0.215218,
+    "hue": 27.326514,
+    "alpha": 1
+  },
   "definition": "#dc2626",
   "hex": "#dc2626",
   "general": {

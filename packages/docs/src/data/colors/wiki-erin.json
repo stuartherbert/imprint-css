@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-erin'.",
+  "oklch": {
+    "lightness": 0.868499,
+    "chroma": 0.278074,
+    "hue": 144.405692,
+    "alpha": 1
+  },
   "definition": "#00ff40",
   "hex": "#00ff40",
   "general": {

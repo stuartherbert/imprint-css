@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-palelavender'.",
+  "oklch": {
+    "lightness": 0.882559,
+    "chroma": 0.065112,
+    "hue": 296.746876,
+    "alpha": 1
+  },
   "definition": "#dcd0ff",
   "hex": "#dcd0ff",
   "general": {

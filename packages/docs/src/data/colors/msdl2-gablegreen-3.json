@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-gablegreen-3'.",
+  "oklch": {
+    "lightness": 0.489925,
+    "chroma": 0.039644,
+    "hue": 177.026385,
+    "alpha": 1
+  },
   "definition": "#486860",
   "hex": "#486860",
   "general": {

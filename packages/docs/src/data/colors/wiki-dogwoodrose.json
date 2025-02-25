@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-dogwoodrose'.",
+  "oklch": {
+    "lightness": 0.572774,
+    "chroma": 0.220184,
+    "hue": 4.437204,
+    "alpha": 1
+  },
   "definition": "#d71868",
   "hex": "#d71868",
   "general": {

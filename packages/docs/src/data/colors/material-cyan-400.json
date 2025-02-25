@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-cyan-400'.",
+  "oklch": {
+    "lightness": 0.758472,
+    "chroma": 0.124269,
+    "hue": 208.382266,
+    "alpha": 1
+  },
   "definition": "#26c6da",
   "hex": "#26c6da",
   "general": {

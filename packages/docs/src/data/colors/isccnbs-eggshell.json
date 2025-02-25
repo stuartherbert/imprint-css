@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-eggshell'.",
+  "oklch": {
+    "lightness": 0.936532,
+    "chroma": 0.027409,
+    "hue": 93.506434,
+    "alpha": 1
+  },
   "definition": "#f0ead6",
   "hex": "#f0ead6",
   "general": {

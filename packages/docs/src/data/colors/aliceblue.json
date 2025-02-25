@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'aliceblue'.",
+  "oklch": {
+    "lightness": 0.975336,
+    "chroma": 0.012663,
+    "hue": 243.23029,
+    "alpha": 1
+  },
   "definition": "#f0f8ff",
   "hex": "#f0f8ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-100'.",
+  "oklch": {
+    "lightness": 0.813879,
+    "chroma": 0.086161,
+    "hue": 20.00761,
+    "alpha": 1
+  },
   "definition": "#f5acab",
   "hex": "#f5acab",
   "general": {

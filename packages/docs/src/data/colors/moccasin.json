@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'moccasin'.",
+  "oklch": {
+    "lightness": 0.929574,
+    "chroma": 0.067465,
+    "hue": 81.314482,
+    "alpha": 1
+  },
   "definition": "#ffe4b5",
   "hex": "#ffe4b5",
   "general": {

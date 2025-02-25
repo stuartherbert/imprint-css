@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-stone-900'.",
+  "oklch": {
+    "lightness": 0.216129,
+    "chroma": 0.006249,
+    "hue": 56.035605,
+    "alpha": 1
+  },
   "definition": "#1c1917",
   "hex": "#1c1917",
   "general": {

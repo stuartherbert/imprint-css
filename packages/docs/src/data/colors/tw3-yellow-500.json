@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-yellow-500'.",
+  "oklch": {
+    "lightness": 0.795356,
+    "chroma": 0.16171,
+    "hue": 86.016876,
+    "alpha": 1
+  },
   "definition": "#eab308",
   "hex": "#eab308",
   "general": {

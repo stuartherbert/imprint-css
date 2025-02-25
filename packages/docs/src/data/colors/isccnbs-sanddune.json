@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-sanddune'.",
+  "oklch": {
+    "lightness": 0.570522,
+    "chroma": 0.109641,
+    "hue": 83.906586,
+    "alpha": 1
+  },
   "definition": "#967117",
   "hex": "#967117",
   "general": {

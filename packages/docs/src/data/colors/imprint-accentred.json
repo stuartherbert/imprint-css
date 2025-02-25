@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-accentred'.",
+  "oklch": {
+    "lightness": 0.50257,
+    "chroma": 0.20109,
+    "hue": 16.496728,
+    "alpha": 1
+  },
   "definition": "#bb0039",
   "hex": "#bb0039",
   "general": {

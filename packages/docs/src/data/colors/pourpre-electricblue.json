@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-electricblue'.",
+  "oklch": {
+    "lightness": 0.599046,
+    "chroma": 0.217975,
+    "hue": 261.59629,
+    "alpha": 1
+  },
   "definition": "#2c75ff",
   "hex": "#2c75ff",
   "general": {

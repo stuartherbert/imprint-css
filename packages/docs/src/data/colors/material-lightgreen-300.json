@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-300'.",
+  "oklch": {
+    "lightness": 0.825077,
+    "chroma": 0.117986,
+    "hue": 129.026588,
+    "alpha": 1
+  },
   "definition": "#aed581",
   "hex": "#aed581",
   "general": {

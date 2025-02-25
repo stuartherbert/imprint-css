@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'chartreuse'.",
+  "oklch": {
+    "lightness": 0.890259,
+    "chroma": 0.264808,
+    "hue": 136.008337,
+    "alpha": 1
+  },
   "definition": "#7fff00",
   "hex": "#7fff00",
   "general": {

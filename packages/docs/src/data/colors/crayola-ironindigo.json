@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-ironindigo'.",
+  "oklch": {
+    "lightness": 0.441791,
+    "chroma": 0.144585,
+    "hue": 258.878422,
+    "alpha": 1
+  },
   "definition": "#184fa1",
   "hex": "#184fa1",
   "general": {

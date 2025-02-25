@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-dutchwhite'.",
+  "oklch": {
+    "lightness": 0.907602,
+    "chroma": 0.050645,
+    "hue": 87.220665,
+    "alpha": 1
+  },
   "definition": "#efdfbb",
   "hex": "#efdfbb",
   "general": {

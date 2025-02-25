@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bluegray'.",
+  "oklch": {
+    "lightness": 0.667576,
+    "chroma": 0.093857,
+    "hue": 249.391717,
+    "alpha": 1
+  },
   "definition": "#69c",
   "hex": "#6699cc",
   "general": {

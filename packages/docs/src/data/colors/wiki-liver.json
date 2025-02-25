@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-liver'.",
+  "oklch": {
+    "lightness": 0.385132,
+    "chroma": 0.067294,
+    "hue": 62.323379,
+    "alpha": 1
+  },
   "definition": "#5d3b1a",
   "hex": "#5d3b1a",
   "general": {

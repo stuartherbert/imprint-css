@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-soap'.",
+  "oklch": {
+    "lightness": 0.849981,
+    "chroma": 0.054151,
+    "hue": 292.401433,
+    "alpha": 1
+  },
   "definition": "#cec8ef",
   "hex": "#cec8ef",
   "general": {

@@ -1,4 +1,5 @@
 import { reference, z } from "astro:content";
+import { oklchSchema } from "./oklch";
 import { renderableSchema } from "./renderable";
 
 const wcagContrastSchema = z.object({
@@ -73,6 +74,7 @@ export const colorsSchema = renderableSchema.extend({
     jsName: z.string(),
     definition: z.string().startsWith('#'),
     hex: z.string().startsWith('#'),
+    oklch: oklchSchema,
     general: generalSchema,
     pairedWithLightColor: pairedWithColorSchema,
     pairedWithDarkColor: pairedWithColorSchema,

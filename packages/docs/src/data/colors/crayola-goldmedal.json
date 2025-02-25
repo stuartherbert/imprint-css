@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-goldmedal'.",
+  "oklch": {
+    "lightness": 0.780315,
+    "chroma": 0.140352,
+    "hue": 105.008415,
+    "alpha": 1
+  },
   "definition": "#c5bc42",
   "hex": "#c5bc42",
   "general": {

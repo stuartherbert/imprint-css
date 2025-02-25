@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-700'.",
+  "oklch": {
+    "lightness": 0.57976,
+    "chroma": 0.117607,
+    "hue": 86.038977,
+    "alpha": 1
+  },
   "definition": "#997404",
   "hex": "#997404",
   "general": {

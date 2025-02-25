@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-oxblood'.",
+  "oklch": {
+    "lightness": 0.256792,
+    "chroma": 0.105375,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#4a0000",
   "hex": "#4a0000",
   "general": {

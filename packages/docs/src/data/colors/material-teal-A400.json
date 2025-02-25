@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-a400'.",
+  "oklch": {
+    "lightness": 0.832236,
+    "chroma": 0.162508,
+    "hue": 169.173841,
+    "alpha": 1
+  },
   "definition": "#1de9b6",
   "hex": "#1de9b6",
   "general": {

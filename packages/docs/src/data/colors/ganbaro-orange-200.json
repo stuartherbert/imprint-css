@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-orange-200'.",
+  "oklch": {
+    "lightness": 0.815053,
+    "chroma": 0.150232,
+    "hue": 70.729618,
+    "alpha": 1
+  },
   "definition": "#ffb044",
   "hex": "#ffb044",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-green-900'.",
+  "oklch": {
+    "lightness": 0.200508,
+    "chroma": 0.035239,
+    "hue": 161.823817,
+    "alpha": 1
+  },
   "definition": "#051b11",
   "hex": "#051b11",
   "general": {

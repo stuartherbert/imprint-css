@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-400'.",
+  "oklch": {
+    "lightness": 0.638948,
+    "chroma": 0.210277,
+    "hue": 5.297457,
+    "alpha": 1
+  },
   "definition": "#ec407a",
   "hex": "#ec407a",
   "general": {

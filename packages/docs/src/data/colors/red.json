@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'red'.",
+  "oklch": {
+    "lightness": 0.627955,
+    "chroma": 0.257683,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#ff0000",
   "hex": "#ff0000",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightslategrey'.",
+  "oklch": {
+    "lightness": 0.618894,
+    "chroma": 0.032487,
+    "hue": 248.75019,
+    "alpha": 1
+  },
   "definition": "#778899",
   "hex": "#778899",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-flame'.",
+  "oklch": {
+    "lightness": 0.634318,
+    "chroma": 0.183359,
+    "hue": 39.443753,
+    "alpha": 1
+  },
   "definition": "#e25822",
   "hex": "#e25822",
   "general": {

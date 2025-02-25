@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ndhu-green'.",
+  "oklch": {
+    "lightness": 0.419397,
+    "chroma": 0.099126,
+    "hue": 154.268311,
+    "alpha": 1
+  },
   "definition": "#0d5c33",
   "hex": "#0d5c33",
   "general": {

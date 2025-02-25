@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'australian-magnolia'.",
+  "oklch": {
+    "lightness": 0.910805,
+    "chroma": 0.037764,
+    "hue": 82.995372,
+    "alpha": 1
+  },
   "definition": "#eee0c6",
   "hex": "#eee0c6",
   "general": {

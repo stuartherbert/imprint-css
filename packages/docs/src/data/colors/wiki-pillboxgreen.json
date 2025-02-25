@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxgreen'.",
+  "oklch": {
+    "lightness": 0.730105,
+    "chroma": 0.097847,
+    "hue": 119.799909,
+    "alpha": 1
+  },
   "definition": "#a0b169",
   "hex": "#a0b169",
   "general": {

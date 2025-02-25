@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-peacockblue'.",
+  "oklch": {
+    "lightness": 0.37378,
+    "chroma": 0.066964,
+    "hue": 217.51708,
+    "alpha": 1
+  },
   "definition": "#004958",
   "hex": "#004958",
   "general": {

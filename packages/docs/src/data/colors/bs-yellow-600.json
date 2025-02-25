@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-600'.",
+  "oklch": {
+    "lightness": 0.714075,
+    "chroma": 0.145282,
+    "hue": 85.035928,
+    "alpha": 1
+  },
   "definition": "#cc9a06",
   "hex": "#cc9a06",
   "general": {

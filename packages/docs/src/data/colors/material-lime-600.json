@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-600'.",
+  "oklch": {
+    "lightness": 0.805416,
+    "chroma": 0.164738,
+    "hue": 113.381743,
+    "alpha": 1
+  },
   "definition": "#c0ca33",
   "hex": "#c0ca33",
   "general": {

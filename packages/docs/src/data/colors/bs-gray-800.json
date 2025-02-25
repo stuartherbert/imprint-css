@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-800'.",
+  "oklch": {
+    "lightness": 0.344868,
+    "chroma": 0.013352,
+    "hue": 249.35313,
+    "alpha": 1
+  },
   "definition": "#343a40",
   "hex": "#343a40",
   "general": {

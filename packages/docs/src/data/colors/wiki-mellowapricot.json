@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mellowapricot'.",
+  "oklch": {
+    "lightness": 0.828549,
+    "chroma": 0.1097,
+    "hue": 65.323685,
+    "alpha": 1
+  },
   "definition": "#f8b878",
   "hex": "#f8b878",
   "general": {

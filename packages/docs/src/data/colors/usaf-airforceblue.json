@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'usaf-airforceblue'.",
+  "oklch": {
+    "lightness": 0.354641,
+    "chroma": 0.163813,
+    "hue": 261.982612,
+    "alpha": 1
+  },
   "definition": "#00308f",
   "hex": "#00308f",
   "general": {

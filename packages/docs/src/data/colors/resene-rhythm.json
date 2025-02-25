@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-rhythm'.",
+  "oklch": {
+    "lightness": 0.578682,
+    "chroma": 0.048612,
+    "hue": 286.239792,
+    "alpha": 1
+  },
   "definition": "#777696",
   "hex": "#777696",
   "general": {

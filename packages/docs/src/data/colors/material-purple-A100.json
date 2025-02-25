@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-a100'.",
+  "oklch": {
+    "lightness": 0.761058,
+    "chroma": 0.199992,
+    "hue": 321.691065,
+    "alpha": 1
+  },
   "definition": "#ea80fc",
   "hex": "#ea80fc",
   "general": {

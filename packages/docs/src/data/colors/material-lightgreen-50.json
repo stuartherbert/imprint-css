@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-50'.",
+  "oklch": {
+    "lightness": 0.970016,
+    "chroma": 0.021197,
+    "hue": 127.698498,
+    "alpha": 1
+  },
   "definition": "#f1f8e9",
   "hex": "#f1f8e9",
   "general": {

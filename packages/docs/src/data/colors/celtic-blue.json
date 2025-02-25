@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'celtic-blue'.",
+  "oklch": {
+    "lightness": 0.540074,
+    "chroma": 0.168472,
+    "hue": 257.907223,
+    "alpha": 1
+  },
   "definition": "#246bce",
   "hex": "#246bce",
   "general": {

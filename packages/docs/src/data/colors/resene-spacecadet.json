@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'resene-spacecadet'.",
+  "oklch": {
+    "lightness": 0.295088,
+    "chroma": 0.075842,
+    "hue": 269.996679,
+    "alpha": 1
+  },
   "definition": "#1e2952",
   "hex": "#1e2952",
   "general": {

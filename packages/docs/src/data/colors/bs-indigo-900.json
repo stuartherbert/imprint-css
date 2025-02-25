@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-900'.",
+  "oklch": {
+    "lightness": 0.172701,
+    "chroma": 0.084045,
+    "hue": 293.846052,
+    "alpha": 1
+  },
   "definition": "#140330",
   "hex": "#140330",
   "general": {

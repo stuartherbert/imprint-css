@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-900'.",
+  "oklch": {
+    "lightness": 0.204071,
+    "chroma": 0.063309,
+    "hue": 257.664871,
+    "alpha": 1
+  },
   "definition": "#031633",
   "hex": "#031633",
   "general": {

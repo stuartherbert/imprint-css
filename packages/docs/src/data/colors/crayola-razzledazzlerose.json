@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-razzledazzlerose'.",
+  "oklch": {
+    "lightness": 0.69025,
+    "chroma": 0.270819,
+    "hue": 340.882814,
+    "alpha": 1
+  },
   "definition": "#f3c",
   "hex": "#ff33cc",
   "general": {

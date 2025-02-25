@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-green-900'.",
+  "oklch": {
+    "lightness": 0.425664,
+    "chroma": 0.116106,
+    "hue": 144.265042,
+    "alpha": 1
+  },
   "definition": "#1b5e20",
   "hex": "#1b5e20",
   "general": {

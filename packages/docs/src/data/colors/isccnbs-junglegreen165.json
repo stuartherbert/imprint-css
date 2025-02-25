@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-junglegreen165'.",
+  "oklch": {
+    "lightness": 0.372838,
+    "chroma": 0.064072,
+    "hue": 191.636587,
+    "alpha": 1
+  },
   "definition": "#004b49",
   "hex": "#004b49",
   "general": {

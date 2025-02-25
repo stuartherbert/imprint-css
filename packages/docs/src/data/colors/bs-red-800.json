@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-800'.",
+  "oklch": {
+    "lightness": 0.311736,
+    "chroma": 0.097566,
+    "hue": 19.073773,
+    "alpha": 1
+  },
   "definition": "#58151c",
   "hex": "#58151c",
   "general": {

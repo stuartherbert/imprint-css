@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-rosequartz'.",
+  "oklch": {
+    "lightness": 0.700807,
+    "chroma": 0.032106,
+    "hue": 327.654433,
+    "alpha": 1
+  },
   "definition": "#aa98a9",
   "hex": "#aa98a9",
   "general": {

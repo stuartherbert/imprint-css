@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-a100'.",
+  "oklch": {
+    "lightness": 0.755345,
+    "chroma": 0.159927,
+    "hue": 0.151451,
+    "alpha": 1
+  },
   "definition": "#ff80ab",
   "hex": "#ff80ab",
   "general": {

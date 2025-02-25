@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-lightblue'.",
+  "oklch": {
+    "lightness": 0.834488,
+    "chroma": 0.07259,
+    "hue": 195.849047,
+    "alpha": 1
+  },
   "definition": "#8fd8d8",
   "hex": "#8fd8d8",
   "general": {

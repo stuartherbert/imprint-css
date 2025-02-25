@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxaqua'.",
+  "oklch": {
+    "lightness": 0.670102,
+    "chroma": 0.060585,
+    "hue": 200.071022,
+    "alpha": 1
+  },
   "definition": "#67a1a4",
   "hex": "#67a1a4",
   "general": {

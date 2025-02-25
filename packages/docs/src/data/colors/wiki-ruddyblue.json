@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-ruddyblue'.",
+  "oklch": {
+    "lightness": 0.724702,
+    "chroma": 0.094652,
+    "hue": 248.780346,
+    "alpha": 1
+  },
   "definition": "#76abdf",
   "hex": "#76abdf",
   "general": {

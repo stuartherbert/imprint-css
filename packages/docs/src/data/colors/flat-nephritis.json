@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-nephritis'.",
+  "oklch": {
+    "lightness": 0.662617,
+    "chroma": 0.160222,
+    "hue": 152.349394,
+    "alpha": 1
+  },
   "definition": "#27ae60",
   "hex": "#27ae60",
   "general": {

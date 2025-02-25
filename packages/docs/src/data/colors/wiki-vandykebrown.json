@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-vandykebrown'.",
+  "oklch": {
+    "lightness": 0.346151,
+    "chroma": 0.023549,
+    "hue": 48.460297,
+    "alpha": 1
+  },
   "definition": "#44362f",
   "hex": "#44362f",
   "general": {

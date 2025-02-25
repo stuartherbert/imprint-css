@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-purple-400'.",
+  "oklch": {
+    "lightness": 0.721811,
+    "chroma": 0.176481,
+    "hue": 305.508613,
+    "alpha": 1
+  },
   "definition": "#c084fc",
   "hex": "#c084fc",
   "general": {

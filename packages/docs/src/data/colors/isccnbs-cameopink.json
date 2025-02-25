@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-cameopink'.",
+  "oklch": {
+    "lightness": 0.843098,
+    "chroma": 0.063559,
+    "hue": 356.972535,
+    "alpha": 1
+  },
   "definition": "#efbbcc",
   "hex": "#efbbcc",
   "general": {

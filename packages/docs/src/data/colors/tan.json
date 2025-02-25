@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tan'.",
+  "oklch": {
+    "lightness": 0.786358,
+    "chroma": 0.063912,
+    "hue": 74.561049,
+    "alpha": 1
+  },
   "definition": "#d2b48c",
   "hex": "#d2b48c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'linen'.",
+  "oklch": {
+    "lightness": 0.960074,
+    "chroma": 0.017056,
+    "hue": 67.622658,
+    "alpha": 1
+  },
   "definition": "#faf0e6",
   "hex": "#faf0e6",
   "general": {

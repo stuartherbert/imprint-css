@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-bittersweetshimmer'.",
+  "oklch": {
+    "lightness": 0.574301,
+    "chroma": 0.144525,
+    "hue": 21.704093,
+    "alpha": 1
+  },
   "definition": "#bf4f51",
   "hex": "#bf4f51",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darken'.",
+  "oklch": {
+    "lightness": 0.231051,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#1d1d1d",
   "hex": "#1d1d1d",
   "general": {

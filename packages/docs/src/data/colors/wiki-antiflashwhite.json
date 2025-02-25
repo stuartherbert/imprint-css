@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-antiflashwhite'.",
+  "oklch": {
+    "lightness": 0.963708,
+    "chroma": 0.00175,
+    "hue": 247.839822,
+    "alpha": 1
+  },
   "definition": "#f2f3f4",
   "hex": "#f2f3f4",
   "general": {

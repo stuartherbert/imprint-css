@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-900'.",
+  "oklch": {
+    "lightness": 0.404711,
+    "chroma": 0.095435,
+    "hue": 130.971683,
+    "alpha": 1
+  },
   "definition": "#365314",
   "hex": "#365314",
   "general": {

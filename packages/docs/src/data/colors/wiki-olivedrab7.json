@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-olivedrab7'.",
+  "oklch": {
+    "lightness": 0.3276,
+    "chroma": 0.035556,
+    "hue": 89.588851,
+    "alpha": 1
+  },
   "definition": "#3c341f",
   "hex": "#3c341f",
   "general": {

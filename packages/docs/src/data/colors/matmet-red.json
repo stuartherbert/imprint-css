@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-red'.",
+  "oklch": {
+    "lightness": 0.583533,
+    "chroma": 0.233168,
+    "hue": 30.125828,
+    "alpha": 1
+  },
   "definition": "#e51400",
   "hex": "#e51400",
   "general": {

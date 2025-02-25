@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-red-3'.",
+  "oklch": {
+    "lightness": 0.522959,
+    "chroma": 0.206399,
+    "hue": 25.83365,
+    "alpha": 1
+  },
   "definition": "#c50f1f",
   "hex": "#c50f1f",
   "general": {

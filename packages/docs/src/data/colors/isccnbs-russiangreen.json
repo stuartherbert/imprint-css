@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-russiangreen'.",
+  "oklch": {
+    "lightness": 0.616968,
+    "chroma": 0.079587,
+    "hue": 144.535378,
+    "alpha": 1
+  },
   "definition": "#679267",
   "hex": "#679267",
   "general": {

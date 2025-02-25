@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-electricindigo'.",
+  "oklch": {
+    "lightness": 0.512477,
+    "chroma": 0.293067,
+    "hue": 288.311596,
+    "alpha": 1
+  },
   "definition": "#6f00ff",
   "hex": "#6f00ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-mondo-2'.",
+  "oklch": {
+    "lightness": 0.469826,
+    "chroma": 0.005129,
+    "hue": 56.282925,
+    "alpha": 1
+  },
   "definition": "#5d5a58",
   "hex": "#5d5a58",
   "general": {

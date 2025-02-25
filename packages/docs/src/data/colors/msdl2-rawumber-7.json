@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-rawumber-7'.",
+  "oklch": {
+    "lightness": 0.911725,
+    "chroma": 0.058282,
+    "hue": 62.069849,
+    "alpha": 1
+  },
   "definition": "#ffdabb",
   "hex": "#ffdabb",
   "general": {

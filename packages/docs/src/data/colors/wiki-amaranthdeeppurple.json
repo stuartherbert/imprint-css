@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-amaranthdeeppurple'.",
+  "oklch": {
+    "lightness": 0.487376,
+    "chroma": 0.161968,
+    "hue": 352.665597,
+    "alpha": 1
+  },
   "definition": "#9f2b68",
   "hex": "#9f2b68",
   "general": {

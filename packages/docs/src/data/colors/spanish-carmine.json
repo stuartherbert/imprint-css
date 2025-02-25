@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-carmine'.",
+  "oklch": {
+    "lightness": 0.547582,
+    "chroma": 0.218881,
+    "hue": 14.512999,
+    "alpha": 1
+  },
   "definition": "#d10047",
   "hex": "#d10047",
   "general": {

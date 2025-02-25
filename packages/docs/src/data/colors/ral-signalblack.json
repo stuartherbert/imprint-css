@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-signalblack'.",
+  "oklch": {
+    "lightness": 0.289856,
+    "chroma": 0.00183,
+    "hue": 286.284989,
+    "alpha": 1
+  },
   "definition": "#2b2b2c",
   "hex": "#2b2b2c",
   "general": {

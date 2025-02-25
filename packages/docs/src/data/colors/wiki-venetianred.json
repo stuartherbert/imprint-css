@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-venetianred'.",
+  "oklch": {
+    "lightness": 0.52565,
+    "chroma": 0.211458,
+    "hue": 27.361575,
+    "alpha": 1
+  },
   "definition": "#c80815",
   "hex": "#c80815",
   "general": {

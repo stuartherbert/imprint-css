@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkturquoise'.",
+  "oklch": {
+    "lightness": 0.772062,
+    "chroma": 0.131458,
+    "hue": 196.680516,
+    "alpha": 1
+  },
   "definition": "#00ced1",
   "hex": "#00ced1",
   "general": {

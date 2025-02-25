@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'midnightblue'.",
+  "oklch": {
+    "lightness": 0.288034,
+    "chroma": 0.143566,
+    "hue": 272.767002,
+    "alpha": 1
+  },
   "definition": "#191970",
   "hex": "#191970",
   "general": {

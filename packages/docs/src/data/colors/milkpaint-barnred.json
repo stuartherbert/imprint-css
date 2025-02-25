@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'milkpaint-barnred'.",
+  "oklch": {
+    "lightness": 0.373134,
+    "chroma": 0.146131,
+    "hue": 30.192959,
+    "alpha": 1
+  },
   "definition": "#7c0a02",
   "hex": "#7c0a02",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-celadongreen'.",
+  "oklch": {
+    "lightness": 0.560593,
+    "chroma": 0.081589,
+    "hue": 186.247294,
+    "alpha": 1
+  },
   "definition": "#2f847c",
   "hex": "#2f847c",
   "general": {

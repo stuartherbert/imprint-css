@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mexican-pink'.",
+  "oklch": {
+    "lightness": 0.596075,
+    "chroma": 0.242221,
+    "hue": 358.939406,
+    "alpha": 1
+  },
   "definition": "#e4007c",
   "hex": "#e4007c",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-a700'.",
+  "oklch": {
+    "lightness": 0.58117,
+    "chroma": 0.215518,
+    "hue": 32.809368,
+    "alpha": 1
+  },
   "definition": "#dd2c00",
   "hex": "#dd2c00",
   "general": {

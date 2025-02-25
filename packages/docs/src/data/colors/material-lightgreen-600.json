@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-600'.",
+  "oklch": {
+    "lightness": 0.704933,
+    "chroma": 0.155265,
+    "hue": 131.411718,
+    "alpha": 1
+  },
   "definition": "#7cb342",
   "hex": "#7cb342",
   "general": {

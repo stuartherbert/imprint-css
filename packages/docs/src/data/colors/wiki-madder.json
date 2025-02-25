@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-madder'.",
+  "oklch": {
+    "lightness": 0.45569,
+    "chroma": 0.183749,
+    "hue": 22.50828,
+    "alpha": 1
+  },
   "definition": "#a50021",
   "hex": "#a50021",
   "general": {

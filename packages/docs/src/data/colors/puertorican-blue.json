@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'puertorican-blue'.",
+  "oklch": {
+    "lightness": 0.506799,
+    "chroma": 0.276615,
+    "hue": 263.666931,
+    "alpha": 1
+  },
   "definition": "#0044ff",
   "hex": "#0044ff",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-hookersgreen'.",
+  "oklch": {
+    "lightness": 0.537676,
+    "chroma": 0.057368,
+    "hue": 173.552138,
+    "alpha": 1
+  },
   "definition": "#49796b",
   "hex": "#49796b",
   "general": {

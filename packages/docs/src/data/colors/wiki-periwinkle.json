@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-periwinkle'.",
+  "oklch": {
+    "lightness": 0.86218,
+    "chroma": 0.070458,
+    "hue": 284.826905,
+    "alpha": 1
+  },
   "definition": "#ccf",
   "hex": "#ccccff",
   "general": {

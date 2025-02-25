@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'calpolypomona-green'.",
+  "oklch": {
+    "lightness": 0.377731,
+    "chroma": 0.077181,
+    "hue": 150.242158,
+    "alpha": 1
+  },
   "definition": "#1e4d2b",
   "hex": "#1e4d2b",
   "general": {

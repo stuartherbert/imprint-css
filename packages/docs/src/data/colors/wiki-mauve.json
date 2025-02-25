@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-mauve'.",
+  "oklch": {
+    "lightness": 0.827158,
+    "chroma": 0.11911,
+    "hue": 311.549018,
+    "alpha": 1
+  },
   "definition": "#e0b0ff",
   "hex": "#e0b0ff",
   "general": {

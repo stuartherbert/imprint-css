@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-300'.",
+  "oklch": {
+    "lightness": 0.807593,
+    "chroma": 0.103434,
+    "hue": 19.569587,
+    "alpha": 1
+  },
   "definition": "#fca5a5",
   "hex": "#fca5a5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-yellow-1'.",
+  "oklch": {
+    "lightness": 0.568146,
+    "chroma": 0.114061,
+    "hue": 82.025455,
+    "alpha": 1
+  },
   "definition": "#986f0b",
   "hex": "#986f0b",
   "general": {

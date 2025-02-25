@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sapphire'.",
+  "oklch": {
+    "lightness": 0.466687,
+    "chroma": 0.176009,
+    "hue": 259.97399,
+    "alpha": 1
+  },
   "definition": "#0f52ba",
   "hex": "#0f52ba",
   "general": {

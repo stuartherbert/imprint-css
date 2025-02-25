@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tangelo'.",
+  "oklch": {
+    "lightness": 0.657561,
+    "chroma": 0.217901,
+    "hue": 37.446292,
+    "alpha": 1
+  },
   "definition": "#f94d00",
   "hex": "#f94d00",
   "general": {

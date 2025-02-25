@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'munsell-red'.",
+  "oklch": {
+    "lightness": 0.632421,
+    "chroma": 0.254101,
+    "hue": 20.370359,
+    "alpha": 1
+  },
   "definition": "#ff0042",
   "hex": "#ff0042",
   "general": {

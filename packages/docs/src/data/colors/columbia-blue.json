@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'columbia-blue'.",
+  "oklch": {
+    "lightness": 0.867687,
+    "chroma": 0.042349,
+    "hue": 232.630702,
+    "alpha": 1
+  },
   "definition": "#b9d9eb",
   "hex": "#b9d9eb",
   "general": {

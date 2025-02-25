@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'brown'.",
+  "oklch": {
+    "lightness": 0.480668,
+    "chroma": 0.159566,
+    "hue": 25.55298,
+    "alpha": 1
+  },
   "definition": "#a52a2a",
   "hex": "#a52a2a",
   "general": {

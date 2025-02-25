@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-richmaroon'.",
+  "oklch": {
+    "lightness": 0.517527,
+    "chroma": 0.167694,
+    "hue": 2.416889,
+    "alpha": 1
+  },
   "definition": "#b03060",
   "hex": "#b03060",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-700'.",
+  "oklch": {
+    "lightness": 0.490579,
+    "chroma": 0.241207,
+    "hue": 292.532918,
+    "alpha": 1
+  },
   "definition": "#6d28d9",
   "hex": "#6d28d9",
   "general": {

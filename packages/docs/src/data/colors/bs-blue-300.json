@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-300'.",
+  "oklch": {
+    "lightness": 0.72874,
+    "chroma": 0.139767,
+    "hue": 258.009677,
+    "alpha": 1
+  },
   "definition": "#6ea8fe",
   "hex": "#6ea8fe",
   "general": {

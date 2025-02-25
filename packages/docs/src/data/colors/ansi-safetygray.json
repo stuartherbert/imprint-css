@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ansi-safetygray'.",
+  "oklch": {
+    "lightness": 0.615422,
+    "chroma": 0.014275,
+    "hue": 245.260058,
+    "alpha": 1
+  },
   "definition": "#7e868d",
   "hex": "#7e868d",
   "general": {

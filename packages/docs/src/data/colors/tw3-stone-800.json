@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-stone-800'.",
+  "oklch": {
+    "lightness": 0.268465,
+    "chroma": 0.006415,
+    "hue": 34.2977,
+    "alpha": 1
+  },
   "definition": "#292524",
   "hex": "#292524",
   "general": {

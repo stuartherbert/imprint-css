@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-mediumblue'.",
+  "oklch": {
+    "lightness": 0.497262,
+    "chroma": 0.126402,
+    "hue": 245.465131,
+    "alpha": 1
+  },
   "definition": "#0067a5",
   "hex": "#0067a5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-neutral-800'.",
+  "oklch": {
+    "lightness": 0.268598,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#262626",
   "hex": "#262626",
   "general": {

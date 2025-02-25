@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-nude'.",
+  "oklch": {
+    "lightness": 0.903399,
+    "chroma": 0.049167,
+    "hue": 64.089845,
+    "alpha": 1
+  },
   "definition": "#f7d9be",
   "hex": "#f7d9be",
   "general": {

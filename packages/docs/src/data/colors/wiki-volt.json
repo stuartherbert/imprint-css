@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-volt'.",
+  "oklch": {
+    "lightness": 0.932047,
+    "chroma": 0.227696,
+    "hue": 122.627791,
+    "alpha": 1
+  },
   "definition": "#ceff00",
   "hex": "#ceff00",
   "general": {

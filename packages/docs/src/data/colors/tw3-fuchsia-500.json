@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-fuchsia-500'.",
+  "oklch": {
+    "lightness": 0.66684,
+    "chroma": 0.258876,
+    "hue": 322.163617,
+    "alpha": 1
+  },
   "definition": "#d946ef",
   "hex": "#d946ef",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-800'.",
+  "oklch": {
+    "lightness": 0.755468,
+    "chroma": 0.177672,
+    "hue": 59.711906,
+    "alpha": 1
+  },
   "definition": "#ff8f00",
   "hex": "#ff8f00",
   "general": {

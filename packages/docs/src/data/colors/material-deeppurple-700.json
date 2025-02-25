@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-700'.",
+  "oklch": {
+    "lightness": 0.421474,
+    "chroma": 0.183617,
+    "hue": 289.546881,
+    "alpha": 1
+  },
   "definition": "#512da8",
   "hex": "#512da8",
   "general": {

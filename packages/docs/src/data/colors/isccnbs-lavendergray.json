@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-lavendergray'.",
+  "oklch": {
+    "lightness": 0.822186,
+    "chroma": 0.018055,
+    "hue": 289.604704,
+    "alpha": 1
+  },
   "definition": "#c4c3d0",
   "hex": "#c4c3d0",
   "general": {

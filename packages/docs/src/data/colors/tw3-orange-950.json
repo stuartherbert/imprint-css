@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-orange-950'.",
+  "oklch": {
+    "lightness": 0.265848,
+    "chroma": 0.076462,
+    "hue": 36.231455,
+    "alpha": 1
+  },
   "definition": "#431407",
   "hex": "#431407",
   "general": {

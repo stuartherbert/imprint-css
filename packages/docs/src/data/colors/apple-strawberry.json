@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-strawberry'.",
+  "oklch": {
+    "lightness": 0.645352,
+    "chroma": 0.260346,
+    "hue": 2.467637,
+    "alpha": 1
+  },
   "definition": "#ff0080",
   "hex": "#ff0080",
   "general": {

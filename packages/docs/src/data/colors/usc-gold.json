@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'usc-gold'.",
+  "oklch": {
+    "lightness": 0.865209,
+    "chroma": 0.176828,
+    "hue": 90.381556,
+    "alpha": 1
+  },
   "definition": "#ffcc00",
   "hex": "#ffcc00",
   "general": {

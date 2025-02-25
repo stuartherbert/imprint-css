@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-greenishyellow'.",
+  "oklch": {
+    "lightness": 0.914963,
+    "chroma": 0.156125,
+    "hue": 107.608494,
+    "alpha": 1
+  },
   "definition": "#eeea62",
   "hex": "#eeea62",
   "general": {

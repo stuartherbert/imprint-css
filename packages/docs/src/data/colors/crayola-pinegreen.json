@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-pinegreen'.",
+  "oklch": {
+    "lightness": 0.518348,
+    "chroma": 0.091294,
+    "hue": 184.63725,
+    "alpha": 1
+  },
   "definition": "#01796f",
   "hex": "#01796f",
   "general": {

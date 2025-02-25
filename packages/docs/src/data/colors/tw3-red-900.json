@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-900'.",
+  "oklch": {
+    "lightness": 0.395902,
+    "chroma": 0.13299,
+    "hue": 25.712408,
+    "alpha": 1
+  },
   "definition": "#7f1d1d",
   "hex": "#7f1d1d",
   "general": {

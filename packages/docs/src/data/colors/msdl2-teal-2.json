@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-teal-2'.",
+  "oklch": {
+    "lightness": 0.554232,
+    "chroma": 0.093698,
+    "hue": 198.426186,
+    "alpha": 1
+  },
   "definition": "#038387",
   "hex": "#038387",
   "general": {

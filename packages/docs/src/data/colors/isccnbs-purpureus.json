@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-purpureus'.",
+  "oklch": {
+    "lightness": 0.555437,
+    "chroma": 0.161286,
+    "hue": 318.934396,
+    "alpha": 1
+  },
   "definition": "#9a4eae",
   "hex": "#9a4eae",
   "general": {

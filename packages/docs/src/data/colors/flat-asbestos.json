@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'flat-asbestos'.",
+  "oklch": {
+    "lightness": 0.629844,
+    "chroma": 0.015222,
+    "hue": 202.475592,
+    "alpha": 1
+  },
   "definition": "#7f8c8d",
   "hex": "#7f8c8d",
   "general": {

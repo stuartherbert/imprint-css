@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bone'.",
+  "oklch": {
+    "lightness": 0.890935,
+    "chroma": 0.024958,
+    "hue": 83.694304,
+    "alpha": 1
+  },
   "definition": "#e3dac9",
   "hex": "#e3dac9",
   "general": {

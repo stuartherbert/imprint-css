@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumvioletred'.",
+  "oklch": {
+    "lightness": 0.553205,
+    "chroma": 0.221693,
+    "hue": 349.617168,
+    "alpha": 1
+  },
   "definition": "#c71585",
   "hex": "#c71585",
   "general": {

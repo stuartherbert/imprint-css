@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-windsortan'.",
+  "oklch": {
+    "lightness": 0.585553,
+    "chroma": 0.109593,
+    "hue": 53.265499,
+    "alpha": 1
+  },
   "definition": "#ae6838",
   "hex": "#ae6838",
   "general": {

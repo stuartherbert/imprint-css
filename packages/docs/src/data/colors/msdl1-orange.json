@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-orange'.",
+  "oklch": {
+    "lightness": 0.755261,
+    "chroma": 0.151802,
+    "hue": 78.592207,
+    "alpha": 1
+  },
   "definition": "#e3a21a",
   "hex": "#e3a21a",
   "general": {

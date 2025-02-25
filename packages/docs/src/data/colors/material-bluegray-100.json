@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-bluegray-100'.",
+  "oklch": {
+    "lightness": 0.876552,
+    "chroma": 0.011225,
+    "hue": 226.68241,
+    "alpha": 1
+  },
   "definition": "#cfd8dc",
   "hex": "#cfd8dc",
   "general": {

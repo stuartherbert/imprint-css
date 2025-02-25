@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green-300'.",
+  "oklch": {
+    "lightness": 0.899372,
+    "chroma": 0.078051,
+    "hue": 130.859567,
+    "alpha": 1
+  },
   "definition": "#cce9b3",
   "hex": "#cce9b3",
   "general": {

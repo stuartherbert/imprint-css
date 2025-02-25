@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-red'.",
+  "oklch": {
+    "lightness": 0.600351,
+    "chroma": 0.238219,
+    "hue": 20.114473,
+    "alpha": 1
+  },
   "definition": "#ed0a3f",
   "hex": "#ed0a3f",
   "general": {

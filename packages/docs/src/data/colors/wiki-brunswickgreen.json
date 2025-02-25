@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-brunswickgreen'.",
+  "oklch": {
+    "lightness": 0.381571,
+    "chroma": 0.059798,
+    "hue": 170.215326,
+    "alpha": 1
+  },
   "definition": "#1b4d3e",
   "hex": "#1b4d3e",
   "general": {

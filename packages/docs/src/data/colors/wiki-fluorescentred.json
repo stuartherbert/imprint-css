@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-fluorescentred'.",
+  "oklch": {
+    "lightness": 0.638476,
+    "chroma": 0.247024,
+    "hue": 27.456442,
+    "alpha": 1
+  },
   "definition": "#ff2226",
   "hex": "#ff2226",
   "general": {

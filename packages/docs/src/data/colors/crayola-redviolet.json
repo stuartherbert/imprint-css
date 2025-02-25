@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-redviolet'.",
+  "oklch": {
+    "lightness": 0.551822,
+    "chroma": 0.189048,
+    "hue": 348.018132,
+    "alpha": 1
+  },
   "definition": "#bb3385",
   "hex": "#bb3385",
   "general": {

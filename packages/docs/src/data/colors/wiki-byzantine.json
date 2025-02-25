@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-byzantine'.",
+  "oklch": {
+    "lightness": 0.569045,
+    "chroma": 0.209591,
+    "hue": 336.36436,
+    "alpha": 1
+  },
   "definition": "#bd33a4",
   "hex": "#bd33a4",
   "general": {

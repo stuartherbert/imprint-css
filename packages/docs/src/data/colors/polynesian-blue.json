@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'polynesian-blue'.",
+  "oklch": {
+    "lightness": 0.431268,
+    "chroma": 0.133333,
+    "hue": 261.082063,
+    "alpha": 1
+  },
   "definition": "#224c98",
   "hex": "#224c98",
   "general": {

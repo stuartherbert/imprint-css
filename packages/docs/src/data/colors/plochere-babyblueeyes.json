@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-babyblueeyes'.",
+  "oklch": {
+    "lightness": 0.822966,
+    "chroma": 0.070364,
+    "hue": 247.377074,
+    "alpha": 1
+  },
   "definition": "#a1caf1",
   "hex": "#a1caf1",
   "general": {

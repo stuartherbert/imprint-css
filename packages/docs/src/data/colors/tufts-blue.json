@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tufts-blue'.",
+  "oklch": {
+    "lightness": 0.635392,
+    "chroma": 0.129909,
+    "hue": 256.107762,
+    "alpha": 1
+  },
   "definition": "#538cd8",
   "hex": "#538cd8",
   "general": {

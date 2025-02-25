@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-shadedprimary'.",
+  "oklch": {
+    "lightness": 0.949626,
+    "chroma": 0.015297,
+    "hue": 257.460156,
+    "alpha": 1
+  },
   "definition": "#e8eff9",
   "hex": "#e8eff9",
   "general": {

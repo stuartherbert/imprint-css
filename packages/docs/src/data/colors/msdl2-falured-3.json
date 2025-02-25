@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-falured-3'.",
+  "oklch": {
+    "lightness": 0.587791,
+    "chroma": 0.202736,
+    "hue": 35.608275,
+    "alpha": 1
+  },
   "definition": "#da3b01",
   "hex": "#da3b01",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-claret'.",
+  "oklch": {
+    "lightness": 0.395039,
+    "chroma": 0.138194,
+    "hue": 10.692035,
+    "alpha": 1
+  },
   "definition": "#7f1734",
   "hex": "#7f1734",
   "general": {

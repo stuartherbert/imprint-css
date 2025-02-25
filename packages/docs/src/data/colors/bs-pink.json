@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink'.",
+  "oklch": {
+    "lightness": 0.595539,
+    "chroma": 0.208585,
+    "hue": 355.435214,
+    "alpha": 1
+  },
   "definition": "#d63384",
   "hex": "#d63384",
   "general": {

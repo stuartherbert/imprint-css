@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'cadetblue'.",
+  "oklch": {
+    "lightness": 0.657938,
+    "chroma": 0.064988,
+    "hue": 198.0181,
+    "alpha": 1
+  },
   "definition": "#5f9ea0",
   "hex": "#5f9ea0",
   "general": {

@@ -34,12 +34,11 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import * as fs from 'node:fs';
-import { DEFAULT_FG, DEFAULT_BG, analyseColor, paletteToDefinitions, toExportName } from "@imprintcss/color-collections";
+import { analyseColor, paletteToDefinitions, toExportName } from "@imprintcss/color-collections";
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
-import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssColor, relativeLuminance, tonality, wcagContrast } from "@safelytyped/css-color";
-import { roundDown } from "@safelytyped/math-rounding";
+import { makeCssColor } from "@safelytyped/css-color";
+import * as fs from 'node:fs';
 
 // ================================================================
 //
@@ -84,6 +83,9 @@ function processColor(colorGroupName, colorName, colorDefinition)
         navSection: "Colors",
         collection: "colors",
         description: "Analysis of the color '" + colorName + "'.",
+
+        // additional color definitions
+        oklch: cssColor.oklch().channelsData(),
 
         // detailed color analysis
         ...analyseColor(cssColor)

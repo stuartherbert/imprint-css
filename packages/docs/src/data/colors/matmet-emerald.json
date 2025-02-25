@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-emerald'.",
+  "oklch": {
+    "lightness": 0.548698,
+    "chroma": 0.186708,
+    "hue": 142.495339,
+    "alpha": 1
+  },
   "definition": "#008a00",
   "hex": "#008a00",
   "general": {

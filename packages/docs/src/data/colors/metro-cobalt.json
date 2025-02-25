@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-cobalt'.",
+  "oklch": {
+    "lightness": 0.428281,
+    "chroma": 0.17229,
+    "hue": 259.739015,
+    "alpha": 1
+  },
   "definition": "#0047ab",
   "hex": "#0047ab",
   "general": {

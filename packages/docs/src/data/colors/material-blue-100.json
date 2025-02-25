@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-100'.",
+  "oklch": {
+    "lightness": 0.884924,
+    "chroma": 0.054522,
+    "hue": 243.064363,
+    "alpha": 1
+  },
   "definition": "#bbdefb",
   "hex": "#bbdefb",
   "general": {

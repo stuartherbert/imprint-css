@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-yelp'.",
+  "oklch": {
+    "lightness": 0.475479,
+    "chroma": 0.192067,
+    "hue": 28.885731,
+    "alpha": 1
+  },
   "definition": "#af0606",
   "hex": "#af0606",
   "general": {

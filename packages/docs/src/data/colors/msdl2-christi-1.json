@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-christi-1'.",
+  "oklch": {
+    "lightness": 0.675127,
+    "chroma": 0.16814,
+    "hue": 130.114607,
+    "alpha": 1
+  },
   "definition": "#73aa24",
   "hex": "#73aa24",
   "general": {

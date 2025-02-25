@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'hotpink'.",
+  "oklch": {
+    "lightness": 0.728379,
+    "chroma": 0.197006,
+    "hue": 351.99072,
+    "alpha": 1
+  },
   "definition": "#ff69b4",
   "hex": "#ff69b4",
   "general": {

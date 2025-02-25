@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-600'.",
+  "oklch": {
+    "lightness": 0.648015,
+    "chroma": 0.175393,
+    "hue": 131.680393,
+    "alpha": 1
+  },
   "definition": "#65a30d",
   "hex": "#65a30d",
   "general": {

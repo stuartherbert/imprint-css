@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'sgbus-green'.",
+  "oklch": {
+    "lightness": 0.792285,
+    "chroma": 0.234288,
+    "hue": 140.294124,
+    "alpha": 1
+  },
   "definition": "#55dd33",
   "hex": "#55dd33",
   "general": {

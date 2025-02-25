@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lightchocolate'.",
+  "oklch": {
+    "lightness": 0.664919,
+    "chroma": 0.130209,
+    "hue": 61.426769,
+    "alpha": 1
+  },
   "definition": "#cc7f33",
   "hex": "#cc7f33",
   "general": {

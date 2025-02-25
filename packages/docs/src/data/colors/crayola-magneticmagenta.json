@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-magneticmagenta'.",
+  "oklch": {
+    "lightness": 0.562456,
+    "chroma": 0.182787,
+    "hue": 351.585042,
+    "alpha": 1
+  },
   "definition": "#bf3981",
   "hex": "#bf3981",
   "general": {

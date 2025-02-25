@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'burlywood'.",
+  "oklch": {
+    "lightness": 0.804837,
+    "chroma": 0.078062,
+    "hue": 73.534317,
+    "alpha": 1
+  },
   "definition": "#deb887",
   "hex": "#deb887",
   "general": {

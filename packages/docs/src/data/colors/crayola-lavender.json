@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-lavender'.",
+  "oklch": {
+    "lightness": 0.834207,
+    "chroma": 0.100332,
+    "hue": 349.743536,
+    "alpha": 1
+  },
   "definition": "#fbaed2",
   "hex": "#fbaed2",
   "general": {

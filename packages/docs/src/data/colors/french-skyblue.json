@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'french-skyblue'.",
+  "oklch": {
+    "lightness": 0.760809,
+    "chroma": 0.123598,
+    "hue": 253.325058,
+    "alpha": 1
+  },
   "definition": "#77b5fe",
   "hex": "#77b5fe",
   "general": {

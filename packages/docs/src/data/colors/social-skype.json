@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-skype'.",
+  "oklch": {
+    "lightness": 0.710603,
+    "chroma": 0.149192,
+    "hue": 234.240883,
+    "alpha": 1
+  },
   "definition": "#00aff0",
   "hex": "#00aff0",
   "general": {

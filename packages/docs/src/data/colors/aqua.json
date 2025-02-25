@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'aqua'.",
+  "oklch": {
+    "lightness": 0.905399,
+    "chroma": 0.15455,
+    "hue": 194.768948,
+    "alpha": 1
+  },
   "definition": "#00ffff",
   "hex": "#00ffff",
   "general": {

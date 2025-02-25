@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-cafenoir'.",
+  "oklch": {
+    "lightness": 0.351283,
+    "chroma": 0.044824,
+    "hue": 65.827451,
+    "alpha": 1
+  },
   "definition": "#4b3621",
   "hex": "#4b3621",
   "general": {

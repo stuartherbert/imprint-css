@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-cantaloupe'.",
+  "oklch": {
+    "lightness": 0.870677,
+    "chroma": 0.132524,
+    "hue": 82.736605,
+    "alpha": 1
+  },
   "definition": "#fc6",
   "hex": "#ffcc66",
   "general": {

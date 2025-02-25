@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-orange-400'.",
+  "oklch": {
+    "lightness": 0.757723,
+    "chroma": 0.158942,
+    "hue": 56.035412,
+    "alpha": 1
+  },
   "definition": "#fb923c",
   "hex": "#fb923c",
   "general": {

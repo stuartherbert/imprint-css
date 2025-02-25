@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-a400'.",
+  "oklch": {
+    "lightness": 0.758794,
+    "chroma": 0.176774,
+    "hue": 60.682492,
+    "alpha": 1
+  },
   "definition": "#ff9100",
   "hex": "#ff9100",
   "general": {

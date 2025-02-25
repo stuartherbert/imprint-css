@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-brightamaranthpink'.",
+  "oklch": {
+    "lightness": 0.656225,
+    "chroma": 0.233103,
+    "hue": 16.061612,
+    "alpha": 1
+  },
   "definition": "#ff355e",
   "hex": "#ff355e",
   "general": {

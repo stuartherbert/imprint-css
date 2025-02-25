@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-fielddrab'.",
+  "oklch": {
+    "lightness": 0.459527,
+    "chroma": 0.077419,
+    "hue": 84.240126,
+    "alpha": 1
+  },
   "definition": "#6c541e",
   "hex": "#6c541e",
   "general": {

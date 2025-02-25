@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-shadedsecondary'.",
+  "oklch": {
+    "lightness": 0.950119,
+    "chroma": 0.036212,
+    "hue": 131.221712,
+    "alpha": 1
+  },
   "definition": "#e6f4db",
   "hex": "#e6f4db",
   "general": {

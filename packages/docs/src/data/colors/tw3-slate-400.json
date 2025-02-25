@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-400'.",
+  "oklch": {
+    "lightness": 0.71052,
+    "chroma": 0.035353,
+    "hue": 256.901167,
+    "alpha": 1
+  },
   "definition": "#94a3b8",
   "hex": "#94a3b8",
   "general": {

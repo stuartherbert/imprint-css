@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ridgway-vinaceoustawny'.",
+  "oklch": {
+    "lightness": 0.621362,
+    "chroma": 0.087594,
+    "hue": 39.668436,
+    "alpha": 1
+  },
   "definition": "#b4745e",
   "hex": "#b4745e",
   "general": {

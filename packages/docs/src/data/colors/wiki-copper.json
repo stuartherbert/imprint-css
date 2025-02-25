@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-copper'.",
+  "oklch": {
+    "lightness": 0.618102,
+    "chroma": 0.117197,
+    "hue": 60.355539,
+    "alpha": 1
+  },
   "definition": "#b87333",
   "hex": "#b87333",
   "general": {

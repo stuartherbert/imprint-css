@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-phthalogreen'.",
+  "oklch": {
+    "lightness": 0.297717,
+    "chroma": 0.051484,
+    "hue": 159.552895,
+    "alpha": 1
+  },
   "definition": "#123524",
   "hex": "#123524",
   "general": {

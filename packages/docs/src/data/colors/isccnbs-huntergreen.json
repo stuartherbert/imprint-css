@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-huntergreen'.",
+  "oklch": {
+    "lightness": 0.441745,
+    "chroma": 0.073728,
+    "hue": 147.56617,
+    "alpha": 1
+  },
   "definition": "#355e3b",
   "hex": "#355e3b",
   "general": {

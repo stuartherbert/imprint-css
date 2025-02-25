@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-lustygallant'.",
+  "oklch": {
+    "lightness": 0.88968,
+    "chroma": 0.057986,
+    "hue": 18.299909,
+    "alpha": 1
+  },
   "definition": "#ffcccc",
   "hex": "#ffcccc",
   "general": {

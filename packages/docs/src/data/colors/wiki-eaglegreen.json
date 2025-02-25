@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-eaglegreen'.",
+  "oklch": {
+    "lightness": 0.380571,
+    "chroma": 0.065217,
+    "hue": 206.755086,
+    "alpha": 1
+  },
   "definition": "#004c54",
   "hex": "#004c54",
   "general": {

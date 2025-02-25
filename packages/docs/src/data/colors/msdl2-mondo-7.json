@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-mondo-7'.",
+  "oklch": {
+    "lightness": 0.82977,
+    "chroma": 0.006232,
+    "hue": 40.448219,
+    "alpha": 1
+  },
   "definition": "#cbc6c4",
   "hex": "#cbc6c4",
   "general": {

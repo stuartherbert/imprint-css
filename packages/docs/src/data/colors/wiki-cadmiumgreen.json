@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cadmiumgreen'.",
+  "oklch": {
+    "lightness": 0.464053,
+    "chroma": 0.113955,
+    "hue": 155.346567,
+    "alpha": 1
+  },
   "definition": "#006b3c",
   "hex": "#006b3c",
   "general": {

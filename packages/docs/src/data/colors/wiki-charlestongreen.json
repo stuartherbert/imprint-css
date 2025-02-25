@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-charlestongreen'.",
+  "oklch": {
+    "lightness": 0.281637,
+    "chroma": 0.011409,
+    "hue": 196.521641,
+    "alpha": 1
+  },
   "definition": "#232b2b",
   "hex": "#232b2b",
   "general": {

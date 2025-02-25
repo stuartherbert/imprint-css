@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-bluelagoon-6'.",
+  "oklch": {
+    "lightness": 0.872643,
+    "chroma": 0.116618,
+    "hue": 209.672977,
+    "alpha": 1
+  },
   "definition": "#69eaff",
   "hex": "#69eaff",
   "general": {

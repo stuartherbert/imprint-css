@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chocolate'.",
+  "oklch": {
+    "lightness": 0.434745,
+    "chroma": 0.10516,
+    "hue": 57.031758,
+    "alpha": 1
+  },
   "definition": "#7b3f00",
   "hex": "#7b3f00",
   "general": {

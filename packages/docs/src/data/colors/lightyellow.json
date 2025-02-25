@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightyellow'.",
+  "oklch": {
+    "lightness": 0.991981,
+    "chroma": 0.040385,
+    "hue": 107.113708,
+    "alpha": 1
+  },
   "definition": "#ffffe0",
   "hex": "#ffffe0",
   "general": {

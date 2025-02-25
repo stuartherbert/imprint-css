@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'android-green'.",
+  "oklch": {
+    "lightness": 0.793206,
+    "chroma": 0.180283,
+    "hue": 154.01634,
+    "alpha": 1
+  },
   "definition": "#3ddc84",
   "hex": "#3ddc84",
   "general": {

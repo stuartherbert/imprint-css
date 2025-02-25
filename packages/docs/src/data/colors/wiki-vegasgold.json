@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-vegasgold'.",
+  "oklch": {
+    "lightness": 0.763651,
+    "chroma": 0.113884,
+    "hue": 98.256077,
+    "alpha": 1
+  },
   "definition": "#c5b358",
   "hex": "#c5b358",
   "general": {

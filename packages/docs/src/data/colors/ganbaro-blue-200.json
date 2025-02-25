@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-blue-200'.",
+  "oklch": {
+    "lightness": 0.678329,
+    "chroma": 0.104762,
+    "hue": 253.217,
+    "alpha": 1
+  },
   "definition": "#689bd7",
   "hex": "#689bd7",
   "general": {

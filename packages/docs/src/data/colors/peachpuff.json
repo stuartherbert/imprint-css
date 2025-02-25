@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'peachpuff'.",
+  "oklch": {
+    "lightness": 0.911273,
+    "chroma": 0.060115,
+    "hue": 63.845137,
+    "alpha": 1
+  },
   "definition": "#ffdab9",
   "hex": "#ffdab9",
   "general": {

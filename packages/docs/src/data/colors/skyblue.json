@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'skyblue'.",
+  "oklch": {
+    "lightness": 0.814893,
+    "chroma": 0.082071,
+    "hue": 225.768315,
+    "alpha": 1
+  },
   "definition": "#87ceeb",
   "hex": "#87ceeb",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-a400'.",
+  "oklch": {
+    "lightness": 0.5817,
+    "chroma": 0.007214,
+    "hue": 341.510202,
+    "alpha": 1
+  },
   "definition": "#7e797c",
   "hex": "#7e797c",
   "general": {

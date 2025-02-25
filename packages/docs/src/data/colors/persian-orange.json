@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'persian-orange'.",
+  "oklch": {
+    "lightness": 0.715773,
+    "chroma": 0.114319,
+    "hue": 57.191016,
+    "alpha": 1
+  },
   "definition": "#d99058",
   "hex": "#d99058",
   "general": {

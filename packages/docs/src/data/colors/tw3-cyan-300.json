@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-cyan-300'.",
+  "oklch": {
+    "lightness": 0.865151,
+    "chroma": 0.115323,
+    "hue": 206.959699,
+    "alpha": 1
+  },
   "definition": "#67e8f9",
   "hex": "#67e8f9",
   "general": {

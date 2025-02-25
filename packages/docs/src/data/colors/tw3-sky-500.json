@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-sky-500'.",
+  "oklch": {
+    "lightness": 0.684691,
+    "chroma": 0.147947,
+    "hue": 237.359196,
+    "alpha": 1
+  },
   "definition": "#0ea5e9",
   "hex": "#0ea5e9",
   "general": {

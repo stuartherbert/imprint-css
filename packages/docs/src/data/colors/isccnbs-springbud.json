@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-springbud'.",
+  "oklch": {
+    "lightness": 0.860986,
+    "chroma": 0.111296,
+    "hue": 119.127046,
+    "alpha": 1
+  },
   "definition": "#c9dc87",
   "hex": "#c9dc87",
   "general": {

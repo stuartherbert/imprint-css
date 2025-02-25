@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-magenta'.",
+  "oklch": {
+    "lightness": 0.652617,
+    "chroma": 0.26766,
+    "hue": 355.368607,
+    "alpha": 1
+  },
   "definition": "#ff0097",
   "hex": "#ff0097",
   "general": {

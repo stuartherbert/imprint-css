@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-a100'.",
+  "oklch": {
+    "lightness": 0.940486,
+    "chroma": 0.149155,
+    "hue": 129.114243,
+    "alpha": 1
+  },
   "definition": "#ccff90",
   "hex": "#ccff90",
   "general": {

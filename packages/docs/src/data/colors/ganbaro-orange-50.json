@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-orange-50'.",
+  "oklch": {
+    "lightness": 0.844189,
+    "chroma": 0.128813,
+    "hue": 72.794044,
+    "alpha": 1
+  },
   "definition": "#ffbe66",
   "hex": "#ffbe66",
   "general": {

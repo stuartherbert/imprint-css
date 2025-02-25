@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-razzmatazz'.",
+  "oklch": {
+    "lightness": 0.600894,
+    "chroma": 0.222417,
+    "hue": 6.343302,
+    "alpha": 1
+  },
   "definition": "#e3256b",
   "hex": "#e3256b",
   "general": {

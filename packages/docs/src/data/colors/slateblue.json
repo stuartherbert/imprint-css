@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'slateblue'.",
+  "oklch": {
+    "lightness": 0.543674,
+    "chroma": 0.171225,
+    "hue": 285.570657,
+    "alpha": 1
+  },
   "definition": "#6a5acd",
   "hex": "#6a5acd",
   "general": {

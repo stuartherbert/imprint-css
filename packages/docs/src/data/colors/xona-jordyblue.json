@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-jordyblue'.",
+  "oklch": {
+    "lightness": 0.773196,
+    "chroma": 0.095111,
+    "hue": 253.370598,
+    "alpha": 1
+  },
   "definition": "#8ab9f1",
   "hex": "#8ab9f1",
   "general": {

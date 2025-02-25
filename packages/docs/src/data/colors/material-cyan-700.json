@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-cyan-700'.",
+  "oklch": {
+    "lightness": 0.618577,
+    "chroma": 0.106339,
+    "hue": 208.022616,
+    "alpha": 1
+  },
   "definition": "#0097a7",
   "hex": "#0097a7",
   "general": {

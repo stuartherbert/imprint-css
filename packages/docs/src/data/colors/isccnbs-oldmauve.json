@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-oldmauve'.",
+  "oklch": {
+    "lightness": 0.391699,
+    "chroma": 0.082009,
+    "hue": 355.924671,
+    "alpha": 1
+  },
   "definition": "#673147",
   "hex": "#673147",
   "general": {

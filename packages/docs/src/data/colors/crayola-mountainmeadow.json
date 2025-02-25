@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-mountainmeadow'.",
+  "oklch": {
+    "lightness": 0.705957,
+    "chroma": 0.131672,
+    "hue": 167.158397,
+    "alpha": 1
+  },
   "definition": "#30ba8f",
   "hex": "#30ba8f",
   "general": {

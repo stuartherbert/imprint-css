@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rosewood'.",
+  "oklch": {
+    "lightness": 0.319242,
+    "chroma": 0.129363,
+    "hue": 24.812052,
+    "alpha": 1
+  },
   "definition": "#65000b",
   "hex": "#65000b",
   "general": {

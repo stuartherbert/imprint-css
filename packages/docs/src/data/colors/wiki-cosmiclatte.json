@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-cosmiclatte'.",
+  "oklch": {
+    "lightness": 0.980245,
+    "chroma": 0.02361,
+    "hue": 88.603643,
+    "alpha": 1
+  },
   "definition": "#fff8e7",
   "hex": "#fff8e7",
   "general": {

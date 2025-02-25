@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-teal-300'.",
+  "oklch": {
+    "lightness": 0.833652,
+    "chroma": 0.10582,
+    "hue": 172.341521,
+    "alpha": 1
+  },
   "definition": "#79dfc1",
   "hex": "#79dfc1",
   "general": {

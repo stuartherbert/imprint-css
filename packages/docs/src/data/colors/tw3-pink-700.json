@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-700'.",
+  "oklch": {
+    "lightness": 0.524557,
+    "chroma": 0.198969,
+    "hue": 3.918475,
+    "alpha": 1
+  },
   "definition": "#be185d",
   "hex": "#be185d",
   "general": {

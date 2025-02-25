@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-bloodred'.",
+  "oklch": {
+    "lightness": 0.320432,
+    "chroma": 0.13149,
+    "hue": 29.233885,
+    "alpha": 1
+  },
   "definition": "#660000",
   "hex": "#660000",
   "general": {

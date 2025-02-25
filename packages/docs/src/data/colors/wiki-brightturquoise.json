@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-brightturquoise'.",
+  "oklch": {
+    "lightness": 0.840054,
+    "chroma": 0.14479,
+    "hue": 189.262238,
+    "alpha": 1
+  },
   "definition": "#08e8de",
   "hex": "#08e8de",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'indian-yellow'.",
+  "oklch": {
+    "lightness": 0.771397,
+    "chroma": 0.120117,
+    "hue": 73.092561,
+    "alpha": 1
+  },
   "definition": "#e3a857",
   "hex": "#e3a857",
   "general": {

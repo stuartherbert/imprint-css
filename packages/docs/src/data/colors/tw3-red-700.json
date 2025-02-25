@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-700'.",
+  "oklch": {
+    "lightness": 0.505217,
+    "chroma": 0.190348,
+    "hue": 27.511579,
+    "alpha": 1
+  },
   "definition": "#b91c1c",
   "hex": "#b91c1c",
   "general": {

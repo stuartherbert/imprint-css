@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-plum'.",
+  "oklch": {
+    "lightness": 0.458298,
+    "chroma": 0.144656,
+    "hue": 333.175366,
+    "alpha": 1
+  },
   "definition": "#843179",
   "hex": "#843179",
   "general": {

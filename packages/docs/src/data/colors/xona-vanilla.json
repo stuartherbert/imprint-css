@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'xona-vanilla'.",
+  "oklch": {
+    "lightness": 0.811618,
+    "chroma": 0.037041,
+    "hue": 71.0723,
+    "alpha": 1
+  },
   "definition": "#d1bea8",
   "hex": "#d1bea8",
   "general": {

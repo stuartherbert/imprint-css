@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-skyblue'.",
+  "oklch": {
+    "lightness": 0.838183,
+    "chroma": 0.089439,
+    "hue": 211.117427,
+    "alpha": 1
+  },
   "definition": "#80daeb",
   "hex": "#80daeb",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'saddlebrown'.",
+  "oklch": {
+    "lightness": 0.470934,
+    "chroma": 0.112002,
+    "hue": 50.903984,
+    "alpha": 1
+  },
   "definition": "#8b4513",
   "hex": "#8b4513",
   "general": {

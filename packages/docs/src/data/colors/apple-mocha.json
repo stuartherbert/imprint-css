@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'apple-mocha'.",
+  "oklch": {
+    "lightness": 0.444361,
+    "chroma": 0.10942,
+    "hue": 55.465885,
+    "alpha": 1
+  },
   "definition": "#804000",
   "hex": "#804000",
   "general": {

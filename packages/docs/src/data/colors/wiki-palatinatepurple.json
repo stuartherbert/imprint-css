@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-palatinatepurple'.",
+  "oklch": {
+    "lightness": 0.393264,
+    "chroma": 0.135917,
+    "hue": 325.02741,
+    "alpha": 1
+  },
   "definition": "#68246d",
   "hex": "#68246d",
   "general": {

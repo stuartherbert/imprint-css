@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-shockingpink'.",
+  "oklch": {
+    "lightness": 0.666317,
+    "chroma": 0.281437,
+    "hue": 342.996285,
+    "alpha": 1
+  },
   "definition": "#fc0fc0",
   "hex": "#fc0fc0",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-950'.",
+  "oklch": {
+    "lightness": 0.1404,
+    "chroma": 0.004487,
+    "hue": 285.807706,
+    "alpha": 1
+  },
   "definition": "#09090b",
   "hex": "#09090b",
   "general": {

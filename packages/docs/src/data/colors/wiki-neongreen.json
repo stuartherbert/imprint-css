@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-neongreen'.",
+  "oklch": {
+    "lightness": 0.871449,
+    "chroma": 0.285962,
+    "hue": 141.523774,
+    "alpha": 1
+  },
   "definition": "#39ff14",
   "hex": "#39ff14",
   "general": {

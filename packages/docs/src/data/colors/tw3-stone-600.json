@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-stone-600'.",
+  "oklch": {
+    "lightness": 0.444088,
+    "chroma": 0.009455,
+    "hue": 72.285005,
+    "alpha": 1
+  },
   "definition": "#57534e",
   "hex": "#57534e",
   "general": {

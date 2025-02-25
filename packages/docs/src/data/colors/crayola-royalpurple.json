@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-royalpurple'.",
+  "oklch": {
+    "lightness": 0.517925,
+    "chroma": 0.137969,
+    "hue": 302.312508,
+    "alpha": 1
+  },
   "definition": "#7851a9",
   "hex": "#7851a9",
   "general": {

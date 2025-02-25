@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightgreen'.",
+  "oklch": {
+    "lightness": 0.867853,
+    "chroma": 0.155561,
+    "hue": 144.090389,
+    "alpha": 1
+  },
   "definition": "#90ee90",
   "hex": "#90ee90",
   "general": {

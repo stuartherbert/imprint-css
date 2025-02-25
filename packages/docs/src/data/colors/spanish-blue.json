@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-blue'.",
+  "oklch": {
+    "lightness": 0.532613,
+    "chroma": 0.144151,
+    "hue": 248.2247,
+    "alpha": 1
+  },
   "definition": "#0070bb",
   "hex": "#0070bb",
   "general": {

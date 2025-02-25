@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-imperialblue'.",
+  "oklch": {
+    "lightness": 0.338125,
+    "chroma": 0.186007,
+    "hue": 263.718639,
+    "alpha": 1
+  },
   "definition": "#002395",
   "hex": "#002395",
   "general": {

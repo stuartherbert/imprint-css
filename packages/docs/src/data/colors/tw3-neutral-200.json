@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-neutral-200'.",
+  "oklch": {
+    "lightness": 0.921876,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#e5e5e5",
   "hex": "#e5e5e5",
   "general": {

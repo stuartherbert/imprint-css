@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-amber-800'.",
+  "oklch": {
+    "lightness": 0.473382,
+    "chroma": 0.124811,
+    "hue": 46.166766,
+    "alpha": 1
+  },
   "definition": "#92400e",
   "hex": "#92400e",
   "general": {

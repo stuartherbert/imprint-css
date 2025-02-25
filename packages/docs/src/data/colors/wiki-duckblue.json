@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-duckblue'.",
+  "oklch": {
+    "lightness": 0.526872,
+    "chroma": 0.095995,
+    "hue": 220.100204,
+    "alpha": 1
+  },
   "definition": "#007791",
   "hex": "#007791",
   "general": {

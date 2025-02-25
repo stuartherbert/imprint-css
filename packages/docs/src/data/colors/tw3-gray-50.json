@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-gray-50'.",
+  "oklch": {
+    "lightness": 0.984317,
+    "chroma": 0.00174,
+    "hue": 247.839307,
+    "alpha": 1
+  },
   "definition": "#f9fafb",
   "hex": "#f9fafb",
   "general": {

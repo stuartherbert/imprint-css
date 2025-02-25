@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'baker-miller-pink'.",
+  "oklch": {
+    "lightness": 0.781624,
+    "chroma": 0.135653,
+    "hue": 3.292662,
+    "alpha": 1
+  },
   "definition": "#ff91af",
   "hex": "#ff91af",
   "general": {

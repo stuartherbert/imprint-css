@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'lightskyblue'.",
+  "oklch": {
+    "lightness": 0.820613,
+    "chroma": 0.094487,
+    "hue": 236.61604,
+    "alpha": 1
+  },
   "definition": "#87cefa",
   "hex": "#87cefa",
   "general": {

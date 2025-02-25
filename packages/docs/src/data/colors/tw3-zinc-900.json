@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-900'.",
+  "oklch": {
+    "lightness": 0.210226,
+    "chroma": 0.005979,
+    "hue": 285.87425,
+    "alpha": 1
+  },
   "definition": "#18181b",
   "hex": "#18181b",
   "general": {

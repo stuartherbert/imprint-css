@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'imprint-accentgreen'.",
+  "oklch": {
+    "lightness": 0.663924,
+    "chroma": 0.128308,
+    "hue": 139.161776,
+    "alpha": 1
+  },
   "definition": "#68a657",
   "hex": "#68a657",
   "general": {

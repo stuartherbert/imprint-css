@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-oynx'.",
+  "oklch": {
+    "lightness": 0.338499,
+    "chroma": 0.004579,
+    "hue": 219.611917,
+    "alpha": 1
+  },
   "definition": "#353839",
   "hex": "#353839",
   "general": {

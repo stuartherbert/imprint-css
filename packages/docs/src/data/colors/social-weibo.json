@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-weibo'.",
+  "oklch": {
+    "lightness": 0.579705,
+    "chroma": 0.22082,
+    "hue": 26.050552,
+    "alpha": 1
+  },
   "definition": "#df2029",
   "hex": "#df2029",
   "general": {

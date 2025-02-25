@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-950'.",
+  "oklch": {
+    "lightness": 0.282605,
+    "chroma": 0.135046,
+    "hue": 291.006682,
+    "alpha": 1
+  },
   "definition": "#2e1065",
   "hex": "#2e1065",
   "general": {

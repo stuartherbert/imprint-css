@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-lightblue'.",
+  "oklch": {
+    "lightness": 0.966582,
+    "chroma": 0.015663,
+    "hue": 265.860327,
+    "alpha": 1
+  },
   "definition": "#eff4ff",
   "hex": "#eff4ff",
   "general": {

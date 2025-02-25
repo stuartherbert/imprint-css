@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chocolatecosmos'.",
+  "oklch": {
+    "lightness": 0.307073,
+    "chroma": 0.101856,
+    "hue": 18.978529,
+    "alpha": 1
+  },
   "definition": "#58111a",
   "hex": "#58111a",
   "general": {

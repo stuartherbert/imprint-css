@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-pillboxblue'.",
+  "oklch": {
+    "lightness": 0.727845,
+    "chroma": 0.029663,
+    "hue": 216.025868,
+    "alpha": 1
+  },
   "definition": "#93acb3",
   "hex": "#93acb3",
   "general": {

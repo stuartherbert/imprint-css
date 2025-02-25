@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'khaki'.",
+  "oklch": {
+    "lightness": 0.913471,
+    "chroma": 0.111937,
+    "hue": 102.861435,
+    "alpha": 1
+  },
   "definition": "#f0e68c",
   "hex": "#f0e68c",
   "general": {

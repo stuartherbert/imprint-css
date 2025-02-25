@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-magicmint'.",
+  "oklch": {
+    "lightness": 0.900184,
+    "chroma": 0.081855,
+    "hue": 165.421924,
+    "alpha": 1
+  },
   "definition": "#aaf0d1",
   "hex": "#aaf0d1",
   "general": {

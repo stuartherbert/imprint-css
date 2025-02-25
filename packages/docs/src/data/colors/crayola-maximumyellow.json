@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-maximumyellow'.",
+  "oklch": {
+    "lightness": 0.954566,
+    "chroma": 0.195343,
+    "hue": 109.592305,
+    "alpha": 1
+  },
   "definition": "#fafa37",
   "hex": "#fafa37",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'northwestern-purple'.",
+  "oklch": {
+    "lightness": 0.383244,
+    "chroma": 0.143443,
+    "hue": 297.533674,
+    "alpha": 1
+  },
   "definition": "#4e2a84",
   "hex": "#4e2a84",
   "general": {

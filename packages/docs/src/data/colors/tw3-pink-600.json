@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-600'.",
+  "oklch": {
+    "lightness": 0.591759,
+    "chroma": 0.218033,
+    "hue": 0.56207,
+    "alpha": 1
+  },
   "definition": "#db2777",
   "hex": "#db2777",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkblue'.",
+  "oklch": {
+    "lightness": 0.287787,
+    "chroma": 0.199416,
+    "hue": 264.052021,
+    "alpha": 1
+  },
   "definition": "#00008b",
   "hex": "#00008b",
   "general": {

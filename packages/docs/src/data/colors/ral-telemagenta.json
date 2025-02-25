@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-telemagenta'.",
+  "oklch": {
+    "lightness": 0.580279,
+    "chroma": 0.197007,
+    "hue": 359.773421,
+    "alpha": 1
+  },
   "definition": "#cf3476",
   "hex": "#cf3476",
   "general": {

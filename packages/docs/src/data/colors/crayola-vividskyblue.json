@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-vividskyblue'.",
+  "oklch": {
+    "lightness": 0.785561,
+    "chroma": 0.147881,
+    "hue": 224.269628,
+    "alpha": 1
+  },
   "definition": "#00ccff",
   "hex": "#00ccff",
   "general": {

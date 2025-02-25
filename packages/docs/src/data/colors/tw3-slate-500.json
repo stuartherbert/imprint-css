@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-500'.",
+  "oklch": {
+    "lightness": 0.554408,
+    "chroma": 0.040683,
+    "hue": 257.276356,
+    "alpha": 1
+  },
   "definition": "#64748b",
   "hex": "#64748b",
   "general": {

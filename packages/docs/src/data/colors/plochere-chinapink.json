@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'plochere-chinapink'.",
+  "oklch": {
+    "lightness": 0.684866,
+    "chroma": 0.148755,
+    "hue": 353.46935,
+    "alpha": 1
+  },
   "definition": "#de6fa1",
   "hex": "#de6fa1",
   "general": {

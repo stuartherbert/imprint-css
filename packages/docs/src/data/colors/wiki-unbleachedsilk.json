@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-unbleachedsilk'.",
+  "oklch": {
+    "lightness": 0.921032,
+    "chroma": 0.045687,
+    "hue": 51.25569,
+    "alpha": 1
+  },
   "definition": "#ffddca",
   "hex": "#ffddca",
   "general": {

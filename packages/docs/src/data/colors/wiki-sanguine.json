@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sanguine'.",
+  "oklch": {
+    "lightness": 0.485967,
+    "chroma": 0.152147,
+    "hue": 27.665652,
+    "alpha": 1
+  },
   "definition": "#a4312a",
   "hex": "#a4312a",
   "general": {

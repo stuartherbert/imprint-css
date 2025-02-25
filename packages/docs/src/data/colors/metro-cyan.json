@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'metro-cyan'.",
+  "oklch": {
+    "lightness": 0.779534,
+    "chroma": 0.111351,
+    "hue": 264.684178,
+    "alpha": 1
+  },
   "definition": "#94b6ff",
   "hex": "#94b6ff",
   "general": {

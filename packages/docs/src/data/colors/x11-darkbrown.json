@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'x11-darkbrown'.",
+  "oklch": {
+    "lightness": 0.399353,
+    "chroma": 0.044786,
+    "hue": 45.843327,
+    "alpha": 1
+  },
   "definition": "#5c4033",
   "hex": "#5c4033",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-blush'.",
+  "oklch": {
+    "lightness": 0.651418,
+    "chroma": 0.164438,
+    "hue": 4.457193,
+    "alpha": 1
+  },
   "definition": "#de5d83",
   "hex": "#de5d83",
   "general": {

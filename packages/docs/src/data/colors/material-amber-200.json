@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-amber-200'.",
+  "oklch": {
+    "lightness": 0.912846,
+    "chroma": 0.118695,
+    "hue": 91.582681,
+    "alpha": 1
+  },
   "definition": "#ffe082",
   "hex": "#ffe082",
   "general": {

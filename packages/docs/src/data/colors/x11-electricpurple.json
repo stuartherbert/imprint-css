@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'x11-electricpurple'.",
+  "oklch": {
+    "lightness": 0.609291,
+    "chroma": 0.303397,
+    "hue": 312.942914,
+    "alpha": 1
+  },
   "definition": "#bf00ff",
   "hex": "#bf00ff",
   "general": {

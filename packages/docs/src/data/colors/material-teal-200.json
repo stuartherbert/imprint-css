@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-200'.",
+  "oklch": {
+    "lightness": 0.791175,
+    "chroma": 0.075416,
+    "hue": 188.356922,
+    "alpha": 1
+  },
   "definition": "#80cbc4",
   "hex": "#80cbc4",
   "general": {

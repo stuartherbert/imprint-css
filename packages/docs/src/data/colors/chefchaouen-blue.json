@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'chefchaouen-blue'.",
+  "oklch": {
+    "lightness": 0.647123,
+    "chroma": 0.154947,
+    "hue": 255.313005,
+    "alpha": 1
+  },
   "definition": "#468fea",
   "hex": "#468fea",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'darkslategrey'.",
+  "oklch": {
+    "lightness": 0.403069,
+    "chroma": 0.037852,
+    "hue": 195.753671,
+    "alpha": 1
+  },
   "definition": "#2f4f4f",
   "hex": "#2f4f4f",
   "general": {

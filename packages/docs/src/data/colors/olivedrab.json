@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'olivedrab'.",
+  "oklch": {
+    "lightness": 0.599637,
+    "chroma": 0.137419,
+    "hue": 126.288953,
+    "alpha": 1
+  },
   "definition": "#6b8e23",
   "hex": "#6b8e23",
   "general": {

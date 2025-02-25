@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-pink-50'.",
+  "oklch": {
+    "lightness": 0.971404,
+    "chroma": 0.014199,
+    "hue": 342.571842,
+    "alpha": 1
+  },
   "definition": "#fdf2f8",
   "hex": "#fdf2f8",
   "general": {

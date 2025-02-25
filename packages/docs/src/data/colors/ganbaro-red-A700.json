@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-a700'.",
+  "oklch": {
+    "lightness": 0.491612,
+    "chroma": 0.193171,
+    "hue": 28.462028,
+    "alpha": 1
+  },
   "definition": "#b51110",
   "hex": "#b51110",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-mirage-5'.",
+  "oklch": {
+    "lightness": 0.65829,
+    "chroma": 0.019144,
+    "hue": 214.966321,
+    "alpha": 1
+  },
   "definition": "#859599",
   "hex": "#859599",
   "general": {

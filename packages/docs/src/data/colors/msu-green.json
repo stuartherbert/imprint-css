@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msu-green'.",
+  "oklch": {
+    "lightness": 0.356218,
+    "chroma": 0.052643,
+    "hue": 175.786228,
+    "alpha": 1
+  },
   "definition": "#18453b",
   "hex": "#18453b",
   "general": {

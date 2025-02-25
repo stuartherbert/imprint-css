@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-rawumber'.",
+  "oklch": {
+    "lightness": 0.529874,
+    "chroma": 0.060511,
+    "hue": 71.214649,
+    "alpha": 1
+  },
   "definition": "#826644",
   "hex": "#826644",
   "general": {

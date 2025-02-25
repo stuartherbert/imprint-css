@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-blue-1'.",
+  "oklch": {
+    "lightness": 0.315299,
+    "chroma": 0.189239,
+    "hue": 264.120559,
+    "alpha": 1
+  },
   "definition": "#00188f",
   "hex": "#00188f",
   "general": {

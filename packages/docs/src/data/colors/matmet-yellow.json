@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-yellow'.",
+  "oklch": {
+    "lightness": 0.829922,
+    "chroma": 0.172212,
+    "hue": 99.400954,
+    "alpha": 1
+  },
   "definition": "#e3c800",
   "hex": "#e3c800",
   "general": {

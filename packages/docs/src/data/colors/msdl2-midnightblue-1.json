@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-midnightblue-1'.",
+  "oklch": {
+    "lightness": 0.305032,
+    "chroma": 0.113018,
+    "hue": 277.345751,
+    "alpha": 1
+  },
   "definition": "#242466",
   "hex": "#242466",
   "general": {

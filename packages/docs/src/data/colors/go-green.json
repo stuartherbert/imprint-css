@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'go-green'.",
+  "oklch": {
+    "lightness": 0.652153,
+    "chroma": 0.157264,
+    "hue": 156.306694,
+    "alpha": 1
+  },
   "definition": "#00ab66",
   "hex": "#00ab66",
   "general": {

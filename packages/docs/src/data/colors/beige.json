@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'beige'.",
+  "oklch": {
+    "lightness": 0.963741,
+    "chroma": 0.03277,
+    "hue": 106.998997,
+    "alpha": 1
+  },
   "definition": "#f5f5dc",
   "hex": "#f5f5dc",
   "general": {

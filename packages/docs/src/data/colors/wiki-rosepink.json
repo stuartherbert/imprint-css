@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rosepink'.",
+  "oklch": {
+    "lightness": 0.733697,
+    "chroma": 0.214538,
+    "hue": 342.875865,
+    "alpha": 1
+  },
   "definition": "#ff66cc",
   "hex": "#ff66cc",
   "general": {

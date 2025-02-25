@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rubinered'.",
+  "oklch": {
+    "lightness": 0.550846,
+    "chroma": 0.220397,
+    "hue": 9.142639,
+    "alpha": 1
+  },
   "definition": "#d10056",
   "hex": "#d10056",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ral-blackolive'.",
+  "oklch": {
+    "lightness": 0.352881,
+    "chroma": 0.010013,
+    "hue": 114.921178,
+    "alpha": 1
+  },
   "definition": "#3b3c36",
   "hex": "#3b3c36",
   "general": {

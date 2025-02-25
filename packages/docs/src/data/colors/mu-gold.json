@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mu-gold'.",
+  "oklch": {
+    "lightness": 0.813573,
+    "chroma": 0.155721,
+    "hue": 84.157163,
+    "alpha": 1
+  },
   "definition": "#f1b82d",
   "hex": "#f1b82d",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-200'.",
+  "oklch": {
+    "lightness": 0.751794,
+    "chroma": 0.022563,
+    "hue": 39.904663,
+    "alpha": 1
+  },
   "definition": "#bcaaa4",
   "hex": "#bcaaa4",
   "general": {

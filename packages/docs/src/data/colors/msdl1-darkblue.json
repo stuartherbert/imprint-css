@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darkblue'.",
+  "oklch": {
+    "lightness": 0.459259,
+    "chroma": 0.115375,
+    "hue": 257.975037,
+    "alpha": 1
+  },
   "definition": "#2b5797",
   "hex": "#2b5797",
   "general": {

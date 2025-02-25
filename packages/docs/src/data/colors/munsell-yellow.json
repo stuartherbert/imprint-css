@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'munsell-yellow'.",
+  "oklch": {
+    "lightness": 0.894797,
+    "chroma": 0.184493,
+    "hue": 97.047911,
+    "alpha": 1
+  },
   "definition": "#ffdb00",
   "hex": "#ffdb00",
   "general": {

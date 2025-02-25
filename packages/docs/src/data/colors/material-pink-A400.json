@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-a400'.",
+  "oklch": {
+    "lightness": 0.617557,
+    "chroma": 0.246808,
+    "hue": 13.80537,
+    "alpha": 1
+  },
   "definition": "#f50057",
   "hex": "#f50057",
   "general": {

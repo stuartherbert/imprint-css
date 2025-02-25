@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-garnet'.",
+  "oklch": {
+    "lightness": 0.413266,
+    "chroma": 0.08629,
+    "hue": 22.513795,
+    "alpha": 1
+  },
   "definition": "#733635",
   "hex": "#733635",
   "general": {

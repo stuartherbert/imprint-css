@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-medium'.",
+  "oklch": {
+    "lightness": 0.690058,
+    "chroma": 0.159695,
+    "hue": 158.507488,
+    "alpha": 1
+  },
   "definition": "#02b875",
   "hex": "#02b875",
   "general": {

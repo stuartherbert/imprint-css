@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-red-600'.",
+  "oklch": {
+    "lightness": 0.528721,
+    "chroma": 0.198117,
+    "hue": 27.781736,
+    "alpha": 1
+  },
   "definition": "#c4201e",
   "hex": "#c4201e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-a100'.",
+  "oklch": {
+    "lightness": 0.841054,
+    "chroma": 0.100816,
+    "hue": 228.437745,
+    "alpha": 1
+  },
   "definition": "#80d8ff",
   "hex": "#80d8ff",
   "general": {

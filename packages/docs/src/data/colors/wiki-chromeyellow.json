@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chromeyellow'.",
+  "oklch": {
+    "lightness": 0.796272,
+    "chroma": 0.170767,
+    "hue": 71.719994,
+    "alpha": 1
+  },
   "definition": "#ffa700",
   "hex": "#ffa700",
   "general": {

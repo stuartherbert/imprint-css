@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rust'.",
+  "oklch": {
+    "lightness": 0.535281,
+    "chroma": 0.162603,
+    "hue": 39.501362,
+    "alpha": 1
+  },
   "definition": "#b7410e",
   "hex": "#b7410e",
   "general": {

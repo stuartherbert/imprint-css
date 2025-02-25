@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-500'.",
+  "oklch": {
+    "lightness": 0.478408,
+    "chroma": 0.158882,
+    "hue": 271.368389,
+    "alpha": 1
+  },
   "definition": "#3f51b5",
   "hex": "#3f51b5",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-400'.",
+  "oklch": {
+    "lightness": 0.788693,
+    "chroma": 0.142503,
+    "hue": 129.742612,
+    "alpha": 1
+  },
   "definition": "#9ccc65",
   "hex": "#9ccc65",
   "general": {

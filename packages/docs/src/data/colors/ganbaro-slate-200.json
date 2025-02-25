@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-slate-200'.",
+  "oklch": {
+    "lightness": 0.735495,
+    "chroma": 0.018086,
+    "hue": 241.73071,
+    "alpha": 1
+  },
   "definition": "#a0abb4",
   "hex": "#a0abb4",
   "general": {

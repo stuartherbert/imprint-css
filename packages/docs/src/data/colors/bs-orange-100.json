@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-100'.",
+  "oklch": {
+    "lightness": 0.937587,
+    "chroma": 0.039906,
+    "hue": 61.10758,
+    "alpha": 1
+  },
   "definition": "#ffe5d0",
   "hex": "#ffe5d0",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-slate-900'.",
+  "oklch": {
+    "lightness": 0.207632,
+    "chroma": 0.040018,
+    "hue": 266.00275,
+    "alpha": 1
+  },
   "definition": "#0f172a",
   "hex": "#0f172a",
   "general": {

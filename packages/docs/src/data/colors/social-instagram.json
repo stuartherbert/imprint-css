@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-instagram'.",
+  "oklch": {
+    "lightness": 0.619462,
+    "chroma": 0.199505,
+    "hue": 14.56041,
+    "alpha": 1
+  },
   "definition": "#e4405f",
   "hex": "#e4405f",
   "general": {

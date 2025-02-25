@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-sinopia'.",
+  "oklch": {
+    "lightness": 0.568546,
+    "chroma": 0.182826,
+    "hue": 37.576101,
+    "alpha": 1
+  },
   "definition": "#cb410b",
   "hex": "#cb410b",
   "general": {

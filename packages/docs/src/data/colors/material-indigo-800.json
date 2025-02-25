@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-800'.",
+  "oklch": {
+    "lightness": 0.38207,
+    "chroma": 0.15369,
+    "hue": 271.003129,
+    "alpha": 1
+  },
   "definition": "#283593",
   "hex": "#283593",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-englishviolet'.",
+  "oklch": {
+    "lightness": 0.397985,
+    "chroma": 0.062104,
+    "hue": 319.822439,
+    "alpha": 1
+  },
   "definition": "#563c5c",
   "hex": "#563c5c",
   "general": {

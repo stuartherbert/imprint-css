@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'spanish-orange'.",
+  "oklch": {
+    "lightness": 0.654185,
+    "chroma": 0.186468,
+    "hue": 45.177426,
+    "alpha": 1
+  },
   "definition": "#e86100",
   "hex": "#e86100",
   "general": {

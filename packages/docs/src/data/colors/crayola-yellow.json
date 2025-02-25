@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-yellow'.",
+  "oklch": {
+    "lightness": 0.926467,
+    "chroma": 0.123763,
+    "hue": 98.438417,
+    "alpha": 1
+  },
   "definition": "#fce883",
   "hex": "#fce883",
   "general": {

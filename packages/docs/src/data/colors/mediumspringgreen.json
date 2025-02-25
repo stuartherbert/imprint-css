@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'mediumspringgreen'.",
+  "oklch": {
+    "lightness": 0.866559,
+    "chroma": 0.206611,
+    "hue": 156.924895,
+    "alpha": 1
+  },
   "definition": "#00fa9a",
   "hex": "#00fa9a",
   "general": {

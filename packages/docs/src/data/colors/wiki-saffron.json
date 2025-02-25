@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-saffron'.",
+  "oklch": {
+    "lightness": 0.840097,
+    "chroma": 0.15988,
+    "hue": 89.234039,
+    "alpha": 1
+  },
   "definition": "#f4c430",
   "hex": "#f4c430",
   "general": {

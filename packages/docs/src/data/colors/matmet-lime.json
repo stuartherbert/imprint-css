@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'matmet-lime'.",
+  "oklch": {
+    "lightness": 0.769168,
+    "chroma": 0.184145,
+    "hue": 120.796463,
+    "alpha": 1
+  },
   "definition": "#a4c400",
   "hex": "#a4c400",
   "general": {

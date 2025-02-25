@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-zinc-800'.",
+  "oklch": {
+    "lightness": 0.274023,
+    "chroma": 0.005587,
+    "hue": 286.025304,
+    "alpha": 1
+  },
   "definition": "#27272a",
   "hex": "#27272a",
   "general": {

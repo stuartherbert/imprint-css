@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-100'.",
+  "oklch": {
+    "lightness": 0.941312,
+    "chroma": 0.029816,
+    "hue": 12.485116,
+    "alpha": 1
+  },
   "definition": "#ffe4e6",
   "hex": "#ffe4e6",
   "general": {

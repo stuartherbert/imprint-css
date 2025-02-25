@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-yahoo'.",
+  "oklch": {
+    "lightness": 0.344592,
+    "chroma": 0.194155,
+    "hue": 290.695872,
+    "alpha": 1
+  },
   "definition": "#410093",
   "hex": "#410093",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-mono-400'.",
+  "oklch": {
+    "lightness": 0.589543,
+    "chroma": 0,
+    "hue": 0,
+    "alpha": 1
+  },
   "definition": "#7d7d7d",
   "hex": "#7d7d7d",
   "general": {

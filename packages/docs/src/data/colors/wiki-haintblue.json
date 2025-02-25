@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-haintblue'.",
+  "oklch": {
+    "lightness": 0.91934,
+    "chroma": 0.02638,
+    "hue": 199.693847,
+    "alpha": 1
+  },
   "definition": "#d1eaeb",
   "hex": "#d1eaeb",
   "general": {

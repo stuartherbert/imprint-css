@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-stone-100'.",
+  "oklch": {
+    "lightness": 0.970031,
+    "chroma": 0.001351,
+    "hue": 106.424317,
+    "alpha": 1
+  },
   "definition": "#f5f5f4",
   "hex": "#f5f5f4",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'tw3-sky-300'.",
+  "oklch": {
+    "lightness": 0.827288,
+    "chroma": 0.101284,
+    "hue": 230.372046,
+    "alpha": 1
+  },
   "definition": "#7dd3fc",
   "hex": "#7dd3fc",
   "general": {

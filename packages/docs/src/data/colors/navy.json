@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'navy'.",
+  "oklch": {
+    "lightness": 0.271165,
+    "chroma": 0.187899,
+    "hue": 264.052021,
+    "alpha": 1
+  },
   "definition": "#000080",
   "hex": "#000080",
   "general": {

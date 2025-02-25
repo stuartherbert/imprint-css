@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'social-youtube'.",
+  "oklch": {
+    "lightness": 0.545407,
+    "chroma": 0.205973,
+    "hue": 27.699515,
+    "alpha": 1
+  },
   "definition": "#cd201f",
   "hex": "#cd201f",
   "general": {

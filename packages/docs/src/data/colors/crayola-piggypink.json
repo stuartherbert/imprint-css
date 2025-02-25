@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-piggypink'.",
+  "oklch": {
+    "lightness": 0.926608,
+    "chroma": 0.037005,
+    "hue": 359.044627,
+    "alpha": 1
+  },
   "definition": "#fddde6",
   "hex": "#fddde6",
   "general": {

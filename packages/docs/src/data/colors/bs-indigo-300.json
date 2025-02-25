@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-300'.",
+  "oklch": {
+    "lightness": 0.658952,
+    "chroma": 0.19512,
+    "hue": 298.287502,
+    "alpha": 1
+  },
   "definition": "#a370f7",
   "hex": "#a370f7",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-delftblue'.",
+  "oklch": {
+    "lightness": 0.321284,
+    "chroma": 0.084928,
+    "hue": 266.591861,
+    "alpha": 1
+  },
   "definition": "#1f305e",
   "hex": "#1f305e",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-heliotrope'.",
+  "oklch": {
+    "lightness": 0.73251,
+    "chroma": 0.217427,
+    "hue": 318.002027,
+    "alpha": 1
+  },
   "definition": "#df73ff",
   "hex": "#df73ff",
   "general": {

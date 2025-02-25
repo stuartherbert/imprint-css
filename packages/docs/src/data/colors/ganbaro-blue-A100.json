@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-blue-a100'.",
+  "oklch": {
+    "lightness": 0.664034,
+    "chroma": 0.180524,
+    "hue": 249.597288,
+    "alpha": 1
+  },
   "definition": "#1497fc",
   "hex": "#1497fc",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-400'.",
+  "oklch": {
+    "lightness": 0.770659,
+    "chroma": 0.154959,
+    "hue": 57.202891,
+    "alpha": 1
+  },
   "definition": "#fd9843",
   "hex": "#fd9843",
   "general": {

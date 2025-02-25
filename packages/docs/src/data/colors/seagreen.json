@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'seagreen'.",
+  "oklch": {
+    "lightness": 0.56842,
+    "chroma": 0.118765,
+    "hue": 154.949629,
+    "alpha": 1
+  },
   "definition": "#2e8b57",
   "hex": "#2e8b57",
   "general": {

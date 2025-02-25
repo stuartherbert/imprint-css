@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rawsienna'.",
+  "oklch": {
+    "lightness": 0.516399,
+    "chroma": 0.099044,
+    "hue": 45.586724,
+    "alpha": 1
+  },
   "definition": "#965434",
   "hex": "#965434",
   "general": {

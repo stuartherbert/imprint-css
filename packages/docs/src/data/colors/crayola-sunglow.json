@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'crayola-sunglow'.",
+  "oklch": {
+    "lightness": 0.866574,
+    "chroma": 0.164655,
+    "hue": 88.683715,
+    "alpha": 1
+  },
   "definition": "#ffcc33",
   "hex": "#ffcc33",
   "general": {

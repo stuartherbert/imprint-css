@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-tawnybirch2'.",
+  "oklch": {
+    "lightness": 0.617491,
+    "chroma": 0.070282,
+    "hue": 57.4891,
+    "alpha": 1
+  },
   "definition": "#a67b5b",
   "hex": "#a67b5b",
   "general": {

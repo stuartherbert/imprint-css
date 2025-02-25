@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'wiki-uranianblue'.",
+  "oklch": {
+    "lightness": 0.868951,
+    "chroma": 0.058519,
+    "hue": 234.211459,
+    "alpha": 1
+  },
   "definition": "#afdbf5",
   "hex": "#afdbf5",
   "general": {

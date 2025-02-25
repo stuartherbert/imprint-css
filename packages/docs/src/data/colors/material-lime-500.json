@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-500'.",
+  "oklch": {
+    "lightness": 0.855693,
+    "chroma": 0.176574,
+    "hue": 114.860701,
+    "alpha": 1
+  },
   "definition": "#cddc39",
   "hex": "#cddc39",
   "general": {

@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ridgway-tawny'.",
+  "oklch": {
+    "lightness": 0.5874,
+    "chroma": 0.109055,
+    "hue": 54.167775,
+    "alpha": 1
+  },
   "definition": "#ae6938",
   "hex": "#ae6938",
   "general": {

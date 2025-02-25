@@ -5,6 +5,12 @@
   "navSection": "Colors",
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green-900'.",
+  "oklch": {
+    "lightness": 0.524705,
+    "chroma": 0.125898,
+    "hue": 133.553948,
+    "alpha": 1
+  },
   "definition": "#4b7924",
   "hex": "#4b7924",
   "general": {
