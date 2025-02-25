@@ -11,6 +11,12 @@
     "hue": 18.334759,
     "alpha": 1
   },
+  "cmyk": {
+    "cyan": 0,
+    "magenta": 20,
+    "yellow": 20,
+    "key": 0
+  },
   "definition": "#fecaca",
   "hex": "#fecaca",
   "general": {

@@ -11,6 +11,12 @@
     "hue": 234.879214,
     "alpha": 1
   },
+  "cmyk": {
+    "cyan": 20,
+    "magenta": 8,
+    "yellow": 0,
+    "key": 7
+  },
   "definition": "#bedbed",
   "hex": "#bedbed",
   "general": {

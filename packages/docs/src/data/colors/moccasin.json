@@ -11,6 +11,12 @@
     "hue": 81.314482,
     "alpha": 1
   },
+  "cmyk": {
+    "cyan": 0,
+    "magenta": 11,
+    "yellow": 29,
+    "key": 0
+  },
   "definition": "#ffe4b5",
   "hex": "#ffe4b5",
   "general": {

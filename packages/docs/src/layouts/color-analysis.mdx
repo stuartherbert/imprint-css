@@ -50,31 +50,35 @@ Here is a summary of the named color <code>{colorDetails.data.name}</code>.
         <td><code>{colorDetails.data.hex.toUpperCase()}</code></td>
     </tr>
     <tr>
+        <th>CMYK[^1]</th>
+        <td>{colorDetails.data.cmyk.cyan}, {colorDetails.data.cmyk.magenta}, {colorDetails.data.cmyk.yellow}, {colorDetails.data.cmyk.key}</td>
+    </tr>
+    <tr>
         <th>OKLCH</th>
         <td><code>oklch({colorDetails.data.oklch.lightness} {colorDetails.data.oklch.chroma} {colorDetails.data.oklch.hue})</code></td>
     </tr>
     <tr>
-        <th>WCAG Relative Luminance (0-1)[^1]</th>
+        <th>WCAG Relative Luminance (0-1)[^2]</th>
         <td>{colorDetails.data.general.relativeLuminance}</td>
     </tr>
     <tr>
-        <th>YIQ Luminosity (0-255)[^2]</th>
+        <th>YIQ Luminosity (0-255)[^3]</th>
         <td>{colorDetails.data.general.luma}</td>
     </tr>
     <tr>
-        <th>Tonality (dark | midtone | light)[^3]</th>
+        <th>Tonality (dark | midtone | light)[^4]</th>
         <td>{colorDetails.data.general.tonality}</td>
     </tr>
     <tr>
-        <th>Good choice for heading text color?[^4]</th>
+        <th>Good choice for heading text color?[^5]</th>
         <td>{colorDetails.data.pairedWithLightColor.recommendedForHeadings ? "yes" : "no"}</td>
     </tr>
     <tr>
-        <th>Good choice for body content text color?[^5]</th>
+        <th>Good choice for body content text color?[^6]</th>
         <td>{colorDetails.data.pairedWithLightColor.recommendedForBodyContent ? "yes" : "no"}</td>
     </tr>
     <tr>
-        <th>Good choice for page background color?[^6]</th>
+        <th>Good choice for page background color?[^7]</th>
         <td>{colorDetails.data.pairedWithDarkColor.recommendedForBodyContent ? "yes " : "no"}</td>
     </tr>
 </table>
@@ -222,15 +226,16 @@ Here's the raw data that this page was built from.
     <Code code={JSON.stringify(colorDetails.data, null, "    ")} lang="json" theme={PhixLight}/>
 </BasicExample>
 
-[^1]: The sRGB relative luminosity is calculated using the <ExternalLink name="W3C WCAG 2.2 Relative Luminance" text="WCAG 2.2 formula"/>. This uses the revised formula published in May 2021.
-[^2]: To determine color luminosity, we calculate the color's luma value from the <ExternalLink name="YIQ Color Space" text="YIQ color space"/>, using <ExternalLink name="Brian Suda YIQ Algorithm" text="a formula originally by Brian Suda"/>.
-[^3]: We consider "dark" colors to be any color with a YIQ luminosity of 0-127; "midtone" colors are any color with a YIQ luminosity of 128-190; and "light" colors are any color with a YIQ luminosity of 191-255.
-[^4]: We consider a color to be a good choice for headings if:
+[^1]: CMYK is a physical-world color process. To get CMYK colors accurate, you need an ICC color profile for your printing setup. Use our CMYK color data as a starting point, and adjust it manually for your local setup.
+[^2]: The sRGB relative luminosity is calculated using the <ExternalLink name="W3C WCAG 2.2 Relative Luminance" text="WCAG 2.2 formula"/>. This uses the revised formula published in May 2021.
+[^3]: To determine color luminosity, we calculate the color's luma value from the <ExternalLink name="YIQ Color Space" text="YIQ color space"/>, using <ExternalLink name="Brian Suda YIQ Algorithm" text="a formula originally by Brian Suda"/>.
+[^4]: We consider "dark" colors to be any color with a YIQ luminosity of 0-127; "midtone" colors are any color with a YIQ luminosity of 128-190; and "light" colors are any color with a YIQ luminosity of 191-255.
+[^5]: We consider a color to be a good choice for headings if:
     1. the color meets the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG 2.2 Contrast (enhanced) success critera"/> for large text (contrast ratio of at least 4.5:1); **and**
     2. the color is not a midtone
-[^5]: We consider a color to be a good choice for body content text if:
+[^6]: We consider a color to be a good choice for body content text if:
     1. the color meets the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG 2.2 Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
     2. the color is not a midtone
-[^6]: We consider a color to be a good choice for a page's background color if:
+[^7]: We consider a color to be a good choice for a page's background color if:
     1. the color meet the <ExternalLink name="W3C WCAG 2.2 Enhanced Contrast Success Criterion" text="WCAG 2.2 Contrast (enhanced) success critera"/>for normal text (contrast ratio of at least 7:1); **and**
     2. the color is a light color (dark themes are not accessible to people with limited vision)
