@@ -10,8 +10,7 @@
   "general": {
     "hues": [
       "gray",
-      "cyan",
-      "azure"
+      "cyan"
     ],
     "tonality": "dark",
     "isDark": true,

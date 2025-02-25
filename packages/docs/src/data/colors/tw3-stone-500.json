@@ -10,8 +10,7 @@
   "general": {
     "hues": [
       "gray",
-      "red",
-      "orange"
+      "red"
     ],
     "tonality": "dark",
     "isDark": true,

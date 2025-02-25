@@ -11,7 +11,8 @@
     "hues": [
       "gray",
       "black",
-      "azure"
+      "azure",
+      "indigo"
     ],
     "tonality": "dark",
     "isDark": true,
