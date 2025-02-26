@@ -310,6 +310,11 @@ nav.pagetoc-ol {
     border: none;
 }
 
+.grid-palette-columns-12 {
+    display: grid;
+    grid-template-columns: 1fr repeat(1, 1fr);
+}
+
 /* workarounds for Astro / Tailwind issues */
 .dummy-grid-cols-3 {
     @apply grid-cols-3;
@@ -340,6 +345,18 @@ nav.pagetoc-ol {
 }
 .dummy-grid-cols-12 {
     @apply grid-cols-12;
+}
+.dummy-grid-cols-13 {
+    @apply grid-cols-13;
+}
+.dummy-grid-cols-14 {
+    @apply grid-cols-14;
+}
+.dummy-grid-cols-15 {
+    @apply grid-cols-15;
+}
+.dummy-grid-cols-16 {
+    @apply grid-cols-16;
 }
 .dummy-inline {
     @apply inline;

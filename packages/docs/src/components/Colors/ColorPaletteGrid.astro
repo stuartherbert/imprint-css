@@ -2,7 +2,6 @@
 import { getEntry } from "astro:content";
 import { natsort } from "natsort-esm";
 import ColorPaletteGridRow from "./ColorPaletteGridRow.astro";
-import ColorSwatches from "./ColorSwatches.astro";
 
 const sorter = natsort();
 
@@ -69,27 +68,21 @@ async function processColorGroupColumns() {
 const colorPaletteNames = await processColorGroupNames();
 const colorColumnNames = await processColorGroupColumns();
 
-attributes.class = "hidden docs-color-palette-grid b:table " + (attributes.class || "");
+attributes.class = "grid dummy-grid-cols-" + (colorColumnNames.length + 1) + " " + (attributes.class || "");
 
 ---
 
-<ColorSwatches class="hidden b:grid">
-<table {...attributes}>
-    <thead>
-        <tr>
-            <th>&nbsp;</th>
-            {colorColumnNames.map(columnName =>
-                <th>{columnName}</th>
-            )}
-        </tr>
-    </thead>
-    <tbody>
-        {colorPaletteNames.map(paletteName => (
-            <tr class="text-right">
-                <th>{paletteName.split("-")[1]}</th>
-                <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumnNames?.join(",")}/>
-            </tr>
-        ))}
-    </tbody>
-</table>
-</ColorSwatches>
+<div class="p-2 border rounded-lg border-imprint-valleyssun --shaded">
+    <div {...attributes}>
+        <div>&nbsp;</div>
+        {colorColumnNames.map(columnName =>
+            <div>{columnName}</div>
+        )}
+    </div>
+    {colorPaletteNames.map(paletteName => (
+        <div {...attributes}>
+            <div class="text-right">{paletteName.split("-")[1]}</div>
+            <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumnNames?.join(",")}/>
+        </div>
+    ))}
+</div>

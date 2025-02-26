@@ -20,6 +20,5 @@ let color = {
 const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.color + " !important;";
 
 ---
-<td style={swatchStyle}>
-    {colorData && <a href="" title="copy to clipboard" class="relative" data-clipboard={colorName}>&nbsp;</a>}
-</td>
+{colorData && <a href="" title="copy to clipboard" data-clipboard={colorName} class="relative !block !border-0 !hover:border-0 !active:border-0"><div style={swatchStyle}>&nbsp;</div></a>}
+{!colorData && <div/>}
