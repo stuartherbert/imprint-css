@@ -7,12 +7,13 @@ next: colors/flat-ui-collection
 ---
 
 import ColorPaletteBlocks from "../../../components/Colors/ColorPaletteBlocks.astro";
+import ColorPaletteGrid from "../../../components/Colors/ColorPaletteGrid.astro";
 import ColorPaletteSwatches from "../../../components/Colors/ColorPaletteSwatches.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import InternalLinkWithText from "../../../components/InternalLinkWithText.astro";
-import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
 
 ## Introduction
 
@@ -43,7 +44,10 @@ The Imprint CSS project claims no ownership of these colors.
 
 ### At A Glance
 
-These colors give a good indication of what the various Bootstrap color palettes look like.
+<ColorPaletteGrid colorGroup="bootstrap"/>
+
+<div class="b:hidden">
+<p>These colors give a good indication of what the various Bootstrap color palettes look like.</p>
 
 <ColorSwatches>
     <div class="docs-color-swatches">
@@ -60,6 +64,7 @@ These colors give a good indication of what the various Bootstrap color palettes
         <ColorSwatch colorName="bs-gray"/>
     </div>
 </ColorSwatches>
+</div>
 
 ### bs-blue
 

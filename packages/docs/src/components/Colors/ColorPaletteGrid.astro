@@ -1,18 +1,73 @@
 ---
+import { getEntry } from "astro:content";
+import { natsort } from "natsort-esm";
 import ColorPaletteGridRow from "./ColorPaletteGridRow.astro";
 import ColorSwatches from "./ColorSwatches.astro";
 
+const sorter = natsort();
 
 export interface Props {
-    colorPalettes: string;
-    colorColumns: string;
+    colorGroup: string;
     [name: string]: string;
 }
 
-const { colorPalettes, colorColumns, ...attributes } = Astro.props;
+const { colorGroup, ...attributes } = Astro.props;
 
-const colorPaletteNames = colorPalettes.split(",");
-const colorColumnNames = colorColumns.split(",");
+// go and load the group
+const colorGroupData = await getEntry("colorGroups", colorGroup);
+if (!colorGroupData) {
+    throw new Error("unknown color group: " + colorGroup);
+}
+
+function extractPaletteName(input: string) {
+    const parts = input.split("-");
+    return parts.slice(0, 2).join("-");
+}
+
+function extractPaletteOffsetName(input: string) {
+    const parts = input.split("-");
+    return parts[parts.length-1];
+}
+
+function hasPaletteOffsetName(input: string) {
+    return input.split("-").length > 2;
+}
+
+async function processColorGroupNames() {
+    const colorPaletteSet = new Set<string>;
+
+    for (const colorRef of colorGroupData.data) {
+        const colorData = await getEntry(colorRef);
+
+        if (!colorData) {
+            return;
+        }
+        colorPaletteSet.add(extractPaletteName(colorData.id));
+    }
+
+    return [...colorPaletteSet];
+}
+
+async function processColorGroupColumns() {
+    const colorColumnSet = new Set<string>();
+
+    for (const colorRef of colorGroupData.data) {
+        const colorData = await getEntry(colorRef);
+
+        if (!colorData) {
+            return;
+        }
+
+        if (hasPaletteOffsetName(colorData.id)) {
+            colorColumnSet.add(extractPaletteOffsetName(colorData.id));
+        }
+    }
+
+    return [...colorColumnSet].sort(sorter);
+}
+
+const colorPaletteNames = await processColorGroupNames();
+const colorColumnNames = await processColorGroupColumns();
 
 attributes.class = "hidden docs-color-palette-grid b:table " + (attributes.class || "");
 
@@ -30,9 +85,9 @@ attributes.class = "hidden docs-color-palette-grid b:table " + (attributes.class
     </thead>
     <tbody>
         {colorPaletteNames.map(paletteName => (
-            <tr>
-                <td>{paletteName.split("-")[1]}</td>
-                <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumns}/>
+            <tr class="text-right">
+                <th>{paletteName.split("-")[1]}</th>
+                <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumnNames?.join(",")}/>
             </tr>
         ))}
     </tbody>

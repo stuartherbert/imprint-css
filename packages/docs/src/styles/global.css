@@ -296,6 +296,10 @@ nav.pagetoc-ol {
     border-spacing: 2px;
 }
 
+.docs-color-palette-grid tbody tr:not(:first-of-type) {
+    width: 100%;
+}
+
 .docs-color-palette-grid tbody a {
     display: block;
     border: none;
