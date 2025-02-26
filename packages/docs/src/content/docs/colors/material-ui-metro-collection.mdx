@@ -7,10 +7,11 @@ next: colors/metro-ui-collection
 ---
 
 import ColorBlock from "../../../components/Colors/ColorBlock.astro";
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ColorPaletteGridCell from "../../../components/Colors/ColorPaletteGridCell.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
-import ExternalLink from "../../../components/ExternalLink.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
 ## Introduction
 
@@ -42,6 +43,41 @@ The Imprint CSS project claims no ownership of these colors.
 ## The Colors
 
 <HowToUseTheseColors/>
+
+### Quick Select Grid
+
+Click on a color to copy its name to the clipboard.
+
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
+    <div class="grid dummy-grid-cols-5">
+        <ColorPaletteGridCell colorName="matmet-lime"/>
+        <ColorPaletteGridCell colorName="matmet-green"/>
+        <ColorPaletteGridCell colorName="matmet-emerald"/>
+        <ColorPaletteGridCell colorName="matmet-teal"/>
+        <ColorPaletteGridCell colorName="matmet-cyan"/>
+    </div>
+    <div class="grid dummy-grid-cols-5">
+        <ColorPaletteGridCell colorName="matmet-cobalt"/>
+        <ColorPaletteGridCell colorName="matmet-indigo"/>
+        <ColorPaletteGridCell colorName="matmet-violet"/>
+        <ColorPaletteGridCell colorName="matmet-pink"/>
+        <ColorPaletteGridCell colorName="matmet-magenta"/>
+    </div>
+    <div class="grid dummy-grid-cols-5">
+        <ColorPaletteGridCell colorName="matmet-crimson"/>
+        <ColorPaletteGridCell colorName="matmet-red"/>
+        <ColorPaletteGridCell colorName="matmet-orange"/>
+        <ColorPaletteGridCell colorName="matmet-amber"/>
+        <ColorPaletteGridCell colorName="matmet-yellow"/>
+    </div>
+    <div class="grid dummy-grid-cols-5">
+        <ColorPaletteGridCell colorName="matmet-brown"/>
+        <ColorPaletteGridCell colorName="matmet-olive"/>
+        <ColorPaletteGridCell colorName="matmet-steel"/>
+        <ColorPaletteGridCell colorName="matmet-mauve"/>
+        <ColorPaletteGridCell colorName="matmet-sienna"/>
+    </div>
+</div>
 
 ### At A Glance
 

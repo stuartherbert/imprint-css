@@ -7,10 +7,11 @@ next: colors/microsoft-design-language-collection
 ---
 
 import ColorBlock from "../../../components/Colors/ColorBlock.astro";
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ColorPaletteGridCell from "../../../components/Colors/ColorPaletteGridCell.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
-import ExternalLink from "../../../components/ExternalLink.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
 ## Introduction
 
@@ -37,6 +38,37 @@ Imprint CSS does not claim ownership of these colors.
 ## The Colors
 
 <HowToUseTheseColors/>
+
+### Quick Select Grid
+
+Click on a color to copy its name to the clipboard.
+
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
+    <div class="grid dummy-grid-cols-6">
+        <ColorPaletteGridCell colorName="msdl1-red"/>
+        <ColorPaletteGridCell colorName="msdl1-darkred"/>
+        <ColorPaletteGridCell colorName="msdl1-darkorange"/>
+        <ColorPaletteGridCell colorName="msdl1-orange"/>
+        <ColorPaletteGridCell colorName="msdl1-yellow"/>
+        <ColorPaletteGridCell colorName="msdl1-white"/>
+    </div>
+    <div class="grid dummy-grid-cols-6">
+        <ColorPaletteGridCell colorName="msdl1-darkgreen"/>
+        <ColorPaletteGridCell colorName="msdl1-green"/>
+        <ColorPaletteGridCell colorName="msdl1-lightgreen"/>
+        <ColorPaletteGridCell colorName="msdl1-teal"/>
+        <ColorPaletteGridCell colorName="msdl1-darkblue"/>
+        <ColorPaletteGridCell colorName="msdl1-blue"/>
+    </div>
+    <div class="grid dummy-grid-cols-6">
+        <ColorPaletteGridCell colorName="msdl1-darkpurple"/>
+        <ColorPaletteGridCell colorName="msdl1-lightpurple"/>
+        <ColorPaletteGridCell colorName="msdl1-purple"/>
+        <ColorPaletteGridCell colorName="msdl1-magenta"/>
+        <ColorPaletteGridCell colorName="msdl1-darken"/>
+        <ColorPaletteGridCell colorName="msdl1-lightblue"/>
+    </div>
+</div>
 
 ### Color Swatches
 

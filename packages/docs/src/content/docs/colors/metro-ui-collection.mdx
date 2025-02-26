@@ -7,10 +7,11 @@ next: colors/microsoft-metro-collection
 ---
 
 import ColorBlock from "../../../components/Colors/ColorBlock.astro";
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ColorPaletteGridCell from "../../../components/Colors/ColorPaletteGridCell.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
-import ExternalLink from "../../../components/ExternalLink.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
 ## Introduction
 
@@ -37,6 +38,47 @@ The Imprint CSS project claims no ownership of these colors.
 ## The Colors
 
 <HowToUseTheseColors/>
+
+### Quick Select Grid
+
+Click on a color to copy its name to the clipboard.
+
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
+    <div class="grid dummy-grid-cols-15">
+        <ColorPaletteGridCell colorName="metro-red"/>
+        <ColorPaletteGridCell colorName="metro-brown"/>
+        <ColorPaletteGridCell colorName="metro-orange"/>
+        <ColorPaletteGridCell colorName="metro-yellow"/>
+        <ColorPaletteGridCell colorName="metro-khaki"/>
+        <ColorPaletteGridCell colorName="metro-champagne"/>
+        <ColorPaletteGridCell colorName="metro-seashell"/>
+        <ColorPaletteGridCell colorName="metro-lime"/>
+        <ColorPaletteGridCell colorName="metro-emerald"/>
+        <ColorPaletteGridCell colorName="metro-cyan"/>
+        <ColorPaletteGridCell colorName="metro-steel"/>
+        <ColorPaletteGridCell colorName="metro-mauve"/>
+        <ColorPaletteGridCell colorName="metro-violet"/>
+        <ColorPaletteGridCell colorName="metro-pink"/>
+        <ColorPaletteGridCell colorName="metro-charcoal"/>
+    </div>
+    <div class="grid dummy-grid-cols-15">
+        <ColorPaletteGridCell colorName="metro-crimson"/>
+        <ColorPaletteGridCell colorName="metro-taupe"/>
+        <ColorPaletteGridCell colorName="metro-coral"/>
+        <ColorPaletteGridCell colorName="metro-amber"/>
+        <ColorPaletteGridCell colorName="metro-army"/>
+        <ColorPaletteGridCell colorName="metro-nude"/>
+        <ColorPaletteGridCell colorName="metro-gray"/>
+        <ColorPaletteGridCell colorName="metro-green"/>
+        <ColorPaletteGridCell colorName="metro-teal"/>
+        <ColorPaletteGridCell colorName="metro-blue"/>
+        <ColorPaletteGridCell colorName="metro-cobalt"/>
+        <ColorPaletteGridCell colorName="metro-indigo"/>
+        <ColorPaletteGridCell colorName="metro-magenta"/>
+        <ColorPaletteGridCell colorName="metro-terracotta"/>
+        <ColorPaletteGridCell colorName="metro-olive"/>
+    </div>
+</div>
 
 ### At A Glance
 

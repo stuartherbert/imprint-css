@@ -7,11 +7,12 @@ next: colors/bootstrap-collection
 ---
 
 import { Picture } from "astro:assets";
-import colorPicker from "./macOS-color-picker@2x.png";
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
-import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
 import ColorBlock from "../../../components/Colors/ColorBlock.astro";
+import ColorPaletteGridCell from "../../../components/Colors/ColorPaletteGridCell.astro";
+import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+import colorPicker from "./macOS-color-picker@2x.png";
 
 ## Introduction
 
@@ -40,6 +41,70 @@ The Imprint CSS project claims no ownership of these colors.
 ## Color Palette
 
 <HowToUseTheseColors/>
+
+### Quick Select Grid
+
+Click on a color to copy its name to the clipboard.
+
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
+    <div class="grid dummy-grid-cols-12">
+        <ColorPaletteGridCell colorName="apple-licorice"/>
+        <ColorPaletteGridCell colorName="apple-lead"/>
+        <ColorPaletteGridCell colorName="apple-tungsten"/>
+        <ColorPaletteGridCell colorName="apple-iron"/>
+        <ColorPaletteGridCell colorName="apple-steel"/>
+        <ColorPaletteGridCell colorName="apple-tin"/>
+        <ColorPaletteGridCell colorName="apple-nickel"/>
+        <ColorPaletteGridCell colorName="apple-aluminium"/>
+        <ColorPaletteGridCell colorName="apple-magnesium"/>
+        <ColorPaletteGridCell colorName="apple-silver"/>
+        <ColorPaletteGridCell colorName="apple-mercury"/>
+        <ColorPaletteGridCell colorName="apple-snow"/>
+    </div>
+    <div class="grid dummy-grid-cols-12">
+        <ColorPaletteGridCell colorName="apple-cayenne"/>
+        <ColorPaletteGridCell colorName="apple-mocha"/>
+        <ColorPaletteGridCell colorName="apple-asparagus"/>
+        <ColorPaletteGridCell colorName="apple-fern"/>
+        <ColorPaletteGridCell colorName="apple-clover"/>
+        <ColorPaletteGridCell colorName="apple-moss"/>
+        <ColorPaletteGridCell colorName="apple-teal"/>
+        <ColorPaletteGridCell colorName="apple-ocean"/>
+        <ColorPaletteGridCell colorName="apple-midnight"/>
+        <ColorPaletteGridCell colorName="apple-eggplant"/>
+        <ColorPaletteGridCell colorName="apple-plum"/>
+        <ColorPaletteGridCell colorName="apple-maroon"/>
+    </div>
+    <div class="grid dummy-grid-cols-12">
+        <ColorPaletteGridCell colorName="apple-maraschino"/>
+        <ColorPaletteGridCell colorName="apple-tangerine"/>
+        <ColorPaletteGridCell colorName="apple-lemon"/>
+        <ColorPaletteGridCell colorName="apple-lime"/>
+        <ColorPaletteGridCell colorName="apple-spring"/>
+        <ColorPaletteGridCell colorName="apple-seafoam"/>
+        <ColorPaletteGridCell colorName="apple-turquoise"/>
+        <ColorPaletteGridCell colorName="apple-aqua"/>
+        <ColorPaletteGridCell colorName="apple-blueberry"/>
+        <ColorPaletteGridCell colorName="apple-grape"/>
+        <ColorPaletteGridCell colorName="apple-magento"/>
+        <ColorPaletteGridCell colorName="apple-strawberry"/>
+    </div>
+    <div class="grid dummy-grid-cols-12">
+        <ColorPaletteGridCell colorName="apple-salmon"/>
+        <ColorPaletteGridCell colorName="apple-cantaloupe"/>
+        <ColorPaletteGridCell colorName="apple-banana"/>
+        <ColorPaletteGridCell colorName="apple-honeydew"/>
+        <ColorPaletteGridCell colorName="apple-flora"/>
+        <ColorPaletteGridCell colorName="apple-spindrift"/>
+        <ColorPaletteGridCell colorName="apple-ice"/>
+        <ColorPaletteGridCell colorName="apple-sky"/>
+        <ColorPaletteGridCell colorName="apple-orchid"/>
+        <ColorPaletteGridCell colorName="apple-lavender"/>
+        <ColorPaletteGridCell colorName="apple-bubblegum"/>
+        <ColorPaletteGridCell colorName="apple-carnation"/>
+    </div>
+</div>
+
 
 ### macOS Colors
 

@@ -7,10 +7,11 @@ next: colors/ganbaro-digital-collection
 ---
 
 import ColorBlock from "../../../components/Colors/ColorBlock.astro";
-import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
+import ColorPaletteGridCell from "../../../components/Colors/ColorPaletteGridCell.astro";
 import ColorSwatch from "../../../components/Colors/ColorSwatch.astro";
-import ExternalLink from "../../../components/ExternalLink.astro";
+import ColorSwatches from "../../../components/Colors/ColorSwatches.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
+import ExternalLink from "../../../components/ExternalLink.astro";
 
 
 ## Introduction
@@ -36,6 +37,36 @@ These colors were taken from Flat-UI Free, which is released under <ExternalLink
 The Imprint CSS project claims no ownership of these colors.
 
 ## Color Palette
+
+### Quick Select Grid
+
+Click on a color to copy its name to the clipboard.
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
+    <div class="grid dummy-grid-cols-10">
+        <ColorPaletteGridCell colorName="flat-turquoise"/>
+        <ColorPaletteGridCell colorName="flat-emerland"/>
+        <ColorPaletteGridCell colorName="flat-peterriver"/>
+        <ColorPaletteGridCell colorName="flat-amethyst"/>
+        <ColorPaletteGridCell colorName="flat-wetasphalt"/>
+        <ColorPaletteGridCell colorName="flat-sunflower"/>
+        <ColorPaletteGridCell colorName="flat-carrot"/>
+        <ColorPaletteGridCell colorName="flat-alizarin"/>
+        <ColorPaletteGridCell colorName="flat-clouds"/>
+        <ColorPaletteGridCell colorName="flat-concrete"/>
+    </div>
+    <div class="grid dummy-grid-cols-10">
+        <ColorPaletteGridCell colorName="flat-greensea"/>
+        <ColorPaletteGridCell colorName="flat-nephritis"/>
+        <ColorPaletteGridCell colorName="flat-belizehole"/>
+        <ColorPaletteGridCell colorName="flat-wisteria"/>
+        <ColorPaletteGridCell colorName="flat-midnightblue"/>
+        <ColorPaletteGridCell colorName="flat-orange"/>
+        <ColorPaletteGridCell colorName="flat-pumpkin"/>
+        <ColorPaletteGridCell colorName="flat-pomegranate"/>
+        <ColorPaletteGridCell colorName="flat-silver"/>
+        <ColorPaletteGridCell colorName="flat-asbestos"/>
+    </div>
+</div>
 
 ### At A Glance
 
