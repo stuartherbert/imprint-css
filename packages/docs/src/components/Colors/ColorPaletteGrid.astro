@@ -68,21 +68,20 @@ async function processColorGroupColumns() {
 const colorPaletteNames = await processColorGroupNames();
 const colorColumnNames = await processColorGroupColumns();
 
-attributes.class = "grid dummy-grid-cols-" + (colorColumnNames.length + 1) + " " + (attributes.class || "");
+const gridColsStyle = "grid dummy-grid-cols-" + colorColumnNames.length;
+
+// attributes.class = "grid " + (attributes.class || "");
 
 ---
 
-<div class="p-2 border rounded-lg border-imprint-valleyssun --shaded">
-    <div {...attributes}>
-        <div>&nbsp;</div>
-        {colorColumnNames.map(columnName =>
-            <div>{columnName}</div>
-        )}
-    </div>
+<p>Click on a color to copy its name to the clipboard.</p>
+
+<div class="p-2 border rounded-lg c:p-4 border-imprint-valleyssun --shaded">
     {colorPaletteNames.map(paletteName => (
         <div {...attributes}>
-            <div class="text-right">{paletteName.split("-")[1]}</div>
-            <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumnNames?.join(",")}/>
+            <div class={gridColsStyle}>
+                <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumnNames?.join(",")}/>
+            </div>
         </div>
     ))}
 </div>

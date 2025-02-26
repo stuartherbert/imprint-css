@@ -310,9 +310,9 @@ nav.pagetoc-ol {
     border: none;
 }
 
-.grid-palette-columns-12 {
+.palette-grid-cols-16 {
     display: grid;
-    grid-template-columns: 1fr repeat(1, 1fr);
+    grid-template-columns: 10rem repeat(1, 1fr);
 }
 
 /* workarounds for Astro / Tailwind issues */
