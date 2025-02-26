@@ -1,0 +1,40 @@
+---
+import ColorPaletteGridRow from "./ColorPaletteGridRow.astro";
+import ColorSwatches from "./ColorSwatches.astro";
+
+
+export interface Props {
+    colorPalettes: string;
+    colorColumns: string;
+    [name: string]: string;
+}
+
+const { colorPalettes, colorColumns, ...attributes } = Astro.props;
+
+const colorPaletteNames = colorPalettes.split(",");
+const colorColumnNames = colorColumns.split(",");
+
+attributes.class = "hidden docs-color-palette-grid b:table " + (attributes.class || "");
+
+---
+
+<ColorSwatches class="hidden b:grid">
+<table {...attributes}>
+    <thead>
+        <tr>
+            <th>&nbsp;</th>
+            {colorColumnNames.map(columnName =>
+                <th>{columnName}</th>
+            )}
+        </tr>
+    </thead>
+    <tbody>
+        {colorPaletteNames.map(paletteName => (
+            <tr>
+                <td>{paletteName.split("-")[1]}</td>
+                <ColorPaletteGridRow colorPalette={paletteName} colorColumns={colorColumns}/>
+            </tr>
+        ))}
+    </tbody>
+</table>
+</ColorSwatches>

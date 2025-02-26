@@ -1,0 +1,25 @@
+---
+import { getEntry } from "astro:content";
+
+
+interface Props {
+    colorName: string;
+}
+
+const { colorName } = Astro.props;
+
+// load the color
+// it's okay if the color doesn't exist
+const colorData = await getEntry("colors", colorName);
+
+let color = {
+    hex: colorData?.data.hex || "var(--imprint-background)",
+    color: colorData?.data.pairings.background || "var(--imprint-color)"
+}
+
+const swatchStyle = "background-color: " + color.hex + " !important; color: " + color.color + " !important;";
+
+---
+<td style={swatchStyle}>
+    {colorData && <a href="" title="copy to clipboard" class="relative" data-clipboard={colorName}>&nbsp;</a>}
+</td>

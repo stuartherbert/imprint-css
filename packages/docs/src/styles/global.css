@@ -291,6 +291,21 @@ nav.pagetoc-ol {
     /* box-shadow: 1px 1px 1px var(--imprint-semantic-box-shadow-color); */
 }
 
+.docs-color-palette-grid {
+    width: 100%;
+    border-spacing: 2px;
+}
+
+.docs-color-palette-grid tbody a {
+    display: block;
+    border: none;
+}
+
+.docs-color-palette-grid tbody a:hover, .docs-color-palette-grid tbody a:active {
+    display: block;
+    border: none;
+}
+
 /* workarounds for Astro / Tailwind issues */
 .dummy-grid-cols-3 {
     @apply grid-cols-3;

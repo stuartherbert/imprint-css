@@ -1,5 +1,13 @@
 ---
+interface Props {
+    [attribute: string]: string
+}
+
+const { ...attributes } = Astro.props;
+
+attributes.class = "grid grid-flow-row gap-2 p-2 overflow-hidden border rounded-lg border-imprint-valleyssun --shaded " + (attributes.class || "")
+
 ---
-<div class="grid grid-flow-row gap-2 p-2 overflow-hidden border rounded-lg border-imprint-valleyssun --shaded">
+<div {...attributes}>
     <slot/>
 </div>

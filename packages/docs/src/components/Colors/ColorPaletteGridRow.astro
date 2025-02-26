@@ -1,0 +1,23 @@
+---
+import ColorPaletteGridCell from "./ColorPaletteGridCell.astro";
+
+interface Props {
+    colorPalette: string;
+    colorColumns: string;
+}
+
+const { colorPalette, colorColumns } = Astro.props;
+
+const colorColumnNames = colorColumns.split(",");
+
+// build a list of the colors we're going to show
+const columns = [];
+colorColumnNames.forEach((columnName) => {
+    columns.push(colorPalette + '-' + columnName);
+})
+
+---
+
+{columns.map(colorName =>
+    <ColorPaletteGridCell colorName={colorName}/>
+)}
