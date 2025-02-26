@@ -7,20 +7,17 @@ const sorter = natsort();
 
 export interface Props {
     colorGroup: string;
+    prefix?: string;
+    order: string;
     [name: string]: string;
 }
 
-const { colorGroup, ...attributes } = Astro.props;
+const { colorGroup, prefix, order, ...attributes } = Astro.props;
 
 // go and load the group
 const colorGroupData = await getEntry("colorGroups", colorGroup);
 if (!colorGroupData) {
     throw new Error("unknown color group: " + colorGroup);
-}
-
-function extractPaletteName(input: string) {
-    const parts = input.split("-");
-    return parts.slice(0, 2).join("-");
 }
 
 function extractPaletteOffsetName(input: string) {
@@ -33,18 +30,13 @@ function hasPaletteOffsetName(input: string) {
 }
 
 async function processColorGroupNames() {
-    const colorPaletteSet = new Set<string>;
-
-    for (const colorRef of colorGroupData.data) {
-        const colorData = await getEntry(colorRef);
-
-        if (!colorData) {
-            return;
-        }
-        colorPaletteSet.add(extractPaletteName(colorData.id));
+    const retval: string[] = [];
+    for (const setName of order.split(",")) {
+        const paletteName = (prefix || colorGroup) + "-" + setName;
+        retval.push(paletteName);
     }
 
-    return [...colorPaletteSet];
+    return retval;
 }
 
 async function processColorGroupColumns() {
