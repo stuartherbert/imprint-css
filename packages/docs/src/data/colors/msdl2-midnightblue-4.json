@@ -17,6 +17,12 @@
     "yellow": 0,
     "key": 15
   },
+  "hsl": {
+    "hue": 242,
+    "saturation": 65,
+    "luminosity": 57,
+    "alpha": 1
+  },
   "definition": "#4f4bd9",
   "hex": "#4f4bd9",
   "general": {

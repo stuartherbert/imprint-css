@@ -17,6 +17,12 @@
     "yellow": 66,
     "key": 6
   },
+  "hsl": {
+    "hue": 1,
+    "saturation": 83,
+    "luminosity": 63,
+    "alpha": 1
+  },
   "definition": "#ef5350",
   "hex": "#ef5350",
   "general": {

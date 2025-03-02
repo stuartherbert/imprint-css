@@ -17,6 +17,12 @@
     "yellow": 0,
     "key": 26
   },
+  "hsl": {
+    "hue": 210,
+    "saturation": 11,
+    "luminosity": 71,
+    "alpha": 1
+  },
   "definition": "#adb5bd",
   "hex": "#adb5bd",
   "general": {

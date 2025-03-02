@@ -17,6 +17,12 @@
     "yellow": 0,
     "key": 7
   },
+  "hsl": {
+    "hue": 203,
+    "saturation": 56,
+    "luminosity": 84,
+    "alpha": 1
+  },
   "definition": "#bedbed",
   "hex": "#bedbed",
   "general": {

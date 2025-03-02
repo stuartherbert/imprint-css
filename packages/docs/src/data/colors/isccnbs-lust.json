@@ -17,6 +17,12 @@
     "yellow": 86,
     "key": 10
   },
+  "hsl": {
+    "hue": 0,
+    "saturation": 80,
+    "luminosity": 51,
+    "alpha": 1
+  },
   "definition": "#e62020",
   "hex": "#e62020",
   "general": {

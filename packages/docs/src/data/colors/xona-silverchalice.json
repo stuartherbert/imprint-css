@@ -17,6 +17,12 @@
     "yellow": 0,
     "key": 32
   },
+  "hsl": {
+    "hue": 0,
+    "saturation": 0,
+    "luminosity": 68,
+    "alpha": 1
+  },
   "definition": "#acacac",
   "hex": "#acacac",
   "general": {

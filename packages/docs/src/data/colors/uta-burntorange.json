@@ -17,6 +17,12 @@
     "yellow": 100,
     "key": 25
   },
+  "hsl": {
+    "hue": 27,
+    "saturation": 100,
+    "luminosity": 37,
+    "alpha": 1
+  },
   "definition": "#bf5700",
   "hex": "#bf5700",
   "general": {

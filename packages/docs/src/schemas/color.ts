@@ -1,5 +1,6 @@
 import { reference, z } from "astro:content";
 import { cmykSchema } from "./cmyk";
+import { hslSchema } from "./hsl";
 import { oklchSchema } from "./oklch";
 import { renderableSchema } from "./renderable";
 
@@ -77,6 +78,7 @@ export const colorsSchema = renderableSchema.extend({
     hex: z.string().startsWith('#'),
     oklch: oklchSchema,
     cmyk: cmykSchema,
+    hsl: hslSchema,
     general: generalSchema,
     pairedWithLightColor: pairedWithColorSchema,
     pairedWithDarkColor: pairedWithColorSchema,

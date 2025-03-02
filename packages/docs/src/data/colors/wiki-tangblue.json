@@ -17,6 +17,12 @@
     "yellow": 0,
     "key": 19
   },
+  "hsl": {
+    "hue": 214,
+    "saturation": 100,
+    "luminosity": 41,
+    "alpha": 1
+  },
   "definition": "#0059cf",
   "hex": "#0059cf",
   "general": {

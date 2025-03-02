@@ -17,6 +17,12 @@
     "yellow": 59,
     "key": 5
   },
+  "hsl": {
+    "hue": 82,
+    "saturation": 85,
+    "luminosity": 67,
+    "alpha": 1
+  },
   "definition": "#bef264",
   "hex": "#bef264",
   "general": {
