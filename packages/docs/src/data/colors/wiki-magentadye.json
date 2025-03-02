@@ -23,6 +23,12 @@
     "luminosity": 46,
     "alpha": 1
   },
+  "hsv": {
+    "hue": 328,
+    "saturation": 85,
+    "value": 79,
+    "alpha": 1
+  },
   "hwb": {
     "hue": 328,
     "whiteness": 12,

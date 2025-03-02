@@ -88,6 +88,7 @@ function processColor(colorGroupName, colorName, colorDefinition)
         oklch: cssColor.oklch().channelsData(),
         cmyk: cssColor.cmyk().channelsData(),
         hsl: cssColor.hsl().channelsData(),
+        hsv: cssColor.hsv().channelsData(),
         hwb: cssColor.hwb().channelsData(),
         rgb: cssColor.rgb().channelsData(),
 

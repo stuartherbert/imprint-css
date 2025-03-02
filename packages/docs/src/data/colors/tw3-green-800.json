@@ -23,6 +23,12 @@
     "luminosity": 24,
     "alpha": 1
   },
+  "hsv": {
+    "hue": 143,
+    "saturation": 78,
+    "value": 40,
+    "alpha": 1
+  },
   "hwb": {
     "hue": 143,
     "whiteness": 9,
