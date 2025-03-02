@@ -23,6 +23,12 @@
     "luminosity": 75,
     "alpha": 1
   },
+  "rgb": {
+    "red": 190,
+    "green": 190,
+    "blue": 190,
+    "alpha": 1
+  },
   "definition": "#bebebe",
   "hex": "#bebebe",
   "general": {

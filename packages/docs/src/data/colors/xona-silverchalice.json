@@ -23,6 +23,12 @@
     "luminosity": 68,
     "alpha": 1
   },
+  "rgb": {
+    "red": 172,
+    "green": 172,
+    "blue": 172,
+    "alpha": 1
+  },
   "definition": "#acacac",
   "hex": "#acacac",
   "general": {

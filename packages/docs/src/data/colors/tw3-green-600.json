@@ -23,6 +23,12 @@
     "luminosity": 36,
     "alpha": 1
   },
+  "rgb": {
+    "red": 22,
+    "green": 163,
+    "blue": 74,
+    "alpha": 1
+  },
   "definition": "#16a34a",
   "hex": "#16a34a",
   "general": {

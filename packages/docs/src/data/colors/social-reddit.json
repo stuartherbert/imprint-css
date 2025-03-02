@@ -23,6 +23,12 @@
     "luminosity": 50,
     "alpha": 1
   },
+  "rgb": {
+    "red": 255,
+    "green": 87,
+    "blue": 0,
+    "alpha": 1
+  },
   "definition": "#ff5700",
   "hex": "#ff5700",
   "general": {

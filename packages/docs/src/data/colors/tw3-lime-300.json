@@ -23,6 +23,12 @@
     "luminosity": 67,
     "alpha": 1
   },
+  "rgb": {
+    "red": 190,
+    "green": 242,
+    "blue": 100,
+    "alpha": 1
+  },
   "definition": "#bef264",
   "hex": "#bef264",
   "general": {

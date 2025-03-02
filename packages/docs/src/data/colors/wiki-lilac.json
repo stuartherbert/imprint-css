@@ -23,6 +23,12 @@
     "luminosity": 71,
     "alpha": 1
   },
+  "rgb": {
+    "red": 200,
+    "green": 162,
+    "blue": 200,
+    "alpha": 1
+  },
   "definition": "#c8a2c8",
   "hex": "#c8a2c8",
   "general": {

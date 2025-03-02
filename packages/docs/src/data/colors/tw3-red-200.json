@@ -23,6 +23,12 @@
     "luminosity": 89,
     "alpha": 1
   },
+  "rgb": {
+    "red": 254,
+    "green": 202,
+    "blue": 202,
+    "alpha": 1
+  },
   "definition": "#fecaca",
   "hex": "#fecaca",
   "general": {

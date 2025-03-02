@@ -3,6 +3,7 @@ import { cmykSchema } from "./cmyk";
 import { hslSchema } from "./hsl";
 import { oklchSchema } from "./oklch";
 import { renderableSchema } from "./renderable";
+import { rgbSchema } from "./rgb";
 
 const wcagContrastSchema = z.object({
     A_normal: z.boolean(),
@@ -79,6 +80,7 @@ export const colorsSchema = renderableSchema.extend({
     oklch: oklchSchema,
     cmyk: cmykSchema,
     hsl: hslSchema,
+    rgb: rgbSchema,
     general: generalSchema,
     pairedWithLightColor: pairedWithColorSchema,
     pairedWithDarkColor: pairedWithColorSchema,

@@ -23,6 +23,12 @@
     "luminosity": 84,
     "alpha": 1
   },
+  "rgb": {
+    "red": 190,
+    "green": 219,
+    "blue": 237,
+    "alpha": 1
+  },
   "definition": "#bedbed",
   "hex": "#bedbed",
   "general": {

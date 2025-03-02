@@ -23,6 +23,12 @@
     "luminosity": 54,
     "alpha": 1
   },
+  "rgb": {
+    "red": 220,
+    "green": 53,
+    "blue": 69,
+    "alpha": 1
+  },
   "definition": "#dc3545",
   "hex": "#dc3545",
   "general": {

@@ -23,6 +23,12 @@
     "luminosity": 46,
     "alpha": 1
   },
+  "rgb": {
+    "red": 236,
+    "green": 88,
+    "blue": 0,
+    "alpha": 1
+  },
   "definition": "#ec5800",
   "hex": "#ec5800",
   "general": {
