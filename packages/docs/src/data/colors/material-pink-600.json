@@ -23,6 +23,12 @@
     "luminosity": 48,
     "alpha": 1
   },
+  "hwb": {
+    "hue": 338,
+    "whiteness": 11,
+    "blackness": 15,
+    "alpha": 1
+  },
   "rgb": {
     "red": 216,
     "green": 27,
