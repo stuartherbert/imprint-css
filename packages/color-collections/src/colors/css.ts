@@ -32,11 +32,11 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { CSS_EXTENDED_COLORS_TO_HEX, makeCssHexColorDefinition } from "@safelytyped/css-color";
 import { HashMap } from "@safelytyped/core-types";
+import { CSS_NAMED_COLOR_TO_HEX, makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const CSS_EXTENDED_COLORS: CssColorDefinitions = {};
-HashMap.forEach(CSS_EXTENDED_COLORS_TO_HEX, (value, name) => {
-    CSS_EXTENDED_COLORS[name] = makeCssHexColorDefinition(value);
+export const CSS_NAMED_COLORS: CssColorDefinitions = {};
+HashMap.forEach(CSS_NAMED_COLOR_TO_HEX, (value, name) => {
+    CSS_NAMED_COLORS[name] = makeCssHexColorDefinition(value);
 });

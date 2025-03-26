@@ -41,7 +41,7 @@ export function rgb(hex: string, alpha?: string): string
         throw new Error("unable to understand CSS hex color: " + hex);
     }
 
-    const channels = color.rgb().channelsData();
+    const channels = color.rgb.channelsData;
 
     if (alpha === undefined) {
         return "rgb("

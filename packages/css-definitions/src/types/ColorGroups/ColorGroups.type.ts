@@ -40,7 +40,6 @@ export interface ColorGroups {
     flat: TailwindThemeColors;
     ganbaro: TailwindThemeColors;
     imprint: TailwindThemeColors;
-    km: TailwindThemeColors;
     material: TailwindThemeColors;
     matmet: TailwindThemeColors;
     metro: TailwindThemeColors;

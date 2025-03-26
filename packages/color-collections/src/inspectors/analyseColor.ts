@@ -32,27 +32,27 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, relativeLuminance, tonality, wcagContrast, type AnyCssColor } from "@safelytyped/css-color";
-import type { ColorAnalysis } from "../types/ColorAnalysis/ColorAnalysis.type";
+import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, relativeLuminance, tonality, wcagContrast, type CssColor } from "@safelytyped/css-color";
 import { roundDown } from "@safelytyped/math-rounding";
-import { DEFAULT_FG } from "../defaults/DEFAULT_FG";
 import { DEFAULT_BG } from "../defaults/DEFAULT_BG";
+import { DEFAULT_FG } from "../defaults/DEFAULT_FG";
+import type { ColorAnalysis } from "../types/ColorAnalysis/ColorAnalysis.type";
 
 export function analyseColor(
-    input: AnyCssColor,
+    input: CssColor,
     {
         defaultFg = DEFAULT_FG,
         defaultBg = DEFAULT_BG
     }: {
-        defaultFg?: AnyCssColor,
-        defaultBg?: AnyCssColor
+        defaultFg?: CssColor,
+        defaultBg?: CssColor
     } = {}
 ): ColorAnalysis
 {
     // analyse the color
     const retval = {
-        definition: input.definition(),
-        hex: input.hex(),
+        definition: input.definition,
+        hex: input.hex,
         general: {
             hues: hues(input),
             tonality: tonality(input),
@@ -83,8 +83,8 @@ export function analyseColor(
             passableForUi: false,
         },
         pairings: {
-            background: defaultBg.hex(),
-            foreground: defaultFg.hex(),
+            background: defaultBg.hex,
+            foreground: defaultFg.hex,
         }
     };
 
@@ -101,8 +101,8 @@ export function analyseColor(
     retval.pairedWithDarkColor.passableForUi = (retval.pairedWithDarkColor.wcagContrast.AA_ui && retval.pairedWithDarkColor.clearContrast && !retval.general.isMidtone);
 
     if (retval.general.luma > (255/2)) {
-        retval.pairings.background = defaultFg.hex();
-        retval.pairings.foreground = defaultBg.hex();
+        retval.pairings.background = defaultFg.hex;
+        retval.pairings.foreground = defaultBg.hex;
     }
 
     // all done

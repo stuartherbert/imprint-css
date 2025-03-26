@@ -36,7 +36,7 @@
     "author": "Stuart Herbert",
     "license": "BSD-3-Clause",
     "dependencies": {
-        "@safelytyped/css-color": "^2.0.2",
+        "@safelytyped/css-color": "^3.0",
         "@safelytyped/core-types": "^0.5.1",
         "@safelytyped/math-rounding": "^1.0.1"
     },

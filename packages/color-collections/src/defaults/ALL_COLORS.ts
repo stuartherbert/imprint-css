@@ -34,7 +34,7 @@
 
 import { APPLE_COLORS } from "../colors/apple";
 import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
-import { CSS_EXTENDED_COLORS } from "../colors/css";
+import { CSS_NAMED_COLORS } from "../colors/css";
 import { FLAT_COLORS } from "../colors/flat";
 import { GANBARO_COLORS } from "../colors/ganbaro";
 import { IMPRINT_COLORS } from "../colors/imprint";
@@ -52,7 +52,7 @@ import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorD
 export const ALL_COLORS: CssColorDefinitions = {
     ...APPLE_COLORS,
     ...collectionToDefinitions(BOOTSTRAP_COLORS),
-    ...CSS_EXTENDED_COLORS,
+    ...CSS_NAMED_COLORS,
     ...FLAT_COLORS,
     ...collectionToDefinitions(GANBARO_COLORS),
     ...IMPRINT_COLORS,

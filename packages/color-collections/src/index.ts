@@ -34,7 +34,7 @@
 
 export { APPLE_COLORS } from "./colors/apple";
 export { BOOTSTRAP_COLORS } from "./colors/bootstrap";
-export { CSS_EXTENDED_COLORS } from "./colors/css";
+export { CSS_NAMED_COLORS } from "./colors/css";
 export { FLAT_COLORS } from "./colors/flat";
 export { GANBARO_COLORS } from "./colors/ganbaro";
 export { IMPRINT_COLORS } from "./colors/imprint";
@@ -51,9 +51,9 @@ export { WIKIPEDIA_COLORS } from "./colors/wikipedia";
 export { DEFAULT_BG } from "./defaults/DEFAULT_BG";
 export { DEFAULT_FG } from "./defaults/DEFAULT_FG";
 
+export * from "./colors/exports";
 export { ALL_COLOR_COLLECTIONS } from "./defaults/ALL_COLOR_COLLECTIONS";
 export { ALL_COLORS } from "./defaults/ALL_COLORS";
-export * from "./colors/exports";
 
 export { analyseColor } from "./inspectors/analyseColor";
 export { colorFromCollection } from "./inspectors/colorFromCollection";
