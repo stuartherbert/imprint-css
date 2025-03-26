@@ -134,13 +134,13 @@ const pageTitle = `${frontmatter.title}: ${trimEnd(frontmatter.description, '.')
 
         <script is:inline>
             document.addEventListener("DOMContentLoaded", () => {
-                function showCopiedTooltip(event, copyText) {
-                    let tooltipElement = event.target.querySelector('.copied-tooltip');
+                function showCopiedTooltip(target, copyText) {
+                    let tooltipElement = target.querySelector('.copied-tooltip');
 
                     if (!tooltipElement) {
                         tooltipElement = document.createElement("span");
                         tooltipElement.className = "copied-tooltip";
-                        event.target.appendChild(tooltipElement);
+                        target.appendChild(tooltipElement);
                     }
 
                     // make all other visible tooltips hidden
@@ -161,7 +161,7 @@ const pageTitle = `${frontmatter.title}: ${trimEnd(frontmatter.description, '.')
 
                 function copyToClipboard(event) {
                     event.preventDefault();
-                    var target = event.target;
+                    var target = event.currentTarget;
                     var copyText = target.dataset.clipboard;
 
                     if (navigator.clipboard?.writeText) {
@@ -182,11 +182,14 @@ const pageTitle = `${frontmatter.title}: ${trimEnd(frontmatter.description, '.')
                     }
 
                     // all done
-                    showCopiedTooltip(event, copyText);
+                    showCopiedTooltip(target, copyText);
                 }
 
-                document.querySelectorAll("[data-clipboard]").forEach(
-                    el => el.addEventListener("click", copyToClipboard)
+                document.querySelectorAll("a[data-clipboard]").forEach(
+                    el => {
+                        console.log(el);
+                        el.addEventListener("click", copyToClipboard);
+                    }
                 );
             });
             </script>
