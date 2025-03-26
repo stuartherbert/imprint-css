@@ -64,16 +64,16 @@ const staticUtility = newStaticStyle(
             },
         },
         baseStyles: {
-            "a:not(nav a)": {
+            "a:not(nav a, [data-clipboard], [not-prose])": {
                 "@apply imprint-link": {},
             },
-            "a:visited:not(nav a)": {
+            "a:visited:not(nav a, [data-clipboard], [not-prose])": {
                 "@apply imprint-link-visited": {},
             },
-            " a:hover:not(nav a)": {
+            " a:hover:not(nav a, [data-clipboard], [not-prose])": {
                 "@apply imprint-link-hover": {},
             },
-            "a:active:not(nav a), a:focus:not(nav)": {
+            "a:active:not(nav a, [data-clipboard], [not-prose]), a:focus:not(nav, [data-clipboard], [not-prose])": {
                 "@apply imprint-link-active": {},
             },
         },
