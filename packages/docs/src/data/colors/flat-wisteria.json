@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-wisteria'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.526149,
     "chroma": 0.170265,
     "hue": 314.698206,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 18,
     "magenta": 61,
     "yellow": 0,
     "key": 32
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 282,
     "saturation": 43,
     "luminosity": 47,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 282,
     "saturation": 61,
     "value": 68,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 282,
     "whiteness": 27,
     "blackness": 32,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 142,
     "green": 68,
     "blue": 173,

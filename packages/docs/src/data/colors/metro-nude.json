@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'metro-nude'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.903399,
     "chroma": 0.049167,
     "hue": 64.089845,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 12,
     "yellow": 23,
     "key": 3
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 78,
     "luminosity": 86,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 23,
     "value": 97,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 28,
     "whiteness": 75,
     "blackness": 3,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 247,
     "green": 217,
     "blue": 190,

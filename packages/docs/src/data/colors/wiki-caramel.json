@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'wiki-caramel'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.63666,
     "chroma": 0.112547,
     "hue": 61.097527,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 35,
     "yellow": 68,
     "key": 26
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 29,
     "saturation": 51,
     "luminosity": 49,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 29,
     "saturation": 68,
     "value": 74,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 29,
     "whiteness": 24,
     "blackness": 26,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 188,
     "green": 122,
     "blue": 61,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'tw3-violet-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.431997,
     "chroma": 0.210746,
     "hue": 292.769609,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 50,
     "magenta": 82,
     "yellow": 0,
     "key": 29
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 69,
     "luminosity": 42,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 82,
     "value": 71,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 263,
     "whiteness": 13,
     "blackness": 29,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 91,
     "green": 33,
     "blue": 182,

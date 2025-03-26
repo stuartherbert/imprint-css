@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-slate-900'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.267312,
     "chroma": 0.004822,
     "hue": 248.008161,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 10,
     "magenta": 5,
     "yellow": 0,
     "key": 84
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 210,
     "saturation": 5,
     "luminosity": 15,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 210,
     "saturation": 10,
     "value": 16,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 210,
     "whiteness": 14,
     "blackness": 84,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 36,
     "green": 38,
     "blue": 40,

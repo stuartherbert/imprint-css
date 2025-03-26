@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.344868,
     "chroma": 0.013352,
     "hue": 249.35313,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 19,
     "magenta": 10,
     "yellow": 0,
     "key": 75
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 10,
     "luminosity": 23,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 19,
     "value": 25,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 211,
     "whiteness": 20,
     "blackness": 75,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 52,
     "green": 58,
     "blue": 64,

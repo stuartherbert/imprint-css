@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-prussianblue-5'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.651094,
     "chroma": 0.136748,
     "hue": 245.677022,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 74,
     "magenta": 32,
     "yellow": 0,
     "key": 13
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 206,
     "saturation": 71,
     "luminosity": 55,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 206,
     "saturation": 74,
     "value": 87,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 206,
     "whiteness": 23,
     "blackness": 13,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 58,
     "green": 150,
     "blue": 221,

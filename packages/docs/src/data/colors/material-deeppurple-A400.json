@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-a400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.514369,
     "chroma": 0.284508,
     "hue": 284.283027,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 60,
     "magenta": 88,
     "yellow": 0,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 259,
     "saturation": 100,
     "luminosity": 56,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 259,
     "saturation": 88,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 259,
     "whiteness": 12,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 101,
     "green": 31,
     "blue": 255,

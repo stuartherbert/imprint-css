@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'wiki-iceberg'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.705061,
     "chroma": 0.085896,
     "hue": 244.534309,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 46,
     "magenta": 21,
     "yellow": 0,
     "key": 18
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 52,
     "luminosity": 63,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 46,
     "value": 82,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 207,
     "whiteness": 44,
     "blackness": 18,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 113,
     "green": 166,
     "blue": 210,

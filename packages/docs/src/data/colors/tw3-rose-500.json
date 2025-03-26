@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'tw3-rose-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.645097,
     "chroma": 0.21545,
     "hue": 16.407833,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 74,
     "yellow": 61,
     "key": 4
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 350,
     "saturation": 89,
     "luminosity": 60,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 350,
     "saturation": 74,
     "value": 96,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 350,
     "whiteness": 25,
     "blackness": 4,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 244,
     "green": 63,
     "blue": 94,

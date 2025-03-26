@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-saddlebrown-6'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.817247,
     "chroma": 0.098186,
     "hue": 50.631245,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 28,
     "yellow": 45,
     "key": 3
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 22,
     "saturation": 87,
     "luminosity": 75,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 22,
     "saturation": 45,
     "value": 97,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 22,
     "whiteness": 54,
     "blackness": 3,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 247,
     "green": 177,
     "blue": 137,

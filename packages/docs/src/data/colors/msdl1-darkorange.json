@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-darkorange'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.616234,
     "chroma": 0.177601,
     "hue": 36.351139,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 62,
     "yellow": 80,
     "key": 15
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 13,
     "saturation": 70,
     "luminosity": 51,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 13,
     "saturation": 80,
     "value": 86,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 13,
     "whiteness": 17,
     "blackness": 15,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 218,
     "green": 83,
     "blue": 44,

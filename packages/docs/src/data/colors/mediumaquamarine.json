@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'mediumaquamarine'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.776757,
     "chroma": 0.109813,
     "hue": 168.868322,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 50,
     "magenta": 0,
     "yellow": 17,
     "key": 20
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 160,
     "saturation": 51,
     "luminosity": 60,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 160,
     "saturation": 50,
     "value": 80,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 160,
     "whiteness": 40,
     "blackness": 20,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 102,
     "green": 205,
     "blue": 170,

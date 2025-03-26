@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-blue-2'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.381268,
     "chroma": 0.218891,
     "hue": 263.955377,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 78,
     "yellow": 0,
     "key": 29
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 227,
     "saturation": 100,
     "luminosity": 35,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 227,
     "saturation": 100,
     "value": 71,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 227,
     "whiteness": 0,
     "blackness": 29,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 39,
     "blue": 180,

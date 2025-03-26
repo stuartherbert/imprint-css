@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.70019,
     "chroma": 0.14891,
     "hue": 246.691912,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 73,
     "magenta": 33,
     "yellow": 0,
     "key": 4
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 90,
     "luminosity": 61,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 73,
     "value": 96,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 207,
     "whiteness": 26,
     "blackness": 4,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 66,
     "green": 165,
     "blue": 245,

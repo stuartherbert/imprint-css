@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'aliceblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.975336,
     "chroma": 0.012663,
     "hue": 243.23029,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 6,
     "magenta": 3,
     "yellow": 0,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 100,
     "luminosity": 97,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 6,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 207,
     "whiteness": 94,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 240,
     "green": 248,
     "blue": 255,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-green-200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.91661,
     "chroma": 0.064689,
     "hue": 130.546255,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 10,
     "magenta": 0,
     "yellow": 19,
     "key": 7
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 92,
     "saturation": 55,
     "luminosity": 84,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 92,
     "saturation": 19,
     "value": 93,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 92,
     "whiteness": 75,
     "blackness": 7,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 213,
     "green": 237,
     "blue": 192,

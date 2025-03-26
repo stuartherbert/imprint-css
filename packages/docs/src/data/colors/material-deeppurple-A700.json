@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-a700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.477051,
     "chroma": 0.27487,
     "hue": 287.133724,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 58,
     "magenta": 100,
     "yellow": 0,
     "key": 8
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 265,
     "saturation": 100,
     "luminosity": 46,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 265,
     "saturation": 100,
     "value": 92,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 265,
     "whiteness": 0,
     "blackness": 8,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 98,
     "green": 0,
     "blue": 234,

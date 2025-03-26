@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'tw3-red-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.505217,
     "chroma": 0.190348,
     "hue": 27.511579,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 85,
     "yellow": 85,
     "key": 28
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 0,
     "saturation": 74,
     "luminosity": 42,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 0,
     "saturation": 85,
     "value": 73,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 0,
     "whiteness": 11,
     "blackness": 28,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 185,
     "green": 28,
     "blue": 28,

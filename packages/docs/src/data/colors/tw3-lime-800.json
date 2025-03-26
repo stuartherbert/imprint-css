@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'tw3-lime-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.452616,
     "chroma": 0.11277,
     "hue": 130.927133,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 36,
     "magenta": 0,
     "yellow": 82,
     "key": 62
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 86,
     "saturation": 69,
     "luminosity": 23,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 86,
     "saturation": 82,
     "value": 38,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 86,
     "whiteness": 7,
     "blackness": 62,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 63,
     "green": 98,
     "blue": 18,

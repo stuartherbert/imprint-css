@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'wiki-chilired'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.601594,
     "chroma": 0.202351,
     "hue": 28.579492,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 73,
     "yellow": 78,
     "key": 12
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 4,
     "saturation": 74,
     "luminosity": 54,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 4,
     "saturation": 78,
     "value": 88,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 4,
     "whiteness": 19,
     "blackness": 12,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 224,
     "green": 60,
     "blue": 49,

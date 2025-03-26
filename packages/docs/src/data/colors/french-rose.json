@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'french-rose'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.668696,
     "chroma": 0.212651,
     "hue": 2.266789,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 70,
     "yellow": 44,
     "key": 4
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 91,
     "luminosity": 63,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 70,
     "value": 97,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 338,
     "whiteness": 29,
     "blackness": 4,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 246,
     "green": 74,
     "blue": 138,

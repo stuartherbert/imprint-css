@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-900'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.172701,
     "chroma": 0.084045,
     "hue": 293.846052,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 59,
     "magenta": 94,
     "yellow": 0,
     "key": 81
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 88,
     "luminosity": 10,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 94,
     "value": 19,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 263,
     "whiteness": 1,
     "blackness": 81,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 20,
     "green": 3,
     "blue": 48,

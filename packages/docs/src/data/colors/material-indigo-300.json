@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-300'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.637979,
     "chroma": 0.104818,
     "hue": 275.067173,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 40,
     "magenta": 34,
     "yellow": 0,
     "key": 20
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 231,
     "saturation": 44,
     "luminosity": 64,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 231,
     "saturation": 40,
     "value": 80,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 231,
     "whiteness": 48,
     "blackness": 20,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 121,
     "green": 134,
     "blue": 203,

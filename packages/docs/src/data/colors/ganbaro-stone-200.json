@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.730343,
     "chroma": 0.008664,
     "hue": 73.716929,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 2,
     "yellow": 5,
     "key": 33
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 5,
     "luminosity": 65,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 5,
     "value": 67,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 33,
     "whiteness": 64,
     "blackness": 33,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 171,
     "green": 167,
     "blue": 162,

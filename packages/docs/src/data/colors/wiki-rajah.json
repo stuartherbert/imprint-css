@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'wiki-rajah'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.804542,
     "chroma": 0.131044,
     "hue": 62.411686,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 32,
     "yellow": 62,
     "key": 2
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 29,
     "saturation": 95,
     "luminosity": 68,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 29,
     "saturation": 62,
     "value": 98,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 29,
     "whiteness": 38,
     "blackness": 2,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 251,
     "green": 171,
     "blue": 96,

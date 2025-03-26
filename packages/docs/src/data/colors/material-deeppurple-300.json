@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-300'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.629746,
     "chroma": 0.132052,
     "hue": 299.294871,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 27,
     "magenta": 43,
     "yellow": 0,
     "key": 20
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 262,
     "saturation": 47,
     "luminosity": 63,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 262,
     "saturation": 43,
     "value": 80,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 262,
     "whiteness": 46,
     "blackness": 20,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 149,
     "green": 117,
     "blue": 205,

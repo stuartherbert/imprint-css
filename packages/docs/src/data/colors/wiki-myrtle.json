@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'wiki-myrtle'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.343704,
     "chroma": 0.071703,
     "hue": 142.265131,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 50,
     "magenta": 0,
     "yellow": 54,
     "key": 74
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 115,
     "saturation": 37,
     "luminosity": 19,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 115,
     "saturation": 54,
     "value": 26,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 115,
     "whiteness": 12,
     "blackness": 74,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 33,
     "green": 66,
     "blue": 30,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-pink-400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.658391,
     "chroma": 0.175615,
     "hue": 351.873602,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 59,
     "yellow": 29,
     "key": 13
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 330,
     "saturation": 66,
     "luminosity": 62,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 330,
     "saturation": 59,
     "value": 87,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 330,
     "whiteness": 36,
     "blackness": 13,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 222,
     "green": 92,
     "blue": 157,

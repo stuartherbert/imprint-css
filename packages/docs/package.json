@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx astro dev --force",
+    "dev": "npm run update-colors && npx astro dev --force",
     "start": "npx astro dev --force",
     "build": "npx astro build --force",
     "preview": "npx astro preview --force",
@@ -21,7 +21,7 @@
     "@imprintcss/css-definitions": "file:../css-definitions",
     "@imprintcss/tailwind-plugin": "file:../tailwind-plugin",
     "@safelytyped/core-types": "^0.5.0",
-    "@safelytyped/css-color": "^2.1.0",
+    "@safelytyped/css-color": "^3.0.1",
     "@safelytyped/math-rounding": "^1.0.1",
     "@tailwindcss/container-queries": "^0.1.1",
     "astro": "^5.1.1",

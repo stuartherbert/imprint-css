@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-900'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.204071,
     "chroma": 0.063309,
     "hue": 257.664871,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 94,
     "magenta": 57,
     "yellow": 0,
     "key": 80
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 216,
     "saturation": 89,
     "luminosity": 11,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 216,
     "saturation": 94,
     "value": 20,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 216,
     "whiteness": 1,
     "blackness": 80,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 3,
     "green": 22,
     "blue": 51,

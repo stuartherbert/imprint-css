@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-deeppurple-50'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.937022,
     "chroma": 0.021024,
     "hue": 303.587367,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 4,
     "magenta": 6,
     "yellow": 0,
     "key": 4
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 46,
     "luminosity": 94,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 6,
     "value": 97,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 263,
     "whiteness": 91,
     "blackness": 4,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 237,
     "green": 231,
     "blue": 246,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.606314,
     "chroma": 0.22978,
     "hue": 9.665311,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 87,
     "yellow": 58,
     "key": 9
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 82,
     "luminosity": 52,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 87,
     "value": 91,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 340,
     "whiteness": 12,
     "blackness": 9,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 233,
     "green": 30,
     "blue": 99,

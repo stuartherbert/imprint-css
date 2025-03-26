@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ryb-brown'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.242635,
     "chroma": 0.057033,
     "hue": 59.766284,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 53,
     "yellow": 100,
     "key": 80
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 100,
     "luminosity": 10,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 100,
     "value": 20,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 28,
     "whiteness": 0,
     "blackness": 80,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 51,
     "green": 24,
     "blue": 0,

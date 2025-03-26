@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'tw3-teal-400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.784266,
     "chroma": 0.132477,
     "hue": 181.961512,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 79,
     "magenta": 0,
     "yellow": 10,
     "key": 17
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 172,
     "saturation": 66,
     "luminosity": 50,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 172,
     "saturation": 79,
     "value": 83,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 172,
     "whiteness": 18,
     "blackness": 17,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 45,
     "green": 212,
     "blue": 191,

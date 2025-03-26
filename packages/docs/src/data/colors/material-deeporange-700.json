@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-deeporange-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.62397,
     "chroma": 0.200401,
     "hue": 36.17829,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 68,
     "yellow": 89,
     "key": 10
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 14,
     "saturation": 80,
     "luminosity": 50,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 14,
     "saturation": 89,
     "value": 90,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 14,
     "whiteness": 10,
     "blackness": 10,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 230,
     "green": 74,
     "blue": 25,

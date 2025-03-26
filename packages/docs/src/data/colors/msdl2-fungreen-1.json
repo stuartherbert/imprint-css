@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-fungreen-1'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.481876,
     "chroma": 0.136513,
     "hue": 148.842093,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 0,
     "yellow": 60,
     "key": 55
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 144,
     "saturation": 100,
     "luminosity": 22,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 144,
     "saturation": 100,
     "value": 45,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 144,
     "whiteness": 0,
     "blackness": 55,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 114,
     "blue": 46,

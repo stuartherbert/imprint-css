@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.753756,
     "chroma": 0.162733,
     "hue": 130.517784,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 29,
     "magenta": 0,
     "yellow": 62,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 88,
     "saturation": 50,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 88,
     "saturation": 62,
     "value": 77,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 88,
     "whiteness": 29,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 139,
     "green": 195,
     "blue": 74,

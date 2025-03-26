@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl2-red-5'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.630313,
     "chroma": 0.194803,
     "hue": 19.932915,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 69,
     "yellow": 63,
     "key": 9
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 355,
     "saturation": 77,
     "luminosity": 59,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 355,
     "saturation": 69,
     "value": 91,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 355,
     "whiteness": 28,
     "blackness": 9,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 231,
     "green": 72,
     "blue": 86,

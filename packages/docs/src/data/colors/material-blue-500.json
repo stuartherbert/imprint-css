@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-blue-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.658014,
     "chroma": 0.169055,
     "hue": 248.832454,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 86,
     "magenta": 38,
     "yellow": 0,
     "key": 5
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 90,
     "luminosity": 54,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 86,
     "value": 95,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 207,
     "whiteness": 13,
     "blackness": 5,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 33,
     "green": 150,
     "blue": 243,

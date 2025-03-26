@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'crayola-atomictangerine'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.778888,
     "chroma": 0.139299,
     "hue": 46.566979,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 40,
     "yellow": 60,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 20,
     "saturation": 100,
     "luminosity": 70,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 20,
     "saturation": 60,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 20,
     "whiteness": 40,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 255,
     "green": 153,
     "blue": 102,

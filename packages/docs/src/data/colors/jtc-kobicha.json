@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'jtc-kobicha'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.42471,
     "chroma": 0.071771,
     "hue": 59.372043,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 36,
     "yellow": 67,
     "key": 58
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 51,
     "luminosity": 28,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 67,
     "value": 42,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 28,
     "whiteness": 14,
     "blackness": 58,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 107,
     "green": 68,
     "blue": 35,

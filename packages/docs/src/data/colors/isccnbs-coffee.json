@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-coffee'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.453914,
     "chroma": 0.056609,
     "hue": 55.671152,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 30,
     "yellow": 50,
     "key": 56
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 34,
     "luminosity": 33,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 50,
     "value": 44,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 25,
     "whiteness": 22,
     "blackness": 56,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 111,
     "green": 78,
     "blue": 55,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.751794,
     "chroma": 0.022563,
     "hue": 39.904663,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 9,
     "yellow": 13,
     "key": 26
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 15,
     "saturation": 15,
     "luminosity": 69,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 15,
     "saturation": 13,
     "value": 74,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 15,
     "whiteness": 64,
     "blackness": 26,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 188,
     "green": 170,
     "blue": 164,

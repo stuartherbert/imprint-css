@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'palevioletred'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.677865,
     "chroma": 0.138309,
     "hue": 0.743673,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 49,
     "yellow": 33,
     "key": 14
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 60,
     "luminosity": 65,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 49,
     "value": 86,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 340,
     "whiteness": 44,
     "blackness": 14,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 219,
     "green": 112,
     "blue": 147,

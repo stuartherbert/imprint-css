@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-yellow-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.434815,
     "chroma": 0.087536,
     "hue": 86.649637,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 24,
     "yellow": 97,
     "key": 60
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 45,
     "saturation": 94,
     "luminosity": 21,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 45,
     "saturation": 97,
     "value": 40,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 45,
     "whiteness": 1,
     "blackness": 60,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 102,
     "green": 77,
     "blue": 3,

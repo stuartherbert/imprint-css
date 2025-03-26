@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'crayola-beaver'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.627063,
     "chroma": 0.044871,
     "hue": 51.167426,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 19,
     "yellow": 30,
     "key": 38
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 22,
     "saturation": 20,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 22,
     "saturation": 30,
     "value": 62,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 22,
     "whiteness": 44,
     "blackness": 38,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 159,
     "green": 129,
     "blue": 112,

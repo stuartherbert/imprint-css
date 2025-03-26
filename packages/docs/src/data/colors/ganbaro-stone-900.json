@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-stone-900'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.131377,
     "chroma": 0.017813,
     "hue": 81.545418,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 37,
     "yellow": 81,
     "key": 96
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 69,
     "luminosity": 3,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 81,
     "value": 4,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 33,
     "whiteness": 1,
     "blackness": 96,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 11,
     "green": 7,
     "blue": 2,

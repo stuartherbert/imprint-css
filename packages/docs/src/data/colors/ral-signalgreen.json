@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ral-signalgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.531471,
     "chroma": 0.110845,
     "hue": 157.424947,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 72,
     "magenta": 0,
     "yellow": 35,
     "key": 50
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 151,
     "saturation": 57,
     "luminosity": 32,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 151,
     "saturation": 72,
     "value": 50,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 151,
     "whiteness": 14,
     "blackness": 50,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 35,
     "green": 127,
     "blue": 82,

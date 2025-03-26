@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-cyan-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.532447,
     "chroma": 0.09372,
     "hue": 217.495345,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 95,
     "magenta": 16,
     "yellow": 0,
     "key": 44
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 190,
     "saturation": 90,
     "luminosity": 30,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 190,
     "saturation": 95,
     "value": 56,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 190,
     "whiteness": 3,
     "blackness": 44,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 8,
     "green": 121,
     "blue": 144,

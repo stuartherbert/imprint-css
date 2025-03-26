@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-asbestos'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.629844,
     "chroma": 0.015222,
     "hue": 202.475592,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 10,
     "magenta": 1,
     "yellow": 0,
     "key": 45
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 184,
     "saturation": 6,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 184,
     "saturation": 10,
     "value": 55,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 184,
     "whiteness": 50,
     "blackness": 45,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 127,
     "green": 140,
     "blue": 141,

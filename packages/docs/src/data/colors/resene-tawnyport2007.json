@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'resene-tawnyport2007'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.403594,
     "chroma": 0.062367,
     "hue": 358.824669,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 42,
     "yellow": 28,
     "key": 61
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 27,
     "luminosity": 31,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 340,
     "saturation": 42,
     "value": 39,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 340,
     "whiteness": 23,
     "blackness": 61,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 100,
     "green": 58,
     "blue": 72,

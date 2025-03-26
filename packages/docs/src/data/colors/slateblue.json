@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'slateblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.543674,
     "chroma": 0.171225,
     "hue": 285.570657,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 48,
     "magenta": 56,
     "yellow": 0,
     "key": 20
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 248,
     "saturation": 53,
     "luminosity": 58,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 248,
     "saturation": 56,
     "value": 80,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 248,
     "whiteness": 35,
     "blackness": 20,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 106,
     "green": 90,
     "blue": 205,

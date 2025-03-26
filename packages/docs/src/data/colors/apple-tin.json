@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'apple-tin'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.596456,
     "chroma": 0,
     "hue": 0,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 0,
     "yellow": 0,
     "key": 50
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 0,
     "saturation": 0,
     "luminosity": 50,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 0,
     "saturation": 0,
     "value": 50,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 0,
     "whiteness": 50,
     "blackness": 50,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 127,
     "green": 127,
     "blue": 127,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'resene-rhythm'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.578682,
     "chroma": 0.048612,
     "hue": 286.239792,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 21,
     "magenta": 21,
     "yellow": 0,
     "key": 41
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 242,
     "saturation": 13,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 242,
     "saturation": 21,
     "value": 59,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 242,
     "whiteness": 46,
     "blackness": 41,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 119,
     "green": 118,
     "blue": 150,

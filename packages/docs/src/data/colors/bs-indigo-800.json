@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-indigo-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.262585,
     "chroma": 0.138915,
     "hue": 290.258522,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 58,
     "magenta": 94,
     "yellow": 0,
     "key": 62
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 88,
     "luminosity": 20,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 263,
     "saturation": 94,
     "value": 38,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 263,
     "whiteness": 2,
     "blackness": 62,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 41,
     "green": 6,
     "blue": 97,

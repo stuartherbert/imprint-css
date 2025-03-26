@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-junglegreen165'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.372838,
     "chroma": 0.064072,
     "hue": 191.636587,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 0,
     "yellow": 3,
     "key": 71
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 178,
     "saturation": 100,
     "luminosity": 15,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 178,
     "saturation": 100,
     "value": 29,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 178,
     "whiteness": 0,
     "blackness": 71,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 75,
     "blue": 73,

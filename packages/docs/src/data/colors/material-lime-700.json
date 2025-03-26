@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.742397,
     "chroma": 0.150873,
     "hue": 111.750583,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 3,
     "magenta": 0,
     "yellow": 76,
     "key": 29
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 62,
     "saturation": 61,
     "luminosity": 44,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 62,
     "saturation": 76,
     "value": 71,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 62,
     "whiteness": 17,
     "blackness": 29,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 175,
     "green": 180,
     "blue": 43,

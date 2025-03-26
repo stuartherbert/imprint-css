@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.830579,
     "chroma": 0.096806,
     "hue": 229.122158,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 48,
     "magenta": 15,
     "yellow": 0,
     "key": 2
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 199,
     "saturation": 92,
     "luminosity": 74,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 199,
     "saturation": 48,
     "value": 98,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 199,
     "whiteness": 51,
     "blackness": 2,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 129,
     "green": 212,
     "blue": 250,

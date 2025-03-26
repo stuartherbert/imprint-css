@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'mintcream'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.991185,
     "chroma": 0.012393,
     "hue": 164.155805,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 4,
     "magenta": 0,
     "yellow": 2,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 100,
     "luminosity": 98,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 4,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 149,
     "whiteness": 96,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 245,
     "green": 255,
     "blue": 250,

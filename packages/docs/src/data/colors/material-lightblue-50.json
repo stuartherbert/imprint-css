@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-50'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.958159,
     "chroma": 0.0244,
     "hue": 226.091764,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 11,
     "magenta": 4,
     "yellow": 0,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 198,
     "saturation": 93,
     "luminosity": 94,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 198,
     "saturation": 11,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 198,
     "whiteness": 88,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 225,
     "green": 245,
     "blue": 254,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ganbaro-slate-600'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.471257,
     "chroma": 0.011002,
     "hue": 241.579754,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 11,
     "magenta": 5,
     "yellow": 0,
     "key": 62
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 6,
     "luminosity": 36,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 207,
     "saturation": 11,
     "value": 38,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 207,
     "whiteness": 34,
     "blackness": 62,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 86,
     "green": 92,
     "blue": 97,

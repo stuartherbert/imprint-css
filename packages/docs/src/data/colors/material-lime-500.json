@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.855693,
     "chroma": 0.176574,
     "hue": 114.860701,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 7,
     "magenta": 0,
     "yellow": 74,
     "key": 14
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 66,
     "saturation": 70,
     "luminosity": 54,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 66,
     "saturation": 74,
     "value": 86,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 66,
     "whiteness": 22,
     "blackness": 14,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 205,
     "green": 220,
     "blue": 57,

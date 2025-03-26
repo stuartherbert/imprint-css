@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'egyptian-blue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.389355,
     "chroma": 0.186154,
     "hue": 264.71366,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 90,
     "magenta": 69,
     "yellow": 0,
     "key": 35
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 226,
     "saturation": 82,
     "luminosity": 36,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 226,
     "saturation": 90,
     "value": 65,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 226,
     "whiteness": 6,
     "blackness": 35,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 16,
     "green": 52,
     "blue": 166,

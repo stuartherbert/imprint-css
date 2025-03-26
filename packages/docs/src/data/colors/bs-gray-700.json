@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.427655,
     "chroma": 0.014662,
     "hue": 247.184433,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 16,
     "magenta": 8,
     "yellow": 0,
     "key": 66
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 209,
     "saturation": 9,
     "luminosity": 31,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 209,
     "saturation": 16,
     "value": 34,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 209,
     "whiteness": 29,
     "blackness": 66,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 73,
     "green": 80,
     "blue": 87,

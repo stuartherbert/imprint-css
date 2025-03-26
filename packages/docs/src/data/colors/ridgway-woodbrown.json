@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ridgway-woodbrown'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.711374,
     "chroma": 0.078167,
     "hue": 71.186884,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 20,
     "yellow": 45,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 41,
     "luminosity": 59,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 33,
     "saturation": 45,
     "value": 76,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 33,
     "whiteness": 42,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 193,
     "green": 154,
     "blue": 107,

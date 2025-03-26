@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-orange'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.762922,
     "chroma": 0.16265,
     "hue": 69.389754,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 36,
     "yellow": 93,
     "key": 5
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 37,
     "saturation": 90,
     "luminosity": 51,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 37,
     "saturation": 93,
     "value": 95,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 37,
     "whiteness": 7,
     "blackness": 5,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 243,
     "green": 156,
     "blue": 18,

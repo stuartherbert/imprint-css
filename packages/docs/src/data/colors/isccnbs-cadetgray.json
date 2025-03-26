@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-cadetgray'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.705593,
     "chroma": 0.027733,
     "hue": 239.493922,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 18,
     "magenta": 7,
     "yellow": 0,
     "key": 31
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 205,
     "saturation": 16,
     "luminosity": 63,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 205,
     "saturation": 18,
     "value": 69,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 205,
     "whiteness": 57,
     "blackness": 31,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 145,
     "green": 163,
     "blue": 176,

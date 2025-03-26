@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'lightslategray'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.618894,
     "chroma": 0.032487,
     "hue": 248.75019,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 22,
     "magenta": 11,
     "yellow": 0,
     "key": 40
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 210,
     "saturation": 14,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 210,
     "saturation": 22,
     "value": 60,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 210,
     "whiteness": 47,
     "blackness": 40,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 119,
     "green": 136,
     "blue": 153,

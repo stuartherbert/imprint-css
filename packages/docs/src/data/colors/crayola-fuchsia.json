@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'crayola-fuchsia'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.623666,
     "chroma": 0.191364,
     "hue": 327.568895,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 57,
     "yellow": 0,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 300,
     "saturation": 47,
     "luminosity": 54,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 300,
     "saturation": 57,
     "value": 76,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 300,
     "whiteness": 33,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 193,
     "green": 84,
     "blue": 193,

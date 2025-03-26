@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'spanish-pictorialcarmine'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.525307,
     "chroma": 0.205733,
     "hue": 10.276877,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 94,
     "yellow": 60,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 89,
     "luminosity": 40,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 94,
     "value": 77,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 338,
     "whiteness": 4,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 195,
     "green": 11,
     "blue": 78,

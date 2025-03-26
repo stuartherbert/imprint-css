@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'byzantine-blue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.509866,
     "chroma": 0.197553,
     "hue": 267.064161,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 76,
     "magenta": 59,
     "yellow": 0,
     "key": 17
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 227,
     "saturation": 66,
     "luminosity": 52,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 227,
     "saturation": 76,
     "value": 84,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 227,
     "whiteness": 20,
     "blackness": 17,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 52,
     "green": 87,
     "blue": 213,

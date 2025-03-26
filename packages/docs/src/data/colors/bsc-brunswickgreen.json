@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bsc-brunswickgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.333771,
     "chroma": 0.047818,
     "hue": 160.304282,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 51,
     "magenta": 0,
     "yellow": 26,
     "key": 76
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 150,
     "saturation": 35,
     "luminosity": 18,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 150,
     "saturation": 51,
     "value": 24,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 150,
     "whiteness": 12,
     "blackness": 76,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 30,
     "green": 62,
     "blue": 46,

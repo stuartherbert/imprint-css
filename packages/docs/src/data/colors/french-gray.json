@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'french-gray'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.805663,
     "chroma": 0.008611,
     "hue": 278.60184,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 4,
     "magenta": 3,
     "yellow": 0,
     "key": 23
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 231,
     "saturation": 6,
     "luminosity": 76,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 231,
     "saturation": 4,
     "value": 77,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 231,
     "whiteness": 75,
     "blackness": 23,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 190,
     "green": 191,
     "blue": 197,

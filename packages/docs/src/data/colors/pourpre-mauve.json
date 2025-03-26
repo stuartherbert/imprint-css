@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-mauve'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.697988,
     "chroma": 0.170674,
     "hue": 327.21102,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 46,
     "yellow": 0,
     "key": 17
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 300,
     "saturation": 53,
     "luminosity": 64,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 300,
     "saturation": 46,
     "value": 83,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 300,
     "whiteness": 45,
     "blackness": 17,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 212,
     "green": 115,
     "blue": 212,

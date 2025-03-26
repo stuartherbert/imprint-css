@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'crayola-orchid'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.777622,
     "chroma": 0.108325,
     "hue": 335.043967,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 31,
     "yellow": 7,
     "key": 11
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 314,
     "saturation": 55,
     "luminosity": 75,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 314,
     "saturation": 31,
     "value": 89,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 314,
     "whiteness": 61,
     "blackness": 11,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 226,
     "green": 156,
     "blue": 210,

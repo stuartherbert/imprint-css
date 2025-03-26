@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'imprint-accentgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.663924,
     "chroma": 0.128308,
     "hue": 139.161776,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 37,
     "magenta": 0,
     "yellow": 48,
     "key": 35
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 107,
     "saturation": 31,
     "luminosity": 50,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 107,
     "saturation": 48,
     "value": 65,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 107,
     "whiteness": 34,
     "blackness": 35,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 104,
     "green": 166,
     "blue": 87,

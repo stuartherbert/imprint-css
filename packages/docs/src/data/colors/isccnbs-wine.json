@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-wine'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.400652,
     "chroma": 0.094902,
     "hue": 14.958441,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 59,
     "yellow": 52,
     "key": 55
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 353,
     "saturation": 42,
     "luminosity": 32,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 353,
     "saturation": 59,
     "value": 45,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 353,
     "whiteness": 18,
     "blackness": 55,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 114,
     "green": 47,
     "blue": 55,

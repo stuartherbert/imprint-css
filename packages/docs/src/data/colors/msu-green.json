@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msu-green'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.356218,
     "chroma": 0.052643,
     "hue": 175.786228,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 65,
     "magenta": 0,
     "yellow": 15,
     "key": 73
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 166,
     "saturation": 48,
     "luminosity": 18,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 166,
     "saturation": 65,
     "value": 27,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 166,
     "whiteness": 9,
     "blackness": 73,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 24,
     "green": 69,
     "blue": 59,

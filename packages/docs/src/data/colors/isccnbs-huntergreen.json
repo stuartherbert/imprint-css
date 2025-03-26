@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'isccnbs-huntergreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.441745,
     "chroma": 0.073728,
     "hue": 147.56617,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 44,
     "magenta": 0,
     "yellow": 37,
     "key": 63
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 129,
     "saturation": 28,
     "luminosity": 29,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 129,
     "saturation": 44,
     "value": 37,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 129,
     "whiteness": 21,
     "blackness": 63,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 53,
     "green": 94,
     "blue": 59,

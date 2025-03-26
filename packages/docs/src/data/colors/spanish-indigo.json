@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'spanish-indigo'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.672588,
     "chroma": 0.15172,
     "hue": 289.971621,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 36,
     "magenta": 44,
     "yellow": 0,
     "key": 7
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 251,
     "saturation": 73,
     "luminosity": 72,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 251,
     "saturation": 44,
     "value": 93,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 251,
     "whiteness": 51,
     "blackness": 7,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 150,
     "green": 131,
     "blue": 236,

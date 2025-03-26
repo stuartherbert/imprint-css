@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lightblue-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.602716,
     "chroma": 0.146787,
     "hue": 243.539563,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 99,
     "magenta": 35,
     "yellow": 0,
     "key": 18
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 201,
     "saturation": 98,
     "luminosity": 41,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 201,
     "saturation": 99,
     "value": 82,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 201,
     "whiteness": 1,
     "blackness": 18,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 2,
     "green": 136,
     "blue": 209,

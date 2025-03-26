@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lime-a200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.956419,
     "chroma": 0.198676,
     "hue": 114.782801,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 7,
     "magenta": 0,
     "yellow": 75,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 65,
     "saturation": 100,
     "luminosity": 63,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 65,
     "saturation": 75,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 65,
     "whiteness": 26,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 238,
     "green": 255,
     "blue": 65,

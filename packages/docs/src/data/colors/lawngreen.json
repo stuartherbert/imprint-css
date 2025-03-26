@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'lawngreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.881579,
     "chroma": 0.263037,
     "hue": 136.17518,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 51,
     "magenta": 0,
     "yellow": 100,
     "key": 1
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 90,
     "saturation": 100,
     "luminosity": 49,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 90,
     "saturation": 100,
     "value": 99,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 90,
     "whiteness": 0,
     "blackness": 1,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 124,
     "green": 252,
     "blue": 0,

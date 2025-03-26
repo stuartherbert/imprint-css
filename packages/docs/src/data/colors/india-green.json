@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'india-green'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.544976,
     "chroma": 0.179945,
     "hue": 142.055768,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 86,
     "magenta": 0,
     "yellow": 94,
     "key": 47
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 115,
     "saturation": 89,
     "luminosity": 28,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 115,
     "saturation": 94,
     "value": 53,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 115,
     "whiteness": 3,
     "blackness": 47,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 19,
     "green": 136,
     "blue": 8,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'spanish-orange'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.654185,
     "chroma": 0.186468,
     "hue": 45.177426,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 58,
     "yellow": 100,
     "key": 9
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 100,
     "luminosity": 46,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 100,
     "value": 91,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 25,
     "whiteness": 0,
     "blackness": 9,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 232,
     "green": 97,
     "blue": 0,

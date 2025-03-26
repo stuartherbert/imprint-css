@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-darkgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.280724,
     "chroma": 0.060309,
     "hue": 162.386914,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 98,
     "magenta": 0,
     "yellow": 36,
     "key": 80
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 158,
     "saturation": 96,
     "luminosity": 10,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 158,
     "saturation": 98,
     "value": 20,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 158,
     "whiteness": 0,
     "blackness": 80,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 1,
     "green": 50,
     "blue": 32,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-red-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.410242,
     "chroma": 0.1346,
     "hue": 20.703092,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 76,
     "yellow": 69,
     "key": 48
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 355,
     "saturation": 61,
     "luminosity": 32,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 355,
     "saturation": 76,
     "value": 52,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 355,
     "whiteness": 12,
     "blackness": 48,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 132,
     "green": 32,
     "blue": 41,

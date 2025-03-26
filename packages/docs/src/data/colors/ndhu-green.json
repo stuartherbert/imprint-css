@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ndhu-green'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.419397,
     "chroma": 0.099126,
     "hue": 154.268311,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 86,
     "magenta": 0,
     "yellow": 45,
     "key": 64
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 75,
     "luminosity": 21,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 86,
     "value": 36,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 149,
     "whiteness": 5,
     "blackness": 64,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 13,
     "green": 92,
     "blue": 51,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'matmet-teal'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.670678,
     "chroma": 0.114809,
     "hue": 193.259189,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 0,
     "yellow": 1,
     "key": 33
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 179,
     "saturation": 100,
     "luminosity": 34,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 179,
     "saturation": 100,
     "value": 67,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 179,
     "whiteness": 0,
     "blackness": 33,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 171,
     "blue": 169,

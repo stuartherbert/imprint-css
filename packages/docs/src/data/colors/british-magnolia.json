@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'british-magnolia'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.934409,
     "chroma": 0.025144,
     "hue": 81.359227,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 4,
     "yellow": 11,
     "key": 5
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 38,
     "saturation": 51,
     "luminosity": 90,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 38,
     "saturation": 11,
     "value": 95,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 38,
     "whiteness": 84,
     "blackness": 5,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 242,
     "green": 232,
     "blue": 215,

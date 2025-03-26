@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'cornflowerblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.674375,
     "chroma": 0.141319,
     "hue": 261.346529,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 58,
     "magenta": 37,
     "yellow": 0,
     "key": 7
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 219,
     "saturation": 79,
     "luminosity": 66,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 219,
     "saturation": 58,
     "value": 93,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 219,
     "whiteness": 39,
     "blackness": 7,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 100,
     "green": 149,
     "blue": 237,

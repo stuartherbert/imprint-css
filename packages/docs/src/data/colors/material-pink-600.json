@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-pink-600'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.573699,
     "chroma": 0.217725,
     "hue": 7.893593,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 87,
     "yellow": 56,
     "key": 15
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 78,
     "luminosity": 48,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 338,
     "saturation": 87,
     "value": 85,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 338,
     "whiteness": 11,
     "blackness": 15,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 216,
     "green": 27,
     "blue": 96,

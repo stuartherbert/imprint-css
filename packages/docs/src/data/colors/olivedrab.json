@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'olivedrab'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.599637,
     "chroma": 0.137419,
     "hue": 126.288953,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 25,
     "magenta": 0,
     "yellow": 75,
     "key": 44
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 80,
     "saturation": 61,
     "luminosity": 35,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 80,
     "saturation": 75,
     "value": 56,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 80,
     "whiteness": 14,
     "blackness": 44,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 107,
     "green": 142,
     "blue": 35,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'resene-desire'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.623738,
     "chroma": 0.208912,
     "hue": 18.837361,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 74,
     "yellow": 65,
     "key": 8
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 352,
     "saturation": 81,
     "luminosity": 58,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 352,
     "saturation": 74,
     "value": 92,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 352,
     "whiteness": 24,
     "blackness": 8,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 234,
     "green": 60,
     "blue": 83,

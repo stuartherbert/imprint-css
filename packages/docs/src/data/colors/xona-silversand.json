@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'xona-silversand'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.809722,
     "chroma": 0.002694,
     "hue": 228.793472,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 2,
     "magenta": 1,
     "yellow": 0,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 200,
     "saturation": 2,
     "luminosity": 76,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 200,
     "saturation": 2,
     "value": 76,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 200,
     "whiteness": 75,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 191,
     "green": 193,
     "blue": 194,

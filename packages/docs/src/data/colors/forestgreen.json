@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'forestgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.557709,
     "chroma": 0.168829,
     "hue": 142.891698,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 76,
     "magenta": 0,
     "yellow": 76,
     "key": 45
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 120,
     "saturation": 61,
     "luminosity": 34,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 120,
     "saturation": 76,
     "value": 55,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 120,
     "whiteness": 13,
     "blackness": 45,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 34,
     "green": 139,
     "blue": 34,

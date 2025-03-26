@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'persian-orange'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.715773,
     "chroma": 0.114319,
     "hue": 57.191016,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 34,
     "yellow": 59,
     "key": 15
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 26,
     "saturation": 63,
     "luminosity": 60,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 26,
     "saturation": 59,
     "value": 85,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 26,
     "whiteness": 35,
     "blackness": 15,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 217,
     "green": 144,
     "blue": 88,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'social-slack'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.677582,
     "chroma": 0.121721,
     "hue": 165.30847,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 67,
     "magenta": 0,
     "yellow": 24,
     "key": 31
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 159,
     "saturation": 50,
     "luminosity": 46,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 159,
     "saturation": 67,
     "value": 69,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 159,
     "whiteness": 23,
     "blackness": 31,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 58,
     "green": 175,
     "blue": 133,

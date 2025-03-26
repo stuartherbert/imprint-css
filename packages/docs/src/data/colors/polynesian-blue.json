@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'polynesian-blue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.431268,
     "chroma": 0.133333,
     "hue": 261.082063,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 78,
     "magenta": 50,
     "yellow": 0,
     "key": 40
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 219,
     "saturation": 64,
     "luminosity": 36,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 219,
     "saturation": 78,
     "value": 60,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 219,
     "whiteness": 13,
     "blackness": 40,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 34,
     "green": 76,
     "blue": 152,

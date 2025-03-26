@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'imprint-shadedgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.978629,
     "chroma": 0.0229,
     "hue": 137.09198,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 4,
     "magenta": 0,
     "yellow": 6,
     "key": 1
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 104,
     "saturation": 71,
     "luminosity": 96,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 104,
     "saturation": 6,
     "value": 99,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 104,
     "whiteness": 93,
     "blackness": 1,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 241,
     "green": 252,
     "blue": 237,

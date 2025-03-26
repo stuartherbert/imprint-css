@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-a400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.63573,
     "chroma": 0.305144,
     "hue": 319.954322,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 14,
     "magenta": 100,
     "yellow": 0,
     "key": 2
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 291,
     "saturation": 100,
     "luminosity": 49,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 291,
     "saturation": 100,
     "value": 98,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 291,
     "whiteness": 0,
     "blackness": 2,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 213,
     "green": 0,
     "blue": 249,

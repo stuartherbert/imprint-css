@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-bluegray-600'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.52177,
     "chroma": 0.035905,
     "hue": 227.841093,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 31,
     "magenta": 10,
     "yellow": 0,
     "key": 52
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 199,
     "saturation": 18,
     "luminosity": 40,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 199,
     "saturation": 31,
     "value": 48,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 199,
     "whiteness": 33,
     "blackness": 52,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 84,
     "green": 110,
     "blue": 122,

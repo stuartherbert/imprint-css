@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-900'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.359979,
     "chroma": 0.176469,
     "hue": 296.24301,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 47,
     "magenta": 86,
     "yellow": 0,
     "key": 45
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 267,
     "saturation": 75,
     "luminosity": 31,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 267,
     "saturation": 86,
     "value": 55,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 267,
     "whiteness": 8,
     "blackness": 45,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 74,
     "green": 20,
     "blue": 140,

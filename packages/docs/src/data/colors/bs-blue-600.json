@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-blue-600'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.491616,
     "chroma": 0.190361,
     "hue": 259.796889,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 95,
     "magenta": 56,
     "yellow": 0,
     "key": 21
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 216,
     "saturation": 91,
     "luminosity": 42,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 216,
     "saturation": 95,
     "value": 79,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 216,
     "whiteness": 4,
     "blackness": 21,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 10,
     "green": 88,
     "blue": 202,

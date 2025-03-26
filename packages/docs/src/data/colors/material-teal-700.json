@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.516938,
     "chroma": 0.093134,
     "hue": 181.069304,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 0,
     "yellow": 12,
     "key": 53
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 173,
     "saturation": 100,
     "luminosity": 24,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 173,
     "saturation": 100,
     "value": 48,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 173,
     "whiteness": 0,
     "blackness": 53,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 121,
     "blue": 107,

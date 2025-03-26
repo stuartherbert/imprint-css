@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-teal-50'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.947475,
     "chroma": 0.01914,
     "hue": 192.750559,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 7,
     "magenta": 0,
     "yellow": 0,
     "key": 5
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 177,
     "saturation": 41,
     "luminosity": 91,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 177,
     "saturation": 7,
     "value": 95,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 177,
     "whiteness": 88,
     "blackness": 5,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 224,
     "green": 242,
     "blue": 241,

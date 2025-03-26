@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'resene-popstar'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.576565,
     "chroma": 0.143234,
     "hue": 12.330447,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 58,
     "yellow": 48,
     "key": 26
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 350,
     "saturation": 46,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 350,
     "saturation": 58,
     "value": 75,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 350,
     "whiteness": 31,
     "blackness": 26,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 190,
     "green": 79,
     "blue": 98,

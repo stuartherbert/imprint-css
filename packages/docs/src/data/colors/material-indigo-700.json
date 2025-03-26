@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-indigo-700'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.416485,
     "chroma": 0.155844,
     "hue": 271.152915,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 70,
     "magenta": 60,
     "yellow": 0,
     "key": 38
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 232,
     "saturation": 54,
     "luminosity": 41,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 232,
     "saturation": 70,
     "value": 62,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 232,
     "whiteness": 19,
     "blackness": 38,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 48,
     "green": 63,
     "blue": 159,

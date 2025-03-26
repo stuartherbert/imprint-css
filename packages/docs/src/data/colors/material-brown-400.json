@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-brown-400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.565437,
     "chroma": 0.043187,
     "hue": 40.300197,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 22,
     "yellow": 30,
     "key": 45
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 16,
     "saturation": 18,
     "luminosity": 47,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 16,
     "saturation": 30,
     "value": 55,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 16,
     "whiteness": 39,
     "blackness": 45,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 141,
     "green": 110,
     "blue": 99,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'up-forestgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.33956,
     "chroma": 0.086585,
     "hue": 153.058631,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 99,
     "magenta": 0,
     "yellow": 52,
     "key": 73
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 97,
     "luminosity": 14,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 149,
     "saturation": 99,
     "value": 27,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 149,
     "whiteness": 0,
     "blackness": 73,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 1,
     "green": 68,
     "blue": 33,

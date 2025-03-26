@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ridgway-tawny'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.5874,
     "chroma": 0.109055,
     "hue": 54.167775,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 40,
     "yellow": 68,
     "key": 32
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 51,
     "luminosity": 45,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 68,
     "value": 68,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 25,
     "whiteness": 22,
     "blackness": 32,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 174,
     "green": 105,
     "blue": 56,

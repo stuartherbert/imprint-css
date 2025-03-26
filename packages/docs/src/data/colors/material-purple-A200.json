@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-purple-a200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.678406,
     "chroma": 0.2772,
     "hue": 321.359012,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 11,
     "magenta": 74,
     "yellow": 0,
     "key": 2
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 291,
     "saturation": 96,
     "luminosity": 62,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 291,
     "saturation": 74,
     "value": 98,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 291,
     "whiteness": 25,
     "blackness": 2,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 224,
     "green": 64,
     "blue": 251,

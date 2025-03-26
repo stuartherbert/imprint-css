@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'metro-brown'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.572407,
     "chroma": 0.11124,
     "hue": 53.803492,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 41,
     "yellow": 71,
     "key": 33
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 55,
     "luminosity": 43,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 25,
     "saturation": 71,
     "value": 67,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 25,
     "whiteness": 20,
     "blackness": 33,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 170,
     "green": 100,
     "blue": 50,

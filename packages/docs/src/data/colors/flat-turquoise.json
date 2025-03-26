@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-turquoise'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.711385,
     "chroma": 0.130919,
     "hue": 174.259685,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 86,
     "magenta": 0,
     "yellow": 17,
     "key": 26
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 168,
     "saturation": 76,
     "luminosity": 42,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 168,
     "saturation": 86,
     "value": 74,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 168,
     "whiteness": 10,
     "blackness": 26,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 26,
     "green": 188,
     "blue": 156,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'british-racinggreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.33373,
     "chroma": 0.07955,
     "hue": 156.939215,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 100,
     "magenta": 0,
     "yellow": 44,
     "key": 74
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 154,
     "saturation": 100,
     "luminosity": 13,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 154,
     "saturation": 100,
     "value": 26,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 154,
     "whiteness": 0,
     "blackness": 74,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 0,
     "green": 66,
     "blue": 37,

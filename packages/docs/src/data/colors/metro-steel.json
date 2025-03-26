@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'metro-steel'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.646943,
     "chroma": 0.04036,
     "hue": 246.880854,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 26,
     "magenta": 13,
     "yellow": 0,
     "key": 35
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 209,
     "saturation": 19,
     "luminosity": 57,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 209,
     "saturation": 26,
     "value": 65,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 209,
     "whiteness": 48,
     "blackness": 35,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 123,
     "green": 145,
     "blue": 166,

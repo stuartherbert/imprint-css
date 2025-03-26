@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'encycolorpedia-darkmossgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.448953,
     "chroma": 0.086327,
     "hue": 125.046269,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 21,
     "magenta": 0,
     "yellow": 62,
     "key": 64
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 80,
     "saturation": 45,
     "luminosity": 25,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 80,
     "saturation": 62,
     "value": 37,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 80,
     "whiteness": 14,
     "blackness": 64,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 74,
     "green": 93,
     "blue": 35,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-orange-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.679944,
     "chroma": 0.184589,
     "hue": 48.205524,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 55,
     "yellow": 100,
     "key": 6
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 27,
     "saturation": 100,
     "luminosity": 47,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 27,
     "saturation": 100,
     "value": 94,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 27,
     "whiteness": 0,
     "blackness": 6,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 239,
     "green": 108,
     "blue": 0,

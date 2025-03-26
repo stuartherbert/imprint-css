@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'imprint-accentblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.663196,
     "chroma": 0.1285,
     "hue": 242.712818,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 71,
     "magenta": 29,
     "yellow": 0,
     "key": 14
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 205,
     "saturation": 68,
     "luminosity": 55,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 205,
     "saturation": 71,
     "value": 86,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 205,
     "whiteness": 25,
     "blackness": 14,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 63,
     "green": 155,
     "blue": 219,

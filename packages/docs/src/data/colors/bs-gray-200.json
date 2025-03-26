@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-200'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.941442,
     "chroma": 0.005112,
     "hue": 250.250213,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 2,
     "magenta": 1,
     "yellow": 0,
     "key": 6
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 15,
     "luminosity": 93,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 2,
     "value": 94,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 211,
     "whiteness": 91,
     "blackness": 6,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 233,
     "green": 236,
     "blue": 239,

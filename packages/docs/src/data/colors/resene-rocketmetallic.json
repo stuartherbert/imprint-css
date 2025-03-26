@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'resene-rocketmetallic'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.610818,
     "chroma": 0.024496,
     "hue": 318.823314,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 2,
     "magenta": 10,
     "yellow": 0,
     "key": 45
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 287,
     "saturation": 6,
     "luminosity": 53,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 287,
     "saturation": 10,
     "value": 55,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 287,
     "whiteness": 50,
     "blackness": 45,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 138,
     "green": 127,
     "blue": 141,

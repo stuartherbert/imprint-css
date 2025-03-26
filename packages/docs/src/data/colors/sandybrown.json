@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'sandybrown'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.783959,
     "chroma": 0.12703,
     "hue": 59.712711,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 33,
     "yellow": 61,
     "key": 4
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 87,
     "luminosity": 67,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 61,
     "value": 96,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 28,
     "whiteness": 38,
     "blackness": 4,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 244,
     "green": 164,
     "blue": 96,

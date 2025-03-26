@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'iso3864-black'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.289856,
     "chroma": 0.00183,
     "hue": 286.284989,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 2,
     "magenta": 2,
     "yellow": 0,
     "key": 83
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 240,
     "saturation": 1,
     "luminosity": 17,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 240,
     "saturation": 2,
     "value": 17,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 240,
     "whiteness": 17,
     "blackness": 83,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 43,
     "green": 43,
     "blue": 44,

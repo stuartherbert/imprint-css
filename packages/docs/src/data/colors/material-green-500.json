@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-green-500'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.672922,
     "chroma": 0.162289,
     "hue": 144.225135,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 57,
     "magenta": 0,
     "yellow": 54,
     "key": 31
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 122,
     "saturation": 39,
     "luminosity": 49,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 122,
     "saturation": 57,
     "value": 69,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 122,
     "whiteness": 30,
     "blackness": 31,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 76,
     "green": 175,
     "blue": 80,

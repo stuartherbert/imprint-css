@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'x11-darkbrown'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.399353,
     "chroma": 0.044786,
     "hue": 45.843327,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 30,
     "yellow": 45,
     "key": 64
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 19,
     "saturation": 29,
     "luminosity": 28,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 19,
     "saturation": 45,
     "value": 36,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 19,
     "whiteness": 20,
     "blackness": 64,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 92,
     "green": 64,
     "blue": 51,

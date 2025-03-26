@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ksu-purple'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.387048,
     "chroma": 0.151284,
     "hue": 298.681188,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 40,
     "magenta": 71,
     "yellow": 0,
     "key": 47
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 266,
     "saturation": 54,
     "luminosity": 35,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 266,
     "saturation": 71,
     "value": 53,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 266,
     "whiteness": 16,
     "blackness": 47,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 81,
     "green": 40,
     "blue": 136,

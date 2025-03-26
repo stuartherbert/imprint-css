@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'social-pinterest'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.504885,
     "chroma": 0.201812,
     "hue": 25.73426,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 96,
     "yellow": 85,
     "key": 26
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 353,
     "saturation": 92,
     "luminosity": 39,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 353,
     "saturation": 96,
     "value": 74,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 353,
     "whiteness": 3,
     "blackness": 26,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 189,
     "green": 8,
     "blue": 28,

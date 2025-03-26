@@ -85,12 +85,12 @@ function processColor(colorGroupName, colorName, colorDefinition)
         description: "Analysis of the color '" + colorName + "'.",
 
         // additional color definitions
-        oklch: cssColor.oklch().channelsData(),
-        cmyk: cssColor.cmyk().channelsData(),
-        hsl: cssColor.hsl().channelsData(),
-        hsv: cssColor.hsv().channelsData(),
-        hwb: cssColor.hwb().channelsData(),
-        rgb: cssColor.rgb().channelsData(),
+        oklch: cssColor.oklch.channelsData,
+        cmyk: cssColor.cmyk.channelsData,
+        hsl: cssColor.hsl.channelsData,
+        hsv: cssColor.hsv.channelsData,
+        hwb: cssColor.hwb.channelsData,
+        rgb: cssColor.rgb.channelsData,
 
         // detailed color analysis
         ...analyseColor(cssColor)
@@ -105,7 +105,7 @@ function processColor(colorGroupName, colorName, colorDefinition)
         hueCollections[hue].push(colorName.toLowerCase());
     });
 
-    const aliasName = cssColor.hex().substring(1);
+    const aliasName = cssColor.hex.substring(1);
     if (colorAliasCollections[aliasName] === undefined) {
         colorAliasCollections[aliasName] = [];
     }

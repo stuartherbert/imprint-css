@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'plochere-languidlavender'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.854358,
     "chroma": 0.029144,
     "hue": 313.140017,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 3,
     "magenta": 9,
     "yellow": 0,
     "key": 13
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 278,
     "saturation": 22,
     "luminosity": 83,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 278,
     "saturation": 9,
     "value": 87,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 278,
     "whiteness": 79,
     "blackness": 13,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 214,
     "green": 202,
     "blue": 221,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'royalblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.55991,
     "chroma": 0.188035,
     "hue": 266.385686,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 71,
     "magenta": 53,
     "yellow": 0,
     "key": 12
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 225,
     "saturation": 73,
     "luminosity": 57,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 225,
     "saturation": 71,
     "value": 88,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 225,
     "whiteness": 26,
     "blackness": 12,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 65,
     "green": 105,
     "blue": 225,

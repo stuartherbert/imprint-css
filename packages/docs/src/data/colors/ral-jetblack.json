@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'ral-jetblack'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.164807,
     "chroma": 0.004234,
     "hue": 285.926057,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 13,
     "magenta": 13,
     "yellow": 0,
     "key": 94
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 240,
     "saturation": 7,
     "luminosity": 6,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 240,
     "saturation": 13,
     "value": 6,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 240,
     "whiteness": 6,
     "blackness": 94,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 14,
     "green": 14,
     "blue": 16,

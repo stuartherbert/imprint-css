@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-orange-800'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.377368,
     "chroma": 0.089023,
     "hue": 53.59359,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 51,
     "yellow": 92,
     "key": 60
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 27,
     "saturation": 85,
     "luminosity": 21,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 27,
     "saturation": 92,
     "value": 40,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 27,
     "whiteness": 3,
     "blackness": 60,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 101,
     "green": 50,
     "blue": 8,

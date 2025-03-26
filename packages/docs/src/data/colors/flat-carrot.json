@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-carrot'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.695718,
     "chroma": 0.15969,
     "hue": 55.537938,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 45,
     "yellow": 85,
     "key": 10
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 80,
     "luminosity": 52,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 28,
     "saturation": 85,
     "value": 90,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 28,
     "whiteness": 13,
     "blackness": 10,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 230,
     "green": 126,
     "blue": 34,

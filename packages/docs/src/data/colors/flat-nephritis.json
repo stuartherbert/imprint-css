@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'flat-nephritis'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.662617,
     "chroma": 0.160222,
     "hue": 152.349394,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 78,
     "magenta": 0,
     "yellow": 45,
     "key": 32
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 145,
     "saturation": 63,
     "luminosity": 42,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 145,
     "saturation": 78,
     "value": 68,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 145,
     "whiteness": 15,
     "blackness": 32,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 39,
     "green": 174,
     "blue": 96,

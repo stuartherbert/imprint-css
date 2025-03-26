@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'pourpre-lilac'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.643135,
     "chroma": 0.173863,
     "hue": 316.686893,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 13,
     "magenta": 51,
     "yellow": 0,
     "key": 18
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 284,
     "saturation": 55,
     "luminosity": 61,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 284,
     "saturation": 51,
     "value": 82,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 284,
     "whiteness": 40,
     "blackness": 18,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 182,
     "green": 102,
     "blue": 210,

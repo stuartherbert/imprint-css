@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'xona-mantis'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.744386,
     "chroma": 0.1507,
     "hue": 140.505942,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 41,
     "magenta": 0,
     "yellow": 48,
     "key": 24
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 110,
     "saturation": 44,
     "luminosity": 58,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 110,
     "saturation": 48,
     "value": 77,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 110,
     "whiteness": 40,
     "blackness": 24,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 116,
     "green": 195,
     "blue": 101,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'msdl1-lightgreen'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.725626,
     "chroma": 0.153671,
     "hue": 120.758527,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 15,
     "magenta": 0,
     "yellow": 72,
     "key": 29
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 73,
     "saturation": 56,
     "luminosity": 45,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 73,
     "saturation": 72,
     "value": 71,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 73,
     "whiteness": 20,
     "blackness": 29,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 153,
     "green": 180,
     "blue": 51,

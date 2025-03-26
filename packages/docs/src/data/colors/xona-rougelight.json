@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'xona-rougelight'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.729549,
     "chroma": 0.099088,
     "hue": 345.696804,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 33,
     "yellow": 15,
     "key": 17
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 327,
     "saturation": 46,
     "luminosity": 70,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 327,
     "saturation": 33,
     "value": 84,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 327,
     "whiteness": 56,
     "blackness": 17,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 213,
     "green": 142,
     "blue": 181,

@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'material-lightgreen-600'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.704933,
     "chroma": 0.155265,
     "hue": 131.411718,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 31,
     "magenta": 0,
     "yellow": 63,
     "key": 30
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 89,
     "saturation": 46,
     "luminosity": 48,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 89,
     "saturation": 63,
     "value": 70,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 89,
     "whiteness": 26,
     "blackness": 30,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 124,
     "green": 179,
     "blue": 66,

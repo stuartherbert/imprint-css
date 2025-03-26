@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'xona-blackbean'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.2414,
     "chroma": 0.078922,
     "hue": 35.167182,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 80,
     "yellow": 97,
     "key": 76
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 10,
     "saturation": 94,
     "luminosity": 12,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 10,
     "saturation": 97,
     "value": 24,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 10,
     "whiteness": 1,
     "blackness": 76,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 61,
     "green": 12,
     "blue": 2,

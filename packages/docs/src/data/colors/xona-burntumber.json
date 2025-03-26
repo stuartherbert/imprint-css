@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'xona-burntumber'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.442775,
     "chroma": 0.122138,
     "hue": 32.002215,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 0,
     "magenta": 63,
     "yellow": 74,
     "key": 46
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 9,
     "saturation": 59,
     "luminosity": 34,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 9,
     "saturation": 74,
     "value": 54,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 9,
     "whiteness": 14,
     "blackness": 46,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 138,
     "green": 51,
     "blue": 36,

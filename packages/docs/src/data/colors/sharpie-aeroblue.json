@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'sharpie-aeroblue'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.9559,
     "chroma": 0.065011,
     "hue": 164.159888,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 21,
     "magenta": 0,
     "yellow": 10,
     "key": 0
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 151,
     "saturation": 100,
     "luminosity": 89,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 151,
     "saturation": 21,
     "value": 100,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 151,
     "whiteness": 79,
     "blackness": 0,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 201,
     "green": 255,
     "blue": 229,

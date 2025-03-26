@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'spanish-indigodye'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.331194,
     "chroma": 0.18473,
     "hue": 265.500321,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 94,
     "magenta": 79,
     "yellow": 0,
     "key": 43
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 230,
     "saturation": 88,
     "luminosity": 30,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 230,
     "saturation": 94,
     "value": 57,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 230,
     "whiteness": 3,
     "blackness": 43,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 9,
     "green": 31,
     "blue": 146,

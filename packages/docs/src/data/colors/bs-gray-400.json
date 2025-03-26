@@ -6,36 +6,48 @@
   "collection": "colors",
   "description": "Analysis of the color 'bs-gray-400'.",
   "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
     "lightness": 0.86692,
     "chroma": 0.010608,
     "hue": 249.110617,
     "alpha": 1
   },
   "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
     "cyan": 5,
     "magenta": 3,
     "yellow": 0,
     "key": 15
   },
   "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 14,
     "luminosity": 83,
     "alpha": 1
   },
   "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
     "hue": 211,
     "saturation": 5,
     "value": 86,
     "alpha": 1
   },
   "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
     "hue": 211,
     "whiteness": 81,
     "blackness": 15,
     "alpha": 1
   },
   "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
     "red": 206,
     "green": 212,
     "blue": 218,
