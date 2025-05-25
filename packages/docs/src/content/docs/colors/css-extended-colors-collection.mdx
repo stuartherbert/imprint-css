@@ -9,6 +9,7 @@ next: colors/imprint-css-collection
 import Callout from "../../../components/Callouts/Callout.astro";
 import ColorCollection from "../../../components/Colors/ColorCollection.astro";
 import ColorCollectionBlocks from "../../../components/Colors/ColorCollectionBlocks.astro";
+import ColorCollectionByAppearance from "../../../components/Colors/ColorCollectionByAppearance.astro";
 import ColorLink from "../../../components/Colors/ColorLink.astro";
 import ExternalLink from "../../../components/ExternalLink.astro";
 import HowToUseTheseColors from "../../../components/Colors/HowToUseTheseColors.astro";
@@ -46,6 +47,22 @@ The Imprint CSS project claims no ownership of these colors.
 ## The Colors
 
 <HowToUseTheseColors/>
+
+### By Appearance
+
+Here are all of the Imprint CSS colors, organised by:
+
+* hue,
+* chroma, and then
+* lightness
+
+using the `oklch()` color format.
+
+Click on a color square to go to that color's dedicated page.
+
+<div class="leading-4">
+    <ColorCollectionByAppearance colorGroup="css"/>
+</div>
 
 ### A
 

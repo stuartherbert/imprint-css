@@ -1,0 +1,155 @@
+---
+
+import { getCollection, getEntry } from "astro:content";
+import { natsort } from "natsort-esm";
+import InlineColorSample from "./InlineColorSample.astro";
+
+const sorter = natsort();
+
+export interface Props {
+    colorGroup: string;
+    prefix?: string;
+    exclude?: string;
+    suffix?: string;
+    startsWith?: string;
+    regex?: string;
+    sort?: string;
+}
+
+let { colorGroup, prefix, exclude, suffix, regex, sort, startsWith } = Astro.props;
+
+// load all colors if a more specific color group isn't specified
+if (!colorGroup) {
+    colorGroup = "all";
+}
+
+// load the group
+const groupData = await getEntry("colorGroups", colorGroup);
+if (groupData === undefined) {
+    throw new Error("unknown color group: " + colorGroup);
+}
+
+if (prefix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.startsWith(prefix + "-"));
+}
+
+if (suffix) {
+    groupData.data = groupData.data.filter((ref) => ref.id.endsWith(suffix));
+}
+
+// special case - we want all colors that start with a given letter
+if (startsWith) {
+    regex = `^${startsWith}[^-]+$|^[^-]+-${startsWith}.*`;
+    sort = "ignore-prefix";
+}
+
+if (regex) {
+    const compRegex = new RegExp(regex);
+    groupData.data = groupData.data.filter((ref) => ref.id.match(compRegex));
+}
+
+if (exclude) {
+    const excludePrefixes = exclude.split(",");
+    groupData.data = groupData.data.filter((ref) => !excludePrefixes.some((prefix) => ref.id.startsWith(prefix + "-")));
+}
+
+// at this point, we have a list of color names
+//
+// we now need the individual colours themselves
+let collectionData = await getCollection("colors");
+collectionData = collectionData.filter((color) => groupData.data.filter((ref) => ref.id === color.id).length > 0);
+
+function normaliseColorName(input: string)
+{
+    const parts = input.split("-");
+    if (parts.length === 1) {
+        return 'AAA' + input;
+    }
+
+    const tmp = parts[1];
+    parts[1] = parts[0];
+    parts[0] = tmp;
+
+    return parts.join("-");
+}
+
+
+function sortByOklchHCL(a, b) {
+    // normalise
+    const aCol = Math.round((a.data.oklch.hue / 3) + 1000) + Math.round((a.data.oklch.chroma * 100) / 5) + a.data.oklch.lightness;
+    const bCol = Math.round((b.data.oklch.hue / 3) + 1000) + Math.round((b.data.oklch.chroma * 100) / 5) + b.data.oklch.lightness;
+
+    if (aCol !== bCol) {
+        return aCol - bCol;
+    }
+
+    // at this point, we have two identical colors
+    return sorter(
+        normaliseColorName(a.id),
+        normaliseColorName(b.id),
+    );
+}
+
+function sortByOklchHLC(a, b) {
+    // normalise
+    const aCol = Math.round((a.data.oklch.hue / 3) + 1000) + Math.round(a.data.oklch.lightness * 100) + Math.round((a.data.oklch.chroma * 10) / 5) ;
+    const bCol = Math.round((b.data.oklch.hue / 3) + 1000)  + Math.round(b.data.oklch.lightness * 100) + Math.round((b.data.oklch.chroma * 10) / 5);
+
+    if (aCol !== bCol) {
+        return aCol - bCol;
+    }
+
+    // at this point, we have two identical colors
+    return sorter(
+        normaliseColorName(a.id),
+        normaliseColorName(b.id),
+    );
+}
+
+function sortByOklchLCH(a, b) {
+    // normalise
+    const aCol = Math.round(a.data.oklch.lightness * 1000) + Math.round((a.data.oklch.chroma * 100) / 5) + Math.round(a.data.oklch.hue / 3);
+    const bCol = Math.round(b.data.oklch.lightness * 1000) + Math.round((b.data.oklch.chroma * 100) / 5) + Math.round(b.data.oklch.hue / 3);
+
+    if (aCol !== bCol) {
+        return aCol - bCol;
+    }
+
+    // at this point, we have two identical colors
+    return sorter(
+        normaliseColorName(a.id),
+        normaliseColorName(b.id),
+    );
+}
+
+function sortByOklchCLH(a, b) {
+    // normalise
+    const aCol = Math.round((a.data.oklch.chroma * 1000) / 5) + Math.round((a.data.oklch.lightness * 100)) + Math.round(a.data.oklch.hue / 3);
+    const bCol = Math.round((b.data.oklch.chroma * 1000) / 5) + Math.round((b.data.oklch.lightness * 100)) + Math.round(b.data.oklch.hue / 3);
+
+    if (aCol !== bCol) {
+        return aCol - bCol;
+    }
+
+    // at this point, we have two identical colors
+    return sorter(
+        normaliseColorName(a.id),
+        normaliseColorName(b.id),
+    );
+}
+
+// sort the group
+//
+// we cannot rely on Astro to return a sorted list
+const sortedColorsData = collectionData.sort(sortByOklchHCL);
+
+---
+
+    <!-- <div class="docs-color-swatches">
+        {sortedColorsData.map((colorData) => (
+            <ColorSwatch colorName={colorData.id}/>
+        ))}
+    </div> -->
+    {sortedColorsData.map((colorData) => (
+        <a href={"/colors/" + colorData.id}><InlineColorSample colorName={colorData.id}/></a>
+    ))}
