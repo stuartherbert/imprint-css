@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2024-present Ganbaro Digital Ltd
+// Copyright (c) 2025-present Ganbaro Digital Ltd
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -32,40 +32,13 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
-import { APPLE_COLORS } from "../colors/apple";
-import { BOOTSTRAP_COLORS } from "../colors/bootstrap";
-import { CSS_NAMED_COLORS } from "../colors/css";
-import { FLAT_COLORS } from "../colors/flat";
-import { GANBARO_COLORS } from "../colors/ganbaro";
-import { IMPRINT_COLORS } from "../colors/imprint";
-import { MAM_COLORS } from "../colors/mam";
-import { MATERIAL_COLORS } from "../colors/material-design";
-import { MATMET_COLORS } from "../colors/material-ui-metro";
-import { METRO_COLORS } from "../colors/metro";
-import { MSDL1_COLORS } from "../colors/msdl1";
-import { MSDL2_COLORS } from "../colors/msdl2";
-import { SOCIAL_COLORS } from "../colors/social";
-import { TAILWIND3_COLORS } from "../colors/tailwind3";
-import { WIKIPEDIA_COLORS } from "../colors/wikipedia";
-import { collectionToDefinitions } from "../transforms/collectionToDefinitions";
+import { makeCssHexColorDefinition } from "@safelytyped/css-color";
 import type { CssColorDefinitions } from "../types/CssColorDefinitions/CssColorDefinitions.type";
 
-export const ALL_COLORS: CssColorDefinitions = {
-    ...APPLE_COLORS,
-    ...collectionToDefinitions(BOOTSTRAP_COLORS),
-    ...CSS_NAMED_COLORS,
-    ...FLAT_COLORS,
-    ...collectionToDefinitions(GANBARO_COLORS),
-    ...IMPRINT_COLORS,
-    ...MAM_COLORS,
-    ...collectionToDefinitions(MATERIAL_COLORS),
-    ...MATMET_COLORS,
-    ...METRO_COLORS,
-    ...MSDL1_COLORS,
-    ...collectionToDefinitions(MSDL2_COLORS),
-    ...SOCIAL_COLORS,
-    ...collectionToDefinitions(TAILWIND3_COLORS),
-    ...WIKIPEDIA_COLORS,
+export const MAM_COLORS: CssColorDefinitions = {
+    "mam-midblue": makeCssHexColorDefinition("#1F609E"),
+    "mam-lightblue": makeCssHexColorDefinition("#37A8CF"),
+    "mam-yellow": makeCssHexColorDefinition("#FAB31E"),
+    "mam-orange": makeCssHexColorDefinition("#E04A0C"),
+    "mam-darkblue": makeCssHexColorDefinition("#0D1B35"),
 };
-
-// console.log(ALL_COLORS);

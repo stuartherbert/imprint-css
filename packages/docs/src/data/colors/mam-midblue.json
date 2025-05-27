@@ -1,0 +1,114 @@
+{
+  "name": "mam-midblue",
+  "jsName": "MAM_MIDBLUE",
+  "title": "mam-midblue",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mam-midblue'.",
+  "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
+    "lightness": 0.480754,
+    "chroma": 0.119113,
+    "hue": 251.147943,
+    "alpha": 1
+  },
+  "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
+    "cyan": 80,
+    "magenta": 39,
+    "yellow": 0,
+    "key": 38
+  },
+  "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
+    "hue": 209,
+    "saturation": 67,
+    "luminosity": 37,
+    "alpha": 1
+  },
+  "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
+    "hue": 209,
+    "saturation": 80,
+    "value": 62,
+    "alpha": 1
+  },
+  "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
+    "hue": 209,
+    "whiteness": 12,
+    "blackness": 38,
+    "alpha": 1
+  },
+  "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
+    "red": 31,
+    "green": 96,
+    "blue": 158,
+    "alpha": 1
+  },
+  "definition": "#1f609e",
+  "hex": "#1f609e",
+  "general": {
+    "hues": [
+      "cyan",
+      "azure"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 83.633,
+    "relativeLuminance": 0.111
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 6,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": true,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": true,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 2.4,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

@@ -93,6 +93,8 @@ export default {
         "Mozilla MDN CSS Variables": "https://developer.mozilla.org/en-US/docs/Web/CSS/--*",
         "Mozilla MDN HTML Element Teletype Text": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt",
 
+        "MyAdminMate Homepage": "https://www.myadminmate.com",
+
         "New BSD License": "https://opensource.org/license/bsd-3-clause",
         "NPMJS @imprintcss/color-collections": "https://npmjs.com/package/@imprintcss/color-collections",
         "NPMJS @safelytyped/css-color": "https://npmjs.com/package/@safelytyped/css-color",

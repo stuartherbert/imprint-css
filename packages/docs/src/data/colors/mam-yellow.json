@@ -1,0 +1,113 @@
+{
+  "name": "mam-yellow",
+  "jsName": "MAM_YELLOW",
+  "title": "mam-yellow",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mam-yellow'.",
+  "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
+    "lightness": 0.812894,
+    "chroma": 0.163229,
+    "hue": 78.754865,
+    "alpha": 1
+  },
+  "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
+    "cyan": 0,
+    "magenta": 28,
+    "yellow": 88,
+    "key": 2
+  },
+  "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
+    "hue": 41,
+    "saturation": 96,
+    "luminosity": 55,
+    "alpha": 1
+  },
+  "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
+    "hue": 41,
+    "saturation": 88,
+    "value": 98,
+    "alpha": 1
+  },
+  "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
+    "hue": 41,
+    "whiteness": 12,
+    "blackness": 2,
+    "alpha": 1
+  },
+  "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
+    "red": 250,
+    "green": 179,
+    "blue": 30,
+    "alpha": 1
+  },
+  "definition": "#fab31e",
+  "hex": "#fab31e",
+  "general": {
+    "hues": [
+      "orange"
+    ],
+    "tonality": "midtone",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 183.243,
+    "relativeLuminance": 0.526
+  },
+  "pairedWithLightColor": {
+    "clearContrast": false,
+    "contrastRatio": 1.6,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "not accessible",
+      "normal": "not accessible",
+      "ui": "not accessible"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 8.7,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": true,
+      "AAA_large": true,
+      "large": "AAA",
+      "normal": "AAA",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#222222",
+    "foreground": "#f6f6f6"
+  }
+}
