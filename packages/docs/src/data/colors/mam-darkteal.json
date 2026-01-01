@@ -1,0 +1,113 @@
+{
+  "name": "mam-darkteal",
+  "jsName": "MAM_DARKTEAL",
+  "title": "mam-darkteal",
+  "navSection": "Colors",
+  "collection": "colors",
+  "description": "Analysis of the color 'mam-darkteal'.",
+  "oklch": {
+    "colorModel": "oklch",
+    "colorSpace": "OKLAB",
+    "lightness": 0.578402,
+    "chroma": 0.094665,
+    "hue": 194.85394,
+    "alpha": 1
+  },
+  "cmyk": {
+    "colorModel": "cmyk",
+    "colorSpace": "CMYK",
+    "cyan": 85,
+    "magenta": 0,
+    "yellow": 0,
+    "key": 45
+  },
+  "hsl": {
+    "colorModel": "hsl",
+    "colorSpace": "sRGB",
+    "hue": 180,
+    "saturation": 74,
+    "luminosity": 31,
+    "alpha": 1
+  },
+  "hsv": {
+    "colorModel": "hsv",
+    "colorSpace": "sRGB",
+    "hue": 180,
+    "saturation": 85,
+    "value": 55,
+    "alpha": 1
+  },
+  "hwb": {
+    "colorModel": "hwb",
+    "colorSpace": "sRGB",
+    "hue": 180,
+    "whiteness": 8,
+    "blackness": 45,
+    "alpha": 1
+  },
+  "rgb": {
+    "colorModel": "rgb",
+    "colorSpace": "sRGB",
+    "red": 21,
+    "green": 139,
+    "blue": 139,
+    "alpha": 1
+  },
+  "definition": "#158b8b",
+  "hex": "#158b8b",
+  "general": {
+    "hues": [
+      "cyan"
+    ],
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
+    "isLight": false,
+    "luma": 103.718,
+    "relativeLuminance": 0.204
+  },
+  "pairedWithLightColor": {
+    "clearContrast": true,
+    "contrastRatio": 3.8,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": true,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": true
+  },
+  "pairedWithDarkColor": {
+    "clearContrast": false,
+    "contrastRatio": 3.8,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": false,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": false,
+      "large": "AA",
+      "normal": "A",
+      "ui": "AA"
+    },
+    "recommendedForHeadings": false,
+    "passableForHeadings": false,
+    "recommendedForBodyContent": false,
+    "passableForBodyContent": false,
+    "passableForUi": false
+  },
+  "pairings": {
+    "background": "#f6f6f6",
+    "foreground": "#222222"
+  }
+}

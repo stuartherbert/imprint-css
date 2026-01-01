@@ -41,4 +41,15 @@ export const MAM_COLORS: CssColorDefinitions = {
     "mam-yellow": makeCssHexColorDefinition("#FAB31E"),
     "mam-orange": makeCssHexColorDefinition("#E04A0C"),
     "mam-darkblue": makeCssHexColorDefinition("#0D1B35"),
+
+    "mam-teal": makeCssHexColorDefinition("#1CBCBC"),
+    "mam-darkcharcoal": makeCssHexColorDefinition("#2C2C2C"),
+    "mam-softwhite": makeCssHexColorDefinition("#FAFAFA"),
+    "mam-lightteal": makeCssHexColorDefinition("#4DD0D0"),
+    "mam-darkteal": makeCssHexColorDefinition("#158B8B"),
+
+    "mam-softgray": makeCssHexColorDefinition("#F5F5F5"),
+    "mam-mediumgray": makeCssHexColorDefinition("#6B6B6B"),
+    "mam-lightgray": makeCssHexColorDefinition("#E0E0E0"),
+    "mam-offwhite": makeCssHexColorDefinition("#FAFAFA"),
 };
