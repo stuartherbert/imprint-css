@@ -26,6 +26,7 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "astro": "^5.1.1",
     "heroicons": "^2.1.4",
+    "natsort": "^2.0.3",
     "node-html-parser": "^6.1.13",
     "remark-sectionize": "^2.0.0",
     "rimraf": "^6.0.0",
