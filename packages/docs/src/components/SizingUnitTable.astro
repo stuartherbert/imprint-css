@@ -1,12 +1,15 @@
 ---
 
+import { getEntry } from "astro:content";
 import { buildSorter } from "../helpers/natsort";
 import { objectMap } from "../helpers/objectMap.js";
-import { getEntry } from "astro:content";
 
 const { unitType, sort } = Astro.props;
 
 const payload = await getEntry("sizingUnitSets", unitType);
+if (payload === undefined) {
+    throw new Error("cannot find sizingUnitSet for " + unitType);
+}
 
 const sizingUnits: { name: string; definition: string }[] = [];
 
