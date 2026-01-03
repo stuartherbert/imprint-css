@@ -48,7 +48,7 @@ const staticStyle = newStaticStyle(
                 "border-width": "var(--imprint-panel-border-width)",
                 "border-style": "solid",
                 "border-color": "var(--imprint-semantic-border-outer-color)",
-                "@apply rounded overflow-hidden": {},
+                "@apply rounded-lg overflow-hidden": {},
             },
             ".imprint-panel.--subtle": {
                 "--imprint-panel-border-width": "var(--imprint-border-inner-width)",
