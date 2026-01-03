@@ -42,7 +42,7 @@ const staticStyle = newStaticStyle(
             ".--shaded": {
                 "background-color": "var(--imprint-semantic-shaded-background-color)",
                 "color": "var(--imprint-semantic-shaded-color)",
-                "background": "linear-gradient(0deg, var(--imprint-semantic-shaded-background-color) 0%, var(--imprint-semantic-shaded-background-midcolor) 35%, var(--imprint-semantic-shaded-background-lightcolor) 100%);"
+                // "background": "linear-gradient(180deg, var(--imprint-semantic-shaded-background-color) 0%, var(--imprint-semantic-shaded-background-midcolor) 65%, var(--imprint-semantic-shaded-background-lightcolor) 100%);"
             },
         },
     }
