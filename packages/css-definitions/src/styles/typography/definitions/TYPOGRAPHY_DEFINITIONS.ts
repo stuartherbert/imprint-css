@@ -33,13 +33,14 @@
 //
 
 import { HashMap } from "@safelytyped/core-types";
-import { RAW_TYPOGRAPHY_STYLES } from "./RAW_TYPOGRAPHY_STYLES";
 import { parseDefinitions } from "../../../helpers/parseDefinition";
 import type { ImprintTypographyStyle } from "../../../types/ImprintTypographyStyle/ImprintTypographyStyle.type";
+import { RAW_TYPOGRAPHY_STYLES } from "./RAW_TYPOGRAPHY_STYLES";
 
 export const TYPOGRAPHY_DEFINITIONS = parseDefinitions<HashMap<ImprintTypographyStyle>>(
     RAW_TYPOGRAPHY_STYLES,
     [
+        [ "purpose "],
         [ "fontSize", "lineHeight" ],
         [ "marginBottom", "marginTop", "nestedMarginTop" ],
         [ "fontWeight" ],

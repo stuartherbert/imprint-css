@@ -35,6 +35,7 @@
 /**
  * our size definitions are:
  *
+ * purpose
  * font-size/line-height
  * bottom-margin/top-margin-always/top-margin-nested
  * font-weight
@@ -42,19 +43,19 @@
  * based on group D from: https://www.bbc.co.uk/gel/features/typography
  */
 export const RAW_TYPOGRAPHY_STYLES = {
-    "canon": "40/44 ; 16px/-/40px ; bold",
-    "trafalga": "30/34 ; 16px/-/40px ; bold",
-    "paragon": "26/30 ; 16px/-/40px ; bold",
-    "doublepica": "22/26 ; 16px/-/40px ; 500",
-    "greatprimer": "18/22 ; 16px/-/40px ; bold",
-    "bodycopy": "16/22 ; 16px/-/40px ; normal",
-    "pica": "16/20 ; 16px/-/40px ; normal",
-    "longprimer": "14/18 ; 16px/-/40px ; normal",
-    "brevier": "13/16 ; 16px/-/40px ; normal",
-    "minion": "12/16 ; 16px/-/40px ; normal",
-    "atlas": "140/148 ; 16px/-/40px ; bold",
-    "elephant": "116/124 ; 16px/-/40px ; bold",
-    "imperial": "96/104 ; 16px/-/40px ; bold",
-    "royal": "76/84 ; 16px/-/40px ; bold",
-    "foolscap": "56/60 ; 16px/-/40px ; bold",
+    "canon": "Hero or blog post title ; 40/44 ; 16px/-/40px ; bold",
+    "trafalga": "Article title or section header ; 30/34 ; 16px/-/40px ; bold",
+    "paragon": "Primary headline on indexes ; 26/30 ; 16px/-/40px ; bold",
+    "doublepica": "Sub header ; 22/26 ; 16px/-/40px ; 500",
+    "greatprimer": "Headline title or subtitle ; 18/22 ; 16px/-/40px ; bold",
+    "bodycopy": "Article body copy only ; 16/22 ; 16px/-/40px ; normal",
+    "pica": "Index links, titles & headlines ; 16/20 ; 16px/-/40px ; normal",
+    "longprimer": "Index body copy & image captions ; 14/18 ; 16px/-/40px ; normal",
+    "brevier": "Time stamps and bylines ; 13/16 ; 16px/-/40px ; normal",
+    "minion": "Small header capitals ; 12/16 ; 16px/-/40px ; normal",
+    "atlas": "Larger contexts ; 140/148 ; 16px/-/40px ; bold",
+    "elephant": "Larger contexts ; 116/124 ; 16px/-/40px ; bold",
+    "imperial": "Larger contexts ; 96/104 ; 16px/-/40px ; bold",
+    "royal": "Larger contexts ; 76/84 ; 16px/-/40px ; bold",
+    "foolscap": "Larger contexts ; 56/60 ; 16px/-/40px ; bold",
 };

@@ -36,6 +36,8 @@ export interface ImprintTypographyStyle
 {
     styleName: string;
 
+    purpose: string;
+
     fontSize: string;
     lineHeight: string;
 

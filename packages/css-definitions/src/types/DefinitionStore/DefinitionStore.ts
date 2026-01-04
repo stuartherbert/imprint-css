@@ -32,18 +32,18 @@
 // POSSIBILITY OF SUCH DAMAGE.
 //
 
+import type { CssStyle, CssStyles, CssVar, CssVars, MediaQueryDefinition, StaticStyle, StaticStyles, TailwindThemeColors } from "@imprintcss/tailwind-plugin-types";
 import { HashMap, isString, type Maybe } from "@safelytyped/core-types";
-import type { ImprintTypographyStyle } from "../ImprintTypographyStyle/ImprintTypographyStyle.type";
+import type { RecursiveKeyValuePair } from "tailwindcss/types/config";
 import { cssLengthSuffix } from "../../helpers/cssLengthSuffix";
 import { replaceCssLengthSuffix } from "../../helpers/replaceCssLengthSuffix";
 import { rootPixel } from "../../helpers/rootPixel";
-import type { DeviceGroups } from "../DeviceGroups/DeviceGroups.type";
 import type { ColorGroups } from "../ColorGroups/ColorGroups.type";
 import { newColorGroups, type ColorGroupsInitialiser } from "../ColorGroups/newColorGroups";
-import type { CssStyle, CssStyles, CssVar, CssVars, MediaQueryDefinition, StaticStyle, StaticStyles, TailwindThemeColors } from "@imprintcss/tailwind-plugin-types";
+import type { DeviceGroups } from "../DeviceGroups/DeviceGroups.type";
+import type { ImprintTypographyStyle } from "../ImprintTypographyStyle/ImprintTypographyStyle.type";
 import type { RootPixelOptions } from "../RootPixelOptions/RootPixelOptions.type";
 import { DEFAULT_ROOT_PIXEL_OPTIONS } from "../RootPixelOptions/defaults/DEFAULT_ROOT_PIXEL_OPTIONS";
-import type { RecursiveKeyValuePair } from "tailwindcss/types/config";
 
 export class DefinitionStore
 {
@@ -53,13 +53,15 @@ export class DefinitionStore
         rootPixels: HashMap<string>;
         spacing: HashMap<string>;
         fontSizes: HashMap<string>;
+        fontWeights: HashMap<string>;
         lineHeights: HashMap<string>;
     } = {
-        rootPixels: {},
-        spacing: {},
-        fontSizes: {},
-        lineHeights: {}
-    };
+            rootPixels: {},
+            spacing: {},
+            fontSizes: {},
+            fontWeights: {},
+            lineHeights: {}
+        };
 
     public readonly staticStyles: StaticStyles = {};
 
@@ -76,18 +78,20 @@ export class DefinitionStore
             screens: HashMap<MediaQueryDefinition>;
             spacing: HashMap<string>;
             fontSize: HashMap<string>;
+            fontWeight: HashMap<string>;
             lineHeight: HashMap<string>;
         }
     } = {
-        extend: {
-            borderRadius: {},
-            colors: {},
-            screens: {},
-            spacing: {},
-            fontSize: {},
-            lineHeight: {},
-        }
-    };
+            extend: {
+                borderRadius: {},
+                colors: {},
+                screens: {},
+                spacing: {},
+                fontSize: {},
+                fontWeight: {},
+                lineHeight: {},
+            }
+        };
 
     public constructor(
         {
