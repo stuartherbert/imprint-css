@@ -16,7 +16,7 @@ function writeToDocs(
 )
 {
     fs.writeFileSync(
-        "src/content/" + collection + "/" + name + ".json",
+        "src/data/" + collection + "/" + name + ".json",
         JSON.stringify(content, null, 4)
     );
 }

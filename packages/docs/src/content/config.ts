@@ -13,7 +13,7 @@ const CssStyles = defineCollection({
 });
 
 const devices = defineCollection({
-    type: 'data',
+    loader: glob({ pattern: "*.json", base: "./src/data/devices" }),
     schema: z.object({
         name: z.string(),
         breakpoint: z.object({
