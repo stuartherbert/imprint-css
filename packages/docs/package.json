@@ -10,7 +10,9 @@
     "build": "npx astro build --force",
     "preview": "npx astro preview --force",
     "css": "tailwind build -o tmp.css",
-    "update-colors": "node bin/build-colors-collection.mjs"
+    "update-colors": "node bin/build-colors-collection.mjs",
+    "update-devices": "node bin/build-device-data.mjs",
+    "update-typography": "node bin/build-typography-data.mjs"
   },
   "author": "stuart@stuartherbert.com",
   "license": "ISC",

@@ -5,9 +5,9 @@
         "tailwindDefinition": {
             "raw": "(max-width: 640px)"
         },
+        "mediaQuery": "@media (max-width: 640px)",
         "screenWidth": "up to 640px",
-        "targetDevices": "smart phones (in portrait)",
-        "mediaQuery": "@media (max-width: 640px)"
+        "targetDevices": "smart phones (in portrait)"
     },
     "remPx": "16px",
     "articleMaxWidth": "100%"

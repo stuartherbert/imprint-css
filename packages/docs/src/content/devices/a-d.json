@@ -5,9 +5,9 @@
         "tailwindDefinition": {
             "raw": "(max-width: 640px) and (hover:hover)"
         },
+        "mediaQuery": "@media ((max-width: 640px) and (hover:hover))",
         "screenWidth": "up to 640px",
-        "targetDevices": "desktop and laptop",
-        "mediaQuery": "@media ((max-width: 640px) and (hover:hover))"
+        "targetDevices": "desktop and laptop"
     },
     "remPx": "16px",
     "articleMaxWidth": "100%"
